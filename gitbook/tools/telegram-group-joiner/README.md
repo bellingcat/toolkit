@@ -22,7 +22,7 @@ A small, browser‑based helper that adds a Telegram **user account** to multipl
   – Preload links via `?links=` (semicolon‑separated). [GitHub](https://github.com/bellingcat/telegram-group-joiner)
 * **Optional**: Self‑hosting (Node/Yarn) if you prefer to run locally. [GitHub](https://github.com/bellingcat/telegram-group-joiner)
 
-<figure><img src=".gitbook/assets/grafik.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/grafik (8).png" alt=""><figcaption></figcaption></figure>
 
 The tool allows preloading of group URLs by appending them to a base URL, separated by semicolons. This automation is executed fully client-side using tdlib for a robust Telegram API experience. It is worth mentioning that the tool only operates client-side, ensuring no data retention on servers.
 

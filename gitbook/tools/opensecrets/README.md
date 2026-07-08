@@ -18,25 +18,25 @@ OpenSecrets is a nonpartisan, independent, and nonprofit organization tracking m
 * [Candidates & Officeholders Overview ](https://www.opensecrets.org/candidates-officeholders)- this section includes lists on current and former individuals who held political positions on federal and state level in the U.S. - judicial officeholders, governors, state commissioners, members of congress. The data is presented as lists with the name of the individual, the state they represent and their current position.
 * [Members of Congress ](https://www.opensecrets.org/members-of-congress)- lists the names of current and past members of congress, including new ones joining and outgoing ones and shows how much they have managed to fundraise for their campaigns and how much they have spent so far.
 
-<figure><img src=".gitbook/assets/Screenshot 2024-08-30 at 6.49.49 PM.png" alt="" width="563"><figcaption><p>Members of both chambers of the current U.S. Congress</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-08-30 at 6.49.49 PM.png" alt="" width="563"><figcaption><p>Members of both chambers of the current U.S. Congress</p></figcaption></figure>
 
 * Each name on the list is hyperlinked to a separate profile with additional spending and fundraising data, including names of donors.
 
-<figure><img src=".gitbook/assets/Screenshot 2024-08-30 at 6.52.07 PM.png" alt="" width="563"><figcaption><p>Profile of House Representative Adams showing who donated to her campaign</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-08-30 at 6.52.07 PM.png" alt="" width="563"><figcaption><p>Profile of House Representative Adams showing who donated to her campaign</p></figcaption></figure>
 
 * This section also includes spending by Leadership [PAC](https://www.opensecrets.org/political-action-committees-pacs/what-is-a-pac)s (Political Action Committees). Each PAC is hyperlinked to a separate profile with additional spending by party and by election cycle.
 * [Congressional Committees](https://www.opensecrets.org/cong-cmtes) - shows cumulative donation data to each committee broken down by industry.
 * [Presidential Administrations ](https://www.opensecrets.org/presidential-administrations)- a deep dive into the three most recent administrations with articles, reports, names of appointees by the administrations. Each profile contains different information and the administrations only include the Biden, the Trump and the Obama administrations.
 * [Personal Finances](https://www.opensecrets.org/personal-finances) - ranks members of congress by richest and poorest by their own income, net worth, financial liabilities and assets. Each name is hyperlinked to a profile with additional information.
 
-<figure><img src=".gitbook/assets/Screenshot 2024-08-30 at 7.04.18 PM.png" alt="" width="563"><figcaption><p>Profile of House Representative Meuser from Pennsylvania's 9th congressional district</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-08-30 at 7.04.18 PM.png" alt="" width="563"><figcaption><p>Profile of House Representative Meuser from Pennsylvania's 9th congressional district</p></figcaption></figure>
 
 **Elections & Fundraising Data - this section includes spending by candidates in presidential and congressional elections.** The two most relevant subsections are:
 
 * [Outside Spending](https://www.opensecrets.org/outside-spending) - data reported by outside spending groups to the Federal Election Commission. There is a separate section devoted to dark money groups – politically active nonprofits that aren't required to publicly disclose their donors. The information includes data on political recipients, however it only shows the amounts received and rarely the donors.
 * [Donor Lookup ](https://www.opensecrets.org/donor-lookup)- a search by name of a donor - these are individuals and companies. This is the most user-friendly and useful feature for small investigations as it allows searching by keyword.
 
-<div align="left"><figure><img src=".gitbook/assets/Screenshot 2024-08-30 at 7.15.56 PM.png" alt=""><figcaption><p>Donors search with filters</p></figcaption></figure> <figure><img src=".gitbook/assets/Screenshot 2024-09-03 at 6.51.58 PM.png" alt=""><figcaption><p><a href="https://web.archive.org/web/20220722103823/https://www.businessinsider.com/elon-musk-tesla-spacex-secret-service-special-agent-filing-donation-2021-4">Donor profile for Elon Musk</a> who donated twice to the Republican National Committee in 2021</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/Screenshot 2024-08-30 at 7.15.56 PM.png" alt=""><figcaption><p>Donors search with filters</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Screenshot 2024-09-03 at 6.51.58 PM.png" alt=""><figcaption><p><a href="https://web.archive.org/web/20220722103823/https://www.businessinsider.com/elon-musk-tesla-spacex-secret-service-special-agent-filing-donation-2021-4">Donor profile for Elon Musk</a> who donated twice to the Republican National Committee in 2021</p></figcaption></figure></div>
 
 **Industries & Interest Groups - political action committees, industries, non-governmental organizations who spend money to support political candidates and issues**
 
@@ -52,11 +52,11 @@ OpenSecrets is a nonpartisan, independent, and nonprofit organization tracking m
 
 * [Lobbying Overview ](https://www.opensecrets.org/federal-lobbying)- includes top lobbying contracts, agencies, issues lobbied, bills that lobbyists worked on, contracts between lobbying firms and companies. Also allows to search by name:
 
-<div><figure><img src=".gitbook/assets/Screenshot 2024-08-30 at 7.41.49 PM.png" alt=""><figcaption><p>Search and results for KPMG</p></figcaption></figure> <figure><img src=".gitbook/assets/Screenshot 2024-08-30 at 7.46.25 PM.png" alt=""><figcaption><p>Profile for KPMG LLP's clients for 2024</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/Screenshot 2024-08-30 at 7.41.49 PM.png" alt=""><figcaption><p>Search and results for KPMG</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Screenshot 2024-08-30 at 7.46.25 PM.png" alt=""><figcaption><p>Profile for KPMG LLP's clients for 2024</p></figcaption></figure></div>
 
 * [Foreign Lobby Watch ](https://www.opensecrets.org/fara)- uses the semi-annual reports foreign agents are required to file with the Department of Justice under the Foreign Agents Registration Act (FARA) to calculate the countries with the highest spending. Allows search by country and the results provide detailed information on which companies and individuals spent money on lobbying and advocacy.
 
-<figure><img src=".gitbook/assets/Screenshot 2024-08-30 at 7.50.10 PM (1).png" alt="" width="563"><figcaption><p>2023 Spending by Russian individuals and entities</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-08-30 at 7.50.10 PM (1).png" alt="" width="563"><figcaption><p>2023 Spending by Russian individuals and entities</p></figcaption></figure>
 
 * [Revolving Door](https://www.opensecrets.org/revolving-door): database documenting the individuals who have worked in both the public sector and lobbying firms and may have conflicts of interest. Allows search by name of individuals, congressional committees, lobbying firms, or employment positions. This submenu can be used to research which PR or lobbying firms have hired former staffers of the White House, congressional or house committees, or which former members of the House or the Congress are lobbying for particular interests.
 * [Power Donor Planner](./#url) - and interactive guide tool for people to see the various ways they can donate to political campaigns and organizations, based on current federal campaign finance laws and donations caps for the upcoming cycle.

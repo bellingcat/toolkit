@@ -23,7 +23,7 @@ This article describes the MapSwitcher extension for the Google Chrome browser a
 The Chrome Store posts a note next to MapSwitcher, saying it "may soon no longer be supported because it doesn't follow best practices for Chrome extensions". Despite this, MapSwitcher has remained in place since its Toolkit entry was first written over a year ago.
 {% endhint %}
 
-<figure><img src=".gitbook/assets/mapSwitcherScreenshot16thFeb.png" alt=""><figcaption><p><strong>THE MAPSWITCHER EXTENSION MENU OVER A GOOGLE CHROME BROWSER PAGE</strong></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/mapSwitcherScreenshot16thFeb.png" alt=""><figcaption><p><strong>THE MAPSWITCHER EXTENSION MENU OVER A GOOGLE CHROME BROWSER PAGE</strong></p></figcaption></figure>
 
 MapSwitcher is an extension for the Google Chrome browser, which can be downloaded from the [Google Chrome Store](https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/wj16aeUeCQ32BThaGKHz/). It aids Open Source research by assisting users to switch their focus of study from one geographical data app to another, whilst migrating the same location co-ordinates between apps. General aspect is also preserved as far as possible, i.e. zoom, direction, etc.
 
@@ -37,7 +37,7 @@ This benefits of MapSwitcher for Open Source research are mainly:
 The list of different geographical data platforms which can be used with MapSwitcher is growing all the time. You can check the current status of any app you're interested in, either from the extension itself if you have it installed, or here on the [Github page for MapSwitcher](https://github.com/david-r-edgar/MapSwitcher). The list as of May 2024 is show below as an example, but this will not remain definitive:
 {% endhint %}
 
-<figure><img src=".gitbook/assets/ListofCompatible.jpg" alt=""><figcaption><p><strong>MAPSWITCHER OUTPUT SERVICE OPTIONS AS AT MAY 2024 - CHECK THE LINK ABOVE FOR CURRENT STATUS</strong></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ListofCompatible.jpg" alt=""><figcaption><p><strong>MAPSWITCHER OUTPUT SERVICE OPTIONS AS AT MAY 2024 - CHECK THE LINK ABOVE FOR CURRENT STATUS</strong></p></figcaption></figure>
 
 {% hint style="info" %}
 Currently MapSwitcher is only available for Chrome Browser, but its author, [David R Edgar](https://david-r-edgar.uk/projects.php), planned future versions for Firefox and Microsoft Edge. It is, however, possible to install Chrome Browser extensions on Microsoft Edge, although they may not be thoroughly tested on Edge, for instructions, see explanatory article ["How To Install Chrome Extensions in Microsoft Edge Browsers"](https://medium.com/@mariusbongarts/how-to-install-chrome-extensions-in-microsoft-edge-browsers-65914eb61d6)
@@ -65,7 +65,7 @@ MapSwitcher is limited to the Chrome Browser, and to the list of apps provided f
 
 If you try to use MapSwitcher on an app for which is not on its input/output list you will see the following message:
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>MAP SWITCHER MESSAGE WHEN SWITCHING IS NOT POSSIBLE</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>MAP SWITCHER MESSAGE WHEN SWITCHING IS NOT POSSIBLE</p></figcaption></figure>
 
 **Technical Limitations on Switching Performance:**
 

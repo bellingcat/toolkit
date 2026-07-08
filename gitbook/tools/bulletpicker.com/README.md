@@ -49,7 +49,7 @@ The contents are organized into the following categories, accessible through the
 
 2\. [Fillers](https://www.bulletpicker.com/_explosives.html) - this section contains resources on various fillers, defined as the[ "energetic material (propellants, explosives, or pyrotechnic mixes)" contained inside military munitions.](https://www.denix.osd.mil/uxo/explosives-safety/faqs/#faq-1) These are the explosive materials packed inside an ordnance and are the substances that do the job of creating the explosion. Contents are organized in alphabetical order by name of the explosive agent and contain technical information.
 
-<figure><img src=".gitbook/assets/2025-05-02_19-48-10-ed.png" alt=""><figcaption><p>Information (if available) on fillers are organized as follows: Other Names, Use, Sources. (Image credit: Bulletpicker.com)</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2025-05-02_19-48-10-ed.png" alt=""><figcaption><p>Information (if available) on fillers are organized as follows: Other Names, Use, Sources. (Image credit: Bulletpicker.com)</p></figcaption></figure>
 
 3\. [Ordnance](https://www.bulletpicker.com/_ord.html) - This section contains a list of various weapon systems, along with a brief introduction to each system. If you are new to the subject matter, it is recommended to start by exploring the “General Information” tab before moving on to more technical sections.
 
@@ -61,9 +61,9 @@ Users interested in resources related to Ukrainian ordnance can follow the steps
 
 _Ordnance → Bombs → Ukraine_
 
-<figure><img src=".gitbook/assets/2025-05-02_18-29-44.png" alt="" width="246"><figcaption><p>This is the navigation pane of the website, located to the left. This shows a sample navigation for a user interested in researching Ukrainian ordnance. Note that the contents are mainly those found in the public domain.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2025-05-02_18-29-44.png" alt="" width="246"><figcaption><p>This is the navigation pane of the website, located to the left. This shows a sample navigation for a user interested in researching Ukrainian ordnance. Note that the contents are mainly those found in the public domain.</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/2025-05-02_20-16-20-ed.png" alt=""><figcaption><p>This is a quick guide we created for navigating information on various ordnance listed on the website. Note that not all types of ordnance have information on each of these categories. Some do not have images, and some do not have information on how they function or information on hazardous content. Also note that sometimes items will contain just a diagram and no real-life photo, or just a real-life photo with no diagram. Sometimes, these items contain both. This example can be found on: <a href="https://www.bulletpicker.com/landmine_-apers_-m2a4.html">https://www.bulletpicker.com/landmine_-apers_-m2a4.html</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2025-05-02_20-16-20-ed.png" alt=""><figcaption><p>This is a quick guide we created for navigating information on various ordnance listed on the website. Note that not all types of ordnance have information on each of these categories. Some do not have images, and some do not have information on how they function or information on hazardous content. Also note that sometimes items will contain just a diagram and no real-life photo, or just a real-life photo with no diagram. Sometimes, these items contain both. This example can be found on: <a href="https://www.bulletpicker.com/landmine_-apers_-m2a4.html">https://www.bulletpicker.com/landmine_-apers_-m2a4.html</a></p></figcaption></figure>
 
 Information on ballistic properties ([how weapons behave as they are launched](https://en.wikipedia.org/wiki/Ballistics)) can be found under "description" or "functioning."
 

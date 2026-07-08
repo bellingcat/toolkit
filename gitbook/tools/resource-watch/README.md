@@ -1,9 +1,9 @@
 ---
+updated: '2026-06-27'
 description: >-
   A free open-data platform that hosts 300+ datasets on different topics
   relating to the environment and human well-being, including real-time
   datasets.
-updated: '2026-06-27'
 ---
 
 # Resource Watch
@@ -16,29 +16,29 @@ updated: '2026-06-27'
 
 Resourcewatch is a web-based, open source environmental data aggregating platform that excels in interactive maps and customisable dashboards. It combines geospatial and research data to provide insights on topics such as climate change, poverty, water risk, state instability, air pollution and human migration.
 
-The datasets can be browsed by topic: Food and agriculture, Energy, Climate, Forests, Water, Society, Ocean, Cities, Coral Reefs and Air Quality. It is also possible to select recent updates or to zoom in on geographic areas of interest, directly on the map.&#x20;
+The datasets can be browsed by topic: Food and agriculture, Energy, Climate, Forests, Water, Society, Ocean, Cities, Coral Reefs and Air Quality. It is also possible to select recent updates or to zoom in on geographic areas of interest, directly on the map.
 
-<figure><img src=".gitbook/assets/Screenshot 2026-02-21 at 16.24.00.png" alt=""><figcaption><p>Specific layers of datasets can be explored on a world map, and some datasets can be combined. In this screenshot, the datasets are filtered on the topic 'Air Quality' and the Global Power Plant Database is selected for the world map.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-02-21 at 16.24.00.png" alt=""><figcaption><p>Specific layers of datasets can be explored on a world map, and some datasets can be combined. In this screenshot, the datasets are filtered on the topic 'Air Quality' and the Global Power Plant Database is selected for the world map.</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/Screenshot 2026-03-07 at 20.17.58.png" alt=""><figcaption><p>Each data point, in the case of the Power Plant Database a specific power plant on the map, shows more detail when selected.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-03-07 at 20.17.58.png" alt=""><figcaption><p>Each data point, in the case of the Power Plant Database a specific power plant on the map, shows more detail when selected.</p></figcaption></figure>
 
-With an account it is possible to save and select geographical areas of interest, by selecting countries from a list or by drawing a polygon on the world map. Some datasets then provide alerts when relevant data to this area has been updated or added.&#x20;
+With an account it is possible to save and select geographical areas of interest, by selecting countries from a list or by drawing a polygon on the world map. Some datasets then provide alerts when relevant data to this area has been updated or added.
 
-<figure><img src=".gitbook/assets/Screenshot 2026-02-14 at 14.54.25.png" alt=""><figcaption><p>With an account, users can define geographical areas of interest. In this example, the countries Greenland and Iran were selected from a preset list, and a custom area near Taiwan was drawn on the map.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-02-14 at 14.54.25.png" alt=""><figcaption><p>With an account, users can define geographical areas of interest. In this example, the countries Greenland and Iran were selected from a preset list, and a custom area near Taiwan was drawn on the map.</p></figcaption></figure>
 
 Informative thematic dashboards with short articles and visualisations are available, but do not include recent data. The ready-made dashboards follow the same thematic categories as the datasets, such as Energy, Forests, Ocean Watch, and Air Quality.
 
-For some visualisations, it is possible to create your own custom dashboard and to create public links to charts and visualisations so that they can be used in reports.&#x20;
+For some visualisations, it is possible to create your own custom dashboard and to create public links to charts and visualisations so that they can be used in reports.
 
-Advanced data users can directly access the [Resourcewatch Github](https://github.com/resource-watch) page and build upon the open source code or [pull data by API](https://resourcewatch.org/get-involved/develop-your-app) to use in own applications.&#x20;
+Advanced data users can directly access the [Resourcewatch Github](https://github.com/resource-watch) page and build upon the open source code or [pull data by API](https://resourcewatch.org/get-involved/develop-your-app) to use in own applications.
 
 ## Data sources
 
-Data comes from a wide range of external data providers: National governments, international organisations and UN agencies, research institutions and scientific publications. The data providers and update frequency are listed on the dataset detail pages.&#x20;
+Data comes from a wide range of external data providers: National governments, international organisations and UN agencies, research institutions and scientific publications. The data providers and update frequency are listed on the dataset detail pages.
 
-<figure><img src=".gitbook/assets/Screenshot 2026-03-07 at 19.00.05.png" alt=""><figcaption><p>The dataset detail page provides descriptions of dataset layers and methodology, information on sources, update frequency, reuse licenses, and related datasets</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-03-07 at 19.00.05.png" alt=""><figcaption><p>The dataset detail page provides descriptions of dataset layers and methodology, information on sources, update frequency, reuse licenses, and related datasets</p></figcaption></figure>
 
-Resourcewatch is an aggregating platform and is not built for creating or correcting data, but does perform some preprocessing and standardisation to make the data usable in visualisations. Curating takes place by WRI domain experts or by peer review. It is possible to add your own datasets; check the [data policy](https://resourcewatch.org/get-involved/data-policy) for more information.&#x20;
+Resourcewatch is an aggregating platform and is not built for creating or correcting data, but does perform some preprocessing and standardisation to make the data usable in visualisations. Curating takes place by WRI domain experts or by peer review. It is possible to add your own datasets; check the [data policy](https://resourcewatch.org/get-involved/data-policy) for more information.
 
 ## Cost
 
@@ -52,8 +52,8 @@ Resourcewatch is an aggregating platform and is not built for creating or correc
 
 ## Requirements
 
-* Some familiarity with using large datasets will be necessary. A basic understanding of geospatial mapping techniques is desirable.  &#x20;
-* Functionality as saving favourite datasets, defining areas of interest or creating custom dashboards require registration by email.&#x20;
+* Some familiarity with using large datasets will be necessary. A basic understanding of geospatial mapping techniques is desirable.
+* Functionality as saving favourite datasets, defining areas of interest or creating custom dashboards require registration by email.
 
 ## Limitations
 
@@ -61,14 +61,14 @@ Resourcewatch is an aggregating platform and is not built for creating or correc
 Overlaying different datasets are a strong feature of Resourcewatch. It can help uncover new patterns of areas of research, but be aware that correlations or patterns do not imply causation. Ensure that the time frame and spatial scales for the overlayed datasets are compatible before analysing the data or drawing conclusions.
 {% endhint %}
 
-* Data is not real-time, however some datasets are near-real-time.&#x20;
-* Coverage: while the global map is always shown, the scope per dataset can differ. Be aware that data coverage gaps may occur; regions can be over- or underrepresented, specific environmental topics not included, and that governmental data could reflect reporting bias.&#x20;
-* Loading of interactive visualisation layers and widgets can be slow, or sometimes they do not load at all.&#x20;
+* Data is not real-time, however some datasets are near-real-time.
+* Coverage: while the global map is always shown, the scope per dataset can differ. Be aware that data coverage gaps may occur; regions can be over- or underrepresented, specific environmental topics not included, and that governmental data could reflect reporting bias.
+* Loading of interactive visualisation layers and widgets can be slow, or sometimes they do not load at all.
 * The provided dashboards per environmental category are insightful, but based on data from before 2018; complement with more recent data if needed.
 
 ## Guide
 
-The platform offers help per page. Watch [short video tutorials](https://www.youtube.com/@resourcewatch6439) on functionality as how to explore and overlay data, or how to create a custom dashboard.&#x20;
+The platform offers help per page. Watch [short video tutorials](https://www.youtube.com/@resourcewatch6439) on functionality as how to explore and overlay data, or how to create a custom dashboard.
 
 Data from Resource Watch has been used for example, for:
 

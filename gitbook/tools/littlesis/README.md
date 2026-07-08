@@ -19,39 +19,39 @@ According to their [website](https://littlesis.org/database), LittleSis includes
 
 If you search for keywords via the search box (circled in green) at the top of the LittleSis [main website](https://littlesis.org/), you'll get LittleSis news articles:
 
-<figure><img src=".gitbook/assets/Screenshot 2024-10-29 at 08.53.42.png" alt=""><figcaption><p>Search results from the LittleSis main website</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-10-29 at 08.53.42.png" alt=""><figcaption><p>Search results from the LittleSis main website</p></figcaption></figure>
 
 LittleSis' main offering is their database - to access it, click '[Database](https://littlesis.org/database)' in the top menu. You'll get to the main database page:
 
-<figure><img src=".gitbook/assets/Screenshot 2026-05-06 at 15.27.57.png" alt=""><figcaption><p>The home page for the LittleSis database</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-05-06 at 15.27.57.png" alt=""><figcaption><p>The home page for the LittleSis database</p></figcaption></figure>
 
 When you search the database, you'll get entities that match your search term(s), and network maps that include the search term(s):
 
-<figure><img src=".gitbook/assets/Screenshot 2025-10-22 at 12.13.34.png" alt=""><figcaption><p>An example of a results page based on a search of the LittleSis database</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-10-22 at 12.13.34.png" alt=""><figcaption><p>An example of a results page based on a search of the LittleSis database</p></figcaption></figure>
 
 When you click on an entity name in the search results above, you'll see a person's or company/organisation page. Here is a person page:
 
-<figure><img src=".gitbook/assets/Screenshot 2024-10-29 at 09.00.54.png" alt=""><figcaption><p>A person's page with data housed in LittleSis.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-10-29 at 09.00.54.png" alt=""><figcaption><p>A person's page with data housed in LittleSis.</p></figcaption></figure>
 
 The person page has links to a wide range of relationships that the person has (for which LittleSis has data). The types of relationships in the example above include business positions, board memberships, positions, federal election campaign contributions, universities attended, holdings (companies in which they have ownership), family, and others.
 
 The 'Interlocks' tab lists people with positions in the same organisations as the person you searched - this can help you see the networks of people with whom they are associated. The 'Giving' tab lists people who also received donations from organisations and people to whom the person donated:
 
-<figure><img src=".gitbook/assets/Screenshot 2026-01-12 at 12.41.46.png" alt=""><figcaption><p>The 'Giving' tab lists donors who also donated to orgs and people to whom Hunter Biden donated</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-01-12 at 12.41.46.png" alt=""><figcaption><p>The 'Giving' tab lists donors who also donated to orgs and people to whom Hunter Biden donated</p></figcaption></figure>
 
 The 'Data' tab allows you to filter and search the person's relationships. For instance, here are the lobbying firms in which Hunter Biden holds current or past positions:
 
-<figure><img src=".gitbook/assets/Screenshot 2024-10-29 at 09.35.03.png" alt=""><figcaption><p>Example of a search on Hunter Biden's data tab</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-10-29 at 09.35.03.png" alt=""><figcaption><p>Example of a search on Hunter Biden's data tab</p></figcaption></figure>
 
 Here's an example of an organisation's page:
 
-<figure><img src=".gitbook/assets/Screenshot 2024-10-29 at 10.57.40.png" alt=""><figcaption><p>An organisation's page on LittleSis</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-10-29 at 10.57.40.png" alt=""><figcaption><p>An organisation's page on LittleSis</p></figcaption></figure>
 
 An organisation page has the same kinds of information as a person's page.
 
 LittleSis includes 'network maps' for all entities (people and organisations):
 
-<figure><img src=".gitbook/assets/Screenshot 2024-09-25 at 14.59.22.png" alt=""><figcaption><p>A network map for Donald Trump</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-09-25 at 14.59.22.png" alt=""><figcaption><p>A network map for Donald Trump</p></figcaption></figure>
 
 Access the network maps from a person's or organisation's search results page. The map will show you relationships that illustrate the topic of the map like donations (e.g. in the map above, Henry R Kravis donated US$1 million to Trump's inauguration). You can create your own maps, but you need to be registered to do that. (To create a map, log in and go to Add>Map.)
 

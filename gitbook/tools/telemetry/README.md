@@ -17,10 +17,10 @@ The platform can be used to identify in which groups certain topics or terminolo
 
 * _For example, searching for "climate" in "Messages" returned results of public Telegram messages using the term, and provided information on each message's view count, reply count, and an option to dive into channel analytics_
 
-![](<.gitbook/assets/image (4).png>)
+![](<../../.gitbook/assets/image (4) (5).png>)
 
 * _Searching the same query within "Channels" provides a list of possible channels utilising the terminology._\
-  <img src=".gitbook/assets/image (5).png" alt="" data-size="original">
+  <img src="../../.gitbook/assets/image (5) (6).png" alt="" data-size="original">
 
 The platform also offers analytics pages for a given group or channel, allowing access to metadata and analytics about the group or channel, such as the total engagement, number of subscribers/members, mentioned groups and channels, a filtered view of post types, and more.
 

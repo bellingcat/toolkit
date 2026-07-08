@@ -36,7 +36,7 @@ The full list of searchable map features is available [here](https://wiki.openst
 
 The example below shows a query for Drinking Water fountain amenities:
 
-<figure><img src=".gitbook/assets/Screenshot 2024-03-31 at 12.44.00 PM.png" alt="Screenshot of Overpass Turbo with a query for drinking water fountains and a map with the fountains highlighted in red."><figcaption><p>Screenshot of search results for a query for Drinking Water fountain amenities.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-03-31 at 12.44.00 PM.png" alt="Screenshot of Overpass Turbo with a query for drinking water fountains and a map with the fountains highlighted in red."><figcaption><p>Screenshot of search results for a query for Drinking Water fountain amenities.</p></figcaption></figure>
 
 ### **Example Use Cases**
 

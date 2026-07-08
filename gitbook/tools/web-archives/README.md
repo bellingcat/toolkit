@@ -1,8 +1,8 @@
 ---
+updated: '2026-06-30'
 description: >-
   A browser extension to view archived and cached versions of a website on
   multiple archiving sites.
-updated: '2026-06-30'
 ---
 
 # Web Archives
@@ -22,33 +22,31 @@ eb Archives is a browser extension that opens archived or cached versions of a U
 
 ## How to use
 
-You can start searches directly from the context menu or the browser toolbar.&#x20;
+You can start searches directly from the context menu or the browser toolbar.
 
 ### Fetch the archives of a current page from the extension menu
 
 Open the extension menu and select the desired engine. This will open a new tab with the results.
 
-<figure><img src=".gitbook/assets/demo (5).gif" alt=""><figcaption><p>You can also fetch on all engines simultaneously</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/demo (5).gif" alt=""><figcaption><p>You can also fetch on all engines simultaneously</p></figcaption></figure>
 
 ### Fetch the archives for a link using the context menu
 
 If your target is a link available in the current page, you can right-click on the link, select "Web Archives" context menu and then select the desired engine.
 
-<figure><img src=".gitbook/assets/demo2 (1).gif" alt=""><figcaption><p>You can use Web Archives' context menu on a link</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/demo2 (1).gif" alt=""><figcaption><p>You can use Web Archives' context menu on a link</p></figcaption></figure>
 
 ### Fetch the archive of a given URL from the clipboard
 
 From the extension menu, select the URL Mode and then copy-paste the target URL.
 
-
-
-<figure><img src=".gitbook/assets/demo3url (1).gif" alt=""><figcaption><p>The URL Mode allows you to fetch for a URL without opening it, that makes you check a resource passively, without interacting with the target.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/demo3url (1).gif" alt=""><figcaption><p>The URL Mode allows you to fetch for a URL without opening it, that makes you check a resource passively, without interacting with the target.</p></figcaption></figure>
 
 ### Change behavior to open new tabs in the background
 
 By default, Web Archives will open the results in a new tab and switch focus to it. If you prefer to open the tab in the background and view the results later, you can adjust this behavior in **Options > Miscellaneous >&#x20;**_**Open new tabs in the background**_.
 
-<figure><img src=".gitbook/assets/demo4 (1).gif" alt=""><figcaption><p>Now tabs will open in the background and you can switch focus to it later.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/demo4 (1).gif" alt=""><figcaption><p>Now tabs will open in the background and you can switch focus to it later.</p></figcaption></figure>
 
 You can also choose the desired engines and re-order them in the Options.
 
@@ -67,7 +65,7 @@ The Chrome, Firefox and Opera listings are free to install; the Safari/macOS App
 ## Requirements
 
 * **Platforms/browsers**: Chrome, Firefox (also on Android), Edge, Opera, and Safari (macOS). **Safari requires macOS ≥12.0**. [Mozilla Add-ons](https://addons.mozilla.org/firefox/addon/view-page-archive/)
-* **Install**: Chrome v7.3.3 (updated 2026-06-27); Firefox v7.3.1 (updated 2026-06-07); Safari/macOS v7.2.0 (2025-12-05, paid App Store listing); Opera v4.1.0 (updated 2023-07-20).&#x20;
+* **Install**: Chrome v7.3.3 (updated 2026-06-27); Firefox v7.3.1 (updated 2026-06-07); Safari/macOS v7.2.0 (2025-12-05, paid App Store listing); Opera v4.1.0 (updated 2023-07-20).
 * **Auth/tokens**: None. The tool only forwards the URL you choose to the selected archive. [Mozilla Add-ons](https://addons.mozilla.org/firefox/addon/view-page-archive/)
 * **Supported engines/features** (examples):\
   – [Wayback Machine](https://web.archive.org/); Archive.today (aka [**archive.is**](https://archive.is/) **/ archive.ph**); [**Megalodon**](https://megalodon.jp/) (JP); [**Perma.cc**](https://perma.cc/); [**Ghostarchive**](https://ghostarchive.org/); [**WebCite**](https://webcitation.org/); [**Yandex Cache**](https://www.yandex.com/). [GitHub](https://github.com/dessant/web-archives/wiki/Search-engines)\
@@ -98,8 +96,6 @@ Use lawfully and proportionately. Be mindful that querying archives can reveal i
 
 Armin Sebastian ([@dessant on GitHub](https://github.com/dessant)) is an EU-based developer specializing in open source browser extensions. Presences: [**armin.dev**](https://armin.dev/) (listed on Chrome store).
 
-
-
 ## Advertising Trackers
 
 * [ ] This tool has not been checked for advertising trackers yet.
@@ -112,4 +108,3 @@ Extension declares **“no data collected”** on the Chrome Web Store, and **�
 | --------------- |
 | Martin Sona     |
 |                 |
-

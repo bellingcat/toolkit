@@ -32,7 +32,7 @@ Once you are more familiar with the limitations of using IP addresses for geoloc
 * Is the hostname the IP address is pointing to under a specific name? If so, it is possible this IP address is associated with a particular hosting provider or company. Is there any notable information about this company I can infer, such as a country/region of operation?
 * How do the information found above contrast with the claimed or perceived location of the target of my researches?<br>
 
-With these limitations in mind, to use GeoDataTool, you will simply need to input the IP address or domain name you wish to locate.&#x20;
+With these limitations in mind, to use GeoDataTool, you will simply need to input the IP address or domain name you wish to locate.
 
 GeoDataTool accepts both IPv4 and IPv6 addresses. If you are unfamiliar with IPv6, note that these addresses are much longer and use hexadecimal characters separated by colons. For example, an IPv4 address might look like `203.0.113.42`, while an IPv6 address could look like `2001:db8:85a3::8a2e:370:7334`.
 
@@ -40,7 +40,7 @@ Note that if you input the domain name, the tool will automatically resolve its 
 
 Let's take the domain bellingcat.com as an example:
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (71).png" alt=""><figcaption></figcaption></figure>
 
 _(GeoDataTool query result for bellingcat.com, on 19/06/2026)_
 
@@ -67,9 +67,7 @@ If the hostname field instead returned something like `server-x-x-x-x.ord58.r.cl
 
 In short: a populated, provider-specific hostname can hand you the answer for free. A hostname that just mirrors the IP (as in this case) means you have to do that identification work yourself with a separate WHOIS/RDAP lookup.
 
-
-
-**A note on re-querying:** if you look up bellingcat.com again later, don't be surprised if you get a _different_ Cloudflare IPv6 address than the one shown here. This is because the same domain can be served from different addresses within its range over time. Interestingly, when this address was queried at a separate point, GeoDataTool returned `2606:4700:10::6814:1ec0` instead :  a different exact address but within the same `2606:4700:10::` block, and resolving to the same city (Dyersburg, TN) and identical coordinates. This suggests the underlying geolocation database assigns location at the level of the IP block rather than the individual address.&#x20;
+**A note on re-querying:** if you look up bellingcat.com again later, don't be surprised if you get a _different_ Cloudflare IPv6 address than the one shown here. This is because the same domain can be served from different addresses within its range over time. Interestingly, when this address was queried at a separate point, GeoDataTool returned `2606:4700:10::6814:1ec0` instead : a different exact address but within the same `2606:4700:10::` block, and resolving to the same city (Dyersburg, TN) and identical coordinates. This suggests the underlying geolocation database assigns location at the level of the IP block rather than the individual address.
 
 _The practical takeaway for researchers:_ treat the city/coordinates as describing "where this slice of Cloudflare's network is mapped to," not "where bellingcat.com's true origin server sits". If a high level of precision matters for your research, re-query at different times and note the timestamp and exact address each time.
 
@@ -125,11 +123,11 @@ If you are not familiar with basic networking concepts, we advise that you read 
 
 ## Tool provider
 
-Historical (cached) WHOIS records show a sibling tool in the same family (geoiptool.com, which shares the wiroos.com branding and nameservers `kiu.wiroos.com.ar` / `lanark.wiroos.com`). They list a registrant named Matias Botbol, "WIROOS internet hosting," based in Buenos Aires, Argentina.&#x20;
+Historical (cached) WHOIS records show a sibling tool in the same family (geoiptool.com, which shares the wiroos.com branding and nameservers `kiu.wiroos.com.ar` / `lanark.wiroos.com`). They list a registrant named Matias Botbol, "WIROOS internet hosting," based in Buenos Aires, Argentina.
 
-GeoDataTool might therefore be part of a small Argentine-run network of IP/geolocation utility sites (wiroos.com, geoiptool.com, showmyip.com, spyber.com appear linked).&#x20;
+GeoDataTool might therefore be part of a small Argentine-run network of IP/geolocation utility sites (wiroos.com, geoiptool.com, showmyip.com, spyber.com appear linked).
 
-An important caveat : it's drawn from a historical/cached WHOIS record for a related domain, not geodatatool.com's own current WHOIS, since that one is privacy-shielded via Cloudflare.&#x20;
+An important caveat : it's drawn from a historical/cached WHOIS record for a related domain, not geodatatool.com's own current WHOIS, since that one is privacy-shielded via Cloudflare.
 
 ## Similar tools
 
@@ -139,9 +137,9 @@ There are many IP geolocation services, depending on how often and at what scale
 * IPgeolocation [https://ipgeolocation.io/pricing.html](https://ipgeolocation.io/pricing.html) - for smaller businesses, provides access to a Free tier API enabling up to 1K requests per day.
 * WhoisXMLAPI [https://ip-geolocation.whoisxmlapi.com/](https://ip-geolocation.whoisxmlapi.com/) - hybrid solution, offers free single IP geolocation, or provides access to a paid API.
 
-## Glossary&#x20;
+## Glossary
 
-Add Glossary if relevant / needed.&#x20;
+Add Glossary if relevant / needed.
 
 ## Advertising Trackers
 

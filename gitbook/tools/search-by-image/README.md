@@ -25,7 +25,7 @@ This tool is designed to support journalists, investigators, and fact-checkers i
 * Hover over "Search by Image"
 * Select the search engine of your choice
 
-<figure><img src=".gitbook/assets/1.webp" alt=""><figcaption><p>Reverse searching an image from the contextual menu</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/1.webp" alt=""><figcaption><p>Reverse searching an image from the contextual menu</p></figcaption></figure>
 
 2. **From the Extension Menu - Select URL (default mode):** Queries the selected engine using the image URL.
 
@@ -36,7 +36,7 @@ This tool is designed to support journalists, investigators, and fact-checkers i
 
 **Note:** this is equivalent to the contextual menu shortcut in the default settings.
 
-<figure><img src=".gitbook/assets/2.webp" alt=""><figcaption><p>Select URL Mode</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2.webp" alt=""><figcaption><p>Select URL Mode</p></figcaption></figure>
 
 3. **From the Extension Menu - Select Image:** Uploads the image to the selected engine: this is useful when reverse searching images from sites where contextual menu is disabled (Pinterest) or where images cannot be accessed by their URL (Instagram).
 
@@ -45,7 +45,7 @@ This tool is designed to support journalists, investigators, and fact-checkers i
 * Select your target search engine
 * Select the image from the web page
 
-<figure><img src=".gitbook/assets/3.webp" alt=""><figcaption><p><strong>Select Image Mode</strong></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/3.webp" alt=""><figcaption><p><strong>Select Image Mode</strong></p></figcaption></figure>
 
 4. **From the Extension Menu - Capture:** Allows you to capture and search a specific area of an image/the web page.
 
@@ -54,7 +54,7 @@ This tool is designed to support journalists, investigators, and fact-checkers i
 * Select your target search engine
 * Select the area you want to reverse search
 
-<figure><img src=".gitbook/assets/4.webp" alt=""><figcaption><p><strong>Capture Mode</strong></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/4.webp" alt=""><figcaption><p><strong>Capture Mode</strong></p></figcaption></figure>
 
 5. **From the Extension Menu - Browse:** Enables you to upload an image from your local files (supports copy/paste).
 
@@ -66,7 +66,7 @@ This tool is designed to support journalists, investigators, and fact-checkers i
 
 **Note:** in this mode you can also paste an image from your clipboard by selecting "Paste" instead of "Browse".
 
-<figure><img src=".gitbook/assets/5.webp" alt=""><figcaption><p><strong>Browse Mode</strong></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/5.webp" alt=""><figcaption><p><strong>Browse Mode</strong></p></figcaption></figure>
 
 6. **From the Extension Menu - URL:** Allows you to paste a URL for querying.
 
@@ -75,39 +75,39 @@ This tool is designed to support journalists, investigators, and fact-checkers i
 * Paste the image URL in the field
 * Select your target search engine
 
-<figure><img src=".gitbook/assets/6.webp" alt=""><figcaption><p>URL Mode</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/6.webp" alt=""><figcaption><p>URL Mode</p></figcaption></figure>
 
 ### Additional Features
 
 * **Support for** [**44 search engines and image services**](https://github.com/dessant/search-by-image/wiki/Search-engines) in addition to the default options. You can toggle and re-order them in the extension’s settings.
 
-<figure><img src=".gitbook/assets/9.webp" alt=""><figcaption><p>You can add additional search engines in the Options</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/9.webp" alt=""><figcaption><p>You can add additional search engines in the Options</p></figcaption></figure>
 
 * Reverse search an image in multiple search engines at once
 
-<figure><img src=".gitbook/assets/8.webp" alt=""><figcaption><p>Reverse search an image in multiple search engines at once</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/8.webp" alt=""><figcaption><p>Reverse search an image in multiple search engines at once</p></figcaption></figure>
 
 * **Changing the new tab default behavior:**
 
 By default, selecting a search engine to use on an image will open the results in a new tab and switch focus to it. If you prefer to open the tab in the background and view the results later, you can adjust this behavior in the Options.
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>Toggle this option to open new tabs in the background</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (7).png" alt=""><figcaption><p>Toggle this option to open new tabs in the background</p></figcaption></figure>
 
 * **Changing the context menu default behavior:**
 
 You can set the context menu default behavior to either use the URL (default), Image or Capture mode.
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Change the Context menu default behavior</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (38).png" alt=""><figcaption><p>Change the Context menu default behavior</p></figcaption></figure>
 
 {% hint style="success" %}
-In case right-clicking an image does not work: use the Search by Image extension from the toolbar.&#x20;
+In case right-clicking an image does not work: use the Search by Image extension from the toolbar.
 {% endhint %}
 
 ### Mechanics
 
 **Search by Image** detects images by parsing the entire web page, identifying images embedded in various ways (like canvas, CSS, or object elements) rather than relying solely on `<img>` tags. This approach ensures compatibility across diverse websites, capturing images regardless of how they’re embedded. Read [this post](https://github.com/dessant/search-by-image/wiki/Why-is-the-extension-always-visible-in-the-context-menu%3F) for more details.
 
-<figure><img src=".gitbook/assets/Screenshot 2026-06-06 at 17.06.52.png" alt=""><figcaption><p>Enable 'Use deep search' for harder to reach embedded images. </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-06-06 at 17.06.52.png" alt=""><figcaption><p>Enable 'Use deep search' for harder to reach embedded images.</p></figcaption></figure>
 
 In case the extension does not find the right image because it’s protected for download, embedded or layered in a non-standard way, try the (default disabled) toggle ‘Use deep search when selecting images’ under ‘Options’. This may surface several image candidates. Note that deep search works within what's already loaded in your browser, it will not go past logins or paywalls.
 

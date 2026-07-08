@@ -18,7 +18,7 @@ Type a username (without the `u/` prefix) and the [site fetches](https://redditm
 
 {% tabs %}
 {% tab title="Basic Information" %}
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Public Profile of Steve Huffman aka "spez" - the CEO of Reddit</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (70).png" alt=""><figcaption><p>Public Profile of Steve Huffman aka "spez" - the CEO of Reddit</p></figcaption></figure>
 
 * **About** — Lists the username, account creation date (“cake day”), link karma, comment karma, and total karma. It also notes detected interests and topics (for instance, pets like “dog,” and preferred discussion topics like “finance”).
 * **Text Readability** — Provides a _Gunning Fog Index_ score of 12, rated as _medium_ complexity, indicating the average education level needed to understand the user’s writing.
@@ -27,7 +27,7 @@ Type a username (without the `u/` prefix) and the [site fetches](https://redditm
 {% endtab %}
 
 {% tab title="Activity Patterns" %}
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (21).png" alt=""><figcaption></figcaption></figure>
 
 This screenshot from **RedditMetis** shows the _Activity Pattern_ section of a Reddit profile summary.
 
@@ -41,7 +41,7 @@ Overall, this visualization summarizes the user’s **temporal posting habits**,
 {% endtab %}
 
 {% tab title="Usage Breakdown" %}
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (15).png" alt=""><figcaption></figcaption></figure>
 
 Each colored block represents a category of subreddits, with size proportional to the **number of posts or comments** (the selected mode).
 
@@ -53,7 +53,7 @@ This layout offers a quick visual overview of the user’s posting distribution,
 {% endtab %}
 
 {% tab title="Comment Statistics" %}
-<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (13).png" alt=""><figcaption></figcaption></figure>
 
 It summarizes how the user engages through comments, combining quantitative data, qualitative highlights, and subreddit-based breakdowns:
 
@@ -68,7 +68,7 @@ It summarizes how the user engages through comments, combining quantitative data
 {% endtab %}
 
 {% tab title="Post Statistics" %}
-<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (10).png" alt=""><figcaption></figcaption></figure>
 
 This screenshot summarizes how and where the user posts, including performance and subreddit activity patterns:
 
@@ -86,7 +86,7 @@ Overall, this panel captures a **concise posting history**, showing that most of
 {% endtab %}
 
 {% tab title="Corpus" %}
-<figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (8).png" alt=""><figcaption></figcaption></figure>
 
 This screenshot illustrates the **Corpus Statistics** section of a Reddit profile analysis, highlighting the user’s most frequently used words.
 

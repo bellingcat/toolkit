@@ -25,25 +25,25 @@ For open-source investigation, including but not limited to cybercrime investiga
 
 In the Download section of Github, you can either choose the desktop app with a graphical user interface (GUI), or the terminal app with a command-line interface (CLI). Download the file adapted to your operating system (e.g. win-x64 file for most Windows PCs, osx-arm64 file for M1-M5 Macs, osx-x64 for older Macs).
 
-<figure><img src=".gitbook/assets/Screenshot 2026-06-24 at 17.03.21.png" alt=""><figcaption><p>Download options on Github.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-06-24 at 17.03.21.png" alt=""><figcaption><p>Download options on Github.</p></figcaption></figure>
 
 {% hint style="info" %}
 The CLI allows for more in-depth configuration but requires familiarity with command-line tools. The GUI is easier to navigate and more user friendly.
 {% endhint %}
 
-<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption><p>Layout of DiscordChatExporter's command-line interface.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (9).png" alt=""><figcaption><p>Layout of DiscordChatExporter's command-line interface.</p></figcaption></figure>
 
 #### Step 2
 
 Once downloaded and installed, the app requires the token linked to either a bot or personal account. A walkthrough of the different steps to get this token shows up when opening the DiscordChatExporter app.
 
-<div align="center"><figure><img src=".gitbook/assets/Screenshot 2026-06-24 at 15.59.04.png" alt=""><figcaption><p>Instructions provided on the DiscordChatExporter graphical user interface.</p></figcaption></figure></div>
+<div align="center"><figure><img src="../../.gitbook/assets/Screenshot 2026-06-24 at 15.59.04.png" alt=""><figcaption><p>Instructions provided on the DiscordChatExporter graphical user interface.</p></figcaption></figure></div>
 
 #### Step 3
 
 After inputting the token, the app allows to browse through joined Discord channels and direct messages. Channels and/or messages can be archived directly from the app, in different export formats.
 
-<div align="center"><figure><img src=".gitbook/assets/Screenshot 2026-06-24 at 18.14.18.png" alt=""><figcaption><p>Exporting comes up with various options (shown here is the graphical user interface).</p></figcaption></figure></div>
+<div align="center"><figure><img src="../../.gitbook/assets/Screenshot 2026-06-24 at 18.14.18.png" alt=""><figcaption><p>Exporting comes up with various options (shown here is the graphical user interface).</p></figcaption></figure></div>
 
 #### Features
 

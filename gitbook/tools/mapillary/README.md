@@ -21,9 +21,9 @@ Mapillary allows users to filter imagery by date and detected features (streetli
 
 Users can also navigate through image sequences or switch between nearby captures from different dates to compare how a location has changed over time. This is especially useful for identifying when certain features appeared or were modified.
 
-<figure><img src=".gitbook/assets/mapillary.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/mapillary.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/mapillary2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/mapillary2.png" alt=""><figcaption></figcaption></figure>
 
 Available in the following formats:
 
@@ -37,7 +37,7 @@ Available in the following formats:
     [https://github.com/mapillary/mapillary\_tools](https://github.com/mapillary/mapillary_tools)\
     [https://www.mapillary.com/desktop-uploader](https://www.mapillary.com/desktop-uploader)
 
-<figure><img src=".gitbook/assets/Screenshot 2024-04-06 at 1.25.01 PM.png" alt="Screenshot of a search for street level imagery in Amsterdam with Mapillary shows a map with individual markers as dots on the map where street level imagery exists.."><figcaption><p>Mapillary interface showing dense coverage of user-contributed street-level imagery in Amsterdam. The green lines represent image sequences captured along roads, while the individual points indicate specific image locations. Colored icons highlight automatically detected features (e.g. traffic signs, infrastructure), demonstrating how Mapillary uses computer vision to extract searchable objects from imagery. The preview window (bottom left) shows a selected image from the dataset.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-04-06 at 1.25.01 PM.png" alt="Screenshot of a search for street level imagery in Amsterdam with Mapillary shows a map with individual markers as dots on the map where street level imagery exists.."><figcaption><p>Mapillary interface showing dense coverage of user-contributed street-level imagery in Amsterdam. The green lines represent image sequences captured along roads, while the individual points indicate specific image locations. Colored icons highlight automatically detected features (e.g. traffic signs, infrastructure), demonstrating how Mapillary uses computer vision to extract searchable objects from imagery. The preview window (bottom left) shows a selected image from the dataset.</p></figcaption></figure>
 
 ### **Example Use Cases**
 

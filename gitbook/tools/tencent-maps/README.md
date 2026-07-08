@@ -23,13 +23,13 @@ In Tencent Maps, user-generated reviews and photos are integrated with [Dianping
 
 Search for the location and select the layer (e.g., satellite imagery) or function (e.g., ruler).
 
-<figure><img src=".gitbook/assets/tencent_web (1).png" alt="" width="563"><figcaption><p>Web browser view: The example shows the area of Shanghai South Railway Station. Click the buttons on the top-left corner of the map to switch between map and satellite view.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/tencent_web (1).png" alt="" width="563"><figcaption><p>Web browser view: The example shows the area of Shanghai South Railway Station. Click the buttons on the top-left corner of the map to switch between map and satellite view.</p></figcaption></figure>
 
 <details>
 
 <summary>Annotated menu - mobile</summary>
 
-<figure><img src=".gitbook/assets/layers_annotated_tencent copy (1).png" alt="" width="375"><figcaption><p>Basic mobile app menu. You may be seeing more or fewer options depending on your settings and location.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/layers_annotated_tencent copy (1).png" alt="" width="375"><figcaption><p>Basic mobile app menu. You may be seeing more or fewer options depending on your settings and location.</p></figcaption></figure>
 
 Information on how to access street views can be found further below.
 
@@ -41,7 +41,7 @@ Information on how to access street views can be found further below.
 
 When sufficiently zoomed in, a 2D / 3D selection button will become available in the lower right side of the screen.
 
-<figure><img src=".gitbook/assets/3d_models.png" alt=""><figcaption><p>2D (top) and 3D (bottom) maps of the same area in Dandong City.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/3d_models.png" alt=""><figcaption><p>2D (top) and 3D (bottom) maps of the same area in Dandong City.</p></figcaption></figure>
 
 Tencent Maps has API documentation available for [switching between 2D/3D models](https://lbs.qq.com/webDemoCenter/glAPI/glMap/map3d) and for [showing 3D buildings](./#url).
 
@@ -59,12 +59,12 @@ Steps:
 
 1. Select **Layers > Street View** (see [**Annotated Menu - mobile app**](./#annotated-menu-mobile)). The blue lines along the roads indicate that street view is available.
 
-<figure><img src=".gitbook/assets/streetview_bluelines (1).png" alt=""><figcaption><p>(English annotation added) The blue lines indicate where street views should be available. Notice that the pin is always in the middle. Move the map, not the pin.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/streetview_bluelines (1).png" alt=""><figcaption><p>(English annotation added) The blue lines indicate where street views should be available. Notice that the pin is always in the middle. Move the map, not the pin.</p></figcaption></figure>
 
 2. Move the map to where you want to see the street view. Please note: **To see the street view of another location,&#x20;**_**move the map, not the pin**_**.**
 3. A location description is shown. Click the rectangle to enter street view.
 
-<figure><img src=".gitbook/assets/streetview_example.png" alt="" width="563"><figcaption><p>Example of Tencent Maps street view</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/streetview_example.png" alt="" width="563"><figcaption><p>Example of Tencent Maps street view</p></figcaption></figure>
 
 Two limitations to be aware of:
 

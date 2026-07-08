@@ -16,11 +16,11 @@ description: >-
 
 BskyFollowFinder is a small web app for Bluesky that surfaces **second‑degree** connection suggestions: it lists accounts that many of your followees follow but that **you** don’t (yet). You can run it on **any handle** (including other users) without logging in; an optional app password lets you follow results directly from the page. Output is a ranked list by count, with a toggle to **“Sort by proportion (favours niche accounts)”** that highlights less‑popular but highly shared follows among your network.
 
-&#x20;By leveraging Bluesky’s [AT Protocol API](https://docs.bsky.app/docs/advanced-guides/atproto), the tool automates social network analysis to recommend potential new follows. This provides valuable insight into your network by ranking suggestions based on the frequency they appear among your followees.
+By leveraging Bluesky’s [AT Protocol API](https://docs.bsky.app/docs/advanced-guides/atproto), the tool automates social network analysis to recommend potential new follows. This provides valuable insight into your network by ranking suggestions based on the frequency they appear among your followees.
 
 This functionality can be useful for open source researchers, investigative journalists, and analysts who need to map social relationships, identify key influencers, and understand community structures on the platform.
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>
 
 #### Key Features:
 
@@ -108,9 +108,9 @@ Beginner‑friendly, point‑and‑click web UI. Enter a Bluesky handle and revi
 
 * **"One-Hop" Analysis only:** BskyFollowFinder examines only the user’s direct connections (the accounts they follow or who follow them) and doesn’t delve into “friends of friends” or deeper network layers.
 * **No Graph Visualization:** Outputs are provided as a ranked list; it does not generate visual network maps like [Gephi ](https://bellingcat.gitbook.io/toolkit/more/all-tools/gephi)or [Maltego](https://bellingcat.gitbook.io/toolkit/more/all-tools/maltego).
-* **Performance:** Processing can be slow for high‑follower accounts (the app must compile many lists).&#x20;
-* **Rate limits:** Subject to Bluesky/AT Protocol limits (write & other limits vary by service); heavy use or bursts may trigger throttling.&#x20;
-* **Maintenance/versions:** No tagged releases; repo shows updates through 2024‑11‑18; license not stated (unknown).&#x20;
+* **Performance:** Processing can be slow for high‑follower accounts (the app must compile many lists).
+* **Rate limits:** Subject to Bluesky/AT Protocol limits (write & other limits vary by service); heavy use or bursts may trigger throttling.
+* **Maintenance/versions:** No tagged releases; repo shows updates through 2024‑11‑18; license not stated (unknown).
 
 ## Ethical Considerations
 

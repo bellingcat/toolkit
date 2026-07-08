@@ -16,13 +16,13 @@ description: >-
 
 This tool helps users visualize train destinations within Europe. When users hover the cursor over a city or a particular train station on the map, Chronotrains unveils a map where concentric zones radiate outward. This depicts all the destinations reachable by train within a chosen duration of up to eight hours.
 
-<figure><img src=".gitbook/assets/2025-12-04_15-43-08-newlarge.gif" alt=""><figcaption><p>Chronotrains can be used in two primary ways: (1) Users can hover their mouse over a particular location (or starting point) and the map will show all the possible destinations by train. (2) A second way is to click on a specific station and it will show all the results. In this second example, I clicked on the city of Bordeaux, and a range of colors appeared. These correspond to the different travel times, 1 hour (darkest green) up to 8 hours (lightest green). Users can also click on the left panel to select the different times they are interested in. As shown here, I selected 1 hour from Bordeaux, followed by 2 hours, etc. (<em>Image from Chronotrains.com</em>)</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2025-12-04_15-43-08-newlarge.gif" alt=""><figcaption><p>Chronotrains can be used in two primary ways: (1) Users can hover their mouse over a particular location (or starting point) and the map will show all the possible destinations by train. (2) A second way is to click on a specific station and it will show all the results. In this second example, I clicked on the city of Bordeaux, and a range of colors appeared. These correspond to the different travel times, 1 hour (darkest green) up to 8 hours (lightest green). Users can also click on the left panel to select the different times they are interested in. As shown here, I selected 1 hour from Bordeaux, followed by 2 hours, etc. (<em>Image from Chronotrains.com</em>)</p></figcaption></figure>
 
 **Using the Map:**
 
 1. Click on the choice of All Trains or Night Trains
 
-<figure><img src=".gitbook/assets/2025-12-04_15-34-52.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2025-12-04_15-34-52.png" alt=""><figcaption></figcaption></figure>
 
 2. Type or click on any train station to set it as your starting point.
 3. Select the amount of time you want to travel (e.g., minimum 1 hour, up to 8 hours maximum).
@@ -30,7 +30,7 @@ This tool helps users visualize train destinations within Europe. When users hov
 
 * As of Dec 2024, the map may sometimes include not just information on the approximate travel time but also the trip's price.
 
-<figure><img src=".gitbook/assets/Screenshot 2024-12-08 235600.png" alt=""><figcaption><p>If the data is available, the map will sometimes show not just the approximate travel time but also the price. Click to enlarge the the map of Krakow, Poland for a sample of this new map feature.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-12-08 235600.png" alt=""><figcaption><p>If the data is available, the map will sometimes show not just the approximate travel time but also the price. Click to enlarge the the map of Krakow, Poland for a sample of this new map feature.</p></figcaption></figure>
 
 **Exploring Options:**
 
@@ -50,7 +50,7 @@ This tool helps users visualize train destinations within Europe. When users hov
 
 How it works: According to the tool’s [website](https://www.chronotrains.com/en/8), this map integrates data from [Deutsche Bahn](https://www.bahn.de/) through [Direkt Bahn Guru](https://direkt.bahn.guru/).
 
-<figure><img src=".gitbook/assets/Chronotrains- SuggestionSample.png" alt=""><figcaption><p>In addition to the interactive map, to the left (or sometimes the bottom, depending on your screen display) you will see further location suggestions. Once you have clicked on your station or city of interest, this feature will appear in addition to the color-coded isochrones on the map.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Chronotrains- SuggestionSample.png" alt=""><figcaption><p>In addition to the interactive map, to the left (or sometimes the bottom, depending on your screen display) you will see further location suggestions. Once you have clicked on your station or city of interest, this feature will appear in addition to the color-coded isochrones on the map.</p></figcaption></figure>
 
 ### Possible use cases
 

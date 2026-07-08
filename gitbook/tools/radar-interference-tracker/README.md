@@ -5,7 +5,7 @@ description: >-
   active military radar systems.
 ---
 
-# Radar Interference Tracker (RIT)
+# Radar Interference Tracker
 
 ## URL
 
@@ -21,11 +21,11 @@ The tracker exploits a known flaw in Sentinel-1 SAR imagery. Military radar syst
 
 Each of the two Sentinel-1 satellites captures the radar imagery from different angles, in some cases visualizing interferences as an X. Where two interference lines intersect, the location of interference source will be positioned within the area common to both lines. Note that the user will still need to search visually for the source to confirm its existence and exact location within that common area.
 
-<figure><img src=".gitbook/assets/Screenshot 2026-06-21 at 4.37.05 PM.png" alt=""><figcaption><p>Example of Sentinel 1 interference over multiple passes, creating an X on the potential interference location</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-06-21 at 4.37.05 PM.png" alt=""><figcaption><p>Example of Sentinel 1 interference over multiple passes, creating an X on the potential interference location</p></figcaption></figure>
 
 The interference areas on the SAR imagery show up only if the source of the inteference is turned on. It is possible to have only one stripe of interference, in which case, the land area to search visually is only reduced to the length and width of the interference stripe. Furthermore, since each location on the planet is passed over once every 6 days by one of the satellites, it is possible a radar interference will not be captured if a system is activated between each satellite visit.
 
-<figure><img src=".gitbook/assets/Screenshot 2026-06-21 at 5.37.56 PM.png" alt=""><figcaption><p>Example of where only one interference stripe appears, thus requiring a larger visual satellite search to find the source of the interference.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-06-21 at 5.37.56 PM.png" alt=""><figcaption><p>Example of where only one interference stripe appears, thus requiring a larger visual satellite search to find the source of the interference.</p></figcaption></figure>
 
 ### Examples
 
@@ -52,13 +52,13 @@ Although the RIT tool can help hone in on areas of interest, a manual search of 
 4. Visit Example Location
 5. Map Interface
 
-<figure><img src=".gitbook/assets/Screenshot 2026-06-21 at 5.45.52 PM (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-06-21 at 5.45.52 PM (1).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="1. Search bar" %}
 The search bar enables searches of the map by the name of an address or a general location, such as a city. Note that entering coordinates in the Search Bar doesn't seem to work well. Instead, try entering them manually in the website address.
 
-<figure><img src=".gitbook/assets/Screenshot 2026-06-21 at 6.20.01 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-06-21 at 6.20.01 PM.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="2. Radio Frequency Interference" %}
@@ -72,7 +72,7 @@ The spikes on the y-axis represent the interference. You can click on the points
 
 You can make the graph bigger by clicking on the expand button on the top right.
 
-<figure><img src=".gitbook/assets/Screenshot 2026-06-21 at 6.36.14 PM.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-06-21 at 6.36.14 PM.png" alt="" width="375"><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="3. Aggregation" %}
@@ -97,7 +97,7 @@ If you'd like to see prior known examples of radar systems, as described by Olli
 
 The screenshot below shows the White Sands Missile Range, USA example included with the radar interference tool.
 
-<figure><img src=".gitbook/assets/Screenshot 2024-08-08 at 1.55.25 PM.png" alt="Screenshot using the White Sands Missile Range, USA radar interference example in the radar interference tracker. The map show a satellite image of the area overlayed with a coloured stripe indicating the radar interference."><figcaption><p>Screenshot of White Sands Missile Range, USA radar interference</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-08-08 at 1.55.25 PM.png" alt="Screenshot using the White Sands Missile Range, USA radar interference example in the radar interference tracker. The map show a satellite image of the area overlayed with a coloured stripe indicating the radar interference."><figcaption><p>Screenshot of White Sands Missile Range, USA radar interference</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="5. Map Interface " %}

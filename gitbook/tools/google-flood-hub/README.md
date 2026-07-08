@@ -19,7 +19,7 @@ Additionally, this tool also has has a model for flood predictions in urban area
 
 As of June 2025, Flood Hub [covers](https://sites.research.google/gr/floodforecasting/) river basins in over 80 countries worldwide, providing critical flood forecasting for over 1,800 sites and, covering a population of 460M people.
 
-<figure><img src=".gitbook/assets/Screenshot 2024-11-21 at 4.18.55 PM.png" alt=""><figcaption><p>View of Pittsburgh, Pennsylvania on Google Flood Hub including current and expected river water and danger levels.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-11-21 at 4.18.55 PM.png" alt=""><figcaption><p>View of Pittsburgh, Pennsylvania on Google Flood Hub including current and expected river water and danger levels.</p></figcaption></figure>
 
 Scrolling around the world map will show different colored pins indicating points of measurement (called river gauges here). Each color represents the level of danger from a flood. The filters can be used to exclude/include the normal river levels and/or the ones marked as warnings and dangerous.
 
@@ -27,7 +27,7 @@ Scrolling around the world map will show different colored pins indicating point
 
 Additionally, you can chose to see lower confidence gauges that do not meet Google's standards for the data necessary for evaluation, but can provide a more complete picture. The default setting shows only the high confidence data, but this can be toggled to show the lower confidence data points.
 
-<figure><img src=".gitbook/assets/Screenshot 2025-02-25 at 8.29.32 PM.png" alt=""><figcaption><p>River gouges for Cuanza River in Angola - regular view (L) and the additional coverage (lower confidence gauges) turned on (R)</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-02-25 at 8.29.32 PM.png" alt=""><figcaption><p>River gouges for Cuanza River in Angola - regular view (L) and the additional coverage (lower confidence gauges) turned on (R)</p></figcaption></figure>
 
 **Inundation probability and Inundation history**
 
@@ -40,7 +40,7 @@ Inundation history shows the frequency of inundation in the past. This helps ide
 * **Maximum latitude:** 43.0
 * **Maximum longitude:** 170.0
 
-<figure><img src=".gitbook/assets/Screenshot 2025-02-25 at 8.54.59 PM.png" alt="" width="375"><figcaption><p>Inundation history around Orinoco River in Venezuela</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-02-25 at 8.54.59 PM.png" alt="" width="375"><figcaption><p>Inundation history around Orinoco River in Venezuela</p></figcaption></figure>
 
 You can find details on how to read the gauge side panel [here](https://support.google.com/flood-hub/answer/15636998?hl=en\&ref_topic=15636596\&sjid=7162562628577014661-EU). To see a gauge panel, click on a gauge pin to find additional information for past trends and forecasts, water level measurements, coordinates and the size of the water basin, among others.
 
@@ -48,7 +48,7 @@ You can find details on how to read the gauge side panel [here](https://support.
 
 This layer displays the likelihood of rapid onset flooding in densely populated urban areas, caused by intense rainfall over a short period of time. The predictions from Google Research are for the coming 24hr period at a [resolution of 20x20 kilometers](https://research.google/blog/protecting-cities-with-ai-driven-flash-flood-forecasting/?_gl=1*xcd5pr*_ga*MTQ1NTUyMzU2Ni4xNzgyNjMxMTAw*_ga_163LFDWS1G*czE3ODI2MzExMDAkbzEkZzEkdDE3ODI2MzE1MDUkajQ0JGwwJGgw).
 
-<figure><img src=".gitbook/assets/Screenshot 2026-06-28 at 10.32.31 AM.png" alt=""><figcaption><p>View of a likely flash flood expected in the north of Switzerland on June 28, 2026 from the Rhine River</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-06-28 at 10.32.31 AM.png" alt=""><figcaption><p>View of a likely flash flood expected in the north of Switzerland on June 28, 2026 from the Rhine River</p></figcaption></figure>
 
 ## Cost
 

@@ -14,7 +14,7 @@ description: >-
 
 ## Description
 
-<div data-full-width="true"><figure><img src=".gitbook/assets/SliderMovingSunANNOTATED (2).gif" alt=""><figcaption><p><strong>USING SUNCALC TO MEASURE THE POSITION OF THE SUN OVER TIME BY DRAGGING THE TIME SLIDER</strong><br><strong>ACROSS THE TOP OF THE SCREEN WITH LEFT MOUSE DOWN</strong></p></figcaption></figure></div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/SliderMovingSunANNOTATED (2).gif" alt=""><figcaption><p><strong>USING SUNCALC TO MEASURE THE POSITION OF THE SUN OVER TIME BY DRAGGING THE TIME SLIDER</strong><br><strong>ACROSS THE TOP OF THE SCREEN WITH LEFT MOUSE DOWN</strong></p></figcaption></figure></div>
 
 <details>
 
@@ -27,7 +27,7 @@ So the perceived trajectory of the sun is the result of the superposition of thr
 
 1. <mark style="color:green;">**Internal Rotation:**</mark> The earth rotates daily around its internal axis.
 
-<img src=".gitbook/assets/earthspin.gif" alt="" data-size="original">
+<img src="../../.gitbook/assets/earthspin.gif" alt="" data-size="original">
 
 _(Image from Giphy , author Dyanapyehchek @dianapietrzyk)_
 
@@ -35,13 +35,13 @@ The position of the sun along its daily trajectory in the sky (measured as chang
 
 2. <mark style="color:green;">**Orbit:**</mark> The earth rotates annually around the sun in an eliptical orbit...
 
-<img src=".gitbook/assets/earthorbit.gif" alt="" data-size="original">
+<img src="../../.gitbook/assets/earthorbit.gif" alt="" data-size="original">
 
 _(Image from Giphy, author BrainPOP @brainpop)_
 
 3. <mark style="color:green;">**Tilt:**</mark> ...at 23.5 degrees to its internal axis of rotation, with the North Pole constantly pointing at the North Star.
 
-<img src=".gitbook/assets/earthtilt.gif" alt="" data-size="original">
+<img src="../../.gitbook/assets/earthtilt.gif" alt="" data-size="original">
 
 _(Image from Giphy, author European Space Agency)_
 
@@ -105,7 +105,7 @@ There are very many use cases for SunCalc in Open Source research because there 
 {% endtab %}
 
 {% tab title="Data Input Options" %}
-<figure><img src=".gitbook/assets/InputTable.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/InputTable.jpg" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -119,11 +119,11 @@ There are very many use cases for SunCalc in Open Source research because there 
 
 <summary>The trajectory of the sun is its path through space. This is defined by the variation in two angles applied to the sun seen in the sky from earth: azimuth angle and elevation angle... (Click for more detail)</summary>
 
-<img src=".gitbook/assets/image (1).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image (1) (1).png" alt="" data-size="original">
 
 **THE AZIMUTH ANGLE OF THE SUN (HORIZONTAL COMPASS BEARING)**
 
-<img src=".gitbook/assets/suncalcelevationSC.jpg" alt="" data-size="original">
+<img src="../../.gitbook/assets/suncalcelevationSC (4).jpg" alt="" data-size="original">
 
 **THE ELEVATION ANGLE OF THE SUN (VERTICAL SEXTANT ANGLE)**
 
@@ -131,7 +131,7 @@ There are very many use cases for SunCalc in Open Source research because there 
 
 ### The SunCalc Interface
 
-<figure><img src=".gitbook/assets/basic interfaceANNOTATED.jpg" alt="" width="563"><figcaption><p><strong>THE SUNCALC INTERFACE MAIN WINDOW WITH EXPLANATORY LABELS</strong></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/basic interfaceANNOTATED.jpg" alt="" width="563"><figcaption><p><strong>THE SUNCALC INTERFACE MAIN WINDOW WITH EXPLANATORY LABELS</strong></p></figcaption></figure>
 
 * The red centre circle shows the selected location over the map, with horizontal and vertical crosswires for accuracy.
 * The sun is shown over the earth as an orange disc.
@@ -142,27 +142,27 @@ There are very many use cases for SunCalc in Open Source research because there 
 
 #### Configuring the Interface Display
 
-<div><figure><img src=".gitbook/assets/Base MapsWITH LOGO.JPG" alt=""><figcaption><p><strong>USERS SELECT THE UNDERLAY MAP FOR SUNCALC FROM THE MENU UNDER THE TOP RIGHT MAP ICON</strong></p></figcaption></figure> <figure><img src=".gitbook/assets/MENU TOP LEFT.jpg" alt="" width="209"><figcaption><p><strong>USERS CONFIGURE THE INTERFACE FROM THE MENU UNDER THE TOP LEFT MENU ICON</strong></p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/Base MapsWITH LOGO.JPG" alt=""><figcaption><p><strong>USERS SELECT THE UNDERLAY MAP FOR SUNCALC FROM THE MENU UNDER THE TOP RIGHT MAP ICON</strong></p></figcaption></figure> <figure><img src="../../.gitbook/assets/MENU TOP LEFT.jpg" alt="" width="209"><figcaption><p><strong>USERS CONFIGURE THE INTERFACE FROM THE MENU UNDER THE TOP LEFT MENU ICON</strong></p></figcaption></figure></div>
 
 Menu buttons top left and top right of the map display show menus to toggle overlays for night, eclipse, and date and for distance measurement (Top Left Option Icon) and to set the source of the base map from 4 options (Top Right Layer Icon). See menus above.
 
 ### Objects and Their Shadows: SunCalc Shadow Length Feature
 
-<figure><img src=".gitbook/assets/SUNCALCTRAILSscjpg.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/SUNCALCTRAILSscjpg (1).jpg" alt=""><figcaption></figcaption></figure>
 
 Open Source Imagery often contains shadows in the same image as the object which cast them. Trigonometry can be used to relate the height of the object, the length of the shadow and the angle of elevation of the sun. It is the elevation angle of the sun which determines the ratio of the height of an object to the height of the shadow it casts.
 
 {% hint style="danger" %}
 Beware: For accurate results, the object in a source image and the shadow it casts must be at right angles (i.e. orthogonal) to the camera. A useful tool for dealing with angles in imagery is a transparent digital protractor. The example below can be copied and pasted for personal use and is provided under a creative commons licence by pngall.com at [https://www.pngall.com/protractor-png/download/13598](https://www.pngall.com/protractor-png/download/135986)
 
-<img src=".gitbook/assets/Protractor-Transparent.png" alt="" data-size="original">
+<img src="../../.gitbook/assets/Protractor-Transparent.png" alt="" data-size="original">
 
 These transparent protractor images can also be found online and be transformed in 3D by graphics programs to rotate to an angle which compensates for non-orthogonal shadow images, but some accuracy is lost. Above is a digital protractor in \*.png format to preserve transparency so that measurements can be made whilst the image beneath is visible.
 {% endhint %}
 
 **SunCalc Shadow Length Function** allows the user to input the height of an object at the chosen location, and then displays the length of the shadow of that object for the given location, date and time. This shadow length is displayed above the input window for object height.
 
-<figure><img src=".gitbook/assets/image (5).png" alt="" width="563"><figcaption><p><strong>SETTING OBJECT HEIGHT FOR SHADOW LENGTH CALCULATION</strong></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (7).png" alt="" width="563"><figcaption><p><strong>SETTING OBJECT HEIGHT FOR SHADOW LENGTH CALCULATION</strong></p></figcaption></figure>
 
 To open the input window for shadow length, click on the Object Level text input window in the sidebar, then enter text or use the buttons to set the object height - see above.
 
@@ -170,11 +170,11 @@ To open the input window for shadow length, click on the Object Level text input
 
 This animated graphic is generated by SunCalc for location Eiffel Tower, Paris, France. A still photograph taken from that exact location at a known date and time is shown below for comparison. The last graphic shows how to generate the animated graphic in SunCalc.
 
-<figure><img src=".gitbook/assets/SuncalcEiffelTower300m.gif" alt=""><figcaption><p><strong>RUNNING SUNCALC'S SHADOW ANIMATION FOR THE 300M EIFFEL TOWER FOR COMPARISON WITH A DOCUMENTED PHOTOGRAPH ON SHADOW DIRECTION AND LENGTH</strong></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/SuncalcEiffelTower300m.gif" alt=""><figcaption><p><strong>RUNNING SUNCALC'S SHADOW ANIMATION FOR THE 300M EIFFEL TOWER FOR COMPARISON WITH A DOCUMENTED PHOTOGRAPH ON SHADOW DIRECTION AND LENGTH</strong></p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/sourceShadowEiffel.JPG" alt=""><figcaption><p><strong>EIFFEL TOWER SHADOW PHOTOGRAPH BY STEVE FROM TEXAS</strong> <a href="https://www.flickr.com/people/8666640@N06"><strong>https://www.flickr.com/people/8666640@N06</strong></a> <strong>FROM WIKIMEDIA WEBSITE</strong> <a href="https://commons.wikimedia.org/wiki/File:Shadow_of_the_Eiffel_Tower,_Paris_6_July_2016.jpg"><strong>https://commons.wikimedia.org/wiki/File:Shadow_of_the_Eiffel_Tower,_Paris_6_July_2016.jpg</strong></a><br><strong>LOCATION = EIFFEL TOWER, PARIS, FRANCE. DATE = 3/7/16, TIME = 07:35 (TEXAS TIME, I.E. 14:35 PARIS TIME)</strong><br><strong>NOTE THAT THE SHADOW DIRECTION MATCHES AT 14:35 PARIS TIME BECAUSE THE MOBILE CAMERA IS ON TEXAS TIME</strong></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/sourceShadowEiffel.JPG" alt=""><figcaption><p><strong>EIFFEL TOWER SHADOW PHOTOGRAPH BY STEVE FROM TEXAS</strong> <a href="https://www.flickr.com/people/8666640@N06"><strong>https://www.flickr.com/people/8666640@N06</strong></a> <strong>FROM WIKIMEDIA WEBSITE</strong> <a href="https://commons.wikimedia.org/wiki/File:Shadow_of_the_Eiffel_Tower,_Paris_6_July_2016.jpg"><strong>https://commons.wikimedia.org/wiki/File:Shadow_of_the_Eiffel_Tower,_Paris_6_July_2016.jpg</strong></a><br><strong>LOCATION = EIFFEL TOWER, PARIS, FRANCE. DATE = 3/7/16, TIME = 07:35 (TEXAS TIME, I.E. 14:35 PARIS TIME)</strong><br><strong>NOTE THAT THE SHADOW DIRECTION MATCHES AT 14:35 PARIS TIME BECAUSE THE MOBILE CAMERA IS ON TEXAS TIME</strong></p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/animationbutton.jpg" alt="" width="563"><figcaption><p><strong>CLICK THE TIME INPUT BUTTON ON THE INTERFACE, THEN THE START ANIMATION BUTTON ON THE "SET TIME" WINDOW</strong></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/animationbutton.jpg" alt="" width="563"><figcaption><p><strong>CLICK THE TIME INPUT BUTTON ON THE INTERFACE, THEN THE START ANIMATION BUTTON ON THE "SET TIME" WINDOW</strong></p></figcaption></figure>
 
 SunCalc can run an animation showing the sun's daylight trajectory over time from dawn to dusk for the day and location chosen in the sidebar. This is activated from the Time Input Window as shown above.
 
@@ -234,7 +234,7 @@ Torsten Hoffmann, [Hoffisoft](https://www.torsten-hoffmann.de/web.html), Germany
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-<figure><img src=".gitbook/assets/Cookie Notice jun 26.jpg" alt=""><figcaption><p><strong>SUNCALC'S 2026 COOKIE POLICY WINDOW WITH USER SELECTION.</strong></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Cookie Notice jun 26.jpg" alt=""><figcaption><p><strong>SUNCALC'S 2026 COOKIE POLICY WINDOW WITH USER SELECTION.</strong></p></figcaption></figure>
 
 In 2025, SunCalc began to use detectable cookies, and therefore added a user choice window on cookies, which has been updated to name the Strictly Necessary Cookies in 2026. This gives users control over their risk from tracking activity and allows them to minimise it.
 

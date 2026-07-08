@@ -29,11 +29,11 @@ Developed by the Alliance for Securing Democracy (ASD) with contributions from t
 
 {% tabs %}
 {% tab title="Content Similarity Search" %}
-<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption><p>"Content Similarity” input form: shows how to enter a URL or text snippet, select a country, language, and search engines, and then run a search for reprinted or near-identical content</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (5).png" alt=""><figcaption><p>"Content Similarity” input form: shows how to enter a URL or text snippet, select a country, language, and search engines, and then run a search for reprinted or near-identical content</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Results" %}
-<figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption><p>“Results with Similar Titles or Content”: a table listing domains, article titles, text snippets, and match percentages, illustrating how the tool surfaces sites sharing overlapping text from the query.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (3).png" alt=""><figcaption><p>“Results with Similar Titles or Content”: a table listing domains, article titles, text snippets, and match percentages, illustrating how the tool surfaces sites sharing overlapping text from the query.</p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -43,11 +43,11 @@ Developed by the Alliance for Securing Democracy (ASD) with contributions from t
 
 {% tabs %}
 {% tab title="Metadata Similarity Search" %}
-<figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption><p>“Metadata Similarity” input form: displays fields to enter one or more domains, along with options like ‘Run URLSCAN’ or ‘In-group matching,’ enabling users to detect shared technical indicators among websites.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (2).png" alt=""><figcaption><p>“Metadata Similarity” input form: displays fields to enter one or more domains, along with options like ‘Run URLSCAN’ or ‘In-group matching,’ enabling users to detect shared technical indicators among websites.</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Results" %}
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption><p>“Indicators” results page: a color-coded table (Tier 1 in green, Tier 2 in yellow, Tier 3 in teal) detailing unique or moderate-to-weak indicators (certificates, IPs, subnets, cookies, etc.) found for the queried domain(s).</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (4).png" alt=""><figcaption><p>“Indicators” results page: a color-coded table (Tier 1 in green, Tier 2 in yellow, Tier 3 in teal) detailing unique or moderate-to-weak indicators (certificates, IPs, subnets, cookies, etc.) found for the queried domain(s).</p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -281,7 +281,7 @@ By combining these searches, users can quickly spot patterns of content launderi
 
 {% tabs %}
 {% tab title="Image Similarity" %}
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 

@@ -38,15 +38,15 @@ RuPEP says the data is collated from public sources and includes databases of in
 
 A PEP's page will start with biographical and sanctions information:
 
-<figure><img src=".gitbook/assets/Screenshot 2026-05-06 at 14.46.27.png" alt=""><figcaption><p>The top of a PEP's page</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-05-06 at 14.46.27.png" alt=""><figcaption><p>The top of a PEP's page</p></figcaption></figure>
 
 On the left, the sections of information on this page are listed. On the right are listed alternative spellings for the PEP's name. In the centre, the sanctions information is well curated: It includes a last checked date, and hyperlinks to sources:
 
-<figure><img src=".gitbook/assets/Screenshot 2026-01-12 at 11.49.22.png" alt=""><figcaption><p>Click on the 'i' icon to get more information about those sanctions</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-01-12 at 11.49.22.png" alt=""><figcaption><p>Click on the 'i' icon to get more information about those sanctions</p></figcaption></figure>
 
 Lower on the page, each PEP has a network visualisation:
 
-<figure><img src=".gitbook/assets/Screenshot 2025-10-22 at 15.03.28.png" alt=""><figcaption><p>The network visualisation shows various entities (PEPs and organisations such as companies) and the relationships between them</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-10-22 at 15.03.28.png" alt=""><figcaption><p>The network visualisation shows various entities (PEPs and organisations such as companies) and the relationships between them</p></figcaption></figure>
 
 On the diagram you can:
 
@@ -56,7 +56,7 @@ On the diagram you can:
 
 RuPEP might indicate that more information is available in the Russian version of the site, so rather use that one if you can (e.g. by getting your browser to translate the page):
 
-<figure><img src=".gitbook/assets/Screenshot 2024-09-27 at 09.12.40.png" alt=""><figcaption><p>Sections in the PEP's page might say that more is available in the Russian version</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-09-27 at 09.12.40.png" alt=""><figcaption><p>Sections in the PEP's page might say that more is available in the Russian version</p></figcaption></figure>
 
 If you stick with the English version, keep an eye out for 'more information is available in ru version of the dossier' links (outlined in green above).
 
@@ -64,15 +64,15 @@ If you stick with the English version, keep an eye out for 'more information is 
 
 You can also search RuPEP for legal entities (companies and organisations). Here are some of the results for a search on Gazprom:
 
-<figure><img src=".gitbook/assets/Screenshot 2024-10-02 at 09.29.10.png" alt=""><figcaption><p>Legal entity search results for a search for Gazprom</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-10-02 at 09.29.10.png" alt=""><figcaption><p>Legal entity search results for a search for Gazprom</p></figcaption></figure>
 
 The legal entity page contains links to page sections on the left, and some basic entity information:
 
-<figure><img src=".gitbook/assets/Screenshot 2026-05-06 at 15.15.55.png" alt=""><figcaption><p>Legal entity's page</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-05-06 at 15.15.55.png" alt=""><figcaption><p>Legal entity's page</p></figcaption></figure>
 
 The legal entity network visualisation, like the one for PEPs, allows you to: Zoom in more more detail, click on the icons to see the details of the people or entities with which the legal entity has relationships, and view the nature of the relationship by hovering over the line:
 
-<figure><img src=".gitbook/assets/Screenshot 2024-10-02 at 09.43.15.png" alt=""><figcaption><p>Legal entity network visualisation</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-10-02 at 09.43.15.png" alt=""><figcaption><p>Legal entity network visualisation</p></figcaption></figure>
 
 ## Cost
 
@@ -98,7 +98,7 @@ The data is obviously limited to Russia, Belarus and Kazakhstan. If you want to 
 
 It appears that the home page search provides more comprehensive results than the search function in the top right of the page:
 
-<figure><img src=".gitbook/assets/Screenshot 2026-07-01 at 11.21.44.png" alt=""><figcaption><p>The home page search, circled in green, is preferable to the search at the top right of the site (marked in red)</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-07-01 at 11.21.44.png" alt=""><figcaption><p>The home page search, circled in green, is preferable to the search at the top right of the site (marked in red)</p></figcaption></figure>
 
 ## Ethical Considerations
 

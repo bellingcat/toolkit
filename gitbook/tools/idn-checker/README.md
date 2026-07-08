@@ -25,7 +25,7 @@ IDN Checker helps identify and investigate such domains. Specific applications i
 
 In order to start searching, you simply need to input the domain name and TLD in the appropriate fields, as in the example below:
 
-<figure><img src=".gitbook/assets/IDNchecker1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/IDNchecker1.png" alt=""><figcaption></figcaption></figure>
 
 _(Search example for the target domain bellingcat.com)_
 
@@ -33,13 +33,13 @@ Once the target domain search is submitted, IDN Checker will provide a list of a
 
 **Yellow warnings** identify suspicious domains using internationalized characters that are **not yet registered,** but are available for registration.
 
-<figure><img src=".gitbook/assets/IDNchecker2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/IDNchecker2.png" alt=""><figcaption></figcaption></figure>
 
 _(Yellow warning for the target domain bellingcat.com, indicating homograph domains which are not yet registered)_
 
 **Red alerts** identify suspicious homograph domains that are **currently or were** **registered**, and are or were therefore possibly used maliciously.
 
-<figure><img src=".gitbook/assets/IDNchecker3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/IDNchecker3.png" alt=""><figcaption></figcaption></figure>
 
 _(Red alert for the target domain google.com, indicating existing registered homograph domains)_
 
@@ -51,7 +51,7 @@ For each warning or alert, IDN Checker will provide the internationalized domain
 
 This is important because the punycode of a domain may be used for automated detection, monitoring and filtering of such domains.
 
-<div><figure><img src=".gitbook/assets/IDNchecker4.png" alt=""><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/IDNchecker5.png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/IDNchecker4.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/IDNchecker5.png" alt=""><figcaption></figcaption></figure></div>
 
 _(Warning/alert displaying homograph domains along with their punycode representation)_
 

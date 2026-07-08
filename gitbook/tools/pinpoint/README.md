@@ -16,7 +16,7 @@ description: >-
 
 Pinpoint is an AI-powered research tool designed to assist journalists and academics in structuring and analysing large document collections. Within Pinpoint, users can upload and search through documents, images, emails, handwritten notes, and transcriptions of audio files; pinpoint extracts entities as keywords, locations, organisations, and person names. It supports both manual document labeling (tagging by subject or other custom definition) and automated entity extraction, so users can search by fields like date, sender, etc. Pinpoint is part of the [Journalist Studio](https://journaliststudio.google.com/), Google’s free tool kit for research, data analysis and data visualisation.
 
-<figure><img src=".gitbook/assets/Screenshot 2024-11-12 at 1.51.56 PM.png" alt=""><figcaption><p>Upload documents to a Pinpoint collection and it will convert to pdf and automatically extract persons, organisations and locations.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-11-12 at 1.51.56 PM.png" alt=""><figcaption><p>Upload documents to a Pinpoint collection and it will convert to pdf and automatically extract persons, organisations and locations.</p></figcaption></figure>
 
 Since June 2026, Google Pinpoint's basic features are open to anyone with a Google account. Pinpoint Professional is still aimed at journalists and academics and offers more storage (100 GB vs 1 GB), high priority in processing queues and early access to new features.
 
@@ -28,7 +28,7 @@ Its [extract structured data](https://support.google.com/pinpoint/answer/1301234
 
 For example, using Pinpoint, you can search for mentions of keywords like "abuse" or "violence" in [Washington Post's public collection of COVID-19 Nursing Home Inspections](https://journaliststudio.google.com/pinpoint/search?collection=989c939c11b20432). Named entities inside the documents as persons, organisations and locations are recognised automatically and can be used as filters.
 
-<figure><img src=".gitbook/assets/Screenshot 2026-06-27 at 13.32.56.png" alt=""><figcaption><p>Collections can be private or published so that they are available to the public via <a href="https://journaliststudio.google.com/pinpoint/explore">Explore</a>.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-06-27 at 13.32.56.png" alt=""><figcaption><p>Collections can be private or published so that they are available to the public via <a href="https://journaliststudio.google.com/pinpoint/explore">Explore</a>.</p></figcaption></figure>
 
 Collections from your workspace can also be published so that they are searchable for everyone, also without a Google or Pinpoint account or login.
 
@@ -48,7 +48,7 @@ Collections from your workspace can also be published so that they are searchabl
 * Journalists and academics with a Google account can [request access ](https://journaliststudio.google.com/pinpoint/requestaccess)to Pinpoint Professional. Google asks applicants to clarify their role, organisation and proof of work; it is not clear how this information is used or verified.
 * Researchers can apply through [this form](https://docs.google.com/forms/d/e/1FAIpQLSd2owbRY5gLj6iXDSgPrPapsPoFo4xD2VLmrAhJ24d-Isq1xQ/viewform) for early access to generative AI features.
 
-<figure><img src=".gitbook/assets/Screenshot 2026-06-27 at 14.37.18.png" alt=""><figcaption><p>The sign-up process requires information like the user's full name, name of the employer and proof of work.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-06-27 at 14.37.18.png" alt=""><figcaption><p>The sign-up process requires information like the user's full name, name of the employer and proof of work.</p></figcaption></figure>
 
 ## Limitations
 
@@ -62,13 +62,13 @@ Collections from your workspace can also be published so that they are searchabl
 * Exercise caution and/or check with your parent organization before uploading sensitive or proprietary information, documents and data into Pinpoint.
 * Pinpoint has experimental features that use Google's [Generative AI solutions](https://support.google.com/pinpoint/answer/14338615?hl=en). Google's AI training disclosure is ambiguous and there is no opt-out.
 
-<figure><img src=".gitbook/assets/Screenshot 2026-06-27 at 14.58.14.png" alt=""><figcaption><p>Google's article <a href="https://support.google.com/pinpoint/answer/14338615?hl=en">Use generative AI to research documents </a>in Pinpoint (27 June 2026)</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-06-27 at 14.58.14.png" alt=""><figcaption><p>Google's article <a href="https://support.google.com/pinpoint/answer/14338615?hl=en">Use generative AI to research documents </a>in Pinpoint (27 June 2026)</p></figcaption></figure>
 
 * According to [Pinpoint Additional Terms of Service](https://support.google.com/pinpoint/answer/13071911?hl=en), "if you upload content to Pinpoint, you give Google permission to use that content, including to operate and promote Pinpoint, in accordance with the [Google Terms of Service](https://policies.google.com/terms) and Google’s Privacy Policy."
 
 Google does also [state](https://support.google.com/pinpoint/answer/14338615?hl=en) that the uploaded documents are private by default - unless actively published - and will not be used for training Large Language Models (LLMs). However, all uploaded files are copied to Google's servers and processed by Gemini.
 
-<figure><img src=".gitbook/assets/unknown.png" alt=""><figcaption><p>Be aware that alll uploaded files are copied and processed with Gemini.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/unknown (7).png" alt=""><figcaption><p>Be aware that alll uploaded files are copied and processed with Gemini.</p></figcaption></figure>
 
 ## Guides and articles
 

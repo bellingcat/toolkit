@@ -1,6 +1,6 @@
 ---
-description: A guide to using map and satellite tools.
 updated: '2026-03-17'
+description: A guide to using map and satellite tools.
 ---
 
 # About Maps and Satellites
@@ -17,7 +17,7 @@ This section describes some of these general issues whilst the individual tools 
 
 Maps are inherently political artefacts. Many maps explicitly define borders of countries but the politics of mapping goes much deeper than this. A classic example of this is the reversal of the North South map shown below:
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>NASA, <a href="https://commons.wikimedia.org/wiki/File:World_upside_down.jpg">https://commons.wikimedia.org/wiki/File:World_upside_down.jpg</a>, Public Domain</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (19).png" alt=""><figcaption><p>NASA, <a href="https://commons.wikimedia.org/wiki/File:World_upside_down.jpg">https://commons.wikimedia.org/wiki/File:World_upside_down.jpg</a>, Public Domain</p></figcaption></figure>
 
 Bias towards the Global North can produce inaccuracy in reporting and research. The way maps are drawn also often reflects this bias.
 

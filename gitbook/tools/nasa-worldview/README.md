@@ -56,7 +56,7 @@ Only available as a web application.
 
 Example of a search results for the term _Amsterdam_
 
-<figure><img src=".gitbook/assets/Screenshot 2026-06-25 101227.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-06-25 101227.png" alt=""><figcaption></figcaption></figure>
 
 Platform updates and changes [https://github.com/nasa-gibs/worldview/releases/](https://github.com/nasa-gibs/worldview/releases/)
 

@@ -19,33 +19,33 @@ Sanctions Explorer derives its data from the following four sources: [Historical
 
 The data contains sanctioned individuals, entities, vessels and aircraft. To search for any of these categories, type a keyword in the search bar. The search is designed to also run "fuzzy" keywords - words that are only a few characters different than the search query. For example, the words 'Hong' and 'Hone' only differ by one letter. Matches are sorted by relevance and get more inexact the further you scroll. Source: [SanctionsExporer FAQ](https://sanctionsexplorer.org/faq).
 
-<figure><img src=".gitbook/assets/SE1.png" alt="" width="375"><figcaption><p>Search bar for keyword queries</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/SE1.png" alt="" width="375"><figcaption><p>Search bar for keyword queries</p></figcaption></figure>
 
 * Example of the results using the search query Defense Engineering. The filters on the left can be used to narrow results by organization, individual, vessel or aircraft. At the top right there is an option to export all the search results into a CSV file.
 
-<figure><img src=".gitbook/assets/SE2.png" alt="" width="563"><figcaption><p>Results page for search query Defense Engineering</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/SE2.png" alt="" width="563"><figcaption><p>Results page for search query Defense Engineering</p></figcaption></figure>
 
 Clicking on any of the Entity Names will open the profile for that specific entity.
 
 * An example of what a profile for an organization looks like. The information includes current and previous names of a company of organizations, the date they were registered or incorporated with the relevant authorities in the country, possible addresses and the sanctions they are subject to.
 
-<div><figure><img src=".gitbook/assets/SE3.png" alt=""><figcaption><p>Profile for Defense Engineering Solutions. Click to expand and view explanation notes.</p></figcaption></figure> <figure><img src=".gitbook/assets/SE4.png" alt=""><figcaption><p>Profile for Defense Engineering Solutions. Click to expand and view explanation notes.</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/SE3.png" alt=""><figcaption><p>Profile for Defense Engineering Solutions. Click to expand and view explanation notes.</p></figcaption></figure> <figure><img src="../../.gitbook/assets/SE4.png" alt=""><figcaption><p>Profile for Defense Engineering Solutions. Click to expand and view explanation notes.</p></figcaption></figure></div>
 
 * An example of what a profile for an individual looks like. The information includes the full legal name of an individual including their aliases and variations of their name with different possible spellings, personal data like date and place of birth and the sanctions they are subject to.
 
-<div><figure><img src=".gitbook/assets/SE5.png" alt=""><figcaption><p>Profile for Dmitry Lukashenko. Click to expand and view explanation notes.</p></figcaption></figure> <figure><img src=".gitbook/assets/SE6.png" alt=""><figcaption><p>Profile for Dmitry Lukashenko. Click to expand and view explanation notes.</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/SE5.png" alt=""><figcaption><p>Profile for Dmitry Lukashenko. Click to expand and view explanation notes.</p></figcaption></figure> <figure><img src="../../.gitbook/assets/SE6.png" alt=""><figcaption><p>Profile for Dmitry Lukashenko. Click to expand and view explanation notes.</p></figcaption></figure></div>
 
 * An example of what a profile for a vessel looks like. The information includes the name of the vessel, the country responsible for it, its owner. However, information on vessels is quite limited and additional research is encouraged using other platforms such as [Marine Traffic](https://www.marinetraffic.com/).
 
-<figure><img src=".gitbook/assets/SE7.png" alt="" width="563"><figcaption><p>Profile for Hap Jang Gang vessel. Click to expand and view explanation notes.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/SE7.png" alt="" width="563"><figcaption><p>Profile for Hap Jang Gang vessel. Click to expand and view explanation notes.</p></figcaption></figure>
 
 * An example of what a profile for an aircraft looks like. The information includes the manufacture date, the model of the aircraft (this usually includes the name of manufacturer, but not always), the current and sometimes the previous [tail number](#user-content-fn-1)[^1], and the owner of the aircraft. Please note that to search for aircraft in Sanctions Explorer, you can use either the tail number, the name of the aircraft or the manufacturer (e.g. Airbus, Sikorsky, LockheedMartin, Bell Helicopter, Embraer, Bombardier), or the model (Phenom 300, CRJ100, etc.).
 
-<div><figure><img src=".gitbook/assets/SE8.png" alt=""><figcaption><p>Profile for MSN 615 aircraft. Click to expand and view explanation notes.</p></figcaption></figure> <figure><img src=".gitbook/assets/SE9.png" alt=""><figcaption><p>Profile for MSN 615 aircraft. Click to expand and view explanation notes.</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/SE8.png" alt=""><figcaption><p>Profile for MSN 615 aircraft. Click to expand and view explanation notes.</p></figcaption></figure> <figure><img src="../../.gitbook/assets/SE9.png" alt=""><figcaption><p>Profile for MSN 615 aircraft. Click to expand and view explanation notes.</p></figcaption></figure></div>
 
 * Sanctions Explorer has an [Analytics](https://sanctionsexplorer.org/analytics) section, where you can see statistics for the number of sanctions added over time, by type of entity (aircraft, vessel, individual, organization), the number of sanctions by authority, as well as an interactive map which shows the number of sanctioned entities year by year.
 
-<figure><img src=".gitbook/assets/SE10.png" alt=""><figcaption><p>Interactive map with the number of sanctioned entities by country and over time</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/SE10.png" alt=""><figcaption><p>Interactive map with the number of sanctioned entities by country and over time</p></figcaption></figure>
 
 {% hint style="info" %}
 Searching for delisted/unsanctioned entities is available for data collected from OFAC.

@@ -25,7 +25,7 @@ After creating an account, upload a file or add a video or audio URL by navigati
 
 The advanced "Indexing presets" allow users to configure settings to include models that can help extract insights about entities that are most relevant to their analysis. Some features such as face detection require a subscription.
 
-<figure><img src=".gitbook/assets/Azure step 2.png" alt=""><figcaption><p>Features like "Character recognition" or "Object detection" can be relevant for some types of open source investigations.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Azure step 2.png" alt=""><figcaption><p>Features like "Character recognition" or "Object detection" can be relevant for some types of open source investigations.</p></figcaption></figure>
 
 ## What the Insight Tab shows
 
@@ -33,33 +33,33 @@ To test the tool, we uploaded the video ["Presenting: The Bellingcat Online Open
 
 To use the object detection feature of the Video Indexer tool, users can hover over the video progress bar and click on the black boxes that indicate where objects (from the [list of objects](https://learn.microsoft.com/en-us/azure/azure-video-indexer/object-detection-insight) which the tool knows) were found.
 
-<figure><img src=".gitbook/assets/Screenshot 2025-01-26 at 12.05.15 AM.png" alt=""><figcaption><p>Objects and topics extracted from the footage</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-01-26 at 12.05.15 AM.png" alt=""><figcaption><p>Objects and topics extracted from the footage</p></figcaption></figure>
 
 In our video, the tool identified two objects: A “laptop” which is visible at 0:56 seconds and a “clock”, which is actually the Bellingcat volunteer community logo, at 1:13 seconds. Most likely, the tool misidentified the logo as a “clock” due to its round shape.
 
 In addition, the tool identified "Machine learning" and "Artificial intelligence" as two topics that are discussed in the video (see the screenshot above). It also indexed 30 keywords. Selecting one of the keywords brings up the exact timestamp of when this keyword was mentioned. Users can click on the black boxes on the progress bar to be brought to the relevant section of the video. To see all the instances when a particular keyword is mentioned throughout a video, just click "play next" or "play previous" beneath the progress bar.
 
-<figure><img src=".gitbook/assets/Keywords screenshot.png" alt=""><figcaption><p>The red circles indicate where the keyword occurs. The green rectangles indicate that clicking on the black box in the progress bar takes you the corresponding timestamp in the video.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Keywords screenshot.png" alt=""><figcaption><p>The red circles indicate where the keyword occurs. The green rectangles indicate that clicking on the black box in the progress bar takes you the corresponding timestamp in the video.</p></figcaption></figure>
 
 Highly relevant for open source researchers is the tool's ability to extract faces from video footage. In our example, the tool has identified three individuals who mentioned their names in the video: Fraser, Laura, and Afton. On progress bar on the right, you can select a name to see where that person appears throughout the footage:
 
-<figure><img src=".gitbook/assets/Screenshot 2025-01-25 at 9.49.09 PM.png" alt=""><figcaption><p>The tool is able to extract individuals from video footage.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-01-25 at 9.49.09 PM.png" alt=""><figcaption><p>The tool is able to extract individuals from video footage.</p></figcaption></figure>
 
 The tool is also able to detect "brands." In our case, it has identified GitHub, and tools like "Google Maps" from the toolkit interface that are shown in the footage. If information about entities are incorrect, the details can be edited under the **Insights** tab. Tap the edit icon (a pencil) in the top right corner to make changes.
 
 The tool also analyzes emotions that appear in videos. For instance, according to the tool, our video displays 2.17% of joy. Finally, the tool also tries to give an overview of the different scenes that appear in the footage. In our case it found 13 scenes.
 
-<figure><img src=".gitbook/assets/Screenshot 2025-01-25 at 11.07.51 PM.png" alt=""><figcaption><p>Emotions appearing in the footage</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-01-25 at 11.07.51 PM.png" alt=""><figcaption><p>Emotions appearing in the footage</p></figcaption></figure>
 
 If the Insight section gets too crowded, users can select or deselect various options as shown below:
 
-<figure><img src=".gitbook/assets/Screenshot 2025-01-26 at 12.00.51 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-01-26 at 12.00.51 AM.png" alt=""><figcaption></figcaption></figure>
 
 ## Timeline Section
 
 The timeline section provides a transcript of the video and supports translations into [multiple languages](https://learn.microsoft.com/en-us/azure/azure-video-indexer/language-support). For accuracy, make sure to review the translation. If you are not familiar with the language, cross-check it with native language speakers for verification. The transcription text can also be edited by selecting the pencil icon in the top-right corner. The image below shows the translation from English into Urdu (click on the globe icon for more translation options):
 
-<figure><img src=".gitbook/assets/Screenshot 2025-01-25 at 11.34.04 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-01-25 at 11.34.04 PM.png" alt=""><figcaption></figcaption></figure>
 
 It is also possible to download the results.
 
@@ -87,7 +87,7 @@ It is also important to note that the tool is not able to identify individuals. 
 
 Once a user uploads a video, the tool requires to mark a checkbox that explicitly states: "that use of any facial recognition functionality in this service is not by or for a police department in the United States." In addition, all users need to confirm that they have the rights to use and store the uploaded videos before they use the tool.
 
-<figure><img src=".gitbook/assets/Screenshot 2025-01-26 at 12.20.25 AM.png" alt=""><figcaption><p>The tool requires to check a box before uploading the video</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-01-26 at 12.20.25 AM.png" alt=""><figcaption><p>The tool requires to check a box before uploading the video</p></figcaption></figure>
 
 While Microsoft's Azure AI Video Indexer is able to help with object detection, the supported objects are still limited. Find a list of all supported objects [here](https://learn.microsoft.com/en-us/azure/azure-video-indexer/object-detection-insight).
 

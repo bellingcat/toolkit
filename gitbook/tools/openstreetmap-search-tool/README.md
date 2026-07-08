@@ -19,7 +19,7 @@ With the OpenStreetMap search tool, a researcher can find geolocation leads by s
 
 The example below shows a search for _bridge_ amenities around Amsterdam on a satellite map:
 
-<figure><img src=".gitbook/assets/Screenshot 2024-06-23 at 11.14.25 AM.png" alt="Screenshot of search for bridge amenities around Amsterdam on a satellite map. The image show the selectable tags, a map of Amsterdam with blue dots highlighting the bridges and individual selectable bridges below."><figcaption><p>Screenshot of a search for bridge amenities around Amsterdam.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-06-23 at 11.14.25 AM.png" alt="Screenshot of search for bridge amenities around Amsterdam on a satellite map. The image show the selectable tags, a map of Amsterdam with blue dots highlighting the bridges and individual selectable bridges below."><figcaption><p>Screenshot of a search for bridge amenities around Amsterdam.</p></figcaption></figure>
 
 ### **Example Use Cases**
 

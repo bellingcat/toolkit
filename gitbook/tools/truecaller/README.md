@@ -39,9 +39,9 @@ NOTE: [This requires verifying the user's name to match their bank-registered na
 
 #### _Web Interface vs. App_
 
-Truecaller is one of the few “contact book apps” with a [web interface](https://www.truecaller.com/reverse-phone-number-lookup) and does not require users to use only their mobile app.&#x20;
+Truecaller is one of the few “contact book apps” with a [web interface](https://www.truecaller.com/reverse-phone-number-lookup) and does not require users to use only their mobile app.
 
-To use the web interface, users must first sign in with a Google, Microsoft, or Truecaller account. Then, users can do a limited number of reverse phone number searches before being prompted to download the app.&#x20;
+To use the web interface, users must first sign in with a Google, Microsoft, or Truecaller account. Then, users can do a limited number of reverse phone number searches before being prompted to download the app.
 
 Truecaller does not specify the quota, but based on our tests, only three searches were permitted before getting an “exceeded attempts” message.
 
@@ -124,9 +124,9 @@ Users need to note that when signing up with an email address, users outside the
 
 [Item 1.4 ](https://www.truecaller.com/privacy/our-privacy-policy/privacy-policy/row)of its Privacy Policy showsthat where you get the app matters. If users download it from sources other than the App Store or Google Play, such as on the web, it might collect your contact info if you turn on a specific feature called “Truecaller Enhanced Search Functionality.” If you use the Enhanced Search feature, Truecaller can collect names, phone numbers, Google IDs, and email addresses from your contacts list.
 
-<figure><img src=".gitbook/assets/Screenshot 2024-09-09 172809-marked.png" alt="" width="563"><figcaption><p>(Image Source: truecaller.com) This is the sign-up page for Truecaller for users outside of the EU, geared explicitly towards email address sign-up instead of telephone number sign-up. Users are prompted to sign up with either their Google or Microsoft account. Immediately below, “Enhanced Search” is automatically selected. Any concerns about privacy during an investigation should take note of this feature.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-09-09 172809-marked.png" alt="" width="563"><figcaption><p>(Image Source: truecaller.com) This is the sign-up page for Truecaller for users outside of the EU, geared explicitly towards email address sign-up instead of telephone number sign-up. Users are prompted to sign up with either their Google or Microsoft account. Immediately below, “Enhanced Search” is automatically selected. Any concerns about privacy during an investigation should take note of this feature.</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/Screenshot 2024-09-09 172901.png" alt="" width="563"><figcaption><p>By contrast, users from within the EU do not have the Enhanced Search feature checked at the sign in page.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-09-09 172901.png" alt="" width="563"><figcaption><p>By contrast, users from within the EU do not have the Enhanced Search feature checked at the sign in page.</p></figcaption></figure>
 
 ## Guides
 

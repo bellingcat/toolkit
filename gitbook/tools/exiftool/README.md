@@ -69,7 +69,7 @@ If `exiftool -ver` works anywhere, you can skip this step.
 exiftool -ver
 ```
 
-<div align="left"><figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (64).png" alt=""><figcaption></figcaption></figure></div>
 
 **macOS/Linux**\
 Homebrew and most package-manager installs place `exiftool` on your PATH automatically. Test:
@@ -111,7 +111,7 @@ dir
 exiftool image.jpg
 ```
 
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (13).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -298,14 +298,14 @@ This command checks for any warnings or errors in the metadata structure of `sus
 
 **Install methods**:
 
-* &#x20;**Official downloads** include Windows 32-bit and 64-bit .zip files with Perl bundled, a macOS .pkg installer, and the full Image-ExifTool-13.59.tar.gz Perl distribution.
+* **Official downloads** include Windows 32-bit and 64-bit .zip files with Perl bundled, a macOS .pkg installer, and the full Image-ExifTool-13.59.tar.gz Perl distribution.
 * **Package managers** (e.g., **Homebrew**: `brew install exiftool`; **Arch Linux** package `perl-image-exiftool` 13.36). [Homebrew Formulae](https://formulae.brew.sh/formula/exiftool?utm_source=chatgpt.com)
 * **Auth/tokens**: None; ExifTool runs locally/offline. (Verified in upstream docs.) [exiftool.org](https://exiftool.org/exiftool_pod2.html)
 
 **Supported modules/features (selection)**:
 
-* Read/write EXIF, IPTC, XMP, ICC; extensive MakerNotes.&#x20;
-* Read **C2PA/JUMBF** (not currently writable; JUMBF can be deleted).&#x20;
+* Read/write EXIF, IPTC, XMP, ICC; extensive MakerNotes.
+* Read **C2PA/JUMBF** (not currently writable; JUMBF can be deleted).
 * Timed/video metadata (`-ee` to extract embedded streams). [exiftool.org](https://exiftool.org/exiftool_pod2.html)
 * Output formats: JSON/CSV/XML/HTML; CSV/JSON import for writing. [exiftool.org](https://exiftool.org/exiftool_pod2.html)
 * Geotag from GPX (`-geotag`) and generate GPS track logs. [exiftool.org](https://exiftool.org/)

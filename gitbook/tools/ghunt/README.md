@@ -12,7 +12,7 @@ description: A command line tool for obtaining information about Google accounts
 
 ## Description
 
-<figure><img src=".gitbook/assets/Screenshot 2024-07-29 at 10.49.53 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-07-29 at 10.49.53 PM.png" alt=""><figcaption></figcaption></figure>
 
 GHunt is a local command-line and Python framework for open-source research around Google accounts and Google-linked artefacts. It starts from identifiers such as a Gmail address, GAIA ID, Google Drive file or folder link, Wi-Fi BSSID, or Digital Asset Links data, then queries Google service surfaces and exposed metadata that are reachable to the authenticated session.
 
@@ -22,7 +22,7 @@ The main modules are email, gaia, drive, geolocate, and spiderdal. The email mod
 
 GHunt should be treated as a pivot and enrichment tool, not as a verification tool. Returned account details, service associations, Drive metadata, BSSID locations, and linked assets should be corroborated with other sources before being used in reporting or evidence workflows.
 
-<figure><img src=".gitbook/assets/Screenshot 2024-07-29 at 10.47.52 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-07-29 at 10.47.52 PM.png" alt=""><figcaption></figcaption></figure>
 
 Once authenticated, you have the following search options:
 
@@ -31,7 +31,7 @@ Once authenticated, you have the following search options:
 * **drive**: Get information on a Drive file or folder.
 * **geolocate**: Geolocate a [BSSID](https://www.gorelo.io/blog/what-is-bssid/).
 
-<figure><img src=".gitbook/assets/Screenshot 2024-08-20 at 12.06.20 PM.png" alt=""><figcaption><p>A sample search using a Gmail email address</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-08-20 at 12.06.20 PM.png" alt=""><figcaption><p>A sample search using a Gmail email address</p></figcaption></figure>
 
 ## Cost
 
@@ -85,7 +85,7 @@ You’ll need to be comfortable with the command line, installing Python package
 
 Joseph Jones: [Investigating Google Accounts with GHunt](https://web.archive.org/web/20221116232718/https://os2int.com/toolbox/investigating-google-accounts-with-ghunt/) attempted 2026-06-26;
 
-&#x20; ; [https://addons.mozilla.org/en-US/firefox/addon/ghunt-companion/](https://addons.mozilla.org/en-US/firefox/addon/ghunt-companion/), seen 2026-06-26.
+; [https://addons.mozilla.org/en-US/firefox/addon/ghunt-companion/](https://addons.mozilla.org/en-US/firefox/addon/ghunt-companion/), seen 2026-06-26.
 
 Jake Creps: [OSINT Newsletter - Ghunt](https://osintnewsletter.com/p/ghunt); attempted 2026-06-26;
 

@@ -19,9 +19,9 @@ Baidu Maps offers maps, street view, satellite imagery, and real-time route plan
 
 In the web version, search for a location. To select layers, point your cursor to the bottom-right corner and 3 options will appear (i.e., default map view, satellite image, or street view). Select the layer you wish to explore.
 
-<figure><img src=".gitbook/assets/waigaoqiao_ copy.png" alt=""><figcaption><p>For example, a search for Shanghai's Waigaoqiao (a port and commercial district) will show this view in the web browser.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/waigaoqiao_ copy.png" alt=""><figcaption><p>For example, a search for Shanghai's Waigaoqiao (a port and commercial district) will show this view in the web browser.</p></figcaption></figure>
 
-<div align="center"><figure><img src=".gitbook/assets/baidu_navigation.png" alt="" width="375"><figcaption><p>Navigation to the regular map, satellite image and street view, found at the bottom right corner of the web browser</p></figcaption></figure></div>
+<div align="center"><figure><img src="../../.gitbook/assets/baidu_navigation.png" alt="" width="375"><figcaption><p>Navigation to the regular map, satellite image and street view, found at the bottom right corner of the web browser</p></figcaption></figure></div>
 
 Note that the reference number at the bottom left, e.g., "GS(2023)1234", refers to the year when the image was approved for publication by the relevant government authority, China's State Bureau of Surveying and Mapping. This is not necessarily the year when the image was captured.
 
@@ -29,7 +29,7 @@ Note that the reference number at the bottom left, e.g., "GS(2023)1234", refers 
 
 Street views are generally available on the road networks, indicated by the thickened routes. For a static preview, place the cursor onto the route. Click to enter street view mode.
 
-<figure><img src=".gitbook/assets/streetview_available.png" alt=""><figcaption><p>The thickened gray routes indicate that street view is available.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/streetview_available.png" alt=""><figcaption><p>The thickened gray routes indicate that street view is available.</p></figcaption></figure>
 
 Street view images are captured by a [Baidu-operated fleet of vehicles](https://web.archive.org/web/20250519015136/https://www.cheyun.com/articleDetail/11826), which are fitted with single-lens reflex (SLR) cameras, GPS and inertial navigation sensors. However, the fleet's image capture schedules are not made public.
 
@@ -37,13 +37,13 @@ Street view images are captured by a [Baidu-operated fleet of vehicles](https://
 
 <summary>Panoramic preview for street view</summary>
 
-<img src=".gitbook/assets/right-click.png" alt="" data-size="original">
+<img src="../../.gitbook/assets/right-click.png" alt="" data-size="original">
 
 See above: From the regular map view, point to the main road (where street view is more likely to be available), right-click to show a shortcut menu > select the first item which means "panoramic preview" in English.
 
 See below: The 360º preview is shown.
 
-<img src=".gitbook/assets/panoramic_preview.png" alt="" data-size="original">
+<img src="../../.gitbook/assets/panoramic_preview.png" alt="" data-size="original">
 
 </details>
 
@@ -51,7 +51,7 @@ See below: The 360º preview is shown.
 
 The "time machine" function allows you to access older street view images, going as far back as 2013 (if available). From the current street view image, the time machine function is available at the bottom, indicated by a clock icon.
 
-<figure><img src=".gitbook/assets/time_machine_example.png" alt=""><figcaption><p>The "time machine" will show older street view images available (year and month of image captured). The approval reference is in the bottom right corner.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/time_machine_example.png" alt=""><figcaption><p>The "time machine" will show older street view images available (year and month of image captured). The approval reference is in the bottom right corner.</p></figcaption></figure>
 
 **The Enigma of Coordinates in China**
 
@@ -65,7 +65,7 @@ When searching for a location on Baidu Maps, the BD-09 coordinates are shown in 
 
 Another way to search is: [https://api.map.baidu.com/lbsapi/getpoint/](./#url). Search for a location and the BD-09 coordinates are shown in the top-right. **Note that in Chinese mapping tools, longitude comes before latitude**.
 
-<figure><img src=".gitbook/assets/dafen_village (1).png" alt=""><figcaption><p>Example: From the Baidu Maps API getpoint page, the coordinates will show on the top-right when searching for Dafen Village, Shenzhen</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/dafen_village (1).png" alt=""><figcaption><p>Example: From the Baidu Maps API getpoint page, the coordinates will show on the top-right when searching for Dafen Village, Shenzhen</p></figcaption></figure>
 
 To search by coordinates instead, enter the coordinates (longitude first) and check the box for reverse search using coordinates.
 

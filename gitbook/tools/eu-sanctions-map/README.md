@@ -19,26 +19,26 @@ The tool offers multiple search options and filters, including by theme.
 
 * **Thematic restriction topics** include terrorism, human rights, cyber-attacks and chemical weapons. At the top of the page there is a drop down menu for those. To see the full information, scroll down to the alphabetized list and click on the specific topic or click on the small text that says "Info" at the bottom of the pop-up window to get to the details.
 
-<div align="left"><figure><img src=".gitbook/assets/EUSM1.png" alt=""><figcaption><p>View of the drop-down menu on thematic sanctions</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/EUSM1.png" alt=""><figcaption><p>View of the drop-down menu on thematic sanctions</p></figcaption></figure></div>
 
-<figure><img src=".gitbook/assets/EUSM2.png" alt=""><figcaption><p>Front page list view of the thematic sanctions</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/EUSM2.png" alt=""><figcaption><p>Front page list view of the thematic sanctions</p></figcaption></figure>
 
 * **Country-level sanctions and restrictions** - the tool has an alphabetized list of countries against which some sort of sanctions or restrictions have been imposed. Each entry on the front page provides basic information on the restrictive measures, little icons depicting the sanctions and three separate sub-pages with detailed information.
 
-<figure><img src=".gitbook/assets/EUSM3.png" alt=""><figcaption><p>View of the alphabetized list with the first contry on it</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/EUSM3.png" alt=""><figcaption><p>View of the alphabetized list with the first contry on it</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/EUSM4.png" alt=""><figcaption><p>Clicking on each of the icons displays the specific type of sanction.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/EUSM4.png" alt=""><figcaption><p>Clicking on each of the icons displays the specific type of sanction.</p></figcaption></figure>
 
 Clicking on the List paperclip icon will take you to the lists of persons, entities and items sanctioned in a specific country. These lists are broken down by type of restriction/sanction providing the names of persons and entities. Each listed entity is hyperlinked and when clicked opens a pop-up window with even more information.
 
-<figure><img src=".gitbook/assets/EUSM5.png" alt=""><figcaption><p>A partial view of the Lists subpage for Afghanistan with type of sanction, names of sanctioned people/entities and when these sanctions entered into force.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/EUSM5.png" alt=""><figcaption><p>A partial view of the Lists subpage for Afghanistan with type of sanction, names of sanctioned people/entities and when these sanctions entered into force.</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/EUSM6.png" alt=""><figcaption><p>A pop-up window with details on a sanctioned individual from Afghanistan.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/EUSM6.png" alt=""><figcaption><p>A pop-up window with details on a sanctioned individual from Afghanistan.</p></figcaption></figure>
 
 * **Using the search bar** - here you can type any name of an entity/individual/country to see if there are any sanctions against them. The search works with Cyrillic and Latin script, but does not work with Arabic or Chinese for example. Such names are all transliterated in Latin script, so be mindful of variations of the names (e.g. Mohamed/ Mohammad/ Muhammad or Akund/Akhund).
 * **The more useful dropdown menu** at the top of the page - this is a quick way to filter the information. Filters include which governing body adopted the sanctions, the themes, the countries and the most useful option - filter by type of sanction.
 
-<figure><img src=".gitbook/assets/eusm7.png" alt="" width="375"><figcaption><p>View of the top right corner filters on the website</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/eusm7.png" alt="" width="375"><figcaption><p>View of the top right corner filters on the website</p></figcaption></figure>
 
 * Clicking on a country on the map - this will open a pop-up window with the type of sanctions imposed on this country. The additional information is accessible by clicking the small text that says "Info" at the bottom of the pop-up.
 * **Search by type of sanctioned product or goods -** at the top right of the page click the menu (three horizontal lines) and select whichever sancioned good you are interested in - fuel, diamonds, tobacco, etc.
@@ -137,7 +137,7 @@ The European Commission (EC)
 
 There are various tools for researching sanctions on the web. Bellingcat's Online Investigation Toolkit also has descriptions and guides on [SanctionsExplorer](https://bellingcat.gitbook.io/toolkit/more/all-tools/sanctionsexplorer), [OpenSanctions](https://bellingcat.gitbook.io/toolkit/more/all-tools/opensanctions) and [OCCRP Aleph](https://bellingcat.gitbook.io/toolkit/more/all-tools/occrp-aleph). Although they serve the same purpose, there are some major differences among them:
 
-<figure><img src=".gitbook/assets/Screenshot 2025-05-01 at 5.51.18 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-05-01 at 5.51.18 PM.png" alt=""><figcaption></figcaption></figure>
 
 ## Advertising Trackers
 

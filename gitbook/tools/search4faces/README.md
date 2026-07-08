@@ -1,8 +1,8 @@
 ---
+updated: '2026-06-24'
 description: >-
   Upload the picture of a face and find pictures of similar looking people on
   VKontakte, Odnoklassniki, TikTok and Clubhouse.
-updated: '2026-06-24'
 ---
 
 # Search4Faces
@@ -16,11 +16,11 @@ updated: '2026-06-24'
 **Search4Faces** is a reverse face search engine that allows users to find the profile photos of individuals across various online platforms. The tool is implemented in Python and is accessible via a web interface or as a Python library. As of June 2026, the tool has (partial) collections of the following [four databases](https://web.archive.org/web/20250616163324/https://search4faces.com/en/):
 
 1. Avatars of the social network Vkontakte and main photos of the social network Odnoklassniki,
-2. Profile photos of the social network Vkontakte (VK),&#x20;
-3. Avatars of TikTok users,&#x20;
+2. Profile photos of the social network Vkontakte (VK),
+3. Avatars of TikTok users,
 4. Avatars of ClubHouse users.
 
-The tool also has a search feature for recognizing celebrities which - [according to the tool provider](https://web.archive.org/web/20250616164148/https://search4faces.com/index.html) - is based on Wikipedia and [IMDb](https://en.wikipedia.org/wiki/IMDb) data.&#x20;
+The tool also has a search feature for recognizing celebrities which - [according to the tool provider](https://web.archive.org/web/20250616164148/https://search4faces.com/index.html) - is based on Wikipedia and [IMDb](https://en.wikipedia.org/wiki/IMDb) data.
 
 Key features of Search4Faces include:
 
@@ -32,13 +32,13 @@ Key features of Search4Faces include:
    * The API supports asynchronous operations and provides customizable search parameters, such as limiting the number of results.
    * The tool can also be configured for more targeted searches, depending on the databases and permissions set by the user.
 
-The site is available in Russian and English. To start a search, users first need to choose a database. They can then upload the picture of a person of interest.&#x20;
+The site is available in Russian and English. To start a search, users first need to choose a database. They can then upload the picture of a person of interest.
 
-<figure><img src=".gitbook/assets/Screenshot 2025-06-16 at 18.09.44.png" alt=""><figcaption><p>A sample search within the "Avatar of Tiktok users" database. It is possible (but not required) to specify the gender, country, city or age of people of interest before starting a search.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-06-16 at 18.09.44.png" alt=""><figcaption><p>A sample search within the "Avatar of Tiktok users" database. It is possible (but not required) to specify the gender, country, city or age of people of interest before starting a search.</p></figcaption></figure>
 
 For instance, after uploading a Donald Trump picture and selecting the VK and Odnoassniki avatars collection, we received various pictures of Donald Trump that are currently being used (or have been used) as avatars by VK users:
 
-<figure><img src=".gitbook/assets/Screenshot 2025-06-16 at 19.06.43.png" alt=""><figcaption><p> The results include a probability score indicating how likely it is, according to the tool, that the pictures show the same person as the one in the image uploaded by the user. It also provides a name for the person but this name can be wrong (for instance if someone uses Donald Trump's for their personal social media account).</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-06-16 at 19.06.43.png" alt=""><figcaption><p>The results include a probability score indicating how likely it is, according to the tool, that the pictures show the same person as the one in the image uploaded by the user. It also provides a name for the person but this name can be wrong (for instance if someone uses Donald Trump's for their personal social media account).</p></figcaption></figure>
 
 By clicking on any photo in the results list, users are taken directly to the social media profile where the picture appears. Keep in mind that the Search4Faces database is not updated on a regular basis. Social media account owners might have changed their avatars or their accounts might even have been deleted in the meantime.
 
@@ -48,7 +48,7 @@ By clicking on any photo in the results list, users are taken directly to the so
 * [ ] Partially Free
 * [ ] Paid
 
-Search features on the site itself are free, but [API access](https://web.archive.org/web/20250425192912/https://search4faces.com/en/api.html) is paid with multiple plans ranging from 15000 calls for 40 USD to 135000 calls for 320 USD.&#x20;
+Search features on the site itself are free, but [API access](https://web.archive.org/web/20250425192912/https://search4faces.com/en/api.html) is paid with multiple plans ranging from 15000 calls for 40 USD to 135000 calls for 320 USD.
 
 ## Level of difficulty
 
@@ -61,8 +61,8 @@ Search features on the site itself are free, but [API access](https://web.archiv
 
 ## Limitations
 
-* Since the Search4Faces database contains only a limited selection of the social media platform’s content rather than a complete archive, the tool is often unable to provide results for an uploaded picture. Our own tests suggest that in those cases, the search engine appears to compare general characteristics of the provided face (hair, eye or skin color) which does not tend to be helpful for open source researchers.&#x20;
-* Image data for each social networking site is not updated in real-time, most datasets end in [2022 or earlier](https://web.archive.org/web/20250520182518/https://search4faces.com/en/). The Russian language version of the tool website states that the VK profile photo database was[ last updated in 2025](https://web.archive.org/web/20250616202030/https://search4faces.com/search.html).&#x20;
+* Since the Search4Faces database contains only a limited selection of the social media platform’s content rather than a complete archive, the tool is often unable to provide results for an uploaded picture. Our own tests suggest that in those cases, the search engine appears to compare general characteristics of the provided face (hair, eye or skin color) which does not tend to be helpful for open source researchers.
+* Image data for each social networking site is not updated in real-time, most datasets end in [2022 or earlier](https://web.archive.org/web/20250520182518/https://search4faces.com/en/). The Russian language version of the tool website states that the VK profile photo database was[ last updated in 2025](https://web.archive.org/web/20250616202030/https://search4faces.com/search.html).
 * Certain user profiles can evade detection by changing their details. If you click on an image in the results list, you may be taken to a social media account whose name, avatar, or posts have been changed or deleted.
 * You cannot search multiple databases at once.
 
@@ -87,9 +87,9 @@ The tool provider is currently unknown. The website is offered in Russian and in
 
 ## Similar Tools
 
-While open source researcher may want to decide to test Search4Faces during investigations that involve people of interest from Russian speaking countries, other facial recognition tools may often work better for people based in other countries.&#x20;
+While open source researcher may want to decide to test Search4Faces during investigations that involve people of interest from Russian speaking countries, other facial recognition tools may often work better for people based in other countries.
 
-Similar tools are [Pimeyes](https://bellingcat.gitbook.io/toolkit/more/all-tools/pimeyes) or [FaceCheck.Id](https://bellingcat.gitbook.io/toolkit/more/all-tools/facecheck.id). Unlike Search4Faces,  both of those tools are paid tools and their websites don’t list social media photos as sources. Search4Faces is currently able to identify some older TikTok or ClubHouse accounts which may be useful for some research cases even if the people of interest are not based in a Russian speaking country.
+Similar tools are [Pimeyes](https://bellingcat.gitbook.io/toolkit/more/all-tools/pimeyes) or [FaceCheck.Id](https://bellingcat.gitbook.io/toolkit/more/all-tools/facecheck.id). Unlike Search4Faces, both of those tools are paid tools and their websites don’t list social media photos as sources. Search4Faces is currently able to identify some older TikTok or ClubHouse accounts which may be useful for some research cases even if the people of interest are not based in a Russian speaking country.
 
 It is recommended to be cautious when using any of those tools since it the tool providers' identities are often unknown.
 

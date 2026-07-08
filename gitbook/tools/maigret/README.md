@@ -19,7 +19,7 @@ If not explicitly specified with a tag, Maigret will start its search with the t
 
 Identifiers refer to unique markers associated with user accounts on specific platforms, such as a **gaia\_id** (Google's internal numeric user identifier, previously found in Google Plus accounts) or other similar unique attributes. These allow Maigret to conduct more targeted and precise searches beyond ordinary usernames.
 
-<figure><img src=".gitbook/assets/maigret.png" alt=""><figcaption><p>Search for the username "bellingcat" on Maigret</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/maigret.png" alt=""><figcaption><p>Search for the username "bellingcat" on Maigret</p></figcaption></figure>
 
 To start a simple search on Maigret, all you need to do is provide one or more usernames for the individual you want to investigate. For example, searching for "bellingcat" will check if that username exists across the platforms supported by the tool (like social networks, forums, blogs and more). If an account is found, a report detailing where the username appears will be generated. This includes links to profile pages or relevant content on those platforms (e.g., Facebook, Instagram etc) and any available additional metadata like account creation dates or follower counts, if retrievable. In this case of "bellingcat," we discovered accounts on Telegram, Instagram, Github, TikTok and GithubGist.
 
@@ -29,7 +29,7 @@ The tool supports generating reports in various formats, including HTML, PDF, TX
 
 A short text report is also shown in the command line after the search phase.
 
-<figure><img src=".gitbook/assets/Maigret2.png" alt=""><figcaption><p>A short report for a username "bellingcat".</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Maigret2.png" alt=""><figcaption><p>A short report for a username "bellingcat".</p></figcaption></figure>
 
 ## Cost
 
@@ -114,7 +114,7 @@ Once Maigret is running with the web interface, open your browser and go to http
 
 Here, you can enter one or more usernames to initiate a search. After the search is complete, the web interface will display a graphical representation of the results, a table with all the accounts found, and provide options to download the reports in multiple formats (HTML, PDF, etc.).
 
-<figure><img src=".gitbook/assets/bellingcat_web_maigret.png" alt=""><figcaption><p>Maigret Web Interface displays search results for the username “Bellingcat,” with a combined graph of linked accounts and individual report options.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bellingcat_web_maigret.png" alt=""><figcaption><p>Maigret Web Interface displays search results for the username “Bellingcat,” with a combined graph of linked accounts and individual report options.</p></figcaption></figure>
 
 As of v0.6.0, Maigret includes an optional AI analysis mode that generates a short investigation summary from search results using an OpenAI-compatible API. To enable it, add the --ai flag:
 

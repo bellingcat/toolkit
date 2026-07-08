@@ -43,7 +43,7 @@ This feature performs a basic scan on a target Telegram chat (public or private 
 {% endtab %}
 
 {% tab title="Screenshot" %}
-<figure><img src=".gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15) (2).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="understanding the output" %}
@@ -75,7 +75,7 @@ A more detailed version of the basic scan, the comprehensive scan archives all m
 {% endtab %}
 
 {% tab title="Screenshot" %}
-<figure><img src=".gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Understanding the CSV file" %}
@@ -136,7 +136,7 @@ This function creates an edge list showing which messages were forwarded to or f
 {% endtab %}
 
 {% tab title="Screenshot" %}
-<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption><p>Unfortunately, since this is just a bot that repeats Bellingcat news and doesn"t forward messages from other channels, no forwarded messages were found, and no edgelist was made. Here, you can also see how telepathy is started in a virtual environment on a Raspberry Pi in my home network. Installing and using a tool like Telepathy in a virtual environment is generally a good idea because changes or updates to your core Python package won't affect your installation. (However, if you update Telepathy, you might also have to update your virtual environment.)</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (2).png" alt=""><figcaption><p>Unfortunately, since this is just a bot that repeats Bellingcat news and doesn"t forward messages from other channels, no forwarded messages were found, and no edgelist was made. Here, you can also see how telepathy is started in a virtual environment on a Raspberry Pi in my home network. Installing and using a tool like Telepathy in a virtual environment is generally a good idea because changes or updates to your core Python package won't affect your installation. (However, if you update Telepathy, you might also have to update your virtual environment.)</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Understanding the edgelist file" %}
@@ -164,15 +164,15 @@ Ideal for investigative scenarios where media content is crucial, but it require
 {% endtab %}
 
 {% tab title="Screenshot" %}
-<figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (2).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Results" %}
-<figure><img src=".gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Media folder" %}
-<figure><img src=".gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (3).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -186,7 +186,7 @@ This feature is handy for profiling or investigating specific users in connectio
 {% endtab %}
 
 {% tab title="Screenshot" %}
-<figure><img src=".gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 

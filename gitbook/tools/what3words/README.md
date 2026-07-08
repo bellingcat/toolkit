@@ -14,7 +14,7 @@ description: >-
 
 ## Description
 
-<figure><img src=".gitbook/assets/screenshot1.JPG" alt=""><figcaption><p>THE <strong>WHAT3WORDS INTERFACE, SHOWING THE 3M X 3M SQUARE ON MAGDALEN BRIDGE IN OXFORD, UK, WHICH CORRESPONDS TO THE EXAMPLE 3-WORD PHRASE </strong><em><strong>BLEAT.MENTAL.LOCATE</strong></em><strong>.</strong></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/screenshot1.JPG" alt=""><figcaption><p>THE <strong>WHAT3WORDS INTERFACE, SHOWING THE 3M X 3M SQUARE ON MAGDALEN BRIDGE IN OXFORD, UK, WHICH CORRESPONDS TO THE EXAMPLE 3-WORD PHRASE </strong><em><strong>BLEAT.MENTAL.LOCATE</strong></em><strong>.</strong></p></figcaption></figure>
 
 what3words is a simple, clear and rapid way to communicate locations on earth. The world has been divided into 3m x 3m squares (around 57 trillion of them), and an unique identifier combining three words is assigned to each one. The app is available for mobile phones and PC browsers and an API ([Application Programming Interface](https://en.wikipedia.org/wiki/API)) is available to automate the conversion between what3word addresses and geographic co-ordinates.
 
@@ -57,12 +57,12 @@ There is considerable variation between the app version of what3words and the PC
 {% tab title="INPUT FORMAT OPTIONS" %}
 * Type into the Search box
 
-<figure><img src=".gitbook/assets/screenshot2.JPG" alt=""><figcaption><p><strong>FORMAT OPTIONS ARE PROVIDED IN THE SEARCH BOX, WITH AUTOCOMPLETE CHOICES DISPLAYED BELOW</strong></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/screenshot2.JPG" alt=""><figcaption><p><strong>FORMAT OPTIONS ARE PROVIDED IN THE SEARCH BOX, WITH AUTOCOMPLETE CHOICES DISPLAYED BELOW</strong></p></figcaption></figure>
 
 * a pair of numerical geographic co-ordinates
 * a 3 word phrase with the prefix ' ///'
 
-<figure><img src=".gitbook/assets/screenshot6.JPG" alt=""><figcaption><p><strong>LEFT MOUSE CLICK ON THE MAP SELECTS THE 3M X 3M SQUARE AT THE LOCATION UNDER THE CURSOR.</strong></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/screenshot6.JPG" alt=""><figcaption><p><strong>LEFT MOUSE CLICK ON THE MAP SELECTS THE 3M X 3M SQUARE AT THE LOCATION UNDER THE CURSOR.</strong></p></figcaption></figure>
 
 * A tile square geographic location on the map
 {% endtab %}
@@ -70,11 +70,11 @@ There is considerable variation between the app version of what3words and the PC
 
 The interface comprises two main menus on the left and right hand sides of the screen.
 
-<figure><img src=".gitbook/assets/screenshotinterface.jpg" alt=""><figcaption><p><strong>TWO MENUS AND THEIR FUNCTIONS IN THE WHAT3WORDS INTERFACE</strong></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/screenshotinterface.jpg" alt=""><figcaption><p><strong>TWO MENUS AND THEIR FUNCTIONS IN THE WHAT3WORDS INTERFACE</strong></p></figcaption></figure>
 
 The user can select the source of the background map of the earth in the Map type option in the right hand menu.
 
-<figure><img src=".gitbook/assets/screenshotmaptypemenu.JPG" alt=""><figcaption><p><strong>THE USER CAN TOGGLE BETWEEN DIFFERENT SOURCES FOR THE BACKGROUND MAP</strong></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/screenshotmaptypemenu.JPG" alt=""><figcaption><p><strong>THE USER CAN TOGGLE BETWEEN DIFFERENT SOURCES FOR THE BACKGROUND MAP</strong></p></figcaption></figure>
 
 Dragging and dropping the yellow pin man icon on the map displays any Google Maps imagery relating to the location selected.
 
@@ -82,7 +82,7 @@ Dragging and dropping the yellow pin man icon on the map displays any Google Map
 The app will not draw the 3m square within the StreetView imagery, only on aerial map or satellite views.
 {% endhint %}
 
-<figure><img src=".gitbook/assets/screenshot3.JPG" alt=""><figcaption><p><strong>THE WHAT3WORDS LOCATION EXAMPLE </strong><em><strong>BLEAT.MENTAL.LOCATE</strong></em><strong> BEING SHOW ON GOOGLE MPAS BY DROPPING THE YELLOW PIN MAN ICON ONTO THE STREET MAP IN THE APPROPRIATE SQUAR</strong>E.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/screenshot3.JPG" alt=""><figcaption><p><strong>THE WHAT3WORDS LOCATION EXAMPLE </strong><em><strong>BLEAT.MENTAL.LOCATE</strong></em><strong> BEING SHOW ON GOOGLE MPAS BY DROPPING THE YELLOW PIN MAN ICON ONTO THE STREET MAP IN THE APPROPRIATE SQUAR</strong>E.</p></figcaption></figure>
 
 ## Cost
 
@@ -103,7 +103,7 @@ The app will not draw the 3m square within the StreetView imagery, only on aeria
 
 * Very similar phrases for proximate squares could cause error/confusion: At the time of writing 11/11/24, recent [research on what3words reported by the BBC](https://www.bbc.co.uk/news/technology-56901363) has revealed some flaws in the system regarding its aim not to assign similar 3 word phrases to nearby areas. This similarity also includes homophones, i.e. words which sound similar, rather than look similar. This is because what3words is used to communicate over voice channels, particularly for the emergency services, so similar-sounding or similar-looking phrases at proximate squares is likely to lead to errors in location. The BBC reported that a researcher had found 'thousands' of 3 word phrases which were either very similar looking, or similar sounding, had been assigned to locations less than 1km apart. On entering a 3 word address in the Account Setup page, for example, the 3 word address of the user's own home, the locations of other similar addresses are displayed to allow checking of their proximity.
 
-<figure><img src=".gitbook/assets/screenshot7.JPG" alt=""><figcaption><p><strong>WHAT3WORDS INTERFACE SHOWING AUTO-COMPLETED OPTIONS FOR A USER-INPUT, 3-WORD LOCATION PHRASE WITH THEIR DIFFERING GEOGRAPHICAL DETAILS</strong></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/screenshot7.JPG" alt=""><figcaption><p><strong>WHAT3WORDS INTERFACE SHOWING AUTO-COMPLETED OPTIONS FOR A USER-INPUT, 3-WORD LOCATION PHRASE WITH THEIR DIFFERING GEOGRAPHICAL DETAILS</strong></p></figcaption></figure>
 
 * The accuracy of what3words is restricted to a 3m square, whereas geographical grid co-ordinates theoretically references a single point and can offer greater accuracy. In practice, the 3m square level of accuracy is satisfactory for very many purposes.
 * what3words help is structured around a set number of use cases and [FAQ](https://support.what3words.com/en/categories/328642), which, understandably, are not focused on Open Source research. Its natural language help interface often returns that nothing is found in response to queries which correspond to tutorial material available online.
@@ -124,7 +124,7 @@ what3words provides a [How to Use](https://what3words.com/how-to-use-the-what3wo
 
 what3words has updated its cookie policy as below in 2026. It does not specify the cookies in use, as some tool providers are beginning to do, but it clearly states the purposes of cookie use:
 
-<figure><img src=".gitbook/assets/what3wordscookies.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/what3wordscookies.gif" alt=""><figcaption></figcaption></figure>
 
 | Page maintainer:- |
 | ----------------- |

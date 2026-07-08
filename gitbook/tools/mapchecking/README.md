@@ -23,7 +23,7 @@ Based on the steps below, MapChecking can calculate the estimated density of par
 4. Determine Crowd Density Per Square Meter
 5. Calculate Total Estimated Crowd Size
 
-<figure><img src=".gitbook/assets/Screenshot 2024-09-04 062958.png" alt=""><figcaption><p>(Image source: Mapchecking.com) This shows a sample location using the tool. Users can delineate the area of interest using a polygon (shown here with a yellow shaded area). Users can view the area on the regular Google map overlay or satellite view. To the right of the map is a slider that users can drag to estimate the crowd density from "Light" to "Crowded" to "Packed". The total estimated number in black font changes as the slider moves.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-09-04 062958.png" alt=""><figcaption><p>(Image source: Mapchecking.com) This shows a sample location using the tool. Users can delineate the area of interest using a polygon (shown here with a yellow shaded area). Users can view the area on the regular Google map overlay or satellite view. To the right of the map is a slider that users can drag to estimate the crowd density from "Light" to "Crowded" to "Packed". The total estimated number in black font changes as the slider moves.</p></figcaption></figure>
 
 ### Why is crowd counting important?
 
@@ -39,7 +39,7 @@ For this tool description, we take the [protest in Tel Aviv on 1 September 2024]
 
 Our source image is a clip from a [video uploaded to X](https://x.com/BarakRavid/status/1830292233922482540). The post mentions "tens of thousands" of protesters in Tel Aviv.
 
-<figure><img src=".gitbook/assets/Screenshot 2025-05-19 at 17.13.28.png" alt="" width="563"><figcaption><p>Image Source: <a href="https://x.com/BarakRavid/status/1830292233922482540">X</a>. The post mentions that tens of thousands of protesters came to the protest in Tel Aviv</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-05-19 at 17.13.28.png" alt="" width="563"><figcaption><p>Image Source: <a href="https://x.com/BarakRavid/status/1830292233922482540">X</a>. The post mentions that tens of thousands of protesters came to the protest in Tel Aviv</p></figcaption></figure>
 
 ### **STEP 1: Input Location**
 
@@ -67,13 +67,13 @@ _Remember:_ Even with combined images, obstructions like buildings or bridges ca
 
 The next step is to delineate the area of interest by drawing a polygon. The defined area is automatically overlaid on a map.
 
-<figure><img src=".gitbook/assets/Screenshot 2024-09-04 111639.png" alt=""><figcaption><p>This is the location of the protests. The red-shaded area shows where crowds have gathered based on our source image. For accuracy, we exclude areas within our blind spots or those for which we don’t have complete visibility.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-09-04 111639.png" alt=""><figcaption><p>This is the location of the protests. The red-shaded area shows where crowds have gathered based on our source image. For accuracy, we exclude areas within our blind spots or those for which we don’t have complete visibility.</p></figcaption></figure>
 
 ### **STEP 3: Matching and Double-checking**
 
 Double-check whether your area of interest in the source image matches the polygon drawn within the MapChecking tool. To do so, you can draw a polygon on the source image in a separate program and put both pictures next to each other (as shown in the picture below).
 
-<figure><img src=".gitbook/assets/MapChecking.png" alt=""><figcaption><p>On the left is the<a href="https://x.com/BarakRavid/status/1830292233922482540"> source image</a> overlaid with a polygon using Paint, and to the right is the polygon drawn utilizing MapChecking. The right image is rotated to approximate the perspective as shown in the source image.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/MapChecking.png" alt=""><figcaption><p>On the left is the<a href="https://x.com/BarakRavid/status/1830292233922482540"> source image</a> overlaid with a polygon using Paint, and to the right is the polygon drawn utilizing MapChecking. The right image is rotated to approximate the perspective as shown in the source image.</p></figcaption></figure>
 
 ### STEP 4: Determine Crowd Density Per Square Meter
 
@@ -83,7 +83,7 @@ First, it can help to gather reference images. Find close-up crowd photos. If po
 
 Second, compare that same close-up reference image to the visual guides the tool provides. This step may sound complicated at first, but fortunately, users can utilize resources like the research by Keith Still (linked below). These guides show what different crowd densities may look like (e.g., 1 person per square meter, 2 people per square meter).
 
-<figure><img src=".gitbook/assets/Screenshot 2024-09-04 133753-marked.png" alt="" width="563"><figcaption><p>To find the reference guides on what the crowd density may look like, click on either link to have an idea of how packed the event in question is. Use these guides to make comparisons with the image from your protest.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-09-04 133753-marked.png" alt="" width="563"><figcaption><p>To find the reference guides on what the crowd density may look like, click on either link to have an idea of how packed the event in question is. Use these guides to make comparisons with the image from your protest.</p></figcaption></figure>
 
 {% hint style="info" %}
 Note: [This link](https://www.gkstill.com/Support/crowd-density/625sm/Density6.html) can be used if you have a **"static" crowd** (mostly stationary). For **moving crowds** ("crowd flow"), users may use the reference on this link:[ https://www.gkstill.com/Support/crowd-flow/4People.html](https://www.gkstill.com/Support/crowd-flow/4People.html)
@@ -105,7 +105,7 @@ The estimated total crowd count for the area of interest is 57,917 (shown in bol
 NOTE: The total estimate changes, as the crowd density slides from light to crowded to packed. Keep in mind that an ultra-precise count will not be possible with this tool.
 {% endhint %}
 
-<figure><img src=".gitbook/assets/Screenshot 2024-09-04 134055-marked.png" alt="" width="375"><figcaption><p>The final step is dragging the slider (shown in the orange circle) between the different crowd density options. When dragging the slider to "Packed", users can see that the density per square meter is 4.25 (shown in the yellow rectangle) which matches our STEP 4 estimate.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-09-04 134055-marked.png" alt="" width="375"><figcaption><p>The final step is dragging the slider (shown in the orange circle) between the different crowd density options. When dragging the slider to "Packed", users can see that the density per square meter is 4.25 (shown in the yellow rectangle) which matches our STEP 4 estimate.</p></figcaption></figure>
 
 You can also read through Nixintel's article [Counting crowds in public spaces ](https://nixintel.info/osint/counting-crowds-in-public-spaces/)to see how MapChecking was used to estimate the crowds of the same protest independently from (and before) our own test.
 

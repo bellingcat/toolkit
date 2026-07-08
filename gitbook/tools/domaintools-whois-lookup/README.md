@@ -19,7 +19,7 @@ The data fields returned in the primary Whois entry can be used to pivot to addi
 
 The main Whois page includes a mix of free and paid tools that are offered by DomainsTools. You can use these by hovering over the small arrows next to some of the entries (e.g. Name Servers, IP Address etc.), or from the Tools section on the right side of the page.
 
-<figure><img src=".gitbook/assets/Screenshot 2024-06-15 at 2.09.32 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-06-15 at 2.09.32 PM.png" alt=""><figcaption></figcaption></figure>
 
 Of these Tools, the following can be used without a DomainTools license:
 
@@ -59,7 +59,7 @@ Certain pivots and additional tools (e.g. hosting history, network tools) requir
 
 As part of domain privacy measures, most domain registrars offer Whois privacy services that anonymize the registrant details. As a result, you may not be able to find the real name of the individual who owns a domain or other details associated with them. Instead, you will see a "Registration Private" designation where the individual's name would be, and generic email and physical addresses associated with the domain registrar. For example, Bellingcat.com's Whois record contains such privacy measures:
 
-<figure><img src=".gitbook/assets/Screenshot 2024-06-15 at 2.17.31 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-06-15 at 2.17.31 PM.png" alt=""><figcaption></figcaption></figure>
 
 ## Guides and articles
 

@@ -24,7 +24,7 @@ Aqueduct consists of four analytical tools:
 
 The Water Risk Atlas and Floods tools can be particularly useful for open source researchers, as they provide almost global coverage and detailed indicators. The Country Rankings tool shows highly aggregated data and does not zoom in on geographic locations more detailed than the country level, and the Food tool also has less geographical detail, is more sector-specific and focuses on harvest and food security.
 
-<figure><img src=".gitbook/assets/Screenshot 2026-02-22 at 10.34.40.png" alt=""><figcaption><p>View of the Water Risk Atlas by drinking water levels (feb 2026)</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-02-22 at 10.34.40.png" alt=""><figcaption><p>View of the Water Risk Atlas by drinking water levels (feb 2026)</p></figcaption></figure>
 
 The interactive Water Risk Atlas projects all data on a zoomable map that can be explored on country, basin or sub-basin levels. The risks of not having access to (drinking or irrigation) water, declining water quality or the risk of drought or flooding can be visualised and compared. Options include:
 
@@ -33,7 +33,7 @@ The interactive Water Risk Atlas projects all data on a zoomable map that can be
 * Select specific water risk indicators (such as Baseline Water Stress, Groundwater decline, Drinking Water access) and prioritize per basin
 * Show future models: for 2030, 2050 or 2080 and view by optimistic or pessimistic scenarios.
 
-<figure><img src=".gitbook/assets/Screenshot 2026-03-08 at 16.24.38.png" alt=""><figcaption><p>Definitions of indicators such as Water Stress are available by clicking on the question mark icon. The weighting of the indicators can be adjusted, in fixed steps.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-03-08 at 16.24.38.png" alt=""><figcaption><p>Definitions of indicators such as Water Stress are available by clicking on the question mark icon. The weighting of the indicators can be adjusted, in fixed steps.</p></figcaption></figure>
 
 Advanced users can upload their own data (csv or xlsx with addresses or coordinates, in beta) or use and build upon the [Aqueduct 4.0 code](https://github.com/wri/Aqueduct40).
 
@@ -43,7 +43,7 @@ The Floods tool shows Hazard (a threatening event or condition; such as flood ev
 Aqueduct 4.0 uses the [United Nations Office for Disaster Risk Reduction (UNDRR)](https://www.undrr.org/drr-glossary/terminology) risk element terminology of hazard, exposure and vulnerability. See the [Aqueduct 4.0 release notes](https://doi.org/10.46830/writn.23.00061) for details.
 {% endhint %}
 
-<figure><img src=".gitbook/assets/Screenshot 2026-02-22 at 11.02.11.png" alt=""><figcaption><p>The risk and cost-benefit analysis of the flood tool lets you select two locations (on country, state or water basin level) to compare; in this case, Japan and Netherlands were selected.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-02-22 at 11.02.11.png" alt=""><figcaption><p>The risk and cost-benefit analysis of the flood tool lets you select two locations (on country, state or water basin level) to compare; in this case, Japan and Netherlands were selected.</p></figcaption></figure>
 
 ## Data sources
 

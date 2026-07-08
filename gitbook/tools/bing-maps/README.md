@@ -34,7 +34,7 @@ Bing Maps is available in the following formats:
 
 Example search results for the term _Amsterdam:_
 
-<figure><img src=".gitbook/assets/Screenshot 2024-04-23 at 9.37.31 PM.png" alt=""><figcaption><p>Screenshot of search results for Amsterdam.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-04-23 at 9.37.31 PM.png" alt=""><figcaption><p>Screenshot of search results for Amsterdam.</p></figcaption></figure>
 
 ## Use Cases
 

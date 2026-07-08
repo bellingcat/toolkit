@@ -18,13 +18,13 @@ PublicWWW is a specialized search engine that indexes the underlying code and te
 
 The following example search returns indexed websites with code referencing chatgpt.com. The results show the URL of the indexed site that matches, the Rank column shows the relative popularity/visibility of the site in the index, and the final column shows the relevant code snippet that the search matched on. In the top-right corner, there are several formats in which this data can be downloaded, included CSV.
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (17).png" alt=""><figcaption></figcaption></figure>
 
 The platform enables users to identify specific code snippets, analytics codes, embedded widgets, themes, and other hidden elements used across the web - these can all be examined to identify possible links between different websites. It can detect the use of content management systems, JavaScript libraries, tracking codes, and server-side technologies. PublicWWW also provides statistical insights such as file types analysed, generator tags, server headers, and technology adoption trends, allowing for detailed examination of website structures and code usage patterns across a large portion of the internet.
 
 The following example search returns results with embedded widgets related to VKontakte (VK), Russia's largest social media platform. The `VK.init({apiId: ...})` code links a website to a specific VK app or community via a unique numeric API ID. For OSINT work, this ID acts as a digital fingerprint. If multiple domains share the same API ID, investigators might be able to identify related sites which can be helpful when researching coordinated networks.
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (62).png" alt=""><figcaption></figcaption></figure>
 
 ## Cost
 

@@ -33,19 +33,19 @@ Alternatively, pan and zoom into your area of interest, or click on the relevant
 
 Latest uploads are also displayed on the sidebar (left side).
 
-<figure><img src=".gitbook/assets/opening_OAM.png" alt=""><figcaption><p>Mosaic layer shown after "Start Exploring" from the page openaerialmap.org</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/opening_OAM.png" alt=""><figcaption><p>Mosaic layer shown after "Start Exploring" from the page openaerialmap.org</p></figcaption></figure>
 
 Note: **Searching by entering keywords in the search bar is not recommended**, as this may yield irrelevant or incomplete results (or no results). This is because the search term (e.g., country name) may not appear in the text metadata of the imagery. Also imagery metadata can be in languages other than English.
 
 From the world map, when hovering over a grid, a number will be shown to indicate how many images are available in that tile. Below, there are 775 images available in that area of the grid. Click to see those available images in the sidebar, shown as tiles of colored polygons.
 
-<div align="left"><figure><img src=".gitbook/assets/grid.png" alt="" width="283"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/grid.png" alt="" width="283"><figcaption></figcaption></figure></div>
 
 #### Viewing the imagery in the browser
 
 An example image is shown below.
 
-<figure><img src=".gitbook/assets/ueswatini (3).png" alt="Example imagery of the University of Eswatini"><figcaption><p>Example: image of University of Eswatini uploaded by Mdumiseni Wisdom D. Dlamini.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ueswatini (3).png" alt="Example imagery of the University of Eswatini"><figcaption><p>Example: image of University of Eswatini uploaded by Mdumiseni Wisdom D. Dlamini.</p></figcaption></figure>
 
 Marked in the orange rectangle, click the download button (left) to download the raw [.tiff](https://en.wikipedia.org/wiki/TIFF) file. Or click the zoom button (right) to fit the imagery on the screen. The imagery is aligned to the map layer.
 

@@ -25,7 +25,7 @@ Often, and especially for larger organisations, WHOIS information is now redacte
 
 Nevertheless, this is an easy and free check that is well worth trying if you come across a website with interesting information and would like to know the source or possible author of that information.
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Screenshot 1. Example of a search conducted against the Bellingcat URL in ICANN Lookup.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (42).png" alt=""><figcaption><p>Screenshot 1. Example of a search conducted against the Bellingcat URL in ICANN Lookup.</p></figcaption></figure>
 
 ## Cost
 

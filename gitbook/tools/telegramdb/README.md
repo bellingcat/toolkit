@@ -24,7 +24,7 @@ The bot lets you:
 3. **Export data** (CSV) such as full member lists, overlapping users or “near” users for network analysis tools.
 4. **See live stats** on the TelegramDB index (`/stats`).
 
-As of 2026-06-26, Telegram’s public bot page lists 658,148 monthly users for TgDB Search Lite (@tgdb\_search\_bot).&#x20;
+As of 2026-06-26, Telegram’s public bot page lists 658,148 monthly users for TgDB Search Lite (@tgdb\_search\_bot).
 
 Recent[ TgDB Search Plus updates](https://t.me/s/tgdatabase) include multilingual website/web bot support, profile pictures in search results, chat badges, and a right-click or long-press context menu for result actions. Channel and group searches currently prioritize exact “Precise Match” results; the broader fuzzy search mode was disabled after user feedback, with a selectable broad mode announced as a future plan.
 
@@ -61,8 +61,6 @@ As of 2025, TelegramDB straddles a freemium model: a free “Search Lite” bot 
 * [ ] Free
 * [x] Partially Free
 * [ ] Paid
-
-
 
 **Partially Free**
 
@@ -144,7 +142,7 @@ The live credit-bundle price table was not reachable in this audit. Check the we
 TelegramDB.org / TgDB Team maintains the service. Public organizational details are limited; the official [GitHub README](https://raw.githubusercontent.com/TelegramDB/TelegramDB/master/README.md) identifies the project’s public endpoints, support group and support account, and says the service is not affiliated with Telegram. The README also says its servers are located on European territory.
 
 But they're listening to the community:\
-![](.gitbook/assets/image.png)
+![](<../../.gitbook/assets/image (41).png>)
 
 ## Advertising Trackers
 

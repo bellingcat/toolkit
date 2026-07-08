@@ -17,7 +17,7 @@ Leak Lookup is an online tool and database search platform that allows users to 
 
 Leak Lookup's collection appears to contain publicly available databases from web applications and services that have been breached, leaked or scraped as well as collections of credentials or personally identifiable information (PII) such as [Collection 1](https://en.wikipedia.org/wiki/Collection_No._1). For each "breach", users are able to see the data types that have been exposed such as email address, username, full name, cleartext or hashed password.
 
-<figure><img src=".gitbook/assets/Screenshot 2025-01-24 at 3.20.21 PM.png" alt=""><figcaption><p>Sample record of breach information</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-01-24 at 3.20.21 PM.png" alt=""><figcaption><p>Sample record of breach information</p></figcaption></figure>
 
 As of June 2026, Leak-Lookup also has the following API offerings:
 
@@ -49,7 +49,7 @@ Four **Search Options** are available:
 * **Wildcard Match** — greyed out; not yet released
 * **Automatic Unlock** — requires a paid subscription
 
-<figure><img src=".gitbook/assets/Screenshot 2026-06-21 at 3.51.21 PM.png" alt=""><figcaption><p>Sample search query</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-06-21 at 3.51.21 PM.png" alt=""><figcaption><p>Sample search query</p></figcaption></figure>
 
 ## Cost
 
