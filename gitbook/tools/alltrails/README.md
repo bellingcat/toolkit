@@ -80,7 +80,7 @@ _User Profile_
 
 Example below shows search for Vondelpark Loop in Amsterdam:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-06-17 at 11.41.21 AM.png" alt="Screenshot user interface show a search results for of Vondelpark Loop in Amsterdam. Shows a map of the route, elevation profile and user comments and ratings."><figcaption><p>Screenshotof Vondelpark Loop in Amsterdam</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-06-17 at 11.41.21 AM (1).png" alt="Screenshot user interface show a search results for of Vondelpark Loop in Amsterdam. Shows a map of the route, elevation profile and user comments and ratings."><figcaption><p>Screenshotof Vondelpark Loop in Amsterdam</p></figcaption></figure>
 
 ## Cost
 
