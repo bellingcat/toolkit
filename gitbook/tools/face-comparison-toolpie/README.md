@@ -21,7 +21,7 @@ Toolpie's Facial Recognition tool provides open source researchers with a quick 
 
 **How to Use Face Recognition by Toolpie**
 
-<figure><img src="../../.gitbook/assets/{E3732BB5-E883-493A-8C6C-23600F5E5895}.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/{E3732BB5-E883-493A-8C6C-23600F5E5895} (1).png" alt=""><figcaption></figcaption></figure>
 
 Upload two separate photos to the "Upload face photo" sections, then click on "Start comparing". It should only take a few seconds to get a response back, which should look similar to the screenshot above.
 
