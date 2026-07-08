@@ -46,11 +46,11 @@ Hitta.se is a tool that specializes in providing comprehensive information, rang
 
 Search results for a neighborhood in Stockhom:
 
-<figure><img src="../../.gitbook/assets/Hitta sample image.jpg" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Hitta sample image (1).jpg" alt="" width="563"><figcaption></figcaption></figure>
 
 Search results for the search term _Stockholm:_
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-04-26 at 1.11.40 PM.png" alt="Screenshot of a search for the term Stockholm on the hitta.se map shows a map with roads and boundaries around Stockholm."><figcaption><p>Screenshot of search results for the term Stockholm</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-04-26 at 1.11.40 PM (1).png" alt="Screenshot of a search for the term Stockholm on the hitta.se map shows a map with roads and boundaries around Stockholm."><figcaption><p>Screenshot of search results for the term Stockholm</p></figcaption></figure>
 
 ## Cost
 
