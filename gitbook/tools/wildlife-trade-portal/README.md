@@ -17,7 +17,7 @@ You will also see a results page with a list of the incident, a map that locates
 
 For example, you can see the number of people by government involvement over time or the number of incidents by type of transit over time. You can also search for multiple species. In this way, you can find incidents related to all the species you are looking for.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-11-01 at 9.07.19 PM.png" alt=""><figcaption><p>Search example: Seizures of pangolins in Nigeria in recent years.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-11-01 at 9.07.19 PM (1).png" alt=""><figcaption><p>Search example: Seizures of pangolins in Nigeria in recent years.</p></figcaption></figure>
 
 The results can be exported. Have a look at [this user guide (pdf) ](https://www.wildlifetradeportal.org/wildlife-trade-portal-guide.pdf)to get a sense of how the dashboard looks like.
 
