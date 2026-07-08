@@ -142,7 +142,7 @@ The live credit-bundle price table was not reachable in this audit. Check the we
 TelegramDB.org / TgDB Team maintains the service. Public organizational details are limited; the official [GitHub README](https://raw.githubusercontent.com/TelegramDB/TelegramDB/master/README.md) identifies the project’s public endpoints, support group and support account, and says the service is not affiliated with Telegram. The README also says its servers are located on European territory.
 
 But they're listening to the community:\
-![](<../../.gitbook/assets/image (41).png>)
+![](<.gitbook/assets/image (41).png>)
 
 ## Advertising Trackers
 
