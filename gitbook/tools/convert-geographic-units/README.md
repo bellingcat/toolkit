@@ -28,7 +28,7 @@ This tool can be used by researchers to translate coordinates between formats so
 
 For example, select the WGS 84 datum and enter the Decimal Degrees for the Eiffel Tower (48.858222, 2.2945) to convert them into Degrees Minutes Seconds (DMS) or Standard UTM coordinates.
 
-<figure><img src="../../.gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>
 
 ## Cost
 
