@@ -3,7 +3,7 @@ updated: '2026-06-25'
 description: A database which relates remote sensing indices with satellite imaging sensors
 ---
 
-# Index Database
+# Index DataBase
 
 ## URL
 
@@ -57,41 +57,41 @@ Below is an example of a basic IDB search, using a case study from "Yemen’s Di
 
 {% tabs %}
 {% tab title="Identify an AoI" %}
-<figure><img src="../../.gitbook/assets/Step 1 (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Step 1 (5).png" alt=""><figcaption></figcaption></figure>
 
 To begin, choose an area of interest. Above is a screenshot from [Copernicus Browser](https://bellingcat.gitbook.io/toolkit/more/all-tools/sentinal-hub-playground), an entry-level, but extremely capable, web-based tool for viewing remote sensing data. It shows the geographical area southwest of Bayt Al Faqiah in Western Yemen that Wim Zwijnenburg examined in 2020 in an analysis of date palm biomass health in Yemen for Bellingcat.
 {% endtab %}
 
 {% tab title="Query" %}
-<figure><img src="../../.gitbook/assets/Step 2 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Step 2 (1).png" alt=""><figcaption></figcaption></figure>
 
 Open Index DataBase. In this case, we know that the Copernicus data is from Sentinel 2 and we know that we’re looking at date palm biomass health, so we’ll search by selected Sensor and Application.
 {% endtab %}
 
 {% tab title="Search!" %}
-<figure><img src="../../.gitbook/assets/Step 3 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Step 3 (1).png" alt=""><figcaption></figcaption></figure>
 
 We know that our sensor is Sentinel 2 and that we're looking for biomass, so we enter those options from the dropdown menu and click Display Indices.
 {% endtab %}
 
 {% tab title="Select an Index" %}
-<figure><img src="../../.gitbook/assets/Step 4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Step 4 (1).png" alt=""><figcaption></figcaption></figure>
 
 This search returns these seven options. Each is a remote sensing index that provides information about the biomass that the sensor can see. You can click on any of the available options to bring up the index's dedicated page containing, among other basic information, a non-exhaustive list of academic sources that use or discuss the listed index.
 {% endtab %}
 
 {% tab title="Find the Formula" %}
-<figure><img src="../../.gitbook/assets/Step 5Final.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Step 5Final (1).png" alt=""><figcaption></figcaption></figure>
 
 For our purposes, the basic Normalized Difference Vegetation Index or NDVI will be great. As you can see next to its generalized formula, the Index DataBase provides us with the specific formula to use the NDVI with Sentinel 2: (Band 8 - Band 4) / (Band 8 + Band 4).
 {% endtab %}
 
 {% tab title="Input the Formula" %}
-<figure><img src="../../.gitbook/assets/Step 6 Final.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Step 6 Final (1).png" alt=""><figcaption></figcaption></figure>
 
 In the top left, select the date range you're interested in. I've chosen May 20th, 2020, as one of the dates that Wim selected for analysis.
 
-<figure><img src="../../.gitbook/assets/Step 7.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Step 7 (1).png" alt=""><figcaption></figcaption></figure>
 
 In the bottom left of the Layers section, click on the Index tab. Select an index of the matching form of the NDVI. Because the formula for our sensor is (Band 8 - Band 4) / (Band 8 + Band 4), we'll select the form (A-B)/(A+B). Then, we'll drag B08 (or Band 8) into the A variable and B04 (or Band 4) into the B variable. For more complicated variables, you may not be able to implement them through the basic index box. You may be able to find custom scripts for different indices on Sentinel Hub or you can write your own in Javascript, both of which would be input into the Custom tab rather than the Index tab.
 
@@ -99,7 +99,7 @@ For visibility, I selected the Threshold that creates a white to green gradient,
 {% endtab %}
 
 {% tab title="Explore!" %}
-<figure><img src="../../.gitbook/assets/Step 8.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Step 8 (1).png" alt=""><figcaption></figcaption></figure>
 
 And voila! Copernicus will show you what the image looks like. You can adjust your threshold settings, move around the map, zoom in for more detail, download images, and more to find the perfect way to illustrate your analysis. By comparing the differences at different dates, you can visualize changes to date palm health over time, as Wim did in the article linked above! By expanding on these fundamentals, the remote sensing world is yours to explore.
 {% endtab %}
