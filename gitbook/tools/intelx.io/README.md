@@ -15,7 +15,7 @@ Intelligence X lets you search email addresses (and other inputs) in its databas
 
 In the example below, Intelx finds a particular email address in a leak of Twitter and Chegg. The twitter one shows info on names, screen names, followers and the creation time. The Chegg database shows email addresses and their passwords.
 
-![](<../../.gitbook/assets/image (3) (1).png>)
+![](<.gitbook/assets/image (3) (1).png>)
 
 By clicking on the database you can see the whole file and make a search for an email of interest.
 
