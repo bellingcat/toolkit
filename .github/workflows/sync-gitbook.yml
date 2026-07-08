@@ -160,7 +160,7 @@ jobs:
           git commit -m "Sync: Import to GitBook"
 
       - name: Push changes
-        if: steps.changes.outputs.all == 'true'
+        if: steps.changes.outputs.checkpoint == 'true'
         run: |
           git pull --rebase origin main
           git push origin main
