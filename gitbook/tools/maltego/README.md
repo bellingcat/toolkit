@@ -21,7 +21,7 @@ We tested Maltego Graph CE 4.9.3 (Community Edition) version for this toolkit de
 
 ### Getting Started
 
-<figure><img src="../../.gitbook/assets/2025-07-02_21-29-39welcome (1).png" alt=""><figcaption><p>Seen here is the start page of Maltego Graph, which loads after sign-in/authentication. To the left are recent updates to the software. To the right is the Data/Transform Hub where users can transform as many data sources as their account allows.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/2025-07-02_21-29-39welcome (1).png" alt=""><figcaption><p>Seen here is the start page of Maltego Graph, which loads after sign-in/authentication. To the left are recent updates to the software. To the right is the Data/Transform Hub where users can transform as many data sources as their account allows.</p></figcaption></figure>
 
 ### What are Entities and Attributes?
 
@@ -49,7 +49,7 @@ As a rule of thumb, if you want to pivot on an information later, make it an ent
 
 Maltego comes with Standard entities. Read more about this [here.](https://docs.maltego.com/en/support/solutions/articles/15000034102-standard-entities) [However, users can also create their own Custom Entity/Entities to tailor them to their needs. ](https://www.maltego.com/blog/create-your-own-custom-entities-in-maltego/)The steps for creating custom entities can also be found [here.](https://m.youtube.com/watch?v=FHzsegaqlIo) \\
 
-<div align="center" data-full-width="false"><figure><img src="../../.gitbook/assets/Recording2025-07-01012503-entitypalette-ezgif.com-crop (1).gif" alt="" width="203"><figcaption><p>Here is a sample list of pre-loaded Entities in Maltego. Users can find it in the “Investigate” tab. Users can drag and drop an entity as the starting point for their investigation.</p></figcaption></figure></div>
+<div align="center" data-full-width="false"><figure><img src=".gitbook/assets/Recording2025-07-01012503-entitypalette-ezgif.com-crop (1).gif" alt="" width="203"><figcaption><p>Here is a sample list of pre-loaded Entities in Maltego. Users can find it in the “Investigate” tab. Users can drag and drop an entity as the starting point for their investigation.</p></figcaption></figure></div>
 
 ### What do the Buttons Mean in Maltego Graph?
 
@@ -57,7 +57,7 @@ Maltego comes with Standard entities. Read more about this [here.](https://docs.
 
 The interface for Maltego requires familiarization. Below are the most commonly used features of the tool.
 
-<figure><img src="../../.gitbook/assets/2025-06-30_21-19-39-mainmenu (1).png" alt="" width="563"><figcaption><p>These are the main menu features found on the topmost portion of the application.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/2025-06-30_21-19-39-mainmenu (1).png" alt="" width="563"><figcaption><p>These are the main menu features found on the topmost portion of the application.</p></figcaption></figure>
 
 #### _**The "Investigate" Tab**_
 
@@ -69,7 +69,7 @@ The “Investigate” Tab is key as this is where users can organize their data.
 * Search quickly within graphs
 * Select privacy preferences when running queries
 
-<figure><img src="../../.gitbook/assets/Invesitgate tab (1).png" alt=""><figcaption><p>This shows a quick primer of the Investigate tab, which shows options on how to efficiently organize your data points.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Invesitgate tab (1).png" alt=""><figcaption><p>This shows a quick primer of the Investigate tab, which shows options on how to efficiently organize your data points.</p></figcaption></figure>
 
 #### _**Graph Layout**_
 
@@ -77,7 +77,7 @@ Beginner users will need to orient themselves with the layout of the graph. Belo
 
 (CLICK IMAGE BELOW TO ENLARGE)
 
-<div data-full-width="true"><figure><img src="../../.gitbook/assets/2025-07-02_23-42-14- graph layout (1).png" alt=""><figcaption><p>(CLICK TO ENLARGE) This is a example graph and the different sections that users will get to familiarize when working with the tool.</p></figcaption></figure></div>
+<div data-full-width="true"><figure><img src=".gitbook/assets/2025-07-02_23-42-14- graph layout (1).png" alt=""><figcaption><p>(CLICK TO ENLARGE) This is a example graph and the different sections that users will get to familiarize when working with the tool.</p></figcaption></figure></div>
 
 For a detailed step on starting your first graph, look at the documentation [here](https://docs.maltego.com/en/support/solutions/articles/15000008832-your-first-graph), as well as an explanation of [several other icons i](https://docs.maltego.com/en/support/solutions/articles/15000009615-maltego-graph-sidebar)n the interface, for more intermediate users. \\
 
@@ -99,13 +99,13 @@ Begin with a piece of information you know (called “Entity” – which can be
 
 The researcher can hover over each search result returned. This will produce an “overview” window with detailed information about that search result.
 
-<figure><img src="../../.gitbook/assets/running transforms.mp4 (1).gif" alt=""><figcaption><p>RUNNING A TRANSFORM: Here is an example of running a transform on a website of interest. In this example, an investigator may be interested in knowing what is behind this website and confirming that the domain exists. He/she runs a transform by right-clicking on this entity. A Transform Menu shows up, and the user clicks on a Transform (DNSNames). This then runs a piece of code that takes a piece of information (www.paterva.com website) as input and returns related information as output (DNS Name). This new icon at the bottom is data confirming that the website name exists.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/running transforms.mp4 (1).gif" alt=""><figcaption><p>RUNNING A TRANSFORM: Here is an example of running a transform on a website of interest. In this example, an investigator may be interested in knowing what is behind this website and confirming that the domain exists. He/she runs a transform by right-clicking on this entity. A Transform Menu shows up, and the user clicks on a Transform (DNSNames). This then runs a piece of code that takes a piece of information (www.paterva.com website) as input and returns related information as output (DNS Name). This new icon at the bottom is data confirming that the website name exists.</p></figcaption></figure>
 
 #### _**Understanding Transform Results**_
 
 Sometimes, if the transforms have many results, it is advisable to use the “Block Layout”. This is helpful for new users as Maltego usually organizes the results according to relevance. It gives it a higher “weight” according to the most relevance and a low score for the least relevance. The top most line is the result with the highest weight, and the lowest line has the lowest “weight” or relevance.
 
-<figure><img src="../../.gitbook/assets/TRANSFORM RESULTS (1).png" alt=""><figcaption><p>This diagram showcases the Block Layout view in Maltego, used to organize transform results based on relevance. In this example, the location Pretoria, South Africa, runs using the OCCRP Aleph Transforms to search for Court Archives. The root node (Pretoria, South Africa) shows results that connect to various entities such as WikiLeaks cables, NPOs, and documents. Entities higher up (e.g., 07PRETORIA3077.html) are high-weight / high-relevance results. Entities lower down (e.g., SourceAfrica.net docs) are low-weight / low-relevance results. Use the Block Layout button (highlighted on the left toolbar) to visually group results by importance or similarity. This view helps analysts prioritize entities based on their connection strength to the main subject.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/TRANSFORM RESULTS (1).png" alt=""><figcaption><p>This diagram showcases the Block Layout view in Maltego, used to organize transform results based on relevance. In this example, the location Pretoria, South Africa, runs using the OCCRP Aleph Transforms to search for Court Archives. The root node (Pretoria, South Africa) shows results that connect to various entities such as WikiLeaks cables, NPOs, and documents. Entities higher up (e.g., 07PRETORIA3077.html) are high-weight / high-relevance results. Entities lower down (e.g., SourceAfrica.net docs) are low-weight / low-relevance results. Use the Block Layout button (highlighted on the left toolbar) to visually group results by importance or similarity. This view helps analysts prioritize entities based on their connection strength to the main subject.</p></figcaption></figure>
 
 For a detailed explanation of the layouts, see [here.](https://docs.maltego.com/en/support/solutions/articles/15000009615-maltego-graph-sidebar#layouts-4-8--0-1)
 
@@ -123,7 +123,7 @@ Maltego Graph can also be used beyond the Transforms Hub. Without using transfor
 
 To use Maltego Graph for this purpose, the user will go through the discovery, archiving, and other necessary steps needed for an open-source investigation. After collecting the data, the user can then map those links manually in a graph by organizing the entities and making links to attributes to other data points.
 
-<figure><img src="../../.gitbook/assets/methodology.mp4 (1).gif" alt=""><figcaption><p>This is a brief example of using Maltego Graph to establish connections with data we have gathered ourselves. In this simple example, we examine the different information that can be gathered about the <a href="http://bellingcat.com">Bellingcat.com</a> website. After finding different social media accounts, we map that information on Maltego. Prior to this step, we created our <a href="https://m.youtube.com/watch?v=FHzsegaqlIo">custom</a> Mastodon entity. We drag that Mastodon Entity from the Entity Palette to the left, and then input the attribute, in this case, the Mastodon username “@<a href="mailto:bellingcat@mstdn.social">bellingcat@mstdn.social</a>”.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/methodology.mp4 (1).gif" alt=""><figcaption><p>This is a brief example of using Maltego Graph to establish connections with data we have gathered ourselves. In this simple example, we examine the different information that can be gathered about the <a href="http://bellingcat.com">Bellingcat.com</a> website. After finding different social media accounts, we map that information on Maltego. Prior to this step, we created our <a href="https://m.youtube.com/watch?v=FHzsegaqlIo">custom</a> Mastodon entity. We drag that Mastodon Entity from the Entity Palette to the left, and then input the attribute, in this case, the Mastodon username “@<a href="mailto:bellingcat@mstdn.social">bellingcat@mstdn.social</a>”.</p></figcaption></figure>
 
 {% hint style="success" %}
 TIP: We learned that putting a link to your source under “label” can be effective at easily showing the source of the data. In this example, our source is the [bellingcat.com](http://bellingcat.com) website.
