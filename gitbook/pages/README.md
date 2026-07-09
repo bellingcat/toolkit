@@ -1,6 +1,6 @@
 ---
 description: A toolkit for open source researchers
-cover: .gitbook/assets/Bellingcat_Toolkit_Ann_Kiernan stretched (1).png
+cover: ../.gitbook/assets/Bellingcat_Toolkit_Ann_Kiernan stretched (1).png
 coverY: 0
 layout:
   width: default
@@ -25,7 +25,7 @@ layout:
     visible: true
 ---
 
-# About
+# Home
 
 ## Welcome to Bellingcat’s Online Open Source Investigation Toolkit!
 

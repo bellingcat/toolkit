@@ -5,7 +5,7 @@ description: >-
   world, facilitating research, policy making, and journalistic reporting.
 ---
 
-# ACLED (Armed Conflict Location & Event Data Project)
+# ACLED
 
 ## URL
 
@@ -49,13 +49,13 @@ The following part of the text contains detailed function information in collaps
 
 The [ACLED Explorer](https://acleddata.com/platform/explorer/) filters and summarizes ACLED data from the past year. For longer historical exports, use the Data Export Tool, downloadable regional or curated data files, or the API, and check ACLED’s country/time-period coverage page because start dates vary across locations.
 
-<figure><img src=".gitbook/assets/image (46) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
 
 #### _**ACLED Trends**_
 
 ACLED Trendfinder provides interactive tools for tracking global political violence and demonstrations. It enables the identification of significant changes, historical context, and early warning signs of conflict emergence across countries and regions.
 
-<figure><img src=".gitbook/assets/image (7) (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (3).png" alt=""><figcaption></figcaption></figure>
 
 <details>
 
@@ -80,7 +80,7 @@ ACLED Trendfinder provides interactive tools for tracking global political viole
 
 The [ACLED Conflict Alert System (CAST)](https://acleddata.com/platform/cast-conflict-alert-system) forecasts the number of political violence events expected in each of the next six rolling four-week periods in every country. CAST requires users to register or log in to myACLED.
 
-<figure><img src=".gitbook/assets/image (6) (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (6).png" alt=""><figcaption></figcaption></figure>
 
 <details>
 
@@ -100,7 +100,7 @@ The [ACLED Conflict Alert System (CAST)](https://acleddata.com/platform/cast-con
 
 Accuracy metrics in the CAST system enable users to assess the accuracy of the forecast compared to the last six months.
 
-<figure><img src=".gitbook/assets/image (8) (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (3).png" alt=""><figcaption></figcaption></figure>
 
 <details>
 
@@ -121,7 +121,7 @@ CAST pages may include restricted monthly results and report links when availabl
 
 [Estimates](https://acleddata.com/platform/conflict-exposure-calculator) civilian exposure to conflict by combining ACLED event data with WorldPop population estimates and proximity buffers. ACLED notes that WorldPop estimates are not updated with migration, refugee, or internally displaced person flows, so treat exposure outputs as estimates rather than exact population counts.d.
 
-<figure><img src=".gitbook/assets/image (9) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 <details>
 
@@ -142,7 +142,7 @@ The Weekly Conflict Index provides a singular measure of conflict intensity in e
 
 Example below: May 2024.
 
-<figure><img src=".gitbook/assets/image (10) (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (5).png" alt=""><figcaption></figcaption></figure>
 
 #### **Special Projects**
 
@@ -152,7 +152,7 @@ Example below: May 2024.
 Not every focused conflict monitor is available for every registered user.
 {% endhint %}
 
-<figure><img src=".gitbook/assets/image (11) (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (3).png" alt=""><figcaption></figcaption></figure>
 
 ## Cost
 

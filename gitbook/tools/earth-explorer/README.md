@@ -28,9 +28,9 @@ Datasets include:
 
 EarthExplorer includes an interactive map interface for defining areas of interest, textual filtering criteria for date range, cloud cover, sensor type, and resolution. You can browse previews of individual scenes with full metadata.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2026-06-21 at 6.38.07 PM (1).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-06-21 at 6.38.07 PM.jpg" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Screenshot 2026-06-21 at 6.38.22 PM (1).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-06-21 at 6.38.22 PM.jpg" alt=""><figcaption></figcaption></figure>
 
 After querying and getting results you can:
 
