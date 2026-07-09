@@ -33,7 +33,7 @@ For more information on PGP and how it is used by Proton Mail, check these two g
 * [How to use PGP with Proton Mail - Proton Blog](https://proton.me/support/how-to-use-pgp)
 {% endhint %}
 
-<figure><img src=".gitbook/assets/demo (1).gif" alt=""><figcaption><p>NeutrOSINT uses the email's associated PGP key to detect if an email exists or not.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/demo.gif" alt=""><figcaption><p>NeutrOSINT uses the email's associated PGP key to detect if an email exists or not.</p></figcaption></figure>
 
 The tool supports two modes:
 
@@ -248,9 +248,9 @@ If you reach this limit or if you know you have a lot of entries to test, then y
 
 When you type in an email in the destination field, a request is made to check for the email availability when it's a Proton Email.
 
-<figure><img src=".gitbook/assets/image (52).png" alt=""><figcaption><p>The lock shows that the email is valid and the encryption is possible.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (52).png" alt=""><figcaption><p>The lock shows that the email is valid and the encryption is possible.</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (1) (13).png" alt=""><figcaption><p>When the email does not exist, an error message is displayed.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (13).png" alt=""><figcaption><p>When the email does not exist, an error message is displayed.</p></figcaption></figure>
 
 **Example 6: Using a Proxy (Advanced)**
 

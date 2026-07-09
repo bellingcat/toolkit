@@ -40,7 +40,7 @@ Note that if you input the domain name, the tool will automatically resolve its 
 
 Let's take the domain bellingcat.com as an example:
 
-<figure><img src=".gitbook/assets/image (71).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (71).png" alt=""><figcaption></figcaption></figure>
 
 _(GeoDataTool query result for bellingcat.com, on 19/06/2026)_
 

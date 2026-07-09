@@ -36,7 +36,7 @@ In simple terms, when aircraft use ADS-B Out, **not only are they sending their 
 
 The data seems to be [manually updated daily ](https://x.com/lemonodor/status/1553107534029828096)around midnight UTC.
 
-<figure><img src=".gitbook/assets/ScreenRecording2024-08-16103057-ezgif.com-video-to-gif-converter (1).gif" alt=""><figcaption><p>This shows GPSJam’s interference data on 13 Aug 2024. First, we enter the date we are interested in. By clicking on “More” under the calendar, we find the location we are interested in by entering the info i.e. Moscow. We can adjust the amount of flight traffic in that area by sliding the toggle on the “traffic threshold” menu.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ScreenRecording2024-08-16103057-ezgif.com-video-to-gif-converter (1).gif" alt=""><figcaption><p>This shows GPSJam’s interference data on 13 Aug 2024. First, we enter the date we are interested in. By clicking on “More” under the calendar, we find the location we are interested in by entering the info i.e. Moscow. We can adjust the amount of flight traffic in that area by sliding the toggle on the “traffic threshold” menu.</p></figcaption></figure>
 
 _**Filter by date**_
 
@@ -66,7 +66,7 @@ Users can toggle the slider under the "traffic threshold" option to filter inter
 
 The map shows areas where aircraft reported good, bad, or uncertain navigation accuracy based on 24 hours of data. The map features hexagonal divisions, [each color-coded.](https://gpsjam.org/)
 
-<figure><img src=".gitbook/assets/image (1) (3).png" alt=""><figcaption><p>This legend is located at the bottom left of the map. Each hexagon is grouped into three colors depending on the level of position accuracy reported by aircraft.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (3) (1).png" alt=""><figcaption><p>This legend is located at the bottom left of the map. Each hexagon is grouped into three colors depending on the level of position accuracy reported by aircraft.</p></figcaption></figure>
 
 **GREEN:** Good navigation accuracy for over 98% of aircraft.
 

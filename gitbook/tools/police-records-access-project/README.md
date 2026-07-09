@@ -90,13 +90,13 @@ The search functionality is straightforward to use. The key features are keyword
 
 \\
 
-<figure><img src=".gitbook/assets/unknown (3).png" alt=""><figcaption><p>This is the landing page, which automatically sends users to the search function.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/unknown (3) (2).png" alt=""><figcaption><p>This is the landing page, which automatically sends users to the search function.</p></figcaption></figure>
 
 _**How to View and Search Specific Records**_
 
 Each case provides access to the original, redacted PDF documents. A case can contain more than one document, and each document can contain several pages. Users can search through all documents related to a case via a dedicated search bar.
 
-<figure><img src=".gitbook/assets/unknown (1) (1).png" alt=""><figcaption><p>When clicking on a specific search result, users are shown the list of documents associated with that case. Note the search bar that searches documents specific to the case in question.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/unknown (1) (1) (2).png" alt=""><figcaption><p>When clicking on a specific search result, users are shown the list of documents associated with that case. Note the search bar that searches documents specific to the case in question.</p></figcaption></figure>
 
 {% hint style="info" %}
 TIP: Users can also cross check search results with the [National Police Index](https://national.cpdp.co/state/California) of California to look up further info about officers.
@@ -132,12 +132,12 @@ PDF reader
 * There is no graphic content warning which is immediately visible. The warning sign is small and not easy to find.
 * The screenshot below shows that the tool warns its users that the "search results may not necessarily identify all relevant documents or cases".
 
-<figure><img src=".gitbook/assets/2025-09-21_21-18-37-limitation (1).png" alt=""><figcaption><p>This caveat is mentioned at the bottom of the main search results. It includes a graphic content warning which can easily be overlooked.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2025-09-21_21-18-37-limitation (1).png" alt=""><figcaption><p>This caveat is mentioned at the bottom of the main search results. It includes a graphic content warning which can easily be overlooked.</p></figcaption></figure>
 
 * Be aware that records may change or be updated: "Information about a case can change as agencies submit new or updated records" is specified at[ the top of the search bar](https://clean.calmatters.org/).
 * Be aware of potential errors in some record dates. During our tests, we found that the dates in the records list (see screenshot below) refer to the incident date.
 
-<figure><img src=".gitbook/assets/2025-10-10_14-21-43 (1).png" alt=""><figcaption><p>The date highlighted in the blue box is the date of the incident. However, a few records may not display the correct date. Users are encouraged to cross check with other sources.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2025-10-10_14-21-43 (1).png" alt=""><figcaption><p>The date highlighted in the blue box is the date of the incident. However, a few records may not display the correct date. Users are encouraged to cross check with other sources.</p></figcaption></figure>
 
 However, some dates are not accurately displayed. For example, [one record](https://clean.calmatters.org/cases/1743019578959-kdy) lists the date as October 31, 2023, but the[ underlying document](https://cleanpdfs.blob.core.windows.net/pdfs/74/28/04/742804475f8535e404fa8eae232a8b80d1cf31f6) cites an incident date of September 2014. This inconsistency makes it difficult for users to determine to which event the system’s listed date is actually tied to.
 
