@@ -16,7 +16,7 @@ Blackbird is a Python command-line tool that searches for accounts associated wi
 
 For username searches, the tool is integrated with the [WhatsMyName](https://github.com/WebBreacher/WhatsMyName) project, which maintains a community dataset of 700+ websites for reverse username lookups. The data sources maintained by the WhatsMyName team can be found [here](https://github.com/WebBreacher/WhatsMyName/blob/main/wmn-data.json).
 
-<figure><img src="../../.gitbook/assets/blackbird (1).png" alt=""><figcaption><p>Blackbird's logo, displayed in the terminal upon launching the tool</p></figcaption></figure>
+<figure><img src=".gitbook/assets/blackbird (1).png" alt=""><figcaption><p>Blackbird's logo, displayed in the terminal upon launching the tool</p></figcaption></figure>
 
 For email address searches, it queries the servers of websites in the WhatsMyName database to check whether an account exists for a given address. When a valid account is found, a direct URL to the user's profile is returned.
 
@@ -24,7 +24,7 @@ Beyond simply listing matched accounts, the tool automatically extracts publicly
 
 Like other username enumeration tools such as [Sherlock](https://bellingcat.gitbook.io/toolkit/more/all-tools/sherlock), it checks usernames against its own distinct collection of sources, meaning results for the same username will differ between tools. It provides broader coverage of NSFW and alternative social media platforms, including Gab and Truth Social, while Sherlock tends to surface stronger results on mainstream social networks that are currently or were previously popular, such as LinkedIn, ICQ, 9Gag, and Letterboxd.
 
-<figure><img src="../../.gitbook/assets/bellingcat (1).png" alt=""><figcaption><p>Blackbird's results for the username "bellingcat", showing 731 sites checked in 44.1 seconds, with matched accounts found on platforms including Tiktok, GitHub and Twitch.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/bellingcat (1).png" alt=""><figcaption><p>Blackbird's results for the username "bellingcat", showing 731 sites checked in 44.1 seconds, with matched accounts found on platforms including Tiktok, GitHub and Twitch.</p></figcaption></figure>
 
 A built-in AI analysis feature interprets discovered profiles to generate behavioural and technical summaries. This is available free of charge within daily usage limits. The documentation says only discovered site names are sent for AI analysis, but the setup prompt in the current code says the user's IP address is registered for API-key management and abuse prevention.
 
