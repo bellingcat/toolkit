@@ -42,7 +42,7 @@ Open Measures provides a [Command Line Interface (CLI)](https://gitlab.com/openm
 
 Example of a timeline search result for the term _QAnon:_
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-04-25 at 11.54.20 AM (1).png" alt="Search result for the term QAnon"><figcaption><p>Search result for the term <em>QAnon</em></p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-04-25 at 11.54.20 AM (1).png" alt="Search result for the term QAnon"><figcaption><p>Search result for the term <em>QAnon</em></p></figcaption></figure>
 
 ## Cost
 
