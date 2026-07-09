@@ -16,9 +16,9 @@ description: >-
 
 Hugin is an open-source panorama photo stitching and HDR (High Dynamic Range imaging) merging software. It assists users in combining multiple images to create seamless panoramas and can adjust for the optical distortions in camera lenses. A common use case is producing wide-angle shots by stitching together several overlapping photos. This can allow for the creation of multiple exposure images, as well as large composite shots that combine dozens of images. The tool offers some automated features for image stitching, though manual use is suggested to avoid artifacting or unintended errors.
 
-<div align="left"><figure><img src="../../.gitbook/assets/Canon EOS REBEL T5355 (1).JPG" alt="" width="375"><figcaption><p>Iceland Glacier, Image #1</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Canon EOS REBEL T5358 (1).JPG" alt="" width="375"><figcaption><p>Iceland Glacier, Image #2</p></figcaption></figure></div>
+<div align="left"><figure><img src=".gitbook/assets/Canon EOS REBEL T5355.JPG" alt="" width="375"><figcaption><p>Iceland Glacier, Image #1</p></figcaption></figure> <figure><img src=".gitbook/assets/Canon EOS REBEL T5358.JPG" alt="" width="375"><figcaption><p>Iceland Glacier, Image #2</p></figcaption></figure></div>
 
-<figure><img src="../../.gitbook/assets/Iceland Iceberg (1).jpeg" alt=""><figcaption><p>Composite of Above Images, Stitched Together Automatically by Hugin, Images Source: Voulpe</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Iceland Iceberg.jpeg" alt=""><figcaption><p>Composite of Above Images, Stitched Together Automatically by Hugin, Images Source: Voulpe</p></figcaption></figure>
 
 ## Cost
 
@@ -106,7 +106,7 @@ Full authors list: [https://sourceforge.net/p/hugin/hugin/ci/default/tree/author
 * [ ] This tool uses tracking cookies. Use with caution.
 * [x] This tool does not appear to use tracking cookies.
 
-| Page maintainer               |
-| ----------------------------- |
-| Bellingcat Volunteer Team/Aly |
-|                               |
+| Page maintainer           |
+| ------------------------- |
+| Bellingcat Volunteer Team |
+|                           |
