@@ -28,25 +28,25 @@ You can start searches directly from the context menu or the browser toolbar.
 
 Open the extension menu and select the desired engine. This will open a new tab with the results.
 
-<figure><img src="../../.gitbook/assets/demo (5).gif" alt=""><figcaption><p>You can also fetch on all engines simultaneously</p></figcaption></figure>
+<figure><img src=".gitbook/assets/demo (5) (1).gif" alt=""><figcaption><p>You can also fetch on all engines simultaneously</p></figcaption></figure>
 
 ### Fetch the archives for a link using the context menu
 
 If your target is a link available in the current page, you can right-click on the link, select "Web Archives" context menu and then select the desired engine.
 
-<figure><img src="../../.gitbook/assets/demo2 (1).gif" alt=""><figcaption><p>You can use Web Archives' context menu on a link</p></figcaption></figure>
+<figure><img src=".gitbook/assets/demo2 (1) (1).gif" alt=""><figcaption><p>You can use Web Archives' context menu on a link</p></figcaption></figure>
 
 ### Fetch the archive of a given URL from the clipboard
 
 From the extension menu, select the URL Mode and then copy-paste the target URL.
 
-<figure><img src="../../.gitbook/assets/demo3url (1).gif" alt=""><figcaption><p>The URL Mode allows you to fetch for a URL without opening it, that makes you check a resource passively, without interacting with the target.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/demo3url (1) (1).gif" alt=""><figcaption><p>The URL Mode allows you to fetch for a URL without opening it, that makes you check a resource passively, without interacting with the target.</p></figcaption></figure>
 
 ### Change behavior to open new tabs in the background
 
 By default, Web Archives will open the results in a new tab and switch focus to it. If you prefer to open the tab in the background and view the results later, you can adjust this behavior in **Options > Miscellaneous >&#x20;**_**Open new tabs in the background**_.
 
-<figure><img src="../../.gitbook/assets/demo4 (1).gif" alt=""><figcaption><p>Now tabs will open in the background and you can switch focus to it later.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/demo4 (1) (1).gif" alt=""><figcaption><p>Now tabs will open in the background and you can switch focus to it later.</p></figcaption></figure>
 
 You can also choose the desired engines and re-order them in the Options.
 
