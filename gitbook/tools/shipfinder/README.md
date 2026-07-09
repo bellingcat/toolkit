@@ -13,7 +13,7 @@ description: >-
 
 ## Description
 
-<figure><img src="../../.gitbook/assets/shipfinderinterface (1).JPG" alt=""><figcaption><p><strong>SHIPFINDER INTERFACE SHOWING VESSELS AROUND ISTANBUL, AND DETAILS OF A SELECTED VESSEL</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/shipfinderinterface (1).JPG" alt=""><figcaption><p><strong>SHIPFINDER INTERFACE SHOWING VESSELS AROUND ISTANBUL, AND DETAILS OF A SELECTED VESSEL</strong></p></figcaption></figure>
 
 ShipFinder is an application designed to track vessels in near real-time across the globe.
 
