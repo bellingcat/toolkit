@@ -1,4 +1,4 @@
-name: Sync Google Sheets
+name: Sync Sheets
 on:
   workflow_run:
     workflows: ["Sync Github Project"]
