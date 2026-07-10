@@ -1,4 +1,4 @@
-name: Sync GitBook
+name: Sync Content
 
 # Single job: export (GitBook → repo), build, then import (repo → GitBook).
 # The order matters twice over: the export pulls GitBook-side edits down
