@@ -104,6 +104,7 @@ async function main() {
   let skipped = 0;
   let conflicts = 0;
   let errors = 0;
+  const exportedSlugs = [];
 
   for (const item of items) {
     const spaceId = getField(item, 'Space ID');
@@ -165,6 +166,7 @@ async function main() {
         await exportSpace(spaceId, toolSlug);
         checkpoint[toolSlug] = new Date().toISOString();
         exported++;
+        exportedSlugs.push(toolSlug);
       } catch (e) {
         console.error(`ERROR exporting ${toolSlug} (${spaceId}): ${e.message}`);
         errors++;
@@ -176,6 +178,12 @@ async function main() {
   }
 
   saveCheckpoint(checkpoint);
+
+  // Tell the workflow which tools were exported so it can wait for GitBook's
+  // async pushes to land on main before building.
+  if (process.env.GITHUB_OUTPUT) {
+    fs.appendFileSync(process.env.GITHUB_OUTPUT, `exported=${exportedSlugs.join(' ')}\n`);
+  }
 
   console.log('');
   console.log(`Done.${DRY_RUN ? ' (dry run)' : ''}`);
