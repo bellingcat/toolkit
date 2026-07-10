@@ -1,8 +1,8 @@
 name: Build
 
+# The nightly Sync GitBook workflow runs these same build steps between its
+# export and import jobs — this workflow exists for manual runs only.
 on:
-  schedule:
-    - cron: '0 1 * * *'
   workflow_dispatch:
 
 jobs:
