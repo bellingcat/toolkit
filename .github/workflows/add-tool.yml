@@ -46,7 +46,7 @@ jobs:
 
       - name: Mask secrets
         run: |
-          INPUT_EMAIL==$(jq -r '.inputs.email' $GITHUB_EVENT_PATH)
+          INPUT_EMAIL=$(jq -r '.inputs.email' $GITHUB_EVENT_PATH)
           echo ::add-mask::$INPUT_EMAIL
           echo EMAIL=$INPUT_EMAIL >> $GITHUB_ENV
 
