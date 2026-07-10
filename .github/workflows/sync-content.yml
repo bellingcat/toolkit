@@ -41,7 +41,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_PROJECT_TOKEN }}
         run: |
           echo "start_sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
-          node src/sync-from-gitbook.mjs
+          node src/gitbook-export.mjs
 
       - name: Commit export checkpoint
         run: |
@@ -129,7 +129,7 @@ jobs:
           GITBOOK_API_TOKEN: ${{ secrets.GITBOOK_API_TOKEN }}
           GH_REPO_TOKEN: ${{ secrets.GH_REPO_TOKEN }}
           GH_TOKEN: ${{ secrets.GH_PROJECT_TOKEN }}
-        run: node src/import-to-gitbook.mjs
+        run: node src/gitbook-import.mjs
 
       - name: Commit and push import checkpoint
         run: |

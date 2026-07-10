@@ -10,7 +10,7 @@
  *   - Update last-synced.json checkpoint
  *
  * Usage:
- *   GITBOOK_API_TOKEN=... GH_REPO_TOKEN=... node src/sync-from-gitbook.mjs [--dry-run] [--tool <slug>] [--ignore-conflicts]
+ *   GITBOOK_API_TOKEN=... GH_REPO_TOKEN=... node src/gitbook-export.mjs [--dry-run] [--tool <slug>] [--ignore-conflicts]
  *
  * Required env vars:
  *   GITBOOK_API_TOKEN  — GitBook API token

@@ -13,7 +13,7 @@
  * Running this after an export is safe: if content matches, GitBook is a no-op.
  *
  * Usage:
- *   GITBOOK_API_TOKEN=... GH_REPO_TOKEN=... node src/import-to-gitbook.mjs [--dry-run] [--tool <slug>] [--ignore-conflicts]
+ *   GITBOOK_API_TOKEN=... GH_REPO_TOKEN=... node src/gitbook-import.mjs [--dry-run] [--tool <slug>] [--ignore-conflicts]
  *
  * Required env vars:
  *   GITBOOK_API_TOKEN  — GitBook API token
