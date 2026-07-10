@@ -1,7 +1,7 @@
 name: Mark tool updates
 
-# The nightly Sync GitBook workflow runs mark-tool-updates between its
-# export and import jobs — this workflow exists for manual runs only.
+# The nightly Sync Content workflow runs mark-tool-updates between its
+# export and import steps — this workflow exists for manual runs only.
 on:
   workflow_dispatch:
 

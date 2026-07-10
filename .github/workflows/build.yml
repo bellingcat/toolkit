@@ -1,7 +1,7 @@
 name: Build
 
-# The nightly Sync GitBook workflow runs these same build steps between its
-# export and import jobs — this workflow exists for manual runs only.
+# The nightly Sync Content workflow runs these same build steps between its
+# export and import steps — this workflow exists for manual runs only.
 on:
   workflow_dispatch:
 
