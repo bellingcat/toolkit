@@ -163,11 +163,11 @@ async function main() {
 
     if (!DRY_RUN) {
       try {
-        // Log the response — the export is async and may include signals
-        // (e.g. a revision id, or that there was nothing to commit) that a
-        // no-commit export leaves otherwise indistinguishable from a slow one.
-        const result = await exportSpace(spaceId, toolSlug);
-        console.log(`  response: ${JSON.stringify(result)}`);
+        // The export response body is empty ({} — verified against a merged
+        // empty CR), so a no-op export (no commit will ever land) cannot be
+        // distinguished from a pending one here. The workflow's wait step
+        // covers both with a bounded deadline.
+        await exportSpace(spaceId, toolSlug);
         checkpoint[toolSlug] = new Date().toISOString();
         exported++;
         exportedSlugs.push(toolSlug);
