@@ -163,7 +163,11 @@ async function main() {
 
     if (!DRY_RUN) {
       try {
-        await exportSpace(spaceId, toolSlug);
+        // Log the response — the export is async and may include signals
+        // (e.g. a revision id, or that there was nothing to commit) that a
+        // no-commit export leaves otherwise indistinguishable from a slow one.
+        const result = await exportSpace(spaceId, toolSlug);
+        console.log(`  response: ${JSON.stringify(result)}`);
         checkpoint[toolSlug] = new Date().toISOString();
         exported++;
         exportedSlugs.push(toolSlug);

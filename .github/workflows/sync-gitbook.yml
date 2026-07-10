@@ -53,6 +53,9 @@ jobs:
       # The export API is asynchronous: GitBook pushes each exported tool's
       # commit to main on its own schedule. Wait for the expected commits so
       # the build below runs on the exported content rather than a stale tree.
+      # If an export produced no content diff (e.g. an empty change request
+      # was merged), no commit ever lands and the shared deadline caps the
+      # wait at 5 minutes total before the build proceeds.
       - name: Wait for exported content to land on main
         if: steps.export.outputs.exported != ''
         env:
@@ -68,7 +71,7 @@ jobs:
                 break
               fi
               if [ "$(date +%s)" -ge "$deadline" ]; then
-                echo "::warning::Timed out waiting for the export commit for $slug — building without it"
+                echo "::warning::No export commit for $slug after 5 minutes — likely a no-diff export (e.g. empty change request), building without it. If GitBook was just slow, the commit lands on main later and syncs tomorrow."
                 break
               fi
               sleep 15
