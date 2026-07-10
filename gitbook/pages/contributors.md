@@ -28,3 +28,5 @@ This page lists our current toolkit contributors who are publicly credited in Be
 Special thanks to our June 2026 Toolkit Drive participants! The following individuals helped us update our toolkit during this community event:
 
 Megan O'Toole, Betsy, 0ne-nine9, LPetrova, Anisa Shabir, Afton, river\_n, Tata Kvatchadze, PolS, Evy Coeckelbergs, Lekha Sapers, Monica Matin, Alexandra Malikova, Elliot Love, Gregg Butensky, Nadia Enesco Mollá, Piya Garg, Nathan Burke, Justine Van Bloeme, Gordon Fitzpatrick, Voulpe, joaty, William Summers, Karl Riviera, Martin Sona, Sophie Tedling, Lieth Carrillo
+
+We also would like to thank our past Guardian fraser!
