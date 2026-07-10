@@ -56,16 +56,17 @@ function saveCheckpoint(checkpoint) {
   fs.writeFileSync(CHECKPOINT_FILE, JSON.stringify(checkpoint, null, 2) + '\n');
 }
 
-// Returns true if any commits have touched the tool's directory since the
-// given ISO timestamp, excluding commits created by the GitBook export
-// ("Sync: Export ... from GitBook") — that content is already in GitBook,
-// so it neither needs importing nor counts as a repo-side change.
-function hasCommitsSince(toolSlug, since) {
+// Returns the most recent commit ("<short-hash> <subject>") touching the tool's
+// directory since the given ISO timestamp, or null if there are none. Commits
+// created by the GitBook export ("Sync: Export ... from GitBook") are excluded —
+// that content is already in GitBook, so it neither needs importing nor counts
+// as a repo-side change.
+function lastCommitSince(toolSlug, since) {
   const result = execSync(
-    `git log --since="${since}" --grep="^Sync: Export" --invert-grep --format=%H -- "gitbook/tools/${toolSlug}/"`,
+    `git log --since="${since}" --grep="^Sync: Export" --invert-grep --format="%h %s" -1 -- "gitbook/tools/${toolSlug}/"`,
     { encoding: 'utf-8' }
   );
-  return result.trim().length > 0;
+  return result.trim() || null;
 }
 
 async function getMostRecentMergedCR(spaceId) {
@@ -112,7 +113,8 @@ async function main() {
     }
 
     const since = checkpoint[toolSlug] ?? new Date(0).toISOString();
-    if (!hasCommitsSince(toolSlug, since)) {
+    const lastCommit = lastCommitSince(toolSlug, since);
+    if (!lastCommit) {
       skipped++;
       continue;
     }
@@ -132,8 +134,9 @@ async function main() {
       if (cr && cr.updatedAt > since) {
         console.log(
           `::warning::Sync conflict for ${toolSlug}: repo has commits since ${since} ` +
-          `and GitBook has an unexported merged change request (${cr.updatedAt}). Skipping import ` +
-          `to avoid clobbering GitBook changes. Reconcile manually, then re-run with --tool ${toolSlug} --ignore-conflicts.`
+          `(latest: ${lastCommit}) and GitBook has an unexported merged change request ` +
+          `(#${cr.number} ${cr.subject}, merged ${cr.updatedAt}). Skipping import to avoid ` +
+          `clobbering GitBook changes. Reconcile manually, then re-run with --tool ${toolSlug} --ignore-conflicts.`
         );
         conflicts++;
         continue;

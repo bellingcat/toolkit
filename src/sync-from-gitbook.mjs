@@ -63,15 +63,16 @@ function getToolUpdatedAt(toolSlug) {
   return data.updated ? new Date(data.updated).toISOString() : null;
 }
 
-// Returns true if any commits have touched the tool's directory since the
-// given ISO timestamp, excluding commits created by the GitBook export itself
-// ("Sync: Export ... from GitBook") — those are GitBook content, not repo-side edits.
-function hasUnsyncedCommits(toolSlug, since) {
+// Returns the most recent commit ("<short-hash> <subject>") touching the tool's
+// directory since the given ISO timestamp, or null if there are none. Commits
+// created by the GitBook export itself ("Sync: Export ... from GitBook") are
+// excluded — those are GitBook content, not repo-side edits.
+function lastUnsyncedCommit(toolSlug, since) {
   const result = execSync(
-    `git log --since="${since}" --grep="^Sync: Export" --invert-grep --format=%H -- "gitbook/tools/${toolSlug}/"`,
+    `git log --since="${since}" --grep="^Sync: Export" --invert-grep --format="%h %s" -1 -- "gitbook/tools/${toolSlug}/"`,
     { encoding: 'utf-8' }
   );
-  return result.trim().length > 0;
+  return result.trim() || null;
 }
 
 async function getMostRecentMergedCR(spaceId) {
@@ -145,10 +146,12 @@ async function main() {
     // Both sides changed since the last sync: exporting would clobber the
     // repo-side commits. Leave the checkpoint alone so this keeps flagging
     // until a human reconciles.
-    if (!IGNORE_CONFLICTS && hasUnsyncedCommits(toolSlug, checkpoint[toolSlug])) {
+    const conflictCommit = IGNORE_CONFLICTS ? null : lastUnsyncedCommit(toolSlug, checkpoint[toolSlug]);
+    if (conflictCommit) {
       console.log(
         `::warning::Sync conflict for ${toolSlug}: repo has commits since ${checkpoint[toolSlug]} ` +
-        `and GitBook has a newer merged change request (${cr.updatedAt}). Skipping export to avoid ` +
+        `(latest: ${conflictCommit}) and GitBook has a newer merged change request ` +
+        `(#${cr.number} ${cr.subject}, merged ${cr.updatedAt}). Skipping export to avoid ` +
         `clobbering repo changes. Reconcile manually, then re-run with --tool ${toolSlug} --ignore-conflicts.`
       );
       conflicts++;
