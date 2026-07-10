@@ -2,7 +2,7 @@ name: CSV Nightly
 
 on:
   schedule:
-    - cron: '0 5 * * *'
+    - cron: '23 5 * * *'
   workflow_dispatch:
 
 jobs:
