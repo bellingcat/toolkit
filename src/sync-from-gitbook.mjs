@@ -195,6 +195,12 @@ async function main() {
   console.log(`  Skipped:   ${skipped}`);
   console.log(`  Conflicts: ${conflicts}`);
   console.log(`  Errors:    ${errors}`);
+
+  // Per-tool failures shouldn't block the rest of the pipeline, so keep
+  // exit 0, but annotate the workflow run so failures don't hide in a green run.
+  if (errors) {
+    console.log(`::error::Export finished with ${errors} error(s) — see log for details`);
+  }
 }
 
 main();
