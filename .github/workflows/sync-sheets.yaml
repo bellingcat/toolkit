@@ -2,6 +2,10 @@ name: Sync Google Sheets
 on:
   workflow_run:
     workflows: ["Sync Github Project"]
+    # Intentionally runs even when the project sync failed (no
+    # conclusion == 'success' guard): the Members tab syncs GitBook data
+    # independent of the GitHub Project, and the Tools tab reads the
+    # project live, so a failed project sync only means stale rows.
     types: [completed]
   workflow_dispatch:
 
