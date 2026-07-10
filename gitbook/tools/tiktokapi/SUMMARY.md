@@ -1,4 +1,5 @@
 # Table of contents
 
 * [TikTok-Api](README.md)
-* [JSON](json.md)
+* [Categories](categories.md)
+* [Regions](regions.md)
