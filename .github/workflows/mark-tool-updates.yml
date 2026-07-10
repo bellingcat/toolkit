@@ -8,6 +8,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout code
@@ -25,27 +27,18 @@ jobs:
           GITBOOK_API_TOKEN: ${{ secrets.GITBOOK_API_TOKEN }}
           GH_TOKEN: ${{ secrets.GH_PROJECT_TOKEN }}
 
-      - name: Detect changes
-        uses: dorny/paths-filter@v3
-        id: changes
-        with:
-          base: HEAD
-          filters: |
-            all:
-              - '**'
-            tools:
-              - 'gitbook/tools/**'
-
-      - name: Commit tools
-        if: steps.changes.outputs.tools == 'true'
+      - name: Commit changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add gitbook/tools
-          git commit -m "Mark tool updates"
+          if [ -n "$(git status --porcelain gitbook/tools gitbook/SUMMARY.md)" ]; then
+            git add gitbook/tools gitbook/SUMMARY.md
+            git commit -m "Mark tool updates"
+          fi
 
       - name: Push changes
-        if: steps.changes.outputs.all == 'true'
-        uses: ad-m/github-push-action@master
-        with:
-          branch: main
+        run: |
+          if [ -n "$(git log origin/main..HEAD --oneline)" ]; then
+            git pull --rebase origin main
+            git push origin main
+          fi

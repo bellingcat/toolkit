@@ -27,36 +27,26 @@ jobs:
       - name: Run node script to update regions
         run: node src/regions.mjs
 
-      - name: Detect changes
-        uses: dorny/paths-filter@v3
-        id: changes
-        with:
-          base: HEAD
-          filters: |
-            categories:
-              - 'gitbook/categories/**'
-            tools:
-              - 'gitbook/tools/**'
-
-      - name: Commit categories
-        if: steps.changes.outputs.categories == 'true'
+      - name: Commit changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add gitbook/categories
-          git commit -m "Build: Update Categories"
-
-      - name: Commit tools
-        if: steps.changes.outputs.tools == 'true'
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add gitbook/tools
-          git commit -m "Build: Update Tools"
+          if [ -n "$(git status --porcelain gitbook/categories)" ]; then
+            git add gitbook/categories
+            git commit -m "Build: Update Categories"
+          fi
+          if [ -n "$(git status --porcelain gitbook/regions)" ]; then
+            git add gitbook/regions
+            git commit -m "Build: Update Regions"
+          fi
+          if [ -n "$(git status --porcelain gitbook/tools gitbook/SUMMARY.md)" ]; then
+            git add gitbook/tools gitbook/SUMMARY.md
+            git commit -m "Build: Update Tools"
+          fi
 
       - name: Push changes
-        if: steps.changes.outputs.categories == 'true' || steps.changes.outputs.tools == 'true'
-        uses: ad-m/github-push-action@master
-        with:
-          branch: main
-          force: false
+        run: |
+          if [ -n "$(git log origin/main..HEAD --oneline)" ]; then
+            git pull --rebase origin main
+            git push origin main
+          fi

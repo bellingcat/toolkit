@@ -102,15 +102,18 @@ jobs:
             git add gitbook/categories
             git commit -m "Sync: Update Categories"
           fi
-          if [ -n "$(git status --porcelain gitbook/tools)" ]; then
-            git add gitbook/tools
+          if [ -n "$(git status --porcelain gitbook/regions)" ]; then
+            git add gitbook/regions
+            git commit -m "Sync: Update Regions"
+          fi
+          if [ -n "$(git status --porcelain gitbook/tools gitbook/SUMMARY.md)" ]; then
+            git add gitbook/tools gitbook/SUMMARY.md
             git commit -m "Sync: Update Tools"
           fi
 
       # Everything committed above must be on remote main before the import
-      # runs. Leftover uncommitted changes (regenerated region pages,
-      # SUMMARY.md sorting, package-lock churn) are discarded, as the previous
-      # multi-job pipeline did implicitly by never committing them.
+      # runs. Any leftover uncommitted changes are discarded (visibly) so the
+      # rebase below starts from a clean tree.
       - name: Push export and build commits
         run: |
           if [ -n "$(git status --porcelain)" ]; then
