@@ -20,32 +20,26 @@ The main data sources are Sentinel, Landsat, commercial VHR imagery, and operato
 
 Some functionality and imagery is free. Advanced functions and higher resolution imagery are available for purchase.
 
-### Migration from Spectator Earth
-
-[Migration details](https://obsearth.com/migration)
-
-When loading a saved observation that was created in Spectator Earth, a [data source](#user-content-fn-1)[^1] is automatically assigned.
-
-<figure><img src=".gitbook/assets/obsearth_01.jpg" alt="" width="375"><figcaption></figcaption></figure>
+When loading a saved observation that was created in Spectator Earth, a [data source](#user-content-fn-1)[^1] is automatically assigned. Refer to [Migration details](https://obsearth.com/migration).
 
 ## Features
 
 * Tracking satellites and finding imagery.
-* Browsing past and future scenes.
+* Browsing historical imagery and upcoming satellite overpass or acquisition windows for a location.
 * Comparing images in split view mode.
 * Viewing metadata and analytics.
 * API for automation-friendly workflows.
 
 **Past and future data access**\
-Review historical captures and quickly inspect upcoming opportunities.
+Search older imagery by date range and move through earlier images using the observation/image filters. Browse satellite overpass schedules for a given location to anticipate future image opportunities.
 
 **Split view for scene comparison**\
-Place scenes and locations side by side to compare algorithms, patterns, and changes.
+Place scenes and locations side by side on the screen to compare different analysis methods, identify patterns, and track changes over time.
 
 **Meta analytics**\
-Quickly assess area of interest with weather predictions and archive data analytics.
+Quickly assess your area of interest using weather forecasts and analysis of archived imagery.
 
-<figure><img src=".gitbook/assets/obsearth_02.jpg" alt="Split view mode showing map, calendar and meta analytics"><figcaption><p>Split view mode showing map, calendar and meta analytics</p></figcaption></figure>
+<figure><img src=".gitbook/assets/obsearth_02.jpg" alt="Split view mode showing map, calendar and meta analytics"><figcaption><p>Split view mode showing map, calendar and meta analytics (which includes overpass schedule and cloud cover data)</p></figcaption></figure>
 
 ### Datasets
 
@@ -57,7 +51,7 @@ Satellite sources include:
 * [Sentinel-1 (ESA Copernicus)](https://dataspace.copernicus.eu/data-collections/copernicus-sentinel-missions/sentinel-1)
 * [Landsat (USGS / NASA)](https://science.nasa.gov/mission/landsat/)
 
-Available lens presets:
+In Obsearth, “lens presets” let you quickly apply saved viewing settings to scenes for consistent comparison across locations and dates. Stock lens presets are:
 
 * Medium resolution -- 6 sat.imagery, predictions, clouds ≤ 100%
 * High resolution -- 6 sat.commercial-imagery
