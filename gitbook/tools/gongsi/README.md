@@ -8,13 +8,22 @@ description: >-
 
 ## URL
 
-[https://m.gongsi.com.cn/](https://m.gongsi.com.cn/)
+[https://gongsi.com.cn/](https://gongsi.com.cn/)
 
 ## Description
 
 A Chinese database providing information about Chinese companies. The [website](https://gongsi.com.cn) states that the database provides data obtained from over 100 official sources from various Chinese authority websites (e.g., [National Enterprise Credit Information Publicity System](https://www.gsxt.gov.cn/), [China Court Judgment Documents Network](https://english.court.gov.cn/2024-02/28/c_965997.htm)), as well as enforcement notices. It is unclear to which extent the database aims to provide a complete copy of those sources.
 
+## Pre-Requisites
+
+In order to access and use this site the following are needed:
+
+* A VPN service with a server in mainland China. Servers in Hong Kong will not work.
+* A Chinese telephone number that can receive SMS messages.
+
 **Search by Enterprise:**&#x20;
+
+In order to search a user must first create an account and login.&#x20;
 
 Users can apply various search criteria (as seen in the screenshot below), such as:
 
@@ -100,11 +109,13 @@ The usage of a Chinese translation tool (e.g. DeepL) can be useful.
 
 ## Limitations
 
-Accessing this tool requires a VPN that has a server location in mainland China. Hong Kong will not work. Before you start looking for a proper VPN please note that you'll also need a Chinese phone number (see below).
+A VPN service which has a server in mainland China (not Hong Kong) is required to access this site.
 
 No information is available unless you login. Logging in requires a Chinese phone to receive SMS texts. While registering an account is free, this would require a Chinese mobile number.&#x20;
 
-Since the results displayed without logging in with a registered account does not provide any of the data that is available, it is advisable to cross-check the results with other similar websites (e.g., Tianyancha). Qichacha has the same limitations (VPN and account requirement) as Gongsi.
+Since the results displayed without logging in with a registered account does not provide all the data that is available, it is advisable to cross-check the results with other similar websites (e.g., Tianyancha, Qichacha).
+
+No searches can be completed without logging. While registering an account is free, this would require a Chinese mobile number.&#x20;
 
 Depending on your internet connection, the website may not turn up results when you try to search for the first time. It is advisable to try and refresh the webpage again - this step usually returns search results.
 
@@ -134,7 +145,7 @@ There are some small differences. Qichacha, for instance, allows API services an
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer |
-| --------------- |
-| Suying          |
-|                 |
+| Page maintainer           |
+| ------------------------- |
+| Bellingcat Volunteer Team |
+|                           |
