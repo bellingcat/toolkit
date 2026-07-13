@@ -1,5 +1,5 @@
 ---
-updated: '2026-07-01'
+updated: '2026-07-12'
 description: >-
   "Query and order satellite images, aerial photographs, and cartographic
   products"

@@ -2,6 +2,7 @@
 description: >-
   Gongsi Wang (formally known as Manshang Gongsi Wang 满商公司网) is a repository for
   information about Chinese companies.
+updated: '2026-07-12'
 ---
 
 # Gongsi (满商公司网)
