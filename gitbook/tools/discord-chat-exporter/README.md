@@ -1,5 +1,5 @@
 ---
-updated: '2026-07-01'
+updated: '2026-07-14'
 description: A tool for exporting and backing up Discord chat logs in multiple formats.
 ---
 
