@@ -47,9 +47,9 @@ On the top left of the screen, one can access significant functionality via the 
 
 <figure><img src=".gitbook/assets/statsUS3.JPG" alt=""><figcaption><p><strong>EXAMPLE OUTPUT FOR USA: POWER LINES WITH DISTRIBUTION BY VOLTAGE &#x26; LENGTH:</strong></p></figcaption></figure>
 
-*   The power plants by number, energy source and output in megawatts (MW):
+It also shows power plants by number, energy source and output in megawatts (MW):
 
-    <figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption><p><strong>EXAMPLE OUTPUT FOR USA: POWER PLANTS DISTRIBUTED BY NUMBER, SOURCE &#x26; MW</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption><p><strong>EXAMPLE OUTPUT FOR USA: POWER PLANTS DISTRIBUTED BY NUMBER, SOURCE &#x26; MW</strong></p></figcaption></figure>
 
 These statistics give a quick picture of the shape and composition of power generation and power networks. That said, the statistics are based on OSM data, which is crowdsourced and therefore rarely 100% reliable.
 
