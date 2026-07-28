@@ -156,6 +156,7 @@
   * [Navtex](tools/navtex/README.md)
   * [NeutrOSINT](tools/neutrosint/README.md)
   * [North Data](tools/north-data/README.md)
+  * [Nullschool Earth Map](tools/nullschool-earth-map/README.md)
   * [Obsidian](tools/obsidian/README.md)
   * [OCCRP Aleph](tools/occrp-aleph/README.md)
   * [Open Measures](tools/open-measures/README.md)
