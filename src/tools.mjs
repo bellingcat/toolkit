@@ -286,7 +286,7 @@ async function renameTool(tool, name) {
   if (space) {
     await renameSpace(space, slug);
   } else {
-    debug('No space found for', oldSlug);
+    debug('No space found for', tool.directory);
   }
 }
 async function renameSpace(space, name) {
