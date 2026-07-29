@@ -31,6 +31,7 @@ jobs:
         id: rename-tool
         env:
           GH_TOKEN: ${{ secrets.GH_PROJECT_TOKEN }}
+          GITBOOK_API_TOKEN: ${{ secrets.GITBOOK_API_TOKEN }}
         run: |
           node src/rename_tool.mjs "$OLD_TOOL_NAME" "$NEW_TOOL_NAME"
           if [ -n "$(git status gitbook --porcelain)" ]; then
