@@ -11,6 +11,10 @@ if (!inputToolname || !newToolname) {
   console.error('Usage: node rename_tool.mjs <oldName> <newName>');
   process.exit(1);
 }
+if (inputToolname == newToolname) {
+  console.error('Old name and new name are the same');
+  process.exit(1);
+}
 
 const tools = getTools();
 const tool = tools.find((x) => x.title === inputToolname || x.filename === inputToolname);
