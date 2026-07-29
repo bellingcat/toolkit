@@ -2,6 +2,7 @@
 description: >-
   View current and historic wind, weather, ocean and pollution conditions on an
   interactive animated map.
+updated: '2026-07-28'
 ---
 
 # Nullschool Earth Map
