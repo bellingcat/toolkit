@@ -2,7 +2,7 @@ import pkg from './tools.mjs'
 const {createTool} = pkg;
 
 // Create a new tool directory from the command line
-const toolName = process.argv[2]
+const toolName = process.argv[2].trim();
 const category = process.argv[4];
 if (!toolName) {
   console.log('Usage: node add-tool.mjs "Tool Name"');
