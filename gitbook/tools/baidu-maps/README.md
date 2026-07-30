@@ -19,17 +19,17 @@ Baidu Maps offers maps, street view, satellite imagery, and real-time route plan
 
 In the web version, search for a location. To select layers, point your cursor to the bottom-right corner and 3 options will appear (i.e., default map view, satellite image, or street view). Select the layer you wish to explore.
 
-<figure><img src="../../.gitbook/assets/waigaoqiao_ copy (1).png" alt=""><figcaption><p>For example, a search for Shanghai's Waigaoqiao (a port and commercial district) will show this view in the web browser.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/waigaoqiao_ copy (1).png" alt=""><figcaption><p>For example, a search for Shanghai's Waigaoqiao (a port and commercial district) will show this view in the web browser.</p></figcaption></figure>
 
-<div align="center"><figure><img src="../../.gitbook/assets/baidu_navigation (1).png" alt="" width="375"><figcaption><p>Navigation to the regular map, satellite image and street view, found at the bottom right corner of the web browser</p></figcaption></figure></div>
+<div align="center"><figure><img src=".gitbook/assets/baidu_navigation (1).png" alt="" width="375"><figcaption><p>Navigation to the regular map, satellite image and street view, found at the bottom right corner of the web browser</p></figcaption></figure></div>
 
-Note that the reference number at the bottom left, e.g., "GS(2023)1234", refers to the year when the image was approved for publication by the relevant government authority, China's State Bureau of Surveying and Mapping. This is not necessarily the year when the image was captured.
+Note that a reference number appearing in the bottom left, e.g., "GS(2023)1234", refers to the year when the image was approved for publication by the relevant government authority, China's State Bureau of Surveying and Mapping. This is unrelated to the year when the image was captured. (The image could be captured several years ago, with the approval renewed recently.) The actual date of image capture is not made available on Baidu Maps.&#x20;
 
 **Street view**
 
 Street views are generally available on the road networks, indicated by the thickened routes. For a static preview, place the cursor onto the route. Click to enter street view mode.
 
-<figure><img src="../../.gitbook/assets/streetview_available (1).png" alt=""><figcaption><p>The thickened gray routes indicate that street view is available.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/streetview_available (1).png" alt=""><figcaption><p>The thickened gray routes indicate that street view is available.</p></figcaption></figure>
 
 Street view images are captured by a [Baidu-operated fleet of vehicles](https://web.archive.org/web/20250519015136/https://www.cheyun.com/articleDetail/11826), which are fitted with single-lens reflex (SLR) cameras, GPS and inertial navigation sensors. However, the fleet's image capture schedules are not made public.
 
@@ -37,13 +37,13 @@ Street view images are captured by a [Baidu-operated fleet of vehicles](https://
 
 <summary>Panoramic preview for street view</summary>
 
-<img src="../../.gitbook/assets/right-click (1).png" alt="" data-size="original">
+<img src=".gitbook/assets/right-click (1).png" alt="" data-size="original">
 
 See above: From the regular map view, point to the main road (where street view is more likely to be available), right-click to show a shortcut menu > select the first item which means "panoramic preview" in English.
 
 See below: The 360º preview is shown.
 
-<img src="../../.gitbook/assets/panoramic_preview (1).png" alt="" data-size="original">
+<img src=".gitbook/assets/panoramic_preview (1).png" alt="" data-size="original">
 
 </details>
 
@@ -51,7 +51,7 @@ See below: The 360º preview is shown.
 
 The "time machine" function allows you to access older street view images, going as far back as 2013 (if available). From the current street view image, the time machine function is available at the bottom, indicated by a clock icon.
 
-<figure><img src="../../.gitbook/assets/time_machine_example (1).png" alt=""><figcaption><p>The "time machine" will show older street view images available (year and month of image captured). The approval reference is in the bottom right corner.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/time_machine_example (1).png" alt=""><figcaption><p>The "time machine" will show older street view images available (year and month of image captured). The approval reference is in the bottom right corner.</p></figcaption></figure>
 
 **The Enigma of Coordinates in China**
 
@@ -65,7 +65,7 @@ When searching for a location on Baidu Maps, the BD-09 coordinates are shown in 
 
 Another way to search is: [https://api.map.baidu.com/lbsapi/getpoint/](./#url). Search for a location and the BD-09 coordinates are shown in the top-right. **Note that in Chinese mapping tools, longitude comes before latitude**.
 
-<figure><img src="../../.gitbook/assets/dafen_village (1) (1).png" alt=""><figcaption><p>Example: From the Baidu Maps API getpoint page, the coordinates will show on the top-right when searching for Dafen Village, Shenzhen</p></figcaption></figure>
+<figure><img src=".gitbook/assets/dafen_village (1) (1).png" alt=""><figcaption><p>Example: From the Baidu Maps API getpoint page, the coordinates will show on the top-right when searching for Dafen Village, Shenzhen</p></figcaption></figure>
 
 To search by coordinates instead, enter the coordinates (longitude first) and check the box for reverse search using coordinates.
 
@@ -115,12 +115,11 @@ Note that all three mapping tools use (at least in part - for their China covera
 
 Researchers and developers should consider several limitations:
 
-* **Street view imagery can become outdated quickly**: Researchers should be aware that street view imagery available from China's map services can become outdated within 2 to 3 years and therefore could be unreliable for verifications. This applies to both urban and rural areas, due to [urban development](https://www.science.org/doi/10.1126/science.adw3443), [poverty alleviation](https://www.worldbank.org/en/news/press-release/2022/04/01/lifting-800-million-people-out-of-poverty-new-report-looks-at-lessons-from-china-s-experience), and [demographic shifts](https://www.piie.com/blogs/realtime-economics/2024/will-chinas-latest-urbanization-push-work).\
+* **Street view imagery can become outdated quickly**: Researchers should be aware that street view imagery available from China's map services can become outdated quickly and therefore become unreliable for verifications. This applies to both urban and rural areas, due to [urban development](https://www.science.org/doi/10.1126/science.adw3443), [poverty alleviation](https://www.worldbank.org/en/news/press-release/2022/04/01/lifting-800-million-people-out-of-poverty-new-report-looks-at-lessons-from-china-s-experience), and [demographic shifts](https://www.piie.com/blogs/realtime-economics/2024/will-chinas-latest-urbanization-push-work).\
   \
   To verify geolocations, researchers are encouraged to additionally search for user-generated content in Chinese platforms (equivalents of Youtube), including [Bilibili](https://www.bilibili.com/) (nicknamed B站 in Chinese, meaning "B station"), [Youku](https://www.youku.com/), [Tencent Video](https://v.qq.com/), and [Baidu Kaokan](https://haokan.baidu.com/). Also check short-form social media (equivalents of Tiktok), including [Douyin](https://www.piie.com/blogs/realtime-economics/2024/will-chinas-latest-urbanization-push-work) and [Kuaishou](https://www.kuaishou.com/).
 * **Language Barrier**: The user interface is only available in Chinese.
 * **Access Speed**: International users will experience slower access speeds, especially if using a VPN.
-* **Barriers accessing the API**: Non-Chinese individuals will have difficulty registering a Baidu developer account, preventing them from using Baidu's location-based services APIs. (See FAQ #23 for Baidu location-based services account authentication - in [Chinese](https://lbsyun.baidu.com/index.php?title=FAQ/authentication) and [English](https://lbsyun-baidu-com.translate.goog/index.php?title=FAQ/authentication&_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp); [Baidu Developer Account Registration Procedure](https://app.baidu.com/newapp/docs/%E5%BC%80%E5%8F%91%E8%80%85%E5%87%86%E5%85%A5/%E5%BC%80%E5%8F%91%E8%80%85%E6%B3%A8%E5%86%8C%E6%B5%81%E7%A8%8B/) - in Chinese).
 
 ## Ethical Considerations
 
