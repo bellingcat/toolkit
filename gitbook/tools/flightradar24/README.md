@@ -10,7 +10,7 @@ description: >-
 
 ## URL
 
-{% embed url="https://www.flightradar24.com" %}
+https://www.flightradar24.com&#x20;
 
 ## Description
 
@@ -31,7 +31,7 @@ Flightradar24‘s flight information comes from several data sources. One catego
 
 On the filter section of the website, the tool can filter for approximately 12 aircraft categories. They are: Passenger, Cargo, Military and government, Business jets, General aviation, Helicopter, lighter-than-air, Gliders, Drones, Ground vehicles, "Other", and Non-categorized.
 
-<figure><img src="../../.gitbook/assets/ScreenRecording2024-11-22180945-ezgif.com-video-to-gif-converter (1).gif" alt=""><figcaption><p>IMAGE 1: This clip shows how users can filter for aircraft on the tool. Access the filter at the bottom of the live map. If unsure, each category has helpful descriptions when hovering over the question mark icon to the right. Users can combine different filters by enabling some categories and disabling others — allowing for more granularity in search results.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/ScreenRecording2024-11-22180945-ezgif.com-video-to-gif-converter (1).gif" alt=""><figcaption><p>IMAGE 1: This clip shows how users can filter for aircraft on the tool. Access the filter at the bottom of the live map. If unsure, each category has helpful descriptions when hovering over the question mark icon to the right. Users can combine different filters by enabling some categories and disabling others — allowing for more granularity in search results.</p></figcaption></figure>
 
 ## But First, Identifiers and Where to Find Them
 
@@ -65,7 +65,7 @@ _**For live flights:**_
 
 Depending on your settings, call signs can be seen when you hover your cursor over a plane of interest in the live map. The combination of numbers and letters that appear is usually the call sign. Users can find additional details when clicking on the aircraft.
 
-<figure><img src="../../.gitbook/assets/Flightradar viz4 (1).png" alt=""><figcaption><p>IMAGE 2: This box on the left shows all the identifiers on an aircraft of interest flying in real-time on Flightradar's live map, if available. The call sign is visible in yellow font on the top of the image. The other identifiers that are labeled are aircraft type, serial number, flight route, ICAO code, and more.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Flightradar viz4 (1).png" alt=""><figcaption><p>IMAGE 2: This box on the left shows all the identifiers on an aircraft of interest flying in real-time on Flightradar's live map, if available. The call sign is visible in yellow font on the top of the image. The other identifiers that are labeled are aircraft type, serial number, flight route, ICAO code, and more.</p></figcaption></figure>
 
 _**For completed/historical flights:**_
 
@@ -74,7 +74,7 @@ _**For completed/historical flights:**_
 3. Select the date and time of interest, and click on the icon “PLAY” on the far right. This will take you to the details and stats associated with that particular flight.
 4. Scroll down until you see the following image below.
 
-<figure><img src="../../.gitbook/assets/Flightradar historical flight (1) (1).png" alt=""><figcaption><p>IMAGE 3: This image guides users on where to find identifiers for flights already completed. Follow the four steps shown above to see the call sign.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Flightradar historical flight (1) (1).png" alt=""><figcaption><p>IMAGE 3: This image guides users on where to find identifiers for flights already completed. Follow the four steps shown above to see the call sign.</p></figcaption></figure>
 
 ### REGISTRATION NUMBER / TAIL NUMBER
 
@@ -100,7 +100,7 @@ Just like call signs, registration information is available by clicking on an ai
 
 _**For historical flights**_
 
-Follow the same steps shown above for searching call signs for historical flights. Begin with entering the flight in question on the search bar. The registration is located on the far right, just below the aircraft type and the aircraft photo.
+Follow the same steps shown above for searching call signs for historical flights. Begin by entering the flight in question on the search bar. The registration is located on the far right, just below the aircraft type and the aircraft photo.
 
 ### HEX CODE/ ICAO CODE
 
@@ -124,13 +124,13 @@ According to [this](https://www.icao.int/WACAF/Documents/Meetings/2023/Workshop-
 
 **Where can I find the hex code on Flightradar24?**
 
-On Flightradar24, the hex code is referred to as either “ICAO 24-Bit Address” or “”Mode-S”. And you can find it in several places depending on where you are accessing the aircraft information on the website.
+On Flightradar24, the hex code is referred to as either “ICAO 24-Bit Address” or “Mode-S”. And you can find it in several places depending on where you are accessing the aircraft information on the website.
 
 _**For live flights**_
 
 Users can search the live map for the aircraft of interest. Hover and click over that aircraft, and an information box will appear on the left. Scroll further down to and find “ICAO 24-Bit Address”.
 
-<div align="center"><figure><img src="../../.gitbook/assets/Screenshot 2024-11-30 111546-ed (1).png" alt="" width="563"><figcaption><p>Searching for a hex code on a live flight can be done by clicking on an aircraft on the Live Map. Navigate on the information box to the left and scroll down to the ICAO 24-BIT Address. This is the hex code for a Southwest flight with call sign SWA509.</p></figcaption></figure></div>
+<div align="center"><figure><img src=".gitbook/assets/Screenshot 2024-11-30 111546-ed (1).png" alt="" width="563"><figcaption><p>Searching for a hex code on a live flight can be done by clicking on an aircraft on the Live Map. Navigate on the information box to the left and scroll down to the ICAO 24-BIT Address. This is the hex code for a Southwest flight with call sign SWA509.</p></figcaption></figure></div>
 
 _**For historical flights**_
 
@@ -138,7 +138,7 @@ _**For historical flights**_
 2. Click the choice under “aircraft”. This will take you to a separate page containing the flight history of the aircraft of interest.
 3. Look for the word “Mode-S” to get the hex code (Refer to the image below)
 
-<figure><img src="../../.gitbook/assets/hex code historical (1).png" alt=""><figcaption><p>This is a sample passenger aircraft. For demonstration purposes, we look at the 2 step process of finding the hex code. In the left image, users can search for the aircraft using the registration number (if known). Click on the search result under "Aircraft". This will take users to an information page containing additional details. The hex code is labeled as "Mode-S" on the upper right as highlighted in green.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/hex code historical (1).png" alt=""><figcaption><p>This is a sample passenger aircraft. For demonstration purposes, we look at the 2 step process of finding the hex code. In the left image, users can search for the aircraft using the registration number (if known). Click on the search result under "Aircraft". This will take users to an information page containing additional details. The hex code is labeled as "Mode-S" on the upper right as highlighted in green.</p></figcaption></figure>
 
 ### SERIAL NUMBER/ MSN
 
@@ -188,7 +188,7 @@ NOTE: Based on our own tests, the search bar takes most of the input explained b
 
 The search is designed to run several keyword variations. Users can enter the ICAO Airport Code and the IATA Airport Code. Users can enter two airport codes separated by a dash.
 
-**Example:** “AMS - LHR” to refer to the flight route from Amsterdam Schipol to Heathrow Airport.
+**Example:** “AMS - LHR” to refer to the flight route from Amsterdam Schiphol to Heathrow Airport.
 
 **OUTPUT:**
 
@@ -269,7 +269,7 @@ This powerful feature can isolate flights between two airports or between two co
 1. From: United Kingdom To: United States
 2. From: United Kingdom To: JFK, EWR
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-11-28 130822-ed (1).png" alt=""><figcaption><p>Clicking the arrows will reverse the direction of the air traffic of your search results</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-11-28 130822-ed (1).png" alt=""><figcaption><p>Clicking the arrows will reverse the direction of the air traffic of your search results</p></figcaption></figure>
 
 **Examples:**
 
@@ -295,32 +295,32 @@ Flightradar24's playback feature is like a time machine for aviation. Flightrada
 (a) Investigate Past Events: Examine air traffic patterns during specific incidents or events.\
 (b) Verify/Cross-Check Claims: Cross-reference historical flight data with other information to confirm or refute claims. (c) Seeing Trends: Study trends by analyzing past flight patterns.
 
-The playback feature is available on the live map (landing page) and users can see the replay of many flights simultaneously. It is also available for individual flights.
+The playback feature is available on the live map (landing page), and users can see the replay of many flights simultaneously. It is also available for individual flights.
 
-Historical data available for playback are as follows: [7 days with the basic/free plan;](https://www.flightradar24.com/premium/?change=true) [90 days with the Silver plan, 365 days with the Gold plan, 3 years with the Business plan](https://www.flightradar24.com/premium/?change=true); includes playback feature for historical analysis.
+Historical data available for playback are as follows: [7 days with the basic/free plan;](https://www.flightradar24.com/premium/?change=true) [90 days with the Silver plan; 365 days with the Gold plan; 3 years with the Business plan](https://www.flightradar24.com/premium/?change=true); includes playback feature for historical analysis.
 
-<figure><img src="../../.gitbook/assets/ScreenRecording2024-11-28194301-ezgif.com-video-to-gif-converter (1).gif" alt=""><figcaption><p>Users can access the playback on the live map by clicking “playback” on the menu located at the bottom center of the live map.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/ScreenRecording2024-11-28194301-ezgif.com-video-to-gif-converter (1).gif" alt=""><figcaption><p>Users can access the playback on the live map by clicking “playback” on the menu located at the bottom center of the live map.</p></figcaption></figure>
 
 {% hint style="success" %}
 TIP: Add a filter or your own custom filter and use the playback feature for a more granular search. For example: Use the business jet category filter and hit the playback button to see a replay of all business jets travelling in a specific area during a specific time frame.
 {% endhint %}
 
-For individual flights, the playback feature is accessible by first searching the flight of interest. And then scrolling through the past scheduled flights. Select the time and date of interest and click on “Play” (the farthest icon to the right).
+For individual flights, the playback feature is accessible by first searching the flight of interest. Then scroll through the past scheduled flights. Select the time and date of interest and click on “Play” (the farthest icon to the right).
 
 #### KML and CSV File of Flight Log
 
-For flights that have already landed, Flightradar24 allows users to download a KML file of the flight log. This will contain all the coordinates of its flight path, the altitude, and other information that helps users visualize flight information. Based on our test, this raw data can then be imported on [Google Earth Pro](https://bellingcat.gitbook.io/toolkit/more/all-tools/google-earth-pro), [QGIS](https://bellingcat.gitbook.io/toolkit/more/all-tools/qgis), or ArcGIS Earth.
+For flights that have already landed, Flightradar24 allows users to download a KML file of the flight log. This will contain all the coordinates of its flight path, the altitude, and other information that helps users visualize flight information. Based on our test, this raw data can then be imported into [Google Earth Pro](https://bellingcat.gitbook.io/toolkit/more/all-tools/google-earth-pro), [QGIS](https://bellingcat.gitbook.io/toolkit/more/all-tools/qgis), or ArcGIS Earth.
 
 In addition, users can also download a .CSV containing raw flight data for analysis.
 
-1. To do this, enter the known flight info on the search bar and click on the flight number/call sign/route.
+1. To do this, enter the known flight info in the search bar and click on the flight number/call sign/route.
 2. Scroll down and click on “Flight Info”.
 3. You will be taken to a different page containing the flight log. Scroll down to the list of recently scheduled flights, choose the date and time of interest.
 4. Navigate to the right where you have the option to download the data in KML or CSV format or do a playback.
 
 Using a KML file of a flight log overlaid over Google Earth Pro can sometimes help with geolocation tasks. See this [example](https://nixintel.info/osint/using-flight-tracking-for-geolocation-quiztime-30th-october-2019/) by Nixintel for a demonstration of this use case.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-11-27 061349-ed (1).png" alt=""><figcaption><p>Following the steps outlined above, the users will be taken to the flight log of the aircraft in question. Download the raw data on the area shown in purple.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-11-27 061349-ed (1).png" alt=""><figcaption><p>Following the steps outlined above, the users will be taken to the flight log of the aircraft in question. Download the raw data on the area shown in purple.</p></figcaption></figure>
 
 ## Use cases
 
@@ -361,7 +361,7 @@ The version tested for this toolkit description is the Gold Subscription.
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>3</td></tr></tbody></table>
 
-While the tool is straightforward to use, the difficulty rating is based on the additional time it may take for beginner users to familiarize themselves with aviation related terms and concepts. The platform also contains a plethora of data, and finding which information is important may require additional time.
+While the tool is straightforward to use, the difficulty rating is based on the additional time it may take for beginner users to familiarize themselves with aviation-related terms and concepts. The platform also contains a plethora of data, and finding which information is important may require additional time.
 
 ## Requirements
 
