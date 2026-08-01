@@ -12,7 +12,13 @@ description: A tool for detecting audio deepfakes.
 
 Hiya identifies deepfake audio. A deepfake is [synthetic](https://www.turing.ac.uk/blog/what-are-deepfakes-and-how-can-we-detect-them) media, such as audio, video, or images, that can mimic the appearance or voice of a real person by using artificial intelligence. This technology has been misused to spread disinformation and scam people, for example, by faking audio messages from [officials](https://www.abc.net.au/news/2024-01-23/ai-phonecall-posing-as-joe-biden-being-investigated/103378702) or [loved ones](https://archive.fo/cn2UV).
 
-Hiya is available as both a standalone [Chrome](https://chromewebstore.google.com/detail/hiya-deepfake-voice-detec/akmieeldmgcllmokbpaibfelofjiilpc) extension and an integrated tool within the [InVID Verification Plugin](https://bellingcat.gitbook.io/toolkit/more/all-tools/invid), a suite of verification tools used by journalists, researchers and fact-checkers to verify digital media. Once installed in the browser, the extension aims to detect audio deepfakes across social media, news, and other websites.&#x20;
+Hiya is available as both a standalone [Chrome](https://chromewebstore.google.com/detail/hiya-deepfake-voice-detec/akmieeldmgcllmokbpaibfelofjiilpc) extension and an integrated tool within the [InVID Verification Plugin](https://bellingcat.gitbook.io/toolkit/more/all-tools/invid), a suite of verification tools used by journalists, researchers and fact-checkers to verify digital media. Once installed in the browser, the extension aims to detect audio deepfakes across social media, news, and other websites. <br>
+
+To analyze an audio in a video on any website, simply open that page and click on the extension icon in Chrome browser on the top right corner. Play the video seamlessly while clicking on the “start analyzing” tab to collect the audio sample for analysis. Both the media being analyzed and the extension works side by side without the need to close one or the other.
+
+<figure><img src=".gitbook/assets/Start analyzing.jpg" alt=""><figcaption></figcaption></figure>
+
+<br>
 
 The tool rates the audio on a scale of 1 to 100 points. The lower the score, the higher the likelihood that the sample is fake. The closer the score is to 100, the higher the probability that it is real.
 
@@ -30,7 +36,7 @@ It is important to note that the tool is not perfect and may lead to false posit
 * [ ] Partially Free
 * [ ] Paid
 
-After signing up for the extension, users can do 20 daily checks for free.
+After signing up for the extension, users can do 200 daily checks for free.
 
 ## Level of difficulty
 
@@ -38,7 +44,7 @@ After signing up for the extension, users can do 20 daily checks for free.
 
 ## Requirements
 
-A sign up is required to use Hiya's Chrome extension.
+A sign up via email is required to use Hiya's Chrome extension.
 
 ## Limitations
 
