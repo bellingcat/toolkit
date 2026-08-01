@@ -30,7 +30,7 @@ The Chrome extension needs to check just [one second](https://blog.hiya.com/hiya
 
 <figure><img src=".gitbook/assets/InVid uses 2 secs to five minutes copy.png" alt=""><figcaption><p>Hiya is integrated within the InVid Verification Plugin that supports media uploads ranging from two seconds to five minutes.</p></figcaption></figure>
 
-[According](https://www.hiya.com/newsroom/press-releases/hiya-acquires-deepfake-voice-detection-leader-loccus-ai) to Hiya's July 2024 press release, the deepfake detection tool is able to analyze audios and videos in multiple languages.&#x20;
+[According](https://www.hiya.com/newsroom/press-releases/hiya-acquires-deepfake-voice-detection-leader-loccus-ai) to Hiya's July 2024 press release, the deepfake detection tool is able to analyze audios and videos in multiple languages, a claim we have not been able to independently verify.
 
 It is important to note that the tool is not perfect and may lead to false positives. Hiya can nevertheless be a handy tool when researching the rising tide of AI generated disinformation. Several fact-checking teams, including [AFP Fact Check](https://factcheck.afp.com/doc.afp.com.78448G3), can be seen using it as part of their research workflows.
 
