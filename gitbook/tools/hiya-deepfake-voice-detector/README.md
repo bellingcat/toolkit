@@ -14,7 +14,7 @@ Hiya identifies deepfake audio. A deepfake is [synthetic](https://www.turing.ac.
 
 Hiya is available as both a standalone [Chrome](https://chromewebstore.google.com/detail/hiya-deepfake-voice-detec/akmieeldmgcllmokbpaibfelofjiilpc) extension and an integrated tool within the [InVID Verification Plugin](https://bellingcat.gitbook.io/toolkit/more/all-tools/invid), a suite of verification tools used by journalists, researchers and fact-checkers to verify digital media. Once installed in the browser, the extension aims to detect audio deepfakes across social media, news, and other websites.&#x20;
 
-To analyze audio in a video on any website, simply open that page and click on the extension icon in the Chrome browser in audio in a video on any website, simply open that page and click on the extension icon in Chrome browser on the top right corner. Play the video seamlessly while clicking on the “start analyzing” tab to collect the audio sample for analysis. Both the media being analyzed and the extension works side by side without the need to close one or the other.
+To analyze audio in a video on any website, simply open that page and click on the extension icon in the Chrome browser on the top right corner. Play the video seamlessly while clicking on the “start analyzing” tab to collect the audio sample for analysis. Both the media being analyzed and the extension works side by side without the need to close one or the other.
 
 <figure><img src=".gitbook/assets/Start analyzing.jpg" alt=""><figcaption><p>Click on the "start analyzing" option to collect and analyze the media of your choice.</p></figcaption></figure>
 
