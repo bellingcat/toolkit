@@ -64,7 +64,9 @@ Public access to detection tools may help malicious actors improve evasion strat
 
 ## Guides and articles
 
-\-
+As AI-generated misinformation and disinformation continue to distort the information landscape, making it increasingly difficult to distinguish what’s real from what’s fake, some experts have taken it upon themselves to guide which tools and techniques can still be used to fight fake news. Henk Van Ess wrote a detailed guide, “[Reporter’s Guide to Detecting AI-Generated Content,](https://gijn.org/resource/guide-detecting-ai-generated-content/)” for the Global Investigative Journalism Network (GIJN) on Sept. 1, 2025. The guide recommends using Hiya’s Chrome extension, alongside techniques for detecting and debunking deepfakes.
+
+
 
 ## Tool provider
 
