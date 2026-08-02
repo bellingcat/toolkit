@@ -60,7 +60,7 @@ A sign up via email is required to use Hiya's Chrome extension.
 
 The tool may produce false positives or negatives. Users, especially journalists and researchers, need to be aware that it is crucial to double-check any results before drawing conclusions. It is recommended to be transparent about the limitations of the tool when including Hiya scores in publications or when communicating them to others.
 
-Public access to detection tools may help malicious actors improve evasion strategies, increasing the sophistication of future deepfakes.
+Access to detection tools may help malicious actors improve evasion [strategies](https://arxiv.org/pdf/2102.06109), increasing the sophistication of future deepfakes.
 
 ## Guides and articles
 
