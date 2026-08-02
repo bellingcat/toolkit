@@ -20,7 +20,7 @@
 * [ ] [Multiple Platforms](https://bellingcat.gitbook.io/toolkit/categories/social-media/multiple-platforms)
 * [ ] [Other Platforms](https://bellingcat.gitbook.io/toolkit/categories/social-media/other-platforms)
 * [ ] [Telegram](https://bellingcat.gitbook.io/toolkit/categories/social-media/telegram)
-* [ ] [Tiktok](https://bellingcat.gitbook.io/toolkit/categories/social-media/tiktok)
+* [x] [Tiktok](https://bellingcat.gitbook.io/toolkit/categories/social-media/tiktok)
 * [ ] [Twitter/X](https://bellingcat.gitbook.io/toolkit/categories/social-media/twitter)
 * [ ] [Youtube](https://bellingcat.gitbook.io/toolkit/categories/social-media/youtube)
 
