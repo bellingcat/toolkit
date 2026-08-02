@@ -32,7 +32,9 @@ Internet access is required for the tool.
 
 ## Limitations
 
-The tool is likely best used together with other databases that look at other types of financial contributions and expenditures (Federal Elections Commission, state and local level government websites, lobbying disclosure databases, the Securities and Exchange Commission's EDGAR database, etc.). If a user wishes to view the original IRS form, they may need to visit the IRS website. While the tool has a feature that shows similar donors, a user may also need to be aware of acronyms or name variations of the organizations of interest.
+The tool is likely best used together with other databases that look at other types of financial contributions and expenditures (Federal Elections Commission, state and local level government websites, lobbying disclosure databases, the Securities and Exchange Commission's EDGAR database, etc.). According to its [website](https://projects.propublica.org/527-explorer/), it excludes organizations regulated by the Federal Elections Commission, those that make less than $25,000 in annual contributions, nonpolitical nonprofits and political committees for local or state candidate or a political party.\
+\
+If a user wishes to view the original IRS form, they may need to visit the IRS website. While the tool has a feature that shows similar donors, a user may also need to be aware of acronyms or name variations of the organizations of interest.
 
 ## Ethical Considerations
 
