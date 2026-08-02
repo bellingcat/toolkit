@@ -78,7 +78,7 @@ A tool similar to Hiya is [Deepfake-O-Meter](https://zinc.cse.buffalo.edu/ubmdfl
 
 Hiya and DeepFake-O-Meter are free to use, but they require users to sign up. Hiya’s Chrome extension verifies content across social platforms, websites, etc., allowing users to check for deepfake voices or AI-generated media directly in their browser. Whereas DeepFake-O-Meter requires users to download media and upload it manually to the platform for analysis.
 
-Meanwhile, the InVID plugin that integrates Hiya offers additional flexibility, allowing users to either paste media links or upload files directly from their computers.
+Meanwhile, the InVID plugin that integrates Hiya offers additional flexibility, allowing users to either paste media links or upload files directly from their computers, but a sign up is required to use it.
 
 Another tool for audio deepfake detection and can be combined with others for effective analysis is [Deepfake Total](https://deepfake-total.com/) by Cognitive Security Technologies (CST) department of Fraunhofer AISEC ([Fraunhofer Institute for Applied and Integrated Security](https://www.aisec.fraunhofer.de/)), a research institute from [Germany](https://www.aisec.fraunhofer.de/de/impressum.html). This tools [supports](https://deepfake-total.com/) analyzing links from Instagram, YouTube, X or local file uploads.
 
