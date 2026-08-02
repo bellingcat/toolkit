@@ -58,7 +58,6 @@ The filters are beginner-friendly, and no login is required. Interpreting estima
 ## Ethical Considerations
 
 * Respect platform terms and local law; avoid republishing ad media with sensitive targeting without context.
-* Treat disclosed targeting criteria and estimated reach as platform- or advertiser-provided information. Do not infer sensitive traits about individuals from aggregate data.
 * Preserve provenance; when archiving, capture URLs and timestamps; consider adding independent web archive snapshots.
 
 ## Guide
