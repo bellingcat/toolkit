@@ -3,6 +3,7 @@ description: >-
   Maltego Graph is an investigation platform that combines two things at once:
   (1) It acts as a search tool, and (2) It creates a graph establishing links
   between data you uncover from your search.
+updated: '2026-08-05'
 ---
 
 # Maltego Graph
