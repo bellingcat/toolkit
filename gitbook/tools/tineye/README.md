@@ -1,5 +1,5 @@
 ---
-updated: '2026-08-02'
+updated: '2026-08-10'
 description: >-
   TinEye is a search engine that allows the user to search using images (reverse
   image search).
