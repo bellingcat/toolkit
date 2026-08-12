@@ -50,7 +50,7 @@ You must enter a first name and valid email address to create an account. Other 
 
 ## Limitations
 
-The 500 free base credits that are provided upon sign-up will be used up quite quickly, so any long-term use of the site or deep research would require purchasing additional credits.
+The 500 free base credits that are provided upon sign-up will be used up quickly, so any long-term use of the site or deep research would require purchasing additional credits.
 
 Due to domain privacy measures, most registrars allow registrants to anonymize their details, so searches may not yield useful information.
 
@@ -83,4 +83,4 @@ Tutorials and FAQs can be accessed [here](https://knowledge.whoisxmlapi.com/doma
 | Page maintainer           |
 | ------------------------- |
 | Bellingcat volunteer team |
-|                           |
+| July 2026                 |
