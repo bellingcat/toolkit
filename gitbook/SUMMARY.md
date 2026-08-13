@@ -75,6 +75,7 @@
   * [Convert Geographic Units](tools/convert-geographic-units/README.md)
   * [Datasette](tools/datasette/README.md)
   * [Datawrapper](tools/datawrapper/README.md)
+  * [DeepFake-O-Meter](tools/deepfake-o-meter/README.md)
   * [DeHashed](tools/dehashed/README.md)
   * [Discord Chat Exporter](tools/discord-chat-exporter/README.md)
   * [DiscordLeaks](tools/discordleaks/README.md)
