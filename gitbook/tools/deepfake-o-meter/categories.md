@@ -3,7 +3,7 @@
 ## Image/Video
 
 * [ ] [Facial Recognition](https://bellingcat.gitbook.io/toolkit/categories/image-video/facial-recognition)
-* [ ] [Misc](https://bellingcat.gitbook.io/toolkit/categories/image-video/image-misc)
+* [x] [Misc](https://bellingcat.gitbook.io/toolkit/categories/image-video/image-misc)
 * [ ] [Metadata](https://bellingcat.gitbook.io/toolkit/categories/image-video/metadata)
 * [ ] [Reverse Image Search](https://bellingcat.gitbook.io/toolkit/categories/image-video/reverse-image-search)
 
