@@ -1,8 +1,7 @@
 ---
 description: >-
-  DeepFake-O-Meter is an online tool designed to detect deepfake images and
-  videos, helping users to differentiate between genuine and manipulated
-  content.
+  DeepFake-O-Meter is an online tool designed to detect deepfake media, helping
+  users to differentiate between genuine and manipulated content.
 ---
 
 # DeepFake-O-Meter
@@ -13,7 +12,7 @@ description: >-
 
 ## Description
 
-A simple drag-and-drop online tool, DeepFake-O-Meter allows users to upload photo or video content to check for potential deepfakes: digital images that have been convincingly generated or altered to portray people saying or doing things that did not occur.
+A simple drag-and-drop online tool, DeepFake-O-Meter allows users to upload photo, video or audio content to check for potential deepfakes: digital images that have been convincingly generated or altered to portray people saying or doing things that did not occur. The tool also allows separate, direct YouTube link uploads of less than three minutes.
 
 Users can upload material in any of the following formats:
 
@@ -23,7 +22,11 @@ Users can upload material in any of the following formats:
 
 After submitting the material for analysis, users will be asked to confirm whether they know it is AI-generated, and whether they want to share data with DeepFake-O-Meter. Once those selections are made, the tool will begin its analysis, using a variety of AI detectors. It will also provide an estimated wait time for the analysis.
 
-There is dramatic variance among the different detection models. Sample analysis conducted on screenshots of imagery from the site ThisPersonDoesNotExist.com, a random AI face generator, took under two minutes and resulted in ratings ranging from 0% certainty of artificial content to 100% for a single image, with many in between.
+Users can learn more about the AI detectors on the "Models" subpage, which provides a brief description of each one, for example:
+
+<figure><img src=".gitbook/assets/dfom-models.png" alt=""><figcaption></figcaption></figure>
+
+Across various samples, there is dramatic variance among the different detection models (see Limitations section below; AI detectors often provide mixed or uncertain results). Analysis conducted on screenshots of imagery from the site ThisPersonDoesNotExist.com, a random AI face generator, took under two minutes and resulted in ratings ranging from 0% certainty of artificial content to 100% for a single image, with many in between.
 
 <figure><img src=".gitbook/assets/dfom-1.png" alt=""><figcaption></figcaption></figure>
 
@@ -56,20 +59,22 @@ You must register using a valid email address in order to use the site.
 ## Limitations
 
 * **Accuracy:** AI detectors are notoriously unreliable, often providing mixed or uncertain results; running the same image through DeepFake-O-Meter more than once may result in different ratings. DeepFake-O-Meter acknowledges that its authenticity scores "reflect statistical similarity to training data patterns and do not constitute definitive proof of authenticity or manipulation", noting that the results should be "interpreted in conjunction with contextual and investigative analysis".
-* **File size:** Larger files may cause the system to time out, which could be an issue for lengthy or high-resolution videos.
+
+<figure><img src=".gitbook/assets/dfom-scores.png" alt=""><figcaption></figcaption></figure>
+
+* **File size:** Larger files may cause the system to hang or stop functioning midway through the processing attempt, which could be an issue for lengthy or high-resolution videos.
 * **Processing times:** These may fluctuate dramatically depending on file size, with larger videos taking more time to analyze than smaller images. Before starting an analysis, users have the option to exclude detection models with longer processing times, thereby speeding up the overall process.
 * **Video formats:** The tool may not support all video formats, thus requiring users to convert videos to a compatible format before submission.
 
 ## Ethical Considerations
 
 * **Privacy:** Users must consider the privacy implications of submitting personal or sensitive videos or images to an online service for deepfake detection.
-* **Bias and fairness:** The algorithms powering DeepFake-O-Meter might be subject to biases in their training data. This could potentially result in unequal performance across different demographics, such as gender or ethnicity.
+* **Bias and fairness:** Algorithms, such as those powering DeepFake-O-Meter, might be subject to [biases in their training data](https://www.ibm.com/think/topics/ai-bias). This could potentially result in unequal performance across different demographics, such as gender or ethnicity.
 
 ## Guides and articles
 
 * [Developer resources](https://github.com/yuezunli/deepfake-o-meter) on Github
 * [Tutorial](https://www.youtube.com/watch?v=Om4-bE9a61I) by project director Siwei Lyu
-* [Reuters Institute article](https://reutersinstitute.politics.ox.ac.uk/news/spotting-deepfakes-year-elections-how-ai-detection-tools-work-and-where-they-fail) on how AI detection tools work and where they fail
 
 ## Tool provider
 
@@ -79,7 +84,7 @@ The UB Media Forensics Lab, based at the University at Buffalo in New York, desc
 
 [AmIReal](https://seintpl.github.io/AmIReal/): This GAN detector can be used to help determine whether faces were generated by ThisPersonDoesNotExist.com.
 
-[InVID](https://bellingcat.gitbook.io/toolkit/more/all-tools/invid): This toolkit, which supports the verification of images and videos, includes restricted functionality enabling users to assess the probability that a video contains AI-manipulated faces.
+[InVID](https://bellingcat.gitbook.io/toolkit/more/all-tools/invid): This toolkit, which supports the verification of images, videos and audio, enables registered users to assess the probability that content has been manipulated by AI.
 
 ## Advertising Trackers
 
