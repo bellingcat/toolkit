@@ -61,5 +61,5 @@ Jonas Wagner, Switzerland. More info about him here: [https://29a.ch/about](http
 
 | Page maintainer |
 | --------------- |
-| Anisa Shabir.   |
+| Anisa Shabir    |
 |                 |
