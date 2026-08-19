@@ -3,7 +3,8 @@
   "version": "0.1.1",
   "private": true,
   "scripts": {
-    "build": "node src/normalize.mjs && node src/categories.mjs && node src/regions.mjs && node src/normalize.mjs"
+    "build": "node src/normalize.mjs && node src/categories.mjs && node src/regions.mjs && node src/normalize.mjs",
+    "test": "node --test"
   },
   "dependencies": {
     "googleapis": "^173.0.0",
