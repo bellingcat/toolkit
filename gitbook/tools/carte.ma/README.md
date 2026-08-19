@@ -36,22 +36,19 @@ http://carte.ma/
 
 \[\[The ethical considerations of each tool should be described.]]
 
-## Guide
+## Guides and articles
 
-\[\[Link to a guide on this tool]]
+\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
 
 ## Tool provider
 
 \[\[Name the tool provider (and potentially info on them)]]
 
-## Advertising Trackers
+## Similar tools
 
-* [x] This tool has not been checked for advertising trackers yet.
-* [ ] This tool uses tracking cookies. Use with caution.
-* [ ] This tool does not appear to use tracking cookies.
+\[\[Compare this tool with similar tools which can be used for the same research purpose. What are the strengths and weaknesses of each tool?]]
 
 | Page maintainer                                                |
 | -------------------------------------------------------------- |
 | \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
 |                                                                |
-
