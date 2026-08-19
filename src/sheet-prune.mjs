@@ -30,4 +30,17 @@ function mergeRowRanges(rowIndices) {
   return ranges;
 }
 
-export { mergeRowRanges };
+// Given a sheet range's current values (row 0 = header) and a 0-based
+// column index holding keys, returns the rows whose key is non-empty and
+// not present in validKeys — i.e. rows that should be deleted. `row` in
+// each result is the row's index within `existingValues` (>= 1).
+function planPruneRows(existingValues, col, validKeys) {
+  const stale = [];
+  for (let row = 1; row < existingValues.length; row++) {
+    const key = existingValues[row][col];
+    if (key && !validKeys.has(key)) stale.push({ row, key });
+  }
+  return stale;
+}
+
+export { mergeRowRanges, planPruneRows };
