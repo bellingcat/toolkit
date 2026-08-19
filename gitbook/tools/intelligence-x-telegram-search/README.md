@@ -2,7 +2,7 @@
 description: Google-based search engine for Telegram (includes Telegago)
 ---
 
-# Intelligence X Telegram Search
+# Intelligence X Telegram SearchDDD
 
 ## URL
 
@@ -50,5 +50,6 @@ Name the tool provider (and potentially info on them)
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-<table><thead><tr><th data-type="users" data-multiple>Page maintainer</th></tr></thead><tbody><tr><td><a href="https://app.gitbook.com/u/sJIljbKbFva9PHVVmkcbA9IcbRj1">Kai Lilia</a></td></tr><tr><td></td></tr></tbody></table>
-
+| Page maintainer |
+| --------------- |
+|                 |
