@@ -2,7 +2,7 @@
 
 | Name | Description | Cost | Tool Review and Guide |
 | --- | --- | --- | --- |
-| Intelligence X Telegram Search | Google-based search engine for Telegram (includes Telegago) | <mark style="background-color:green;">Free</mark> | <p><sub><em>Guide not available</em></sub></p><mark style="background-color:blue;"> [https://intelx.io/tools?tab=telegram](https://intelx.io/tools?tab=telegram) </mark> |
+| Intelligence X Telegram SearchDDD | Google-based search engine for Telegram (includes Telegago) | <mark style="background-color:green;">Free</mark> | <p><sub><em>Guide not available</em></sub></p><mark style="background-color:blue;"> [https://intelx.io/tools?tab=telegram](https://intelx.io/tools?tab=telegram) </mark> |
 | Open Measures | Open Measures helps open source researchers investigate harmful online activity such as extremism and disinformation. | <mark style="background-color:orange;">Partially Free</mark> | [https://bellingcat.gitbook.io/toolkit/more/all-tools/open-measures](../../../tools/open-measures/README.md) |
 | Telegago | Telegago is a Google Custom Search Engine tailored for searching public Telegram content for OSINT purposes. | <mark style="background-color:green;">Free</mark> | [https://bellingcat.gitbook.io/toolkit/more/all-tools/telegago](../../../tools/telegago/README.md) |
 | Telegram Group Joiner | Automate joining multiple Telegram groups and channels, ideal for researchers monitoring specific topics. | <mark style="background-color:green;">Free</mark> | [https://bellingcat.gitbook.io/toolkit/more/all-tools/telegram-group-joiner](../../../tools/telegram-group-joiner/README.md) |
