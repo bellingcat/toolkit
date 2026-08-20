@@ -1,3 +1,4 @@
+import { appendFileSync } from 'node:fs';
 import dataPkg from './data.mjs'
 const {getTools} = dataPkg;
 import toolsPkg from './tools.mjs'
@@ -32,4 +33,11 @@ if (process.env.GH_TOKEN) {
   client.updateToolId(oldSlug, newSlug);
 } else {
   console.warn('GH_TOKEN not set — skipping GitHub project update');
+}
+
+// Hand the resolved slugs to the workflow so the Google Sheets step can rename
+// the tool's rows in place. The old slug comes from the tool's directory name,
+// which no longer exists once renameTool() has run, so it can't be re-derived.
+if (process.env.GITHUB_OUTPUT) {
+  appendFileSync(process.env.GITHUB_OUTPUT, `oldSlug=${oldSlug}\nnewSlug=${newSlug}\n`);
 }

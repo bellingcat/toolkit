@@ -4,6 +4,7 @@ const { getProjectItems } = projectFields;
 import pkg from './tools.mjs';
 const { fetchMembers } = pkg;
 import { mergeRowRanges, planPruneRows } from './sheet-prune.mjs';
+import { columnLetter, tabReadRange, getSheetMeta, readTab, TOOL_ID_REFERENCE_TABS } from './sheets-tab.mjs';
 
 const SPREADSHEET_ID = process.env.GOOGLE_SHEET_ID;
 
@@ -113,28 +114,6 @@ function planToolIdReferences(existingValues, toolIds) {
   }
 
   return { missing, emptyRows };
-}
-
-// Converts a 0-based column index to its A1 letter(s), e.g. 0 -> 'A', 26 -> 'AA'.
-function columnLetter(index) {
-  let letters = '';
-  for (let n = index; n >= 0; n = Math.floor(n / 26) - 1) {
-    letters = String.fromCharCode(65 + (n % 26)) + letters;
-  }
-  return letters;
-}
-
-// Returns { sheetId, table } for the named tab, or null if the tab doesn't exist.
-// table is the first embedded Table's GridRange ({ startRowIndex, endRowIndex,
-// startColumnIndex, endColumnIndex }, all 0-based, end exclusive), or null.
-async function getSheetMeta(sheets, title) {
-  const spreadsheet = await sheets.spreadsheets.get({ spreadsheetId: SPREADSHEET_ID });
-  const sheet = spreadsheet.data.sheets?.find((s) => s.properties.title === title);
-  if (!sheet) return null;
-  return {
-    sheetId: sheet.properties.sheetId,
-    table: sheet.tables?.[0]?.range ?? null,
-  };
 }
 
 // Ensures the named tab exists (creating it if necessary) and returns { sheetId, table }.
@@ -254,12 +233,9 @@ async function syncSheet(sheets, title, header, items, matchColumn, rowValues, m
   const headerRow = tableStart + 1;              // 1-based sheet row of the table header
 
   // Read only the table's range when a Table exists; otherwise read the whole sheet.
-  const readRange = table
-    ? `${title}!${columnLetter(table.startColumnIndex)}${table.startRowIndex + 1}:${columnLetter(table.endColumnIndex - 1)}${table.endRowIndex}`
-    : title;
   const existing = await sheets.spreadsheets.values.get({
     spreadsheetId: SPREADSHEET_ID,
-    range: readRange,
+    range: tabReadRange(title, table),
   });
   const existingValues = existing.data.values || [];
 
@@ -318,36 +294,19 @@ async function syncSheet(sheets, title, header, items, matchColumn, rowValues, m
   }
 }
 
-// Tabs (besides Tools) whose column A holds Tool IDs referenced by formulas
-// in their other columns. Any Tool ID present in the Tools sheet but missing
-// from a tab's column A is written into that tab's first rows with an empty
-// column A; other columns (the formulas) are left untouched. Names may
-// change in the future, so missing tabs are skipped with a warning.
-const TOOL_ID_REFERENCE_TABS = ['Overview', 'Signup', 'Admin'];
-
 // Adds any of `toolIds` missing from `title`'s column A. Fills existing empty
 // rows (which may carry pre-set formulas) first; if more are needed and the tab
 // has a Table, inserts the remainder into the table with inheritFromBefore so
 // formulas are copied from the row above. Skips tabs that don't exist.
 async function syncToolIdReferences(sheets, title, toolIds) {
-  const meta = await getSheetMeta(sheets, title);
-  if (meta === null) {
+  const tab = await readTab(sheets, title);
+  if (tab === null) {
     console.warn(`${title}: sheet tab not found, skipping tool ID sync`);
     return;
   }
 
-  const { sheetId, table } = meta;
+  const { sheetId, table, headerRow, values: existingValues } = tab;
   const tableStart = table?.startRowIndex ?? 0;
-  const headerRow = tableStart + 1;
-
-  const readRange = table
-    ? `${title}!${columnLetter(table.startColumnIndex)}${table.startRowIndex + 1}:${columnLetter(table.endColumnIndex - 1)}${table.endRowIndex}`
-    : title;
-  const existing = await sheets.spreadsheets.values.get({
-    spreadsheetId: SPREADSHEET_ID,
-    range: readRange,
-  });
-  const existingValues = existing.data.values || [];
 
   const { missing, emptyRows } = planToolIdReferences(existingValues, toolIds);
   if (missing.length === 0) return;
@@ -428,24 +387,13 @@ async function deleteSheetRows(sheets, sheetId, rowIndices) {
 // (including sorts) have already moved rows around. Skips tabs that don't
 // exist. No-ops quietly when there's nothing stale to remove.
 async function pruneStaleRows(sheets, title, matchColumn, validIds) {
-  const meta = await getSheetMeta(sheets, title);
-  if (meta === null) {
+  const tab = await readTab(sheets, title);
+  if (tab === null) {
     console.warn(`${title}: sheet tab not found, skipping stale-row prune`);
     return;
   }
 
-  const { sheetId, table } = meta;
-  const tableStart = table?.startRowIndex ?? 0;
-  const headerRow = tableStart + 1;
-
-  const readRange = table
-    ? `${title}!${columnLetter(table.startColumnIndex)}${table.startRowIndex + 1}:${columnLetter(table.endColumnIndex - 1)}${table.endRowIndex}`
-    : title;
-  const existing = await sheets.spreadsheets.values.get({
-    spreadsheetId: SPREADSHEET_ID,
-    range: readRange,
-  });
-  const existingValues = existing.data.values || [];
+  const { sheetId, headerRow, values: existingValues } = tab;
   if (existingValues.length === 0) return;
 
   const col = typeof matchColumn === 'number' ? matchColumn : existingValues[0].indexOf(matchColumn);
@@ -472,10 +420,7 @@ async function syncTeamMembersToAdmin(sheets) {
   if (!adminMeta) { console.warn('Admin sheet not found, skipping Team Members→Maintainer sync'); return; }
 
   const { table: toolsTable } = toolsMeta;
-  const toolsReadRange = toolsTable
-    ? `Tools!${columnLetter(toolsTable.startColumnIndex)}${toolsTable.startRowIndex + 1}:${columnLetter(toolsTable.endColumnIndex - 1)}${toolsTable.endRowIndex}`
-    : 'Tools';
-  const toolsValues = (await sheets.spreadsheets.values.get({ spreadsheetId: SPREADSHEET_ID, range: toolsReadRange })).data.values || [];
+  const toolsValues = (await sheets.spreadsheets.values.get({ spreadsheetId: SPREADSHEET_ID, range: tabReadRange('Tools', toolsTable) })).data.values || [];
   if (toolsValues.length === 0) return;
 
   const toolsHeader = toolsValues[0];
@@ -493,10 +438,7 @@ async function syncTeamMembersToAdmin(sheets) {
   }
 
   const { table: adminTable } = adminMeta;
-  const adminReadRange = adminTable
-    ? `Admin!${columnLetter(adminTable.startColumnIndex)}${adminTable.startRowIndex + 1}:${columnLetter(adminTable.endColumnIndex - 1)}${adminTable.endRowIndex}`
-    : 'Admin';
-  const adminValues = (await sheets.spreadsheets.values.get({ spreadsheetId: SPREADSHEET_ID, range: adminReadRange })).data.values || [];
+  const adminValues = (await sheets.spreadsheets.values.get({ spreadsheetId: SPREADSHEET_ID, range: tabReadRange('Admin', adminTable) })).data.values || [];
   if (adminValues.length === 0) return;
 
   const adminHeader = adminValues[0];

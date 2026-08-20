@@ -52,3 +52,16 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           branch: main
+
+      # Runs last, and independently of `changes`: the tool's ID has already
+      # been updated in the GitHub Project, so a Sheets failure here must not
+      # strand the rename uncommitted. Renaming the ID in place keeps each
+      # tool's existing sheet row (and anything hand-entered on it) instead of
+      # letting the next sync append a new row and prune the old one.
+      - name: Update Google Sheets
+        env:
+          GOOGLE_SERVICE_ACCOUNT_KEY: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
+          GOOGLE_SHEET_ID: ${{ secrets.GOOGLE_SHEET_ID }}
+          OLD_SLUG: ${{ steps.rename-tool.outputs.oldSlug }}
+          NEW_SLUG: ${{ steps.rename-tool.outputs.newSlug }}
+        run: node src/sheet-rename.mjs "$OLD_SLUG" "$NEW_SLUG"
