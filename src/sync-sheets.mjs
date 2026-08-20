@@ -3,6 +3,7 @@ import projectFields from './ghproject-fields.mjs';
 const { getProjectItems } = projectFields;
 import pkg from './tools.mjs';
 const { fetchMembers } = pkg;
+import { mergeRowRanges, planPruneRows } from './sheet-prune.mjs';
 
 const SPREADSHEET_ID = process.env.GOOGLE_SHEET_ID;
 
@@ -399,6 +400,63 @@ async function syncToolIdReferences(sheets, title, toolIds) {
       table?.endColumnIndex ?? (existingValues[0]?.length ?? 1),
     );
   }
+}
+
+// Deletes the given 0-based sheet row indices (dimension ROWS), which may
+// be non-contiguous, via mergeRowRanges so contiguous runs become a single
+// deleteDimension request and ranges are removed highest-index-first.
+async function deleteSheetRows(sheets, sheetId, rowIndices) {
+  const ranges = mergeRowRanges(rowIndices);
+  if (ranges.length === 0) return;
+
+  await sheets.spreadsheets.batchUpdate({
+    spreadsheetId: SPREADSHEET_ID,
+    requestBody: {
+      requests: ranges.map(({ startIndex, endIndex }) => ({
+        deleteDimension: { range: { sheetId, dimension: 'ROWS', startIndex, endIndex } },
+      })),
+    },
+  });
+}
+
+// Deletes every row in `title` whose key (in `matchColumn`) is not in
+// `validIds`. `matchColumn` is a header name (string, resolved against the
+// header row) or a literal 0-based column index (number, for tabs like the
+// TOOL_ID_REFERENCE_TABS where column A isn't necessarily labeled). Always
+// re-reads the sheet's current values rather than reusing any row position
+// computed earlier in the run — safe to call after other sync steps
+// (including sorts) have already moved rows around. Skips tabs that don't
+// exist. No-ops quietly when there's nothing stale to remove.
+async function pruneStaleRows(sheets, title, matchColumn, validIds) {
+  const meta = await getSheetMeta(sheets, title);
+  if (meta === null) {
+    console.warn(`${title}: sheet tab not found, skipping stale-row prune`);
+    return;
+  }
+
+  const { sheetId, table } = meta;
+  const tableStart = table?.startRowIndex ?? 0;
+  const headerRow = tableStart + 1;
+
+  const readRange = table
+    ? `${title}!${columnLetter(table.startColumnIndex)}${table.startRowIndex + 1}:${columnLetter(table.endColumnIndex - 1)}${table.endRowIndex}`
+    : title;
+  const existing = await sheets.spreadsheets.values.get({
+    spreadsheetId: SPREADSHEET_ID,
+    range: readRange,
+  });
+  const existingValues = existing.data.values || [];
+  if (existingValues.length === 0) return;
+
+  const col = typeof matchColumn === 'number' ? matchColumn : existingValues[0].indexOf(matchColumn);
+  if (col === -1) return;
+
+  const stale = planPruneRows(existingValues, col, validIds);
+  if (stale.length === 0) return;
+
+  const sheetRowIndices = stale.map(({ row }) => row + headerRow - 1);
+  await deleteSheetRows(sheets, sheetId, sheetRowIndices);
+  console.log(`${title}: deleted ${stale.length} stale row(s) for Tool ID(s): ${stale.map((s) => s.key).join(', ')}`);
 }
 
 // Copies Tools[Team Members] → Admin[Maintainer], matching rows by Tool ID.
