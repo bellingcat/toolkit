@@ -538,12 +538,23 @@ async function main() {
   const sheets = google.sheets({ version: 'v4', auth });
 
   const tools = toolsItems();
+  const toolIds = tools.map((item) => item.toolId);
+
+  // Guards against wiping every tracked row on a bad fetch (e.g. a renamed
+  // "Tool ID" project field): only prune when we got at least one tool item.
+  const pruneStale = toolIds.length > 0;
+  if (!pruneStale) {
+    console.warn('No tool items found in GitHub project — skipping stale-row pruning');
+  }
+
   await syncSheet(sheets, 'Tools', TOOLS_HEADER, tools, 'Tool ID', toolValues, (item) => item.toolId, TOOLS_TYPED_COLUMNS);
+  if (pruneStale) await pruneStaleRows(sheets, 'Tools', 'Tool ID', new Set(toolIds));
+
   await syncSheet(sheets, 'Members', MEMBERS_HEADER, await fetchMembers(), 'Email', memberValues, (member) => member.user?.email || '', MEMBERS_TYPED_COLUMNS);
 
-  const toolIds = tools.map((item) => item.toolId);
   for (const title of TOOL_ID_REFERENCE_TABS) {
     await syncToolIdReferences(sheets, title, toolIds);
+    if (pruneStale) await pruneStaleRows(sheets, title, 0, new Set(toolIds));
   }
 
   await syncTeamMembersToAdmin(sheets);
