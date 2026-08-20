@@ -449,7 +449,10 @@ async function pruneStaleRows(sheets, title, matchColumn, validIds) {
   if (existingValues.length === 0) return;
 
   const col = typeof matchColumn === 'number' ? matchColumn : existingValues[0].indexOf(matchColumn);
-  if (col === -1) return;
+  if (col === -1) {
+    console.warn(`${title}: column "${matchColumn}" not found, skipping stale-row prune`);
+    return;
+  }
 
   const stale = planPruneRows(existingValues, col, validIds);
   if (stale.length === 0) return;
