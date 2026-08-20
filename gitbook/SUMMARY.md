@@ -67,7 +67,7 @@
   * [Blackbird](tools/blackbird/README.md)
   * [Blender](tools/blender/README.md)
   * [BskyFollowFinder](tools/bluesky-network-analyzer/README.md)
-  * [Bulletpicker.com](tools/bulletpicker.com/README.md)
+  * [Bulletpicker](tools/bulletpicker/README.md)
   * [CAT UXO](tools/cat-uxo/README.md)
   * [China-related resources](tools/china-related-resources/README.md)
   * [Chronotrains](tools/chronotrains/README.md)
