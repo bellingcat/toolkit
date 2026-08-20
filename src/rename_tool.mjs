@@ -3,7 +3,6 @@ import dataPkg from './data.mjs'
 const {getTools} = dataPkg;
 import toolsPkg from './tools.mjs'
 const {renameTool} = toolsPkg;
-import client from './ghproject-client.mjs';
 
 const inputToolname = process.argv[2]
 const newToolname = process.argv[3]
@@ -29,15 +28,10 @@ const newSlug = newToolname.replace(/[<>:"/\\|?*\x00-\x1F]/g, '').replace(/\s+/g
 
 await renameTool(tool, newToolname);
 
-if (process.env.GH_TOKEN) {
-  client.updateToolId(oldSlug, newSlug);
-} else {
-  console.warn('GH_TOKEN not set — skipping GitHub project update');
-}
-
-// Hand the resolved slugs to the workflow so the Google Sheets step can rename
-// the tool's rows in place. The old slug comes from the tool's directory name,
-// which no longer exists once renameTool() has run, so it can't be re-derived.
+// Hand the resolved slugs to the workflow so the steps that run after the push
+// — the GitHub Project and Google Sheets updates — can address the tool. The
+// old slug comes from the tool's directory name, which no longer exists once
+// renameTool() has run, so it can't be re-derived later.
 if (process.env.GITHUB_OUTPUT) {
   appendFileSync(process.env.GITHUB_OUTPUT, `oldSlug=${oldSlug}\nnewSlug=${newSlug}\n`);
 }
