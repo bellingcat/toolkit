@@ -2,7 +2,7 @@
 description: Searching for someone's address in the UK, phone number and who they live with according to electoral rolls.
 ---
 
-# 192.com
+# 192
 
 ## URL
 
