@@ -9,6 +9,10 @@ on:
     types: [completed]
   workflow_dispatch:
 
+concurrency:
+  group: sync-sheets
+  cancel-in-progress: false
+
 jobs:
   sync:
     runs-on: ubuntu-latest
