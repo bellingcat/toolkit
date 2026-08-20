@@ -1,7 +1,7 @@
 ---
 description: >-
-  DeepFake-O-Meter is an online tool designed to detect deepfake media, helping
-  users to differentiate between genuine and manipulated content.
+  DeepFake-O-Meter is an online tool designed to detect deepfake media and help
+  users differentiate between genuine and manipulated content.
 ---
 
 # DeepFake-O-Meter
@@ -12,7 +12,7 @@ description: >-
 
 ## Description
 
-A simple drag-and-drop online tool, DeepFake-O-Meter allows users to upload photo, video or audio content to check for potential deepfakes: digital images that have been convincingly generated or altered to portray people saying or doing things that did not occur. The tool also allows separate, direct YouTube link uploads of less than three minutes.
+A simple drag-and-drop online tool, DeepFake-O-Meter allows users to upload photo, video or audio content to check for potential deepfakes: digital images that have been convincingly generated or altered to portray people or things that are not real. The tool also allows separate, direct YouTube link uploads of less than three minutes.
 
 Users can upload material in any of the following formats:
 
@@ -20,27 +20,17 @@ Users can upload material in any of the following formats:
 **Video:** MP4, AVI, MOV\
 **Audio:** WAV, MP3
 
-After submitting the material for analysis, users will be asked to confirm whether they know it is AI-generated, and whether they want to share data with DeepFake-O-Meter. Once those selections are made, the tool will begin its analysis, using a variety of AI detectors. It will also provide an estimated wait time for the analysis.
+After the user submits the material, the tool will begin its analysis using a variety of AI detectors, and provide an estimated wait time for completion. Users can learn more about each AI detector on the ["Models" subpage](https://zinc.cse.buffalo.edu/ubmdfl/deep-o-meter/models), which provides brief descriptions.
 
-Users can learn more about the AI detectors on the "Models" subpage, which provides a brief description of each one, for example:
+Across various samples, there is dramatic variance among the different detection models. Sample analysis conducted on screenshots of imagery from the site ThisPersonDoesNotExist.com, a random AI face generator, took under two minutes and resulted in ratings ranging from 0% certainty of artificial content to 100% for a single photo, with many in between.
 
-<figure><img src=".gitbook/assets/dfom-models.png" alt=""><figcaption></figcaption></figure>
-
-Across various samples, there is dramatic variance among the different detection models (see Limitations section below; AI detectors often provide mixed or uncertain results). Analysis conducted on screenshots of imagery from the site ThisPersonDoesNotExist.com, a random AI face generator, took under two minutes and resulted in ratings ranging from 0% certainty of artificial content to 100% for a single image, with many in between.
-
-<figure><img src=".gitbook/assets/dfom-1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/dfom-1.png" alt=""><figcaption><p>Screenshot displaying the ratings across various models for one sample image</p></figcaption></figure>
 
 To view an overall assessment, users can click on "View Submission Report". This will provide a rating of overall confidence in whether the supplied content is genuine or artificially generated, by aggregating ratings from the various AI detectors. It will also provide a measure of confidence in that assessment.
 
-<figure><img src=".gitbook/assets/dfom-2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/dfom-2.png" alt=""><figcaption><p>Screenshot displaying the overall assessment as "inconclusive" for one sample image</p></figcaption></figure>
 
-While tools like DeepFake-O-Meter are designed to help combat the growing tide of visual misinformation and disinformation online, providing open-source researchers with a quick and simple method for attempting to verify or debunk content, such tools are notoriously unreliable (see Limitations section below).
-
-### Use Cases
-
-* [The Reuters Institute](https://reutersinstitute.politics.ox.ac.uk/news/truth-casualty-how-indian-fact-checkers-debunked-false-claims-during-india-pakistan-crisis) describes how an Indian fact-checking site used DeepFake-O-Meter to investigate audio clips falsely attributed to Prime Minister Narendra Modi and other government officials.
-* [AFP Fact Check](https://factcheck.afp.com/doc.afp.com.89RJ49E) used DeepFake-O-Meter to help debunk a video purporting to show a Bangladeshi woman pleading for help.
-* [Forbes](https://www.forbes.com/sites/emmawoollacott/2026/04/21/theres-no-such-thing-as-brain-honey/) referenced Deep Fake-O-Meter in an article debunking online advertisements for a product claiming to cure Alzheimer's disease.
+While tools like DeepFake-O-Meter are designed to help combat the growing tide of visual misinformation and disinformation online, providing open-source researchers with a quick and simple method for attempting to verify or debunk content, such tools are [notoriously unreliable](https://www.newsguardtech.com/special-reports/leading-ai-image-detection-tools-mislead-online-users-often-declaring-authentic-content-fake/) (see Limitations section below).
 
 ## Cost
 
@@ -58,27 +48,26 @@ You must register using a valid email address in order to use the site.
 
 ## Limitations
 
-* **Accuracy:** AI detectors are notoriously unreliable, often providing mixed or uncertain results; running the same image through DeepFake-O-Meter more than once may result in different ratings. DeepFake-O-Meter acknowledges that its authenticity scores "reflect statistical similarity to training data patterns and do not constitute definitive proof of authenticity or manipulation", noting that the results should be "interpreted in conjunction with contextual and investigative analysis".
-
-<figure><img src=".gitbook/assets/dfom-scores.png" alt=""><figcaption></figcaption></figure>
-
+* **Accuracy:** AI detectors are [notoriously unreliable](https://www.newsguardtech.com/special-reports/leading-ai-image-detection-tools-mislead-online-users-often-declaring-authentic-content-fake/), often providing mixed or uncertain results; running the same image through DeepFake-O-Meter more than once may result in different ratings. DeepFake-O-Meter acknowledges that its [authenticity scores](https://zinc.cse.buffalo.edu/ubmdfl/deep-o-meter/) "reflect statistical similarity to training data patterns and do not constitute definitive proof of authenticity or manipulation", noting that the results should be "interpreted in conjunction with contextual and investigative analysis".
 * **File size:** Larger files may cause the system to hang or stop functioning midway through the processing attempt, which could be an issue for lengthy or high-resolution videos.
-* **Processing times:** These may fluctuate dramatically depending on file size, with larger videos taking more time to analyze than smaller images. Before starting an analysis, users have the option to exclude detection models with longer processing times, thereby speeding up the overall process.
-* **Video formats:** The tool may not support all video formats, thus requiring users to convert videos to a compatible format before submission.
+* **Processing times:** These may fluctuate depending on file size, with larger videos taking more time to analyze than smaller images. Before starting an analysis, users have the option to exclude detection models with longer processing times, thereby speeding up the overall task.
 
 ## Ethical Considerations
 
 * **Privacy:** Users must consider the privacy implications of submitting personal or sensitive videos or images to an online service for deepfake detection.
-* **Bias and fairness:** Algorithms, such as those powering DeepFake-O-Meter, might be subject to [biases in their training data](https://www.ibm.com/think/topics/ai-bias). This could potentially result in unequal performance across different demographics, such as gender or ethnicity.
+* **Bias and fairness:** Algorithms, such as those powering DeepFake-O-Meter, might be subject to [biases](https://guides.library.utoronto.ca/c.php?g=735513\&p=5297043) in their training data. This could potentially result in unequal performance across different demographics, such as gender or ethnicity.
 
 ## Guides and articles
 
 * [Developer resources](https://github.com/yuezunli/deepfake-o-meter) on Github
 * [Tutorial](https://www.youtube.com/watch?v=Om4-bE9a61I) by project director Siwei Lyu
+* [The Reuters Institute](https://reutersinstitute.politics.ox.ac.uk/news/truth-casualty-how-indian-fact-checkers-debunked-false-claims-during-india-pakistan-crisis) describes how an Indian fact-checking site used DeepFake-O-Meter to investigate audio clips falsely attributed to Prime Minister Narendra Modi and other government officials.
+* [AFP Fact Check](https://factcheck.afp.com/doc.afp.com.89RJ49E) used DeepFake-O-Meter to help debunk a video purporting to show a Bangladeshi woman pleading for help.
+* [Forbes](https://www.forbes.com/sites/emmawoollacott/2026/04/21/theres-no-such-thing-as-brain-honey/) referenced Deep Fake-O-Meter in an article debunking online advertisements for a product claiming to cure Alzheimer's disease.
 
 ## Tool provider
 
-The UB Media Forensics Lab, based at the University at Buffalo in New York, describes itself as a team of researchers and engineers "dedicated to advancing synthetic media detection". Contact information for the project team is [available here](https://zinc.cse.buffalo.edu/ubmdfl/deep-o-meter/contact).
+The [UB Media Forensics Lab](https://ubmdfl.cse.buffalo.edu/), based at the University at Buffalo in New York, describes itself as a team of researchers and engineers "dedicated to advancing synthetic media detection". Contact information for the project team is [available here](https://zinc.cse.buffalo.edu/ubmdfl/deep-o-meter/contact).
 
 ## Similar tools
 
