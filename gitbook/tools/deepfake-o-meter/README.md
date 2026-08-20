@@ -75,12 +75,6 @@ The [UB Media Forensics Lab](https://ubmdfl.cse.buffalo.edu/), based at the Univ
 
 [InVID](https://bellingcat.gitbook.io/toolkit/more/all-tools/invid): This toolkit, which supports the verification of images, videos and audio, enables registered users to assess the probability that content has been manipulated by AI.
 
-## Advertising Trackers
-
-* [x] This tool has not been checked for advertising trackers yet.
-* [ ] This tool uses tracking cookies. Use with caution.
-* [ ] This tool does not appear to use tracking cookies.
-
 | Page maintainer           |
 | ------------------------- |
 | Bellingcat volunteer team |
