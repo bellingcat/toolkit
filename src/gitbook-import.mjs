@@ -22,7 +22,7 @@
  */
 
 import fs from 'fs';
-import { execSync } from 'child_process';
+import { spawnSync } from 'child_process';
 import pkg from './data.mjs';
 import client from './ghproject-client.mjs';
 const { apiCall } = pkg;
@@ -61,12 +61,20 @@ function saveCheckpoint(checkpoint) {
 // created by the GitBook export ("Sync: Export ... from GitBook") are excluded —
 // that content is already in GitBook, so it neither needs importing nor counts
 // as a repo-side change.
-function lastCommitSince(toolSlug, since) {
-  const result = execSync(
-    `git log --since="${since}" --grep="^Sync: Export" --invert-grep --format="%h %s" -1 -- "gitbook/tools/${toolSlug}/"`,
+// Throws if git itself fails, rather than reporting it as "nothing to import" —
+// a swallowed error here would skip tools silently and leave GitBook stale
+// behind a green run.
+function lastCommitSince(toolSlug, since, run = spawnSync) {
+  const result = run(
+    'git',
+    ['log', `--since=${since}`, '--grep=^Sync: Export', '--invert-grep', '--format=%h %s', '-1', '--', `gitbook/tools/${toolSlug}/`],
     { encoding: 'utf-8' }
   );
-  return result.trim() || null;
+  if (result.error) throw result.error;
+  if (result.status !== 0) {
+    throw new Error(`git log failed for ${toolSlug} (exit ${result.status}):\n${result.stderr}`);
+  }
+  return result.stdout.trim() || null;
 }
 
 async function getMostRecentMergedCR(spaceId) {
@@ -176,4 +184,9 @@ async function main() {
   }
 }
 
-main();
+const isMain = import.meta.url === `file://${process.argv[1]}`;
+if (isMain) {
+  main();
+}
+
+export { lastCommitSince };
