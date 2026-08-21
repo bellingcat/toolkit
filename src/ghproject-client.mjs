@@ -175,6 +175,38 @@ function addItemToProject(toolSlug, spaceId, teamId, toolTitle) {
   return itemId;
 }
 
+// Writes text values to an existing item's fields. `fieldValues` is keyed by
+// project field name, e.g. { 'Space ID': '...', 'Team ID': '...' }; only the
+// named fields are touched. Batches them into one mutation, aliased per field
+// since GraphQL can't repeat a mutation name in a single operation.
+function updateItemFields(itemId, fieldValues) {
+  const names = Object.keys(fieldValues);
+  if (names.length === 0) return;
+
+  const projectId = getProjectId();
+  const fields = getProjectFields();
+
+  const params = names.map((_, i) => `$field${i}: ID! $value${i}: String!`).join(' ');
+  const setters = names.map((_, i) => `
+      set${i}: updateProjectV2ItemFieldValue(input: {
+        projectId: $project itemId: $item fieldId: $field${i}
+        value: { text: $value${i} }
+      }) { projectV2Item { id } }`).join('');
+
+  const vars = { project: projectId, item: itemId };
+  names.forEach((name, i) => {
+    // Fail loudly if the project no longer has the field: without this the
+    // undefined lookup surfaces as an opaque TypeError.
+    if (!fields[name]) throw new Error(`GitHub Project has no field named "${name}"`);
+    vars[`field${i}`] = fields[name].id;
+    vars[`value${i}`] = fieldValues[name];
+  });
+
+  ghql(`mutation($project: ID! $item: ID! ${params}) {${setters}
+    }`, vars);
+  console.log(`Set ${names.join(', ')} on item ${itemId}`);
+}
+
 // Finds and deletes the project item for toolSlug. Warns if not found.
 function removeItemFromProject(toolSlug) {
   const projectId = getProjectId();
@@ -215,4 +247,4 @@ function updateToolId(oldSlug, newSlug) {
   console.log(`Updated Tool ID from "${oldSlug}" to "${newSlug}"`);
 }
 
-export default { addItemToProject, removeItemFromProject, updateToolId, fetchAllItems, getProjectId, getProjectFields, executeMutation: ghql };
+export default { addItemToProject, removeItemFromProject, updateToolId, findItemByToolId, updateItemFields, fetchAllItems, getProjectId, getProjectFields, executeMutation: ghql };
