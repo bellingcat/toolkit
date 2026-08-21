@@ -5,7 +5,7 @@ description: >-
   and document websites in real time.
 ---
 
-# Urlscan.io
+# Urlscan
 
 ## URL
 

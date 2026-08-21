@@ -3,7 +3,7 @@ updated: '2025-09-26'
 description: Find user details in data breaches
 ---
 
-# Intelx.io
+# Intelx
 
 ## URL
 
