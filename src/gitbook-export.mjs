@@ -20,7 +20,7 @@
 
 import fs from 'fs';
 import path from 'path';
-import { execSync } from 'child_process';
+import { spawnSync } from 'child_process';
 import matter from './frontmatter.mjs';
 import pkg from './data.mjs';
 import client from './ghproject-client.mjs';
@@ -57,8 +57,8 @@ function saveCheckpoint(checkpoint) {
 
 // Bootstrap: use the tool's last-known updated frontmatter date as initial checkpoint
 function getToolUpdatedAt(toolSlug) {
-  const readmePath = path.join('gitbook', 'tools', toolSlug, 'README.md');
-  if (!fs.existsSync(readmePath)) return null;
+  const readmePath = (!toolSlug || /[/\\]|\.\./.test(toolSlug)) ? null : path.join('gitbook', 'tools', toolSlug, 'README.md');
+  if (!readmePath || !fs.existsSync(readmePath)) return null;
   const { data } = matter(fs.readFileSync(readmePath, 'utf-8'));
   return data.updated ? new Date(data.updated).toISOString() : null;
 }
@@ -68,11 +68,12 @@ function getToolUpdatedAt(toolSlug) {
 // created by the GitBook export itself ("Sync: Export ... from GitBook") are
 // excluded — those are GitBook content, not repo-side edits.
 function lastUnsyncedCommit(toolSlug, since) {
-  const result = execSync(
-    `git log --since="${since}" --grep="^Sync: Export" --invert-grep --format="%h %s" -1 -- "gitbook/tools/${toolSlug}/"`,
+  const result = spawnSync(
+    'git',
+    ['log', `--since=${since}`, '--grep=^Sync: Export', '--invert-grep', '--format=%h %s', '-1', '--', `gitbook/tools/${toolSlug}/`],
     { encoding: 'utf-8' }
   );
-  return result.trim() || null;
+  return result.stdout.trim() || null;
 }
 
 async function getMostRecentMergedCR(spaceId) {
