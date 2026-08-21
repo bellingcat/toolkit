@@ -132,7 +132,7 @@
   * [Index Database](tools/index-database/README.md)
   * [Instagram Location Search](tools/instagram-location-search/README.md)
   * [InstaLoader](tools/instaloader/README.md)
-  * [Intelx.io](tools/intelx.io/README.md)
+  * [Intelx.io](tools/intelx/README.md)
   * [InVID](tools/invid/README.md)
   * [KartaView](tools/kartaview/README.md)
   * [Leak-Lookup](tools/leak-lookup/README.md)
