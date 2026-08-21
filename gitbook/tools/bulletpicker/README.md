@@ -5,7 +5,7 @@ description: >-
   several different armed forces.
 ---
 
-# Bulletpicker.com
+# Bulletpicker
 
 ## URL
 
