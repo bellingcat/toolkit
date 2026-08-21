@@ -223,7 +223,7 @@
   * [Umbra Space](tools/umbra-space/README.md)
   * [UN Comtrade Database](tools/un-comtrade-database/README.md)
   * [UNOSAT Analyses](tools/unosat-analyses/README.md)
-  * [Urlscan.io](tools/urlscan.io/README.md)
+  * [Urlscan.io](tools/urlscan/README.md)
   * [USA court case databases](tools/us-court-case-databases/README.md)
   * [Uwazi](tools/uwazi/README.md)
   * [VesselFinder](tools/vesselfinder/README.md)
