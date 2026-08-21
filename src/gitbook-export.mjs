@@ -67,12 +67,21 @@ function getToolUpdatedAt(toolSlug) {
 // directory since the given ISO timestamp, or null if there are none. Commits
 // created by the GitBook export itself ("Sync: Export ... from GitBook") are
 // excluded — those are GitBook content, not repo-side edits.
-function lastUnsyncedCommit(toolSlug, since) {
-  const result = spawnSync(
+//
+// Throws if git itself fails. Unlike execSync, spawnSync reports a failed child
+// through its return value rather than by throwing, and the caller reads a null
+// return as "no repo-side changes, safe to export" — so swallowing a git error
+// here would quietly disable the conflict guard and clobber the repo.
+function lastUnsyncedCommit(toolSlug, since, run = spawnSync) {
+  const result = run(
     'git',
     ['log', `--since=${since}`, '--grep=^Sync: Export', '--invert-grep', '--format=%h %s', '-1', '--', `gitbook/tools/${toolSlug}/`],
     { encoding: 'utf-8' }
   );
+  if (result.error) throw result.error;
+  if (result.status !== 0) {
+    throw new Error(`git log failed for ${toolSlug} (exit ${result.status}):\n${result.stderr}`);
+  }
   return result.stdout.trim() || null;
 }
 
@@ -204,4 +213,9 @@ async function main() {
   }
 }
 
-main();
+const isMain = import.meta.url === `file://${process.argv[1]}`;
+if (isMain) {
+  main();
+}
+
+export { lastUnsyncedCommit };
