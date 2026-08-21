@@ -26,7 +26,7 @@ if (!tool) {
 const oldSlug = tool.filename;
 const newSlug = newToolname.replace(/[<>:"/\\|?*\x00-\x1F]/g, '').replace(/\s+/g, '-').replace(/,/g, '').toLowerCase() || 'untitled';
 
-await renameTool(tool, newToolname);
+renameTool(tool, newToolname);
 
 // Hand the resolved slugs to the workflow so the steps that run after the push
 // — the GitHub Project and Google Sheets updates — can address the tool. The

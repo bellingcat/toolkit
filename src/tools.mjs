@@ -266,7 +266,7 @@ async function createSpace(name, collection) {
   return data;
 }
 
-async function renameTool(tool, name) {
+function renameTool(tool, name) {
   const slug = slugify(name);
 
   // Rename the tool directory
@@ -279,14 +279,6 @@ async function renameTool(tool, name) {
   const summary = getSummary('gitbook');
   if (summary.match(link)) {
     summary.replace(link, newLink);
-  }
-
-  // Rename the GitBook space to match the new slug
-  const space = await findSpace(tool.directory);
-  if (space) {
-    await renameSpace(space, slug);
-  } else {
-    debug('No space found for', tool.directory);
   }
 }
 async function renameSpace(space, name) {
@@ -446,6 +438,8 @@ export default {
   publishTool,
   removeTool,
   renameTool,
+  findSpace,
+  renameSpace,
   updateSpaceEmoji,
   updateToolJSON,
   updateToolCategories,

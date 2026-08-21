@@ -29,8 +29,6 @@ jobs:
 
       - name: Rename tool
         id: rename-tool
-        env:
-          GITBOOK_API_TOKEN: ${{ secrets.GITBOOK_API_TOKEN }}
         run: |
           node src/rename_tool.mjs "$OLD_TOOL_NAME" "$NEW_TOOL_NAME"
           if [ -n "$(git status gitbook --porcelain)" ]; then
@@ -57,6 +55,13 @@ jobs:
       # Announcing the new ID to either service before main has it is
       # what strands a rename: the next sheets sync reads the new ID from the
       # project, matches no row, appends one, and prunes the old one.
+      - name: Rename GitBook space
+        env:
+          GITBOOK_API_TOKEN: ${{ secrets.GITBOOK_API_TOKEN }}
+          OLD_SLUG: ${{ steps.rename-tool.outputs.oldSlug }}
+          NEW_SLUG: ${{ steps.rename-tool.outputs.newSlug }}
+        run: node src/rename-space.mjs "$OLD_SLUG" "$NEW_SLUG"
+
       - name: Update GitHub Project
         env:
           GH_TOKEN: ${{ secrets.GH_PROJECT_TOKEN }}
