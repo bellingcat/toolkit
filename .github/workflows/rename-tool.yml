@@ -5,11 +5,11 @@ on:
   workflow_dispatch:
     inputs:
       oldToolName:
-        description: 'Old Tool Name'
+        description: 'Old Tool ID'
         type: string
         required: true
       newToolName:
-        description: 'New Tool Name'
+        description: 'New Tool ID'
         type: string
         required: true
 
