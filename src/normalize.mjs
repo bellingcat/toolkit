@@ -3,7 +3,7 @@ import paths from './data.mjs'
 const {getTools, getSummary} = paths;
 import pkg from './tools.mjs'
 const {updateToolJSON, updateToolCategories} = pkg;
-import { syncSummaryTitles, readmeTitle } from './summary.mjs';
+import { syncSummaryTitles } from './summary.mjs';
 
 function main() {
   const tools = getTools();
@@ -17,13 +17,14 @@ function main() {
 
   const original = getSummary('gitbook');
 
-  // Point each navigation entry at the title its page actually shows. The
-  // README's H1 is the source of truth — maintainers edit it directly — while
-  // SUMMARY.md decides the text in the site navigation, so the two drift.
-  // Runs before the sort below, since retitling moves entries alphabetically.
+  // Point each navigation entry at the title its page actually shows. A
+  // tool's title is the source of truth — the README's H1 that maintainers
+  // edit, or a tool.json override — while SUMMARY.md decides the text in the
+  // site navigation, so the two drift. Runs before the sort below, since
+  // retitling moves entries alphabetically.
   const summary = syncSummaryTitles(original, tools.map((tool) => ({
     slug: tool.filename,
-    title: readmeTitle(tool.content),
+    title: tool.title,
   })));
 
   // Line count is unchanged (titles are rewritten in place), so the two split

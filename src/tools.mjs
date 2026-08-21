@@ -276,9 +276,10 @@ function renameTool(tool, name) {
   fs.renameSync(tool.directory, newFilepath);
 
   // Point the tool's SUMMARY.md entry at its new slug. Only published tools
-  // have one, so this is a no-op for drafts.
+  // have one, so this is a no-op for drafts. The displayed title is left
+  // alone: the build resyncs it from the tool's title.
   const summary = getSummary('gitbook');
-  const newSummary = renameSummaryEntry(summary, tool.filename, slug, name);
+  const newSummary = renameSummaryEntry(summary, tool.filename, slug);
   if (newSummary === summary) {
     console.log('No summary entry for', tool.filename, '- not published');
   } else {
