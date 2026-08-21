@@ -1,5 +1,5 @@
 # Table of contents
 
-* [Distill.io](README.md)
+* [Distill](README.md)
 * [Categories](categories.md)
 * [Regions](regions.md)

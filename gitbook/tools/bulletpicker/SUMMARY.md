@@ -1,5 +1,5 @@
 # Table of contents
 
-* [Bulletpicker.com](README.md)
+* [Bulletpicker](README.md)
 * [Categories](categories.md)
 * [Regions](regions.md)
