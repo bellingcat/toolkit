@@ -4,6 +4,7 @@ import pkg from './data.mjs'
 const {apiCall, getCategories, getTools, getRegions, writeIfChanged, getSummary} = pkg;
 import matter from './frontmatter.mjs'
 import { ORG_ID, DEFAULT_COLLECTION_ID, TOOL_PAGE_MAINTAINERS_TEAM_ID, CATEGORY_COLLECTION_IDS } from './config.mjs';
+import { renameSummaryEntry } from './summary.mjs';
 
 /* Example
 createTool({
@@ -274,11 +275,15 @@ function renameTool(tool, name) {
   console.log('Moving tool from', tool.directory, 'to',  newFilepath);
   fs.renameSync(tool.directory, newFilepath);
 
-  // Update link in the summary if it exists
-  const link = path.join('tools', slug, 'README.md');
+  // Point the tool's SUMMARY.md entry at its new slug. Only published tools
+  // have one, so this is a no-op for drafts.
   const summary = getSummary('gitbook');
-  if (summary.match(link)) {
-    summary.replace(link, newLink);
+  const newSummary = renameSummaryEntry(summary, tool.filename, slug, name);
+  if (newSummary === summary) {
+    console.log('No summary entry for', tool.filename, '- not published');
+  } else {
+    fs.writeFileSync(path.join('gitbook', 'SUMMARY.md'), newSummary);
+    console.log('Updated summary entry to', slug);
   }
 }
 async function renameSpace(space, name) {
