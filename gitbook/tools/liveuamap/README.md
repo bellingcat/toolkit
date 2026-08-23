@@ -40,9 +40,15 @@ Liveuamap is available in the following formats:
 * Web: accessible through any web browser, providing full access to the map and all features.
 * Mobile: available as a mobile app for both iOS and Android.
 
-The screenshot below shows events including shelling, armed conflict, anti-air surface-to-air missile launches for the current day (in this case 16 February 2025):
+The screenshot below shows events including shelling, armed conflict, anti-air surface-to-air missile launches for the current day (in this case 21 March 2026):
 
-<figure><img src="../../.gitbook/assets/liveuamap (1).png" alt=""><figcaption><p>LiveUAMap screenshot showing real-time updates of military incidents and air defense activity in Ukraine and surrounding regions on February 16, 2025.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/liveuamap (1).png" alt=""><figcaption><p>LiveUAMap screenshot showing real-time updates of military incidents and air defense activity in Ukraine and surrounding regions on February 16, 2025.</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/liveuamap.png" alt=""><figcaption><p>LiveUAMap screenshot showing real-time updates of military incidents and air defense activity in Ukraine and surrounding regions on February 16, 2025.</p></figcaption></figure>
+
+
+
+<figure><img src=".gitbook/assets/liveuamap_screenshot.png" alt=""><figcaption><p>LiveUAMap screenshot showing real-time updates of military incidents and air defense activity in Ukraine and surrounding regions on March 21 2026.</p></figcaption></figure>
 
 ### Use Cases
 
@@ -84,6 +90,18 @@ LiveUAMap.com, while a valuable resource for learning about geopolitical and con
 * **Subscription for Full Features**: Full access to certain features and in-depth analyses may require a subscription, limiting access to all content for non-subscribers.
 * **Mobile app quality**: User reviews on both the App Store and Google Play consistently report performance issues and intrusive advertising in the mobile app. The web version is recommended for investigative use.
 
+
+
+## Similar Tools
+
+Liveuamap is one of several tools available for monitoring conflicts and geopolitical events in near real-time. The tools below offer overlapping functionality and may be worth consulting alongside Liveuamap, depending on the scope and nature of your research.&#x20;
+
+| Tool                                                                                    | Description                                                                                          | Similarities                                                  | Differences                                                                                                                |
+| --------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| [ACLED](https://bellingcat.gitbook.io/toolkit/more/all-tools/acled)                     | Armed Conflict Location & Event Data Project — tracks conflict events globally with structured data. | Both cover armed conflicts and geopolitical events worldwide. | ACLED focuses on structured, downloadable datasets for deeper analysis; Liveuamap is map-first and real-time               |
+| [UNOSAT Analyses](https://bellingcat.gitbook.io/toolkit/more/all-tools/unosat-analyses) | UN satellite analysis for crisis areas, including damage assess.                                     | Both are used for monitoring and documenting crisis zones.    | UNOSAT provides satellite-based damage assessments as static reports; Liveuamap offers continuous real-time event tracking |
+| [NASA FIRMS](https://bellingcat.gitbook.io/toolkit/more/all-tools/nasa-firms)           | Near real-time satellite fire detection mapped globally.                                             | Both show near real-time events on an interactive global map. | FIRMS is limited to fire and thermal anomaly data; Liveuamap covers a broad range of conflict and crisis event types.      |
+
 ## Ethical Considerations
 
 When using [LiveUAMap.com](https://liveuamap.com/), users should be mindful of several ethical considerations:
@@ -103,17 +121,17 @@ To effectively use Liveuamap, especially for beginners or those looking to refin
 
 **Tutorials and Articles**
 
-* ‘Mapping Territorial Control and Contestation in Syria’ (no date) _ACLED_. Available at: [https://acleddata.com/knowledge-base/mapping-territorial-control-contestation-and-activity-in-syria/](https://acleddata.com/knowledge-base/mapping-territorial-control-contestation-and-activity-in-syria/) (Accessed: 27 December 2025).
-* Team, B.I. (2017) _Tanks of Buhaivka: A training facility in Eastern Ukraine_, B\_ellingcat\_. Available at: [https://www.bellingcat.com/news/uk-and-europe/2017/03/17/tanks-buhaivka-training-facility-eastern-ukraine/](https://www.bellingcat.com/news/uk-and-europe/2017/03/17/tanks-buhaivka-training-facility-eastern-ukraine/) (Accessed: 27 December 2025).
-* Zwijnenburg, W. (2020) _Yemen’s Disappearing Date Palms: Applied Environmental OSINT_, B\_ellingcat\_. Available at: [https://www.bellingcat.com/news/mena/2020/07/24/yemens-disappearing-date-palms-applied-environmental-osint/](https://www.bellingcat.com/news/mena/2020/07/24/yemens-disappearing-date-palms-applied-environmental-osint/) (Accessed: 27 December 2025).
+* ‘Mapping Territorial Control and Contestation in Syria’ (no date) _ACLED_. Available at: [https://acleddata.com/knowledge-base/mapping-territorial-control-contestation-and-activity-in-syria/](https://acleddata.com/knowledge-base/mapping-territorial-control-contestation-and-activity-in-syria/) (Accessed: 21 March 2026).
+* Team, B.I. (2017) _Tanks of Buhaivka: A training facility in Eastern Ukraine_, Bellingcat. Available at: [https://www.bellingcat.com/news/uk-and-europe/2017/03/17/tanks-buhaivka-training-facility-eastern-ukraine/](https://www.bellingcat.com/news/uk-and-europe/2017/03/17/tanks-buhaivka-training-facility-eastern-ukraine/) (Accessed: 21 March 2026).
+* Zwijnenburg, W. (2020) _Yemen’s Disappearing Date Palms: Applied Environmental OSINT_, B\_ellingcat\_. Available at: [https://www.bellingcat.com/news/mena/2020/07/24/yemens-disappearing-date-palms-applied-environmental-osint/](https://www.bellingcat.com/news/mena/2020/07/24/yemens-disappearing-date-palms-applied-environmental-osint/) (Accessed: 21 March 2026).
 
 **Video Tutorials**
 
 * [https://www.youtube.com/@LiveMap](https://www.youtube.com/@LiveMap)
-* _Liveuamap - Creating own map_ (2018). Available at: [https://www.youtube.com/watch?v=SDZS1-yysx8](https://www.youtube.com/watch?v=SDZS1-yysx8) (Accessed: 27 December 2025).
-* _Liveuamap API and KML (GeoJSON) export_ (2018). Available at: [https://www.youtube.com/watch?v=Ee4TkyHpMIk](https://www.youtube.com/watch?v=Ee4TkyHpMIk) (Accessed: 27 December 2025).
-* _Liveuamap HOW TO: selecting optional categories at website_ (2017). Available at: [https://www.youtube.com/watch?v=oTlHyS4gxPQ](https://www.youtube.com/watch?v=oTlHyS4gxPQ) (Accessed: 27 December 2025).
-* _LiveUAMap – animated conflict map (Ukraine), 2025._ Available at: [https://www.youtube.com/watch?v=XSGwxw2LnNw](https://www.youtube.com/watch?v=XSGwxw2LnNw) (Accessed: 27 December 2025).
+* _Liveuamap - Creating own map_ (2018). Available at: [https://www.youtube.com/watch?v=SDZS1-yysx8](https://www.youtube.com/watch?v=SDZS1-yysx8) (Accessed: 21 March 2026).
+* _Liveuamap API and KML (GeoJSON) export_ (2018). Available at: [https://www.youtube.com/watch?v=Ee4TkyHpMIk](https://www.youtube.com/watch?v=Ee4TkyHpMIk) (Accessed: 21 March 2026).
+* _Liveuamap HOW TO: selecting optional categories at website_ (2017). Available at: [https://www.youtube.com/watch?v=oTlHyS4gxPQ](https://www.youtube.com/watch?v=oTlHyS4gxPQ) (Accessed: 21 March 2026).
+* _LiveUAMap – animated conflict map (Ukraine), 2025._ Available at: [https://www.youtube.com/watch?v=XSGwxw2LnNw](https://www.youtube.com/watch?v=XSGwxw2LnNw) (Accessed: 21 March 2026).
 
 #### Developer Resources
 
