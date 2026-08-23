@@ -15,21 +15,23 @@ description: >-
 
 Maigret is a command-line tool that collects information about a person using their username. It checks for accounts across over [3000](https://github.com/soxoj/maigret/blob/main/sites.md) sites, gathering available information directly from web pages, without the need for API keys. The tool itself is a fork of the [Sherlock project](https://bellingcat.gitbook.io/toolkit/more/all-tools/sherlock).
 
+Coverage has recently expanded beyond primarily Western platforms - the [v0.6.4 release](https://github.com/soxoj/maigret/releases/tag/v0.6.4) added support for Chinese platforms including QQ (via a dedicated `qq_id` identifier) and Bilibili.
+
 If not explicitly specified with a tag, Maigret will start its search with the top 500 sites from its database, including many popular social platforms. Users have the option to expand the search by including different options, ranging from specific sites to countries and identifiers.
 
 Identifiers refer to unique markers associated with user accounts on specific platforms, such as a **gaia\_id** (Google's internal numeric user identifier, previously found in Google Plus accounts) or other similar unique attributes. These allow Maigret to conduct more targeted and precise searches beyond ordinary usernames.
 
-<figure><img src="../../.gitbook/assets/maigret.png" alt=""><figcaption><p>Search for the username "bellingcat" on Maigret</p></figcaption></figure>
+<figure><img src=".gitbook/assets/maigret (1).png" alt=""><figcaption><p>Search for the username "bellingcat" on Maigret</p></figcaption></figure>
 
 To start a simple search on Maigret, all you need to do is provide one or more usernames for the individual you want to investigate. For example, searching for "bellingcat" will check if that username exists across the platforms supported by the tool (like social networks, forums, blogs and more). If an account is found, a report detailing where the username appears will be generated. This includes links to profile pages or relevant content on those platforms (e.g., Facebook, Instagram etc) and any available additional metadata like account creation dates or follower counts, if retrievable. In this case of "bellingcat," we discovered accounts on Telegram, Instagram, Github, TikTok and GithubGist.
 
 In addition, Maigret scans account webpages (username bellingcat on X will return -[https://x.com/bellingcat](https://x.com/bellingcat)) to extract personal details and links to other profiles, displaying this information in the command line output and including it in reports. It also uses found IDs and usernames to start new searches automatically.
 
-The tool supports generating reports in various formats, including HTML, PDF, TXT, [XMind 8 mindmap](https://xmind.app/user-guide/xmind/), and JSON. HTML and PDF reports include profile photos, all gathered personal information, and additional data like full name, gender, and location based on the statistics of all found accounts.
+The tool supports generating reports in various formats, including HTML, PDF, TXT, XMind 8 mindmap, JSON, [Markdown](https://github.com/soxoj/maigret/blob/main/CHANGELOG.md) (useful for feeding results into LLM-based analysis), and [Neo4j Cypher export](https://github.com/soxoj/maigret/blob/main/CHANGELOG.md) (for loading results into a graph database for network analysis).
 
 A short text report is also shown in the command line after the search phase.
 
-<figure><img src="../../.gitbook/assets/Maigret2.png" alt=""><figcaption><p>A short report for a username "bellingcat".</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Maigret2 (1).png" alt=""><figcaption><p>A short report for a username "bellingcat".</p></figcaption></figure>
 
 ## Cost
 
@@ -114,7 +116,9 @@ Once Maigret is running with the web interface, open your browser and go to http
 
 Here, you can enter one or more usernames to initiate a search. After the search is complete, the web interface will display a graphical representation of the results, a table with all the accounts found, and provide options to download the reports in multiple formats (HTML, PDF, etc.).
 
-<figure><img src="../../.gitbook/assets/bellingcat_web_maigret.png" alt=""><figcaption><p>Maigret Web Interface displays search results for the username “Bellingcat,” with a combined graph of linked accounts and individual report options.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/bellingcat_web_maigret (1).png" alt=""><figcaption><p>Maigret Web Interface displays search results for the username “Bellingcat,” with a combined graph of linked accounts and individual report options.</p></figcaption></figure>
+
+More recent releases have also added live scan progress, persistent settings, search history, and Cloudflare bypass options to the [web interface](https://github.com/soxoj/maigret/blob/main/CHANGELOG.md).
 
 As of v0.6.0, Maigret includes an optional AI analysis mode that generates a short investigation summary from search results using an OpenAI-compatible API. To enable it, add the --ai flag:
 
@@ -124,7 +128,9 @@ As of v0.6.0, Maigret includes an optional AI analysis mode that generates a sho
 
 ## Limitations and Ethical Considerations
 
-It is important to understand Maigret's limitations. The tool can be hampered by bot protection and CAPTCHAs, which may lead to incomplete searches. False positives are actively addressed - the v0.6.0 and v0.6.1 changelogs document dozens of site-specific fixes.
+It is important to understand Maigret's limitations. The tool can be hampered by bot protection and CAPTCHAs, which may lead to incomplete searches. False positives are actively addressed, and the project has kept a strong release cadence - three releases in quick succession ([v0.6.2](https://github.com/soxoj/maigret/releases/tag/v0.6.2), [v0.6.3](https://github.com/soxoj/maigret/releases/tag/v0.6.3), [v0.6.4](https://github.com/soxoj/maigret/releases/tag/v0.6.4)) collectively fixed dozens of site-specific false positives and patched several security issues in the tool itself, including SSRF and path-traversal vulnerabilities.
+
+Maigret's site coverage now includes platforms hosting explicit or adult content - [OnlyFans support was added in v0.6.1](https://github.com/soxoj/maigret/blob/main/CHANGELOG.md). Investigators should apply the same care to results from these platforms as to any other sensitive personal data, and be aware that a positive match on such a site is itself a disclosure that requires careful handling.
 
 Recent updates, such as the user-friendly web interface and username permutator, make the tool more accessible but do not change these core limitations. With enhanced usability comes a greater ethical responsibility. Users must verify all findings and use Maigret legally, respecting individual privacy and the websites' terms of service.
 
