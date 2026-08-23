@@ -11,11 +11,11 @@ description: Searchable map of geotagged snaps.
 
 ## Description
 
-<figure><img src="../../.gitbook/assets/snapchat (1).jpeg" alt="" width="311"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/snapchat (1).jpeg" alt="" width="311"><figcaption></figcaption></figure>
 
 Snap Map is a feature within [Snapchat](https://www.snapchat.com/) that displays publicly shared Snaps on an interactive map. When a user posts a Story to "Our Story", Snapchat geotags that content so it appears as a hotspot on the map. The intensity of the hotspot reflects posting volume - warmer colours indicate higher activity. Clicking a hotspot opens the associated public Snaps for that location.
 
-Snap Map is only accessible via the Snapchat mobile app. Visiting map.snapchat.com on desktop redirects to snapchat.com and does not load the map. Mobile version supports keyword search, zoom-based exploration, and browsing of user-generated photos and videos. Available layers include My Places, Footsteps (locations the user has previously visited), themed event views, and Promoted Places (commercially sponsored business locations). Investigators should be aware that Promoted Places hotspots appear alongside organic user content and can inflate apparent activity in commercial areas.
+Snap Map is only accessible via the Snapchat mobile app. Visiting map.snapchat.com on desktop redirects to snapchat.com and does not load the map. Mobile version supports keyword search, zoom-based exploration, and browsing of user-generated photos and videos. Available layers include My Places, Footsteps (locations the user has previously visited), themed event views, and [Promoted Places](https://newsroom.snap.com/2025-snap-map-mau) (commercially sponsored business locations, introduced alongside Snap Map surpassing 400 million monthly active users in 2025). Investigators should be aware that Promoted Places hotspots appear alongside organic user content and can inflate apparent activity in commercial areas.
 
 For open source research purposes, Snap Map is most useful for monitoring real-time situations - protests, natural disasters, armed conflict, or large public gatherings - by accessing short clips posted by people on the ground. It has been used by investigators and journalists to gather firsthand visual evidence from areas that are otherwise difficult to access, including during the [2023 conflict in Gaza](https://techcrunch.com/2023/11/03/snapchat-snap-map-israel-hamas-war-gaza-palestine/).
 
@@ -33,7 +33,7 @@ The right image shows the heatmap view at city scale. Activity is aggregated int
 
 Together, the two views support both granular location analysis and broader pattern detection across a city.
 
-<div><figure><img src="../../.gitbook/assets/snapchat2 (1).jpeg" alt=""><figcaption><p>Snap Map standard view showing individual public Snaps and “Top Picks” in Neukölln, a district of Berlin.</p></figcaption></figure> <figure><img src="../../.gitbook/assets/snapchat (1).jpeg" alt=""><figcaption><p>Snap Map heatmap view illustrating overall user activity intensity across Berlin.</p></figcaption></figure></div>
+<div><figure><img src=".gitbook/assets/snapchat2 (1).jpeg" alt=""><figcaption><p>Snap Map standard view showing individual public Snaps and “Top Picks” in Neukölln, a district of Berlin.</p></figcaption></figure> <figure><img src=".gitbook/assets/snapchat (1).jpeg" alt=""><figcaption><p>Snap Map heatmap view illustrating overall user activity intensity across Berlin.</p></figcaption></figure></div>
 
 ## How to use
 
@@ -68,6 +68,7 @@ Together, the two views support both granular location analysis and broader patt
 * **Possible inaccuracies:** User-generated posts may carry incorrect or spoofed location tags, and content may lack sufficient context to allow researchers to verify the location independently.
 * **No built-in archive:** There is no native export or save function. Investigators should capture references - screenshots, URLs, or use of a third-party archiving tool - while viewing, as content may disappear within hours.
 * **Country availability:** Snap Map may be restricted in [certain jurisdictions](https://www.aljazeera.com/news/2025/12/5/russia-continues-tech-crackdown-by-blocking-snapchat-facetime-access) and availability is subject to change.
+* **Cross-platform gaps:** Snap Map only shows content posted directly to Snapchat's public map - but Snapchat content is frequently reposted to Twitter/X and Instagram by users or aggregators, so a location-based search elsewhere may surface Snapchat-sourced content that never appears on the map itself.
 
 ## Similar Tools
 
@@ -87,6 +88,7 @@ The following tools also allow investigators to discover and analyse user-genera
 * Sung, Morgan: People are turning to Snap Map for firsthand perspectives from Gaza, [https://techcrunch.com/2023/11/03/snapchat-snap-map-israel-hamas-war-gaza-palestine/](https://techcrunch.com/2023/11/03/snapchat-snap-map-israel-hamas-war-gaza-palestine/).
 * Citizen Evidence Lab: How to Use Snapchat to Monitor Breaking Events, [https://citizenevidence.org/2019/12/10/how-to-use-snapchat-to-monitor-breaking-events/](https://citizenevidence.org/2019/12/10/how-to-use-snapchat-to-monitor-breaking-events/) .
 * Matthews, R. et al: Exploitation of Snapchat's Snap Map as a Surveillance Tool, Forensic Science International: Digital Investigation, 2021, [https://dfrws.org/wp-content/uploads/2021/03/FSIDI301112\_proof.pdf](https://dfrws.org/wp-content/uploads/2021/03/FSIDI301112_proof.pdf) .
+* Bradshaw, Paul (interviewed by GIJN): Using Snapchat as an Investigative Tool, Global Investigative Journalism Network, December 2021, at [https://gijn.org/stories/using-snapchat-as-an-investigative-tool-q-a-with-paul-bradshaw/](https://gijn.org/stories/using-snapchat-as-an-investigative-tool-q-a-with-paul-bradshaw/) .
 
 ## Tool provider
 
