@@ -42,12 +42,6 @@ Liveuamap is available in the following formats:
 
 The screenshot below shows events including shelling, armed conflict, anti-air surface-to-air missile launches for the current day (in this case 21 March 2026):
 
-<figure><img src=".gitbook/assets/liveuamap (1).png" alt=""><figcaption><p>LiveUAMap screenshot showing real-time updates of military incidents and air defense activity in Ukraine and surrounding regions on February 16, 2025.</p></figcaption></figure>
-
-<figure><img src=".gitbook/assets/liveuamap.png" alt=""><figcaption><p>LiveUAMap screenshot showing real-time updates of military incidents and air defense activity in Ukraine and surrounding regions on February 16, 2025.</p></figcaption></figure>
-
-
-
 <figure><img src=".gitbook/assets/liveuamap_screenshot.png" alt=""><figcaption><p>LiveUAMap screenshot showing real-time updates of military incidents and air defense activity in Ukraine and surrounding regions on March 21 2026.</p></figcaption></figure>
 
 ### Use Cases
@@ -98,7 +92,7 @@ Liveuamap is one of several tools available for monitoring conflicts and geopoli
 
 | Tool                                                                                    | Description                                                                                          | Similarities                                                  | Differences                                                                                                                |
 | --------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| [ACLED](https://bellingcat.gitbook.io/toolkit/more/all-tools/acled)                     | Armed Conflict Location & Event Data Project — tracks conflict events globally with structured data. | Both cover armed conflicts and geopolitical events worldwide. | ACLED focuses on structured, downloadable datasets for deeper analysis; Liveuamap is map-first and real-time               |
+| [ACLED](https://bellingcat.gitbook.io/toolkit/more/all-tools/acled)                     | Armed Conflict Location & Event Data Project - tracks conflict events globally with structured data. | Both cover armed conflicts and geopolitical events worldwide. | ACLED focuses on structured, downloadable datasets for deeper analysis; Liveuamap is map-first and real-time               |
 | [UNOSAT Analyses](https://bellingcat.gitbook.io/toolkit/more/all-tools/unosat-analyses) | UN satellite analysis for crisis areas, including damage assess.                                     | Both are used for monitoring and documenting crisis zones.    | UNOSAT provides satellite-based damage assessments as static reports; Liveuamap offers continuous real-time event tracking |
 | [NASA FIRMS](https://bellingcat.gitbook.io/toolkit/more/all-tools/nasa-firms)           | Near real-time satellite fire detection mapped globally.                                             | Both show near real-time events on an interactive global map. | FIRMS is limited to fire and thermal anomaly data; Liveuamap covers a broad range of conflict and crisis event types.      |
 
