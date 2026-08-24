@@ -170,7 +170,7 @@
   * [OpenSanctions](tools/opensanctions/README.md)
   * [OpenSecrets](tools/opensecrets/README.md)
   * [OrbTrack](tools/orbtrack/README.md)
-  * [Osint Tools Map](tools/osint-tools-map/README.md)
+  * [OSINT Tools Map](tools/osint-tools-map/README.md)
   * [Overpass Turbo](tools/overpass-turbo/README.md)
   * [PeakVisor](tools/peakvisor/README.md)
   * [PimEyes](tools/pimeyes/README.md)

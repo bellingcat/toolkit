@@ -1,5 +1,5 @@
 ---
-updated: '2026-06-27'
+updated: '2026-08-23'
 description: >-
   Maigret is a Python script that retrieves user information by searching for
   usernames across various websites and social media platforms.
