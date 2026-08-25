@@ -2,7 +2,14 @@
 // Google Sheets tabs. Kept free of imports (like sheet-prune.mjs) so it
 // stays unit-testable without pulling in any API client.
 
-import { columnLetter, a1Tab, readTab, TOOL_ID_REFERENCE_TABS } from './sheets-tab.mjs';
+import {
+  columnLetter,
+  a1Tab,
+  readTab,
+  TOOL_ID_REFERENCE_TABS,
+  MAINT_SHEET_ID_ENV,
+  MAINT_TOOL_ID_REFERENCE_TABS,
+} from './sheets-tab.mjs';
 
 // Given a sheet range's current values (row 0 = header) and a 0-based
 // column index holding Tool IDs, returns the rows whose ID is `oldId`
@@ -46,42 +53,69 @@ function planTabRename(title, tab, matchColumn, oldId, newId) {
   return { writes, skip: null };
 }
 
-// The tabs a rename has to touch, as [title, matchColumn] pairs: the Tools
-// tab keys off its labeled "Tool ID" column, while the reference tabs keep
-// Tool IDs in column A (see TOOL_ID_REFERENCE_TABS).
-const RENAME_TABS = [['Tools', 'Tool ID'], ...TOOL_ID_REFERENCE_TABS.map((title) => [title, 0])];
+// The spreadsheets a rename has to touch and, in each, the [title,
+// matchColumn] pairs: the Tools tab keys off its labeled "Tool ID" column,
+// while every reference tab keeps Tool IDs in column A. The maintainer
+// spreadsheet is a separate document (see MAINT_SHEET_ID_ENV) and is skipped
+// when its ID isn't configured. Each target's ID is read from the environment
+// at call time so tests and CI can set them independently.
+const RENAME_TARGETS = [
+  {
+    idEnv: 'GOOGLE_SHEET_ID',
+    tabs: [['Tools', 'Tool ID'], ...TOOL_ID_REFERENCE_TABS.map((title) => [title, 0])],
+  },
+  {
+    idEnv: MAINT_SHEET_ID_ENV,
+    tabs: MAINT_TOOL_ID_REFERENCE_TABS.map((title) => [title, 0]),
+  },
+];
 
 // Rewrites a tool's ID from `oldId` to `newId` across every tab that tracks
 // it, editing only the ID cell so hand-entered values elsewhere on the row
 // survive. Without this, the next sync-sheets run sees the new ID as unknown,
-// appends a fresh row, and prunes the old one — losing that row's data.
+// appends a fresh row, and prunes the old one — losing that row's data. That
+// applies to the maintainer spreadsheet too, which is why it's renamed here
+// rather than left for the sync to reconcile.
 // Tabs that can't be renamed are reported and skipped, never failed on.
 async function renameToolIdInSheets(sheets, oldId, newId) {
-  const data = [];
-  for (const [title, matchColumn] of RENAME_TABS) {
-    const tab = await readTab(sheets, title);
-    if (tab === null) {
-      console.warn(`${title}: sheet tab not found, skipping rename`);
+  let renamed = 0;
+
+  for (const { idEnv, tabs } of RENAME_TARGETS) {
+    const spreadsheetId = process.env[idEnv];
+    if (!spreadsheetId) {
+      console.warn(`${idEnv} not set — skipping rename in that spreadsheet`);
       continue;
     }
-    const { writes, skip } = planTabRename(title, tab, matchColumn, oldId, newId);
-    if (skip) {
-      console.warn(`${skip} — skipping rename`);
-      continue;
+
+    const data = [];
+    for (const [title, matchColumn] of tabs) {
+      const tab = await readTab(sheets, title, spreadsheetId);
+      if (tab === null) {
+        console.warn(`${title}: sheet tab not found, skipping rename`);
+        continue;
+      }
+      const { writes, skip } = planTabRename(title, tab, matchColumn, oldId, newId);
+      if (skip) {
+        console.warn(`${skip} — skipping rename`);
+        continue;
+      }
+      data.push(...writes);
     }
-    data.push(...writes);
+
+    if (data.length === 0) continue;
+
+    await sheets.spreadsheets.values.batchUpdate({
+      spreadsheetId,
+      requestBody: { valueInputOption: 'RAW', data },
+    });
+    renamed += data.length;
   }
 
-  if (data.length === 0) {
+  if (renamed === 0) {
     console.log(`No sheet rows hold Tool ID "${oldId}" — nothing to rename`);
     return;
   }
-
-  await sheets.spreadsheets.values.batchUpdate({
-    spreadsheetId: process.env.GOOGLE_SHEET_ID,
-    requestBody: { valueInputOption: 'RAW', data },
-  });
-  console.log(`Renamed Tool ID "${oldId}" to "${newId}" in ${data.length} cell(s)`);
+  console.log(`Renamed Tool ID "${oldId}" to "${newId}" in ${renamed} cell(s)`);
 }
 
 async function main() {

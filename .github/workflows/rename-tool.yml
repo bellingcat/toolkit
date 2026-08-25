@@ -75,6 +75,7 @@ jobs:
         env:
           GOOGLE_SERVICE_ACCOUNT_KEY: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
           GOOGLE_SHEET_ID: ${{ secrets.GOOGLE_SHEET_ID }}
+          GOOGLE_SHEET_ID_MAINT: ${{ secrets.GOOGLE_SHEET_ID_MAINT }}
           OLD_SLUG: ${{ steps.rename-tool.outputs.oldSlug }}
           NEW_SLUG: ${{ steps.rename-tool.outputs.newSlug }}
         run: node src/sheet-rename.mjs "$OLD_SLUG" "$NEW_SLUG"

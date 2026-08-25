@@ -9,7 +9,7 @@
 //
 // Every function takes `spreadsheetId` explicitly rather than reading it from
 // the environment: these run against both the primary toolkit spreadsheet and
-// the separate maintenance spreadsheet, and silently defaulting to the wrong
+// the separate maintainer spreadsheet, and silently defaulting to the wrong
 // one would write tool data into the wrong document.
 
 import { mergeRowRanges, planPruneRows } from './sheet-prune.mjs';

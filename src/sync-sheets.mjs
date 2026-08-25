@@ -4,7 +4,15 @@ const { getProjectItems } = projectFields;
 import pkg from './tools.mjs';
 const { fetchMembers } = pkg;
 import { syncToolIdReferences, pruneStaleRows, sortSheet } from './sheet-toolids.mjs';
-import { columnLetter, a1Tab, tabReadRange, getSheetMeta, TOOL_ID_REFERENCE_TABS } from './sheets-tab.mjs';
+import {
+  columnLetter,
+  a1Tab,
+  tabReadRange,
+  getSheetMeta,
+  TOOL_ID_REFERENCE_TABS,
+  MAINT_SHEET_ID_ENV,
+  MAINT_TOOL_ID_REFERENCE_TABS,
+} from './sheets-tab.mjs';
 
 const SPREADSHEET_ID = process.env.GOOGLE_SHEET_ID;
 
@@ -350,6 +358,19 @@ async function main() {
   for (const title of TOOL_ID_REFERENCE_TABS) {
     await syncToolIdReferences(sheets, SPREADSHEET_ID, title, toolIds);
     if (pruneStale) await pruneStaleRows(sheets, SPREADSHEET_ID, title, 0, new Set(toolIds));
+  }
+
+  // The maintainer spreadsheet is a separate document with the same
+  // column-A convention. Skipped (not failed) when its ID isn't configured,
+  // so runs without the secret still sync everything else.
+  const maintSheetId = process.env[MAINT_SHEET_ID_ENV];
+  if (maintSheetId) {
+    for (const title of MAINT_TOOL_ID_REFERENCE_TABS) {
+      await syncToolIdReferences(sheets, maintSheetId, title, toolIds);
+      if (pruneStale) await pruneStaleRows(sheets, maintSheetId, title, 0, new Set(toolIds));
+    }
+  } else {
+    console.warn(`${MAINT_SHEET_ID_ENV} not set — skipping maintainer sheet tool ID sync`);
   }
 
   await syncTeamMembersToAdmin(sheets);

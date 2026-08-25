@@ -29,4 +29,5 @@ jobs:
           GITBOOK_API_TOKEN: ${{ secrets.GITBOOK_API_TOKEN }}
           GOOGLE_SERVICE_ACCOUNT_KEY: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
           GOOGLE_SHEET_ID: ${{ secrets.GOOGLE_SHEET_ID }}
+          GOOGLE_SHEET_ID_MAINT: ${{ secrets.GOOGLE_SHEET_ID_MAINT }}
         run: node src/sync-sheets.mjs

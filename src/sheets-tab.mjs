@@ -10,6 +10,15 @@
 // change in the future, so missing tabs are skipped with a warning.
 const TOOL_ID_REFERENCE_TABS = ['Overview', 'Signup', 'Admin'];
 
+// A second spreadsheet — the maintainer sheet — with its own Tool ID
+// reference tab, following the same column-A convention. Its ID comes from
+// the environment rather than source because it gets repointed (a test copy
+// while this is being set up, the real sheet afterwards); when the variable
+// is unset, callers skip the maintainer sheet with a warning rather than
+// failing, so local runs and CI runs predating the secret still work.
+const MAINT_SHEET_ID_ENV = 'GOOGLE_SHEET_ID_MAINT';
+const MAINT_TOOL_ID_REFERENCE_TABS = ['Tools overview and sign-up for tools'];
+
 // Converts a 0-based column index to its A1 letter(s), e.g. 0 -> 'A', 26 -> 'AA'.
 function columnLetter(index) {
   let letters = '';
@@ -77,4 +86,13 @@ async function readTab(sheets, title, spreadsheetId = process.env.GOOGLE_SHEET_I
   };
 }
 
-export { columnLetter, a1Tab, tabReadRange, getSheetMeta, readTab, TOOL_ID_REFERENCE_TABS };
+export {
+  columnLetter,
+  a1Tab,
+  tabReadRange,
+  getSheetMeta,
+  readTab,
+  TOOL_ID_REFERENCE_TABS,
+  MAINT_SHEET_ID_ENV,
+  MAINT_TOOL_ID_REFERENCE_TABS,
+};
