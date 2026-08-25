@@ -165,4 +165,98 @@ async function pruneStaleRows(sheets, spreadsheetId, title, matchColumn, validId
   console.log(`${title}: deleted ${stale.length} stale row(s) for Tool ID(s): ${stale.map((s) => s.key).join(', ')}`);
 }
 
-export { planToolIdReferences, sortSheet, deleteSheetRows, syncToolIdReferences, pruneStaleRows };
+// Copies `columns` from one tab into the block of columns immediately right
+// of column A in another, matching rows by the Tool ID in column A of both.
+// `source` and `dest` are each { spreadsheetId, title } and may name
+// different spreadsheets.
+//
+// Source columns are resolved by header name; the destination is written
+// positionally — the first name to column B, the second to C, and so on —
+// because the destination's own headers aren't stable and that block is
+// reserved for this sync. A source column whose header is missing is warned
+// about and left unsynced, so a rename shows up in the log instead of
+// shifting every later column into the wrong place.
+//
+// Only cells whose value actually differs are written, and destination rows
+// whose Tool ID has no source row are left untouched. `typedColumns` names
+// the columns written with USER_ENTERED so Sheets stores a real boolean or
+// date; the rest go as RAW.
+async function syncToolColumns(sheets, source, dest, columns, typedColumns = []) {
+  const sourceTab = await readTab(sheets, source.title, source.spreadsheetId);
+  if (sourceTab === null) {
+    console.warn(`${source.title}: sheet tab not found, skipping column sync`);
+    return;
+  }
+  const sourceValues = sourceTab.values;
+  if (sourceValues.length === 0) return;
+
+  const sourceHeader = sourceValues[0];
+  const sourceCols = columns.map((name) => sourceHeader.indexOf(name));
+  columns.forEach((name, i) => {
+    if (sourceCols[i] === -1) {
+      console.warn(`${source.title}: column "${name}" not found, leaving it unsynced`);
+    }
+  });
+
+  const sourceByToolId = new Map();
+  for (let row = 1; row < sourceValues.length; row++) {
+    const toolId = sourceValues[row][0];
+    if (toolId) sourceByToolId.set(toolId, sourceValues[row]);
+  }
+
+  const destTab = await readTab(sheets, dest.title, dest.spreadsheetId);
+  if (destTab === null) {
+    console.warn(`${dest.title}: sheet tab not found, skipping column sync`);
+    return;
+  }
+  const { headerRow, values: destValues } = destTab;
+  if (destValues.length === 0) return;
+
+  const typed = new Set(typedColumns);
+  const updates = { RAW: [], USER_ENTERED: [] };
+
+  for (let row = 1; row < destValues.length; row++) {
+    const toolId = destValues[row][0];
+    if (!toolId) continue;
+    const sourceRow = sourceByToolId.get(toolId);
+    if (sourceRow === undefined) continue;
+
+    columns.forEach((name, i) => {
+      if (sourceCols[i] === -1) return;
+      const value = sourceRow[sourceCols[i]] ?? '';
+      const destCol = i + 1;  // column A holds the Tool ID
+      // Both sides are read as displayed, so a typed column only compares
+      // equal when the two tabs format it the same way; a mismatch costs an
+      // idempotent rewrite each run, never a wrong value.
+      if ((destValues[row][destCol] ?? '') === value) return;
+      updates[typed.has(name) ? 'USER_ENTERED' : 'RAW'].push({
+        range: `${a1Tab(dest.title)}!${columnLetter(destCol)}${row + headerRow}`,
+        values: [[value]],
+      });
+    });
+  }
+
+  const total = updates.RAW.length + updates.USER_ENTERED.length;
+  if (total === 0) {
+    console.log(`${dest.title}: columns already up to date`);
+    return;
+  }
+
+  for (const [valueInputOption, data] of Object.entries(updates)) {
+    if (data.length === 0) continue;
+    await sheets.spreadsheets.values.batchUpdate({
+      spreadsheetId: dest.spreadsheetId,
+      requestBody: { valueInputOption, data },
+    });
+  }
+  console.log(`${dest.title}: updated ${total} cell(s) from ${source.title}`);
+}
+
+export {
+  planToolIdReferences,
+  sortSheet,
+  deleteSheetRows,
+  syncToolIdReferences,
+  pruneStaleRows,
+  syncToolColumns,
+};

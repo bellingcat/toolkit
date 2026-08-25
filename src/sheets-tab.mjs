@@ -19,6 +19,21 @@ const TOOL_ID_REFERENCE_TABS = ['Overview', 'Signup', 'Admin'];
 const MAINT_SHEET_ID_ENV = 'GOOGLE_SHEET_ID_MAINT';
 const MAINT_TOOL_ID_REFERENCE_TABS = ['Tools overview and sign-up for tools'];
 
+// The tab those values are copied from, in the primary spreadsheet. Its
+// columns are formulas driven by the Tool ID in column A.
+const MAINT_SOURCE_TAB = 'Overview';
+
+// Values copied from MAINT_SOURCE_TAB into the block of columns immediately
+// right of column A in the maintainer tab: the first name lands in column B,
+// the second in C, and so on. Resolved by header name in the source tab, but
+// written positionally into the maintainer tab, whose own headers aren't
+// stable — that block is reserved for this sync by a protected range.
+const MAINT_SYNCED_COLUMNS = ['Category', 'Tool Name', 'Published', 'Last Updated', 'Maintainer'];
+
+// Of those, the ones written USER_ENTERED so Sheets stores a real boolean or
+// date rather than forced text.
+const MAINT_TYPED_COLUMNS = ['Published', 'Last Updated'];
+
 // Converts a 0-based column index to its A1 letter(s), e.g. 0 -> 'A', 26 -> 'AA'.
 function columnLetter(index) {
   let letters = '';
@@ -95,4 +110,7 @@ export {
   TOOL_ID_REFERENCE_TABS,
   MAINT_SHEET_ID_ENV,
   MAINT_TOOL_ID_REFERENCE_TABS,
+  MAINT_SOURCE_TAB,
+  MAINT_SYNCED_COLUMNS,
+  MAINT_TYPED_COLUMNS,
 };

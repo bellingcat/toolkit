@@ -3,7 +3,7 @@ import projectFields from './ghproject-fields.mjs';
 const { getProjectItems } = projectFields;
 import pkg from './tools.mjs';
 const { fetchMembers } = pkg;
-import { syncToolIdReferences, pruneStaleRows, sortSheet } from './sheet-toolids.mjs';
+import { syncToolIdReferences, pruneStaleRows, sortSheet, syncToolColumns } from './sheet-toolids.mjs';
 import {
   columnLetter,
   a1Tab,
@@ -12,6 +12,9 @@ import {
   TOOL_ID_REFERENCE_TABS,
   MAINT_SHEET_ID_ENV,
   MAINT_TOOL_ID_REFERENCE_TABS,
+  MAINT_SOURCE_TAB,
+  MAINT_SYNCED_COLUMNS,
+  MAINT_TYPED_COLUMNS,
 } from './sheets-tab.mjs';
 
 const SPREADSHEET_ID = process.env.GOOGLE_SHEET_ID;
@@ -368,6 +371,14 @@ async function main() {
     for (const title of MAINT_TOOL_ID_REFERENCE_TABS) {
       await syncToolIdReferences(sheets, maintSheetId, title, toolIds);
       if (pruneStale) await pruneStaleRows(sheets, maintSheetId, title, 0, new Set(toolIds));
+      // Last, so every row exists before values are written beside it.
+      await syncToolColumns(
+        sheets,
+        { spreadsheetId: SPREADSHEET_ID, title: MAINT_SOURCE_TAB },
+        { spreadsheetId: maintSheetId, title },
+        MAINT_SYNCED_COLUMNS,
+        MAINT_TYPED_COLUMNS,
+      );
     }
   } else {
     console.warn(`${MAINT_SHEET_ID_ENV} not set — skipping maintainer sheet tool ID sync`);
