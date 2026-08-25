@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { columnLetter, tabReadRange } from './sheets-tab.mjs';
+import { columnLetter, a1Tab, tabReadRange } from './sheets-tab.mjs';
 
 test('columnLetter: first column is A', () => {
   assert.equal(columnLetter(0), 'A');
@@ -37,4 +37,34 @@ test('tabReadRange: scopes to a table that starts at the top-left', () => {
 test('tabReadRange: scopes to a table offset below and right of the origin', () => {
   const table = { startRowIndex: 2, endRowIndex: 40, startColumnIndex: 1, endColumnIndex: 4 };
   assert.equal(tabReadRange('Admin', table), 'Admin!B3:D40');
+});
+
+test('tabReadRange: quotes a tab title containing spaces', () => {
+  const table = { startRowIndex: 0, endRowIndex: 10, startColumnIndex: 0, endColumnIndex: 2 };
+  assert.equal(
+    tabReadRange('Tools overview and sign-up for tools', table),
+    "'Tools overview and sign-up for tools'!A1:B10",
+  );
+  assert.equal(
+    tabReadRange('Tools overview and sign-up for tools', null),
+    "'Tools overview and sign-up for tools'",
+  );
+});
+
+test('a1Tab: leaves a bare identifier unquoted', () => {
+  assert.equal(a1Tab('Tools'), 'Tools');
+  assert.equal(a1Tab('Sign_up2'), 'Sign_up2');
+});
+
+test('a1Tab: quotes titles with spaces or punctuation', () => {
+  assert.equal(a1Tab('Tools overview and sign-up for tools'), "'Tools overview and sign-up for tools'");
+  assert.equal(a1Tab('Q1/Q2'), "'Q1/Q2'");
+});
+
+test('a1Tab: quotes a title that would read as a cell reference', () => {
+  assert.equal(a1Tab('A1'), "'A1'");
+});
+
+test('a1Tab: doubles an internal apostrophe', () => {
+  assert.equal(a1Tab("Kai's tools"), "'Kai''s tools'");
 });

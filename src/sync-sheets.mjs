@@ -3,8 +3,8 @@ import projectFields from './ghproject-fields.mjs';
 const { getProjectItems } = projectFields;
 import pkg from './tools.mjs';
 const { fetchMembers } = pkg;
-import { mergeRowRanges, planPruneRows } from './sheet-prune.mjs';
-import { columnLetter, tabReadRange, getSheetMeta, readTab, TOOL_ID_REFERENCE_TABS } from './sheets-tab.mjs';
+import { syncToolIdReferences, pruneStaleRows, sortSheet } from './sheet-toolids.mjs';
+import { columnLetter, a1Tab, tabReadRange, getSheetMeta, TOOL_ID_REFERENCE_TABS } from './sheets-tab.mjs';
 
 const SPREADSHEET_ID = process.env.GOOGLE_SHEET_ID;
 
@@ -98,24 +98,6 @@ function planSheetSync(existingValues, header, items, matchColumn, rowValues, ma
   return { header: newHeader, headerChanged, cellUpdates, appendRows };
 }
 
-// Plans which of `toolIds` are missing from column A of a reference tab and
-// where to write them. `existingValues` is the tab's current values (row 0
-// is the header; column A holds Tool IDs referenced by formulas in the other
-// columns). Returns the missing IDs (in order) and the 0-indexed rows (within
-// existingValues) of the first rows with an empty column A — one row per
-// missing ID, up to however many empty rows are available.
-function planToolIdReferences(existingValues, toolIds) {
-  const present = new Set(existingValues.slice(1).map((row) => row[0]).filter(Boolean));
-  const missing = toolIds.filter((id) => !present.has(id));
-
-  const emptyRows = [];
-  for (let row = 1; row < existingValues.length && emptyRows.length < missing.length; row++) {
-    if (!existingValues[row][0]) emptyRows.push(row);
-  }
-
-  return { missing, emptyRows };
-}
-
 // Ensures the named tab exists (creating it if necessary) and returns { sheetId, table }.
 async function ensureSheetMeta(sheets, title) {
   const meta = await getSheetMeta(sheets, title);
@@ -132,22 +114,6 @@ async function ensureSheetMeta(sheets, title) {
   };
 }
 
-// Sorts the table's data rows (below the header) by the first column, ascending.
-// All bounds are 0-based; endRowIndex and endColIndex are exclusive.
-async function sortSheet(sheets, sheetId, startRowIndex, endRowIndex, endColIndex) {
-  await sheets.spreadsheets.batchUpdate({
-    spreadsheetId: SPREADSHEET_ID,
-    requestBody: {
-      requests: [{
-        sortRange: {
-          range: { sheetId, startRowIndex, startColumnIndex: 0, endRowIndex, endColumnIndex: endColIndex },
-          sortSpecs: [{ dimensionIndex: 0, sortOrder: 'ASCENDING' }],
-        },
-      }],
-    },
-  });
-}
-
 // Applies a plan from planSheetSync to the given sheet tab: writes the header
 // (only if it changed), updates matched rows' cells, and appends new rows.
 // Never clears the sheet. `typedColumns` lists header names whose values
@@ -162,7 +128,7 @@ async function applySheetSync(sheets, title, plan, typedColumns = [], headerRow 
   if (headerChanged) {
     await sheets.spreadsheets.values.update({
       spreadsheetId: SPREADSHEET_ID,
-      range: `${title}!A${headerRow}`,
+      range: `${a1Tab(title)}!A${headerRow}`,
       valueInputOption: 'RAW',
       requestBody: { values: [header] },
     });
@@ -181,7 +147,7 @@ async function applySheetSync(sheets, title, plan, typedColumns = [], headerRow 
           valueInputOption,
           // row is 1-based within existingValues (0 = header); map to sheet row via headerRow
           data: updates.map(({ row, col, value }) => ({
-            range: `${title}!${columnLetter(col)}${row + headerRow}`,
+            range: `${a1Tab(title)}!${columnLetter(col)}${row + headerRow}`,
             values: [[value]],
           })),
         },
@@ -192,7 +158,7 @@ async function applySheetSync(sheets, title, plan, typedColumns = [], headerRow 
   if (appendRows.length > 0) {
     await sheets.spreadsheets.values.update({
       spreadsheetId: SPREADSHEET_ID,
-      range: `${title}!A${appendStartRow}`,
+      range: `${a1Tab(title)}!A${appendStartRow}`,
       valueInputOption: 'RAW',
       requestBody: { values: appendRows },
     });
@@ -203,7 +169,7 @@ async function applySheetSync(sheets, title, plan, typedColumns = [], headerRow 
       appendRows.forEach((rowValues, i) => {
         for (const col of typedCols) {
           data.push({
-            range: `${title}!${columnLetter(col)}${appendStartRow + i}`,
+            range: `${a1Tab(title)}!${columnLetter(col)}${appendStartRow + i}`,
             values: [[rowValues[col]]],
           });
         }
@@ -286,128 +252,12 @@ async function syncSheet(sheets, title, header, items, matchColumn, rowValues, m
 
   if (plan.appendRows.length > 0) {
     await sortSheet(
-      sheets, sheetId,
+      sheets, SPREADSHEET_ID, sheetId,
       tableStart + 1,
       tableStart + existingValues.length + plan.appendRows.length,
       table?.endColumnIndex ?? plan.header.length,
     );
   }
-}
-
-// Adds any of `toolIds` missing from `title`'s column A. Fills existing empty
-// rows (which may carry pre-set formulas) first; if more are needed and the tab
-// has a Table, inserts the remainder into the table with inheritFromBefore so
-// formulas are copied from the row above. Skips tabs that don't exist.
-async function syncToolIdReferences(sheets, title, toolIds) {
-  const tab = await readTab(sheets, title);
-  if (tab === null) {
-    console.warn(`${title}: sheet tab not found, skipping tool ID sync`);
-    return;
-  }
-
-  const { sheetId, table, headerRow, values: existingValues } = tab;
-  const tableStart = table?.startRowIndex ?? 0;
-
-  const { missing, emptyRows } = planToolIdReferences(existingValues, toolIds);
-  if (missing.length === 0) return;
-
-  // Insert any rows beyond what existing empty slots cover, within the table.
-  const insertCount = Math.max(0, missing.length - emptyRows.length);
-  let insertedStartRow = null;
-  if (insertCount > 0 && table) {
-    const insertAt = tableStart + Math.max(existingValues.length - 1, 1);
-    await sheets.spreadsheets.batchUpdate({
-      spreadsheetId: SPREADSHEET_ID,
-      requestBody: {
-        requests: [{
-          insertDimension: {
-            range: { sheetId, dimension: 'ROWS', startIndex: insertAt, endIndex: insertAt + insertCount },
-            inheritFromBefore: true,
-          },
-        }],
-      },
-    });
-    insertedStartRow = insertAt + 1;  // 1-based sheet row of first inserted row
-  } else if (insertCount > 0) {
-    console.warn(`${title}: only ${emptyRows.length} empty row(s) for ${missing.length} new tool ID(s) — add more template rows`);
-  }
-
-  // Write IDs: existing empty rows first, then newly inserted rows.
-  const data = [];
-  for (let i = 0; i < missing.length; i++) {
-    let sheetRow;
-    if (i < emptyRows.length) {
-      sheetRow = emptyRows[i] + headerRow;
-    } else if (insertedStartRow !== null) {
-      sheetRow = insertedStartRow + (i - emptyRows.length);
-    } else {
-      break;
-    }
-    data.push({ range: `${title}!A${sheetRow}`, values: [[missing[i]]] });
-  }
-
-  if (data.length > 0) {
-    await sheets.spreadsheets.values.batchUpdate({
-      spreadsheetId: SPREADSHEET_ID,
-      requestBody: { valueInputOption: 'RAW', data },
-    });
-    console.log(`${title}: added ${data.length} tool ID(s)`);
-    await sortSheet(
-      sheets, sheetId,
-      tableStart + 1,
-      tableStart + existingValues.length + insertCount,
-      table?.endColumnIndex ?? (existingValues[0]?.length ?? 1),
-    );
-  }
-}
-
-// Deletes the given 0-based sheet row indices (dimension ROWS), which may
-// be non-contiguous, via mergeRowRanges so contiguous runs become a single
-// deleteDimension request and ranges are removed highest-index-first.
-async function deleteSheetRows(sheets, sheetId, rowIndices) {
-  const ranges = mergeRowRanges(rowIndices);
-  if (ranges.length === 0) return;
-
-  await sheets.spreadsheets.batchUpdate({
-    spreadsheetId: SPREADSHEET_ID,
-    requestBody: {
-      requests: ranges.map(({ startIndex, endIndex }) => ({
-        deleteDimension: { range: { sheetId, dimension: 'ROWS', startIndex, endIndex } },
-      })),
-    },
-  });
-}
-
-// Deletes every row in `title` whose key (in `matchColumn`) is not in
-// `validIds`. `matchColumn` is a header name (string, resolved against the
-// header row) or a literal 0-based column index (number, for tabs like the
-// TOOL_ID_REFERENCE_TABS where column A isn't necessarily labeled). Always
-// re-reads the sheet's current values rather than reusing any row position
-// computed earlier in the run — safe to call after other sync steps
-// (including sorts) have already moved rows around. Skips tabs that don't
-// exist. No-ops quietly when there's nothing stale to remove.
-async function pruneStaleRows(sheets, title, matchColumn, validIds) {
-  const tab = await readTab(sheets, title);
-  if (tab === null) {
-    console.warn(`${title}: sheet tab not found, skipping stale-row prune`);
-    return;
-  }
-
-  const { sheetId, headerRow, values: existingValues } = tab;
-  if (existingValues.length === 0) return;
-
-  const col = typeof matchColumn === 'number' ? matchColumn : existingValues[0].indexOf(matchColumn);
-  if (col === -1) {
-    console.warn(`${title}: column "${matchColumn}" not found, skipping stale-row prune`);
-    return;
-  }
-
-  const stale = planPruneRows(existingValues, col, validIds);
-  if (stale.length === 0) return;
-
-  const sheetRowIndices = stale.map(({ row }) => row + headerRow - 1);
-  await deleteSheetRows(sheets, sheetId, sheetRowIndices);
-  console.log(`${title}: deleted ${stale.length} stale row(s) for Tool ID(s): ${stale.map((s) => s.key).join(', ')}`);
 }
 
 // Copies Tools[Team Members] → Admin[Maintainer], matching rows by Tool ID.
@@ -493,13 +343,13 @@ async function main() {
   }
 
   await syncSheet(sheets, 'Tools', TOOLS_HEADER, tools, 'Tool ID', toolValues, (item) => item.toolId, TOOLS_TYPED_COLUMNS);
-  if (pruneStale) await pruneStaleRows(sheets, 'Tools', 'Tool ID', new Set(toolIds));
+  if (pruneStale) await pruneStaleRows(sheets, SPREADSHEET_ID, 'Tools', 'Tool ID', new Set(toolIds));
 
   await syncSheet(sheets, 'Members', MEMBERS_HEADER, await fetchMembers(), 'Email', memberValues, (member) => member.user?.email || '', MEMBERS_TYPED_COLUMNS);
 
   for (const title of TOOL_ID_REFERENCE_TABS) {
-    await syncToolIdReferences(sheets, title, toolIds);
-    if (pruneStale) await pruneStaleRows(sheets, title, 0, new Set(toolIds));
+    await syncToolIdReferences(sheets, SPREADSHEET_ID, title, toolIds);
+    if (pruneStale) await pruneStaleRows(sheets, SPREADSHEET_ID, title, 0, new Set(toolIds));
   }
 
   await syncTeamMembersToAdmin(sheets);
@@ -510,4 +360,4 @@ if (isMain) {
   main();
 }
 
-export { planSheetSync, planToolIdReferences, toolsItems, toolValues, memberValues };
+export { planSheetSync, toolsItems, toolValues, memberValues };

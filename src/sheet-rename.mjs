@@ -2,7 +2,7 @@
 // Google Sheets tabs. Kept free of imports (like sheet-prune.mjs) so it
 // stays unit-testable without pulling in any API client.
 
-import { columnLetter, readTab, TOOL_ID_REFERENCE_TABS } from './sheets-tab.mjs';
+import { columnLetter, a1Tab, readTab, TOOL_ID_REFERENCE_TABS } from './sheets-tab.mjs';
 
 // Given a sheet range's current values (row 0 = header) and a 0-based
 // column index holding Tool IDs, returns the rows whose ID is `oldId`
@@ -40,7 +40,7 @@ function planTabRename(title, tab, matchColumn, oldId, newId) {
   if (rows.length === 0) return { writes: [], skip: `${title}: no row holds "${oldId}"` };
 
   const writes = rows.map((row) => ({
-    range: `${title}!${columnLetter(col)}${row + headerRow}`,
+    range: `${a1Tab(title)}!${columnLetter(col)}${row + headerRow}`,
     values: [[newId]],
   }));
   return { writes, skip: null };
