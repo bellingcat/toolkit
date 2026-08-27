@@ -1,6 +1,25 @@
 ---
-updated: '2026-06-16'
 description: Quickly search many variants of a person's name on Google
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+tags:
+  - bellingcat
 ---
 
 # Bellingcat Name Variant Search
@@ -11,7 +30,7 @@ description: Quickly search many variants of a person's name on Google
 
 ## Description <a href="#description" id="description"></a>
 
-Given a person's name, this awesome tool will generate various plausible alternative forms of the name and smooth out the work of researching each one. It also offers links to search on Duck Duck Go, and Facebook.
+Given a person's name, this tool will generate various plausible alternative forms of the name and smooth out the work of researching each one. It also offers links to search on Duck Duck Go, and Facebook.
 
 <figure><img src=".gitbook/assets/Screenshot 2024-01-25 at 16.58.10.png" alt=""><figcaption></figcaption></figure>
 
