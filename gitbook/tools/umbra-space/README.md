@@ -13,15 +13,15 @@ description: >-
 
 ## Description
 
-Use Umbra to task (request) a high resolution SAR image in most places of the world.
+Use Umbra to task (request) a high resolution SAR image in most places of the world. In addition to tasking images, Umbra can also capture 25-second long SAR videos.
 
 Unlike conventional optical satellite imagery, SAR works by sending a radio wave and listening to the reflection. Some objects, such as metallic vehicles and the 90 degree angles of buildings, reflect lots of the radio signal back to the satellite. Other features, like soil and vegetation, scatter the signal in many directions and reflect less. Still others, like the surface of calm water, reflect almost all of the signal away from the satellite. This variation produces an image of the Earth's surface. Other SAR satellites include Sentinel-1, which can be accessed from [Sentinel Hub and Copernicus Browser](https://bellingcat.gitbook.io/toolkit/more/all-tools/sentinal-hub-playground).
 
 Umbra can also "dwell" a satellite for a period of time to capture multiple images or a video of a particular location up to 25 seconds in length.
 
-Umbra images can be tasked through Umbra Canopy, Umbra's online interface. Contact Umbra's sales team to create an account, or use [SkyFi](https://bellingcat.gitbook.io/toolkit/more/all-tools/skyfi).
+Umbra images can be tasked through Umbra Canopy, Umbra's online interface. Contact Umbra's sales team to create an account.
 
-Archival Umbra images can be purchased from [SkyFi](https://bellingcat.gitbook.io/toolkit/more/all-tools/skyfi).
+Archival Umbra images and new taskings can also be purchased from [SkyFi](https://bellingcat.gitbook.io/toolkit/more/all-tools/skyfi), which is easier for one-off imagery needs.
 
 ## Cost
 
