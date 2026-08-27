@@ -8,7 +8,7 @@ description: Check usernames and email addresses on websites and social networks
 ## URL
 
 [https://github.com/p1ngul1n0/blackbird](https://github.com/p1ngul1n0/blackbird)\
-latest main-branch commit seen: 2025-07-13; no GitHub releases or tags, as of 2026-06-18
+latest main-branch commit seen: 2025-07-13; no GitHub releases or tags, as of 2026-08-27.
 
 ## Description
 
@@ -16,7 +16,7 @@ Blackbird is a Python command-line tool that searches for accounts associated wi
 
 For username searches, the tool is integrated with the [WhatsMyName](https://github.com/WebBreacher/WhatsMyName) project, which maintains a community dataset of 700+ websites for reverse username lookups. The data sources maintained by the WhatsMyName team can be found [here](https://github.com/WebBreacher/WhatsMyName/blob/main/wmn-data.json).
 
-<figure><img src="../../.gitbook/assets/blackbird.png" alt=""><figcaption><p>Blackbird's logo, displayed in the terminal upon launching the tool</p></figcaption></figure>
+<figure><img src=".gitbook/assets/blackbird (1).png" alt=""><figcaption><p>Blackbird's logo, displayed in the terminal upon launching the tool</p></figcaption></figure>
 
 For email address searches, it queries the servers of websites in the WhatsMyName database to check whether an account exists for a given address. When a valid account is found, a direct URL to the user's profile is returned.
 
@@ -24,7 +24,7 @@ Beyond simply listing matched accounts, the tool automatically extracts publicly
 
 Like other username enumeration tools such as [Sherlock](https://bellingcat.gitbook.io/toolkit/more/all-tools/sherlock), it checks usernames against its own distinct collection of sources, meaning results for the same username will differ between tools. It provides broader coverage of NSFW and alternative social media platforms, including Gab and Truth Social, while Sherlock tends to surface stronger results on mainstream social networks that are currently or were previously popular, such as LinkedIn, ICQ, 9Gag, and Letterboxd.
 
-<figure><img src="../../.gitbook/assets/bellingcat.png" alt=""><figcaption><p>Blackbird's results for the username "bellingcat", showing 731 sites checked in 44.1 seconds, with matched accounts found on platforms including Tiktok, GitHub and Twitch.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/bellingcat (1).png" alt=""><figcaption><p>Blackbird's results for the username "bellingcat", showing 731 sites checked in 44.1 seconds, with matched accounts found on platforms including Tiktok, GitHub and Twitch.</p></figcaption></figure>
 
 A built-in AI analysis feature interprets discovered profiles to generate behavioural and technical summaries. This is available free of charge within daily usage limits. The documentation says only discovered site names are sent for AI analysis, but the setup prompt in the current code says the user's IP address is registered for API-key management and abuse prevention.
 
@@ -47,9 +47,11 @@ The rate of false positives and invalid results is generally low. Because it sur
 
 ## Limitations
 
+The repository has had no commits since July 13, 2025 and no formal releases or version tags. A handful of open issues report problems with specific features, including the Instagram session-ID metadata workflow and the AI analysis feature, still open as of March 2026.
+
 The enhanced Instagram metadata workflow requires setting an Instagram session ID in the .env file. Treat this as a higher-risk workflow: use an account and browser environment appropriate for the investigation, and avoid exposing personal cookies or personal accounts.
 
-In terms of username investigations, the tool may miss valid results from various sources that can be surfaced with other tools like [Sherlock](https://bellingcat.gitbook.io/toolkit/more/all-tools/sherlock). Beyond simply listing matched accounts, the tool automatically extracts publicly available metadata from discovered profiles, such as names, locations, and profile images, and supports exporting results in PDF, CSV, JSON, or HTTP response formats for further analysis.
+In terms of username investigations, the tool may miss valid results from various sources that can be surfaced with other tools like [Sherlock](https://bellingcat.gitbook.io/toolkit/more/all-tools/sherlock).&#x20;
 
 ## Ethical Considerations
 
