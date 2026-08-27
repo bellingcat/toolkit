@@ -54,6 +54,23 @@ To see historical imagery in Google Earth Pro (the desktop version), select the 
 
 <figure><img src=".gitbook/assets/unknown (2).png" alt=""><figcaption></figcaption></figure>
 
+### Historical Street View integrated into Google Earth Web
+
+The web version of Google Earth now allows you to view not only the latest Street View images, but also older images for many regions. This can be helpful if you want to check the changes to a place. Or to check if something was there that isn't there anymore.
+
+1.  Click on the little human to activate Streetview in Google Earth Web and place it to the location you want to go.
+
+    <figure><img src=".gitbook/assets/Bildschirmfoto 2026-04-30 um 13.51.18.png" alt=""><figcaption></figcaption></figure>
+2. If there is mutliple streetview imagery available for the location, you can select the year on your screen.&#x20;
+
+<figure><img src=".gitbook/assets/Bildschirmfoto 2026-04-30 um 14.07.47.png" alt=""><figcaption></figcaption></figure>
+
+3. Example: In Bristol, England, there was a statue of the slave trader Edward Colston until 2020. During the "Black Lives Matter" protests following the murder of George Floyd, the Colston statue was toppled by demonstrators. The historical function of Street View allows you to see the area before and after the statue was removed. Compare the picture from September 2025 and October 2012.
+
+<div align="left"><figure><img src=".gitbook/assets/Bildschirmfoto 2026-04-30 um 13.46.07.png" alt=""><figcaption><p>In 2012 the statue is still visible</p></figcaption></figure></div>
+
+<figure><img src=".gitbook/assets/Bildschirmfoto 2026-04-30 um 13.46.31.png" alt=""><figcaption><p>In the most recent street view imagery from 2025 the satue is gone.</p></figcaption></figure>
+
 ### Label map
 
 This is a simple, yet effective tool for your day to day work with Google Earth Pro. Labeling different items on your map helps you mark places that are relevant for your research which allows you to come back to them at a later point in time.
@@ -180,11 +197,11 @@ How to add a layer:
 
 <figure><img src=".gitbook/assets/Bildschirmfoto 2026-08-20 um 10.44.50.png" alt=""><figcaption></figcaption></figure>
 
-2\. Search for example the "household income" and select the layer.&#x20;
+2\. Search for example the "household income" and select the layer.
 
 <figure><img src=".gitbook/assets/Bildschirmfoto 2026-08-20 um 10.44.40.png" alt=""><figcaption></figcaption></figure>
 
-3. Now the layer will appear on the left in your "Map Content" bar.&#x20;
+3. Now the layer will appear on the left in your "Map Content" bar.
 
 <figure><img src=".gitbook/assets/Bildschirmfoto 2026-08-20 um 11.19.18.png" alt=""><figcaption></figcaption></figure>
 
@@ -192,7 +209,7 @@ How to add a layer:
 
 <figure><img src=".gitbook/assets/Bildschirmfoto 2026-08-20 um 10.48.33.png" alt=""><figcaption></figcaption></figure>
 
-Note: Always be careful **which data is underlying** the layer. It can create a false perception of reality.&#x20;
+Note: Always be careful **which data is underlying** the layer. It can create a false perception of reality.
 
 For example, the 'Forest Cover' layer is based on data from 2020. This layer does not show any forest fires or destruction that has occurred since then. The Dadia National Park in Greece experienced a major fire in 2023. The "Forest Cover" layer will show the forest as intact.
 
@@ -211,6 +228,8 @@ For example, the 'Forest Cover' layer is based on data from 2020. This layer doe
 All of the functions described are included in the free version of Google Earth Pro. There are now also [two subscription models](https://mapsplatform.google.com/maps-products/earth/plans/). Subscribing to the 'Professional' model for $75 per user per month gives users access to additional data layers for the US, such as contour lines and ground temperature. They also have the option of creating up to 500 designs for solar and building models. The 'Extended Professional' model provides users with even more data layers for the US, such as charging points for electric vehicles, and the ability to create up to 1,000 designs for solar installations and buildings.
 
 ## Level of difficulty
+
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
 
@@ -284,6 +303,11 @@ Google [https://about.google/](https://about.google/) - United States of America
 * [ ] This tool has not been checked for advertising trackers yet.
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
+
+| Page maintainer |
+| --------------- |
+| Clara D.        |
+|                 |
 
 | Page maintainer |
 | --------------- |
