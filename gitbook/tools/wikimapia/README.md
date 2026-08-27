@@ -99,7 +99,7 @@ When using Wikimapia, ethical considerations include:
 
 * **Responsibility for Verification:** Given that the platform contains unverified, outdated, and potentially false information, researchers have an ethical responsibility to rigorously verify any claims before using them in publications or reports. Publishing unverified data from Wikimapia risks spreading misinformation.
 * **Handling Sensitive and Private Information:** The map's archive may contain labels for private homes or other sensitive locations added without consent. Researchers must be cautious not to amplify or republish information that could infringe on the privacy and security of individuals.
-* **Contextual use and attribution:** When Wikimapia data is referenced in analysis or reporting, researchers should clearly indicate that the information originates from a crowdsourced platform and does not represent an official or authoritative mapping source. Presenting such data without context or attribution may mislead audiences even when individual claims have been verified.
+* **Contextual use and attribution:** When Wikimapia data is referenced in analysis or reporting, researchers should clearly indicate that the information originates from a crowdsourced platform and does not represent an official or authoritative mapping source. This is also a [licensing requirement](https://wikimapia.org/terms_reference.html), not just good practice - Wikimapia Data is released under Creative Commons Attribution-ShareAlike, and public reuse requires linking back to the original data URL and crediting Wikimapia.org. Presenting such data without context or attribution may mislead audiences even when individual claims have been verified.
 
 ## Guide
 
@@ -113,7 +113,7 @@ The following resources are recommended for understanding how Wikimapia has been
   * [_Wikimapia Forum_](http://wikimapia.org/forum/index.php). The official forum, while having very low activity, is a place to see historical discussions about the tool.
 * Developer and User Resources (Advanced/Historical):
   * Disclaimer: The Wikimapia API is not actively maintained and may be unreliable. These resources are for archival purposes.
-  * [Official Wiki](https://wiki.openstreetmap.org/wiki/Wikimapia).
+  * [Official Wiki](https://wikimapia.org/docs/Main_Page) - Wikimapia's own documentation site, covering editing tools, categories, and community guidelines. Last modified July 2015, so treat it the same way as the rest of Wikimapia's content: a snapshot of how the platform worked during its active period, not current documentation.
   * [Getting Started with wikimapia\_api (Python)](https://wikimapia-api-py.readthedocs.io/en/latest/).
   * [GIS StackExchange](https://gis.stackexchange.com/questions/tagged/wikimapia): (Archive of technical questions).
 
