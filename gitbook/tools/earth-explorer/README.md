@@ -1,11 +1,12 @@
 ---
 updated: '2026-07-12'
 description: >-
-  "Query and order satellite images, aerial photographs, and cartographic
-  products"
+  EarthExplorer is an archive portal from the U.S. Geological Survey (USGS) that
+  allows users search a location and time range to discover and access
+  historical satellite imagery and aerial photography.
 ---
 
-# Earth Explorer
+# EarthExplorer
 
 ## URL
 

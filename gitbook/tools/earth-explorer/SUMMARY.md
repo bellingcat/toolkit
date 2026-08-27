@@ -1,5 +1,5 @@
 # Table of contents
 
-* [Earth Explorer](README.md)
+* [EarthExplorer](README.md)
 * [Categories](categories.md)
 * [Regions](regions.md)
