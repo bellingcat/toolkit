@@ -1,7 +1,7 @@
 ---
 updated: '2026-03-21'
 description: >-
-  Wikimapia was a long-running collaborative mapping project that remains
+  Wikimapia is a long-running collaborative mapping project that remains
   partially accessible, providing open source researchers with a unique database
   of historical, user-generated content.
 ---
@@ -14,16 +14,16 @@ description: >-
 
 ## Description
 
-Wikimapia is a collaborative mapping project that combines an interactive map with a wiki system. While it aims to describe every location on Earth, researchers must understand that the tool is a historical archive, not a current map. The platform is [no longer actively maintained](https://en.wikipedia.org/wiki/Wikimapia#Decline_and_current_status), a fact supported by several key observations.
+Wikimapia is a collaborative mapping project that combines an interactive map with a wiki system. While it aims to describe every location on Earth, researchers must understand that despite ongoing activity, the data should not be treated as a current or authoritative map without verification.
 
-Firstly, many of the site’s secondary features—such as the official Wikimapia Statistics pages—are still reachable but no longer functional. The interface loads, but the underlying data have not updated for years, leaving the charts empty. Archived versions (for example, [this 2023 Wayback capture showing historical user counts](https://web.archive.org/web/20231115072150/http://wikimapia.org/stats/action_stats/?fstat=6\&period=3\&year=2009\&month=6)) confirm that these pages once displayed detailed metrics such as total users and added places, but the feature itself has long since gone dormant.
+Firstly, many of the site's secondary features - such as the official Wikimapia Statistics pages - are still reachable but no longer functional. The interface loads, but the underlying data have not updated for years, leaving the charts empty. Archived versions (for example, [this 2023 Wayback capture showing historical user counts](https://web.archive.org/web/20231115072150/http://wikimapia.org/stats/action_stats/?fstat=6\&period=3\&year=2009\&month=6)) confirm that these pages once displayed detailed metrics such as total users and added places, but the feature itself has long since gone dormant.
 
-Secondly, while a live Countries Watchlist feed indicates that a small number of users continue to make minor edits, the rate of adding new, significant places remains very low—around 100–150 per week according to the New Places feed. This minimal level of ongoing activity means that the vast majority of Wikimapia’s data are several years old and can no longer be considered an accurate reflection of current ground conditions.
+Secondly, the Countries Watchlist feed confirms ongoing editing activity from multiple users daily. Archived snapshots of the platform's place counter show steady growth - from approximately [30.6 million places in February 2021](http://archive.today/2021.02.24-100603/https://wikimapia.org/%23lang=en\&lat=52.366700\&lon=-1.250000\&z=12\&m=w), [31.4 million in August 2022](http://archive.today/2022.08.22-110644/http://wikimapia.org/%23lang=en\&lat=52.366700\&lon=4.900000\&z=12\&m=w), [31.6 million in March 2023](http://archive.today/2023.03.07-171023/https://wikimapia.org/%23lang=en\&lat=52.366700\&lon=4.900000\&z=12\&m=w), [32 million in March 2024](http://archive.today/2024.03.12-150845/http://wikimapia.org/%23lang=en\&lat=50.450000\&lon=30.523300\&z=12\&m=w), [32.5 million in July 2025](http://archive.today/2025.07.02-143127/https://wikimapia.org/%23lang=en\&lat=38.254200\&lon=-85.759400\&z=12\&m=w), to over 32.9 million by June 2026 - suggesting roughly 400,000–500,000 new places are added per year. Ongoing activity can be observed via the live Countries Watchlist, accessible under the Tools menu on the main map.
 
 Despite its age, Wikimapia's historical dataset can be a valuable source for open-source researchers in specific contexts:
 
-* **Historical Geolocation:** The platform is useful for investigating past events. For instance, "user tags" from 2014—crowdsourced labels that people created by drawing a shape around a location and adding a name or description—can help identify buildings or military positions in Ukraine that have since been altered or destroyed.
-* **Regional Focus:** The data on Wikimapia is most comprehensive in regions where it had a large user base, particularly in Russia, Ukraine, and other Eastern European countries. For research focused on this area in the 2007-2015 timeframe, it may contain labels and details not found on other maps from that period. We do not consider it the _best_ data source available for any region today, but it can be a unique source for historical context.
+* **Historical Geolocation:** The platform is useful for investigating past events. For instance, "user tags" from 2014 - crowdsourced labels that people created by drawing a shape around a location and adding a name or description - can help identify buildings or military positions in Ukraine that have since been altered or destroyed.
+* **Regional Focus:** The data on Wikimapia is most comprehensive in regions where it had a large user base, particularly in Russia, Ukraine, and other Eastern European countries. For research focused on this area during Wikimapia's [peak activity period (approximately 2006–2012)](https://www.researchgate.net/figure/Google-searches-for-Wikimapia-and-OpenStreetMap-on-a-monthly-basis-source-Google-Trends_fig4_324675292), it may contain labels and details not found on other maps from that period. It is not the most comprehensive data source available for any region today, but it can be a unique source for historical context.
 
 The screenshot below with the view of [Donetsk International Airport](https://www.theatlantic.com/photo/2015/02/a-year-of-war-completely-destroyed-the-donetsk-airport/386204/) demonstrates its value as a historical record. The main airport area is labeled "Ruined" on Wikimapia, a title updated by users following its destruction in 2014. The map is covered in detailed, user-added polygons that pinpoint specific locations, including historical events like the nearby "Il-76 shoot-down."
 
@@ -91,7 +91,7 @@ Researchers must be aware of Wikimapia's significant limitations. The data shoul
 * **Data Accuracy**: Wikimapia’s content is user-generated, leading to potential inaccuracies. In addition, there is no standardized validation process for user-submitted data, which means errors or assumptions may persist without correction.
 * **Outdated information:** This is the most critical limitation. The overwhelming majority of the data may not reflect the current reality of a location and must be verified using contemporary sources.
 * **Inconsistent Coverage:** Data density varies dramatically. While areas like Eastern Europe are heavily detailed with historical data, many other regions have sparse or non-existent information.
-* **API Rate Limiting**: There might be limitations on the number of API requests that can be made in a certain timeframe, impacting extensive data retrieval tasks. The actual [rate limits](https://api.wikimedia.org/wiki/Rate_limits) are not clearly documented at this time.
+* **API Rate Limiting**: There might be limitations on the number of API requests that can be made in a certain timeframe, impacting extensive data retrieval tasks. The actual rate limits are not clearly documented at this time. See the [Wikimapia API documentation](https://wikimapia.org/api/) for more detail.
 
 ## Ethical Considerations
 
