@@ -27,11 +27,11 @@ Despite its age, Wikimapia's historical dataset can be a valuable source for ope
 
 The screenshot below with the view of [Donetsk International Airport](https://www.theatlantic.com/photo/2015/02/a-year-of-war-completely-destroyed-the-donetsk-airport/386204/) demonstrates its value as a historical record. The main airport area is labeled "Ruined" on Wikimapia, a title updated by users following its destruction in 2014. The map is covered in detailed, user-added polygons that pinpoint specific locations, including historical events like the nearby "Il-76 shoot-down."
 
-<figure><img src="../../.gitbook/assets/donetsk_international_airport.png" alt=""><figcaption><p>A screenshot of the Wikimapia interface displays the map of Donetsk International Airport in Ukraine. The tag "Ruined Donetsk International Airport" is an example of how the platform was used by Wikimapia users to try to document the real-world impact of conflict.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/donetsk_international_airport (1).png" alt=""><figcaption><p>A screenshot of the Wikimapia interface displays the map of Donetsk International Airport in Ukraine. The tag "Ruined Donetsk International Airport" is an example of how the platform was used by Wikimapia users to try to document the real-world impact of conflict.</p></figcaption></figure>
 
 The log shows user activity from the year 2014, specifically highlighting two key changes in response to the battle for the airport. First, at Revision 56, a user adds a protection status of "(destroyed)"; this is immediately followed by Revision 58, where the same user performs an "Edit title \[en]", adding the word "Ruined" to the official name. This sequence demonstrates how Wikimapia was updated in near real-time by its users to try to document the consequences of a major conflict.
 
-<figure><img src="../../.gitbook/assets/wikimapia_airport_tag.png" alt=""><figcaption><p>This screenshot captures the edit history for the Donetsk International Airport entry on Wikimapia, providing a clear example of user efforts to use it as a historical ledger.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/wikimapia_airport_tag (1).png" alt=""><figcaption><p>This screenshot captures the edit history for the Donetsk International Airport entry on Wikimapia, providing a clear example of user efforts to use it as a historical ledger.</p></figcaption></figure>
 
 ### Features:
 
@@ -41,7 +41,7 @@ The log shows user activity from the year 2014, specifically highlighting two ke
 * **Measure distance:** measure distance between points in feet and metres.
 * **Multilingual Interface:** The user interface is available in multiple languages.
 
-<figure><img src="../../.gitbook/assets/berlin_hospital_search.png" alt=""><figcaption><p>This screenshot illustrates two of Wikimapia's features working together. The main map view shows the result of a category filter, displaying only locations tagged as a "hospital" in the Berlin area. By selecting one of these hospitals, the information panel on the left opens, revealing details about that specific place, including the "last modified" date located at the very bottom of the panel.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/berlin_hospital_search (1).png" alt=""><figcaption><p>This screenshot illustrates two of Wikimapia's features working together. The main map view shows the result of a category filter, displaying only locations tagged as a "hospital" in the Berlin area. By selecting one of these hospitals, the information panel on the left opens, revealing details about that specific place, including the "last modified" date located at the very bottom of the panel.</p></figcaption></figure>
 
 ### Use Case examples for Open Source Researchers
 
@@ -50,24 +50,24 @@ The log shows user activity from the year 2014, specifically highlighting two ke
 3. **Analyzing Historical Site Layouts:** Examine the detailed, user-drawn layouts of industrial sites, military bases, or critical infrastructure as they existed before being altered, expanded, or destroyed.
 4. **Cultural and Historical Context:** Gain insights into the significance of local landmarks or historical sites based on what users were documenting and describing during the platform's most active years.
 
-## Similar Tools: Wikimapia vs. OpenStreetMap
+## Similar Tools
 
-For nearly all modern mapping needs, OpenStreetMap (OSM) is the recommended alternative to Wikimapia. In our point of view, it is the tool that has effectively replaced Wikimapia as the leading global, collaborative mapping project.
+Wikimapia's strength lies in its historical, user-generated geographic annotations, particularly for Eastern Europe in the 2007–2015 period. The tools below either overlap with or complement Wikimapia's functionality and may be worth consulting depending on your research needs.
 
-While both are crowdsourced, they are fundamentally different in their purpose and current state.
-
-| Feature            | Wikimapia                                                                                     | OpenStreetMap(OSM)                                                                                                          |
-| ------------------ | --------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| **Primary Use**    | A historical archive for viewing past, user-generated labels.                                 | A live, current, and detailed global map for present-day use.                                                               |
-| **Data Freshness** | Stale (mostly pre-2016 data).                                                                 | Continuously updated by active contributors.                                                                                |
-| **Data Type**      | Simple polygons with informal text descriptions.                                              | Highly structured geospatial data (points, lines, relations) with standardized tags.                                        |
-| **Community**      | Low activity. A small forum presence but no widespread map updates.                           | Active global community with established editing rules and quality control efforts.                                         |
-| **License**        | [Restrictive](https://wikimapia.org/terms_reference.html), with unclear terms for data reuse. | [Open Database License (ODbL)](https://www.openstreetmap.org/copyright), allowing data to be freely used and redistributed. |
+| Tool                                                                                            | Description                                                                      | Similarities                                                                     | Differences                                                                                                     |
+| ----------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| [OpenStreetMap](https://bellingcat.gitbook.io/toolkit/more/all-tools/openstreetmap-search-tool) | A live, collaborative global map with structured geospatial data.                | Both are crowdsourced mapping projects covering locations worldwide.             | OSM is actively maintained with current data; Wikimapia is a largely static historical archive.                 |
+| [Mapillary](https://bellingcat.gitbook.io/toolkit/more/all-tools/mapillary)                     | Crowdsourced street-level imagery platform.                                      | Both rely on user-contributed geographic content.                                | Mapillary focuses on photos and street-level imagery; Wikimapia focuses on place labels and polygon annotations |
+| [Google Maps](https://bellingcat.gitbook.io/toolkit/more/all-tools/google-maps)                 | Commercial mapping platform with street view, satellite imagery, and place data. | Both allow searching for and exploring specific locations on an interactive map. | Google Maps reflects current conditions; Wikimapia preserves informal, user-generated historical labels.        |
+| [KartaView](https://bellingcat.gitbook.io/toolkit/more/all-tools/kartaview)                     | Open source street-level imagery collection.                                     | Both are community-driven platforms for documenting real-world locations.        | KartaView provides photographic documentation; Wikimapia provides textual and categorical place annotations.    |
 
 #### Who Should Use Which Tool?
 
 * **Use Wikimapia if**: You are an open source researcher needing historical context for a specific time period (pre-2016) in specific regions (e.g., Eastern Europe), especially for finding informally labeled sites.
 * **Use OpenStreetMap if:** You need more current crowdsourced, and reusable map data for any other purpose, including analysis, visualization, navigation, or as a base layer for your own research. OSM is the standard for up-to-date, open-source geospatial information.
+* **Use Mapillary if:** You need street-level photographic documentation of a location, especially for geolocation tasks or verifying the appearance of a specific place at a particular point in time.
+* **Use Google Maps if:** You need a reliable, up-to-date reference map with broad commercial coverage, satellite imagery, and street view for verifying or contextualizing current locations — particularly in regions where OSM coverage may be thinner.
+* **Use KartaView if:** You are looking for an open source alternative to Mapillary for street-level imagery, particularly in regions or on routes where Mapillary has limited coverage.
 
 ## Cost
 
