@@ -21,7 +21,7 @@ The example below shows a search result for the term Paris, displaying a detaile
 
 When first opening F4Map, users may not immediately see buildings rendered in 3D. These elements only appear once zoomed in closely enough, as seen in this example. Since the platform does not follow standard 3D navigation conventions, users may need to manually zoom, tilt the view, or adjust the URL parameters (e.g., zoom, pitch, bearing) in the address bar to reach the desired perspective.
 
-<figure><img src="../../.gitbook/assets/paris_4fmap (1).png" alt=""><figcaption><p>F4Map 3D view of central Paris, featuring the Eiffel Tower and surrounding urban environment, illustrating the platform's aerial 3D visualization of cities.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/paris_4fmap (1).png" alt=""><figcaption><p>F4Map 3D view of central Paris, featuring the Eiffel Tower and surrounding urban environment, illustrating the platform's aerial 3D visualization of cities.</p></figcaption></figure>
 
 F4Map is available in the following formats:
 
@@ -41,14 +41,19 @@ F4Map is available in the following formats:
 
 * **Web:** any modern web browser.
 
-## Use Cases and Comparison
+## Use Cases and Similar Tools&#x20;
 
 F4Map is best suited for viewing detailed 3D structures in urban environments, where building-level data is richest. Its quick, browser-based access and visually rich rendering make it ideal for tasks such as geographic orientation, infrastructure mapping, or open-source investigations in city settings.
 
-Compared to other tools:
+The tools below offer overlapping 3D or aerial visualisation capabilities and may be worth consulting alongside F4Map depending on your research needs.
 
-* [**ShadowMap**](https://shadowmap.org/) combines 3D visualization with accurate sun positioning, making it ideal for line-of-sight and shadow analysis.
-* [**PeakVisor**](https://peakvisor.com/) offers detailed elevation models with slow-rendering but more flexible camera control and photofitting features.
+| Tool                                                                                      | Description                                                                            | Similarities                                                      |                                                                                                                                                                      |
+| ----------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [ShadowMap](https://bellingcat.gitbook.io/toolkit/more/all-tools/shadowmap)               | A 3D map of buildings with accurate sun positioning and shadow calculation.            | Both offer browser-based 3D building visualisation.               | ShadowMap is purpose-built for shadow and line-of-sight analysis; F4Map focuses on general 3D urban exploration without sun/shadow tools.                            |
+| [ShadeMap](https://bellingcat.gitbook.io/toolkit/more/all-tools/shademap)                 | A global simulation of mountain, building, and tree shadows for a given date and time. | Both visualise 3D structures in an interactive map.               | ShadeMap covers broader terrain including mountains and trees; F4Map is stronger for detailed urban building rendering.                                              |
+| [Google Earth Pro](https://bellingcat.gitbook.io/toolkit/more/all-tools/google-earth-pro) | A 3D globe with satellite imagery, historical views, and terrain data.                 | Both allow aerial 3D exploration of urban environments for OSINT. | Google Earth Pro supports historical imagery and ground-level navigation; F4Map is limited to aerial views but is fully browser-based with no installation required. |
+
+
 
 ## Limitations
 
