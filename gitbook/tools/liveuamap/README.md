@@ -62,7 +62,7 @@ Open source researchers can find LiveUAMap to be a helpful resource for their in
 * [ ] Paid
 
 - Paid: removes advertising, provides location search, history and satellite maps.
-- API use is charged [https://liveuamap.com/promo/api](https://liveuamap.com/promo/api)
+- [API access is charged](https://liveuamap.com/promo/api): a Pro plan starts at $150/month (200 requests/day), and an Enterprise plan starts at $1,000/month (1,500 requests/day, additional social media sources, priority support).
 
 ## Level of difficulty
 
@@ -82,13 +82,11 @@ LiveUAMap.com, while a valuable resource for learning about geopolitical and con
 * **Geographical Coverage**: Although extensive, coverage might be uneven, with more focus on active conflict zones, potentially overlooking lesser-reported areas.
 * **Language Limitations**: Primarily English-based content may limit access or understanding for non-English speakers without translation tools.
 * **Subscription for Full Features**: Full access to certain features and in-depth analyses may require a subscription, limiting access to all content for non-subscribers.
-* **Mobile app quality**: User reviews on both the App Store and Google Play consistently report performance issues and intrusive advertising in the mobile app. The web version is recommended for investigative use.
-
-
+* **Mobile app quality**: User reviews on both the App Store and Google Play consistently report performance issues and intrusive advertising in the mobile app - currently rated 2.9/5 on the [App Store](https://apps.apple.com/us/app/liveuamap/id1003808504) (231 ratings) and 3.4/5 on [Google Play](https://play.google.com/store/apps/details?id=com.altwork.liveuamap)(nearly 5,000 reviews), with recurring complaints about freezing, unclosable ad overlays, and feed updates lagging by hours. The web version is recommended for investigative use.
 
 ## Similar Tools
 
-Liveuamap is one of several tools available for monitoring conflicts and geopolitical events in near real-time. The tools below offer overlapping functionality and may be worth consulting alongside Liveuamap, depending on the scope and nature of your research.&#x20;
+Liveuamap is one of several tools available for monitoring conflicts and geopolitical events in near real-time. The tools below offer overlapping functionality and may be worth consulting alongside Liveuamap, depending on the scope and nature of your research.
 
 | Tool                                                                                    | Description                                                                                          | Similarities                                                  | Differences                                                                                                                |
 | --------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
