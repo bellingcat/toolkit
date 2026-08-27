@@ -13,11 +13,11 @@ description: >-
 
 ## Description
 
-F4Map is a browser-based application that allows users to explore detailed 3D representations of cities and landscapes using [WebGL](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API) technology—no plugins required. It delivers visually rich renderings of geospatial data, especially in urban areas. However, the 3D view is limited: users can rotate and tilt the map but cannot lower the camera to ground level. This makes F4Map particularly effective for aerial exploration and general spatial analysis, rather than street-level perspectives.
+F4Map is a browser-based application that allows users to explore detailed 3D representations of cities and landscapes using [WebGL](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API) technology - no plugins required. It delivers visually rich renderings of geospatial data, especially in urban areas. However, the 3D view is limited: users can rotate and tilt the map but cannot lower the camera to ground level. This makes F4Map particularly effective for aerial exploration and general spatial analysis, rather than street-level perspectives.
 
 ## Features
 
-The example below shows a search result for the term Paris, displaying a detailed 3D view of the Eiffel Tower and its surroundings. The visualization includes nearby embassies, schools, parks, and urban infrastructure—making it useful for geographic orientation, urban analysis, or OSINT research.
+The example below shows a search result for the term Paris, displaying a detailed 3D view of the Eiffel Tower and its surroundings. The visualization includes nearby embassies, schools, parks, and urban infrastructure - making it useful for geographic orientation, urban analysis, or OSINT research.
 
 When first opening F4Map, users may not immediately see buildings rendered in 3D. These elements only appear once zoomed in closely enough, as seen in this example. Since the platform does not follow standard 3D navigation conventions, users may need to manually zoom, tilt the view, or adjust the URL parameters (e.g., zoom, pitch, bearing) in the address bar to reach the desired perspective.
 
@@ -47,11 +47,12 @@ F4Map is best suited for viewing detailed 3D structures in urban environments, w
 
 The tools below offer overlapping 3D or aerial visualisation capabilities and may be worth consulting alongside F4Map depending on your research needs.
 
-| Tool                                                                                      | Description                                                                            | Similarities                                                      |                                                                                                                                                                      |
-| ----------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [ShadowMap](https://bellingcat.gitbook.io/toolkit/more/all-tools/shadowmap)               | A 3D map of buildings with accurate sun positioning and shadow calculation.            | Both offer browser-based 3D building visualisation.               | ShadowMap is purpose-built for shadow and line-of-sight analysis; F4Map focuses on general 3D urban exploration without sun/shadow tools.                            |
-| [ShadeMap](https://bellingcat.gitbook.io/toolkit/more/all-tools/shademap)                 | A global simulation of mountain, building, and tree shadows for a given date and time. | Both visualise 3D structures in an interactive map.               | ShadeMap covers broader terrain including mountains and trees; F4Map is stronger for detailed urban building rendering.                                              |
-| [Google Earth Pro](https://bellingcat.gitbook.io/toolkit/more/all-tools/google-earth-pro) | A 3D globe with satellite imagery, historical views, and terrain data.                 | Both allow aerial 3D exploration of urban environments for OSINT. | Google Earth Pro supports historical imagery and ground-level navigation; F4Map is limited to aerial views but is fully browser-based with no installation required. |
+| Tool                                                                                      | Description                                                                                                                                                      | Similarities                                                      |                                                                                                                                                                                                        |
+| ----------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [ShadowMap](https://bellingcat.gitbook.io/toolkit/more/all-tools/shadowmap)               | A 3D map of buildings with accurate sun positioning and shadow calculation.                                                                                      | Both offer browser-based 3D building visualisation.               | ShadowMap is purpose-built for shadow and line-of-sight analysis; F4Map focuses on general 3D urban exploration without sun/shadow tools.                                                              |
+| [ShadeMap](https://bellingcat.gitbook.io/toolkit/more/all-tools/shademap)                 | A global simulation of mountain, building, and tree shadows for a given date and time.                                                                           | Both visualise 3D structures in an interactive map.               | ShadeMap covers broader terrain including mountains and trees; F4Map is stronger for detailed urban building rendering.                                                                                |
+| [Google Earth Pro](https://bellingcat.gitbook.io/toolkit/more/all-tools/google-earth-pro) | A 3D globe with satellite imagery, historical views, and terrain data.                                                                                           | Both allow aerial 3D exploration of urban environments for OSINT. | Google Earth Pro supports historical imagery and ground-level navigation; F4Map is limited to aerial views but is fully browser-based with no installation required.                                   |
+| [PeakVisor](https://bellingcat.gitbook.io/toolkit/more/all-tools/peakvisor)               | Dual window views for any global location: (1) a 2-D map & (2) a 3-D rendered terrain model, with photo fitting, shade/slope mapping, sun trails & weather data. | Both offer browser-based 3D terrain and building visualisation.   | PeakVisor is built for elevation modeling with photo-fitting and flexible camera control; F4Map focuses on general 3D urban exploration with a fixed aerial-only perspective and no ground-level view. |
 
 
 
@@ -88,9 +89,9 @@ To effectively use F4Map, especially for beginners or those looking to refine th
 
 * [https://core.f4map.com/changelog](https://core.f4map.com/changelog) - Last updated May 2026 - handling left-driving traffic and maxspeed units.
 
-#### Developer Resources
+**F4's GitHub org**
 
-* [https://github.com/F4-Group](https://github.com/F4-Group)
+* ​https://github.com/F4-Group​
 
 **Community and Support**
 
