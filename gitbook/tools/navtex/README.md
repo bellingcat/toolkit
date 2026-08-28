@@ -82,7 +82,9 @@ NAVTEX data does not share information about the location, destination or owners
 
 ## Guides and articles
 
-The guide to reading the various parts of a NAVTEX message is located on the website's [home page](https://www.navtex.net/index.html) at the very bottom of the page. There are also alternate guides available, such as [this one](https://www.marinepublic.com/blogs/training/820808-complete-navtex-guide-understanding-maritime-communication), that give a more complete picture of NAVTEX, its use and its importance.
+The guide to reading the various parts of a NAVTEX message is located on the website's [home page](https://www.navtex.net/index.html) at the very bottom of the page.&#x20;
+
+There are also alternate guides available, such as [this one on the marinepublic website](https://www.marinepublic.com/blogs/training/820808-complete-navtex-guide-understanding-maritime-communication), that give a more complete picture of NAVTEX, its use and its importance.
 
 ## Tool provider
 
@@ -91,10 +93,10 @@ The NAVTEX website is a passion project set up by what appears to be just one in
 ## Advertising Trackers
 
 * [ ] This tool has not been checked for advertising trackers yet.
-* [ ] This tool uses tracking cookies. Use with caution.
-* [x] This tool does not appear to use tracking cookies.
+* [x] This tool uses tracking cookies. Use with caution.
+* [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                     |
-| --------------------------------------------------- |
-| Author: ForgottenPidgeon, Reviewed: Sophie Tedling: |
-|                                                     |
+| Page maintainer                                                            |
+| -------------------------------------------------------------------------- |
+| Author: ForgottenPidgeon, Reviewed: Sophie Tedling. Last modified 28/8/26. |
+|                                                                            |
