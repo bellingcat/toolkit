@@ -31,7 +31,7 @@ tags:
 
 ## Description <a href="#description" id="description"></a>
 
-Given a person's name, this awesome tool will generate various plausible alternative forms of the name and smooth out the work of researching each one. It also offers links to search on Duck Duck Go, and Facebook.
+Given a person's name, this awesome tool will generate various plausible alternative forms of the name and smooth out the work of researching each one. It also offers links to search on Duck Duck Go, and Facebook..
 
 <figure><img src=".gitbook/assets/Screenshot 2024-01-25 at 16.58.10.png" alt=""><figcaption></figcaption></figure>
 
