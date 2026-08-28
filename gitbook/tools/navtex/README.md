@@ -84,7 +84,7 @@ NAVTEX data does not share information about the location, destination or owners
 
 The guide to reading the various parts of a NAVTEX message is located on the website's [home page](https://www.navtex.net/index.html) at the very bottom of the page.&#x20;
 
-There are also alternate guides available, such as [this one on the marinepublic website](https://www.marinepublic.com/blogs/training/820808-complete-navtex-guide-understanding-maritime-communication), that give a more complete picture of NAVTEX, its use and its importance.
+There are also alternate guides available, such as this comprehensive [guide on the Marine Public website](https://www.marinepublic.com/blogs/training/820808-complete-navtex-guide-understanding-maritime-communication), that give a more complete picture of NAVTEX, its use and its importance.
 
 ## Tool provider
 
