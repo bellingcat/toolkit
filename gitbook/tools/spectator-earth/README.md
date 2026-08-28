@@ -1,7 +1,8 @@
 ---
 description: >-
-  Live Satellite Monitoring and Centralized Data Access, providing access to the
-  world of earth observation satellites.
+  Provision of live satellite monitoring and centralized access to multi-source
+  imagery, allowing access to earth observation satellite imagery referenced by
+  time and geography.
 ---
 
 # Obsearth (formerly Spectator Earth)
@@ -14,25 +15,23 @@ description: >-
 
 Obsearth is a web-based interface for Earth observation that helps users track satellites, discover imagery, and explore archives. It focuses on scene acquisition planning - i.e. where, when and how to obtain optimal satellite imagery relevant to supporting an investigation.
 
-**Where:** Identify your area of interest, zoom to the region, and use Obsearth to find satellite imagery relevant to that location.
+**Where:** Identify area of interest, zoom to the region, and use Obsearth to find satellite imagery relevant to that location.
 
 **When:** Review available scenes over time, compare historical imagery, and use any upcoming satellite coverage information as a guide for when new imagery may become available.
 
-**How:** Document observations, compare scenes, and build a time-based record that supports your OSINV analysis, while using future collection details for planning.
+**How:** Document observations, compare scenes, and build a time-based record that supports open source analysis, while using future collection details for planning.
 
 The main data sources are Sentinel, Landsat, commercial VHR imagery, and operator-supplied acquisition plans.
 
 Some functionality and imagery is free. Advanced functions and higher resolution imagery are available for purchase.
 
-Obsearth was released 22 Jun 2026 as a rebuild of the Spectator Earth app that preceded it. As per [https://obsearth.com/migration](https://obsearth.com/migration), workflow focus has been changed. Rather than selecting a satellite scene or image product and attaching an observation to it, you now start by selecting a date and time and associating relevant imagery or satellite data. This approach better accommodates time-based comparisons.&#x20;
-
-When loading a saved observation that was created in Spectator Earth, a [data source](#user-content-fn-1)[^1] is automatically assigned. Refer to [Migration details](https://obsearth.com/migration).
+Obsearth was released 22 Jun 2026 as a rebuild of the Spectator Earth app that preceded it. As per the tool's [Migration details](https://obsearth.com/migration), workflow focus has been changed. Rather than selecting a satellite scene or image product and attaching an observation to it, the process now starts by selecting a date and time and associating relevant imagery or satellite data. This approach better accommodates time-based comparisons.&#x20;
 
 ## Features
 
 **Tracking satellites and finding imagery**
 
-Quickly assess your area of interest using weather forecasts and analysis of archived imagery via meta analytics.
+Quickly assess an area of interest using weather forecasts and analysis of archived imagery via meta analytics.
 
 **Browsing historical imagery and upcoming satellite overpasses**
 
@@ -50,31 +49,51 @@ Utilize an API for automation-friendly workflows.
 
 ### Datasets
 
-[Acquisition plans](#user-content-fn-2)[^2] show where and when satellites are scheduled to capture imagery.
+[Acquisition plans](#user-content-fn-1)[^1] show where and when satellites are scheduled to capture imagery.
 
 Satellite sources include:
 
-* **Sentinel-2 (ESA Copernicus)** - A multispectral optical-imaging mission that provides high-resolution imagery for monitoring land, vegetation, soil, inland waters, and coastal areas. [Read more.](https://dataspace.copernicus.eu/data-collections/copernicus-sentinel-missions/sentinel-2)
-* **Sentinel-1 (ESA Copernicus)** - A C-band synthetic-aperture radar mission that captures day-and-night, all-weather imagery, making it useful for monitoring land, water, ice, and surface change despite cloud cover. [Read more.](https://dataspace.copernicus.eu/data-collections/copernicus-sentinel-missions/sentinel-1)
-* **Landsat (USGS / NASA)** - A long-running Earth-observation program that provides a continuous record of land-surface change using optical, near-infrared, shortwave-infrared, and thermal-infrared data. [Read more.](https://science.nasa.gov/mission/landsat/)
+<details>
 
-In Obsearth, “lens presets” let you apply saved view settings to scenes for consistent comparison across locations and dates. The stock lens presets are:
+<summary><a href="https://dataspace.copernicus.eu/data-collections/copernicus-sentinel-missions/sentinel-2"><strong>Sentinel-2 (ESA Copernicus)</strong></a></summary>
+
+A multispectral optical-imaging mission that provides high-resolution imagery for monitoring land, vegetation, soil, inland waters, and coastal areas.
+
+</details>
+
+<details>
+
+<summary><a href="https://dataspace.copernicus.eu/data-collections/copernicus-sentinel-missions/sentinel-1"><strong>Sentinel-1 (ESA Copernicus)</strong></a></summary>
+
+A C-band synthetic-aperture radar mission that captures day-and-night, all-weather imagery, making it useful for monitoring land, water, ice, and surface change despite cloud cover.
+
+</details>
+
+<details>
+
+<summary><a href="https://science.nasa.gov/mission/landsat/"><strong>Landsat (USGS / NASA)</strong></a></summary>
+
+A long-running Earth-observation program that provides a continuous record of land-surface change using optical, near-infrared, shortwave-infrared, and thermal-infrared data.
+
+</details>
+
+In Obsearth, “lens presets” let the user apply saved view settings to scenes for consistent comparison across locations and dates. The stock lens presets are listed in the table below.
 
 <table data-search="false"><thead><tr><th width="218.65863037109375">Lens Preset</th><th width="216.3858642578125">Obsearth's Summary*</th><th>Example Use Case</th></tr></thead><tbody><tr><td>Medium resolution</td><td><p>6 sat.imagery, predictions, clouds </p><p>≤ 100%</p></td><td>General scene review, broad-area change detection, or quick context on an area of interest.</td></tr><tr><td>High resolution</td><td>6 sat.commercial-imagery</td><td>Detailed inspection of a site where finer visual detail matters, especially for commercial imagery.</td></tr><tr><td>Sentinel-2 Imagery</td><td>3 sat.imagery</td><td>Multispectral analysis of land cover, vegetation, water, burn scars, or environmental change.</td></tr><tr><td>Landsat Imagery</td><td>3 sat.imagery</td><td>Longer-term historical comparison and broad environmental monitoring.</td></tr><tr><td>Copernicus Constellation</td><td>9 sat.trajectory, position</td><td>Orbit and position awareness for Copernicus satellites when planning imagery-based analysis.</td></tr><tr><td>Copernicus Acquisition Plans</td><td>7 sat.acquisition</td><td>Anticipating likely coverage windows and potential future acquisitions.</td></tr><tr><td>Mixed resolution</td><td>12 sat.imagery, commercial-imagery, clouds ≤ 20%</td><td>Combining different imagery sources for a broader investigative workflow.</td></tr><tr><td>Landsat monitor</td><td>3 sat.acquisition, imagery, predictions, clouds ≤ 100%</td><td>Tracking Landsat availability and using it for recurring environmental or land-change review.</td></tr><tr><td>Landsat Orbits</td><td>3 sat.trajectory, position</td><td>Understanding Landsat satellite position and pass geometry.</td></tr><tr><td>Medium resolution, Clear Sky</td><td><p>6 sat.imagery, clouds </p><p>≤ 20%</p></td><td>Searching for more usable scenes when cloud contamination is a concern.</td></tr><tr><td>Sentinel-1 Acquisition Plans</td><td>3 sat.acquisition</td><td>Planning radar-based coverage, especially when optical imagery may be limited.</td></tr><tr><td>Sentinel-1 Mission</td><td>4 sat.acquisition, overpass, trajectory, position</td><td>Reviewing Sentinel-1 orbit, overpass, and acquisition context for radar analysis.</td></tr><tr><td>Sentinel-2 and Landsat Acquisition Plans</td><td>6 sat.acquisition</td><td>Comparing future coverage opportunities across Sentinel-2 and Landsat missions.</td></tr><tr><td>Sentinel-2 monitor</td><td><p>3 sat.acquisition, imagery, trajectory, predictions, clouds </p><p>≤ 100%</p></td><td>Monitoring Sentinel-2 availability and using it for recurring imagery review.</td></tr><tr><td>Sentinel-2 Orbits</td><td>3 sat.trajectory, position</td><td>Understanding Sentinel-2 position and orbit geometry.</td></tr><tr><td>Sentinel-2 Pass Forecast</td><td>3 sat.overpass, trajectory, position</td><td>Estimating when Sentinel-2 may next cover an area of interest.</td></tr></tbody></table>
 
-<sup>\* Numbers in summaries refer to the number imagery sources/layers included. The tag tells you what kind of satellite information the preset is centered on: imagery for visual scenes, acquisition for planned collection windows, commercial-imagery for paid/vendor imagery, and trajectory/position for orbit geometry and where the satellite is in space.</sup>
+<sup>\* Numbers in summaries refer to the number imagery sources/layers included. The tag indicates what kind of satellite information the preset is centered on: imagery for visual scenes, acquisition for planned collection windows, commercial-imagery for paid/vendor imagery, and trajectory/position for orbit geometry and where the satellite is in space.</sup>
 
 ### Split View Mode
 
-Obsearth aggregates acquisition history and plans from multiple open satellite programs and displays them on an interactive map. Once you navigate to an area of interest you can view archived[^3] or scheduled[^4] captures.
+Obsearth aggregates acquisition history and plans from multiple open satellite programs and displays them on an interactive map. Upon navigating to an area of interest the user can view archived[^2] or scheduled[^3] captures.
 
 The split view shown below is an example of a satellite overpass schedule for a given location side-by-side with imagery of that location from a specified overpass.
 
 <figure><img src=".gitbook/assets/obsearth_03.jpg" alt="Example of a split view showing a satellite overpass schedule for a given location side-by-side with imagery of that location from a specified overpass."><figcaption><p>Example of a split view showing a satellite overpass schedule for a given location side-by-side with imagery of that location from a specified overpass.</p></figcaption></figure>
 
-### [API (Application Programming Interface)](https://dev.to/icornea/what-are-apis-a-beginners-guide-with-examples-4ok8)
+### API (Application Programming Interface)
 
-The API can be used to interact programmatically with some of the web app’s capabilities. For example, you can:
+The API can be used to interact programmatically with some of the web app’s capabilities. For example:
 
 * Search for data
 * Request images in a specified resolution
@@ -92,9 +111,9 @@ Comprehensive API documentation is available from Obsearth's developers at [API 
 
 Some functionality and imagery is free. Advanced functions and higher resolution imagery are available for purchase.
 
-You can browse limited data and use some app features without paying. Paid options are mainly for advanced features and commercial high-resolution imagery access.
+It's possible to browse limited data and use some app features without paying. Paid options are mainly for advanced features and commercial high-resolution imagery access.
 
-You can find information about plans and pricing [here](https://obsearth.com/pricing/).
+Information about plans and pricing is available on Obsearth's [pricing page](https://obsearth.com/pricing/).
 
 {% hint style="info" %}
 Discounted access is offered for academic and non-profit research use. To apply, submit a request via the "apply for discount" link on the [pricing page](https://obsearth.com/pricing).
@@ -108,9 +127,9 @@ As of writing, documentation consists only of a "tour" of the user interface and
 
 ## Requirements
 
-Obsearth is web-based and will run in any modern browser on any OS. An internet connection is required.
+Obsearth is web-based and will run in any modern browser on any operating system. An internet connection is required.
 
-Without registering, you can use the default lens configuration ("Medium resolution"), switch between Calendar and Map views, and browse archival imagery. For all functionality beyond that, you need to register and log in.
+Without registering, it's possible to use the default lens configuration ("Medium resolution"), switch between Calendar and Map views, and browse archival imagery. For all functionality beyond that, it's necessary to register and log in.
 
 The app appears to be computer resource and bandwidth heavy, but more testing is needed.
 
@@ -146,15 +165,13 @@ Obsearth Limited (Scotland) / Spectator sp. z o.o. (Poland)
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                      |
-| -------------------------------------------------------------------- |
-| Bellingcat Volunteer Team. Updated by Gregg Butensky on 06 Aug 2026. |
-|                                                                      |
+| Page maintainer                                    |
+| -------------------------------------------------- |
+| <p>Updated by Gregg Butensky</p><p>August 2026</p> |
+|                                                    |
 
-[^1]: Data sources are selected from a list of options in the "lens" in Obsearth. Refer to the Datasets section below for details.
+[^1]: How, where and when to obtain optimal satellite imagery relevant to supporting an investigation.
 
-[^2]: How, where and when to obtain optimal satellite imagery relevant to supporting an investigation.
+[^2]: Imagery already captured (i.e. from an overpass in the past).
 
-[^3]: Imagery already captured (i.e. from an overpass in the past).
-
-[^4]: Imagery from a future overpass  that you have specified for capture.
+[^3]: Imagery from a future overpass  that you have specified for capture.
