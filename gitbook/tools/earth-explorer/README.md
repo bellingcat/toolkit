@@ -161,9 +161,9 @@ For investigative work, Google Maps/Bing Maps (for example) are often best treat
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                           |
-| --------------------------------------------------------- |
-| Bellingcat Volunteer Team. Last updated in June/July 2026 |
-|                                                           |
+| Page maintainer        |
+| ---------------------- |
+| Author: Gregg Butensky |
+| August 2026            |
 
 [^1]: Geographic Information System
