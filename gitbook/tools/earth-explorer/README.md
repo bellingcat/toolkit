@@ -1,5 +1,5 @@
 ---
-updated: '2026-08-27'
+updated: '2026-08-28'
 description: >-
   EarthExplorer is an archive portal from the U.S. Geological Survey (USGS) that
   allows users search a location and time range to discover and access

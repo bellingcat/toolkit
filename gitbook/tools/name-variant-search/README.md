@@ -1,5 +1,5 @@
 ---
-updated: '2026-08-27'
+updated: '2026-08-28'
 description: Quickly search many variants of a person's name on Google
 layout:
   width: default
