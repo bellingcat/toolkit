@@ -11,6 +11,12 @@ description: >-
 
 [https://ollielballinger.users.earthengine.app/view/bellingcat-radar-interference-tracker](https://ollielballinger.users.earthengine.app/view/bellingcat-radar-interference-tracker#lon=49.9507;lat=26.6056;zoom=4;)
 
+{% hint style="warning" %}
+## Inconsistent data loading
+
+We have noticed during our recent review that the data on the Radar Interface Tracker (RIT) site is not loading consistently. This seems to be related to the recently updated [Earth Engine quotas](https://developers.google.com/earth-engine/guides/usage), which this tool is built upon. We recommend visiting the Relevant Tools section below if the issue persists.&#x20;
+{% endhint %}
+
 ## Description
 
 The Bellingcat Radar Interference Tracker (RIT) is a web-based tool that visualises radar interference on Google Earth between 2015 and the present, which can then be used to search for and potentially locate active military radar systems around the globe.
@@ -21,11 +27,11 @@ The tracker exploits a known flaw in Sentinel-1 SAR imagery. Military radar syst
 
 Each of the two Sentinel-1 satellites captures the radar imagery from different angles, in some cases visualizing interferences as an X. Where two interference lines intersect, the location of interference source will be positioned within the area common to both lines. Note that the user will still need to search satellite maps visually for the source to confirm its existence and exact location within that common area.
 
-<figure><img src=".gitbook/assets/Screenshot 2026-06-21 at 4.37.05 PM (1).png" alt=""><figcaption><p>Example of Sentinel 1 interference over multiple passes, creating an X on the potential interference location</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2026-06-21 at 4.37.05 PM.png" alt=""><figcaption><p>Example of Sentinel 1 interference over multiple passes, creating an X on the potential interference location</p></figcaption></figure>
 
 The interference on the SAR imagery show up only if the source of the inteference is turned on while the satellite passes over the area. It is possible to have only one stripe of interference, as in only one of the Sentinel-1 satellites captured the interference. In this case, the land area to search visually is only reduced to the length and width of the interference stripe. Furthermore, since each location on the planet is passed over once every 6 days by one of the satellites, it is possible a radar interference will not be captured if a system is activated between each satellite visit.
 
-<figure><img src=".gitbook/assets/Screenshot 2026-06-21 at 5.37.56 PM (1).png" alt=""><figcaption><p>Example of where only one interference stripe appears, thus requiring a larger visual satellite search to find the source of the interference.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2026-06-21 at 5.37.56 PM.png" alt=""><figcaption><p>Example of where only one interference stripe appears, thus requiring a larger visual satellite search to find the source of the interference.</p></figcaption></figure>
 
 ### Examples
 
@@ -52,13 +58,13 @@ Although the RIT tool can help hone in on areas of interest, a manual search of 
 4. Visit Example Location
 5. Map Interface
 
-<figure><img src=".gitbook/assets/Screenshot 2026-06-21 at 5.45.52 PM (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2026-06-21 at 5.45.52 PM (1).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="1. Search bar" %}
 The search bar enables searches of the map by the name of an address or a general location, such as a city. Note that entering coordinates in the Search Bar doesn't seem to work well. Instead, try entering them manually in the website address.
 
-<figure><img src=".gitbook/assets/Screenshot 2026-06-21 at 6.20.01 PM (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2026-06-21 at 6.20.01 PM.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="2. Radio Frequency Interference" %}
@@ -72,7 +78,7 @@ The spikes on the y-axis represent the interference. You can click on the points
 
 You can make the graph bigger by clicking on the expand button on the top right.
 
-<figure><img src=".gitbook/assets/Screenshot 2026-06-21 at 6.36.14 PM (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2026-06-21 at 6.36.14 PM.png" alt="" width="375"><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="3. Aggregation" %}
@@ -97,7 +103,7 @@ If you'd like to see prior known examples of radar systems, as described by Olli
 
 The screenshot below shows the White Sands Missile Range, USA example included with the radar interference tool.
 
-<figure><img src=".gitbook/assets/Screenshot 2024-08-08 at 1.55.25 PM (1).png" alt="Screenshot using the White Sands Missile Range, USA radar interference example in the radar interference tracker. The map show a satellite image of the area overlayed with a coloured stripe indicating the radar interference."><figcaption><p>Screenshot of White Sands Missile Range, USA radar interference</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-08-08 at 1.55.25 PM.png" alt="Screenshot using the White Sands Missile Range, USA radar interference example in the radar interference tracker. The map show a satellite image of the area overlayed with a coloured stripe indicating the radar interference."><figcaption><p>Screenshot of White Sands Missile Range, USA radar interference</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="5. Map Interface " %}
@@ -124,7 +130,7 @@ _Summary of Proposed Steps:_
 3. Once you've investigated a particular location at a particular time, you may want to explore further by searching the area around the location or by searching other dates.
    1. _Date search:_ Using the radio frequency graph, you can see if there are any spikes on the graph, which indicate that there was some sort of interference. Click on the spikes to further see the interference on the map.
    2. _Area search:_ aggregate the map to "Year" and on the map, zoom out to see a wider area. If you see any interference in the area, you can use the next workflow.
-4. Once you've found a visualization of interference, use other sources to investigate the source of the interference. Feel free to use the tools on Bellingcat's Toolkit [Satellite Imagery](https://bellingcat.gitbook.io/toolkit/categories/maps-and-satellites/satellite-imagery?select=2.-radio-frequency-interference) section.&#x20;
+4. Once you've found a visualization of interference, use other sources to investigate the source of the interference. Feel free to use the tools on Bellingcat's Toolkit [Satellite Imagery](https://bellingcat.gitbook.io/toolkit/categories/maps-and-satellites/satellite-imagery?select=2.-radio-frequency-interference) section.
 
 **Interference known**
 
@@ -136,7 +142,7 @@ _Summary of Steps:_
 2. Change the aggregation to "Year" to better see all sources of interference within that time frame. _Note that the default will be the most recent year, however you can see earlier years by clicking on a date in the desired year on the radio interference graph._
 3. On the map, click on the spot you wish to investigate further. If the interference creates an X, then click on the intersection of the two stripes of interference. If it's a single stripe, click anywhere within the stripe. A blue dot will appear to mark your location. The radio interference frequency graph will load for that particular point.
 4. Use the radio frequency graph to further investigate interference at that location - each spike represents interference. You can click on any point on the radio interference graph to obtain the visual representation of the interference on the map. Change the aggregation to "Day" to see only the interference for that day.
-5. Once you've found a day with interference, conduct a visual investigation of the area underneath the interference. You can start the search within the RIT tool by lowering the Opacity and visually searching for anything that may explain the interference, such as formation of [military equipment](https://x.com/LostWeapons/status/957342822377472000?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E957342822377472000%7Ctwgr%5Ed5bea1fa36381ff3dd0e8a27342c8d88b1ee902a%7Ctwcon%5Es1_c10\&ref_url=https%3A%2F%2Fcdn.embedly.com%2Fwidgets%2Fmedia.html%3Ftype%3Dtext2Fhtmlkey%3Da19fcc184b9711e1b4764040d3dc5c07schema%3Dtwitterurl%3Dhttps3A%2F%2Ftwitter.com%2Flostweapons%2Fstatus%2F957342822377472000image%3Dhttps3A%2F%2Fi.embed.ly%2F1%2Fimage3Furl3Dhttps253A252F252Fpbs.twimg.com252Fmedia252FDUkp-6mV4AA6Rrp.jpg253Alarge26key3Da19fcc184b9711e1b4764040d3dc5c07) or other [telecommunication](https://www.bellingcat.com/app/uploads/2022/02/image2.png) equipment. You may also use other tools on Bellingcat's Toolkit [Satellite Imagery](https://bellingcat.gitbook.io/toolkit/categories/maps-and-satellites/satellite-imagery?select=2.-radio-frequency-interference) section.&#x20;
+5. Once you've found a day with interference, conduct a visual investigation of the area underneath the interference. You can start the search within the RIT tool by lowering the Opacity and visually searching for anything that may explain the interference, such as formation of [military equipment](https://x.com/LostWeapons/status/957342822377472000?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E957342822377472000%7Ctwgr%5Ed5bea1fa36381ff3dd0e8a27342c8d88b1ee902a%7Ctwcon%5Es1_c10\&ref_url=https%3A%2F%2Fcdn.embedly.com%2Fwidgets%2Fmedia.html%3Ftype%3Dtext2Fhtmlkey%3Da19fcc184b9711e1b4764040d3dc5c07schema%3Dtwitterurl%3Dhttps3A%2F%2Ftwitter.com%2Flostweapons%2Fstatus%2F957342822377472000image%3Dhttps3A%2F%2Fi.embed.ly%2F1%2Fimage3Furl3Dhttps253A252F252Fpbs.twimg.com252Fmedia252FDUkp-6mV4AA6Rrp.jpg253Alarge26key3Da19fcc184b9711e1b4764040d3dc5c07) or other [telecommunication](https://www.bellingcat.com/app/uploads/2022/02/image2.png) equipment. You may also use other tools on Bellingcat's Toolkit [Satellite Imagery](https://bellingcat.gitbook.io/toolkit/categories/maps-and-satellites/satellite-imagery?select=2.-radio-frequency-interference) section.
 
 {% hint style="warning" %}
 It is a good idea to cross reference with other satellite maps and tools for more up-to-date imagery and information. Keep in mind that what may appear to be the source is not always the actual source within this tool.
@@ -174,6 +180,18 @@ It is a good idea to cross reference with other satellite maps and tools for mor
 Consider if it is advisable to publish known locations of military radar systems.
 {% endhint %}
 
+## Relevant Tools
+
+The [Copernicus Browser](https://bellingcat.gitbook.io/toolkit/more/all-tools/sentinal-hub-playground) tool provides feeds for the Sentinel series of satellites. This includes the Sentinel 1 data, which is the main data source for the Radio Interference Tracker. It is possible to see the interference within the Copernicus Browser, though there are limitations on how the data can be viewed, for example a year aggregation of the data is not possible based on preliminary testing.&#x20;
+
+To navitage to the Sentinel 1 data, navigate to the Data Collections section, and click on the dropdown menu to select the satellite. Select "Sentinel 1 Mosaics".&#x20;
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Copernicus Browser landing page, and how to navigate to the Sentinel 1 data. </p></figcaption></figure>
+
+Once on the Sentinel 1 Mosaic window, it is possible to see interference on the map (see image below). The user can also select a specific day (see 1 in the image below), or a time range (see 2). With the date range option, the data will show either the most recent, the least recent, or the default (average) data of the months being analyzed. There are also different layers (see 3 below) that can be viewed, depending on the needs of the researcher.&#x20;
+
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>Copernicus Browser landing page for Sentinel 1 Mosaics, showing the output from the Sentinel 1 satellites, which include visible radar interference, and ability to look at historic dates and different layers of the Sentinel 1 satellite output.</p></figcaption></figure>
+
 ## Guides and articles
 
 To effectively use the Radar Interference Tracker, especially for beginners or those looking to refine their skills, the following resources are highly recommended:
@@ -206,6 +224,6 @@ To effectively use the Radar Interference Tracker, especially for beginners or t
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                        |
-| ---------------------------------------------------------------------- |
-| Bellingcat Volunteer Team. Updated by Alexandra Malikova in June 2026. |
+| Page maintainer                                                          |
+| ------------------------------------------------------------------------ |
+| Bellingcat Volunteer Team. Updated by Alexandra Malikova in August 2026. |
