@@ -19,7 +19,7 @@ With the OpenStreetMap search tool, a researcher can find geolocation leads by s
 
 The example below shows a search for _bridge_ amenities around Amsterdam on a satellite map:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-06-23 at 11.14.25 AM.png" alt="Screenshot of search for bridge amenities around Amsterdam on a satellite map. The image show the selectable tags, a map of Amsterdam with blue dots highlighting the bridges and individual selectable bridges below."><figcaption><p>Screenshot of a search for bridge amenities around Amsterdam.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-06-23 at 11.14.25 AM (1).png" alt="Screenshot of search for bridge amenities around Amsterdam on a satellite map. The image show the selectable tags, a map of Amsterdam with blue dots highlighting the bridges and individual selectable bridges below."><figcaption><p>Screenshot of a search for bridge amenities around Amsterdam.</p></figcaption></figure>
 
 ### **Example Use Cases**
 
@@ -77,11 +77,11 @@ To effectively use Bellingcat OpenStreetMap Search, especially for beginners or 
 
 #### Tutorials and Articles
 
-* Williams, L. (2023) _Finding Geolocation Leads with Bellingcat’s OpenStreetMap Search Tool_, _bellingcat_. Available at: [https://www.bellingcat.com/resources/how-tos/2023/05/08/finding-geolocation-leads-with-bellingcats-openstreetmap-search-tool/](https://www.bellingcat.com/resources/how-tos/2023/05/08/finding-geolocation-leads-with-bellingcats-openstreetmap-search-tool/) (Accessed: 5 April 2024).
+* Williams, L. (2023) _Finding Geolocation Leads with Bellingcat’s OpenStreetMap Search Tool_, _bellingcat_. Available at: [https://www.bellingcat.com/resources/how-tos/2023/05/08/finding-geolocation-leads-with-bellingcats-openstreetmap-search-tool/](https://www.bellingcat.com/resources/how-tos/2023/05/08/finding-geolocation-leads-with-bellingcats-openstreetmap-search-tool/) (Accessed: 30 August 2026).
 
 #### Video Tutorials
 
-* _Start Your Geolocation Search With Ease_ (2023). Available at: [https://www.youtube.com/watch?v=FiiRpaayqag](https://www.youtube.com/watch?v=FiiRpaayqag) (Accessed: 5 April 2024).
+* _Start Your Geolocation Search With Ease_ (2023). Available at: [https://www.youtube.com/watch?v=FiiRpaayqag](https://www.youtube.com/watch?v=FiiRpaayqag) (Accessed: 30 August 2026).
 
 #### Community and Support
 
