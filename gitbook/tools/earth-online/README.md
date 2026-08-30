@@ -6,7 +6,7 @@ description: >-
   monitoring to natural disaster assessment.
 ---
 
-# Earth Online
+# The European Space Agency (ESA) - Earth Online
 
 ## URL
 
@@ -14,15 +14,15 @@ description: >-
 
 ## Description
 
-The European Space Agency's Earth Online (ESA-EO) is a portal dedicated to providing a wealth of information on ESA's Earth observation activities and datasets. It serves as a comprehensive platform for Earth science and environmental monitoring. Users can retrieve up-to-date satellite imagery, open data from specific Earth observation missions, and a range of tools for analysis and interpretation of raw environmental data. Earth Online also shines when it comes to news, visuals and infographics plus detailed mission information and 3D models of the satellites, making it a useful resource for anyone looking to verify, to monitor or to analyze the planet's changes over time.
+The European Space Agency's Earth Online (ESA-EO) is a portal that aggregates all ESA's Earth observation activities and scientific datasets. It serves as a comprehensive platform for Earth science and environmental monitoring. Users can retrieve up-to-date satellite imagery, open data from specific Earth observation missions, and a range of tools for analysis and interpretation of raw environmental data. Apart from the data itself, Earth Online offers a substantial context layer with news, visuals and infographics, detailed mission documentation, and 3D models of the satellites. This makes ESA-EO a useful reference for understanding what was measured during specific missions, and over what period.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2026-03-14 at 17.16.29.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2026-03-14 at 17.16.29 (1).png" alt=""><figcaption></figcaption></figure>
 
 ESA’s EO tools and datasets are not only useful for experts - there’s also much to explore for researchers new to the field. The visuals per mission include background info on the satellites and scientific measurements, providing a broader context to the use and interpretation of satellite data.
 
-<figure><img src="../../.gitbook/assets/unknown (17).png" alt=""><figcaption><p>The EO visuals connect the satellite info to related data applications (thematic visuals), mission information, satellite data and tools. t<a href="https://visuals.earth.esa.int/">https://visuals.earth.esa.int/</a></p></figcaption></figure>
+<figure><img src=".gitbook/assets/unknown (17).png" alt=""><figcaption><p>The EO visuals connect the satellite info to related data applications (thematic visuals), mission information, satellite data and tools. t<a href="https://visuals.earth.esa.int/">https://visuals.earth.esa.int/</a></p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/afbeelding.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/afbeelding (2).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 ESA’s Earth Observation ecosystem is evolving from a collection of isolated, specialised tools toward integrated, cloud-based platforms that combine workflows of data discovery, access, processing and analysis in one single environment.
@@ -124,7 +124,7 @@ Complement ESA raw data with thematic platforms such as [Global Forest Watch](ht
 ## Limitations
 
 * **Data Availability**: While ESA's Earth Online offers extensive datasets, certain historical data or high-resolution imagery may not be readily available due to the limitations of past missions, data retention policies or registration requirements.
-* **Update Frequency**: The update intervals for some datasets may not meet the needs of users requiring real-time or near-real-time information. Different datasets will have different update frequency. Some older or sample datasets may not be up to date. See the individual dataset's documentation.
+* **Update Frequency**: The update intervals for some datasets may not meet the needs of users requiring real-time or near-real-time information. Different datasets will have different update frequency. Some older or sample datasets may not be up to date. See the individual dataset's documentation and [Data Release News](https://earth.esa.int/eogateway/search?category=News\&news_type=data+release+news\&sortby=RELEVANCE) for latest updates.
 * **Tool Functionality**: Older tools may not be maintained and working.
 
 ## Guide
