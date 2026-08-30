@@ -14,7 +14,7 @@ description: >-
 
 ## Description
 
-The European Space Agency's Earth Online (ESA-EO) is a portal that aggregates all ESA's Earth observation activities and scientific datasets. It serves as a comprehensive platform for Earth science and environmental monitoring. Users can retrieve up-to-date satellite imagery, open data from specific Earth observation missions, and a range of tools for analysis and interpretation of raw environmental data. Apart from the data itself, Earth Online offers a substantial context layer with news, visuals and infographics, detailed mission documentation, and 3D models of the satellites. This makes ESA-EO a useful reference for understanding what was measured during specific missions, and over what period.
+The European Space Agency's Earth Online (ESA-EO) is a portal that aggregates all ESA's Earth observation activities and scientific datasets. It serves as a comprehensive platform for Earth science and environmental monitoring. Users can retrieve up-to-date satellite imagery, open data from specific Earth observation missions, and a range of tools for analysis and interpretation of raw environmental data. Apart from the data itself, Earth Online offers a substantial context layer with news, visuals and infographics, detailed mission documentation, and 3D models of the satellites. This makes ESA-EO a useful reference for understanding what was measured during specific missions, and over what period of time.&#x20;
 
 <figure><img src=".gitbook/assets/Screenshot 2026-03-14 at 17.16.29 (1).png" alt=""><figcaption></figcaption></figure>
 
