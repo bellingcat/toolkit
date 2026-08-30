@@ -62,7 +62,7 @@ Search features on the site itself are free, but [API access](https://web.archiv
 ## Limitations
 
 * Since the Search4Faces database contains only a limited selection of the social media platform’s content rather than a complete archive, the tool is often unable to provide results for an uploaded picture. Our own tests suggest that in those cases, the search engine appears to compare general characteristics of the provided face (hair, eye or skin color) which does not tend to be helpful for open source researchers.
-* Image data for each social networking site is not updated in real-time, most datasets end in [2022 or earlier](https://web.archive.org/web/20250520182518/https://search4faces.com/en/). The Russian language version of the tool website states that the VK profile photo database was[ last updated in 2025](https://web.archive.org/web/20250616202030/https://search4faces.com/search.html).
+* Image data for each social networking site is not updated in real-time, most datasets end in [2022 or earlier](https://web.archive.org/web/20250520182518/https://search4faces.com/en/). The Russian language version of the tool website states that the VK profile photo database was [last updated in 2025](https://web.archive.org/web/20250616202030/https://search4faces.com/search.html).
 * Certain user profiles can evade detection by changing their details. If you click on an image in the results list, you may be taken to a social media account whose name, avatar, or posts have been changed or deleted.
 * You cannot search multiple databases at once.
 
@@ -79,7 +79,7 @@ An example of how Search4Faces was used to reveal a TikTok profile can be found 
 
 Search4Faces was used by Bellingcat in the following investigation to find a Odnoklassniki profile of a person of interest: [Tracking the Faceless Killers who Mutilated and Executed a Ukrainian POW](https://www.bellingcat.com/news/2022/08/05/tracking-the-faceless-killers-who-mutilated-and-executed-a-ukrainian-pow/), 2022.
 
-GIJN’s Guide “[Beyond Facial Recognition: State-of-the-Art Research Techniques](https://gijn.org/stories/beyond-facial-recognition-state-of-the-art-research-techniques/)” from October 2023 demonstrates tool's usefulness in an investigation. In one instance, when Pimeyes failed to return any results, the researcher turned to Search4Faces as an alternative, and found the relevant information.
+GIJN’s Guide “[Beyond Facial Recognition: State-of-the-Art Research Techniques](https://gijn.org/stories/beyond-facial-recognition-state-of-the-art-research-techniques/)” from October 2023 demonstrates tool's usefulness in an investigation. In one instance, when Pimeyes, a facial search tool, failed to return any results, the researcher turned to Search4Faces as an alternative, and found the relevant information.
 
 ## Tool provider
 
