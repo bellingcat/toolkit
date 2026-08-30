@@ -13,25 +13,25 @@ description: An AI-powered facial recognition reverse image search tool.
 
 PimEyes lets users upload pictures of a person and conducts an AI search to find pictures of faces that look similar. The results contain photos of similar looking people and link to websites where those pictures show up online, often allowing identification (name, organisation etc.) of the pictured individuals. PimEyes' [website states](https://pimeyes.com/en/faq) that the tool only searches public websites and does not look at social media and videos (or video thumbnails). Back in 2020, [netzpolitik.org ](https://netzpolitik.org/2020/pimeyes-face-search-company-is-abolishing-our-anonymity/)had still found social media photos in their results list while testing the tool. According to an [interview](https://netzpolitik.org/2022/pimeyes-ceo-the-user-is-the-stalker-not-the-search-engine/) with CEO Giorgi Gobronidze, PimEyes had "approximately 2.1 billion faces maximum" hashed in 2022.
 
-The[ ](https://pimeyes.com/en/faq)tool provider [writes](https://pimeyes.com/en/faq) that the tool is "intendend solely for personal use". However, no measures are taken to prevent users from also uploading photos of others.
+The tool provider [writes](https://web.archive.org/web/20240224052440/https://pimeyes.com/en/faq) that the tool is "intendend solely for personal use". However, no measures are taken to prevent users from also uploading photos of others.
 
 During the last few years, open source researchers and journalists have added the tool to their personal toolbox. For instance, Bellingcat used Pimeyes during [an investigation (by German journalists) to search for a picture of RAF terror suspect Daniela Klette](https://www.zdf.de/nachrichten/politik/deutschland/daniela-klette-verhaftung-gesichtserkennung-pimeyes-100.html) who had long been in hiding. The tool has also played a role in [identifying US Capitol January 6 rioters](https://gijn.org/stories/how-open-source-experts-identified-the-us-capitol-rioters/). It is important to note that using tools like Pimeyes is never enough to identify the same person across several pictures, facial recognition tools always have to be combined with other research methods to allow for reliable conclusions.
 
-To use Pimeyes, simply upload a photo of a person of interest. It is possible to upload up to five pictures of the same individual. If the quality of the picture is low, Pimeyes suggests uploading a better picture and provides tips like having the person in the picture "looking forward" or having "no elements covering the face". However, it is also possible to ignore those suggestions and to do a search with a low quality image. Our own tests showed that even with a low quality image, the tool was often still able to provide results. While the tool struggled to find matches for people wearing masks, it did relatively well with pictures of people who were visible from the side.
+To use Pimeyes, simply upload a photo of a person of interest. It is possible to upload up to five pictures of the same individual. If the quality of the picture is low, Pimeyes suggests tips like uploading a "better quality image" or adding "more photos to get better search results." However, it is also possible to ignore those suggestions and to do a search with a low quality image. Our own tests showed that even with a low quality image, the tool was often still able to provide results. While the tool struggled to find matches for people wearing masks, it did relatively well with pictures of people who were visible from the side. The tool provider lists [additional tips](https://pimeyes.com/en/blog/how-to-improve-the-facial-recognition-search-results) on improving facial recognition searches such as providing an image that has "full face" of the person or has "no elements covering the face"
 
 Users can choose whether they want to search for pictures that have been indexed by Pimeyes recently or they can opt for "Any Time".
 
-<figure><img src="../../.gitbook/assets/Time_Date_Pimeyes (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Time_Date_Pimeyes (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Pimeyes shows when each picture in the results list has been indexed. This can be seen at the bottom of the information box that comes up when clicking on a listed picture:
 
-<figure><img src="../../.gitbook/assets/Date_Stamp (1).png" alt="" width="239"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Date_Stamp (1).png" alt="" width="239"><figcaption></figcaption></figure>
 
 The tool is sometimes (but not always) able to find pictures that have been indexed by Pimeyes on the same day. Keep in mind that this is not necessarily the day when the picture was published online. While working on long-term investigations, searching for the same picture at different points in time can yield new results.
 
 Pimeyes also offers a "safe search" feature which tries to exclude "possible adult content from results". Be aware that this type of content may otherwise show up in the search results. There is also a "deep search" [option](https://pimeyes.com/en/blog/how-to-use-pimeyes-a-brief-guide#paragraph9) that is only available to users with the most advanced plan and which claims to search the index ["more thoroughly"](https://pimeyes.com/en/blog/how-to-use-pimeyes-a-brief-guide#paragraph9).
 
-The tool provider claims that their system is deleting pictures uploaded by users for search purposes within 48 hours and that they "[do not store any private data from our users](https://pimeyes.com/en/faq)". We are not able to independently verify those claims.
+The tool provider claims that their system is deleting pictures uploaded by users for search purposes within [48 hours](https://pimeyes.com/en/about-us) and that they "[do not store any private data from our users](https://pimeyes.com/en/blog/pimeyes-more-than-a-reverse-image-search)". We are not able to independently verify those claims.
 
 Pimeyes is a paid tool. While users can receive a list of pictures with similar looking people when uploading a picture to the free test version, they can not see on which websites those pictures can be found. However, in some cases open source researchers can also use Google dorks to try to find out more about the pictures in the results list.
 
@@ -39,11 +39,11 @@ To demonstrate this, we uploaded an image of the late former prime minister of P
 
 However, each of the photos in the results list displayed an incomplete URL, in this case "https://thefrontierpos....".
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-01-22 at 11.26.41 PM (1) (1).png" alt=""><figcaption><p>Example of a Pimeyes search result. Each result comes with information on when the photo was indexed by Pimeyes (here on August 25, 2023).</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-01-22 at 11.26.41 PM (1) (1).png" alt=""><figcaption><p>Example of a Pimeyes search result. Each result comes with information on when the photo was indexed by Pimeyes (here on August 25, 2023).</p></figcaption></figure>
 
 Typing this incomplete URL into search engines brought up the the name "The Frontier Post", a local Pakistan site, and the full URL of their website. It was now possible to simply search for "_Zulfikar Ali Bhutto" site:thefrontierpost.com_ on Google:
 
-<figure><img src="../../.gitbook/assets/Zulfikar 2 (1).png" alt=""><figcaption><p>The final result by using Google dorks</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Zulfikar 2 (1).png" alt=""><figcaption><p>The final result by using Google dorks</p></figcaption></figure>
 
 The search brought up several pictures of Zulfikar Ali Bhutto from the website of The Frontier Post, including the photo that had also showed up in our Pimeyes search results. We could simply click on the URL to this photo to learn more.
 
