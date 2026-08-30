@@ -154,7 +154,7 @@
   * [Meta Content Library](tools/meta-content-library/README.md)
   * [MW Geofind](tools/mw-geofind/README.md)
   * [Namechk](tools/namechk/README.md)
-  * [NASA Firms](tools/nasa-firms/README.md)
+  * [NASA FIRMS](tools/nasa-firms/README.md)
   * [NASA Worldview](tools/nasa-worldview/README.md)
   * [Navtex](tools/navtex/README.md)
   * [NeutrOSINT](tools/neutrosint/README.md)
