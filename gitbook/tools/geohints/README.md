@@ -18,6 +18,8 @@ Geohints provides example images of geographical entities from different countri
 
 GeoHints shows pictures of things like license plates, post boxes, road signs, etc. from different countries or regions. Those pictures are often (but not always) taken from Google StreetView.
 
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Example of Bollards across different countries in Africa</p></figcaption></figure>
+
 Geohints was originally created for players of [https://www.geoguessr.com/](https://www.geoguessr.com/).
 
 **Features**
