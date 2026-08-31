@@ -33,19 +33,19 @@ Alternatively, pan and zoom into your area of interest, or click on the relevant
 
 Latest uploads are also displayed on the sidebar (left side).
 
-<figure><img src="../../.gitbook/assets/opening_OAM.png" alt=""><figcaption><p>Mosaic layer shown after "Start Exploring" from the page openaerialmap.org</p></figcaption></figure>
+<figure><img src=".gitbook/assets/opening_OAM (1).png" alt=""><figcaption><p>Mosaic layer shown after "Start Exploring" from the page openaerialmap.org</p></figcaption></figure>
 
 Note: **Searching by entering keywords in the search bar is not recommended**, as this may yield irrelevant or incomplete results (or no results). This is because the search term (e.g., country name) may not appear in the text metadata of the imagery. Also imagery metadata can be in languages other than English.
 
 From the world map, when hovering over a grid, a number will be shown to indicate how many images are available in that tile. Below, there are 775 images available in that area of the grid. Click to see those available images in the sidebar, shown as tiles of colored polygons.
 
-<div align="left"><figure><img src="../../.gitbook/assets/grid.png" alt="" width="283"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src=".gitbook/assets/grid (1).png" alt="" width="283"><figcaption></figcaption></figure></div>
 
 #### Viewing the imagery in the browser
 
 An example image is shown below.
 
-<figure><img src="../../.gitbook/assets/ueswatini (3).png" alt="Example imagery of the University of Eswatini"><figcaption><p>Example: image of University of Eswatini uploaded by Mdumiseni Wisdom D. Dlamini.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/ueswatini (3) (1).png" alt="Example imagery of the University of Eswatini"><figcaption><p>Example: image of University of Eswatini uploaded by Mdumiseni Wisdom D. Dlamini.</p></figcaption></figure>
 
 Marked in the orange rectangle, click the download button (left) to download the raw [.tiff](https://en.wikipedia.org/wiki/TIFF) file. Or click the zoom button (right) to fit the imagery on the screen. The imagery is aligned to the map layer.
 
@@ -128,7 +128,7 @@ Login is not required to access the imagery. (A user account is needed for API a
 
 * **Coverage:** Not all locations will have up-to-date or high-resolution imagery.
 * **Licensing:** Most content is openly licensed under Creative Commons, but some datasets may have attribution or use restrictions; check the metadata.
-* **Delay:** Compared to low-res satellite imagery, there may be a significant delay between drone image capture and upload to the platform.
+* **Delay:** Compared to low-res satellite imagery, there may be a delay between drone image capture and upload to the platform.
 * **Data accuracy considerations**: Researchers should be aware that drone imagery could have been uploaded with inaccuracies in date/time stamps and GPS coordinates. Inaccuracies can be caused by [GPS drift](https://pocketfinder.com/docs/drift-inaccurate-tracking/), firmware bugs, incorrect software settings, or manual input errors, leading to misalignment. As always, researchers should inspect images for missing data or corruption, and use checkpoints (known points not used in processing) to verify the image-to-map accuracy.
 
 ## Ethical Considerations
@@ -155,7 +155,7 @@ Login is not required to access the imagery. (A user account is needed for API a
 
 ## Similar tools
 
-**DJI SkyPixel**: DJI's community platform [SkyPixel](https://www.skypixel.com/) has drone imagery publicly available and searchable. However, the metadata may be incomplete, especially the coordinates shown may not allow researchers to easily map a drone video to the map. Coverage also tends to be focused on scenic locations and tourist sites. For those who need to reuse or republish imagery, there may be licensing or usage rights issues.
+**DJI SkyPixel**: DJI's community platform [SkyPixel](https://www.skypixel.com/) has drone imagery publicly available and searchable. However, the drone imagery does not include a layer of geospatial data, so researchers will not be able to readily map the imagery to coordinates or open the imagery in QGIS. Additionally, coverage tends to be focused on scenic locations and tourist sites. For those who need to reuse or republish imagery, there may be licensing or usage rights issues.
 
 **OpenTopography**: If the research involves checking elevation, [OpenTopography](https://opentopography.org/) offers high-resolution point cloud datasets or LiDAR data covering more than 500,000 km² globally. However, users would need to have experience loading large datasets, and reading and interpreting LiDAR data.
 
@@ -173,6 +173,8 @@ Login is not required to access the imagery. (A user account is needed for API a
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer |
-| --------------- |
-| river\_n        |
+| Page maintainer  |
+| ---------------- |
+| Author: river\_n |
+
+August 31, 2026
