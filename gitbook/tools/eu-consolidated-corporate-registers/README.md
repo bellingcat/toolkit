@@ -5,7 +5,7 @@ description: >-
   and Norway.
 ---
 
-# EU consolidated corporate registers
+# EU consolidated corporate registers (BRIS)
 
 ## URL
 
@@ -13,21 +13,23 @@ description: >-
 
 ## Description
 
-The data on the 'Business Registers Interconnection System (BRIS)' portal is gathered in real time from national registers, and only info provided free of charge on national registers is available for free on the portal (see the [general info page](https://e-justice.europa.eu/topics/registers-business-insolvency-land/business-registers-search-company-eu/general-information-find-company_en)). To get documents that require payment, go to the national register’s website. These are the countries covered:
+The 'Business Registers Interconnection System (BRIS)' portal is restricted for non-EU users, so set your VPN to an EU country if you get an error message when accessing the site.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2026-05-06 at 14.04.10.png" alt=""><figcaption><p>Countries included in the consolidated register</p></figcaption></figure>
+The data on the portal is gathered in real time from national registers, and only info provided free of charge on national registers is available for free on the portal (see the [general info page](https://e-justice.europa.eu/topics/registers-business-insolvency-land/business-registers-search-company-eu/general-information-find-company_en)). To get documents that require payment, go to the national register’s website. These are the countries covered:
+
+<figure><img src=".gitbook/assets/Screenshot 2026-05-06 at 14.04.10 (1).png" alt=""><figcaption><p>Countries included in the consolidated register</p></figcaption></figure>
 
 However, some data that is free in a national register does not appear on the portal. For example, here is the portal's data for a French company:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2026-05-06 at 14.12.45.png" alt=""><figcaption><p>A company's page on the consolidated EU register</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2026-05-06 at 14.12.45 (1).png" alt=""><figcaption><p>A company's page on the consolidated EU register</p></figcaption></figure>
 
-Here is the same company's [listing](https://www.infogreffe.fr/entreprise/monoprix/552018020/58b30ebc-d4b3-4e23-b3b7-27e468f6bb60) on the French register:w
+Here is the same company's [listing](https://www.infogreffe.fr/entreprise/monoprix/552018020/58b30ebc-d4b3-4e23-b3b7-27e468f6bb60) on the French register:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2026-05-06 at 14.21.35.png" alt=""><figcaption><p>The same company's 'Identité' page on the French register</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2026-05-06 at 14.21.35 (1).png" alt=""><figcaption><p>The same company's 'Identité' page on the French register</p></figcaption></figure>
 
-The French register provides data that the EU register does not, like the [NAF code](https://entreprendre.service-public.fr/vosdroits/F33050) (which classifies business activities), many more documents than you can order on the EU portal, and related companies. The leader data also includes other companies in which that person is involved. (Leaders are people like directors.) In the image above, you'll also see a link to the other leaders of the company, which is not provided on the EU register.
+The French register provides data that the BRIS portal does not, like the [NAF code](https://entreprendre.service-public.fr/vosdroits/F33050) (which classifies business activities), many more documents than you can order on the portal, and related companies. The leader data on the portal also includes other companies in which that person is involved. (Leaders are people like directors.)
 
-So the EU register could be a good place to start a search for a company that you know is in Europe, but you're not sure which country. Then go to the national register to see if you can get more information.
+So the BRIS portal could be a good place to start a search for a company that you know is in Europe, but you're not sure which country. Then go to the national register to see if you can get more information.
 
 The portal has greater country coverage than [OpenCorporates](https://bellingcat.gitbook.io/toolkit/more/all-tools/opencorporates), which has archived data for many European countries (see the map on [this page](https://knowledge.opencorporates.com/knowledge-base/overview/)).
 
