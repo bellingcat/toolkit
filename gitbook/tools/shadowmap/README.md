@@ -14,7 +14,7 @@ description: >-
 
 ## Description
 
-<figure><img src=".gitbook/assets/oPTIMISEDShadowMap Gif (1).gif" alt=""><figcaption><p>SHADOWMAP TILTING VIEW DEMONSTRATING AZIMUTH &#x26; ELEVATION ANGLES IN 3D</p></figcaption></figure>
+<figure><img src=".gitbook/assets/oPTIMISEDShadowMap Gif (1).gif" alt=""><figcaption><p><strong>SHADOWMAP TILTING VIEW DEMONSTRATING AZIMUTH &#x26; ELEVATION ANGLES IN 3D</strong></p></figcaption></figure>
 
 ShadowMap calculates shadow locations in real time and displays them on a 3D tilting map (now no longer restricted to the previous[ maximum angle of 45 degrees](#user-content-fn-1)[^1]), showing arcs of azimuth and elevation angles along the sun's path. A satellite imagery map view is available only in paid versions.
 
@@ -95,7 +95,7 @@ Disambiguation: ShadowMap is not the same tool as [ShadeMap](https://app.gitbook
 {% endtab %}
 {% endtabs %}
 
-<figure><img src=".gitbook/assets/ShadowMapvideo (1).gif" alt=""><figcaption><p>SHADOWMAP STUDIO VERSION (HIGHEST COST): USER INPUT &#x26; MANIPULATION OF 3D SHAPES</p></figcaption></figure>
+<figure><img src=".gitbook/assets/ShadowMapvideo (1).gif" alt=""><figcaption><p><strong>SHADOWMAP STUDIO VERSION (HIGHEST COST): USER INPUT &#x26; MANIPULATION OF 3D SHAPES</strong></p></figcaption></figure>
 
 ### The Interface
 
@@ -109,7 +109,7 @@ URL: Note that the Shadowmap URL which is displayed in the browser address bar i
 
 {% tabs %}
 {% tab title="PROJECT MENU " %}
-<figure><img src=".gitbook/assets/ProjectsandShareMenu (1) (1).jpg" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/projectmenu280826.JPG" alt=""><figcaption></figcaption></figure>
 
 The Project and Share menus allow:
 
@@ -121,7 +121,7 @@ The Project and Share menus allow:
 {% endtab %}
 
 {% tab title="SETTINGS " %}
-<figure><img src=".gitbook/assets/SettingsMenuShadowMap (2).JPG" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/SettingsMenuShadowMapaugust26.jpg" alt=""><figcaption></figcaption></figure>
 
 The Settings menus allow:
 
@@ -238,7 +238,16 @@ Shadowmap has a complex set of menus and requires a good understanding of the mo
 
 ## Limitations
 
-Fixed date (as the date of the system clock) in the free version is a major limitation of ShadowMap for Open Source investigation, because source imagery is rarely created and analysed on the same day.
+* Fixed date (as the date of the system clock) in the free version is a major limitation of ShadowMap for Open Source investigation, because source imagery is rarely created and analysed on the same day.
+* Shadow data overlaid on a satellite map is only available in paid versions of ShadowMap. For free satellite map backgrounds for shadow modelling, consider using [ShadeMap](https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/EUDXS3T3viIA2t49EbQG/).
+
+## Similar Tools
+
+[ShadeMap](https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/EUDXS3T3viIA2t49EbQG/) - a free, open source application which provides shadow information at a given location, with a choice of backgrounds including satellite imagery.
+
+[PeakVisor](https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/ZjPopKVOSN70qE0kvtej/) - a platform aimed at geolocation using skylines which incorporates shadow modelling as one of many features.
+
+[ShadowFinder](https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/umx3X87tTqT3CdNVkfSI/) - a free, open source application which provides all possible locations on the surface of the earth for a given date, time and shadow angle.
 
 ## Ethical Considerations
 
@@ -266,7 +275,7 @@ Founder (2021) and CEO Georg Molzer.
 
 | Page maintainer:- |
 | ----------------- |
-| Sophie Tedling:   |
-|                   |
+| Sophie Tedling.   |
+| August 2026       |
 
 [^1]: Tools incorporating tilting geometric representations of terrain generally allowed a maximum angle of 45 degrees when this technology first became common
