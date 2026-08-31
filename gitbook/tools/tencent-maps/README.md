@@ -11,25 +11,41 @@ description: >-
 
 Main site, [http://map.qq.com/](http://map.qq.com/)\
 \
+Location based service, [https://lbs.qq.com/getPoint/](https://lbs.qq.com/getPoint/)\
+\
 API documentation, [https://lbs.qq.com/service/webService/webServiceGuide/webServiceOverview](https://lbs.qq.com/service/webService/webServiceGuide/webServiceOverview)
 
 ## Description
 
-Tencent Maps provides detailed maps, satellite imagery, street view, directions for driving, public transport and walking, and real-time traffic conditions. In Q1 2025, a Deepseek AI assistant was [piloted in the mobile app](https://www.thestandard.com.hk/market/article/70227/Tencent-shares-surge-as-DeepSeek-joins-WeChat) for users to ask for recommendations and real-time information.
+{% hint style="warning" %}
+For international users, the mobile app Tencent Maps 腾讯地图 is not available in regular app stores. Researchers will need to download the Android app as an APK. See the section "Requirements" below, with a subheading "What is APK?", for a more detailed explanation.&#x20;
+{% endhint %}
 
-In Tencent Maps, user-generated reviews and photos are integrated with [Dianping](https://www.dianping.com/), the Chinese equivalent of Yelp which also offers food and daily products delivery.
+{% hint style="warning" %}
+VPN users are strictly blocked by many Chinese web services. You may need to turn off your VPN (and use other means to protect your IP address) in order to use Tencent Maps.&#x20;
+{% endhint %}
+
+Tencent Maps provides detailed maps, satellite imagery, street view, directions for driving, public transport and walking, and real-time traffic conditions. Since Q1 2025, a Deepseek AI assistant was [piloted in the mobile app](https://www.thestandard.com.hk/market/article/70227/Tencent-shares-surge-as-DeepSeek-joins-WeChat) for users to ask for recommendations and real-time information.&#x20;
+
+In Tencent Maps, user-generated reviews and photos are integrated with [Dianping](https://www.dianping.com/), the Chinese equivalent of Yelp, which also offers food and daily products delivery.&#x20;
+
+{% hint style="danger" %}
+Tencent Maps' street view is only available on the mobile app, and the street view imagery tends to be outdated. Please see below section "Street View - available in mobile app only" for more details.&#x20;
+{% endhint %}
 
 ### Basic search: Map and satellite imagery
 
-Search for the location and select the layer (e.g., satellite imagery) or function (e.g., ruler).
+In the main site ([http://map.qq.com/](http://map.qq.com/)), search for the location and select the layer (e.g., satellite imagery) or function (e.g., ruler).&#x20;
 
-<figure><img src="../../.gitbook/assets/tencent_web (1).png" alt="" width="563"><figcaption><p>Web browser view: The example shows the area of Shanghai South Railway Station. Click the buttons on the top-left corner of the map to switch between map and satellite view.</p></figcaption></figure>
+If this does not work, use the location-based services (LBS) site ([https://lbs.qq.com/getPoint/](https://lbs.qq.com/getPoint/)) instead. In our testing, international users in most countries _not_ using a VPN should be able to search the map, view satellite imagery, and find basic registered business and government entity information from the LBS site.&#x20;
+
+<figure><img src=".gitbook/assets/tencent_web (1) (1).png" alt="" width="563"><figcaption><p>Web browser view: The example shows the area of Shanghai South Railway Station. Click the buttons on the top-left corner of the map to switch between map and satellite view.</p></figcaption></figure>
 
 <details>
 
-<summary>Annotated menu - mobile</summary>
+<summary><strong>Annotated menu - mobile</strong></summary>
 
-<figure><img src="../../.gitbook/assets/layers_annotated_tencent copy (1).png" alt="" width="375"><figcaption><p>Basic mobile app menu. You may be seeing more or fewer options depending on your settings and location.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/layers_annotated_tencent copy (1) (1).png" alt="" width="375"><figcaption><p>Basic mobile app menu. You may be seeing more or fewer options depending on your settings and location.</p></figcaption></figure>
 
 Information on how to access street views can be found further below.
 
@@ -37,15 +53,19 @@ Information on how to access street views can be found further below.
 
 <details>
 
-<summary>2D / 3D modes (mobile app)</summary>
+<summary><strong>2D / 3D modes (mobile app)</strong></summary>
 
 When sufficiently zoomed in, a 2D / 3D selection button will become available in the lower right side of the screen.
 
-<figure><img src="../../.gitbook/assets/3d_models.png" alt=""><figcaption><p>2D (top) and 3D (bottom) maps of the same area in Dandong City.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/3d_models (1).png" alt=""><figcaption><p>2D (top) and 3D (bottom) maps of the same area in Dandong City.</p></figcaption></figure>
 
 Tencent Maps has API documentation available for [switching between 2D/3D models](https://lbs.qq.com/webDemoCenter/glAPI/glMap/map3d) and for [showing 3D buildings](./#url).
 
 </details>
+
+{% hint style="info" %}
+If using the web browser version, you may see frequent popups prompting you to create an account by providing your email and phone number. You can close these popups and continue to use the map.&#x20;
+{% endhint %}
 
 ### Getting coordinates
 
@@ -59,12 +79,12 @@ Steps:
 
 1. Select **Layers > Street View** (see [**Annotated Menu - mobile app**](./#annotated-menu-mobile)). The blue lines along the roads indicate that street view is available.
 
-<figure><img src="../../.gitbook/assets/streetview_bluelines (1).png" alt=""><figcaption><p>(English annotation added) The blue lines indicate where street views should be available. Notice that the pin is always in the middle. Move the map, not the pin.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/streetview_bluelines (1) (1).png" alt=""><figcaption><p>(English annotation added) The blue lines indicate where street views should be available. Notice that the pin is always in the middle. Move the map, not the pin.</p></figcaption></figure>
 
 2. Move the map to where you want to see the street view. Please note: **To see the street view of another location,&#x20;**_**move the map, not the pin**_**.**
 3. A location description is shown. Click the rectangle to enter street view.
 
-<figure><img src="../../.gitbook/assets/streetview_example.png" alt="" width="563"><figcaption><p>Example of Tencent Maps street view</p></figcaption></figure>
+<figure><img src=".gitbook/assets/streetview_example (1).png" alt="" width="563"><figcaption><p>Example of Tencent Maps street view</p></figcaption></figure>
 
 Two limitations to be aware of:
 
@@ -91,18 +111,23 @@ If researching business establishments or user perceptions of popular locations 
 
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
 
 ## Requirements
 
+Three possible ways to access Tencent Map:&#x20;
+
 * **Web:** web browser.
-* **Mobile:** iOS, Android, or HarmonyOS (Huawei's operating system). For researchers outside China, the mobile app is not available in the app store. Instead, install by APK.
+* **Mobile:** iOS, Android, or HarmonyOS (Huawei's operating system). Researchers outside China need to install the mobile app by APK (onto an Android phone or an emulator) as the app will not be found in regular app stores. See below "What is APK?" for details.&#x20;
+* **WeChat app**: WeChat users can access a lite version of Tencent Map as a mini-program inside WeChat.&#x20;
 
 <details>
 
-<summary>More about APK</summary>
+<summary><strong>What is APK?</strong></summary>
 
-APK, or Android Package Kit, refers to the core format which Android uses to distribute and install apps. The easiest way is simply to do a Google search for Tencent Maps apk (or in Chinese: 腾讯地图 apk). Please apply the usual security precautions when downloading software online.
+APK, or Android Package Kit, refers to the core format which Android uses to distribute and install apps. Common APK download sites can differ depending on your region. The easiest way is simply to do a Google search for Tencent Maps apk (or in Chinese: 腾讯地图 apk).&#x20;
+
+Please apply the usual security precautions when downloading software online.
 
 </details>
 
