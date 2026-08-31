@@ -15,6 +15,18 @@ API docs: [lbs.amap.com/api](https://lbs.amap.com/api)
 
 ## Description
 
+{% hint style="info" %}
+VPNs are strictly blocked by many Chinese web services. You may need to turn off your VPN in order to use AMap. Please use other means to protect your IP address and your device, browser, and network details.&#x20;
+{% endhint %}
+
+{% hint style="warning" %}
+Based on testing in August 2026 by users in Europe, the AMap website ([www.amap.com](https://amap.com)) persistently prompted for account registration and prevented users from conducting any search. Users could only solve this problem by creating an account and providing a phone number. Please note that your user experience may depend on the country where you are located.&#x20;
+{% endhint %}
+
+{% hint style="warning" %}
+The mobile app "AMap Global" has an English version. The app is available in 65 countries but requires creating an account and providing a phone number. Please see the section "Using AMap in English (mobile app only)" below for details.&#x20;
+{% endhint %}
+
 Gaode Maps offers maps, satellite imagery, directions (for driving, public transport, and walking), and real-time augmented reality navigation for driving. It is available via the web browser or as a mobile application. (The app was previously known as AutoNavi, and is currently named AMap outside China.) A few highlights:
 
 * **Global data**: Maps, directions and recommended transport data are available globally, though the data are most detailed for China.
@@ -34,7 +46,7 @@ Unless specified, all functions described on this page can be accessed without r
 
 <summary>ⓘ Troubleshooting: If you downloaded the app in Chinese, and need to change the language to English</summary>
 
-<figure><img src="../../.gitbook/assets/gaode_english.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/gaode_english (1).png" alt=""><figcaption></figcaption></figure>
 
 1. Select the user icon (indicated by the blue arrow).
 2. Select the settings icon.
@@ -48,7 +60,7 @@ Unless specified, all functions described on this page can be accessed without r
 
 After searching in [pinyin](https://en.wikipedia.org/wiki/Pinyin) or Chinese characters, select the layer or function.
 
-<figure><img src="../../.gitbook/assets/gaode_search.png" alt="" width="563"><figcaption><p>Web browser view > after searching for a specific location (example: Pu'er Simao Airport, Yunnan)</p></figcaption></figure>
+<figure><img src=".gitbook/assets/gaode_search (1).png" alt="" width="563"><figcaption><p>Web browser view > after searching for a specific location (example: Pu'er Simao Airport, Yunnan)</p></figcaption></figure>
 
 <details>
 
@@ -58,15 +70,15 @@ Here are the layers and functions, annotated in English. Your view may be differ
 \
 **Web browser toolbar**
 
-<figure><img src="../../.gitbook/assets/functions_annotated.png" alt=""><figcaption><p>Web browser view - select layer or function</p></figcaption></figure>
+<figure><img src=".gitbook/assets/functions_annotated (1).png" alt=""><figcaption><p>Web browser view - select layer or function</p></figcaption></figure>
 
 **Mobile view**
 
-<figure><img src="../../.gitbook/assets/annotated.png" alt="" width="176"><figcaption><p>Mobile view > select layer or function</p></figcaption></figure>
+<figure><img src=".gitbook/assets/annotated (1).png" alt="" width="176"><figcaption><p>Mobile view > select layer or function</p></figcaption></figure>
 
 </details>
 
-On the web browser view, a reference number is shown at the bottom left, e.g., GS(2025)1234. The year refers to when the map was approved for publication by China's State Bureau of Surveying and Mapping.
+On the web browser view, a reference number is shown at the bottom left, e.g., GS(2025)1234. The year refers to when the map was approved for publication by China's State Bureau of Surveying and Mapping. This does not refer to the year of image capture.&#x20;
 
 (According to Article 15 of the [_Mapping Administration Regulation,_ 2015](https://zh.wikisource.org/wiki/%E5%9C%B0%E5%9B%BE%E7%AE%A1%E7%90%86%E6%9D%A1%E4%BE%8B), all maps for public dissemination must be approved by the relevant government body. [Exceptions are made](https://web.archive.org/web/20180519041828/https://www.scmp.com/news/china/economy/article/2146876/charts-why-chinese-publishers-dont-want-maps-their-books) for maps of tourist destinations and metro lines.)
 
@@ -80,7 +92,7 @@ Gaode Maps does not offer street view (the function was removed several years ag
 
 In the mobile app, a function called 奇境 (translates as "wonder", pinyin: _qijing_) is available for select locations, usually scenic places such as parks and tourist sites. The function allows users to view the location during different times of day, weather conditions, or seasons.
 
-<div align="center"><figure><img src="../../.gitbook/assets/park.png" alt="" width="188"><figcaption><p>Example: When the user moves the slider at the bottom, they can view the location during different times of the day.</p></figcaption></figure></div>
+<div align="center"><figure><img src=".gitbook/assets/park (1).png" alt="" width="188"><figcaption><p>Example: When the user moves the slider at the bottom, they can view the location during different times of the day.</p></figcaption></figure></div>
 
 </details>
 
@@ -88,7 +100,7 @@ In the mobile app, a function called 奇境 (translates as "wonder", pinyin: _qi
 
 The app provides global data for over 200 countries, including street maps, route navigation (driving, public transportation, or walking) and business locations. Here's an example:
 
-<figure><img src="../../.gitbook/assets/overseas.png" alt="" width="563"><figcaption><p>Left: Map in Vienna, Austria. Right: Walking route planning.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/overseas (1).png" alt="" width="563"><figcaption><p>Left: Map in Vienna, Austria. Right: Walking route planning.</p></figcaption></figure>
 
 Business owners from any country could add their locations and information onto AMap (for instance, to attract Chinese travellers who may visit their countries).
 
@@ -102,7 +114,7 @@ If you use Google Maps, the coordinates you obtain for China are already in the 
 \
 To search for a location in Gaode Maps using coordinates, go to [https://lbs.amap.com/tools/picker](https://lbs.amap.com/tools/picker), select the option to search by coordinates, and enter the coordinates in longitude-latitude format.
 
-<div data-full-width="false"><figure><img src="../../.gitbook/assets/reverse_search.png" alt="" width="563"><figcaption><p>Page: <a href="https://lbs.amap.com/tools/picker">https://lbs.amap.com/tools/picker</a><br>Note: Without logging in, a keyword search will only yield coordinates with 2 decimal point only.</p></figcaption></figure></div>
+<div data-full-width="false"><figure><img src=".gitbook/assets/reverse_search (1).png" alt="" width="563"><figcaption><p>Page: <a href="https://lbs.amap.com/tools/picker">https://lbs.amap.com/tools/picker</a><br>Note: Without logging in, a keyword search will only yield coordinates with 2 decimal point only.</p></figcaption></figure></div>
 
 ### 3D maps
 
@@ -114,12 +126,14 @@ User-generated reviews are available in the mobile app only, without account log
 
 ### Using AMap in English (mobile app only)
 
-The English version is only available as mobile app. In your app store, search "AMap Global", download and install.
+The English version is only available as mobile app. In your app store, search "AMap Global", download and install.&#x20;
 
-Functions not available in the English mobile app:
+Functions **not available** in the English mobile app:
 
 * Map data from outside of China
 * User-generated reviews and photos originally posted in Chinese
+
+The AMap app (English version) is available in 65 countries but requires the user to create an account with at least a phone number. Users who already have an Alibaba account (or have previously registered in Alipay or AliExpress) will be able to login with that account.&#x20;
 
 ## Similar tools
 
