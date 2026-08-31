@@ -11,8 +11,6 @@ description: >-
 
 [https://mattw.io/youtube-geofind/location](https://mattw.io/youtube-geofind/location)
 
-
-
 {% hint style="warning" %}
 ## The code of MW Geofind was last updated in 2024. Although the tool still functions in searching for geotagged videos, fewer creators currently use manual geotagging. Additionally, Youtube has updated its search algorithms. Please see the 'Similar Tools' section for details.
 {% endhint %}
@@ -30,10 +28,10 @@ You can search for YouTube videos by keywords, location name, or coordinates. Ad
 * Search results are automatically visualized on a map, which shows icons from the YouTube videos. Click on the icon to see the video's title, channel, and other details. Alternatively, scroll down the page to see the same details listed.
 
 {% hint style="warning" %}
-Restricted by [Youtube's API rate limits](https://github.com/mattwright324/youtube-geofind/issues/11), MW Geofind will not function if the day's limit has been reached. This is reset every day at 9am Pacific time. If you attempt to search and the page appears unresponsive, or the word "Idle" appears above the search bar, then use other methods to search (or wait till the next day after 9am Pacific time). See the section Similar Tools for details.&#x20;
+Restricted by [Youtube's API rate limits](https://github.com/mattwright324/youtube-geofind/issues/11), MW Geofind will not function if the day's limit has been reached. This is reset every day at 9am Pacific time. If you attempt to search and the page appears unresponsive, or the word "Idle" appears above the search bar, then use other methods to search (or wait till the next day after 9am Pacific time). See the section Similar Tools for details.
 {% endhint %}
 
-<figure><img src=".gitbook/assets/map (1) (2).png" alt=""><figcaption><p>Search results visualized on a map, for YouTube videos geotagged within 20km of the Hungarian State Opera House in Budapest. A radius of 20km is shown (in the green circle). Each icon represents a YouTube channel. Note that the map also shows some videos geotagged beyond the 20km radius.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/map.png" alt=""><figcaption><p>Search results visualized on a map, for YouTube videos geotagged within 20km of the Hungarian State Opera House in Budapest. A radius of 20km is shown (in the green circle). Each icon represents a YouTube channel. Note that the map also shows some videos geotagged beyond the 20km radius.</p></figcaption></figure>
 
 * Under **Geotags**, user can find a list of the search results, including a thumbnail, the video title, upload date, duration, and an excerpt of the video description. Due to restrictions from YouTube, an export function is not directly available.
 * Under **Share,** a link can be copied and shared so that others can access the search results.
@@ -44,11 +42,11 @@ Restricted by [Youtube's API rate limits](https://github.com/mattwright324/youtu
 
 To access the metadata, scroll down to view the search results and click "View metadata". This opens a new tab in your web browser, showing the metadata through another tool, [MW Metadata - Bulk](https://mattw.io/youtube-metadata/bulk), by the same developer.
 
-<figure><img src=".gitbook/assets/geofind_ex (1).png" alt=""><figcaption><p>View metadata - marked in blue</p></figcaption></figure>
+<figure><img src=".gitbook/assets/geofind_ex.png" alt=""><figcaption><p>View metadata - marked in blue</p></figcaption></figure>
 
 Here is an excerpt showing some of the JSON data available. (JSON is a format for structuring and storing data, where information is stored in text and as name-value pairs.) For each video, you will find metadata such as the date and time of upload, the geotag, and other information such as counts for the number of views, likes, favorites, and comments for the video.\
 \
-<img src=".gitbook/assets/json ex (1).png" alt="" data-size="original"><br>
+<img src=".gitbook/assets/json ex.png" alt="" data-size="original"><br>
 
 Unfortunately, a bulk export function is not available [due to Youtube policy](https://github.com/mattwright324/youtube-metadata/discussions/150).
 
@@ -58,9 +56,9 @@ Unfortunately, a bulk export function is not available [due to Youtube policy](h
 
 On YouTube, geotags are [set manually by the video creators](https://support.google.com/youtube/answer/7638112?hl=en\&co=GENIE.Platform%3DDesktop), and [not derived from the videos' EXIF data](https://github.com/mattwright324/youtube-geofind/wiki). When video creators upload their content, they can choose whether to specify a location. (Typically, they start typing the name of the location, and a dropdown list becomes available for selection. This selection mechanism can sometimes lead to inaccuracies.) Importantly, geotags are optional, i.e., video creators can leave it blank.
 
-Geotags can also be [imprecise](https://github.com/mattwright324/youtube-geofind/wiki), as [YouTube's metadata](https://developers.google.com/youtube/v3/docs/search/list) are set up such that the same coordinates can refer to multiple locations (e.g., "Manhattan, New York" and "United States" can have the same coordinates). Researchers should set the radius in MW Geofind to specify the search parameters. \
+Geotags can also be [imprecise](https://github.com/mattwright324/youtube-geofind/wiki), as [YouTube's metadata](https://developers.google.com/youtube/v3/docs/search/list) are set up such that the same coordinates can refer to multiple locations (e.g., "Manhattan, New York" and "United States" can have the same coordinates). Researchers should set the radius in MW Geofind to specify the search parameters.\
 \
-Video creators can intentionally enter an inaccurate geotag. \
+Video creators can intentionally enter an inaccurate geotag.\
 \
 Given these caveats, researchers should use the search results from MW Geofind as only one reference points and seek to independently verify any location information.
 
@@ -87,15 +85,15 @@ Another approach is to use YouTube's search by location function.
 1. Enter a location name in the search bar.
 2. Click "Filters".
 3. Select "Location".\
-   <img src=".gitbook/assets/options (1).png" alt="" data-size="original">
+   <img src=".gitbook/assets/options.png" alt="" data-size="original">
 
 </details>
 
-Searching directly on Youtube can lead to more comprehensive search results (i.e., more videos found).&#x20;
+Searching directly on Youtube can lead to more comprehensive search results (i.e., more videos found).
 
 * On YouTube, the time frame selection can be limiting (i.e., the choices are "last hour", "today", "this week", "this month", "this year"). MW Geofind allows more flexibility (e.g., between Jan 1 to Feb 15, 2017), enabling searches for older videos.
 
-Since 2025, Youtube has started to process visual content in videos, including objects, people, scenes and places, in order to [create AI-generated summaries for videos](https://uk.pcmag.com/ai/158798/youtube-search-gets-its-own-ai-overviews-but-access-is-limited). The visual information is also used to inform the search results. This further improve the comprehensiveness of Youtube search results for a place name, though it can also lead to some false positives.&#x20;
+Since 2025, Youtube has started to process visual content in videos, including objects, people, scenes and places, in order to [create AI-generated summaries for videos](https://uk.pcmag.com/ai/158798/youtube-search-gets-its-own-ai-overviews-but-access-is-limited). The visual information is also used to inform the search results. This further improve the comprehensiveness of Youtube search results for a place name, though it can also lead to some false positives.
 
 #### yt-dlp
 
@@ -152,3 +150,5 @@ Matthew Wright [https://mattw.io/](https://mattw.io/) - United States
 | Page maintainer |
 | --------------- |
 | river\_n        |
+
+August 31, 2026
