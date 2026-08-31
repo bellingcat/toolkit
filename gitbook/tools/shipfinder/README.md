@@ -1,5 +1,5 @@
 ---
-updated: '2026-07-01'
+updated: '2026-08-30'
 description: >-
   ShipFinder is an application designed to track vessels in near real-time
   across the globe, available on iPhone and Android platforms (but no longer PC)

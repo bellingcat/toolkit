@@ -1,5 +1,5 @@
 ---
-updated: '2026-05-10'
+updated: '2026-08-30'
 description: >-
   The ESA's Earth Online product offers a portal for accessing satellite imagery
   and environmental data, supporting a range of applications from climate
