@@ -2,8 +2,7 @@
 updated: '2026-06-30'
 description: >-
   Bing Maps is a web mapping service provided by Microsoft that offers detailed
-  geographical information and tools for route planning, location search, and
-  satellite imagery.
+  geographical information and tools for location search, and satellite imagery.
 ---
 
 # Bing Maps
@@ -14,27 +13,33 @@ description: >-
 
 ## Description
 
-Bing Maps is a web mapping service provided by Microsoft. It offers users access to detailed maps and driving directions, the tool serves various purposes, from helping users navigate from point A to B efficiently, to planning trips, and conducting geographical research.
-
-The imagery includes samples taken by satellite sensors, aerial cameras, 3D city models and terrain.
+Bing Maps is a web mapping service provided by Microsoft. It gives users access to detailed maps and satellite imagery, serving various purposes for geographical research, including open source investigations. The imagery includes samples taken by satellite sensors, 3D city models and terrain.&#x20;
 
 **Features:**
 
-* Supports multiple languages.
-* The ability to overlay standard or custom data points and layers with different themes.
-* Building-level geocoding for more than 70 million addresses in the United States.
-* Developer support options available.
-* Set of APIs available upon which developers can build applications.
+* Adress and place search: Search for a specific location in the map.&#x20;
+
+<figure><img src=".gitbook/assets/Screenshot 2024-04-23 at 9.37.31 PM (1).png" alt=""><figcaption><p>Screenshot of search results for Amsterdam.</p></figcaption></figure>
+
+* 3D view: Explore locations in 3D, offering a more spatial perspective of buildings and terrain compared to the flat map view. In particular Bing Map 3D view is notably light and fast to load, while still offering good visual quality, even in dense urban areas. Useful for researchers who need to inspect multiple locations in detail.&#x20;
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Screenshot of search results for London (3D view)</p></figcaption></figure>
+
+Multiple language support: The interface and search results are available in multiple languages.&#x20;
+
+**Developer Features:**&#x20;
+
+Bing Maps also provides a set of features aimed at developers building their own applications on top of the platform, rather than end users browsing the site directly:
+
+* Custom data overlays: The ability to overlay custom data points and layers with different visual themes, accessible through the Bing Maps API.&#x20;
+* Building level geocoding: Geocoding precise to the building level for more than 70 million addresses in the United States.&#x20;
+* Developer support and APIs: A set of APIs and developer support options that allow building custom applications on top of Bing Maps data.&#x20;
 
 Bing Maps is available in the following formats:
 
 * Web
 * Mobile
 * Developer API
-
-Example search results for the term _Amsterdam:_
-
-<figure><img src=".gitbook/assets/Screenshot 2024-04-23 at 9.37.31 PM (1).png" alt=""><figcaption><p>Screenshot of search results for Amsterdam.</p></figcaption></figure>
 
 ## Use Cases
 
@@ -71,7 +76,7 @@ Developer API may incur costs depending on usage (see: [https://www.microsoft.co
 * **Data Coverage**: While comprehensive, Bing Maps has less detailed mapping data in certain remote or less-populated regions compared to other services such as Google Maps.
 * **Developer API Limits**: There are daily rate limits on API calls, which may impact large-scale applications or services requiring high numbers of requests (see: [https://www.microsoft.com/en-us/maps/bing-maps/product/](https://www.microsoft.com/en-us/maps/bing-maps/product/)).
 * **Update Frequency**: The frequency of map updates for certain areas may not be as regular as some users require, potentially affecting the accuracy of the maps. See [How often are Bing satellite Maps ?](https://www.studycountry.com/wiki/how-often-are-bing-satellite-maps-updated) for more information.
-* **Feature Set**: Although Bing Maps offers a wide range of functionalities, it lacks features found in other mapping services, such as the more advanced analytical tools and detailed terrain information found in Google Earth Pro.
+* **Feature Set**: Although Bing Maps offers a wide range of functionalities, it lacks features found in other mapping services, such as the more advanced analytical tools and detailed terrain information found in [Google Earth Pro](https://bellingcat.gitbook.io/toolkit/more/all-tools/google-earth-pro).
 * **Bird Eye and Streetside View:** As of January 2026, Bing Maps Bird’s Eye View and Streetside View are no longer available.
 
 ## Ethical Considerations
