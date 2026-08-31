@@ -14,7 +14,7 @@ description: >-
 {% hint style="warning" %}
 ## Inconsistent data loading
 
-We have noticed during our recent review that the data on the Radar Interface Tracker (RIT) site is not loading consistently. This seems to be related to the recently updated [Earth Engine quotas](https://developers.google.com/earth-engine/guides/usage), which this tool is built upon. We recommend visiting the Relevant Tools section below if the issue persists.&#x20;
+We have noticed during our recent review that the data on the Radar Interface Tracker (RIT) site is not loading consistently. This seems to be related to the recently updated [Earth Engine quotas](https://developers.google.com/earth-engine/guides/usage), which this tool is built upon. Users can find an alternative online platform through which to access radar interference data in the 'Similar Tools' section if the problem persists.
 {% endhint %}
 
 ## Description
@@ -166,9 +166,9 @@ It is a good idea to cross reference with other satellite maps and tools for mor
 ## Limitations
 
 * **Other sources of interference:** Not every instance of SAR radio frequency interference is caused by a military radar. [Weather radar, telecommunications infrastructure](https://doi.org/10.3390/s20102919), other [satellites](https://calvalportal.ceos.org/html/portal/sarc/documents/documents/ghajduch-20191119_1110.pdf), and other sources use the same frequency, which are picked up by Sentinel-1.
-* **Processing time**: aggregating by year can be slow according to the [original article](https://www.bellingcat.com/resources/2022/02/11/radar-interference-tracker-a-new-open-source-tool-to-locate-active-military-radar-systems/).
+* **Processing time**: aggregating by year can be slow according to Ollie Ballinger's [RIT article](https://www.bellingcat.com/resources/2022/02/11/radar-interference-tracker-a-new-open-source-tool-to-locate-active-military-radar-systems/).
 * **Incomplete loading:** sometimes not all of the SAR imagery loads for a location. Most likely the imagery exists, but needs to be accessed again via a refresh, by zooming in or out, by moving the map, or even by accessing from a different browser.
-* **Data Currency:** High resolution satellite imagery is not necessarily current. Although imagery is generally fairly recent, it can be a few years old. See Ollie Ballinger's [original article](https://www.bellingcat.com/resources/2022/02/11/radar-interference-tracker-a-new-open-source-tool-to-locate-active-military-radar-systems/).
+* **Data Currency:** High resolution satellite imagery is not necessarily current. Although imagery is generally fairly recent, it can be a few years old. See Ollie Ballinger's [RIT article](https://www.bellingcat.com/resources/2022/02/11/radar-interference-tracker-a-new-open-source-tool-to-locate-active-military-radar-systems/).
 * **Temporal refresh rates:** Sentinel-1 has a [six-day revisit time](https://www.earthdata.nasa.gov/data/platforms/space-based-platforms/sentinel-1) as the satellites circle the globe. If a radar was turned on and off between the revisit time, then it will not be captured by the satellite.
 * **Facility verification:** there could be multiple potential sources (weather, telecommunications, etc.) of interference in the search area of the interference stripe, and just because something looks like a military base, it doesn’t mean that it is, so it is important to always verify your findings with multiple sources.
 
@@ -177,18 +177,18 @@ It is a good idea to cross reference with other satellite maps and tools for mor
 * see General Ethical Considerations.
 
 {% hint style="warning" %}
-Consider if it is advisable to publish known locations of military radar systems.
+Consider that it may well be inadvisable to publish known locations of military radar systems.
 {% endhint %}
 
-## Relevant Tools
+## Similar Tools
 
-The [Copernicus Browser](https://bellingcat.gitbook.io/toolkit/more/all-tools/sentinal-hub-playground) tool provides feeds for the Sentinel series of satellites. This includes the Sentinel 1 data, which is the main data source for the Radio Interference Tracker. It is possible to see the interference within the Copernicus Browser, though there are limitations on how the data can be viewed, for example a year aggregation of the data is not possible based on preliminary testing.&#x20;
+The [Copernicus Browser](https://bellingcat.gitbook.io/toolkit/more/all-tools/sentinal-hub-playground) tool provides feeds for the Sentinel series of satellites. This includes the Sentinel 1 data, which is the main data source for the Radio Interference Tracker. It is possible to see the interference within the Copernicus Browser, though there are limitations on how the data can be viewed, for example a year aggregation of the radar interference data is not possible based on preliminary testing.
 
-To navitage to the Sentinel 1 data, navigate to the Data Collections section, and click on the dropdown menu to select the satellite. Select "Sentinel 1 Mosaics".&#x20;
+To navitage to the Sentinel 1 data, navigate to the Data Collections section, and click on the dropdown menu to select the satellite. Select "Sentinel 1 Mosaics".
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Copernicus Browser landing page, and how to navigate to the Sentinel 1 data. </p></figcaption></figure>
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Copernicus Browser landing page, and how to navigate to the Sentinel 1 data.</p></figcaption></figure>
 
-Once on the Sentinel 1 Mosaic window, it is possible to see interference on the map (see image below). The user can also select a specific day (see 1 in the image below), or a time range (see 2). With the date range option, the data will show either the most recent, the least recent, or the default (average) data of the months being analyzed. There are also different layers (see 3 below) that can be viewed, depending on the needs of the researcher.&#x20;
+Once on the Sentinel 1 Mosaic window, it is possible to see interference on the map (see image below). The user can also select a specific day (see 1 in the image below), or a time range (see 2). With the date range option, the data will show either the most recent, the least recent, or the default (average) data of the months being analyzed. There are also different layers (see 3 below) that can be viewed, depending on the needs of the researcher.
 
 <figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>Copernicus Browser landing page for Sentinel 1 Mosaics, showing the output from the Sentinel 1 satellites, which include visible radar interference, and ability to look at historic dates and different layers of the Sentinel 1 satellite output.</p></figcaption></figure>
 
@@ -226,4 +226,4 @@ To effectively use the Radar Interference Tracker, especially for beginners or t
 
 | Page maintainer                                                          |
 | ------------------------------------------------------------------------ |
-| Bellingcat Volunteer Team. Updated by Alexandra Malikova in August 2026. |
+| Bellingcat Volunteer Team. Updated by Alexandra Malikova on August 2026. |
