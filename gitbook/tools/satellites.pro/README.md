@@ -16,21 +16,25 @@ description: >-
 Satellites.pro lets you view satellite imagery and mapping services including maps from:
 
 * [Apple Maps](https://bellingcat.gitbook.io/toolkit/more/all-tools/apple-maps)
-* OpenStreetMap
+* [OpenStreetMap](https://bellingcat.gitbook.io/toolkit/more/all-tools/openstreetmap-search-tool)
 * [Google Maps](https://bellingcat.gitbook.io/toolkit/more/all-tools/google-maps)
 * [Yandex Maps](https://bellingcat.gitbook.io/toolkit/more/all-tools/yandex-maps)
 
-The tool allows open source researchers to easily switch between maps and imagery from all those providers in a simple and straightforward way without the need to go to the providers' sites separately.
+The tool allows open source researchers to easily access maps and imagery from multiple providers in one place, without needing to visit each provider's site separately.
 
 Windows users can access Apple Maps via satellites.pro which was not easily possible before the launch of Apple Maps on the web in July 2024.
 
 The tool has a plan view (flat map) and a satellite view (high resolution) as well as a zoom option. You can measure distance, calculate distance between start and end points for (car, bus, pedestrian, cyclist, train and taxi) and see the current weather at a location.
 
-You also have the various options with each dedicated map selected (Apple Maps, OpenStreet Map, Google Maps and Yandex Maps).
+You can also switch between the various map providers, each with a dedicated view. Since coverage and accuracy vary between the various providers, this lets you cross-check locations and pick whichever map gives the best data for a given area and time.&#x20;
 
-The example below shows a search for _Amsterdam_ using Apple Maps:
+The example below shows a search for Prague using Yandex Map:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-06-21 at 11.41.54 AM (1).png" alt="Screenshot of a search for Amsterdam using Apple Maps shows a satellite image of the land and sea."><figcaption><p>Screenshot of a search for <em>Amsterdam</em> using Apple Maps. The box in the upper left area of the screen shows the different available map and satellite service options between which the user can switch.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>Prague, Yandex Map. The map provider selector is shown in the top left box.</p></figcaption></figure>
+
+The next example show the same search for Prague but using Google Map:&#x20;
+
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption><p>Prague, Google Map</p></figcaption></figure>
 
 ## Cost
 
@@ -90,7 +94,7 @@ Unknown but the site has been registered via a Russian domain name service
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                           |
-| --------------------------------------------------------- |
-| Paul - Bellingcat Volunteer Community, Riccardo Giannardi |
-|                                                           |
+| Page maintainer    |
+| ------------------ |
+| Riccardo Giannardi |
+|                    |
