@@ -46,7 +46,7 @@ The tool can be accessed through any modern web browser.
 
 ## Ethical Considerations
 
-* **Potential for misuse:** There has been much discussion online around the [ethical implications](https://www.cnn.com/2019/02/28/tech/ai-fake-faces) of AI generators and their potential for misuse. A tool like Am I Real? could potentially be used to address some of the shortfalls inherent in these images, enabling the development of increasingly sophisticated deepfakes that are harder to detect.
+* **Potential for misuse:** There has been much discussion online around the  [ethical implications](https://www.cnn.com/2019/02/28/tech/ai-fake-faces) of AI generators and their potential for misuse. Tools that highlight the shortfalls inherent in AI-generated images can potentially aid the development of increasingly sophisticated deepfakes, which are harder to detect.
 * **Privacy:** Users should consider the privacy implications of submitting personal or sensitive videos or images to an online service.
 
 ## Tool provider
