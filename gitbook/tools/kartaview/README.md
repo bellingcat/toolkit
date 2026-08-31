@@ -25,11 +25,11 @@ A note on the name: KartaView was originally founded in 2009 as OpenStreetView, 
 
 #### Search
 
-Search by typing the locality name or coordinates into the search box, then click Enter or the magnifier icon. The locality should be a town, city, or country and may include a postal code. Make sure to use the correct spelling.&#x20;
+Search by typing the locality name or coordinates into the search box, then click Enter or the magnifier icon. The locality should be a town, city, or country and may include a postal code. Make sure to use the correct spelling.
 
-In tests conducted in June 2026, the search bar does not recognize names of landmarks or street names. For example, searching for "Musée du Louvre" in French or English, or "Rue de Rivoli" would not return results in Paris. However, if you know the full address and type "Rue de Rivoli, 75001 Paris", KartaView will show the correct location.&#x20;
+In tests conducted in June 2026, the search bar does not recognize names of landmarks or street names. For example, searching for "Musée du Louvre" in French or English, or "Rue de Rivoli" would not return results in Paris. However, if you know the full address and type "Rue de Rivoli, 75001 Paris", KartaView will show the correct location.
 
-When you type a locality name, several possibilities will appear in a dropdown list. Select the one relevant to your search. By default, KartaView does not make guesses for you.&#x20;
+When you type a locality name, several possibilities will appear in a dropdown list. Select the one relevant to your search. By default, KartaView does not make guesses for you.
 
 <figure><img src=".gitbook/assets/search.png" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -37,25 +37,25 @@ When you type a locality name, several possibilities will appear in a dropdown l
 
 If you see an empty map, make sure to zoom in (using the mouse wheel or the “+” button) to see the purple lines.
 
-<figure><img src=".gitbook/assets/KartaView_Nakhon Ratchasima (1).png" alt="" width="563"><figcaption><p>Purple lines indicate available street view imagery in KartaView. This is an example from searching Nakhon Ratchasima, Thailand.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/KartaView_Nakhon Ratchasima.png" alt="" width="563"><figcaption><p>Purple lines indicate available street view imagery in KartaView. This is an example from searching Nakhon Ratchasima, Thailand.</p></figcaption></figure>
 
 Zoom in even more and left-click on the purple line to reveal the available tracks. Green dots indicate that images are available, and the larger bubbles correspond to the thumbnails shown at the bottom.
 
-<figure><img src=".gitbook/assets/tracks_ (1).png" alt=""><figcaption><p>Location in Bandung, Indonesia. Note that some street view images (green dots) are between buildings or inside buildings, indicating that these were captured by pedestrians or motorcycles.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/tracks_.png" alt=""><figcaption><p>Location in Bandung, Indonesia. Note that some street view images (green dots) are between buildings or inside buildings, indicating that these were captured by pedestrians or motorcycles.</p></figcaption></figure>
 
 Appearing at the bottom of the screen, the Tracks are series of images available for that location. Shown under the thumbnails are the distance traveled, the number of photos, and the date of image capture (note: not the date of upload).
 
-<figure><img src=".gitbook/assets/tracks (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/tracks.png" alt=""><figcaption></figcaption></figure>
 
 ### Metadata
 
 Each uploaded image contains metadata including coordinates, date and time of recording, and the device used for image capture. The metadata is generated in the uploading process, either directly from the camera's EXIF info or from a custom GeoJSON file ([KartaView GitHub documentation](https://github.com/kartaview/upload-scripts) - scroll down to "2. Generate Exif info").
 
-<figure><img src=".gitbook/assets/metadata (1).png" alt=""><figcaption><p>Most of the images uploaded by KartaView users are sequences of still photos, and do not support 360° panning.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/metadata.png" alt=""><figcaption><p>Most of the images uploaded by KartaView users are sequences of still photos, and do not support 360° panning.</p></figcaption></figure>
 
 ### 3D mapping
 
-KartaView offers the functionality of uploading and visualizing 3D point cloud data — although this function appears to be still in beta and not widely adopted. Contributors can upload 3D scans of architecture or geographical features in LiDAR or 3D mesh files (see [documentation](https://3d.kartaview.org/explore#10/1.3521/103.8198) for file formats), and KartaView's [3D viewer](https://kartaview.org/doc/uploads-3d) will visualize and map the data as point cloud data.
+KartaView offers the functionality of uploading and visualizing 3D point cloud data — although this function is in beta and not widely adopted. Contributors can upload 3D scans of architecture or geographical features in LiDAR or 3D mesh files (see [documentation](https://3d.kartaview.org/explore#10/1.3521/103.8198) for file formats), and KartaView's [3D viewer](https://kartaview.org/doc/uploads-3d) will visualize and map the data as point cloud data.
 
 <details>
 
@@ -88,13 +88,19 @@ KartaView is available in the following formats:
 
 ## Similar tools
 
-[**Mapillary**](https://bellingcat.gitbook.io/toolkit/more/all-tools/mapillary) which is owned by Meta, also offers street view imagery uploaded by users. Mapillary [positions itself](https://blog.mapillary.com/update/2024/01/12/Mapillary-10-Years-2-Billion-Images.html) as having a large user base and an active community, and it was an early mover in using artificial intelligence in feature detection (as reported in [2019](https://geospatialworld.net/news/mapillary-puts-186-million-ai-generated-map-features-on-global-map/)). In practice, researchers are encouraged to access street view imagery in both Mapillary and KartaView as these can be complementary resources.
+[**Panoramax.fr**](https://panoramax.fr/) is a free and open source (FOSS) alternative that provides crowdsourced street level imagery. (Click "Explore Pictures" from the main page, or use this [direct link](https://explore.panoramax.fr/en/index?focus=map\&map=0.52/0/-0.6\&speed=250\&theme=default\&users=default)). The tool is gaining popularity among those who want to upload their panorama photography or street level imagery to sites [not owned by large corporates](https://wiki.openstreetmap.org/wiki/Panoramax).&#x20;
 
-Note a key difference in user experience design: Whereas KartaView's global or country-level map could appear empty unless the user zooms in further, Mapillary takes the opposite design approach. Mapillary's global map gives the impression of ample imagery available in very dense distribution. Upon zooming in to a city or neighborhood, there are thin green lines that indicate the actual availability of imagery.
+[**Mapillary**](https://bellingcat.gitbook.io/toolkit/more/all-tools/mapillary), owned by Meta, also offers street view imagery uploaded by users. Mapillary [positions itself](https://blog.mapillary.com/update/2024/01/12/Mapillary-10-Years-2-Billion-Images.html) as having a large user base and an active community, and it was an early mover in using artificial intelligence in feature detection (as reported in [2019](https://geospatialworld.net/news/mapillary-puts-186-million-ai-generated-map-features-on-global-map/)). In practice, researchers are encouraged to access street view imagery in both Mapillary and KartaView as these can be complementary resources.
+
+Note a key difference in user experience design: Whereas KartaView's global or country-level map could appear empty unless the user zooms in further, Mapillary takes the opposite design approach. Mapillary's global map gives the impression of ample imagery available in very dense distribution. Upon zooming in to a city or neighborhood, there are thin green lines that indicate the actual availability of imagery.&#x20;
+
+A related tool is **ZenSVI** ([GitHub](https://github.com/koito19960406/ZenSVI); [documentation](https://zensvi.readthedocs.io/en/latest/)), a Python package for analyzing street view imagery, developed by a lab at the National University of Singapore. Using this package, researchers can download street view imagery from Mapillary and KartaView, analyze the metadata, and extract features using computer vision models. The package also supports transforming the imagery into different formats (e.g., depth map, point cloud) and visualizing the output.
+
+### **Comparing KartaView and Google Maps**
 
 **KartaView's licensing is more open than Google Maps:** KartaView's street view imagery and API are under the CC-BY-SA license, enabling anyone to use the images and data with proper attribution and an equivalent license, including for commercial or non-commercial purposes. In comparison, Google Maps' licensing is more restrictive: non-commercial use is allowed with proper attribution, and commercial use is subject to copyright and requires authorization.
 
-A related tool is **ZenSVI** ([GitHub](https://github.com/koito19960406/ZenSVI); [documentation](https://zensvi.readthedocs.io/en/latest/)), a Python package for analyzing street view imagery, developed by a lab at the National University of Singapore. Using this package, researchers can download street view imagery from Mapillary and KartaView, analyze the metadata, and extract features using computer vision models. The package also supports transforming the imagery into different formats (e.g., depth map, point cloud) and visualizing the output.
+
 
 ## Cost
 
@@ -141,4 +147,5 @@ KartaView is owned by GrabMaps, [https://grabmaps.grab.com/](https://grabmaps.gr
 | Page maintainer                             |
 | ------------------------------------------- |
 | Author: river\_n. Reviewed: Sophie Tedling: |
-|                                             |
+
+August 31, 2026
