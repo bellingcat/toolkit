@@ -37,19 +37,19 @@ Strava's investigative value lies in moving systematically from broad geographic
 
 Create a free account at strava.com and log in. Search for your target location and zoom in to city level. With both Heatmaps and Segments active, the map shows a dense overlay of activity - orange lines indicate named segments, blue lines show aggregated heatmap activity. At this scale investigators can begin identifying areas of concentrated activity, unusual route patterns, or the presence of segments inside restricted or sensitive locations.
 
-<figure><img src="../../.gitbook/assets/strava-login-zzom-sa (1).png" alt=""><figcaption><p>San Francisco at city scale with both Heatmaps and Segments filters active after login. Orange lines are named segments; blue lines show aggregated GPS activity from all public users. The density of segments in a civilian urban area illustrates the volume of data available — in a more restricted location, even a small number of segments can reveal significant information about who is present and what routes they use.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/strava-login-zzom-sa (1).png" alt=""><figcaption><p>San Francisco at city scale with both Heatmaps and Segments filters active after login. Orange lines are named segments; blue lines show aggregated GPS activity from all public users. The density of segments in a civilian urban area illustrates the volume of data available — in a more restricted location, even a small number of segments can reveal significant information about who is present and what routes they use.</p></figcaption></figure>
 
 **Step 2 - Zoom to street level and filter by activity type.**
 
 Zoom further into your area of interest. At this scale individual segment names become readable and the heatmap shows activity at street and path level. Use the sport type filter to narrow results - switching from **All Sports** to **Walk** or **Run** isolates the relevant activity type for your investigation.
 
-<figure><img src="../../.gitbook/assets/strava-zoomed (1).png" alt=""><figcaption><p>Street-level view of the Presidio and Golden Gate area with Heatmaps and Segments active. The density of named segments in this area — a former US Army base — illustrates how Strava data can surface activity patterns in locations with restricted access. Each orange segment line is clickable and leads to a leaderboard of users who have recorded activity there.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/strava-zoomed (1).png" alt=""><figcaption><p>Street-level view of the Presidio and Golden Gate area with Heatmaps and Segments active. The density of named segments in this area — a former US Army base — illustrates how Strava data can surface activity patterns in locations with restricted access. Each orange segment line is clickable and leads to a leaderboard of users who have recorded activity there.</p></figcaption></figure>
 
 **Step 3 - Switch sport filters to refine results.**
 
 Use the sport type dropdown to isolate specific activity types. The screenshot below shows the same area filtered to **Walk** only, revealing foot traffic patterns along the coastal path at maximum zoom. At this level of detail, regular routes, entry and exit points, and areas of concentrated activity become clearly visible - information that can help establish patterns of life for individuals active in that location.
 
-<figure><img src="../../.gitbook/assets/strava-details-spots (1).png" alt=""><figcaption><p>Maximum zoom near Fort Point with the Walk filter active. The blue heatmap trail shows foot traffic patterns along the coastal path with high precision. The sport filter visible in the toolbar illustrates how investigators can isolate specific activity types to refine results. At this zoom level, individual paths and access routes become distinguishable.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/strava-details-spots (1).png" alt=""><figcaption><p>Maximum zoom near Fort Point with the Walk filter active. The blue heatmap trail shows foot traffic patterns along the coastal path with high precision. The sport filter visible in the toolbar illustrates how investigators can isolate specific activity types to refine results. At this zoom level, individual paths and access routes become distinguishable.</p></figcaption></figure>
 
 **Step 4 - Click a segment to access the leaderboard.**
 
@@ -79,9 +79,9 @@ The paid subscription (Strava Premium) is oriented toward personal athletic perf
 
 The global heatmap is partially accessible without an account - investigators can browse at city or regional scale without logging in. However, zooming to street-level detail triggers a login prompt, as shown in the screenshots below.
 
-<figure><img src="../../.gitbook/assets/strava-heatmap-without-login (1).png" alt=""><figcaption><p>Strava's global heatmap as seen without a registered account. City and regional scale activity is visible, but zooming to street level requires login.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/strava-heatmap-without-login (1).png" alt=""><figcaption><p>Strava's global heatmap as seen without a registered account. City and regional scale activity is visible, but zooming to street level requires login.</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/strava-zoomßoption-without-login (1).png" alt=""><figcaption><p>Attempting to zoom into street-level detail without an account triggers this prompt. A free registered account is sufficient to unlock full heatmap access.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/strava-zoomßoption-without-login (1).png" alt=""><figcaption><p>Attempting to zoom into street-level detail without an account triggers this prompt. A free registered account is sufficient to unlock full heatmap access.</p></figcaption></figure>
 
 A free Strava account registered with an email address, Google, or Apple ID is required to access street-level heatmap data, segment leaderboards, individual profiles, and the Flyby feature. No paid subscription is needed for investigative use.
 
@@ -96,7 +96,7 @@ Using Strava for open source research has several limitations:
 5. **Incomplete data:** Users may record only some activities, use the app sporadically, or switch to a private account after earlier public activity - leading to gaps in the available record.
 6. **Manipulated data:** Users can manually edit or fabricate activity data, either intentionally or unintentionally, which can produce false or misleading information.
 7. **Desktop vs mobile:** More detailed heatmap data is available on desktop. The weekly heatmap is only accessible on desktop.
-8. **Flyby availability:** The Flyby feature has been subject to [privacy restrictions](https://support.strava.com/en-us/articles/15401996-flyby-privacy-controls) and may not be available for all users or activities depending on individual privacy settings.
+8. **Flyby availability:** The Flyby feature has been subject to [privacy restrictions](https://support.strava.com/en-us/articles/15401996-flyby-privacy-controls) and may not be available for all users or activities depending on individual privacy settings. Flyby only surfaces another athlete if that user's activity privacy and their separate Flyby setting are both set to "Everyone," so it under-represents who was actually present at a given time and place.
 
 ## Ethical Considerations
 
@@ -106,7 +106,8 @@ Strava displays user-generated location data that individuals may have shared wi
 2. **Patterns of life:** Even individually innocuous data points - a morning run, a regular cycling route - can, when aggregated over time, reveal highly sensitive information about a subject's home address, workplace, daily routine, and travel schedule. Investigators should handle this data with proportionality.
 3. **Sensitive locations:** Investigations involving military bases, government facilities, or conflict zones may surface data about individuals in vulnerable or dangerous positions. This data should not be published or shared without careful consideration of the risks.
 4. **Opt-out mechanisms:** Users can exclude their data from the heatmap and restrict profile visibility through Strava's privacy settings, but many are unaware of these options. The existence of opt-out does not reduce the investigator's ethical responsibility.
-5. **Real-world consequences:** In 2024, a former [Russian submarine commander](https://nypost.com/2023/07/11/russian-submarine-captain-killed-by-assassin-on-morning-run/) was reportedly assassinated with the help of information obtained from his public Strava profile. The use of Strava data carries potential real-world consequences that investigators must weigh carefully.
+5. **Real-world consequences - individual targeting:** In July 2023, former [Russian submarine commander Stanislav Rzhitsky](https://nypost.com/2023/07/11/russian-submarine-captain-killed-by-assassin-on-morning-run/) was shot and killed while jogging in Krasnodar, Russia. Reporting at the time suggested his regular running route, shared publicly on Strava, may have helped identify his location and pattern of movement. The use of Strava data carries potential real-world consequences that investigators must weigh carefully.
+6. **Real-world consequences - military operational security:** This risk isn't limited to individuals. In 2018, Strava's heatmap [revealed secret U.S. military bases](https://techcrunch.com/2018/01/28/strava-exposes-military-bases/), prompting a Pentagon review. It recurred in 2026: [Stars and Stripes](https://www.stripes.com/theaters/middle_east/2026-08-14/geolocation-strava-centcom-adversaries-public-22541855.html) reported over 1,300 Strava users posting workouts from U.S. bases across the Middle East during the Israel-Iran escalation, including at Jordan's Muwaffaq Salti Air Base the day before [a strike there killed three U.S. soldiers](https://taskandpurpose.com/news/us-iran-war-strava-bases/). Investigators should treat this as a recurring pattern, not a one-off.
 
 ## **Similar Tools**
 
@@ -117,12 +118,14 @@ The following tools in the Bellingcat toolkit similarly surface user-generated, 
 * [**Mapillary**](https://bellingcat.gitbook.io/toolkit/more/all-tools/mapillary) - crowdsourced street-level imagery tagged to precise locations, useful for visual verification of routes and locations identified via Strava.
 * [**AllTrails**](https://bellingcat.gitbook.io/toolkit/more/all-tools/alltrails) - a trail discovery platform where public user profiles, activity history, and completed trails can surface individual movement patterns, though it lacks Strava's heatmap and segment leaderboards.
 
-## Guides and Articles
+## Guides and Article
 
-* Toler, Aric: How to Use and Interpret Data from Strava's Activity Map at [https://www.bellingcat.com/resources/how-tos/2018/01/29/strava-interpretation-guide/](https://www.bellingcat.com/resources/how-tos/2018/01/29/strava-interpretation-guide/) .
-* Snejana, Farberov: Russian submarine captain on Ukraine blacklist killed by assassin after sharing jogging route on Strava workout app, at [https://nypost.com/2023/07/11/russian-submarine-captain-killed-by-assassin-on-morning-run/](https://nypost.com/2023/07/11/russian-submarine-captain-killed-by-assassin-on-morning-run/)
-* GIJN: Running Into Open Secrets — How to Investigate Using the Strava Fitness App, April 2025 at [https://gijn.org/stories/investigations-using-strava-fitness-app/](https://gijn.org/stories/investigations-using-strava-fitness-app/) .
-* Bourdon, Sébastien & Schirer, Antoine: #StravaLeaks investigative series, Le Monde, 2024 at [https://www.lemonde.fr/en/stravaleaks/](https://www.lemonde.fr/en/stravaleaks/) .
+* Toler, Aric: How to Use and Interpret Data from Strava's Activity Map, Bellingcat, 2018, at [https://www.bellingcat.com/resources/how-tos/2018/01/29/strava-interpretation-guide/](https://www.bellingcat.com/resources/how-tos/2018/01/29/strava-interpretation-guide/)
+* Farberov, Snejana: Russian submarine captain on Ukraine blacklist killed by assassin after sharing jogging route on Strava workout app, New York Post, July 2023, at [https://nypost.com/2023/07/11/russian-submarine-captain-killed-by-assassin-on-morning-run/](https://nypost.com/2023/07/11/russian-submarine-captain-killed-by-assassin-on-morning-run/)
+* GIJN: Running Into Open Secrets - How to Investigate Using the Strava Fitness App, April 2025, at [https://gijn.org/stories/investigations-using-strava-fitness-app/](https://gijn.org/stories/investigations-using-strava-fitness-app/)
+* Bourdon, Sébastien & Schirer, Antoine: #StravaLeaks investigative series, Le Monde, 2024, at [https://www.lemonde.fr/en/stravaleaks/](https://www.lemonde.fr/en/stravaleaks/)
+* Stars and Stripes: Strava users still revealing routines of Middle East base life despite geolocation restrictions, August 2026, at [https://www.stripes.com/theaters/middle\_east/2026-08-14/geolocation-strava-centcom-adversaries-public-22541855.html](https://www.stripes.com/theaters/middle_east/2026-08-14/geolocation-strava-centcom-adversaries-public-22541855.html)
+* Task & Purpose: US bases, troops are once again being exposed by Strava, August 2026, at [https://taskandpurpose.com/news/us-iran-war-strava-bases/](https://taskandpurpose.com/news/us-iran-war-strava-bases/)
 
 ## Tool provider
 
@@ -137,4 +140,3 @@ Strava Inc., USA
 | Page maintainer |
 | --------------- |
 | tsvetelina      |
-|                 |
