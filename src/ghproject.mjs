@@ -90,6 +90,12 @@ for (const tool of tools) {
           changed.reviewers = names;
           changes.push(graphql.setTextField(item.id, FIELDS.reviewers.id, names));
         }
+        const dates = reviewers.items.map((item) => item.createdAt);
+        const latestDate = graphql.formatDate(dates.reduce((a, b) => a > b ? a : b));
+        if (item.reviewRequestedAt !== latestDate) {
+          changed.reviewRequestedAt = latestDate;
+          changes.push(graphql.setDateField(item.id, FIELDS.reviewRequestedAt.id, latestDate));
+        }
       }
 
       const dateString = graphql.formatDate(request.updatedAt);

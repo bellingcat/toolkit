@@ -16,6 +16,7 @@ const FIELD_NAMES = {
   teamMembers: 'Team Members',
   title: 'Title',
   collection: 'Collection',
+  reviewRequestedAt: 'Review Requested At',
 };
 const OPTION_NAMES = {
   reviewRequested: { name: 'Review Requested', field: 'Status' },
@@ -62,6 +63,7 @@ function getProjectItems() {
       changeRequestAuthor: getField(FIELDS.author.name, item).text,
       reviewers: getField(FIELDS.reviewers.name, item).text,
       collection: getField(FIELDS.collection.name, item).text,
+      reviewRequestedAt: getField(FIELDS.reviewRequestedAt.name, item).date,
     };
   });
 }
