@@ -1,5 +1,5 @@
 ---
-updated: '2026-06-28'
+updated: '2026-08-31'
 description: >-
   A visual tool to monitor river levels and forecast floods based on AI models
   developed by Google Research.

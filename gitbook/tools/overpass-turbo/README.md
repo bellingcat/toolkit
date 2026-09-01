@@ -1,5 +1,5 @@
 ---
-updated: '2026-06-30'
+updated: '2026-08-31'
 description: >-
   Overpass Turbo is a web-based tool for querying and visualizing OpenStreetMap
   crowd sourced data, aiding in extracting specific information like locations

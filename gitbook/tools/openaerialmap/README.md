@@ -1,5 +1,5 @@
 ---
-updated: '2026-07-01'
+updated: '2026-08-31'
 description: >-
   Platform for accessing open-licensed satellite and unmanned aerial vehicle
   (UAV) imagery

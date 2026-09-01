@@ -1,5 +1,5 @@
 ---
-updated: '2026-08-26'
+updated: '2026-08-31'
 description: >-
   MW Geofind is a tool for finding YouTube videos that had been manually
   geotagged by the creators.

@@ -1,5 +1,5 @@
 ---
-updated: '2026-06-30'
+updated: '2026-08-31'
 description: >-
   Satellites.pro allows open source researchers to quickly switch between
   several free satellite imagery and mapping services.

@@ -1,5 +1,5 @@
 ---
-updated: '2026-04-30'
+updated: '2026-08-31'
 description: >-
   Gaode Maps (also known as AMap) is a mapping application and technology from
   the Chinese company Alibaba.

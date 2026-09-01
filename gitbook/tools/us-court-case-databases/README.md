@@ -1,5 +1,5 @@
 ---
-updated: '2026-05-15'
+updated: '2026-08-31'
 description: State-by-state guide for researching criminal and civil court cases
 ---
 

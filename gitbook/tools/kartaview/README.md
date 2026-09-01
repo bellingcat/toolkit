@@ -1,5 +1,5 @@
 ---
-updated: '2026-08-27'
+updated: '2026-08-31'
 description: KartaView is a crowdsourced platform for street view imagery.
 ---
 
