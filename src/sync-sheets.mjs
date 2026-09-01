@@ -19,7 +19,7 @@ import {
 
 const SPREADSHEET_ID = process.env.GOOGLE_SHEET_ID;
 
-const TOOLS_HEADER = ['Title', 'Published', 'Last updated', 'Collection', 'Tool Space', 'Latest change request', 'Status', 'Date submitted', 'CR Author', 'CR Reviewers', 'Tool ID', 'Space ID', 'Team ID', 'Team Members'];
+const TOOLS_HEADER = ['Title', 'Published', 'Last updated', 'Collection', 'Tool Space', 'Latest change request', 'Status', 'Date submitted', 'CR Author', 'CR Reviewers', 'Review Requested At', 'Tool ID', 'Space ID', 'Team ID', 'Team Members'];
 const MEMBERS_HEADER = ['Display Name', 'Email', 'Role', 'Last seen at', 'Joined at'];
 
 // Project items that correspond to a tool (i.e. have a Tool ID).
@@ -46,6 +46,7 @@ function toolValues(item) {
     'Date submitted': item.submittedAt || '',
     'CR Author': item.changeRequestAuthor || '',
     'CR Reviewers': item.reviewers || '',
+    'Review Requested At': item.reviewRequestedAt || '',
     'Tool ID': item.toolId || '',
     'Space ID': item.spaceId || '',
     'Team ID': item.teamId || '',
@@ -333,7 +334,7 @@ async function syncTeamMembersToAdmin(sheets) {
 }
 
 // Columns written as USER_ENTERED so Sheets parses them into real booleans/dates.
-const TOOLS_TYPED_COLUMNS = ['Published', 'Last updated', 'Date submitted'];
+const TOOLS_TYPED_COLUMNS = ['Published', 'Last updated', 'Date submitted', 'Review Requested At'];
 const MEMBERS_TYPED_COLUMNS = ['Last seen at', 'Joined at'];
 
 async function main() {
