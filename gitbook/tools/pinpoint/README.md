@@ -1,5 +1,5 @@
 ---
-updated: '2026-06-28'
+updated: '2026-09-01'
 description: >-
   A tool by Google to catalogue uploaded documents and files, providing
   automated text recogntion, indexing, audiotranscriptions and other

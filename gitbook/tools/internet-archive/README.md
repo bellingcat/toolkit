@@ -1,5 +1,5 @@
 ---
-updated: '2026-06-26'
+updated: '2026-09-01'
 description: >-
   The Wayback Machine is the Internet Archive's free tool for viewing and saving
   archived web pages, with over a trillion pages captured, widely used for
