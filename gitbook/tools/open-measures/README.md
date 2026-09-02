@@ -13,7 +13,7 @@ description: >-
 
 ## Description
 
-Open Measures helps open source researchers investigate harmful online activity such as extremism and disinformation. It allows researchers to run bulk queries against online forums and social media such as Telegram and 4chan.
+Open Measures helps open source researchers investigate harmful online activity such as extremism and disinformation. It allows researchers to run bulk queries against OpenMeasures' collection of online forums and social media data on platforms such as Telegram and 4chan.
 
 Public (free) features:
 
