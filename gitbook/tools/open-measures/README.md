@@ -1,5 +1,5 @@
 ---
-updated: '2026-06-22'
+updated: '2026-09-02'
 description: >-
   Open Measures helps open source researchers investigate harmful online
   activity such as extremism and disinformation.
