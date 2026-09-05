@@ -83,6 +83,15 @@ for (const tool of tools) {
         changes.push(graphql.setTextField(item.id, FIELDS.author.id, changeRequestAuthor));
       }
 
+      // Construct a title from the CR number and subject. Most change
+      // requests are merged without a subject, so fall back to the bare number
+      // rather than writing "#23 undefined" into the field.
+      const title = `#${request.number} ${request.subject || ''}`.trim();
+      if (item.changeRequestTitle !== title) {
+        changed.changeRequestTitle = title;
+        changes.push(graphql.setTextField(item.id, FIELDS.changeRequestTitle.id, title));
+      }
+
       const reviewers = await fetchChangeRequestReviewers(space, request);
       if (reviewers.count > 0) {
         const names = reviewers.items.map((item) => item.user.email ).join(', ');
