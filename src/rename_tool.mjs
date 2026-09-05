@@ -3,6 +3,7 @@ import dataPkg from './data.mjs'
 const {getTools} = dataPkg;
 import toolsPkg from './tools.mjs'
 const {renameTool} = toolsPkg;
+import { slugify, resolveTool } from './resolve-tool.mjs';
 
 const inputToolname = process.argv[2]
 const newToolname = process.argv[3]
@@ -16,15 +17,13 @@ if (inputToolname == newToolname) {
   process.exit(1);
 }
 
-const tools = getTools();
-const tool = tools.find((x) => x.title === inputToolname || x.filename === inputToolname);
-if (!tool) {
-  console.warn("Tool not found", inputToolname);
-  process.exit(1);
-}
+// Takes a slug or a display name — this used to match titles and directory
+// names but never slugified, so "Some Tool" found a tool only when its title
+// matched exactly.
+const tool = resolveTool(getTools(), inputToolname);
 
 const oldSlug = tool.filename;
-const newSlug = newToolname.replace(/[<>:"/\\|?*\x00-\x1F]/g, '').replace(/\s+/g, '-').replace(/,/g, '').toLowerCase() || 'untitled';
+const newSlug = slugify(newToolname);
 
 renameTool(tool, newToolname);
 

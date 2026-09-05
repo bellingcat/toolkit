@@ -1,7 +1,7 @@
 import toolsPkg from './tools.mjs';
+import dataPkg from './data.mjs';
 import { CATEGORY_COLLECTION_IDS } from './config.mjs';
-
-const { slugify } = toolsPkg;
+import { resolveTool } from './resolve-tool.mjs';
 
 // Files a tool's GitBook space under the collection for its Guardian category.
 // Runs at publish time to grant Guardian access.
@@ -13,8 +13,7 @@ const { slugify } = toolsPkg;
 // publish step already takes.
 
 export async function moveToolSpace(toolName, category, deps) {
-  const { findSpace, moveSpace } = deps;
-  const slug = slugify(toolName);
+  const { findSpace, moveSpace, resolve } = deps;
 
   // No default collection to fall back on: filing a tool under the wrong
   // category is worse than failing the publish job, and the category comes
@@ -25,6 +24,11 @@ export async function moveToolSpace(toolName, category, deps) {
       `Unknown category "${category}" — expected one of: ${Object.keys(CATEGORY_COLLECTION_IDS).join(', ')}`
     );
   }
+
+  // After the category check, which is free, and before GitBook: a name that
+  // matches no directory would otherwise be slugified into a plausible-looking
+  // slug and quietly find nothing.
+  const slug = resolve(toolName);
 
   const space = await findSpace(slug);
   if (!space) {
@@ -51,6 +55,7 @@ async function main() {
   }
 
   await moveToolSpace(toolName, category, {
+    resolve: (name) => resolveTool(dataPkg.getTools(), name).filename,
     findSpace: toolsPkg.findSpace,
     moveSpace: toolsPkg.moveSpace,
   });

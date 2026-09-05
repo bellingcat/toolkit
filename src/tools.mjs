@@ -5,6 +5,7 @@ const {apiCall, getCategories, getTools, getRegions, writeIfChanged, getSummary}
 import matter from './frontmatter.mjs'
 import { ORG_ID, DEFAULT_COLLECTION_ID, TOOL_PAGE_MAINTAINERS_TEAM_ID } from './config.mjs';
 import { renameSummaryEntry, removeSummaryEntry, hasSummaryEntry } from './summary.mjs';
+import { slugify, resolveTool } from './resolve-tool.mjs';
 
 /* Example
 createTool({
@@ -57,23 +58,10 @@ function toolToSummary(tool) {
   return template.replace("Tool Name", `${title}`);
 }
 function publishTool(name) {
-  const slug = slugify(name);
-
-  // process README.md in the tool directory
-  const filepath = path.join('gitbook', 'tools', slug);
-  const filename = 'README.md';
-  if (! fs.existsSync(filepath)) {
-    console.log("Not found: ", filepath);
-    throw new Error(["Can't publish", name, "-", filepath, "does not exist"].join(' '));
-  }
-
-  const tools = getTools();
-  const tool = tools.find((x) => x.title === name || x.directory === filepath);
-
-  if (!tool) {
-    console.log("No tool found: ", name);
-    throw new Error(["Can't publish", name, "- Tool not found"].join(' '));
-  }
+  // Accepts a slug or a display name; getTools() only lists directories that
+  // have a README.md, so resolving is also the check that the tool is real.
+  const tool = resolveTool(getTools(), name);
+  const slug = tool.filename;
 
   const link = path.join('tools', slug, 'README.md');
   const summary = getSummary('gitbook');
@@ -90,14 +78,6 @@ function publishTool(name) {
   delete json.draft;
   json.publishedAt = Date.now();
   fs.writeFileSync(tool.jsonFilePath, JSON.stringify(json, null, 2));
-}
-function slugify(toolName) {
-  const safe = toolName
-    .replace(/[<>:"/\\|?*\x00-\x1F]/g, '')
-    .replace(/\s+/g, '-')
-    .replace(/,/g, '')
-    .toLowerCase();
-  return safe || 'untitled';
 }
 function createTool(tool, opts={}) {
   const { name, tags } = tool;
@@ -432,16 +412,14 @@ async function fetchChangeRequestReviewers(space, changeRequest) {
   return data;
 }
 function removeTool(toolName) {
-  // Remove the tool directory
-  if (fs.existsSync(`gitbook/tools/${toolName}`)) {
-    fs.rmSync(`gitbook/tools/${toolName}`, { recursive: true });
-  } else {
-    throw new Error(`Tool ${toolName} not found`);
-  }
+  // Resolved before anything is deleted, so a name that matches nothing fails
+  // without touching the repo. Takes a slug or a display name.
+  const tool = resolveTool(getTools(), toolName);
 
-  // Read the SUMMARY.md file and remove the markdown link to this tool
-  const summary = fs.readFileSync('gitbook/SUMMARY.md', 'utf-8');
-  fs.writeFileSync('gitbook/SUMMARY.md', removeSummaryEntry(summary, toolName));
+  fs.rmSync(tool.directory, { recursive: true });
+
+  const summary = getSummary('gitbook');
+  fs.writeFileSync('gitbook/SUMMARY.md', removeSummaryEntry(summary, tool.filename));
 }
 
 function updateToolJSON(tool, json) {

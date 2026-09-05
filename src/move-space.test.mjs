@@ -2,13 +2,17 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { moveToolSpace } from './move-space.mjs';
 import { CATEGORY_COLLECTION_IDS } from './config.mjs';
+import { resolveTool } from './resolve-tool.mjs';
 
 // Records every call in order so tests can assert that nothing reached GitBook
 // on the paths that are supposed to bail out first.
-function stubDeps({ space = { id: 'sp-1' } } = {}) {
+function stubDeps({ space = { id: 'sp-1' }, slugs = ['alpha', 'sentinel-hub-eo-browser'] } = {}) {
   const calls = [];
   return {
     calls,
+    // The real resolver over a stub tool list, so these exercise the same
+    // name-or-slug matching main() wires up against gitbook/tools.
+    resolve: (name) => resolveTool(slugs.map((s) => ({ filename: s, title: s })), name).filename,
     findSpace: async (title) => { calls.push(['findSpace', title]); return space; },
     moveSpace: async (id, parent) => { calls.push(['moveSpace', id, parent]); },
   };
@@ -59,4 +63,14 @@ test('looks the space up by slug, not by the display name it was given', async (
   await moveToolSpace('Sentinel Hub, EO Browser', 'maps-and-satellites', deps);
 
   assert.equal(deps.calls[0][1], 'sentinel-hub-eo-browser');
+});
+
+// publish-tool.yml passes the same tool name to publish-tool.mjs and to this
+// script. A name that published fine but resolves to nothing here means the two
+// have drifted, and moving on a guessed slug would file the wrong space.
+test('refuses a tool that is not in the repo before calling GitBook', async () => {
+  const deps = stubDeps();
+
+  await assert.rejects(() => moveToolSpace('ghost', 'geolocation', deps), /Tool not found/);
+  assert.deepEqual(deps.calls, []);
 });
