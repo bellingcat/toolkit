@@ -13,7 +13,7 @@ on:
   workflow_dispatch:
     inputs:
       toolName:
-        description: 'Folder name in gitbook/tools'
+        description: 'Tool Name'
         type: string
         required: true
   pull_request:
@@ -37,7 +37,7 @@ jobs:
         env:
           TOOL_NAME: ${{ inputs.toolName }}
         run: |
-          node src/remove-tool.mjs $TOOL_NAME
+          node src/remove-tool.mjs "$TOOL_NAME"
           npm run build
 
       - name: Commit changes
@@ -52,14 +52,14 @@ jobs:
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
-          branch: remove-tool-${{ inputs.toolName }}
+          branch: remove-tool-${{ steps.node.outputs.toolId }}
           force: true
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          branch: remove-tool-${{ inputs.toolName }}
+          branch: remove-tool-${{ steps.node.outputs.toolId }}
           commit-message: "Remove Tool: ${{ inputs.toolName }}"
           title: "Remove Tool: ${{ inputs.toolName }}"
           body: "This pull request removes ${{ inputs.toolName }} from gitbook/tools and from SUMMARY.md.\n\nMerging it also deletes the tool's GitBook space and team and its GitHub Project item. Deleted spaces are recoverable from GitBook for 7 days.\n\nCreated via workflow. In case of merge conflicts, re-run all jobs on [Run ${{ github.run_number }}](https://github.com/bellingcat/toolkit/actions/runs/${{ github.run_id }})."

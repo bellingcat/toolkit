@@ -420,6 +420,8 @@ function removeTool(toolName) {
 
   const summary = getSummary('gitbook');
   fs.writeFileSync('gitbook/SUMMARY.md', removeSummaryEntry(summary, tool.filename));
+
+  return tool.filename;
 }
 
 function updateToolJSON(tool, json) {

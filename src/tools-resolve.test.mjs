@@ -88,3 +88,12 @@ test('publishTool refuses a tool that is already in SUMMARY.md', () => {
     assert.throws(() => publishTool('Some Tool'), /already published/);
   });
 });
+
+// remove-tool.yml names its branch after the tool and the cleanup job parses
+// the slug back out of that branch name, so the caller needs the resolved slug
+// rather than whatever the person typed.
+test('removeTool returns the resolved slug', () => {
+  withFixture([{ slug: 'some-tool', title: 'Some Tool' }], entry('some-tool', 'Some Tool'), () => {
+    assert.equal(removeTool('Some Tool'), 'some-tool');
+  });
+});
