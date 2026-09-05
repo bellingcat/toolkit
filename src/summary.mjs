@@ -23,6 +23,22 @@ function renameSummaryEntry(summary, oldSlug, newSlug) {
   return summary.replace(entryPattern(oldSlug), `  * [$1](tools/${newSlug}/README.md)`);
 }
 
+// Whether a tool already has an entry — the check publishing makes before
+// appending one. publishTool tested the raw link as a substring, which both
+// matched loosely (the dots in a slug like 192.com matched any character) and
+// ignored where in the line it landed.
+function hasSummaryEntry(summary, slug) {
+  return entryPattern(slug).test(summary);
+}
+
+// Drops a tool's SUMMARY.md entry, newline and all. Only published tools have
+// one, so an unpublished draft leaves the summary untouched. removeTool built
+// this pattern itself, and unescaped — a slug carrying a regex metacharacter
+// could match another tool's line and drop that instead.
+function removeSummaryEntry(summary, slug) {
+  return summary.replace(new RegExp(entryPattern(slug).source + '\\n?', 'm'), '');
+}
+
 // Rewrites each tool's SUMMARY.md entry to display `title`, leaving the link
 // (and every other line) alone. A tool's title is the source of truth for its
 // name — the README's H1, or a `title` in tool.json overriding it — while
@@ -38,4 +54,4 @@ function syncSummaryTitles(summary, entries) {
   }, summary);
 }
 
-export { renameSummaryEntry, syncSummaryTitles };
+export { renameSummaryEntry, syncSummaryTitles, removeSummaryEntry, hasSummaryEntry };

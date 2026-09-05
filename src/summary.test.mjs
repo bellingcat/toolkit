@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { renameSummaryEntry, syncSummaryTitles } from './summary.mjs';
+import { renameSummaryEntry, syncSummaryTitles, removeSummaryEntry, hasSummaryEntry } from './summary.mjs';
 
 const summary = [
   '# Table of contents',
@@ -111,4 +111,35 @@ test('syncSummaryTitles: treats regex metacharacters in a slug literally', () =>
   const s = '  * [Old](tools/192.com/README.md)\n  * [Other](tools/192Xcom/README.md)';
   const out = syncSummaryTitles(s, [{ slug: '192.com', title: 'New' }]);
   assert.equal(out, '  * [New](tools/192.com/README.md)\n  * [Other](tools/192Xcom/README.md)');
+});
+
+test('removeSummaryEntry: drops the tool\'s line and its newline', () => {
+  const s = '  * [A](tools/a/README.md)\n  * [B](tools/b/README.md)\n';
+  assert.equal(removeSummaryEntry(s, 'a'), '  * [B](tools/b/README.md)\n');
+});
+
+test('removeSummaryEntry: leaves the summary alone for an unpublished draft', () => {
+  assert.equal(removeSummaryEntry(nav, 'never-published'), nav);
+});
+
+// The bug removeTool carried: it built its own unescaped pattern, so the dot in
+// a slug like 192.com matched any character and could drop another tool's line.
+test('removeSummaryEntry: treats regex metacharacters in a slug literally', () => {
+  const s = '  * [Other](tools/192Xcom/README.md)\n  * [Old](tools/192.com/README.md)\n';
+  assert.equal(removeSummaryEntry(s, '192.com'), '  * [Other](tools/192Xcom/README.md)\n');
+});
+
+test('hasSummaryEntry: true for a tool already in the navigation', () => {
+  assert.equal(hasSummaryEntry(nav, 'blackbird'), true);
+});
+
+test('hasSummaryEntry: false for an unpublished draft', () => {
+  assert.equal(hasSummaryEntry(nav, 'never-published'), false);
+});
+
+// publishTool matched the raw link substring, so the dots in a slug like
+// 192.com matched any character and a near-miss slug read as already published.
+test('hasSummaryEntry: treats regex metacharacters in a slug literally', () => {
+  const s = '  * [Other](tools/192Xcom/README.md)\n';
+  assert.equal(hasSummaryEntry(s, '192.com'), false);
 });

@@ -4,7 +4,7 @@ import pkg from './data.mjs'
 const {apiCall, getCategories, getTools, getRegions, writeIfChanged, getSummary} = pkg;
 import matter from './frontmatter.mjs'
 import { ORG_ID, DEFAULT_COLLECTION_ID, TOOL_PAGE_MAINTAINERS_TEAM_ID } from './config.mjs';
-import { renameSummaryEntry } from './summary.mjs';
+import { renameSummaryEntry, removeSummaryEntry, hasSummaryEntry } from './summary.mjs';
 
 /* Example
 createTool({
@@ -78,7 +78,7 @@ function publishTool(name) {
   const link = path.join('tools', slug, 'README.md');
   const summary = getSummary('gitbook');
 
-  if (summary.match(link)) {
+  if (hasSummaryEntry(summary, slug)) {
     console.log("Link already found in summary: ", link);
     throw new Error(["Can't publish", name, "-", link, "already published"].join(' '));
   }
@@ -441,8 +441,7 @@ function removeTool(toolName) {
 
   // Read the SUMMARY.md file and remove the markdown link to this tool
   const summary = fs.readFileSync('gitbook/SUMMARY.md', 'utf-8');
-  const newSummary = summary.replace(new RegExp(`  \\* \\[.*\\]\\(tools/${toolName}\\/README.md\\)\n`), '');
-  fs.writeFileSync('gitbook/SUMMARY.md', newSummary);
+  fs.writeFileSync('gitbook/SUMMARY.md', removeSummaryEntry(summary, toolName));
 }
 
 function updateToolJSON(tool, json) {
