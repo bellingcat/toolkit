@@ -1,6 +1,7 @@
 import pkg from './tools.mjs'
 const {removeTool} = pkg;
-import client from './ghproject-client.mjs';
+
+// Removes the tool files and its SUMMARY.md entry in prep for a PR.
 
 const toolName = process.argv[2]
 if (!toolName) {
@@ -10,9 +11,3 @@ if (!toolName) {
 
 removeTool(toolName);
 console.log(`Tool ${toolName} removed`);
-
-if (process.env.GH_TOKEN) {
-  client.removeItemFromProject(toolName);
-} else {
-  console.warn('GH_TOKEN not set — skipping GitHub project deletion');
-}

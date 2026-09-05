@@ -303,6 +303,33 @@ async function updateSpaceEmoji(space, emoji) {
   });
 }
 
+// GitBook answers a delete with 205 when it removed the resource and 204 when
+// the resource wasn't there to begin with, so the deletes below are idempotent:
+// re-running a teardown that failed partway through is safe. Returns true when
+// this call is the one that did the deleting.
+function expectDeleted(response, what) {
+  if (response.status !== 204 && response.status !== 205) {
+    throw new Error(`Failed to delete ${what}: HTTP ${response.status}`);
+  }
+  return response.status === 205;
+}
+
+// Deleted spaces are held for 7 days before GitBook removes them for good, so
+// an unwanted deletion is recoverable from the GitBook UI within that window.
+async function deleteSpace(spaceId) {
+  const response = await apiCall(`https://api.gitbook.com/v1/spaces/${spaceId}`, {
+    method: 'DELETE',
+  });
+  return expectDeleted(response, `space ${spaceId}`);
+}
+
+async function deleteTeam(teamId) {
+  const response = await apiCall(`https://api.gitbook.com/v1/orgs/${ORG_ID}/teams/${teamId}`, {
+    method: 'DELETE',
+  });
+  return expectDeleted(response, `team ${teamId}`);
+}
+
 async function findTeam(name) {
   const teams = await fetchPaginated(
     (p) => `https://api.gitbook.com/v1/orgs/${ORG_ID}/teams?` + new URLSearchParams({ title: name, page: p })
@@ -447,6 +474,8 @@ export default {
   findSpace,
   renameSpace,
   updateSpaceEmoji,
+  deleteSpace,
+  deleteTeam,
   updateToolJSON,
   updateToolCategories,
   updateToolSummary,

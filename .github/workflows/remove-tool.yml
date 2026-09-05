@@ -1,6 +1,14 @@
 name: Remove Tool
-run-name: Remove ${{ inputs.toolName }} by @${{ github.actor }}
+run-name: >-
+  ${{ github.event_name == 'workflow_dispatch'
+      && format('Remove {0} by @{1}', inputs.toolName, github.actor)
+      || format('Clean up after {0}', github.event.pull_request.head.ref) }}
 
+# Removal happens in two halves. The workflow_dispatch half edits the repo and
+# opens a PR; the cleanup half tears down the tool's GitBook space and team and
+# its GitHub Project item, and runs only once that PR has merged. Nothing
+# outside the repo is destroyed while the removal is still up for review — a PR
+# closed unmerged leaves the tool intact everywhere.
 on:
   workflow_dispatch:
     inputs:
@@ -8,9 +16,13 @@ on:
         description: 'Folder name in gitbook/tools'
         type: string
         required: true
+  pull_request:
+    types: [closed]
+    branches: [main]
 
 jobs:
   remove-tool:
+    if: github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
 
     steps:
@@ -24,7 +36,6 @@ jobs:
         id: node
         env:
           TOOL_NAME: ${{ inputs.toolName }}
-          GH_TOKEN: ${{ secrets.GH_PROJECT_TOKEN }}
         run: |
           node src/remove-tool.mjs $TOOL_NAME
           npm run build
@@ -36,7 +47,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add .
-          git commit -m "Remove $TOOL_NAME"
+          git commit -m "Remove Tool: $TOOL_NAME"
 
       - name: Push changes
         uses: ad-m/github-push-action@master
@@ -51,4 +62,50 @@ jobs:
           branch: remove-tool-${{ inputs.toolName }}
           commit-message: "Remove Tool: ${{ inputs.toolName }}"
           title: "Remove Tool: ${{ inputs.toolName }}"
-          body: "This pull request removes ${{ inputs.toolName }} from gitbook/tools and from SUMMARY.md.\n\nCreated via workflow. In case of merge conflicts, re-run all jobs on [Run ${{ github.run_number }}](https://github.com/bellingcat/toolkit/actions/runs/${{ github.run_id }})."
+          body: "This pull request removes ${{ inputs.toolName }} from gitbook/tools and from SUMMARY.md.\n\nMerging it also deletes the tool's GitBook space and team and its GitHub Project item. Deleted spaces are recoverable from GitBook for 7 days.\n\nCreated via workflow. In case of merge conflicts, re-run all jobs on [Run ${{ github.run_number }}](https://github.com/bellingcat/toolkit/actions/runs/${{ github.run_id }})."
+
+  # Fires when a remove-tool-<slug> PR merges. Safe to re-run: GitBook answers
+  # an already-deleted space or team with 204 rather than an error, and the
+  # project item is deleted last, so a run that failed partway through still
+  # has the IDs it needs the second time.
+  cleanup:
+    if: >-
+      github.event_name == 'pull_request'
+      && github.event.pull_request.merged == true
+      && startsWith(github.event.pull_request.head.ref, 'remove-tool-')
+    runs-on: ubuntu-latest
+
+    steps:
+      # main, not the PR ref, so the guard below sees the post-merge tree.
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Derive tool ID from branch name
+        id: slug
+        env:
+          HEAD_REF: ${{ github.event.pull_request.head.ref }}
+        run: echo "toolId=${HEAD_REF#remove-tool-}" >> "$GITHUB_OUTPUT"
+
+      # Last line of defence before a destructive call: if the tool is somehow
+      # still on main, the removal didn't take and its space must not be torn
+      # down.
+      - name: Verify the tool is gone from main
+        env:
+          TOOL_ID: ${{ steps.slug.outputs.toolId }}
+        run: |
+          if [ -d "gitbook/tools/$TOOL_ID" ]; then
+            echo "gitbook/tools/$TOOL_ID still exists on main — refusing to delete its GitBook space"
+            exit 1
+          fi
+
+      - name: Delete GitBook space and team, and the project item
+        env:
+          GITBOOK_API_TOKEN: ${{ secrets.GITBOOK_API_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_PROJECT_TOKEN }}
+          TOOL_ID: ${{ steps.slug.outputs.toolId }}
+        run: node src/remove-space.mjs "$TOOL_ID"
