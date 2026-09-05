@@ -19,7 +19,7 @@ import {
 
 const SPREADSHEET_ID = process.env.GOOGLE_SHEET_ID;
 
-const TOOLS_HEADER = ['Title', 'Published', 'Last updated', 'Collection', 'Tool Space', 'Latest change request', 'Status', 'Date submitted', 'CR Author', 'CR Reviewers', 'Review Requested At', 'Tool ID', 'Space ID', 'Team ID', 'Team Members'];
+const TOOLS_HEADER = ['Title', 'Published', 'Last updated', 'Collection', 'Tool Space', 'Latest change request', 'CR Title', 'Status', 'Date submitted', 'CR Author', 'CR Reviewers', 'Review Requested At', 'Tool ID', 'Space ID', 'Team ID', 'Team Members'];
 const MEMBERS_HEADER = ['Display Name', 'Email', 'Role', 'Last seen at', 'Joined at'];
 
 // Project items that correspond to a tool (i.e. have a Tool ID).
@@ -42,6 +42,7 @@ function toolValues(item) {
     'Collection': item.collection || '',
     'Tool Space': item.spaceUrl || '',
     'Latest change request': item.url || '',
+    'CR Title': item.changeRequestTitle || '',
     'Status': item.status || '',
     'Date submitted': item.submittedAt || '',
     'CR Author': item.changeRequestAuthor || '',
