@@ -1,4 +1,5 @@
 import toolsPkg from './tools.mjs';
+import { args, requireEnv } from './cli.mjs';
 const { findSpace, renameSpace } = toolsPkg;
 
 // Renames a tool's GitBook space to match its new slug. Split out of
@@ -9,17 +10,15 @@ const { findSpace, renameSpace } = toolsPkg;
 // old slug is what identifies the space to rename. renameTool used to look it
 // up by tool.directory ("gitbook/tools/<slug>"), which never matched a space
 // title, so the rename silently did nothing.
-const [oldSlug, newSlug] = process.argv.slice(2);
+//
+// Slugs, not names: this runs after the rename has been pushed, so the old slug
+// names a directory that is gone and the new one is not this script's to derive.
+const [oldSlug, newSlug] = args(
+  'Usage: node src/rename-space.mjs <oldToolId> <newToolId>',
+  'oldToolId', 'newToolId'
+);
 
-if (!oldSlug || !newSlug) {
-  console.error('Usage: node src/rename-space.mjs <oldToolId> <newToolId>');
-  process.exit(1);
-}
-
-if (!process.env.GITBOOK_API_TOKEN) {
-  console.warn('GITBOOK_API_TOKEN not set — skipping GitBook space rename');
-  process.exit(0);
-}
+requireEnv(['GITBOOK_API_TOKEN'], { skip: true, context: 'skipping GitBook space rename' });
 
 const space = await findSpace(oldSlug);
 if (!space) {

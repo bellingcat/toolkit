@@ -1,14 +1,12 @@
 import pkg from './tools.mjs'
+import { args } from './cli.mjs';
 const {createToolOnGitbook} = pkg;
 
-// Create a new tool directory from the command line
-const toolName = process.argv[2];
-const email = process.argv[3];
+// Creates the GitBook space and team for a new tool. Runs before add-tool.mjs
+// makes the directory, so there is nothing in the repo to resolve against yet.
+const [toolName] = args('Usage: node src/add-space.mjs "Tool Name" [email]', 'toolName');
+const email = (process.argv[3] || '').trim();
 
-if (!toolName) {
-  console.warn('Usage: node add-space.mjs "Tool Name" [email]');
-  process.exit(1);
-}
 createToolOnGitbook(toolName, email).then(function(space) {
   console.log(`${space.id} ${space.teamId}`);
   console.warn(space.urls.app);

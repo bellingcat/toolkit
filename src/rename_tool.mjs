@@ -4,15 +4,14 @@ const {getTools} = dataPkg;
 import toolsPkg from './tools.mjs'
 const {renameTool} = toolsPkg;
 import { slugify, resolveTool } from './resolve-tool.mjs';
+import { args } from './cli.mjs';
 
-const inputToolname = process.argv[2]
-const newToolname = process.argv[3]
+const [inputToolname, newToolname] = args(
+  'Usage: node src/rename_tool.mjs <oldName> <newName>',
+  'oldName', 'newName'
+);
 
-if (!inputToolname || !newToolname) {
-  console.error('Usage: node rename_tool.mjs <oldName> <newName>');
-  process.exit(1);
-}
-if (inputToolname == newToolname) {
+if (inputToolname === newToolname) {
   console.error('Old name and new name are the same');
   process.exit(1);
 }

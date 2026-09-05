@@ -3,18 +3,16 @@ import path from 'path';
 import pkg from './data.mjs'
 const { apiCall } = pkg;
 import { ORG_ID } from './config.mjs';
+import { args } from './cli.mjs';
 
-// Create a new tool directory from the command line
-const categoryName = process.argv[2]
-const categoryPath = process.argv[3].toLowerCase();
-const USAGE = 'Usage: node add-cat.mjs "Category Name" {parent-category}/category-name';
-if (!categoryName) {
-  console.log(USAGE);
-  process.exit(1);
-}
-if (!categoryPath || !categoryPath.match(/[A-Za-z\/\-]*/) ) {
-  console.log('Bad category path');
-  console.log(USAGE);
+// Create a new category directory from the command line
+const USAGE = 'Usage: node src/add-cat.mjs "Category Name" {parent-category}/category-name';
+const [categoryName, categoryPathArg] = args(USAGE, 'categoryName', 'categoryPath');
+const categoryPath = categoryPathArg.toLowerCase();
+
+if (!categoryPath.match(/[A-Za-z\/\-]*/)) {
+  console.error('Bad category path');
+  console.error(USAGE);
   process.exit(1);
 }
 const slug = createCategory({

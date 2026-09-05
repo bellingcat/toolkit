@@ -2,13 +2,14 @@ import toolsPkg from './tools.mjs';
 import dataPkg from './data.mjs';
 import { CATEGORY_COLLECTION_IDS } from './config.mjs';
 import { resolveTool } from './resolve-tool.mjs';
+import { args, requireEnv, isMain } from './cli.mjs';
 
 // Files a tool's GitBook space under the collection for its Guardian category.
 // Runs at publish time to grant Guardian access.
 
 // Spaces are titled by slug — createSpace() is called with the slug, and
 // rename-space.mjs keeps the title in step — so the slug is what identifies
-// the space to move, the same lookup rename-space.mjs uses. It is derived here
+// the space to move, the same lookup rename-space.mjs uses. It is resolved here
 // rather than passed in, so the workflow can hand over the tool name its
 // publish step already takes.
 
@@ -41,18 +42,14 @@ export async function moveToolSpace(toolName, category, deps) {
 }
 
 async function main() {
-  const [toolName, category] = process.argv.slice(2);
-  if (!toolName || !category) {
-    console.error('Usage: node src/move-space.mjs "Tool Name" <category>');
-    process.exit(1);
-  }
+  const [toolName, category] = args(
+    'Usage: node src/move-space.mjs "Tool Name" <category>',
+    'toolName', 'category'
+  );
 
   // fail hard on a missing token: the category is a required publish input, so
   // silently skipping the move would publish the tool into the wrong collection
-  if (!process.env.GITBOOK_API_TOKEN) {
-    console.error(`GITBOOK_API_TOKEN not set — cannot move "${toolName}"`);
-    process.exit(1);
-  }
+  requireEnv(['GITBOOK_API_TOKEN'], { context: `cannot move "${toolName}"` });
 
   await moveToolSpace(toolName, category, {
     resolve: (name) => resolveTool(dataPkg.getTools(), name).filename,
@@ -61,7 +58,6 @@ async function main() {
   });
 }
 
-const isMain = import.meta.url === `file://${process.argv[1]}`;
-if (isMain) {
+if (isMain(import.meta.url)) {
   main();
 }

@@ -1,5 +1,6 @@
 import toolsPkg from './tools.mjs';
 import client from './ghproject-client.mjs';
+import { args, requireEnv, isMain } from './cli.mjs';
 
 // Tears down the GitBook space and team a tool was given by add-tool.yml, then
 // its GitHub Project item. The teardown counterpart to add-space.mjs.
@@ -53,18 +54,13 @@ export async function removeToolResources(slug, deps) {
 }
 
 async function main() {
-  const slug = process.argv[2];
-  if (!slug) {
-    console.error('Usage: node src/remove-space.mjs <toolId>');
-    process.exit(1);
-  }
+  // A slug, not a name: the workflow derives it from the merged PR's branch and
+  // has already verified the tool is gone from main, so there is nothing left
+  // in the repo to resolve against.
+  const [slug] = args('Usage: node src/remove-space.mjs <toolId>', 'toolId');
 
   // fail hard on a missing token
-  const missing = ['GITBOOK_API_TOKEN', 'GH_TOKEN'].filter((name) => !process.env[name]);
-  if (missing.length) {
-    console.error(`${missing.join(' / ')} not set — cannot tear down "${slug}"`);
-    process.exit(1);
-  }
+  requireEnv(['GITBOOK_API_TOKEN', 'GH_TOKEN'], { context: `cannot tear down "${slug}"` });
 
   await removeToolResources(slug, {
     findItemByToolId: client.findItemByToolId,
@@ -75,7 +71,6 @@ async function main() {
   });
 }
 
-const isMain = import.meta.url === `file://${process.argv[1]}`;
-if (isMain) {
+if (isMain(import.meta.url)) {
   main();
 }
