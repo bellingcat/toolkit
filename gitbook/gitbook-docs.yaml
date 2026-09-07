@@ -28,13 +28,13 @@ site:
                 directory: ./example-tool
     - type: section
       key: section-1
-      title: Staging
+      title: Home (staging)
       path: staging
       default: true
       children:
         - type: space
           key: space-1
-          title: Staging
+          title: Home (staging)
           path: staging
           default: true
           content:
