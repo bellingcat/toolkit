@@ -30,7 +30,7 @@ jobs:
       - name: Rename tool
         id: rename-tool
         run: |
-          node src/rename_tool.mjs "$OLD_TOOL_NAME" "$NEW_TOOL_NAME"
+          node src/rename-tool.mjs "$OLD_TOOL_NAME" "$NEW_TOOL_NAME"
           if [ -n "$(git status gitbook --porcelain)" ]; then
             echo "changes=true" >> "$GITHUB_OUTPUT"
           fi

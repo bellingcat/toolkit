@@ -7,7 +7,7 @@ import { slugify, resolveTool } from './resolve-tool.mjs';
 import { args } from './cli.mjs';
 
 const [inputToolname, newToolname] = args(
-  'Usage: node src/rename_tool.mjs <oldName> <newName>',
+  'Usage: node src/rename-tool.mjs <oldName> <newName>',
   'oldName', 'newName'
 );
 
