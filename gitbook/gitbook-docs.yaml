@@ -26,7 +26,7 @@ site:
               default: true
               hidden: true
               content:
-                directory: ./example-tool
+                directory: ./tools/example-tool
     - type: section
       key: section-1
       title: Home (staging)
@@ -39,4 +39,4 @@ site:
           path: staging
           default: true
           content:
-            directory: ./staging
+            directory: ./
