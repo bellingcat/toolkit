@@ -24,6 +24,7 @@ site:
               title: Example Tool
               path: example-tool
               default: true
+              hidden: true
               content:
                 directory: ./example-tool
     - type: section
