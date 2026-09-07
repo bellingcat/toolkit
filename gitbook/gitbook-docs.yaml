@@ -1,0 +1,17 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: Staging
+  structure:
+    - type: section-group
+      key: section-group-1
+      title: groupie
+      icon: dog
+      draft: true
+      children: []
+    - type: space
+      key: space-1
+      title: Staging
+      path: staging
+      default: true
+      content:
+        directory: ./staging
