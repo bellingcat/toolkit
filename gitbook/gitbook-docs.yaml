@@ -12,10 +12,29 @@ site:
       key: section-group-2
       title: Tools
       children: []
-    - type: space
-      key: space-1
+    - type: section
+      key: section-1
       title: Staging
       path: staging
       default: true
-      content:
-        directory: ./staging
+      children:
+        - type: space
+          key: space-1
+          title: Staging
+          path: staging
+          default: true
+          content:
+            directory: ./staging
+    - type: section
+      key: section-2
+      title: Example Tool
+      path: example-tool
+      icon: hammer
+      children:
+        - type: space
+          key: space-2
+          title: Example Tool
+          path: example-tool
+          default: true
+          content:
+            directory: ./example-tool
