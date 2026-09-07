@@ -1,12 +1,13 @@
 ---
 description: A toolkit for open source researchers
-cover: .gitbook/assets/Bellingcat_Toolkit_Ann_Kiernan stretched.png
+cover: ../.gitbook/assets/Bellingcat_Toolkit_Ann_Kiernan stretched.png
 coverY: 0
 layout:
   width: default
   cover:
     visible: true
     size: hero
+    mask: none
   title:
     visible: false
   description:
@@ -25,7 +26,7 @@ layout:
     visible: true
 ---
 
-# About
+# Home
 
 ## Welcome to Bellingcat’s Online Open Source Investigation Toolkit!
 
@@ -67,8 +68,6 @@ _Martin Sona_ is an interdisciplinary researcher and lecturer with a social psyc
 
 _Sophie Tedling_ has worked with Bellingcat as a volunteer, Tech Fellow & contributor. Her background is engineering, AI & risk, and she runs [PeakVisorforOSINV on X](https://x.com/PVforOSINV) which collects input from the research community with the goal to communicate the needs of open source researchers to the PeakVisor developer team. She is the Volunteer Toolkit Guardian for the [Maps & Satellites](https://bellingcat.gitbook.io/toolkit/categories/maps-and-satellites) category.
 
-
-
 Special thanks to everyone who contributed to the toolkit in the past:
 
 Fraser, hande
@@ -107,7 +106,7 @@ Bellingcat is an independent investigative collective of researchers, investigat
 
 You can follow [Bellingcat](https://www.bellingcat.com)'s work here:
 
-[Bellingcat website](https://www.bellingcat.com/), [BlueSky](https://bsky.app/profile/bellingcat.com), [Discord](https://discord.com/invite/bellingcat), [Facebook](https://www.facebook.com/bellingcat), [Github](https://github.com/bellingcat), [Instagram](https://www.instagram.com/bellingcatofficial/), [LinkedIn](https://www.linkedin.com/company/bellingcat), [Mastodon](https://mstdn.social/@Bellingcat), [Patreon](https://www.patreon.com/bellingcat), [Reddit](https://www.reddit.com/r/bellingcat/), [RSS](https://rss.com/podcasts/bellingcatstagetalk/) (Stage Talks), [X](categories/social-media/youtube/youtube.md), [Youtube](https://www.youtube.com/@bellingcatofficial/videos), [WhatsApp](https://www.whatsapp.com/channel/0029VbB7PAn9RZAd6F1R1m2r). You can always find an updated list of our social media presence [here](https://www.bellingcat.com/follow-bellingcat-on-social-media/).
+[Bellingcat website](https://www.bellingcat.com/), [BlueSky](https://bsky.app/profile/bellingcat.com), [Discord](https://discord.com/invite/bellingcat), [Facebook](https://www.facebook.com/bellingcat), [Github](https://github.com/bellingcat), [Instagram](https://www.instagram.com/bellingcatofficial/), [LinkedIn](https://www.linkedin.com/company/bellingcat), [Mastodon](https://mstdn.social/@Bellingcat), [Patreon](https://www.patreon.com/bellingcat), [Reddit](https://www.reddit.com/r/bellingcat/), [RSS](https://rss.com/podcasts/bellingcatstagetalk/) (Stage Talks), [X](https://github.com/bellingcat/toolkit/blob/staging/gitbook/pages/categories/social-media/youtube/youtube.md), [Youtube](https://www.youtube.com/@bellingcatofficial/videos), [WhatsApp](https://www.whatsapp.com/channel/0029VbB7PAn9RZAd6F1R1m2r). You can always find an updated list of our social media presence [here](https://www.bellingcat.com/follow-bellingcat-on-social-media/).
 
 [Bellingcat](https://www.bellingcat.com/) is a non-profit and the ability to carry out our work is dependent on the kind support of individual donors. If you would like to support our work, you can so [here](https://www.bellingcat.com/donate/).
 

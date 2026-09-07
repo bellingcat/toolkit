@@ -1,0 +1,75 @@
+---
+description: Centralized website with vulnerable species information.
+---
+
+# Species+
+
+## URL
+
+[https://www.speciesplus.net/species](https://www.speciesplus.net/species)
+
+Description<br>
+---------------
+
+This website provides information on all species currently listed in the [Convention on International Trade in Endangered Species (CITES)](https://cites.org/eng/disc/text.php), the [Convention on the Conservation of Migratory Species of Wild Animals (CMS)](https://www.cms.int/), and other environmental agreements ([MEAs](https://environment.ec.europa.eu/international-cooperation/multilateral-environmental-agreements-meas_en)). You can search by species, higher taxon, synonym, common name, or directly search for a document produced by CITES, such as reports, on a specific species. The entire database can be downloaded.
+
+The tool can be used by researchers and individuals who want to know or confirm the current status of a species, i.e., whether it can be traded or not, what type of regulations, quotas, suspensions, or decisions apply in certain regions.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-09-22 at 9.59.53 AM.png" alt=""><figcaption><p>For example, here I searched for “pangolin.” To give some context, all pangolin species are listed in Appendix I of CITES, which means they are completely prohibited from international trade. I got 8 results.</p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-09-22 at 10.02.40 AM.png" alt=""><figcaption><p>When I clicked on the first result, I obtained information about the species and the CITES list, which confirmed my ideas about the pangolin ban.</p></figcaption></figure>
+
+In addition, this tool is useful for finding information on geographical distribution and other names for species. It also has a repository of documents for each species, which is very useful for finding out about CITES proposals, reviews, and identification materials.
+
+Also available as an app on [Google Play](https://play.google.com/store/apps/details?id=com.WCMC.speciesplus\&hl=en) and the [App Store.](https://apps.apple.com/co/app/species/id1641695320)
+
+## Cost
+
+* [x] Free
+* [ ] Partially Free
+* [ ] Paid
+
+## Level of difficulty
+
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
+
+## Requirements
+
+None.
+
+## Limitations
+
+None so far.
+
+## Ethical Considerations
+
+None so far.
+
+## Guides and articles
+
+The [Species+ About page](https://www.speciesplus.net/about) provides information on how to use the site.
+
+## Tool provider
+
+[UNEP-WCMC](https://www.unep-wcmc.org/en), based in Cambridge (United Kingdom), and the [CITES Secretariat](https://cites.org/eng/disc/sec/index.php), based in Geneva (Switzerland).
+
+## Similar tools
+
+Within Species+ there is a list of related websites/applications that serve a similar purpose: listing vulnerable species in the CITES and CMS agreements in comprehensive databases, which sometimes contain trade data. The sites are:
+
+* [Checklist of CITES Species ](https://checklist.cites.org/#/en)- This tool focuses on providing information about the level of protection assigned to each CITES-listed species.
+* [CITES Trade Database](https://bellingcat.gitbook.io/toolkit/more/all-tools/cites-trade-database) - Provides commercial information on species by country.
+* [EU Captive breeding database](https://captivebreeding.unep-wcmc.org/) - Contains captive bred, ranching and mariculture information of animal species listed in the EU Wildlife Trade Regulations.
+* [CITES Wildlife TradeView](https://tradeview.cites.org/) \[[Find our toolkit entry here](https://bellingcat.gitbook.io/toolkit/more/all-tools/cites-trade-database)] - It focuses on commercial behavior with regard to protected species using visual elements.
+* [CITES Non-Detriment Findings Support Tool](https://ndfsupport.unep-wcmc.org/en) - Specialized in providing information about whether international trade in CITES listed-species is detrimental or not.
+
+## Advertising Trackers
+
+* [x] This tool has not been checked for advertising trackers yet.
+* [ ] This tool uses tracking cookies. Use with caution.
+* [ ] This tool does not appear to use tracking cookies.
+
+| Page maintainer |
+| --------------- |
+| Lieth Carrillo  |
+|                 |
