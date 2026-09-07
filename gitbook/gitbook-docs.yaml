@@ -8,6 +8,10 @@ site:
       icon: dog
       draft: true
       children: []
+    - type: section-group
+      key: section-group-2
+      title: Tools
+      children: []
     - type: space
       key: space-1
       title: Staging
