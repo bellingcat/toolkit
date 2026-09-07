@@ -11,6 +11,7 @@ site:
     - type: section-group
       key: section-group-2
       title: Tools
+      icon: hammer
       children:
         - type: section
           key: section-2
