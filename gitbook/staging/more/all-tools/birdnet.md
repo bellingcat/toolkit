@@ -1,0 +1,85 @@
+---
+updated: '2026-04-18'
+description: Identify bird sounds - find bird sounds on a global map.
+---
+
+# BirdNet
+
+## URL
+
+[https://birdnet.cornell.edu/map](https://birdnet.cornell.edu/map)
+
+## Description
+
+BirdNET LiveMap is an online interactive map that displays bird sound detections and the associated bird species from around the world in near real time.
+
+As part of a [wider research project](https://www.birds.cornell.edu/ccb/birdnet/) to use Machine Learning to learn and identify bird sounds, the [LiveMap](https://birdnet.cornell.edu/api2/live) aggregates anonymized user-inputted data and bird recordings, displaying results of bird sightings across the world from the last 24 hours.
+
+Additionally the LiveMap provides a list of recent sightings along with hourly observations and number of species observed, along with the most frequently observed birds for Europe and North America.
+
+It is based on data of sound recordings provided through the [BirdNET app](https://apps.apple.com/us/app/birdnet/id1541842885) which can be uploaded by any user. Users in turn can use the app to ID birds.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-11-01 095429.png" alt=""><figcaption><p>The LiveMap also displays the total number of observations, the number of observations in the last 24 hours, the number of species identified, the number of users in the last 24 hours and other details.</p></figcaption></figure>
+
+BirdNet can not only be useful for open source researchers who are researching environmental topics but also for those who need to identify bird calls captured in video or audio recordings, especially for narrowing down the regions of the world in which those recordings could have been taken.
+
+## Cost
+
+* [x] Free
+* [ ] Partially Free
+* [ ] Paid
+
+## Level of difficulty
+
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
+
+## Requirements
+
+The LiveMap is free to use with no sign up requirements.
+
+Similarly, the associated BirdNet app has no sign up requirements and allows for recording and identification of bird species. It also provides a checklist of birds in the user's location and predicts those likely to occur depending on the time of year.
+
+## Limitations
+
+The location data provided is on the basis of user input which might not always be accurate. The map also does not provide exact coordinates so detections are shown only approximately.
+
+Some regions or areas are only sparsely covered due to low numbers of users.
+
+Accuracy of identification may vary depending on the sound quality of the recording provided.
+
+Detailed metadata and raw audio are not available making it difficult to conduct a detailed analysis.
+
+## Ethical Considerations
+
+The LiveMap collects user data for 15 days including user devices inputting data via the app and stores this data for research purposes. The data collected includes the IP address, identification of the browser and potentially the operating system, the website referrer URL and the date and time.
+
+After 15 days it anonymizes the IP address. Users may submit a [written request](https://birdnet.cornell.edu/privacy/) to receive information on the data collected.
+
+## Guide
+
+[What is BirdNet?](https://www.birds.cornell.edu/ccb/birdnet/)
+
+A [repository of use cases](https://birdnet-team.github.io/BirdNET-Analyzer/projects.html) based on the LiveMap
+
+## Tool provider
+
+Developed by BirdNET, a collaboration between the Cornell Lab of Ornithology and Chemnitz University of Technology.
+
+## Similar Tools
+
+[Merlin](https://bellingcat.gitbook.io/toolkit/more/all-tools/merlin) allows identification of birds similarly through sound recordings like the BirdNet app but also [visually](https://merlin.allaboutbirds.org/) through photo identification.
+
+Merlin has greater geographical reach and covers USA, Canada, Europe and some commonly found species in Central and South America, and India.
+
+Both BirdNet and Merlin are developed by Cornell Lab.
+
+## Advertising Trackers
+
+* [x] This tool has not been checked for advertising trackers yet.
+* [ ] This tool uses tracking cookies. Use with caution.
+* [ ] This tool does not appear to use tracking cookies.
+
+| Page maintainer           |
+| ------------------------- |
+| Bellingcat volunteer team |
+|                           |
