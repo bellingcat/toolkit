@@ -3,12 +3,6 @@ site:
   title: Staging
   structure:
     - type: section-group
-      key: section-group-1
-      title: groupie
-      icon: dog
-      draft: true
-      children: []
-    - type: section-group
       key: section-group-2
       title: Tools
       icon: hammer
