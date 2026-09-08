@@ -20,7 +20,7 @@ site:
               default: true
               hidden: true
               content:
-                directory: ./tools/example-tool
+                directory: null
     - type: section
       key: section-1
       title: Home (staging)
