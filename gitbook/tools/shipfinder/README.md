@@ -13,13 +13,9 @@ description: >-
 
 ## Description
 
-<figure><img src=".gitbook/assets/shipfinderinterface (1).JPG" alt=""><figcaption><p><strong>SHIPFINDER INTERFACE SHOWING VESSELS AROUND ISTANBUL, AND DETAILS OF A SELECTED VESSEL</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/shipfinderinterface.JPG" alt=""><figcaption><p><strong>SHIPFINDER INTERFACE SHOWING VESSELS AROUND ISTANBUL, AND DETAILS OF A SELECTED VESSEL</strong></p></figcaption></figure>
 
 ShipFinder is an application designed to track vessels in near real-time across the globe.
-
-{% hint style="info" %}
-ShipFinder has recently discontinued the version previously available on web browser, and is now available only on iPhone and Android.
-{% endhint %}
 
 It has a map-based interactive interface which allows users to search for vessels based on location, name MMSI (Maritime Mobile Service Identities), destination, IMO (International Maritime Organisation) number or callsign.
 
@@ -48,7 +44,7 @@ The app is available on both mobile and desktop platforms, ensuring users can mo
 * [x] Partially Free
 * [ ] Paid
 
-The browser-based version of ShipFinder is free. However, its mobile application on Apple has two versions. The ['lite' version](https://apps.apple.com/gb/app/ship-finder-lite/id324177409) is free, and the [full version](https://apps.apple.com/gb/app/ship-finder/id363360636) is paid. Currently, the full version [states ](https://apps.apple.com/gb/app/ship-finder/id363360636)that it includes additional features such as "route history, search, filters, bookmarks, photos, the ability to add favourite ships". The mobile version of the app does not currently appear to exist on Android, though the website does list this as an option, indicating that it may be released in the future.&#x20;
+The browser-based version of ShipFinder is free. However, its mobile application on Apple has two versions. The ['lite' version](https://apps.apple.com/gb/app/ship-finder-lite/id324177409) is free, and the [full version](https://apps.apple.com/gb/app/ship-finder/id363360636) is paid. Currently, the full version [states ](https://apps.apple.com/gb/app/ship-finder/id363360636)that it includes additional features such as "route history, search, filters, bookmarks, photos, the ability to add favourite ships". The mobile version of the app does not currently appear to exist on Android, though the website does list this as an option, indicating that it may be released in the future.
 
 ## Level of difficulty
 
