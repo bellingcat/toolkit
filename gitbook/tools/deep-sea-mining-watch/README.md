@@ -94,11 +94,7 @@ Deep Sea Mining Watch can be combined with:&#x20;
 * [International Seabed Authority](https://isa.org.jm/exploration-contracts/) (ISA) or [NOAA](https://oceanservice.noaa.gov/deep-seabed-mineral-resources/deep-seabed-mining/) (US only) for info on authority and running contracts
 * The [Global Critical Minerals Outlook yearly reports](https://www.iea.org/reports/global-critical-minerals-outlook-2025) of the International Energy Agency (IEA) for market trends and supply and demand projections.&#x20;
 
-## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
-* [ ] This tool uses tracking cookies. Use with caution.
-* [ ] This tool does not appear to use tracking cookies.
 
 | Page maintainer                     |
 | ----------------------------------- |
