@@ -26,7 +26,7 @@ As deep sea mining occurs far offshore and out of sight in deep waters, open sou
 The USA is not a member of the international ISA and issues own licenses through the National Oceanic and Atmospheric Administration (NOAA), sometimes for the same waters. See this [visual explainer](https://www.congress.gov/crs_external_products/IG/HTML/IG10053.web.html) for details.&#x20;
 {% endhint %}
 
-<figure><img src=".gitbook/assets/Screenshot 2026-06-21 at 15.29.40.png" alt=""><figcaption><p>The Clarion-Clipperton Zone (CCZ) in international waters of the central Pacific, south-east of Hawaii; the current epicentre of deep sea mining activity. In purple the ISA licensed areas by resourcetype, in red the areas per contractor (not always visible due to overlap). Vessels appearing in an appointed area of particular environmental interest, the larger square boxes in this view, are a red flag.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2026-06-21 at 15.29.40.png" alt=""><figcaption><p>The Clarion-Clipperton Zone (CCZ) in international waters of the central Pacific, south-east of Hawaii; the current epicentre of deep sea mining activity. In purple the ISA licensed areas by resource type, in red the areas per contractor (not always visible due to overlap). Vessels appearing in an appointed area of particular environmental interest, the larger square boxes in this view, are a red flag.</p></figcaption></figure>
 
 <figure><img src=".gitbook/assets/Screenshot 2026-06-21 at 18.31.06.png" alt=""><figcaption><p>Selecting highlighted areas show associated vessels, the vessel presence in hours, area contracts and license area.</p></figcaption></figure>
 
