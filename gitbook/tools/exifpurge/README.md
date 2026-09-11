@@ -1,5 +1,8 @@
 ---
-description: EXIF Purge is a small portable application to remove EXIF metadata from multiple images at once. With the click of a button you can remove the camera, location and other technical information from a batch of photos which is embedded by the camera or the photo editing software.
+description: >-
+  ExifPurge is a small, portable application to remove EXIF and other metadata
+  from images, protecting privacy by stripping out hidden information such as
+  camera details and GPS coordinates.
 ---
 
 # ExifPurge
@@ -11,6 +14,16 @@ http://www.exifpurge.com/
 ## Description
 
 \[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+
+When taking a photo with a digital camera or smartphone, the device often embeds a wealth of hidden information alongside the image itself. This data, known as EXIF metadata, can include the exact date and time, camera model, aperture, focal length, and even GPS coordinates of where the picture was taken.
+
+ExifPurge is designed to remove these sensitive metadata. The tool helps prevent the unintentional sharing of personal details, such as home address or travel patterns, which could be discovered by anyone who examines the image.
+
+The problems it solves includes:
+
+* Protecting Personal Privacy: Removes exact GPS coordinates, date/time stamps, and device details that can reveal a person's location, habits, and identify when photos are shared online.
+* Batch Processing: Allows users to clean multiple images at once with a simple click, saving time compared to removing metadata from files individually.
+* Data Minimization: Enables users to control what information they share, stripping out camera and editing software trails that are not necessary for the image's visual content.
 
 ## Cost
 
@@ -26,11 +39,13 @@ http://www.exifpurge.com/
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+* Platforms: Available for macOS, Windows, and iOS.
+* Generally requires compatible operating system, varies by platform.
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+* Privacy Details Not Provided: On iOS App Store, the developer has not provided details about its privacy practices and data handling to Apple.
+* No Cloud Analysis: It is a local tool for removing metadata, not for analyzing or comparing metadata from multiple files.
 
 ## Ethical Considerations
 
@@ -38,11 +53,11 @@ http://www.exifpurge.com/
 
 ## Guide
 
-\[\[Link to a guide on this tool]]
+An early, separate project also named exifpurge was used to read metadata: [https://lists.debian.org/debian-wnpp/2007/06/msg00469.html](https://lists.debian.org/debian-wnpp/2007/06/msg00469.html)
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+Uconomix Technologies
 
 ## Advertising Trackers
 
@@ -50,8 +65,7 @@ http://www.exifpurge.com/
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
-
+| Page maintainer          |
+| ------------------------ |
+| Seraphine Sheena Gunawan |
+| August 2026              |
