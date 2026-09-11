@@ -12,7 +12,7 @@ description: Deep-Sea Mining Watch maps and monitors vessels involved in deep se
 
 Deep Sea Mining Watch displays deep sea mining vessel presence on a global map, using a heatmap to highlight areas with high mining activity.&#x20;
 
-<figure><img src=".gitbook/assets/Screenshot 2026-06-21 at 12.19.34.png" alt=""><figcaption><p>The Deep Sea Mining Vessels filter on the Global Fishing Watch map highlights areas with deep sea mining activity.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2026-06-21 at 12.19.34.png" alt=""><figcaption><p>The Deep Sea Mining Vessels filter on the <a href="https://bellingcat.gitbook.io/toolkit/more/all-tools/global-fishing-watch-map">Global Fishing Watch</a> (GFW) map highlights areas with deep sea mining activity.</p></figcaption></figure>
 
 {% hint style="info" %}
 Deep Sea Mining is the extraction of mineral deposits from the ocean floor. Metals such as nickel and cobalt are among the most sought after, because of soaring demands for use in batteries, electric vehicles and spacecraft. Exploration contracts can be held by (state-sponsored) private companies or state-owned entities. There is still ongoing debate on environmental concerns, licensing and costs and full-scale mining has not yet been realized. The legal and political landscape is changing fast.
