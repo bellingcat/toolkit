@@ -32,7 +32,7 @@ The USA is not a member of the international ISA and issues own licenses through
 
 <figure><img src=".gitbook/assets/Screenshot 2026-06-21 at 18.35.39.png" alt=""><figcaption><p>Zooming in on a specific vessel shows all data from Global Fishing Watch, including IMO and MMSI numbers, past voyages, port calls and owners. </p></figcaption></figure>
 
-The Deep Sea Mining Watch is a filter on the Global Fishing Watch map and uses the same interface. See the [Global Fishing Watch toolkit description](./#url) for details on all available features: they are the same for both tools. As Deep Sea Mining Watch runs inside the GFW platform, logins point to the same account and saved views, vessel groups, reports and other customized parts will carry over. The main difference is that the Deep Sea Mining Watch data is not available by API.&#x20;
+The Deep Sea Mining Watch is a filter on the Global Fishing Watch map and uses the same interface. See the [Global Fishing Watch toolkit description](./#url) for details on all available features; they are the same for both tools. As Deep Sea Mining Watch runs inside the GFW platform, logins point to the same account and saved views, vessel groups, reports and other customized parts will carry over. The main difference is that the Deep Sea Mining Watch data is not available by API.&#x20;
 
 Data goes back to January 2012 and a comparison between two dates can be made, or a timeframe of the last 30 days, 3/6 months or the past year.
 
