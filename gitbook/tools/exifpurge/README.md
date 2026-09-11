@@ -9,7 +9,7 @@ description: >-
 
 ## URL
 
-http://www.exifpurge.com/
+[http://www.exifpurge.com/](http://www.exifpurge.com/)
 
 ## Description
 
