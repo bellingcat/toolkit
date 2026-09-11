@@ -13,8 +13,6 @@ description: >-
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
-
 When taking a photo with a digital camera or smartphone, the device often embeds a wealth of hidden information alongside the image itself. This data, known as EXIF metadata, can include the exact date and time, camera model, aperture, focal length, and even GPS coordinates of where the picture was taken.
 
 ExifPurge is designed to remove these sensitive metadata. The tool helps prevent the unintentional sharing of personal details, such as home address or travel patterns, which could be discovered by anyone who examines the image.
@@ -30,8 +28,6 @@ The problems it solves includes:
 * [x] Free
 * [ ] Partially Free
 * [ ] Paid
-
-\[\[Pricing or subscription information, if relevant.]]
 
 ## Level of difficulty
 
@@ -49,7 +45,7 @@ The problems it solves includes:
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+
 
 ## Guide
 
