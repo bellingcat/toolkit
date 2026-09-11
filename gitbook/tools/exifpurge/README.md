@@ -55,12 +55,6 @@ An early, separate project also named exifpurge was used to read metadata: [http
 
 Uconomix Technologies
 
-## Advertising Trackers
-
-* [x] This tool has not been checked for advertising trackers yet.
-* [ ] This tool uses tracking cookies. Use with caution.
-* [ ] This tool does not appear to use tracking cookies.
-
 | Page maintainer          |
 | ------------------------ |
 | Seraphine Sheena Gunawan |
