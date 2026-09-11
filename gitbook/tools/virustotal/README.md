@@ -67,11 +67,7 @@ VirusTotal offers a [documentation hub](https://docs.virustotal.com/) with guide
 
 The tool provider is Chronicle.Security, part of the Google Cloud Platform.
 
-## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
-* [ ] This tool uses tracking cookies. Use with caution.
-* [ ] This tool does not appear to use tracking cookies.
 
 | Page maintainer          |
 | ------------------------ |
