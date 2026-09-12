@@ -2,7 +2,7 @@
 
 | Name | Description | Cost | Tool Review and Guide |
 | --- | --- | --- | --- |
-| Archive.today | Archive any webpage, including Facebook and search for archived pages. | <mark style="background-color:green;">Free</mark> | [https://bellingcat.gitbook.io/toolkit/more/all-tools/archive.today](../../tools/archive.today/README.md) |
+| Archive.today | Archive any webpage and search for archived pages. | <mark style="background-color:green;">Free</mark> | [https://bellingcat.gitbook.io/toolkit/more/all-tools/archive.today](../../tools/archive.today/README.md) |
 | Auto Archiver | Bellingcat's tool to automatically archive social media posts, videos, and images. Free and Open-Source. | <mark style="background-color:green;">Free</mark> | [https://bellingcat.gitbook.io/toolkit/more/all-tools/auto-archiver](../../tools/auto-archiver/README.md) |
 | Bellingcat TikTok Hashtag Analysis | Archive content and metadata from TikTok posts that contain one or more specified hashtags | <mark style="background-color:green;">Free</mark> | <p><sub><em>Guide not available</em></sub></p><mark style="background-color:blue;"> [https://github.com/bellingcat/tiktok-hashtag-analysis](https://github.com/bellingcat/tiktok-hashtag-analysis) </mark> |
 | Distill | Distill is a website change monitoring tool that allows users to track changes on web pages. | <mark style="background-color:orange;">Partially Free</mark> | [https://bellingcat.gitbook.io/toolkit/more/all-tools/distill](../../tools/distill/README.md) |
