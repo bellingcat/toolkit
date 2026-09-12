@@ -14,11 +14,19 @@ description: >-
 
 ## Description
 
-Hugin is an open-source panorama photo stitching and HDR (High Dynamic Range imaging) merging software. It assists users in combining multiple images to create seamless panoramas and can adjust for the optical distortions in camera lenses. A common use case is producing wide-angle shots by stitching together several overlapping photos. This can allow for the creation of multiple exposure images, as well as large composite shots that combine dozens of images. The tool offers some automated features for image stitching, though manual use is suggested to avoid artifacting or unintended errors.
+Hugin is an open-source panorama photo stitching and HDR (High Dynamic Range imaging) merging software. It assists users in combining multiple images to create seamless panoramas and can adjust for the optical distortions in camera lenses. A common use case is producing wide-angle shots by stitching together several overlapping photos. This can allow for the creation of multiple exposure images, as well as large composite shots that combine dozens of images. The tool offers some automated features for image stitching, though manual use is suggested to avoid artifacting or unintended errors. Hugin generates panorama with just a few, or a hundred images, to recreate a full picture.
 
 <div align="left"><figure><img src=".gitbook/assets/Canon EOS REBEL T5355.JPG" alt="" width="375"><figcaption><p>Iceland Glacier, Image #1</p></figcaption></figure> <figure><img src=".gitbook/assets/Canon EOS REBEL T5358.JPG" alt="" width="375"><figcaption><p>Iceland Glacier, Image #2</p></figcaption></figure></div>
 
 <figure><img src=".gitbook/assets/Iceland Iceberg.jpeg" alt=""><figcaption><p>Composite of Above Images, Stitched Together Automatically by Hugin, Images Source: Voulpe</p></figcaption></figure>
+
+## Guide
+
+Steps to use Hugin include:
+
+1. Uploading images (the more images are uploaded, the longer the app while take to create the panorama).
+2. Aligning images (some panoramas require manual aligning of photos to support the app with linking the photos together).
+3. Create panorama (options include image size, output and file format including TIFF, JPEG, PNG).
 
 ## Cost
 
@@ -28,17 +36,15 @@ Hugin is an open-source panorama photo stitching and HDR (High Dynamic Range ima
 
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>3</td></tr></tbody></table>
-
 ## Requirements
 
 Hugin is available on the following platforms:
 
-* Linux (packages available for Debina, Fedora, Gentoo, Ubuntu, and others)
-* FreeBSD
-* BSD
-* Mac (not Silicon)
-* Windows
+* Linux (packages available for Debina, Fedora, Gentoo, Ubuntu, and others).
+* FreeBSD.
+* BSD.
+* Mac (for newer Apple Silicon chips, Rosetta or Homebrew is required to run the app).
+* Windows.
 
 Hugin is available in 22 [languages](https://hugin.sourceforge.io/): Brazilian Portuguese, Bulgarian, Catalan, Chinese Simplified, Chinese Traditional, Czech, Dutch, Danish, English, French, German, Hungarian, Italian, Japanese, Korean, Polish, Russian, Slovakian, Slovenian, Spanish, Swedish and Ukranian.
 
@@ -48,6 +54,7 @@ Hugin, like many open-source tools, may have the following limitations:
 
 * **Steeper Learning Curve**: Requires some experience to get the best results. When stitching together photos that are clear and closely aligned, Hugin can automate the selection of control points, used to estimate the relative position and lens parameters. To avoid artifacting, it is best practice to develop a basic understanding of control points and how Hugin stitches images together.
 * **Performance**: May be slower compared to commercial tools with optimized algorithms. User experience can be inconsistent. For example, the Interface tab may not function while a project is ongoing.
+* **Operating system**: Using Hugin on certain operating systems, such as the MacOS system with Apple silicon chip, requires additional softwares (Rosetta or Homebrew) to run the app. To note, running Hugin through Homebrew requires command line familiarity.
 * **User Interface**: The UI might be less intuitive and user-friendly for beginners. Hugin offers three UI variations under the Interface tab, these are: Beginner, Advanced, Expert. While Beginner provides the helpful visuals, users should employ the Advanced UI if possible. It provides a balance of accessibility and options.
 * **Support**: Limited official support; relies on community forums and documentation. Receives regular updates, last modification to Hugin is listed as 2025/10/02.
 
@@ -69,15 +76,15 @@ To effectively use Hugin, especially for beginners or those looking to refine th
 
 **Tutorials and Articles**
 
-* _Carpebble - Using Hugin_ (no date). Available at: [https://sites.google.com/site/carpebble/home/360x180-panoramas/using-hugin](https://sites.google.com/site/carpebble/home/360x180-panoramas/using-hugin) (Accessed: 4 August 2025).
-* _Creating linear panoramas with Hugin_ (no date). Available at: [http://www.dojoe.net/tutorials/linear-pano/](http://www.dojoe.net/tutorials/linear-pano/) (Accessed: 4 August 2025).
-* _Hugin Tutorials_ (no date). Available at: [https://hugin.sourceforge.io/tutorials/index.shtml](https://hugin.sourceforge.io/tutorials/index.shtml) (Accessed: 4 August 2025).
+* _Carpebble - Using Hugin_ (no date). Available at: [https://sites.google.com/site/carpebble/home/360x180-panoramas/using-hugin](https://sites.google.com/site/carpebble/home/360x180-panoramas/using-hugin) (Last accessed: 31 August 2026).
+* _Creating linear panoramas with Hugin_ (no date). Available at: [http://www.dojoe.net/tutorials/linear-pano/](http://www.dojoe.net/tutorials/linear-pano/) (Last accessed: 31 August 2026).
+* _Hugin Tutorials_ (no date). Available at: [https://hugin.sourceforge.io/tutorials/index.shtml](https://hugin.sourceforge.io/tutorials/index.shtml) (Last accessed: 31 August 2026).
 
 **Video Tutorials**
 
-* _How To: Hi-Res Panos in Hugin - Advanced_ (2020). Available at: [https://www.youtube.com/watch?v=06jXEJMTQds](https://www.youtube.com/watch?v=06jXEJMTQds) (Accessed: 12 January 2026).
-* _Panorama stitching with Hugin Tutorial Part 1 - Introduction_ (2020). Available at: [https://www.youtube.com/watch?v=DMYlm3D3NhY](https://www.youtube.com/watch?v=DMYlm3D3NhY) (Accessed: 12 January 2026).
-* _Panorama stitching with Hugin Tutorial Part 2 - Expert Mode_ (2020). Available at: [https://www.youtube.com/watch?v=\_Ad1Mi5BzGk](https://www.youtube.com/watch?v=_Ad1Mi5BzGk) (Accessed: 12 January 2026).
+* _How To: Hi-Res Panos in Hugin - Advanced_ (2020). Available at: [https://www.youtube.com/watch?v=06jXEJMTQds](https://www.youtube.com/watch?v=06jXEJMTQds) (Last accessed: 31 August 2026).
+* _Panorama stitching with Hugin Tutorial Part 1 - Introduction_ (2020). Available at: [https://www.youtube.com/watch?v=DMYlm3D3NhY](https://www.youtube.com/watch?v=DMYlm3D3NhY) (Last accessed: 31 August 2026).
+* _Panorama stitching with Hugin Tutorial Part 2 - Expert Mode_ (2020). Available at: [https://www.youtube.com/watch?v=\_Ad1Mi5BzGk](https://www.youtube.com/watch?v=_Ad1Mi5BzGk) (Last accessed: 31 August 2026).
 
 #### Developer Resources
 
@@ -86,7 +93,7 @@ To effectively use Hugin, especially for beginners or those looking to refine th
 **Community and Support**
 
 * [**User forum**](https://answers.launchpad.net/hugin)**:** help and support.
-* [**Mailing list**](https://sourceforge.net/p/hugin/mailman/)
+* [**Mailing list**](https://sourceforge.net/p/hugin/mailman/)**.**
 
 By utilizing these resources, users can enhance their Hugin experience.
 
