@@ -12,7 +12,7 @@ description: >-
 
 ## Description
 
-FastPeopleSearch is a free online tool that allows users to search for someone by name, address or phone number. The site says that it "searches millions of records" to find the requested contact information, which may include landline, cellphone, business or residential details. It also enables users to learn who previously lived at a given address, going back up to four decades.
+FastPeopleSearch is a free online tool that allows users to search for someone by name, address or phone number. The site says that it ["searches millions of records" ](./)to find the requested contact information, which may include landline, cellphone, business or residential details. It also enables users to learn who previously lived at a given address, going back up to [four decades](./#url).
 
 To use the tool, users can begin their search in one of several ways:
 
@@ -22,7 +22,7 @@ To use the tool, users can begin their search in one of several ways:
 
 Note that the free service is accessible by clicking on the "view free details" button under each associated entry. Clicking on other similar buttons may take users to external paid services.
 
-The site also offers functionality enabling users to search for people "near me", but to use it, you must first allow FastPeopleSearch to access your location data.
+The site also offers functionality enabling users to search for people "near me", but to use it, you must first allow FastPeopleSearch to access your location data (which we do not recommend to do).
 
 ## Cost
 
@@ -36,7 +36,7 @@ The site also offers functionality enabling users to search for people "near me"
 
 ## Requirements
 
-The tool can be accessed through any modern web browser.
+No specific requirements.
 
 ## Limitations
 
@@ -49,7 +49,7 @@ The tool can be accessed through any modern web browser.
 
 ## Tool provider
 
-The ownership of the site is not clear. The [Contact page](https://www.fastpeoplesearch.com/contact) indicates that it is associated with a Boston-based mailing address.
+The ownership of the site is not clear. The [Contact page](https://www.fastpeoplesearch.com/contact) indicates that it is associated with a Boston-based (U.S.) mailing address.
 
 ## Similar tools
 
