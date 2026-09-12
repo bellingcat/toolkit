@@ -75,13 +75,9 @@ Unknown; you may want to read ["archive.today: On the trail of the mysterious gu
 
 [Web Archives](https://bellingcat.gitbook.io/toolkit/more/all-tools/web-archives): A browser extension for viewing archived and cached versions of websites across multiple archiving services.
 
-## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
-* [ ] This tool uses tracking cookies. Use with caution.
-* [ ] This tool does not appear to use tracking cookies.
 
 | Page maintainer |
 | --------------- |
 | Bellingcat Team |
-| July 2026       |
+|  September 2026 |
