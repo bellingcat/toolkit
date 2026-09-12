@@ -54,7 +54,7 @@ Hugin, like many open-source tools, may have the following limitations:
 
 * **Steeper Learning Curve**: Requires some experience to get the best results. When stitching together photos that are clear and closely aligned, Hugin can automate the selection of control points, used to estimate the relative position and lens parameters. To avoid artifacting, it is best practice to develop a basic understanding of control points and how Hugin stitches images together.
 * **Performance**: May be slower compared to commercial tools with optimized algorithms. User experience can be inconsistent. For example, the Interface tab may not function while a project is ongoing.
-* **Operating system**: Using Hugin on certain operating systems, such as the MacOS system with Apple silicon chip, requires additional softwares (Rosetta or Homebrew) to run the app. To note, running Hugin through Homebrew requires command line familiarity.
+* **Operating system**: Using Hugin on certain operating systems, such as the MacOS system with Apple silicon chip, requires additional software (Rosetta or Homebrew) to run the app. To note, running Hugin through Homebrew requires command line familiarity.
 * **User Interface**: The UI might be less intuitive and user-friendly for beginners. Hugin offers three UI variations under the Interface tab, these are: Beginner, Advanced, Expert. While Beginner provides the helpful visuals, users should employ the Advanced UI if possible. It provides a balance of accessibility and options.
 * **Support**: Limited official support; relies on community forums and documentation. Receives regular updates, last modification to Hugin is listed as 2025/10/02.
 
