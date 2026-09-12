@@ -39,7 +39,7 @@ Archive.today has no paid features, and relies on donations to cover operating c
 
 ## Requirements
 
-Archive.today requires only an internet connection, a browser and the URL of the public page you want to archive. Pages behind a login might not be captured well.
+* No specific requirements
 
 ## Limitations
 
