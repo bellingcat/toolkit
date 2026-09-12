@@ -97,6 +97,7 @@
   * [F4Map](tools/f4map/README.md)
   * [Face Comparison by ToolPie](tools/face-comparison-toolpie/README.md)
   * [FaceCheck.ID](tools/facecheck.id/README.md)
+  * [FastPeopleSearch](tools/fastpeoplesearch/README.md)
   * [FlightAware](tools/flightaware/README.md)
   * [Flightradar24](tools/flightradar24/README.md)
   * [Forensically](tools/forensically/README.md)
