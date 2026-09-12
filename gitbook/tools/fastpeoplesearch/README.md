@@ -67,13 +67,7 @@ The ownership of the site is not clear. The [Contact page](https://www.fastpeopl
 
 [Spokeo](https://www.spokeo.com/): A US-focused tool that allows searches by name, address, email or phone number.
 
-## Advertising Trackers
-
-* [x] This tool has not been checked for advertising trackers yet.
-* [ ] This tool uses tracking cookies. Use with caution.
-* [ ] This tool does not appear to use tracking cookies.
-
 | Page maintainer           |
 | ------------------------- |
 | Bellingcat volunteer team |
-| August 2026               |
+| September 2026            |
