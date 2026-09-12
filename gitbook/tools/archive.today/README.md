@@ -55,7 +55,7 @@ Archive.today has no paid features, and relies on donations to cover operating c
 
 * **Copyright:** Archiving paywalled or copyrighted pages may infringe local laws; use for evidence, not redistribution.
 * **Privacy:** Snapshots freeze personal data that subjects might later delete; weigh necessity vs. exposure.
-* **Redundancy:** For mission-critical evidence, double-save to the Wayback Machine or a local WARC, as Archive.today offers no public deletion policy nor any institutional preservation mandate.
+* **Redundancy:** For mission-critical evidence, double-save to the [Wayback Machine](https://bellingcat.gitbook.io/toolkit/more/all-tools/internet-archive) or a local WARC, as Archive.today offers no public deletion policy nor any institutional preservation mandate.
 
 ## Guides and articles
 
