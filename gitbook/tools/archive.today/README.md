@@ -1,6 +1,6 @@
 ---
-description: 'Archive any webpage, including Facebook and search for archived pages.'
 updated: '2026-04-22'
+description: Archive any webpage and search for archived pages.
 ---
 
 # Archive.today
@@ -15,37 +15,13 @@ updated: '2026-04-22'
 Please carefully review [recent developments](https://arstechnica.com/tech-policy/2026/02/wikipedia-bans-archive-today-after-site-executed-ddos-and-altered-web-captures/) regarding archive.today before you decide to use the tool.
 {% endhint %}
 
-Archive.today is a web archiving service that allows users to manually save snapshots of webpages. Each snapshot keeps an exact copy of the page as it looked at that moment, including text, images, and design. This way the content is preserved, even if the original page changes or is taken down. Open source researchers can use Archive.today to save online information for future reference or to search for archived information. It can therefore also be used as a search tool.
+Archive.today is a web archiving service that allows users to manually save snapshots of webpages. Each snapshot keeps an exact copy of the page as it looked in that moment, including text, images and design. This way, the content is preserved, even if the original page changes or is taken down.&#x20;
 
-**Features**
+Open source researchers can use Archive.today to save online information for future reference, or to search for archived information. The site offers the following features:
 
-**Snapshot Creation:** You can save a page by entering the URL, and Archive.today creates a link to a permanent, static copy of the website.
-
-#### What the snapshot captures
-
-* **HTML, CSS, JS-generated content & images** rendered at a fixed viewport of 1 024 px.
-* A lossless **PNG screenshot** of the same page for visual evidence.
-* Basic video files from certain domains (e.g. X/Twitter).
-* All files are served from Archive.today mirrors and remain accessible even if the origin disappears.
-
-#### What is **not** preserved
-
-* PDFs, XML feeds, RTF, Office documents, Flash/Java applets and most streaming-video containers.[Wikipedia](https://en.wikipedia.org/wiki/Archive.today?utm_source=chatgpt.com)
-* Live server-side functions (comments, search boxes, forms) – they appear frozen.
-* WARC files; the archive cannot be replayed in standard Wayback software.
-
-| Hidden trick                                          | How it helps                                                                                                                                                                                     |
-| ----------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Bookmarklet**                                       | Drag the red button on the front page to the bookmarks bar for one-click archiving.[bellingcat](https://www.bellingcat.com/resources/how-tos/2018/02/22/archive-open-source-materials/)          |
-| **Advanced search operators** (`insite:`, quotes, \*) | Narrow results inside a domain or find _all_ snapshots containing a phrase.[Wikipedia](https://en.wikipedia.org/wiki/Archive.today?utm_source=chatgpt.com)                                       |
-| **API / Memento TimeGate**                            | Automate retrieval with any Memento-aware client (`Accept-Datetime:`).[ws-dl.blogspot.com](https://ws-dl.blogspot.com/2013/07/2013-07-09-archiveis-supports-memento.html?utm_source=chatgpt.com) |
-| **ZIP download (legacy)**                             | Grab a bundled copy of pre-2019 captures for offline evidence.[Wikipedia](https://en.wikipedia.org/wiki/Archive.today?utm_source=chatgpt.com)                                                    |
-
-**Searchable Archive:** Previous snapshots are searchable, making it easy to find and review earlier versions of a page.
-
-**Time Travel:** You can check earlier versions of a page to track how content has changed over time. Just type in the URL of the site of interest in the second search box on the site to see whether you get any results.
-
-**Browser Extension:** There’s a browser extension for quick snapshots, so you don’t have to go through the main site each time. The extension will open a new tab in your browser and will start archiving right away. You can also right click on a page and in the menu you will see the option to archive or search the link.
+* **Snapshot creation:** Save a page by entering the URL, and Archive.today creates a link to a permanent, static copy of the website. **The snapshot captures** HTML, CSS, JavaScript-generated content and images, and a screenshot of 1024x768 pixels. **It does not preserve** PDFs, XML feeds, RTF files, Office documents, Flash/Java applets, and most streaming-video containers, while live server-side functions (comments, search boxes, forms) appear frozen.
+* **Searchable archive:** Enter the URL of the site of interest in the second search box to look for results. Previous snapshots are searchable, making it easy to find and review earlier versions of a page. Advanced search operators (such as insite:, quotes, and the \* wildcard) are also supported.
+* **Browser extension:** A browser extension enables quick snapshots, so you don’t have to go through the main site each time.
 
 <figure><img src="https://lh7-qw.googleusercontent.com/docsz/AD_4nXdrq2mFIlW2W9kpCJsJMO_Nxi-Osq0LlD4XF4Dk9387XdKtUgMKj3FPafHUHPfkRlIOb1r_EVPKVKtgBWJJE3b77QjdBQgxH52pOnbJWUiKCobJuy0kl0zDhZnd9eIEZRIgOphy3hab-jh-67YXHtVibhZo?key=N8n3IJmjukzCQxoDPVpaj1B7" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -55,7 +31,7 @@ Archive.today is a web archiving service that allows users to manually save snap
 * [ ] Partially Free
 * [ ] Paid
 
-Archive.today is completely free. There are no paid features, and it relies on donations to cover its operating costs.
+Archive.today has no paid features, and relies on donations to cover operating costs.
 
 ## Level of difficulty
 
@@ -63,34 +39,41 @@ Archive.today is completely free. There are no paid features, and it relies on d
 
 ## Requirements
 
-Archive.today doesn’t require a lot, only an internet connection, a browser and the URL of the public page you want to archive. Pages behind a login might not be captured well.
+Archive.today requires only an internet connection, a browser and the URL of the public page you want to archive. Pages behind a login might not be captured well.
 
 ## Limitations
 
-| Category                       | Limitation                                                                                                                                                                                                                                                                                                                                                                      | Why it matters                                                                                  |
-| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
-| **File-type support**          | <p>• No native capture of <strong>PDF, Flash, audio or most video containers</strong>; such pages resolve as blank or “unsupported” screens (<a href="https://en.wikipedia.org/wiki/Help%3AUsing_archive.today">Wikipedia</a>)<br>• Large pages over <strong>50 MB</strong> are rejected (<a href="https://en.wikipedia.org/wiki/Help%3AUsing_archive.today">Wikipedia</a>)</p> | Critical evidence embedded in those formats will be lost unless you save an external copy.      |
-| **Dynamic & gated content**    | • Snapshots rely on the crawler’s public view; pages behind paywalls, log-ins or geoblocks often render partially or not at all ([Wikipedia](https://en.wikipedia.org/wiki/Help%3AUsing_archive.today))                                                                                                                                                                         | Don’t assume a pay-walled Facebook post or subscriber-only article will be preserved.           |
-| **Robots & takedown**          | • The service **ignores robots.txt** and meta-noindex; it rarely removes pages except for DMCA/abuse cases ([Wikipedia](https://en.wikipedia.org/wiki/Help%3AUsing_archive.today))                                                                                                                                                                                              | Once archived, material is effectively permanent and may expose private or copyrighted data.    |
-| **Performance & availability** | • High load, DDoS mitigation and **Cloudflare/DNS quirks** can cause outages or slow saves ([Wikipedia](https://de.wikipedia.org/wiki/Archive.today)) ([Reddit](https://www.reddit.com/r/DataHoarder/comments/118haqg/archiveph_webpage_archive_as_site_is/?utm_source=chatgpt.com))                                                                                            | Time-sensitive captures may fail; retry later or use a secondary archiver.                      |
-| **Operator transparency**      | • Run by a largely **anonymous owner (“Denis Petrov”, likely an alias)** with no institutional backing ([Gyrovague](https://gyrovague.com/2023/08/05/archive-today-on-the-trail-of-the-mysterious-guerrilla-archivist-of-the-internet/))                                                                                                                                        | Long-term continuity is uncertain; treat the service as convenient but not canonical storage.   |
-| **Longevity & redundancy**     | • Past funding gaps and DoS attacks prompted mirror moves and emergency Cloudflare shields ([Wikipedia](https://de.wikipedia.org/wiki/Archive.today))                                                                                                                                                                                                                           | Always dual-archive crucial evidence (e.g., Wayback + local WARC) to hedge against sudden loss. |
+| Category                         | Limitation                                                                                                                                                | Why it matters                                                                                |
+| -------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| **File-type support**            | No native capture of PDF, Flash, audio or most video containers; such pages resolve as blank or “unsupported”, while large pages over 50 MB are rejected. | Critical evidence embedded in these formats will be lost unless you save an external copy.    |
+| **Dynamic and gated content**    | Snapshots rely on the crawler’s public view; pages behind paywalls, log-ins or geo-blocks often render partially or not at all.                           | Don’t assume a paywalled Facebook post or subscriber-only article will be preserved.          |
+| **Robots and takedown**          | The service ignores robots.txt and meta-noindex; it rarely removes pages except for DMCA/abuse cases.                                                     | Once archived, material is effectively permanent and might expose private data.               |
+| **Performance and availability** | High load, DDoS mitigation and Cloudflare/DNS quirks can cause outages or slow saves.                                                                     | Time-sensitive captures may fail; retry later or use a secondary archiver.                    |
+| **Operator transparency**        | Run by a largely anonymous owner with no institutional backing.                                                                                           | Long-term continuity is uncertain; treat the service as convenient but not canonical storage. |
 
 ## Ethical Considerations
 
-* **Copyright** – archiving paywalled or copyrighted pages may infringe local law; use for evidence, not redistribution.
-* **Privacy** – snapshots freeze personal data that subjects might later delete; weigh necessity vs. exposure.
-* **Redundancy** – for mission-critical evidence, double-save to Wayback or a local WARC because Archive.today offers no public deletion policy and no institutional preservation mandate.[bellingcat](https://www.bellingcat.com/resources/how-tos/2018/02/22/archive-open-source-materials/)
+* **Copyright:** Archiving paywalled or copyrighted pages may infringe local laws; use for evidence, not redistribution.
+* **Privacy:** Snapshots freeze personal data that subjects might later delete; weigh necessity vs. exposure.
+* **Redundancy:** For mission-critical evidence, double-save to the Wayback Machine or a local WARC, as Archive.today offers no public deletion policy nor any institutional preservation mandate.
 
 ## Guides and articles
 
-* **Bellingcat guide to archiving OSINT** (compares Archive.today & Wayback). ([bellingcat](https://www.bellingcat.com/resources/how-tos/2018/02/22/archive-open-source-materials/))
-* **Chrome “Archive Page” button** – community extension for one-click saves and look-ups. ([Chrome](https://chrome.google.com/webstore/detail/archive-page/gcaimhkfmliahedmeklebabdgagipbia?catego...=\&hl=fil\&utm_source=chatgpt.com))
-* **WS-DL blog on Memento support** – technical walk-through of the TimeGate API. ([blogspot.com](https://ws-dl.blogspot.com/2013/07/2013-07-09-archiveis-supports-memento.html))
+* **Archive.today** [**official FAQ**](https://archive.ph/faq)**:** Answers general questions on the site's functionality.
+* **Bellingcat guide,** [**How to Archive Open Source Materials**](https://www.bellingcat.com/resources/how-tos/2018/02/22/archive-open-source-materials/)**:** Compares Archive.today and the Wayback Machine.
+* **Chrome** [**“Archive Page” browser extension**](https://chromewebstore.google.com/detail/archive-page/gcaimhkfmliahedmeklebabdgagipbia)**:** Enables one-click saves and look-ups.&#x20;
 
 ## Tool provider
 
-Unknown, you might want to read ["archive.today: On the trail of the mysterious guerrilla archivist of the Internet".](https://gyrovague.com/2023/08/05/archive-today-on-the-trail-of-the-mysterious-guerrilla-archivist-of-the-internet/)
+Unknown; you may want to read ["archive.today: On the trail of the mysterious guerrilla archivist of the Internet"](https://gyrovague.com/2023/08/05/archive-today-on-the-trail-of-the-mysterious-guerrilla-archivist-of-the-internet/).
+
+## Similar tools
+
+[Auto Archiver](https://bellingcat.gitbook.io/toolkit/more/all-tools/auto-archiver): Bellingcat's free and open-source tool allows users to automatically archive social media posts, videos and images.
+
+[Wayback Machine](https://bellingcat.gitbook.io/toolkit/more/all-tools/internet-archive): The largest internet archival service, this non-profit digital library contains more than one trillion webpages.
+
+[Web Archives](https://bellingcat.gitbook.io/toolkit/more/all-tools/web-archives): A browser extension for viewing archived and cached versions of websites across multiple archiving services.
 
 ## Advertising Trackers
 
@@ -101,4 +84,4 @@ Unknown, you might want to read ["archive.today: On the trail of the mysterious 
 | Page maintainer |
 | --------------- |
 | Bellingcat Team |
-|                 |
+| July 2026       |
