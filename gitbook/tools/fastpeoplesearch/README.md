@@ -2,6 +2,7 @@
 description: >-
   An online tool enabling users to look up people in the United States by name,
   phone number or street address.
+updated: '2026-09-12'
 ---
 
 # FastPeopleSearch
