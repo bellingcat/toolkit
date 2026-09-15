@@ -10,7 +10,7 @@ description: >-
 
 Tool page: [https://anytype.io/](https://anytype.io/)\
 (Version current as of 2025‑08)\
-GitHub: [https://github.com/anyproto/anytype-ts](https://github.com/anyproto/anytype-ts)
+[Current downloads and release channels](https://github.com/anyproto/anytype-ts/releases)
 
 ## Description
 
@@ -36,10 +36,7 @@ Investigative work often requires managing disparate pieces of information (note
 * [x] Partially Free
 * [ ] Paid
 
-- [**Starter (free)**](https://anytype.io/pricing/) – 100 MB of network storage, unlimited local storage, peer‑to‑peer synchronization, three shared spaces, up to three editors per space, unlimited viewers and up to 10 MB for web publishing.
-- **Builder (approx. US$10 per month)** – 128 GB of network storage, unlimited local storage, P2P sync, three shared spaces, up to 10 editors per space, unlimited viewers and up to 100 MB for web publishing; includes a global unique name and personalised domain.
-- **Co‑Creator (US$299 for three years)** – 256 GB of network storage, unlimited local storage, P2P sync, three shared spaces, up to 10 editors per space, unlimited viewers and up to 100 MB for web publishing; also includes a shorter unique name and priority support.
-- **Business** – Custom storage and collaboration limits; contact the team for pricing.
+- The [current pricing page](https://anytype.io/pricing/) lists Free, Plus, Pro and Ultra plans. Free includes 100 MB of remote storage; paid plans expand remote storage, shared channels and ANY ID options. Local storage and remote backup/storage are different limits. Check the selected billing period, storage allowance and collaboration features before choosing a plan. Separate business and education offers are linked from the pricing page.
 - **Discounts & self‑hosting** – Students can receive a 50 % discount. If you self‑host the Anytype network, membership fees do not apply.&#x20;
 
 ## Level of difficulty
