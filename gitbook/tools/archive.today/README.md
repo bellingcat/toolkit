@@ -15,13 +15,13 @@ description: Archive any webpage and search for archived pages.
 Please carefully review [recent developments](https://arstechnica.com/tech-policy/2026/02/wikipedia-bans-archive-today-after-site-executed-ddos-and-altered-web-captures/) regarding archive.today before you decide to use the tool.
 {% endhint %}
 
-Archive.today is a web archiving service that allows users to manually save snapshots of webpages. Each snapshot keeps an exact copy of the page as it looked in that moment, including text, images and design. This way, the content is preserved, even if the original page changes or is taken down.&#x20;
+Archive.today is a web archiving service that allows users to manually save snapshots of webpages. Each snapshot keeps an exact copy of the page as it looked in that moment, including text, images and design. This way, the content is preserved, even if the original page changes or is taken down.
 
 Open source researchers can use Archive.today to save online information for future reference, or to search for archived information. The site offers the following features:
 
 * **Snapshot creation:** Save a page by entering the URL, and Archive.today creates a link to a permanent, static copy of the website. **The snapshot captures** HTML, CSS, JavaScript-generated content and images, and a screenshot of 1024x768 pixels. **It does not preserve** PDFs, XML feeds, RTF files, Office documents, Flash/Java applets, and most streaming-video containers, while live server-side functions (comments, search boxes, forms) appear frozen.
-* **Searchable archive:** Enter the URL of the site of interest in the second search box to look for results. Previous snapshots are searchable, making it easy to find and review earlier versions of a page. Advanced search operators (such as insite:, quotes, and the \* wildcard) are also supported.
-* **Browser extension:** A browser extension enables quick snapshots, so you don’t have to go through the main site each time.
+* **Searchable archive:** Enter the URL of the site of interest in the second search box to look for results. Previous snapshots are searchable, making it easy to find and review earlier versions of a page. Advanced search operators (including insite:, quotes, and the \* wildcard) are also supported.
+* **Browser extension:** A [browser extension](https://chromewebstore.google.com/detail/archive-page/gcaimhkfmliahedmeklebabdgagipbia) enables quick snapshots, so you don’t have to go through the main site each time.
 
 <figure><img src="https://lh7-qw.googleusercontent.com/docsz/AD_4nXdrq2mFIlW2W9kpCJsJMO_Nxi-Osq0LlD4XF4Dk9387XdKtUgMKj3FPafHUHPfkRlIOb1r_EVPKVKtgBWJJE3b77QjdBQgxH52pOnbJWUiKCobJuy0kl0zDhZnd9eIEZRIgOphy3hab-jh-67YXHtVibhZo?key=N8n3IJmjukzCQxoDPVpaj1B7" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -31,7 +31,7 @@ Open source researchers can use Archive.today to save online information for fut
 * [ ] Partially Free
 * [ ] Paid
 
-Archive.today has no paid features, and relies on donations to cover operating costs.
+Archive.today has no paid features, and describes itself as "[privately funded](https://archive.ph/faq)", with a donations portal [linked on the main page](https://archive.ph/).&#x20;
 
 ## Level of difficulty
 
@@ -55,13 +55,13 @@ Archive.today has no paid features, and relies on donations to cover operating c
 
 * **Copyright:** Archiving paywalled or copyrighted pages may infringe local laws; use for evidence, not redistribution.
 * **Privacy:** Snapshots freeze personal data that subjects might later delete; weigh necessity vs. exposure.
-* **Redundancy:** For mission-critical evidence, double-save to the [Wayback Machine](https://bellingcat.gitbook.io/toolkit/more/all-tools/internet-archive) or a local WARC, as Archive.today offers no public deletion policy nor any institutional preservation mandate.
+* **Redundancy:** For mission-critical evidence, double-save to the [Wayback Machine](https://bellingcat.gitbook.io/toolkit/more/all-tools/internet-archive) or a local [WARC](https://en.wikipedia.org/wiki/WARC_\(file_format\)), as Archive.today offers no public deletion policy nor any institutional preservation mandate.
 
 ## Guides and articles
 
 * **Archive.today** [**official FAQ**](https://archive.ph/faq)**:** Answers general questions on the site's functionality.
 * **Bellingcat guide,** [**How to Archive Open Source Materials**](https://www.bellingcat.com/resources/how-tos/2018/02/22/archive-open-source-materials/)**:** Compares Archive.today and the Wayback Machine.
-* **Chrome** [**“Archive Page” browser extension**](https://chromewebstore.google.com/detail/archive-page/gcaimhkfmliahedmeklebabdgagipbia)**:** Enables one-click saves and look-ups.&#x20;
+* **Chrome** [**“Archive Page” browser extension**](https://chromewebstore.google.com/detail/archive-page/gcaimhkfmliahedmeklebabdgagipbia)**:** Enables one-click saves and look-ups.
 
 ## Tool provider
 
@@ -75,9 +75,7 @@ Unknown; you may want to read ["archive.today: On the trail of the mysterious gu
 
 [Web Archives](https://bellingcat.gitbook.io/toolkit/more/all-tools/web-archives): A browser extension for viewing archived and cached versions of websites across multiple archiving services.
 
-
-
 | Page maintainer |
 | --------------- |
 | Bellingcat Team |
-|  September 2026 |
+| September 2026  |
