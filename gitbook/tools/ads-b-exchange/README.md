@@ -1,7 +1,7 @@
 ---
 description: >-
   Live flight tracker (including many miltiary aircraft). Live data available
-  for the past month. Historical data available for purchase by request.
+  for the past month. Historical data available for purchase upon request.
 ---
 
 # ADS-B Exchange
