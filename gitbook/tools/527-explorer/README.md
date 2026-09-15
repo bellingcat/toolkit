@@ -16,6 +16,10 @@ description: >-
 
 ProPublica's 527 Explorer allows people to review the finances of nonprofit organizations known as 527s in the US. 527s file reports with the Internal Revenue Service (IRS), but these filings appear in a section separate from most nonprofits on the IRS website. ProPublica's database is intended to make searching these filings easier by including tools to help match names, addresses and other information that may have spelling variations. The tool also shows similar contributions and expenditures, allowing the user to possibly uncover other connections between organizations. The database also has a feature which shows which 527s have similar donors and expenditures.
 
+Some information provided in a profile includes the organization's location, related organizations, leadership and a financial overview.
+
+<figure><img src=".gitbook/assets/chrome-capture-2026-09-07.png" alt=""><figcaption></figcaption></figure>
+
 ## Cost
 
 * [x] Free
@@ -35,6 +39,8 @@ Internet access is required for the tool.
 The tool is likely best used together with other databases that look at other types of financial contributions and expenditures (Federal Elections Commission, state and local level government websites, lobbying disclosure databases, the Securities and Exchange Commission's EDGAR database, etc.). According to its [website](https://projects.propublica.org/527-explorer/), it excludes organizations regulated by the Federal Elections Commission, those that make less than $25,000 in annual contributions, nonpolitical nonprofits and political committees for local or state candidate or a political party.\
 \
 If a user wishes to view the original IRS form, they may need to visit the IRS website. While the tool has a feature that shows similar donors, a user may also need to be aware of acronyms or name variations of the organizations of interest.
+
+When searching for contributions of expenditures, results must be filtered to 2,500 entries to download. A user can use the search box on the right to filter the results.
 
 ## Ethical Considerations
 
