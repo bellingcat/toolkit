@@ -60,12 +60,6 @@ OpenSecrets: [527 Basics](https://www.opensecrets.org/527s/basics.php)
 
 [ProPublica](https://www.propublica.org/about/), US.
 
-## Advertising Trackers
-
-* [x] This tool has not been checked for advertising trackers yet.
-* [ ] This tool uses tracking cookies. Use with caution.
-* [ ] This tool does not appear to use tracking cookies.
-
 | Page maintainer           |
 | ------------------------- |
 | Bellingcat Volunteer Team |
