@@ -56,7 +56,7 @@ Flight-tracking websites provide a wide range of information. However, depending
 Tip: not all identifiers may be available on a single aircraft tracking website. Cross-check with other sites to find all the relevant information.
 {% endhint %}
 
-Below is an overview of the different identifiers available on ADS-B Exchange and how to find them. Note that ADS-B Exchange does not provide flight number information. However, it does provide the call sign, hex/ICAO code, and registration number, which are all visible from just hovering over any aircraft.  The serial number is only available AFTER you click on an aircraft and click on Full Details on the menu on the left hand side of the map. This number is available only with a subscription.
+Below is an overview of the different identifiers available on ADS-B Exchange and how to find them. Note that ADS-B Exchange does not provide flight number information. However, it does provide the call sign, hex/ICAO code, and registration number, which are all visible from just hovering over any aircraft. The serial number is only available AFTER you click on an aircraft and click on Full Details on the menu on the left hand side of the map. This number is available only with a subscription.
 
 <figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption><p>Image 2: overview of how to find call sign, Hex/ICAO Code, registration/tail number and MSN/Serial number. Note that the MSN/Serial Number can be accessed in Full Details but not only display for those paying</p></figcaption></figure>
 
@@ -105,19 +105,17 @@ There are two characters that can be used for obtaining additional information:&
 
 <figure><img src=".gitbook/assets/image (9).png" alt="" width="371"><figcaption></figcaption></figure>
 
-* **Filter by altitude** - this can be helpful if the user wants to search for particular altitude, such as low flying aircraft or aircraft that are about to land. **The altitude must be in feet.**&#x20;
-* **Filter by callsign** - helpful for filtering arcraft with known call signs. The results will show anything that includes that particular callsign. For example, when searching for JAL4, the results will include any flight that has additional numbers at the end, such as JAL46 or JAL466.
+* **Filter by altitude** - this can be helpful if the user wants to search for a particular altitude, such as low flying aircraft or aircraft that are about to land. **The altitude must be in feet.**&#x20;
+* **Filter by callsign** - helpful for filtering aircraft with known call signs. The results will show anything that includes that particular callsign. For example, when searching for JAL4, the results will include any flight that has additional numbers at the end, such as JAL46 or JAL466.
 * **Filter by squawk** - this is a code transmitted by the aircraft so the air traffic control can track its status. If there are emergencies, the squawk code will be used to relay that information to the air traffic control, for example if there is a radio failure. A full listing of squawk codes can be found [here](https://en.wikipedia.org/wiki/List_of_transponder_codes).&#x20;
 * **Filter by type code** - here one can filter for the type of aircraft, for example, a Boeing 737, Airbus 220, or other types using standard shorthand naming convention. These are the ICAO type codes, and can be found fully on the [ICAO web page](https://www.icao.int/operational-safety/doc-8643-aircraft-type-designators/search) under Type Designator column. In order to search for more than one aircraft at a time, use the pipe (|) between each type code, without spaces. It is also possible to use the period (.) as a wildcard. For example, instead of searching for B732 (Boeing 737-200 series), it is possible to search for "B73." instead to find all Boeing 737 aircraft, regardless of their specific subsidies. Additional details can be found [here](https://support.adsbexchange.com/hc/en-us/articles/44653064937741-Map-Help).&#x20;
-* **Filter by type description** - the type description is the overal type of aircraft, such as a helicopter, a two engine airplane, four engine airplane, turboprop aircraft, etc. The [Map Help](https://support.adsbexchange.com/hc/en-us/articles/44653064937741-Map-Help)  has more details about how to filter by type description. This filter is similar to category filter (below), but this filter focuses more on how the propulsion is created such as turboprop, two engines, four engines, etc., rather than propulsion power, like thrust power, which is what the catogory filter focuses on.
+* **Filter by type description** - the type description is the overall type of aircraft, such as a helicopter, a two engine airplane, four engine airplane, turboprop aircraft, etc. The [Map Help](https://support.adsbexchange.com/hc/en-us/articles/44653064937741-Map-Help)  has more details about how to filter by type description. This filter is similar to category filter (below), but this filter focuses more on how the propulsion is created such as turboprop, two engines, four engines, etc., rather than propulsion power, like thrust power, which is what the category filter focuses on.
 * **Filter by ICAO hex description** - used if there is a specific hex code/ICAO code that needs to be looked up. It is possible to use the pipe (|) to look up for multiple hex codes at once, and the period (.)  to look up hex codes where the user may not know all the numbers, for example "C06..." if the last three digits are not known.
 * **Filter by source** - here it's possible to find aircraft that are being tracked using one of the many sources that ADS-B Exchange displays. This could be helpful if searching for aircraft that are not being tracked by ADS-B, for example.
 * **Filter by DB flag** - this filter identifies aircraft that are showing up as military, aircraft that are requesting to take down their information (primarily US aircraft), and aircraft that are in the [FAA PIA](https://www.faa.gov/air_traffic/technology/equipadsb/privacy) program.  &#x20;
-* Filter by registration - also known as the tail number, this field can be searched using the pipe (|) for more than one registratation number, or the period (.) for unknown characters.&#x20;
-* **Filter by country** - this field allows searching for aircraft that are registered to a specific country. The country must be spelled out completely, for example "United States" or "United Kingdon", to obtain the desired results.&#x20;
+* Filter by registration - also known as the tail number, this field can be searched using the pipe (|) for more than one registration number, or the period (.) for unknown characters.&#x20;
+* **Filter by country** - this field allows searching for aircraft that are registered to a specific country. The country must be spelled out completely, for example "United States" or "United Kingdom", to obtain the desired results.&#x20;
 * **Filter by category** - this field allows one to search by the categorization of the emitter, which specifies the category of the type of aircraft, with the full listing of the codes [here](https://support.adsbexchange.com/hc/en-us/articles/44705224053517-Emitter-Category-ADS-B-DO-260B-2-2-3-2-5-2). For example it is possible to filter for just balloons (B2), light aircraft (A1), etc. This filter is similar to type description filter, but this filter focuses more on propulsion power, like thrust power, rather than the specifics of how the propulsion is created such as turboprop, two engines, four engines, etc.&#x20;
-
-
 
 ## Use Cases
 
@@ -134,10 +132,6 @@ Once you find an aircraft of interest, you can look up more information about th
 * [ ] Paid
 
 There is one subscription tier, which can be paid monthly or annually. A subscription will provide additional flight information, additional historic flight information, and aircraft owner information. These are some features identified as relevant for open source investigations, though a full listing of the additional features can be found on their [website](https://store.adsbexchange.com/collections/subscriptions).
-
-
-
-
 
 ## Level of difficulty
 
