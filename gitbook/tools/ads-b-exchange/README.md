@@ -147,7 +147,7 @@ A stable internet connection.
 
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>ADS-B Exchange area of the map showing limited aircraft due to lack of sensors and lack of extrapolation of aircraft route. </p></figcaption></figure>
 
-* **No origin and destination airport code.** While it is possible to visually see the areas of take off and landing, this information is not explicitly avialable on ADS-B Exchange and it is challenging to see all aircraft that have a particular listed  origin or destination.&#x20;
+* **No origin and destination airport code.** While it is possible to visually see the areas of take off and landing, this information is not explicitly available on ADS-B Exchange and it is challenging to see all aircraft that have a particular listed origin or destination.&#x20;
 * **No flight numbers.** Flight numbers, which are provided by the airlines to the public for transportation identification purposes, are not included in any ADS-B Exchange data. Since these can vary significantly from the Call Sign, and if this is something that is required for research, it will have to be acquired on one of the other flight tracking platforms. Or if one wishes to search for aircraft by its flight number, one will have to first obtain the call sign elsewhere and then look up the flight on ADS-B Exchange.&#x20;
 * **Not complete data on free plan.** In order to access more detailed aircraft information, such as the aircraft serial number or longer history, one must have a paid plan. It may be easier to cross reference the aircraft with another platform to obtain this information.&#x20;
 * **Aircraft photos.** The photo for a flight may not be the actual aircraft that it being tracked. It is best to verify that the aircraft photo matches the aircraft registration number and airline/make if using the photo.&#x20;
@@ -162,15 +162,13 @@ A stable internet connection.
 
 **Copyright** - the platform [use terms](https://support.adsbexchange.com/hc/en-us/articles/37364077703693-What-is-ADS-B-Exchange-s-data-use-policy) should be reviewed and adhered to whenever writing about findings or analyses from ADS-B Exchange.&#x20;
 
-
-
 ## Guide
 
-ADS-B Exchange Map Help. [https://support.adsbexchange.com/hc/en-us/articles/44653064937741-Map-Help](https://support.adsbexchange.com/hc/en-us/articles/44653064937741-Map-Help) (Accessed August 20, 2026)
+ADS-B Exchange Map Help. [https://support.adsbexchange.com/hc/en-us/articles/44653064937741-Map-Help](https://support.adsbexchange.com/hc/en-us/articles/44653064937741-Map-Help) (Accessed September 15, 2026)
 
-ADS-B Exchange Help Center. [https://support.adsbexchange.com/hc/en-us#](https://support.adsbexchange.com/hc/en-us) ( accessed August 11, 2026)&#x20;
+ADS-B Exchange Help Center. [https://support.adsbexchange.com/hc/en-us#](https://support.adsbexchange.com/hc/en-us) (accessed September 15, 2026)&#x20;
 
-Fiorella, Giancarlo, (2019, October 15). A beginner's guide to flight tracking. Bellingcat.[ https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/) (accessed August 20 2026)
+Fiorella, Giancarlo, (2019, October 15). A beginner's guide to flight tracking. Bellingcat.[ https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/) (accessed September 15 2026)
 
 ## Tool provider
 
