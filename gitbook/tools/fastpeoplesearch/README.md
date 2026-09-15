@@ -1,8 +1,8 @@
 ---
+updated: '2026-09-12'
 description: >-
   An online tool enabling users to look up people in the United States by name,
   phone number or street address.
-updated: '2026-09-12'
 ---
 
 # FastPeopleSearch
@@ -13,7 +13,7 @@ updated: '2026-09-12'
 
 ## Description
 
-FastPeopleSearch is a free online tool that allows users to search for someone by name, address or phone number. The site says that it ["searches millions of records" ](./)to find the requested contact information, which may include landline, cellphone, business or residential details. It also enables users to learn who previously lived at a given address, going back up to [four decades](./#url).
+FastPeopleSearch is a free online tool that allows users to search for someone by name, address or phone number. The site says that it ["searches millions of records" ](https://www.fastpeoplesearch.com/)to find the requested contact information, which may include landline, cellphone, business or residential details. It also enables users to learn who previously lived at a given address, going back up to [four decades](https://www.fastpeoplesearch.com/).
 
 To use the tool, users can begin their search in one of several ways:
 
@@ -54,19 +54,19 @@ The ownership of the site is not clear. The [Contact page](https://www.fastpeopl
 
 ## Similar tools
 
-[192.com](https://www.192.com/): Allows users to search for contact details of people living in the United Kingdom.
+[192.com](https://www.192.com/) (free tool): Allows users to search for contact details of people living in the United Kingdom.
 
-[Eniro](https://www.eniro.se/): A Swedish version of the Yellow Pages.
+[Eniro](https://www.eniro.se/) (free tool): A Swedish version of the Yellow Pages.
 
-[Nigeria PhoneBook](https://nigeriaphonebook.com/): Offers lookup services in Nigeria by name and phone number.
+[Nigeria PhoneBook](https://nigeriaphonebook.com/) (free tool): Offers lookup services in Nigeria by name and phone number.
 
-[Person Lookup](https://personlookup.co.za/): A telephone and address search for South Africa.
+[Person Lookup](https://personlookup.co.za/) (free tool): A telephone and address search for South Africa.
 
-[Pipl](https://pipl.com/): A more advanced tool for searching and cross-referencing digital identities.
+[Pipl](https://pipl.com/) (paid tool): A more advanced tool for searching and cross-referencing digital identities.
 
-[Ratsit](https://www.ratsit.se/): Enables users to search for contact details of people living in Sweden.
+[Ratsit](https://www.ratsit.se/) (free tool): Enables users to search for contact details of people living in Sweden.
 
-[Spokeo](https://www.spokeo.com/): A US-focused tool that allows searches by name, address, email or phone number.
+[Spokeo](https://www.spokeo.com/) (paid tool): A US-focused tool that allows searches by name, address, email or phone number.
 
 | Page maintainer           |
 | ------------------------- |
