@@ -1,5 +1,5 @@
 # Table of contents
 
-* [ADS-B Exchange Radar View](README.md)
+* [ADS-B Exchange](README.md)
 * [Categories](categories.md)
 * [Regions](regions.md)
