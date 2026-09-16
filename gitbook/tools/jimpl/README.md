@@ -10,7 +10,9 @@ https://jimpl.com/
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+Jimpl is a web-based tool for viewing EXIF (or exchangeable image file format) metadata for images. EXIF is a type of data that is hidden within image and audio files that can be read by a computer but aren't visible or audible within the viewed file. It's how your iPhone knows where an image was taken, an audio recording knows the exact time it was recorded, and even contains the exact settings that a digital camera used to capture a photo. There are over 300 different fields of EXIF data
+
+Jimpl also contains an EXIF scrubber that takes your uploaded file and returns to you a file that contains no identifying EXIF data. The scrubbing tool and data viewer tool are visually quite similar, so be sure to return to the website's home page if you need to use the data viewer tool and not the scrubber.
 
 ## Cost
 
@@ -18,31 +20,28 @@ https://jimpl.com/
 * [ ] Partially Free
 * [ ] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
-
 ## Level of difficulty
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+No login is required and the program runs entirely online. You just need a compatible image or audio file.
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+* Jimpl does not process images larger than 50mb. This is problematic because compressing an image or audio file, depending on the mechanism, can cause you to lose EXIF data.
+* Many online platforms will scrub the EXIF data of an image for privacy reasons when posting them. Instagram, Discord, and X, among others, all remove most identifying EXIF information. For this reason, Jimpl data is often very limited unless you have an unscrubbed version of the original file.
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
-
-## Guide
-
-\[\[Link to a guide on this tool]]
+* Jimpl operates by looking at the metadata of a file that you upload to their server. While the website claims that all files are never shared with others and deleted after 24 hours, there may be security cases that dictate that you should avoid uploading the file to a third-party source such as Jimpl.
+* As with all open-source research, it is the researcher's duty to use discovered information legally and ethically. Data that you discover through EXIF tools may contain personal information that should not be published or disseminated in the interest of individuals' rights to privacy.
+* Metadata is easy to remove or alter. Nothing that you discover through Jimpl should be taken as fact without cross-verification.
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+Jimpl was made by a web developer named [Toni](./#url) from Romania.&#x20;
 
 ## Advertising Trackers
 
@@ -50,8 +49,6 @@ https://jimpl.com/
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
-
+| Page maintainer                                          |
+| -------------------------------------------------------- |
+| Maintained by Nathan Burke. Late updated in August 2026. |
