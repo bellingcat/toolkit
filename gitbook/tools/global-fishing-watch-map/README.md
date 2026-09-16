@@ -274,12 +274,6 @@ Another popular tool known for its proprietary AI and predictive analytics is [*
 Global Fishing Watch (GFW) [https://globalfishingwatch.org](https://globalfishingwatch.org) - United States\
 (Three founding partners: [Oceana](https://oceana.org/about/), [SkyTruth](https://skytruth.org/about/) and Google)
 
-## Advertising Trackers
-
-* [x] This tool has not been checked for advertising trackers yet.
-* [ ] This tool uses tracking cookies.
-* [ ] This tool does not appear to use tracking cookies.
-
 | Page maintainer  |
 | ---------------- |
 | Author: river\_n |
