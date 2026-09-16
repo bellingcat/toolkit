@@ -10,7 +10,7 @@ description: >-
 
 ## URL
 
-{% embed url="https://twitter.com/explore" %}
+[https://twitter.com/explore](https://twitter.com/explore)&#x20;
 
 ## Description
 
@@ -18,7 +18,7 @@ Users can discover posts from specific geographic areas by utilizing X's built-i
 
 ### How does it work?
 
-Understanding how location data is incorporated into the platform is key to effectively leveraging location-based searches. [According to X](https://help.x.com/en/using-x/post-location), users have the option to share location details on posts. The platform seems to figure out where a tweet is from by looking at a few things:
+Understanding how location data is incorporated into the platform is key to effectively leveraging location-based searches. [According to X](https://help.x.com/en/using-x/post-location), users can share location details in posts. The platform seems to figure out where a tweet is from by looking at a few things:
 
 (1) the location information a user provides,
 
