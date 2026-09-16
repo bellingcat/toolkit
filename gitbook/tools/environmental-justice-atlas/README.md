@@ -71,13 +71,7 @@ This [video](https://www.youtube.com/watch?v=BqoLo8OsB1c) provides an overview o
 
 EnvJustice Project ([Spain](http://www.envjustice.org/project/))
 
-## Advertising Trackers
-
-* [x] This tool has not been checked for advertising trackers yet.
-* [ ] This tool uses tracking cookies. Use with caution.
-* [ ] This tool does not appear to use tracking cookies.
-
 | Page maintainer           |
 | ------------------------- |
 | Bellingcat volunteer team |
-|                           |
+| September 2026            |
