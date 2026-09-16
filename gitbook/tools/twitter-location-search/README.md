@@ -150,4 +150,4 @@ See Bellingcat’s Case Study into tweets during the COVID-19 crisis in India, s
 | Page Maintainer |
 | --------------- |
 | Afton           |
-|                 |
+| September 2026  |
