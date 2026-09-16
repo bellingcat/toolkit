@@ -1,6 +1,8 @@
 ---
 updated: '2026-04-30'
-description: A comprehensive global database on terrestrial and marine protected areas.
+description: >-
+  A comprehensive global database on terrestrial and marine protected areas.
+  Also known as Protected Planet.
 ---
 
 # World Database on Protected and Conserved Areas
@@ -30,7 +32,7 @@ A **protected area** is a clearly defined area of land and/or sea especially ded
 
 A **conserved area** is a geographical area that is not an official protected area, and where conservation is a by-product. For example, conserved areas include military reserves (e.g., [Canadian Forces Base Shilo in Manitoba, Canada](https://panorama.solutions/en/solution/natural-areas-canadian-forces-base-shilo-recognized-oecm)) or shipwrecks (e.g., the [Scapa Flow Wreck](https://www.bbc.com/news/articles/c776ng7xe02o) in Scotland, [whose conserved area status took effect on 1st November, 2025](https://www.gov.scot/publications/scapa-flow-historic-marine-protected-area-order-2025/)).
 
-<figure><img src="../../.gitbook/assets/shilo (1).png" alt="Screenshot of the Canadian Forces Base Shilo. Left panel shows a Site ID and the reported area, and the right side shows a terrain map marking the land area. The military base is an example of an OECM." width="375"><figcaption><p>Information on the Canadian Forces Base Shilo, as shown on the WDPCA,<br><a href="https://www.protectedplanet.net/555705170">https://www.protectedplanet.net/555705170</a></p></figcaption></figure>
+<figure><img src=".gitbook/assets/shilo (1) (1).png" alt="Screenshot of the Canadian Forces Base Shilo. Left panel shows a Site ID and the reported area, and the right side shows a terrain map marking the land area. The military base is an example of an OECM." width="375"><figcaption><p>Information on the Canadian Forces Base Shilo, as shown on the WDPCA,<br><a href="https://www.protectedplanet.net/555705170">https://www.protectedplanet.net/555705170</a></p></figcaption></figure>
 
 (Conserved areas are formally known as Other Effective Area-based Conservation Measure, OECM, [defined in 2018 at CBD COP14](https://www.cbd.int/doc/decisions/cop-14/cop-14-dec-08-en.pdf). In this guide, we will use "conserved areas" for readability.)
 
@@ -50,7 +52,7 @@ The following data are available for each area with a unique ID:
 * Designation, IUCN Management category, designation type, designation name, year
 * Governance type and management authority (e.g., a government ministry name)
 * Management Plan - reported or not, implemented or not. Provides link to management plan if available.
-* International criteria. If the site is a UNESCO World Heritage Site or Ramsar site, this field [describes](https://wdpa.s3-eu-west-1.amazonaws.com/WDPA_Manual/English/WDPA_WDOECM_Manual_1_6.pdf) the criteria that qualify them for designation.
+* International criteria. If the site is a UNESCO World Heritage Site or Ramsar site, this field [describes](https://wdpa.s3-eu-west-1.amazonaws.com/WDPA_Manual/English/WDPA_WDOECM_Manual_1_6.pdf) the criteria that qualified them for designation.
 
 > **💡Recent and announced changes**
 >
@@ -64,7 +66,7 @@ By default, using the search bar toward the top of the page would perform a keyw
 \
 If you are seeking information for a continent or country level, select Regions or Country options respectively. These options are shown in the orange rectangle in the screenshot below.
 
-<p align="center"><img src="../../.gitbook/assets/WDPCA_search.png" alt="Search results in the World Database for Protected and Conserved Areas (WDPCA) for &#x27;Cotswold&#x27; - referring to a protected area in the UK. Five results are shown. Users can select Regions to search for data at a continental level (e.g., Polar), or select Country to search for data at a country level." data-size="original"><br>Example of searching WDPCA for 'Cotswold'</p>
+<p align="center"><img src=".gitbook/assets/WDPCA_search (1).png" alt="Search results in the World Database for Protected and Conserved Areas (WDPCA) for &#x27;Cotswold&#x27; - referring to a protected area in the UK. Five results are shown. Users can select Regions to search for data at a continental level (e.g., Polar), or select Country to search for data at a country level." data-size="original"><br>Example of searching WDPCA for 'Cotswold'</p>
 
 * **Regions** refer to different continents or regional groupings: Asia & Pacific, Africa, Europe, Latin America & Caribbean, Polar, North America, and West Asia
 * **Countries**: Data are available for 247 countries and jurisdictions.
@@ -115,11 +117,11 @@ Assuming that you have the Google Earth Pro software installed, open it, and dra
 
 For example, we downloaded the shapefiles for all protected and conserved areas in Egypt. Due to file size, the download was split into 3 zip files which contain 6 sets of shapefiles. We dragged the 6 .shp files onto Google Earth Pro.
 
-<figure><img src="../../.gitbook/assets/Egypt.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Egypt (1).png" alt=""><figcaption></figcaption></figure>
 
 Now you can click on an area to see the data available.
 
-![](../../.gitbook/assets/Hover.png)\\
+![](<.gitbook/assets/Hover (1).png>)\\
 
 :information\_source: If needed, **you can change the color scheme** within Google Earth Pro. Right-click on the shapefile layer in the Places panel and select "Properties". If you wish to change the color for an individual polygon, click "Get Info". This will open a properties window. Select the "Style, Color" tab to change the colors.
 
@@ -146,7 +148,7 @@ Now you can click on an area to see the data available.
 
 #### Lag time
 
-There may be some lag time before new protected or conserved areas appear on the database. This can be due to delays in reporting from national governments, or time taken for compiling and processing the data, according to the [user manual](https://doi.org/10.34892/CF8P-8D35).
+There may be some lag time before new protected or conserved areas appear on the database. This can be due to delays in reporting from national governments, or time taken for compiling and processing the data, according to the [user manual](https://doi.org/10.34892/CF8P-8D35). Additionally, proposed or planned protected areas are not listed.&#x20;
 
 #### **Historical data can be lost**
 
@@ -165,6 +167,10 @@ The WDPCA is best used for answering _what_ and _where_ questions about protecte
 
 * To understand _why_ an area was designated, or which valuable species or ecosystems are within those areas, researchers need to look elsewhere. For example, if an area is designated under the Ramsar Convention on Wetlands, the researcher may need to seek further information on the [Ramsar Convention website](https://www.ramsar.org/).
 * Researchers seeking to understand future implications of current policies would need to leverage their understanding of local contexts. For example, once a researcher has seen the information about Pacific Remote Islands Marine National Monument in the WDPCA, this is a starting point for their understanding about recent [policy changes](https://naturalresources.house.gov/news/documentsingle.aspx?DocumentID=417050), [court cases](https://www.theguardian.com/us-news/2025/aug/10/pacific-islands-heritage-monument-trump-administration), or indigenous community perspectives on whether commercial fishing should be allowed there.
+
+#### Data quality may vary
+
+The database displays data as submitted by various governments, and there can be variances in the quality or completeness of the data.&#x20;
 
 ## Ethical Considerations
 
@@ -190,6 +196,8 @@ For information about species and where they are, please see:
 * Rarity-weighted richness map (IUCN [dataset ](./#url)[download page](https://www.iucnredlist.org/resources/other-spatial-downloads))
 
 ## Articles
+
+Burning Forests: Tools for Tracking and Reporting Wildfire Damage. _Bellingcat_. (June 20, 2026) [https://www.bellingcat.com/resources/how-tos/2026/06/30/burning-forests-tools-for-tracking-and-reporting-wildfire-damage/](https://www.bellingcat.com/resources/how-tos/2026/06/30/burning-forests-tools-for-tracking-and-reporting-wildfire-damage/)
 
 How Much Can Forests Fight Climate Change? A Sensor in Space Has Answers. _New York Times._ (Dec 8, 2023) [https://www.nytimes.com/2023/12/08/climate/forests-trees-climate-change.html](https://web.archive.org/web/20231210082509/https://www.nytimes.com/2023/12/08/climate/forests-trees-climate-change.html). (Archive link: [https://web.archive.org/web/20231210082509/https://www.nytimes.com/2023/12/08/climate/forests-trees-climate-change.html](https://web.archive.org/web/20231210082509/https://www.nytimes.com/2023/12/08/climate/forests-trees-climate-change.html))
 
@@ -226,6 +234,8 @@ Protected Planet, a joint initiative from:
 * [x] This tool has implemented optional tracking cookies, which users can choose to disable.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer |
-| --------------- |
-| river\_n        |
+| Page maintainer  |
+| ---------------- |
+| Author: river\_n |
+
+August 31, 2026
