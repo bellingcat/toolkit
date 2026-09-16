@@ -1,17 +1,17 @@
 ---
+updated: '2025-11-26'
 description: >-
   Command line tool for checking if phone numbers are connected to Telegram
   accounts and retrieving related information where available.
-updated: '2025-11-26'
 ---
 
 # Telegram Phone Number Checker
 
 ## URL
 
-[Try it on Google Colab](https://colab.research.google.com/github/bellingcat/open-source-research-notebooks/blob/main/notebooks/bellingcat/telegram-phone-number-checker.ipynb)
-
 [Get the code from GitHub](https://github.com/bellingcat/telegram-phone-number-checker)
+
+[Try it on Google Colab](https://colab.research.google.com/github/bellingcat/open-source-research-notebooks/blob/main/notebooks/bellingcat/telegram-phone-number-checker.ipynb)
 
 ## Description
 
@@ -19,7 +19,7 @@ The Telegram Phone Number Checker is a Python-based command-line tool that takes
 
 When investigating a phone number of interest, this tool may help a user find more information about the owner of the phone number.\
 \
-If adding the contact is successful, the tool extracts public information that could include the account username, first name, last name, profile photo, and when they were last online.&#x20;
+If adding the contact is successful, the tool extracts public information that could include the account username, first name, last name, profile photo, and when they were last online.
 
 <details>
 
@@ -47,25 +47,23 @@ If adding the contact fails, it could be that the person is not on Telegram or h
 
 A Telegram developer account and API key.
 
-Basic to intermediate experience with the Python programming language.&#x20;
+Basic to intermediate experience with the Python programming language.
 
 ## Limitations
 
-The tool can lead to your Telegram account being blocked, which seems more likely if you use the tool for large numbers of phone numbers or if you use a VPN (that could be associated with spam activity).&#x20;
+The tool can lead to your Telegram account being blocked, which seems more likely if you use the tool for large numbers of phone numbers or if you use a VPN (that could be associated with spam activity).
 
 To mitigate this risk, it is recommended to avoid using your personal account with this tool.
 
 ## Ethical Considerations
 
-It is possible to gain access to people's names and images using this tool, and it should be used as part of tightly scoped investigations. Users should be cautious not to disclose personal information about individuals they are investigating when sharing their findings.&#x20;
+It is possible to gain access to people's names and images using this tool, and it should be used as part of tightly scoped investigations. Users should be cautious not to disclose personal information about individuals they are investigating when sharing their findings.
 
 ## Guides and articles
 
 [YouTube Tutorial](https://www.youtube.com/watch?v=TLJgnlilEBs)
 
 Bellingcat article: ["How Code Notebooks Enable Open Source Research"](https://www.bellingcat.com/resources/2024/03/06/how-code-notebooks-enable-open-source-research/), Miguel Ramalho
-
-
 
 ## Tool provider
 
