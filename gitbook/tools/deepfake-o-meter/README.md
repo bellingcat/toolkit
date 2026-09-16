@@ -80,5 +80,5 @@ The [UB Media Forensics Lab](https://ubmdfl.cse.buffalo.edu/), based at the Univ
 | Page maintainer           |
 | ------------------------- |
 | Bellingcat volunteer team |
-| August 2026               |
+| September 2026            |
 
