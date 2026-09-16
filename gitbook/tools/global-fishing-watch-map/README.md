@@ -11,6 +11,20 @@ description: >-
 
 [https://globalfishingwatch.org](https://globalfishingwatch.org/map)
 
+{% hint style="warning" %}
+Update August 2026: Due to technical issues, a few datasets from vessel registries have not yet been integrated into Global Fishing Watch. (The platform continues to provide data from over 40 data sources.) \
+\
+Current data gaps are: \
+• Ecuador — last updated Feb 1 2026\
+• Taiwan — last updated June 1 2026\
+• Canada — last updated July 1 2026\
+• [Western and Central Pacific Fisheries Commission (WCPFC) Record of Fishing Vessels](https://vessels.wcpfc.int/browse-rfv) — \
+• EU Vessels Registry data are updated in August 2026, but data between May 1st and July 1st have not been backfiled. \
+• [TMT FACT database](https://www.tm-tracking.org/fisheries-analytical-capacity-tool) — last updated June 1 2026\
+\
+Please watch [announcements](https://globalfishingwatch.org/platform-update/gaps-in-monthly-registry-source-ingestion/) from Global Fishing Watch for details.&#x20;
+{% endhint %}
+
 ## Description
 
 Global Fishing Watch provides a set of open-access tools for the visualization and analysis of vessel activities at sea, with a focus on supporting ocean governance. Global Fishing Watch (GFW) uses a variety of data sources, including:
@@ -20,6 +34,14 @@ Global Fishing Watch provides a set of open-access tools for the visualization a
 * [Apparent fishing efforts](https://globalfishingwatch.org/dataset-and-code-fishing-effort/): Estimations based on machine learning algorithms, indicating start and end times of fishing, and the type of gear deployed
 * Data layers and datasets: [Night light detections](https://globalfishingwatch.org/data/ais-viirs-reveals-dark-fleet/), [radar detections](https://globalfishingwatch.org/platform-update/new-detections-from-synthetic-aperture-radar/), bathymetry (i.e., measurement of water depth and physical features of sea floor), chlorophyll-a concentration, coral reefs, mangroves, and nitrate concentration
 * [Vessel information](https://globalfishingwatch.org/datasets-and-code-vessel-identity/): [IMO](https://www.pew.org/-/media/assets/2017/05/eif_the_imo_number_explained.pdf), MMSI, current ownership structure and past ownership records
+
+{% hint style="info" %}
+Since July 2026, the SAR (Synthetic Aperture Radar) Vessel Detection dataset and Fixed Infrastructure dataset of Global Fishing Watch are offline due to European Space Agency's official retirement of the [Copernicus Sentinel-1A satellite](https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-1/Time_to_say_goodbye_to_Sentinel-1A). \
+\
+Global Fishing Watch is working on transitioning to use data from the newer Sentinel-1C and Sentinel-1D instead.&#x20;
+{% endhint %}
+
+
 
 ### Potential use cases
 
@@ -45,7 +67,7 @@ GFW offers different possibilities to investigate issues in coastal waters or at
 
 _**What this page covers.**_ This page will discuss three tools under Global Fishing Watch, namely the [Map](https://globalfishingwatch.org/our-map/), [Marine Manager](https://globalfishingwatch.org/marine-manager-portal/), and [Vessel Viewer](https://globalfishingwatch.org/map/vessel-search). These tools can be considered mutually complementary for investigative purposes. All three can be accessed in the top-left corner navigation, as annotated below.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (3) (10) (1).png" alt="" width="143"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src=".gitbook/assets/image (3) (10) (1).png" alt="" width="143"><figcaption></figcaption></figure></div>
 
 #### Viewing heatmap of vessel activities
 
@@ -55,17 +77,17 @@ As an example, below is a heatmap visualizing vessel activity off the coast of M
 
 View a higher (or lower) resolution heatmap by selecting the icons (shown in the gray rectangle, side panel - see left of image).
 
-<figure><img src="../../.gitbook/assets/image (67) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (67) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 _**Note.**_ GFW is heavy on visual content. For those with slower internet speeds, a new page view can take 30 seconds or longer to load a new page view. Please be patient.
 
 Click on your location of interest to see the vessel activities there. For example, these vessels were apparently fishing in the coastal waters near Nouakchott, Mauritania.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2026-01-09 at 1.15.27 AM (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2026-01-09 at 1.15.27 AM (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Clicking into each vessel will show you more information, including the MMSI and IMO identifiers and the call sign, what type of vessel and fishing gear, and information about its voyage(s) and port visit(s) during your selected time frame. An example is shown here. (Further discussion on finding vessel information is in a later section.)
 
-<figure><img src="../../.gitbook/assets/Screenshot 2026-01-09 at 1.55.08 AM (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2026-01-09 at 1.55.08 AM (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 <details>
 
@@ -112,7 +134,7 @@ By [IMO regulations](https://www.imo.org/en/ourwork/iiis/pages/imo-identificatio
 
 GFW data are published with a 72-hour delay, considered near real-time. A timeline is shown at the bottom of the screen. You can adjust the date range by adjusting the timeline, as shown below. Note that ranges can be Year, Month, Day, or Hours.
 
-<figure><img src="../../.gitbook/assets/image (2) (14) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (14) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 * To see the heat map changing over your chosen duration, press the Play button.
 * Historical data are available dating back to January 1, 2012.
@@ -126,7 +148,7 @@ Select the magnifying glass icon 🔍 and you will reach the Vessel Finder tool.
 
 As an example below, searching for IMO 9447976, the vessel information is shown and its route in a selected time frame is visualized. The vessel's port visits, encounter events (e.g., meeting with another vessel) at sea, and loitering events are counted and mapped (if any).
 
-<figure><img src="../../.gitbook/assets/example_polymnia (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/example_polymnia (1).png" alt=""><figcaption></figcaption></figure>
 
 #### **What are loitering events?**
 
@@ -148,7 +170,7 @@ For example, the protected area near the Galapagos was [expanded in 2022](https:
 
 The boundaries of these protected areas, as well as the Exclusive Economic Zone (EEZ) of Ecuador around the Galapagos, are clearly shown in GFW.
 
-<figure><img src="../../.gitbook/assets/Galapagos (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Galapagos (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 #### Downloading data
 
@@ -163,11 +185,11 @@ GFW supports users downloading the vessel activity dataset based on their chosen
 
 1. _**Languages:**_ Global Fishing Watch is available in English, Spanish, French, Bahasa Indonesia, and Portuguese. To switch languages, find this symbol in the bottom-left corner (circled in orange).
 
-<div align="left"><figure><img src="../../.gitbook/assets/Screenshot 2026-01-09 at 1.51.37 AM (1).png" alt="" width="260"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src=".gitbook/assets/Screenshot 2026-01-09 at 1.51.37 AM (1).png" alt="" width="260"><figcaption></figcaption></figure></div>
 
 2. _**Upload your own data**_: To create visualizations using GFW's data overlaid on your own dataset, you can upload your data.
 
-<div align="left"><figure><img src="../../.gitbook/assets/user_datasets (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src=".gitbook/assets/user_datasets (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 ## Cost
 
@@ -181,11 +203,11 @@ GFW supports users downloading the vessel activity dataset based on their chosen
 
 ## Requirements
 
-* **Email address:** a registered account is required for [some features](https://globalfishingwatch.org/our-map/) (e.g. downloadable fishing reports; saving a workspace)
+* **Email address:** registering an account will unlock [some advanced features](https://globalfishingwatch.org/our-map/), including  downloadable fishing reports and saving workspaces
 * **API:** a registered account and an API Token
-* For users less familiar with using an API, **Python and R** **packages** are available. (See links for Github repos: [Python](https://github.com/GlobalFishingWatch/gfw-api-python-client) gfw-api-python-client; [R](https://github.com/GlobalFishingWatch/gfwr) gfwr package.)
+* **Python and R** **packages**: The Python package has [excellent documentation](https://globalfishingwatch.github.io/gfw-api-python-client/), including example workflows under Workflow Guides. (Github repos available at: [Python](https://github.com/GlobalFishingWatch/gfw-api-python-client) gfw-api-python-client; [R](https://github.com/GlobalFishingWatch/gfwr) gfwr package.)
 
-Refer to the [GFW Data Availability Guide](https://globalfishingwatch.org/global-fishing-watch-data-availability/) to see which datasets are available in each type of access.
+Refer to the [GFW Data Availability Guide](https://globalfishingwatch.org/global-fishing-watch-data-availability/) to see which datasets are available in each type of access.&#x20;
 
 ## Limitations
 
@@ -261,4 +283,5 @@ Global Fishing Watch (GFW) [https://globalfishingwatch.org](https://globalfishin
 | Page maintainer  |
 | ---------------- |
 | Author: river\_n |
-|                  |
+
+August 31, 2026
