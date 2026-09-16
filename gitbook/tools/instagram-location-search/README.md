@@ -27,14 +27,14 @@ When looking for media from a particular location, searching for just an address
 
 This could mean the investigator will have to manually compile a list of all those possible locations and then potentially sift through the individual location tags to look for media.
 
-<figure><img src="../../.gitbook/assets/ScreenRecording2024-09-15195317-ezgif.com-censor (1).gif" alt="" width="563"><figcaption><p>This is an example of a post of Bayon Temple, a popular tourist destination in Siem Reap, Cambodia. However, the challenge is that when a user tags the image, various location suggestions appear. Searching for relevant media through individual location tags is inefficient and may risk excluding pertinent potential images/videos for the investigation.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/ScreenRecording2024-09-15195317-ezgif.com-censor (1).gif" alt="" width="563"><figcaption><p>This is an example of a post of Bayon Temple, a popular tourist destination in Siem Reap, Cambodia. However, the challenge is that when a user tags the image, various location suggestions appear. Searching for relevant media through individual location tags is inefficient and may risk excluding pertinent potential images/videos for the investigation.</p></figcaption></figure>
 
 1. This tool solves the problem of efficiency. Instagram Location Search casts a broader net by compiling all the location tags near a set of coordinates along with their respective links to Instagram’s Explore page.
 2. This tool also addresses the issue of exporting data in various output formats tailored to the investigator's individual needs.
 
 <details>
 
-<summary><a href="https://github.com/bellingcat/instagram-location-search/blob/main/README.md">Here is a list of outputs that the tool can create</a></summary>
+<summary><a href="https://github.com/bellingcat/instagram-location-search/blob/main/README.md">Here is a list of outputs that the tool can create</a> <mark style="color:$success;"><strong>(CLICK TO EXPAND)</strong></mark></summary>
 
 1. \--map → This command allows users to request a map in HTML format showing the locations on the map, with links to Instagram and the media associated with the particular location tag.
 2. \--csv → This command allows users to request the location data in a CSV/table-like format which they can then use on programs like Excel, Google Sheets, etc.
@@ -59,9 +59,9 @@ NOTE: Giving access to your Instagram account using this tool may breach the pla
 4. Use the tool to get more locations.
 5. Use the tool to create the output format you may need for your investigation. The output is generally saved in the folder specified in the query (see below).
 
-<figure><img src="../../.gitbook/assets/null (1).png" alt=""><figcaption><p>This is a sample query with the Instagram Location Search tool, with the different variables you can input. This query requests the tool for location tags based on the coordinates for the Bayon Temple in Siem Reap, Cambodia (violet). This is followed by the "--more" command which asks for more location tags for the coordinates (blue). This is followed by the "--map" command requesting the tool to create a map in a form of a website to help visualize these location tags. Then the query is followed by file name "Bayon.html" at the end (in yellow). This file can be found on the folder specified on the command prompt (highlighted in green)</p></figcaption></figure>
+<figure><img src=".gitbook/assets/null (1).png" alt=""><figcaption><p>This is a sample query with the Instagram Location Search tool, with the different variables you can input. This query requests the tool for location tags based on the coordinates for the Bayon Temple in Siem Reap, Cambodia (violet). This is followed by the "--more" command which asks for more location tags for the coordinates (blue). This is followed by the "--map" command requesting the tool to create a map in a form of a website to help visualize these location tags. Then the query is followed by file name "Bayon.html" at the end (in yellow). This file can be found on the folder specified on the command prompt (highlighted in green)</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-09-19 154029 (1).png" alt="" width="563"><figcaption><p>This is a sample map created by the tool based on the query above. Users can zoom in and out and click on each pin. Each pin represents a location tag and will contain a link to a gallery on Instagram based on the location tag.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-09-19 154029 (1).png" alt="" width="563"><figcaption><p>This is a sample map created by the tool based on the query above. Users can zoom in and out and click on each pin. Each pin represents a location tag and will contain a link to a gallery on Instagram based on the location tag.</p></figcaption></figure>
 
 ### Use Case
 
@@ -116,9 +116,9 @@ Bellingcat, Netherlands
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
+* [ ] This tool has not been checked for advertising trackers yet.
 * [ ] This tool uses tracking cookies. Use with caution.
-* [ ] This tool does not appear to use tracking cookies.
+* [x] This tool does not appear to use tracking cookies.
 
 | Page maintainer |
 | --------------- |
