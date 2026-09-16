@@ -1,8 +1,6 @@
 ---
 updated: '2026-08-31'
-description: >-
-  MW Geofind is a tool for finding YouTube videos that had been manually
-  geotagged by the creators.
+description: MW Geofind is a tool for finding geotagged YouTube videos.
 ---
 
 # MW Geofind
@@ -21,7 +19,7 @@ MW Geofind is an online tool designed for identifying YouTube videos tagged with
 
 ### How to use
 
-You can search for YouTube videos by keywords, location name, or coordinates. Additionally, you can filter results by timeframe ("past hour", "past 30 days" etc.), video duration, and language.
+Search for YouTube videos by keywords, location name, or coordinates. You can filter results by timeframe (e.g., "past hour", "past 30 days" etc.), video duration, and language.
 
 * To optimize the keyword search, have a look at the [documentation](https://github.com/mattwright324/youtube-geofind/wiki/YouTube-Keyword-Operators) for YouTube keyword operators.
 * When searching by location, users can set a radius between 1 and 1000km.
@@ -89,11 +87,17 @@ Another approach is to use YouTube's search by location function.
 
 </details>
 
+In our tests, searching directly on Youtube can lead to more comprehensive search results (i.e., more videos found), though there are a few disadvantages, as discussed in the [MW Geofind documentation](https://github.com/mattwright324/youtube-geofind/wiki):
+
 Searching directly on Youtube can lead to more comprehensive search results (i.e., more videos found).
 
-* On YouTube, the time frame selection can be limiting (i.e., the choices are "last hour", "today", "this week", "this month", "this year"). MW Geofind allows more flexibility (e.g., between Jan 1 to Feb 15, 2017), enabling searches for older videos.
+* On YouTube, the user can only search by location name and not by coordinates.
+* On YouTube, geotags are in the video creator's chosen language. E.g., a French speaker may geotag their video "États-Unis" instead of "United States". When searching on Youtube, researchers should try different languages for more complete results. The language issue would not affect researchers searching by coordinates in MW Geofind.
+* On YouTube, the time frame selected must be recent (i.e., the choices are limited to "last hour", "today", "this week", "this month", "this year"). MW Geofind allows more flexibility (e.g., between Jan 1 to Feb 15, 2017), enabling searches for older videos.
 
-Since 2025, Youtube has started to process visual content in videos, including objects, people, scenes and places, in order to [create AI-generated summaries for videos](https://uk.pcmag.com/ai/158798/youtube-search-gets-its-own-ai-overviews-but-access-is-limited). The visual information is also used to inform the search results. This further improve the comprehensiveness of Youtube search results for a place name, though it can also lead to some false positives.
+For those comfortable with using command line tools, [yt-dlp](https://github.com/yt-dlp/yt-dlp) might be preferable for broader functionalities (e.g., faster downloads, audio extraction). To load the video's metadata, use: `yt-dlp --print-json [VIDEO_URL]`\
+\
+The metadata would include the video location only if the video was geotagged by the creator. Note that since September 2025, [additional JavaScript components are required](https://github.com/yt-dlp/yt-dlp/issues/14404) for yt-dlp to function properly.
 
 #### yt-dlp
 
@@ -117,8 +121,11 @@ The metadata would include the video location only if the video was geotagged by
 
 ## Limitations
 
+* **API rate limits:** Usage of MW Geofind is subject to[ Youtube API rate limits](https://github.com/mattwright324/youtube-geofind/issues/11), which means that a few users with high-volume searches can exhaust the quota for the day. The rate limits are reset daily at 9am US Pacific time. Therefore, users who find MW Geofind unresponsive or not functioning should check back again the next day.
 * **Location information may be inaccurate**: MW Geofind makes an initial search and then makes additional calls to get `recordingDetails` and `locationDescription` from the YouTube[ API](https://developers.google.com/youtube/v3/docs/videos#recordingDetails). Users should understand that the coordinates do not necessarily refer to a precise location, as the same coordinates can refer to a country, city, landmark, address, or point of interest. Again, users should seek to independently verify the location information. You can find a discussion about this issue in MW Geofind's [project wiki](https://github.com/mattwright324/youtube-geofind/wiki).
-* **Search results are not comprehensive**: MW Geofind is a tool specific to finding for geotagged videos. As discussed above, the video creator can choose to omit geotagging (i.e., leaving it blank), or provide inaccurate or imprecise geotags, or geotag in a different language. Therefore, search results from MW Geofind can be seen as a narrow subset of all possible videos uploaded from a location.
+* **Search results are not comprehensive**: MW Geofind is a tool specific to finding for geotagged videos. As discussed above, video creators can omit geotagging (i.e., leaving it blank), or deliberately provide inaccurate or imprecise geotags, or geotag in a different language. Therefore, search results from MW Geofind should be understood as a narrow subset of all possible videos uploaded from a location.\
+  \
+  For more comprehensive search results, researchers may be better off simply typing the location name into Youtube's search bar, then adjusting through "Filters" (see [Similar Tools](./#similar-tools) above) for the upload date or other criteria. This generic Youtube search will show videos where the location name appears in the video's title, description, chapter titles, and channel name and descriptions, in addition to any algorithm-driven personalization.
 
 ## Ethical Considerations
 
@@ -127,7 +134,7 @@ The metadata would include the video location only if the video was geotagged by
 
 ## Guides and articles
 
-**Official Wiki** **from the developer**
+**Official wiki**
 
 * [https://github.com/mattwright324/youtube-geofind/wiki](https://github.com/mattwright324/youtube-geofind/wiki)
 
