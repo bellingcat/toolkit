@@ -43,11 +43,7 @@ No login is required and the program runs entirely online. You just need a compa
 
 Jimpl was made by a web developer named [Toni](./#url) from Romania.&#x20;
 
-## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
-* [ ] This tool uses tracking cookies. Use with caution.
-* [ ] This tool does not appear to use tracking cookies.
 
 | Page maintainer                                          |
 | -------------------------------------------------------- |
