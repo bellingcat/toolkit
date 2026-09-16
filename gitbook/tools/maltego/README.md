@@ -114,7 +114,7 @@ _Find it by going to the Maltego Graph Icon → Tools → Home (see video below)
 
 There are two ways to get data here:
 
-1. Maltego Connectors (“Bring your own key”) →[ This is when you sign up with the provider yourself and enter your own API key. ](https://docs.maltego.com/en/support/solutions/articles/15000058711-data-pass-and-connectors-for-maltego-graph#connectors-0-2)
+1. Maltego Connectors (“Bring your own key”) →[ This is when you sign up with the provider yourself and enter your own API key.](https://docs.maltego.com/en/support/solutions/articles/15000058711-data-pass-and-connectors-for-maltego-graph#connectors-0-2)
 2. Maltego Data Pass → This is Maltego’s [built-in data subscription. Maltego has negotiated access to a set of providers, paid for using ‘Credits’ (similar to a monthly data allowance).](https://www.maltego.com/maltego-data/) For the free Basic Plan, you have 200 credits per month. You do not need to sign up or bring an API key for Data Pass. Look for the orange ‘Maltego Data Pass' badge on a partner's tile in the Data Hub.
 
 <figure><img src=".gitbook/assets/Screenshot 2026-07-13 155932.png" alt=""><figcaption></figcaption></figure>
@@ -171,6 +171,10 @@ TIP: We learned that putting a link to your source under “label” can be effe
 * [x] Partially Free
 * [ ] Paid
 
+- This is a partially free version, meaning that some data sources come for free while others require access through external APIs, which are paid. Find a list of available data sources for Maltego CE [here](https://www.maltego.com/transform-hub/?q=available-for-licenses-maltego-community). The free data sources have a limit of transform requests per month, and may require individual subscriptions to those data providers.
+- Limitation: A Maximum of 10,000 entities per graph, and maximum amount of results per single transform is 12.
+- Learn more about this plan [here.](https://www.maltego.com/maltego-community/#maltegoEssentials)
+
 Maltego has both free and paid editions. They all include Maltego Graph.
 
 The cost structure can be complicated for a beginner. Below is a breakdown.
@@ -203,7 +207,7 @@ Maltego's limitations for open source researchers, regardless of which edition, 
 6. **Parsing search results can be tricky:** Maltego transforms sometimes return very generalized results. If you are searching for a name, i.e., Graham Wilson, it will produce results containing either both "Graham Wilson" or results with just "Graham" or just "Wilson."
 7. **Price:** Maltego can be pricey, especially for individual, beginner open-source researchers, freelancers, or non-profit organizations. Users may need to purchase additional subscriptions to data sources to equip investigations with the right set of data. Some Maltego users may find that a maximum of 24 transform results per request is too limited to get a workable investigative lead. This means the researcher must wait for a month to get a new quota on transform requests. A cap on transform results plus a cap on data sources may not always provide the desired results. And may, for some, be time-consuming.
 
-Overall, Maltego allows investigators to visualize connections between different pieces of information, making it easier to identify patterns and relationships. Unlike other tools, it automatically maps links between data points if the information is available. While transforms help gather data, they require manual effort to ensure sources are accurately recorded. However, keep these limitations in mind when using the tool.
+Overall, Maltego allows investigators to visualize connections between different pieces of information, making it easier to identify patterns and relationships. Unlike other tools, it automatically maps links between data points if the information is available. While transforms help gather data, they require manual effort to even ensure sources are accurately recorded. However, keep these limitations in mind when using the tool.&#x20;
 
 ## Ethical Considerations
 
