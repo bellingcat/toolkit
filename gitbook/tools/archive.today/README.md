@@ -1,5 +1,5 @@
 ---
-updated: '2026-09-12'
+updated: '2026-09-15'
 description: Archive any webpage and search for archived pages.
 ---
 
