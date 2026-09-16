@@ -93,4 +93,4 @@ The US-based [World Resources Institute](https://www.wri.org/); the platform was
 | Page maintainer                     |
 | ----------------------------------- |
 | Bellingcat Volunteer Team / Lavache |
-|                                     |
+| August 2026                         |
