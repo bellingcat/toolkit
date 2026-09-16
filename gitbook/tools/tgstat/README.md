@@ -55,20 +55,20 @@ It helps researchers find relevant channels to follow on specific topics. Some f
 1. _Filter by country:_ Users can filter channels by country. The list of countries available in the search filters on the website: Russia, Ukraine, Belarus, Uzbekistan, Kazakhstan, Kyrgyzstan, Iran, China, India, and Ethiopia.
 
 {% hint style="info" icon="triangle-exclamation" %}
-NOTE: This is a limited list, [TGSTAT includes content from a number of other countries f](https://www.grabon.in/indulge/tech/telegram-users-statistics/)rom South Asia, Southeast Asia and MENA.
+NOTE: This is a limited list, [TGSTAT includes content from a number of other countries f](https://www.grabon.in/indulge/tech/telegram-users-statistics/)rom South Asia, Southeast Asia and MENA. Users can also find other public channels or open groups not covered by the countries listed in the catalog.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/IMG_0178.jpg" alt=""><figcaption><p>This shows a catalog of public Telegram channels and open groups categorzed by country. The user can navigate to this feature by clicking “Catalog” in the upper left, then clicking “channels and groups catalog”.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/IMG_0178.jpg" alt=""><figcaption><p>This shows a catalog of public Telegram channels and open groups categorzed by country. The user can navigate to this feature by clicking “Catalog” in the upper left, then clicking “channels and groups catalog”.</p></figcaption></figure>
 
-However, users can also find other public channels or open groups not covered by the countries listed in the catalog.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-06-24 170220.png" alt=""><figcaption><p>This is a public news channel with a Telegram account. The screenshot shows the TGStat analytics for the channel. In the upper right corner, the "channel's geo and language" is displayed. The channel is primarily in Arabic, and the specific country is not mentioned. This means that users may not be able to find this channel by browsing the catalog grouped by country. Instead, they can search for the channel's username using the site's search bar. This demonstrates that TGStat provides information for public channels on Telegram, irrespective of their country and language.</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/Screenshot 2024-06-24 170220 (1).png" alt=""><figcaption><p>This is a public news channel with a Telegram account. The screenshot shows the TGStat analytics for the channel. In the upper right corner, the "channel's geo and language" is displayed. The channel is primarily in Arabic, and the specific country is not mentioned. This means that users may not be able to find this channel by browsing the catalog grouped by country. Instead, they can search for the channel's username using the site's search bar. This demonstrates that TGStat provides information for public channels on Telegram, irrespective of their country and language.</p></figcaption></figure>
 
 2. _Filter by theme/region:_ When researching Telegram channels in Russia, channels are grouped by region and by theme/topics. For the other countries, channels can be filtered by theme but not by region.
 
-<figure><img src="../../.gitbook/assets/IMG_0184.jpg" alt=""><figcaption><p>For Russia-based channels, users can filter by region as shown in the image. You can navigate through this by clicking "Catalog" in the upper left corner, and then by clicking on "regional compilations."</p></figcaption></figure>
+<figure><img src=".gitbook/assets/IMG_0184 (1).jpg" alt=""><figcaption><p>For Russia-based channels, users can filter by region as shown in the image. You can navigate through this by clicking "Catalog" in the upper left corner, and then by clicking on "regional compilations."</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/IMG_0185.jpg" alt=""><figcaption><p>For Russia-based channels, users can filter by themes/subject as shown in the image. You can navigate through this by clicking "Catalog" in the upper left corner, and then by clicking on "thematic compilations."</p></figcaption></figure>
+<figure><img src=".gitbook/assets/IMG_0185 (1).jpg" alt=""><figcaption><p>For Russia-based channels, users can filter by themes/subject as shown in the image. You can navigate through this by clicking "Catalog" in the upper left corner, and then by clicking on "thematic compilations."</p></figcaption></figure>
 
 3. _Filter by rating:_ TGStat also has a rating system for channels, groups, and posts. This in turn, is a valuable indicator of channel popularity and audience engagement.
 
@@ -82,7 +82,7 @@ _"Brands and People" rating (Russian-language channel only):_ TGSTAT also rates 
 
 <details>
 
-<summary><strong>Other Filtering Options (CLICK TO EXPAND)</strong></summary>
+<summary><strong>Other Filtering Options </strong><mark style="color:$success;"><strong>(CLICK TO EXPAND)</strong></mark></summary>
 
 There are other ways to filter search results on TGSTAT.
 
@@ -104,7 +104,7 @@ To get to the advanced search feature, users can click "Catalog" in the upper le
 
 This tool also solves the problem of visualizing posts' reach and their relationship with other user accounts, channels, and content. TGstat can pull up a specific channel's analytics and show the relationship between accounts through the “Citation” section. This section shows who cites whom.
 
-<figure><img src="../../.gitbook/assets/IMG_0214.jpeg" alt=""><figcaption><p>This image displays "incoming mentions" on the left and "outgoing mentions" on the right. "Incoming mentions" are channels or groups that mention this channel, while "outgoing mentions" are accounts this channel mentions. To access this feature, go to the main page of the channel you are researching, click on the blue bar labeled "Channel Statistics" on the right side of the page, then select "Citation" from the left-hand menu.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/IMG_0214 (1).jpeg" alt=""><figcaption><p>This image displays "incoming mentions" on the left and "outgoing mentions" on the right. "Incoming mentions" are channels or groups that mention this channel, while "outgoing mentions" are accounts this channel mentions. To access this feature, go to the main page of the channel you are researching, click on the blue bar labeled "Channel Statistics" on the right side of the page, then select "Citation" from the left-hand menu.</p></figcaption></figure>
 
 Users can use this feature during the preplanning stage to find other channels that might give them more information for their research. It can also show users what the channel tries to achieve and why.
 
@@ -117,13 +117,23 @@ Another way to see the relationship between channels is through the "Similar cha
 \
 In addition, users can see a channel or group's popularity over time.
 
-<figure><img src="../../.gitbook/assets/IMG_0211.jpeg" alt=""><figcaption><p>When trying to look for more information on a research topic, or to figure out which other channels may be discussing a particular incident under investigation, TGStat users can navigate the “similar channels” or “related channels”. This can be found on the main page of the user’s TGStat profile.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/IMG_0211 (1).jpeg" alt=""><figcaption><p>When trying to look for more information on a research topic, or to figure out which other channels may be discussing a particular incident under investigation, TGStat users can navigate the “similar channels” or “related channels”. This can be found on the main page of the user’s TGStat profile.</p></figcaption></figure>
 
 ### **Analytics**
 
 TGStat helps analyze content and reach. It provides insight into the channel or group’s performance, such as subscriber numbers, subscribers acquired over time, or those acquired based on the popularity of posts, reach, views per post, and engagement metrics (likes, comments, shares) per individual posts. This enables the user to understand what content resonates with a particular audience.
 
-<figure><img src="../../.gitbook/assets/IMG_0195 (1).PNG" alt=""><figcaption><p>This screenshot shows a TGStat feature called “Views Analysis”. This feature allows users to check a post’s popularity by date and by hour after it's been published. This feature can be accessed through the menu on the left of the page.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/IMG_0195 (1) (1).PNG" alt=""><figcaption><p>This screenshot shows a TGStat feature called “Views Analysis”. This feature allows users to check a post’s popularity by date and by hour after it's been published. This feature can be accessed through the menu on the left of the page.</p></figcaption></figure>
+
+### Telegram Monitoring
+
+With a paid subscription, users can monitor research subjects using "Telegram Monitoring".
+
+The step-by-step setup can be found here in this link: [https://tgstat.com/alerts](https://tgstat.com/alerts)
+
+{% hint style="info" %}
+Note: Users need to be logged in to set up the alert. Note that users pay per topic.
+{% endhint %}
 
 ## Cost
 
@@ -133,19 +143,17 @@ TGStat helps analyze content and reach. It provides insight into the channel or 
 
 TGStat has both free and paid versions.
 
-The versions are: Free, Personal, Corporate (see website for pricing)
+The versions are: Free, Personal, Corporate, and Business (see [website](https://tgstat.com/analytics) directly for price comparison)
 
-Below is a quick comparison of their subscription plan.
-
-<figure><img src="../../.gitbook/assets/IMG_0702.jpeg" alt=""><figcaption><p>Paid plans for three different tiers and their corresponding content. (Image credit: TGSTAT.COM websites)</p></figcaption></figure>
+<figure><img src=".gitbook/assets/IMG_0702.jpeg" alt=""><figcaption><p>Paid plans for three different tiers and their corresponding content. (Image credit: TGSTAT.COM websites)</p></figcaption></figure>
 
 Other paid features are: Access to Stat API (fee comparison here: [https://tgstat.ru/en/api/stat](https://tgstat.ru/en/api/stat)), Access to Search API ([https://tgstat.ru/en/api/search](https://tgstat.ru/en/api/search)), Access to Callback API ([https://tgstat.ru/en/api/callback](https://tgstat.ru/en/api/callback))
 
-### Level of Difficulty
+## Level of Difficulty
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
 
-### Requirements
+## Requirements
 
 The free version of the tool requires:
 
@@ -161,7 +169,7 @@ The paid version of the tool requires:
 
 3\. Paid subscription (Note that bank cards from other countries, such as those from the US, may no longer be accepted due to changes in the paywall).
 
-### Limitations
+## Limitations
 
 The tool has a few limitations.
 
@@ -169,7 +177,7 @@ The tool has a few limitations.
 
 If not logged in, users can see the channel’s “Summary” analytics.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-05-30 061656 (1).png" alt="" width="563"><figcaption><p>This shows a summary of the analytics available to users who are not logged in. This can be accessed by searching for a Telegram username on the search bar on the top of the page. Once on the channel or group’s page, click on “Statistics” to the right. Then, click on “Summary” on the menu bar to the left.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-05-30 061656 (1) (1).png" alt="" width="563"><figcaption><p>This shows a summary of the analytics available to users who are not logged in. This can be accessed by searching for a Telegram username on the search bar on the top of the page. Once on the channel or group’s page, click on “Statistics” to the right. Then, click on “Summary” on the menu bar to the left.</p></figcaption></figure>
 
 If not logged in, users cannot access the following features: subscribers, citation index, citation, average post reach, subscriber engagement, post views analysis, attracting subscribers, external traffic, and top posts.
 
@@ -178,7 +186,10 @@ If not logged in, users cannot access the following features: subscribers, citat
 
 If you're considering using TGStat, weigh these potential limitations against your needs.
 
-### Ethical Consideration
+4. Alerts/ Telegram Monitoring can be very convenient for researchers; however, this is a paid service. Monitoring more than 1 subject can become pricey.
+5. Scraping is prohibited under the User Agreement ([section 5.1.1)](https://tgstat.com/p/agreement); however researchers can opt to use API (another paid service) as an alternative.&#x20;
+
+## Ethical Consideration
 
 **Be mindful of data accuracy/specify data provenance**
 
@@ -194,7 +205,7 @@ In this [Wired article](https://web.archive.org/web/20240501205306/https://www.w
 
 TGStat founder addressed privacy concerns about the tool in the same Wired article, saying: “The situation in Russia and the world has no influence on the activities of TGStat.” He confirmed that data can be transferred to Russian authorities but said that “all companies operating in Russia have a similar clause in their policies” and that TGStat had not received any requests from authorities or law enforcement agencies.”
 
-### Guide
+## Guide
 
 This is a guide in Russian provided by TGStat.ru: [https://tgstat.com/blog/video-course-1024](https://tgstat.com/blog/video-course-1024) (Turning on the Auto Translate feature on YouTube gives a usable translation of the guide). This page will be updated if guides in other languages become available.
 
@@ -206,7 +217,7 @@ TGStat has been particularly used in content verification, especially in trackin
 
 TGStat was also used to analyze the far reaching influence of Telegram communities on Russian media outlets in the country’s war against Ukraine: [https://dfrlab.org/2024/06/10/another-battlefield-russian-telegram/](https://dfrlab.org/2024/06/10/another-battlefield-russian-telegram/).
 
-### Similar Tools
+## Similar Tools
 
 | TGStat                                                                         | Web-based analytics; easy dashboard                    | <p>Analytics focused on public Telegram channels/groups, tracking metrics such as subscriber growth, reach, mentions, posting frequency, engagement trends, and citation (ingoing and outgoing mentions).</p><p>Filtering by country, category, langauge and real-time updates</p><p>API</p> | <p><br></p><p>The country filter useful mostly on post-Soviet regions; other regions lacks country filter</p><p><br></p><p>Paid version required for detailed data, and cards from the US and other countries can’t be used for subscription.</p><p><br></p><p>(see limitations section <a href="https://bellingcat.gitbook.io/toolkit/more/all-tools/tgstat#limitations">above</a>)</p> |
 | ------------------------------------------------------------------------------ | ------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -214,17 +225,19 @@ TGStat was also used to analyze the far reaching influence of Telegram communiti
 | [TelegramDB](https://bellingcat.gitbook.io/toolkit/more/all-tools/telegramdb)  | Telegram bot interface; minimal text-based commands    | <p>Directory of public entities (groups, channels, users)</p><p><br></p><p>Keyword, user and username search</p><p><br></p><p>Groups joined by users</p><p><br></p><p>Live stats</p>                                                                                                         | <p>Public content only</p><p><br></p><p>API constraints</p><p><br></p><p>Search Costs</p><p><br></p><p>User -specific searches require paid vredits</p><p><br></p><p>(See more <a href="https://bellingcat.gitbook.io/toolkit/more/all-tools/telegramdb#limitations">here</a>)</p>                                                                                                       |
 | [Telepathy](https://bellingcat.gitbook.io/toolkit/more/all-tools/telepathy)    | Scraping via command line interface; targeted datasets | <p>Extracts chat metadata</p><p><br></p><p>Archiving of messages</p><p><br></p><p>User and location search</p><p><br></p><p>Export CSV</p><p><br></p><p>Chat Exports</p>                                                                                                                     | <p>Requires technical expertise; command line familiarity, python</p><p><br></p><p>Windows compatibility issues</p><p><br></p><p>(See more <a href="https://bellingcat.gitbook.io/toolkit/more/all-tools/telepathy#limitations">here</a>)</p>                                                                                                                                            |
 
-### Tool Provider
+## Tool Provider
 
 According to[ TGStat’s website](https://tgstat.ru/agreement), these are the administrator’s details:
 
 Name: Individual entrepreneur Kizhikin Yuriy Aleksandrovich, Russia.
 
-### Advertising Trackers
+## Advertising Trackers
 
-<table><thead><tr><th width="49" data-type="checkbox"></th><th></th></tr></thead><tbody><tr><td>false</td><td>This tool has not been checked for advertising trackers yet.</td></tr><tr><td>true</td><td>This tool uses tracking cookies. Use with caution.</td></tr><tr><td>false</td><td>This tool does not appear to use tracking cookies.</td></tr></tbody></table>
+<table><thead><tr><th width="75.4000244140625" data-type="checkbox"></th><th></th></tr></thead><tbody><tr><td>false</td><td>This tool has not been checked for advertising trackers yet.</td></tr><tr><td>true</td><td>This tool uses tracking cookies. Use with caution.</td></tr><tr><td>false</td><td>This tool does not appear to use tracking cookies.</td></tr></tbody></table>
 
-### Page Maintainer
+TGStat discloses that it uses Yandex.Metrica as a third-party analytics/tracking tool. (See [Section 5.3 of its Privacy Policy](https://tgstat.com/p/privacy-policy): "The Operator uses the third-party internet service Yandex.Metrica, which collects anonymized statistical information independently of TGStat.")
+
+## Page Maintainer
 
 Afton
 
