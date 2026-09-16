@@ -22,7 +22,9 @@ Users can upload material in any of the following formats:
 
 After the user submits the material, the tool will begin its analysis using a variety of AI detectors, and provide an estimated wait time for completion. Users can learn more about each AI detector on the ["Models" subpage](https://zinc.cse.buffalo.edu/ubmdfl/deep-o-meter/models), which provides brief descriptions.
 
-Across various samples, there is dramatic variance among the different detection models. Sample analysis conducted on screenshots of imagery from the site ThisPersonDoesNotExist.com, a random AI face generator, took under two minutes and resulted in ratings ranging from 0% certainty of artificial content to 100% for a single photo, with many in between.
+Across various samples, there is dramatic variance among the different detection models. In the deepfake images that we tested, the two models that were the most consistently accurate in spotting them were GLFF and NoDown, both of which are [described as being](https://zinc.cse.buffalo.edu/ubmdfl/deep-o-meter/models) "trained on 362K real images extracted from the LSUN dataset and 362K generated images obtained by ProGAN model with resolution of 256\*256 pixel". The models with the lowest accuracy in our tests were HIFI (trained on GAN and diffusion generators), UCF and IID.
+
+Sample analysis conducted on screenshots of imagery from the site ThisPersonDoesNotExist.com, a random AI face generator, took under two minutes and resulted in ratings ranging from 0% certainty of artificial content to 100% for a single photo, with many in between.
 
 <figure><img src=".gitbook/assets/dfom-1.png" alt=""><figcaption><p>Screenshot displaying the ratings across various models for one sample image</p></figcaption></figure>
 
@@ -30,7 +32,7 @@ To view an overall assessment, users can click on "View Submission Report". This
 
 <figure><img src=".gitbook/assets/dfom-2.png" alt=""><figcaption><p>Screenshot displaying the overall assessment as "inconclusive" for one sample image</p></figcaption></figure>
 
-While tools like DeepFake-O-Meter are designed to help combat the growing tide of visual misinformation and disinformation online, providing open-source researchers with a quick and simple method for attempting to verify or debunk content, such tools are [notoriously unreliable](https://www.newsguardtech.com/special-reports/leading-ai-image-detection-tools-mislead-online-users-often-declaring-authentic-content-fake/) (see Limitations section below).
+While tools like DeepFake-O-Meter are designed to help combat the [growing tide](https://www.cjr.org/tow_center/what-journalists-should-know-about-deepfake-detection-technology-in-2025-a-non-technical-guide.php) of visual misinformation and disinformation online, providing open-source researchers with a quick and simple method for attempting to verify or debunk content, such tools are [notoriously unreliable](https://www.newsguardtech.com/special-reports/leading-ai-image-detection-tools-mislead-online-users-often-declaring-authentic-content-fake/) (see Limitations section below).
 
 ## Cost
 
@@ -49,7 +51,7 @@ You must register using a valid email address in order to use the site.
 ## Limitations
 
 * **Accuracy:** AI detectors are [notoriously unreliable](https://www.newsguardtech.com/special-reports/leading-ai-image-detection-tools-mislead-online-users-often-declaring-authentic-content-fake/), often providing mixed or uncertain results; running the same image through DeepFake-O-Meter more than once may result in different ratings. DeepFake-O-Meter acknowledges that its [authenticity scores](https://zinc.cse.buffalo.edu/ubmdfl/deep-o-meter/) "reflect statistical similarity to training data patterns and do not constitute definitive proof of authenticity or manipulation", noting that the results should be "interpreted in conjunction with contextual and investigative analysis".
-* **File size:** Larger files may cause the system to hang or stop functioning midway through the processing attempt, which could be an issue for lengthy or high-resolution videos.
+* **File size:** Based on our own tests, larger files may cause the system to hang or stop functioning midway through the processing attempt, which could be an issue for lengthy or high-resolution videos.
 * **Processing times:** These may fluctuate depending on file size, with larger videos taking more time to analyze than smaller images. Before starting an analysis, users have the option to exclude detection models with longer processing times, thereby speeding up the overall task.
 
 ## Ethical Considerations
