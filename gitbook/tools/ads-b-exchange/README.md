@@ -36,9 +36,7 @@ ADS-B Exchange [does not accept take-down requests](https://support.adsbexchange
 
 The website allows you to see the aircraft that have made take-down requests on other platforms by navigating to the [LADD](https://www.faa.gov/pilots/ladd) (Limited Aircraft Data Displayed) filter, though is primarily of US aircraft.&#x20;
 
-<figure><img src=".gitbook/assets/ADS-B Exchange Selecting LADD filter.gif" alt=""><figcaption><p>ADS-B Exchange tracking platform, and the process for navigating to the filter that displays aircraft that have made take-down requests on other platforms. </p></figcaption></figure>
-
-<figure><img src=".gitbook/assets/ADS-BExchangeSelectingLADDfilter-LARGE GIF.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/ADS-BExchangeSelectingLADDfilter-LARGE GIF.gif" alt=""><figcaption><p>ADS-B Exchange tracking platform, and the process for navigating to the filter that displays aircraft that have made take-down requests on other platforms. </p></figcaption></figure>
 
 Below is a brief overview of the ADS-B website features. Upon entering the map view, the user can see a world map with current aircraft and various menus at the top and to the side.&#x20;
 
