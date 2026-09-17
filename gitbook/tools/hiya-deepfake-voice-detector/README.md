@@ -84,13 +84,7 @@ Meanwhile, the InVID plugin that integrates Hiya offers additional flexibility, 
 
 Another tool for audio deepfake detection and can be combined with others for effective analysis is [Deepfake Total](https://deepfake-total.com/) by Cognitive Security Technologies (CST) department of Fraunhofer AISEC ([Fraunhofer Institute for Applied and Integrated Security](https://www.aisec.fraunhofer.de/)), a research institute from [Germany](https://www.aisec.fraunhofer.de/de/impressum.html). This tools [supports](https://deepfake-total.com/) analyzing links from Instagram, YouTube, X or local file uploads.
 
-#### Advertising Trackers
-
-* [x] This tool has not been checked for advertising trackers yet.
-* [ ] This tool uses tracking cookies. Use with caution.
-* [ ] This tool does not appear to use tracking cookies.
-
 | Page maintainer |
 | --------------- |
 | Anisa Shabir    |
-|                 |
+| September 2026  |
