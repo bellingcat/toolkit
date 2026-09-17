@@ -135,8 +135,7 @@ There is one subscription tier, which can be paid monthly or annually. A subscri
 
 ## Requirements
 
-1. A stable internet connection.
-2. Modern web browser
+A stable internet connection.
 
 ## Limitations
 
