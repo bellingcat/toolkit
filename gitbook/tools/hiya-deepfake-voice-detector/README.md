@@ -30,7 +30,7 @@ The Chrome extension needs to check just [one second](https://blog.hiya.com/hiya
 
 <figure><img src=".gitbook/assets/InVid uses 2 secs to five minutes copy.png" alt=""><figcaption><p>Hiya is integrated within the InVid Verification Plugin that supports media uploads ranging from two seconds to five minutes.</p></figcaption></figure>
 
-The extension uses "[Hiya’s AI Voice detection capabilities](https://chromewebstore.google.com/detail/hiya-deepfake-voice-detec/akmieeldmgcllmokbpaibfelofjiilpc)" which are "advanced AI solutions powered by deep learning," [according](https://www.hiya.com/products/protect/ai-voice-detection) to the tool provider.
+The extension uses "[Hiya’s AI Voice detection capabilities](https://chromewebstore.google.com/detail/hiya-deepfake-voice-detec/akmieeldmgcllmokbpaibfelofjiilpc)" which are "advanced AI solutions powered by deep learning," [according](https://www.hiya.com/products/protect/ai-voice-detection) to the tool provider. We were not able to find more detailed public information about the inner workings of Hiya.
 
 The tool provider states its deepfake detection [technology ](https://www.hiya.com/newsroom/press-releases/hiya-acquires-deepfake-voice-detection-leader-loccus-ai)is able to analyze audios and videos in multiple languages and also states that it is "[Language and channel independent](https://www.hiya.com/products/deepfake-voice-detector)..." We have not been able to independently verify claims of multiple languages supported by Hiya.
 
