@@ -20,7 +20,7 @@ To analyze audio in a video on any website, simply open that page and click the 
 
 The tool then collects and rates the audio on a scale of 1 to 100 points. The lower the score, the higher the likelihood that the sample is fake. The closer the score is to 100, the higher the probability that it is real. For instance, Henry Cavill's voice in a YouTube interview from [December 2021](https://www.youtube.com/watch?v=tN6EIt9cq4w) analyzed via Hiya has been rated authentic.
 
-<div><figure><img src=".gitbook/assets/Hiya collects audio.jpg" alt=""><figcaption><p>Hiya collects an audio sample from the YouTube clip being played side by side.</p></figcaption></figure> <figure><img src=".gitbook/assets/Hiya displays results .jpg" alt=""><figcaption><p>Hiya rates the sample after collection, which in this case is an authentic audio.</p></figcaption></figure></div>
+<div><figure><img src=".gitbook/assets/Hiya collects audio.jpg" alt=""><figcaption><p>Hiya collects an audio sample from the YouTube clip while it is being played.</p></figcaption></figure> <figure><img src=".gitbook/assets/Hiya displays results .jpg" alt=""><figcaption><p>Hiya rates the sample after collection, which in this case is an authentic audio.</p></figcaption></figure></div>
 
 Our testing shows the extension works on almost any website, including social media sites like X (formerly Twitter), Instagram, TikTok, Facebook and Bluesky, provided the websites are opened in Chrome and the tool is installed.
 
