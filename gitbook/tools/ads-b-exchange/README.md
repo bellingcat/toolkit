@@ -36,9 +36,7 @@ ADS-B Exchange [does not accept take-down requests](https://support.adsbexchange
 
 The website allows you to see the aircraft that have made take-down requests on other platforms by navigating to the LADD filter, though is primarily of US aircraft.&#x20;
 
-<figure><img src=".gitbook/assets/ADS-B Exchange Selecting LADD filter.gif" alt=""><figcaption></figcaption></figure>
-
-{% file src=".gitbook/assets/ADS-B Exchange Selecting LADD filter.mov" %}
+<figure><img src=".gitbook/assets/ADS-BExchangeSelectingLADDfilter-LARGE GIF.gif" alt=""><figcaption></figcaption></figure>
 
 Below is a brief overview of the ADS-B website features. Upon entering the map view, the user can see a world map with current aircraft and various menus at the top and to the side.&#x20;
 
@@ -139,11 +137,13 @@ There is one subscription tier, which can be paid monthly or annually. A subscri
 
 ## Requirements
 
-A stable internet connection.
+1. A stable internet connection.
+2. Modern web browser
 
 ## Limitations
 
-* **No sensors, no aircraft**. Since ADS-B Exchange relies on its own network of data recievers, there will be gaps where there are not data receivers. Furthermore, ADS-B Exchange does not extrapolate aircraft position if there is no live data available, therefore only known and detected positions are shown. In some cases, there are areas that have limited data, such as in the Pacific Ocean.&#x20;
+* **No sensors, no aircraft**. Since ADS-B Exchange relies on its own network of data recievers, there will be gaps where there are not data receivers. Furthermore, ADS-B Exchange does not extrapolate aircraft position if there is no live data available, therefore only known and detected positions are shown. ADS-B Exchange's [API documentation](https://www.adsbexchange.com/version-2-api/) and Github page indicate that ["when the regular lat and lon are older than 60 seconds they are no longer considered valid, this will provide the last position and show the age for the last position. aircraft will only be in the aircraft json if a messages has been received in the last 60 seconds.](https://github.com/wiedehopf/readsb/blob/dev/README-json.md)" This likely means that the plane icon or marker drops from the map.&#x20;
+* &#x20;In some cases, there are areas that have limited data, such as in the Pacific Ocean.&#x20;
 
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>ADS-B Exchange area of the map showing limited aircraft due to lack of sensors and lack of extrapolation of aircraft route. </p></figcaption></figure>
 
@@ -153,6 +153,7 @@ A stable internet connection.
 * **Aircraft photos.** The photo for a flight may not be the actual aircraft that it being tracked. It is best to verify that the aircraft photo matches the aircraft registration number and airline/make if using the photo.&#x20;
 * **Flight info interaction challenges.** Some aircraft cannot be selected or clicked on, which seems to happen when their signal has not been received for some time, for example, of aircraft flying over the Pacific Ocean to or from Asia. &#x20;
 * **Historic call sign information not available.** There is not a way to look up all aircraft that have flown a particular call sign historically. This may be an issue if one wants to look for patterns for a particular flight route or destination pair.&#x20;
+* **ADS-B and GPS spoofing:** Feeding false data and coordinates into flight-tracking platforms [is common](https://www.icao.int/sites/default/files/APAC/Meetings/2025/2025%20ICAO%20APAC%20Radio%20Navigation%20Symposium%20%20Radio%20N/8-Risks%20Beyond%20GNSS/SP22-ADS-B-spoofing-and-mitigating-measures.pdf), and researchers should consider this possibility when looking at the data. An example of false aircraft data fed into ADS-B Exchange appears in [this](https://alecmuffett.com/article/143548) discussion, as well as [here](https://discussions.flightaware.com/t/aircraft-position-was-way-off/97025). &#x20;
 
 ## Ethical Considerations
 
