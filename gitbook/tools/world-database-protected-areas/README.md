@@ -1,5 +1,5 @@
 ---
-updated: '2026-04-30'
+updated: '2026-09-16'
 description: >-
   A comprehensive global database on terrestrial and marine protected areas.
   Also known as Protected Planet.

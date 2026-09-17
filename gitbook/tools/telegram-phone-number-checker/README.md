@@ -1,5 +1,5 @@
 ---
-updated: '2025-11-26'
+updated: '2026-09-16'
 description: >-
   Command line tool for checking if phone numbers are connected to Telegram
   accounts and retrieving related information where available.

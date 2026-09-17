@@ -1,5 +1,5 @@
 ---
-updated: '2026-06-27'
+updated: '2026-09-16'
 description: >-
   The Aqueduct water Risk Atlas, developed by the World Resources Institute
   (WRI), is an interactive platform for assessing water-related risks globally.

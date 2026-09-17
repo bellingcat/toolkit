@@ -1,5 +1,5 @@
 ---
-updated: '2025-11-26'
+updated: '2026-09-16'
 description: >-
   A command line tool that allows users to find location tags near a specified
   latitude and longitude.

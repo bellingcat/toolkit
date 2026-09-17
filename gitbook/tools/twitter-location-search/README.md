@@ -1,5 +1,5 @@
 ---
-updated: '2026-05-13'
+updated: '2026-09-16'
 description: >-
   Discover real-time conversations and trends in any area with X's built-in
   location search. Search by latitude and longitude coordinates or distance for
