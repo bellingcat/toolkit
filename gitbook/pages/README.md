@@ -7,6 +7,7 @@ layout:
   cover:
     visible: true
     size: hero
+    mask: none
   title:
     visible: false
   description:
@@ -22,6 +23,8 @@ layout:
   tags:
     visible: true
   actions:
+    visible: true
+  anchors:
     visible: true
 ---
 
@@ -53,7 +56,7 @@ Bellingcat’s Online Investigation Toolkit has a long tradition but our newest 
 
 Bellingcat volunteers, staff and the wider open source researcher community contribute to writing and updating toolkit descriptions. Bellingcat staff checks each toolkit entry before it goes online.
 
-If our Toolkit Maintainers choose to be publicly mentioned, you can find their names on individual tool pages under "page maintainer".
+If our Toolkit Maintainers choose to be publicly mentioned, you can find their names on individual tool pages under "page maintainer". You can also find a list of our contributors [here](https://bellingcat.gitbook.io/toolkit/more/contributors).&#x20;
 
 Our Toolkit Guardians have a special role: They help us further develop this toolkit to make sure it meets the needs of open source researchers.
 
@@ -70,10 +73,6 @@ _Lora_ is a linguist by education, media and corporate intel analyst by trade, a
 _Martin Sona_ is an interdisciplinary researcher and lecturer with a social psychology, cognitive neuroscience, and tech innovation background. He's passionate about science, community coordination, and making complex information meaningful and accessible. Here, he serves as the Volunteer Toolkit Guardian for the [Social Media](https://bellingcat.gitbook.io/toolkit/categories/social-media) category.
 
 _Sophie Tedling_ has worked with Bellingcat as a volunteer, Tech Fellow & contributor. Her background is engineering, AI & risk, and she runs [PeakVisorforOSINV on X](https://x.com/PVforOSINV) which collects input from the research community with the goal to communicate the needs of open source researchers to the PeakVisor developer team. She is the Volunteer Toolkit Guardian for the [Maps & Satellites](https://bellingcat.gitbook.io/toolkit/categories/maps-and-satellites) category.
-
-Special thanks to everyone who contributed to the toolkit in the past:
-
-Fraser, hande
 
 </details>
 
