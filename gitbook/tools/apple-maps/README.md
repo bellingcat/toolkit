@@ -9,7 +9,9 @@ description: >-
 
 ## URL
 
-[https://maps.apple.com](https://maps.apple.com)
+[https://maps.apple.com](https://maps.apple.com) - for Mac users on web browsers\
+\
+[https://beta.maps.apple.com/](https://beta.maps.apple.com/) - for Windows users, use Chrome or Edge
 
 ## Description
 
@@ -34,49 +36,49 @@ Apple Maps is similar to other global or regional map and navigation apps in off
 {% tab title="Desktop app (MacOS only)" %}
 Left-click and choose 'Marked Location from the menu.
 
-<figure><img src="../../.gitbook/assets/markedlocation2 (1).png" alt="" width="177"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/markedlocation2 (1).png" alt="" width="177"><figcaption></figcaption></figure>
 
 This will drop a pin on the map. The pin will be automatically shown with a place name, usually the nearest landmark.
 
-<figure><img src="../../.gitbook/assets/pin2 (1).png" alt="" width="124"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/pin2 (1).png" alt="" width="124"><figcaption></figcaption></figure>
 
 Click on the pin, and a left panel appears. You will see the coordinates shown. Copy and paste from there.
 
-<figure><img src="../../.gitbook/assets/panel_annotated (1).png" alt="" width="250"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/panel_annotated (1).png" alt="" width="250"><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Web browser (any operating system)" %}
 Drop a pin by double-clicking on the map. A pin will appear as "Marked Location".
 
-<figure><img src="../../.gitbook/assets/markedlocation (1).png" alt="" width="116"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/markedlocation (1).png" alt="" width="116"><figcaption></figcaption></figure>
 
 To obtain the coordinates, look at the URL in your web browser.
 
-<figure><img src="../../.gitbook/assets/URL (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/URL (1).png" alt=""><figcaption></figcaption></figure>
 
 In the example above, the coordinates are 40.731013, -73.999495.
 {% endtab %}
 {% endtabs %}
 
-#### Accessing street level imagery
+#### Accessing street level imagery ("Look Around")
 
 {% tabs %}
 {% tab title="Desktop app (Mac only)" %}
 Once you click on the pin, the street-level imagery appears in a small box to the lower-left corner, adjacent to the information panels. (See the red rectangle below.)<br>
 
-![](<../../.gitbook/assets/street2 (1).png>)
+![](<.gitbook/assets/street2 (1).png>)
 
 Simply click on the street level image to enlarge to fullscreen view.
 {% endtab %}
 
-{% tab title="Web browser (any operating system)" %}
+{% tab title="Web browser (Mac or iOS)" %}
 To use **Look Around**, click on the binoculars icon at the lower-left corner.
 
-![](<../../.gitbook/assets/Screenshot 2026-06-25 at 8.00.06 PM (1).png>)
+![](<.gitbook/assets/Screenshot 2026-06-25 at 8.00.06 PM (1).png>)
 
 The street-level imagery will open at the lower-left corner. The binoculars icon is shown on the map to indicate where the street-level imagery was captured, and the direction of your view. You can enlarge the Look Around imagery.
 
-<figure><img src="../../.gitbook/assets/newyorkuniv_lookaroundview (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/newyorkuniv_lookaroundview (1).png" alt="" width="375"><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -103,9 +105,23 @@ Researchers should be aware that the Flyover's underlying model blends current a
 ## Requirements
 
 * Desktop app: built-in Maps app in the Mac operating system.
-* Web: any modern web browser.
-* Mobile: iOS. (Android users can access using the web browser.)
+* Mac users: Any modern web browser.&#x20;
+* Mobile: iOS.&#x20;
 * Developer Platform: Apple account with email address and a credit card.
+
+
+
+**Windows or Android users**: To access Apple Maps via a web browser, use Google Chrome or Microsoft Edge. No login required (i.e., no Apple ID required).&#x20;
+
+**Linux users**: use Mozilla Firefox. No login required.&#x20;
+
+<details>
+
+<summary><strong>Limitations for Windows, Android, or Linux users</strong></summary>
+
+Outside of the Mac ecosystem, users will not be able to load their saved places, favorites, or search history. Additionally, Look Around (street level imagery) may be restricted and 3D Flyover will not be available.&#x20;
+
+</details>
 
 ## Limitations
 
@@ -156,6 +172,8 @@ Apple Inc. [https://www.apple.com/](https://www.apple.com/) - United States
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                  |
-| ---------------------------------------------------------------- |
-| Author: Bellingcat Volunteer Team. (June 2026 update: river\_n). |
+| Page maintainer                                                    |
+| ------------------------------------------------------------------ |
+| <p>Author: Bellingcat Volunteer Team. <br>Maintainer: river_n.</p> |
+
+August 31, 2026
