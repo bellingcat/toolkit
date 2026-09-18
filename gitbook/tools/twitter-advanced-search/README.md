@@ -6,11 +6,11 @@ description: >-
   location, user, date or popularity.
 ---
 
-# Twitter Advanced Search
+# Twitter/X Advanced Search
 
 ## URL
 
-[https://x.com/search-advanced](https://x.com/search-advanced)
+{% embed url="https://x.com/search-advanced" %}
 
 ## Description
 
@@ -20,11 +20,11 @@ Twitter/X's built-in advanced search supports filtering by keywords, hashtags, l
 TIP: Bookmark the link above to have immediate access to the tool.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/ScreenRecording2024-07-18190613-ezgif.com-video-to-gif-converter (1).gif" alt=""><figcaption><p>In addition to clicking the link above, another way to navigate to the Advanced Search feature is shown here. First, input a search term on the search bar from your homepage. Once the results are shown, hover over "Search Filters" to the right, and click "Advanced Search".</p></figcaption></figure>
+<figure><img src=".gitbook/assets/ScreenRecording2024-07-18190613-ezgif.com-video-to-gif-converter (1).gif" alt=""><figcaption><p>In addition to clicking the link above, another way to navigate to the Advanced Search feature is shown here. First, input a search term on the search bar from your homepage. Once the results are shown, hover over "Search Filters" to the right, and click "Advanced Search".</p></figcaption></figure>
 
 ### _**Advanced Search (Desktop)**_
 
-Twitter/X’s Advanced Search helps open source researchers refine search queries and produces more subject matter-specific results. While the search interface is mostly self-explanatory, below is a description of each search field, and some useful tips.
+Twitter/X’s Advanced Search helps open source researchers refine search queries and produce more subject matter-specific results. While the search interface is mostly self-explanatory, below is a description of each search field, and some useful tips.
 
 #### **WORDS**
 
@@ -32,7 +32,7 @@ Twitter/X’s Advanced Search helps open source researchers refine search querie
 
 Example: Amsterdam canals
 
-This will show posts that mention “Amsterdam” and “canals”
+This will show posts that mention “Amsterdam” and “canals.”
 
 **“This exact phrase”:** is similar to using quotation marks on search engines. It pulls up results for an exact match for a specific sequence of words.
 
@@ -48,7 +48,7 @@ It is okay not to use quotation marks for this search parameter. If you do, they
 
 Example: Amsterdam canals
 
-This will search for posts with either “Amsterdam” or “canals”
+This will search for posts with either “Amsterdam” or “canals.”
 
 {% hint style="info" %}
 Users can add OR between the search terms, and it will generate the same results.
@@ -83,9 +83,9 @@ To focus on local content in a specific language:
 
 Example: If I am interested in learning about the farmers' protest in the EU, but only want to get results in Dutch, the parameters may look like this:
 
-<div align="left"><figure><img src="../../.gitbook/assets/Screenshot 2024-07-20 012204-2 (1) (1).png" alt="" width="375"><figcaption><p>Here is an example of a search using the language function, with the keyword being in English, but the language output being in Dutch.</p></figcaption></figure></div>
+<div align="left"><figure><img src=".gitbook/assets/Screenshot 2024-07-20 012204-2 (1) (1).png" alt="" width="375"><figcaption><p>Here is an example of a search using the language function, with the keyword being in English, but the language output being in Dutch.</p></figcaption></figure></div>
 
-<div align="left"><figure><img src="../../.gitbook/assets/Screenshot 2024-07-20 012255-2 (1) (1).png" alt="" width="375"><figcaption><p>This image is the sample result of the search with the language filter. As you can see, the keyword is in English but the rest of the content is still in the selected language filter, in this case, Dutch.</p></figcaption></figure></div>
+<div align="left"><figure><img src=".gitbook/assets/Screenshot 2024-07-20 012255-2 (1) (1).png" alt="" width="375"><figcaption><p>This image is the sample result of the search with the language filter. As you can see, the keyword is in English but the rest of the content is still in the selected language filter, in this case, Dutch.</p></figcaption></figure></div>
 
 #### **ACCOUNTS**
 
@@ -108,7 +108,7 @@ TIP: You can input more than one account
 
 To see only original posts, deselect the "Replies" checkbox under "Account Filters" in Twitter Advanced Search.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-07-20 091048 -2 (1).png" alt="" width="563"><figcaption><p>Keep scrolling down in the Advanced Search window to find the "Filters" section. Here, you can choose whether to include replies in your search results. There are two options: (1) <strong>Both replies and original posts:</strong> This will include tweets where users are replying to others, along with regular tweets. (2) <strong>Only replies:</strong> This will focus solely on tweets where users are replying to other accounts.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-07-20 091048 -2 (1).png" alt="" width="563"><figcaption><p>Keep scrolling down in the Advanced Search window to find the "Filters" section. Here, you can choose whether to include replies in your search results. There are two options: (1) <strong>Both replies and original posts:</strong> This will include tweets where users are replying to others, along with regular tweets. (2) <strong>Only replies:</strong> This will focus solely on tweets where users are replying to other accounts.</p></figcaption></figure>
 
 **“Replies”:** One targeted feature is the ability to focus solely on replies. By excluding original posts, you can gain an understanding of the ongoing discussion surrounding a particular topic.
 
@@ -153,7 +153,7 @@ To filter tweets by date, use the calendar dropdown menus in Twitter Advanced Se
 
 **"To" date:** This will return tweets sent on or before that date.
 
-**Both "From" and "To" dates:** This will return tweets sent _**within**_ that specific date range.
+**Both "From" and "To" dates:** This returns tweets sent _**within**_ that specific date range.
 
 {% hint style="info" %}
 TIP #1:
@@ -179,7 +179,7 @@ Saving searches is simple:
 2. Click the three dots next to the bar.
 3. Select "Save this search" (up to 25 searches allowed).
 
-<figure><img src="../../.gitbook/assets/ScreenRecording2024-07-22113536-ezgif.com-video-to-gif-converter (1).gif" alt="" width="563"><figcaption><p>This image shows you the steps on how to save your searches. This is especially convenient if monitoring and revisiting the same issue for an investigation.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/ScreenRecording2024-07-22113536-ezgif.com-video-to-gif-converter (1).gif" alt="" width="563"><figcaption><p>This image shows you the steps on how to save your searches. This is especially convenient if monitoring and revisiting the same issue for an investigation.</p></figcaption></figure>
 
 ### _**Advanced Search (Mobile App)**_
 
@@ -193,9 +193,9 @@ X’s website provides [a list](https://developer.x.com/en/docs/twitter-api/v1/r
 
 A sample search done on mobile can be seen in the image below.
 
-<figure><img src="../../.gitbook/assets/MobileSearchSpeed-ezgif.com crop2 (1).gif" alt=""><figcaption><p>Advanced search on the app or on the search bar requires knowing which operators to use to take advantage of the feature. In this example, we input the following search query: Paris -Olympics -Olympic -medal -Olympique -athlete -athlète. The goal is to try to find posts about Paris but without too many references to the Olympics (the search was conducted in July 2024, shortly before the start of the Olympic Games). Instead of using the "All these words" field, we just input our keywords directly, which is Paris. Instead of using the "none of these words" field, we use the minus sign (-) before other words we want to exclude.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/MobileSearchSpeed-ezgif.com crop2 (1).gif" alt=""><figcaption><p>Advanced search on the app or on the search bar requires knowing which operators to use to take advantage of the feature. In this example, we input the following search query: Paris -Olympics -Olympic -medal -Olympique -athlete -athlète. The goal is to try to find posts about Paris but without too many references to the Olympics (the search was conducted in July 2024, shortly before the start of the Olympic Games). Instead of using the "All these words" field, we just input our keywords directly, which is Paris. Instead of using the "none of these words" field, we use the minus sign (-) before other words we want to exclude.</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-07-22 130418-mobile search (1).png" alt=""><figcaption><p>After performing the search as shown above, the results appear. They include the keyword "Paris" but none of the words "Olympics" "Olympic" "medal" and "Olympique", etc. (NOTE: the search was conducted in July 2024, shortly before the start of the Olympic Games)</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-07-22 130418-mobile search (1).png" alt=""><figcaption><p>After performing the search as shown above, the results appear. They include the keyword "Paris" but none of the words "Olympics" "Olympic" "medal" and "Olympique", etc. (NOTE: the search was conducted in July 2024, shortly before the start of the Olympic Games)</p></figcaption></figure>
 
 ### _**What problem does it solve?**_
 
