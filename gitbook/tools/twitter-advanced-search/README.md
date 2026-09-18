@@ -6,7 +6,7 @@ description: >-
   location, user, date or popularity.
 ---
 
-# Twitter/X Advanced Search
+# X/Twitter Advanced Search
 
 ## URL
 
@@ -186,10 +186,6 @@ Saving searches is simple:
 {% hint style="success" %}
 If doing Advanced Search on a mobile device, it may be preferable to go to the mobile device’s web browser and perform the steps outlined above with the Advanced Search interface, instead of the app.
 {% endhint %}
-
-However, if you must do a granular search on the X app, you can do so in the search box, using operators or boolean, just as one would when searching various search engines like Google.
-
-X’s website provides [a list](https://developer.x.com/en/docs/twitter-api/v1/rules-and-filtering/search-operators) of helpful operators that users can use or memorize to perform the functions outlined above. However, [use this page](https://github.com/igorbrigadir/twitter-advanced-search) for a more exhaustive list of operators for the App search bar.
 
 A sample search done on mobile can be seen in the image below.
 
