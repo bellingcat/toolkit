@@ -2,7 +2,7 @@
 
 | Name | Description | Cost | Tool Review and Guide |
 | --- | --- | --- | --- |
-| ADS-B Exchange | Live flight tracker (including many miltiary aircraft). Live data available for the past month. Historical data available for purchase upon request. | <mark style="background-color:orange;">Partially Free</mark> | [https://bellingcat.gitbook.io/toolkit/more/all-tools/ads-b-exchange](../../tools/ads-b-exchange/README.md) |
+| ADS-B Exchange | Live flight tracker (including many military aircraft). Live data available for the past month. Historical data available for purchase upon request. | <mark style="background-color:orange;">Partially Free</mark> | [https://bellingcat.gitbook.io/toolkit/more/all-tools/ads-b-exchange](../../tools/ads-b-exchange/README.md) |
 | Airframes | A database of aircraft details | <mark style="background-color:green;">Free</mark> | <p><sub><em>Guide not available</em></sub></p><mark style="background-color:blue;"> [http://www.airframes.org/](http://www.airframes.org/) </mark> |
 | Aviation Safety Network | Aircraft incident database; can be searched by country, registration, year, etc. | <mark style="background-color:green;">Free</mark> | <p><sub><em>Guide not available</em></sub></p><mark style="background-color:blue;"> [https://aviation-safety.net/](https://aviation-safety.net/) </mark> |
 | Chronotrains | Chronotrains is a free interactive map designed to explore the reach of Europe’s extensive rail network. Enter a starting point and travel time to see reachable destinations by train. | <mark style="background-color:green;">Free</mark> | [https://bellingcat.gitbook.io/toolkit/more/all-tools/chronotrains](../../tools/chronotrains/README.md) |
