@@ -1,5 +1,5 @@
 ---
-updated: '2025-11-25'
+updated: '2026-09-18'
 description: >-
   Twitter/X Advanced Search is X's own tool to help users find more precise
   information on the platform by filtering posts according to criteria such as
