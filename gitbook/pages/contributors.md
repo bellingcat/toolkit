@@ -26,6 +26,7 @@ This page lists our current toolkit contributors who are publicly credited in Be
 * Stéphanie Ladel
 * Megan O'Toole
 * Gregg Butensky
+* Monica Matin
 
 Special thanks to our June 2026 Toolkit Drive participants! The following individuals helped update the toolkit during this community event:
 
