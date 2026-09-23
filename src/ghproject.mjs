@@ -108,9 +108,9 @@ for (const tool of tools) {
       }
 
       const dateString = graphql.formatDate(request.updatedAt);
-      if (item.submittedAt !== dateString) {
-        changed.submittedAt = dateString
-        changes.push(graphql.setDateField(item.id, FIELDS.date.id, dateString));
+      if (item.crUpdatedAt !== dateString) {
+        changed.crUpdatedAt = dateString
+        changes.push(graphql.setDateField(item.id, FIELDS.crUpdatedAt.id, dateString));
       }
       if (item.url !== request.urls.app) {
         changed.url = request.urls.app;

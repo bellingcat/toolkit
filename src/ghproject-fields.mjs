@@ -2,7 +2,7 @@ import client from './ghproject-client.mjs';
 
 // Field/option name constants — resolved lazily via client
 const FIELD_NAMES = {
-  date: 'Date submitted',
+  crUpdatedAt: 'CR Updated At',
   url: 'Latest change request',
   status: 'Status',
   published: 'Published',
@@ -53,7 +53,7 @@ function getProjectItems() {
       title: getField(FIELDS.title.name, item).text,
       status: getField(FIELDS.status.name, item).name,
       published: getField(FIELDS.published.name, item).name,
-      submittedAt: getField(FIELDS.date.name, item).date,
+      crUpdatedAt: getField(FIELDS.crUpdatedAt.name, item).date,
       url: getField(FIELDS.url.name, item).text,
       updatedAt: getField(FIELDS.updatedAt.name, item).date,
       spaceUrl: getField(FIELDS.spaceUrl.name, item).text,
