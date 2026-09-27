@@ -31,7 +31,7 @@ For open source investigations, Shodan can help:
 
 Below is an example of the detailed host information available for a device. This has been redacted for privacy purposes.
 
-<figure><img src="../../.gitbook/assets/Details - c.jpg" alt="" width="563"><figcaption><p>An example of available host details, including ISP (Internet Service Provider) &#x26; ASN (Autonomous System Number)</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Details - c (1).jpg" alt="" width="563"><figcaption><p>An example of available host details, including ISP (Internet Service Provider) &#x26; ASN (Autonomous System Number)</p></figcaption></figure>
 
 ## Cost
 
@@ -88,13 +88,15 @@ The Shodan [Help Center](https://help.shodan.io/) contains essentially all of th
 
 ## Tool provider
 
-Shodan is privately owned and run by John Matherly (United States)
+Shodan is privately owned and run by John Matherly (United States).
 
 ## Advertising Trackers
 
 * [ ] This tool has not been checked for advertising trackers yet.
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
+
+
 
 | Page Maintainer |
 | --------------- |
