@@ -28,7 +28,7 @@ This tool can be used by researchers to translate coordinates between formats so
 
 For example, select the WGS 84 datum and enter the Decimal Degrees for the Eiffel Tower (48.858222, 2.2945) to convert them into Degrees Minutes Seconds (DMS) or Standard UTM coordinates.
 
-<figure><img src=".gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ## Cost
 
@@ -54,13 +54,13 @@ N/A
 
 ## Guides and articles
 
-* _Earth’s Coordinate System | Intergovernmental Committee on Surveying and Mapping_ (no date). Available at: [https://www.icsm.gov.au/education/fundamentals-mapping/earths-coordinate-system](https://www.icsm.gov.au/education/fundamentals-mapping/earths-coordinate-system) (Accessed: 28 August 2025).
-* ‘Geographic coordinate system’ (2024) _Wikipedia_. Available at: [https://en.wikipedia.org/w/index.php?title=Geographic\_coordinate\_system\&oldid=1239962932](https://en.wikipedia.org/w/index.php?title=Geographic_coordinate_system\&oldid=1239962932) (Accessed: 28 August 2025).
-* _Understanding Latitude and Longitude_ (no date). Available at: [https://journeynorth.org/tm/LongitudeIntro.html](https://journeynorth.org/tm/LongitudeIntro.html) (Accessed: 28 August 2025).
+* _Earth’s Coordinate System | Intergovernmental Committee on Surveying and Mapping_ (no date). Available at: [https://www.icsm.gov.au/education/fundamentals-mapping/earths-coordinate-system](https://www.icsm.gov.au/education/fundamentals-mapping/earths-coordinate-system) (Accessed: 27 September 2026).
+* ‘Geographic coordinate system’ (2024) _Wikipedia_. Available at: [https://en.wikipedia.org/w/index.php?title=Geographic\_coordinate\_system\&oldid=1239962932](https://en.wikipedia.org/w/index.php?title=Geographic_coordinate_system\&oldid=1239962932) (Accessed: 27 September 2026).
+* _Understanding Latitude and Longitude_ (no date). Available at: [https://journeynorth.org/tm/LongitudeIntro.html](https://journeynorth.org/tm/LongitudeIntro.html) (Accessed: 27 September 2026).
 
 ## Tool provider
 
-Montana State University [https://www.montana.edu/](https://www.montana.edu/) - United States
+Montana State University [https://www.montana.edu/](https://www.montana.edu/) (United States).
 
 ## Advertising Trackers
 
