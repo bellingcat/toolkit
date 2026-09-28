@@ -62,6 +62,6 @@ A basic example of an investigation with Jimpl.
 
 Jimpl was made by a web developer named [Toni](./#url) from Romania.
 
-| Page maintainer                                          |
-| -------------------------------------------------------- |
-| Maintained by Nathan Burke. Late updated in August 2026. |
+| Page maintainer                                             |
+| ----------------------------------------------------------- |
+| Maintained by Nathan Burke. Late updated in September 2026. |
