@@ -1,5 +1,5 @@
 ---
-updated: '2026-05-26'
+updated: '2026-09-27'
 description: >-
   urlscan.io is an online tool that allows investigators to analyse, monitor,
   and document websites in real time.

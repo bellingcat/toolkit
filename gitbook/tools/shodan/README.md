@@ -1,5 +1,5 @@
 ---
-updated: '2026-05-26'
+updated: '2026-09-27'
 description: A search engine for internet-connected devices, from webcams to databases.
 ---
 
