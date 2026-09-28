@@ -60,7 +60,7 @@ A basic example of an investigation with Jimpl.
 
 ## Tool provider
 
-Jimpl was made by a web developer named [Toni](./#url) from Romania.
+Jimpl was made by a web developer named Toni from Romania.
 
 | Page maintainer                                             |
 | ----------------------------------------------------------- |
