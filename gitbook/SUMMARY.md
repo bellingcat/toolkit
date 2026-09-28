@@ -136,6 +136,7 @@
   * [InstaLoader](tools/instaloader/README.md)
   * [Intelx](tools/intelx/README.md)
   * [InVID](tools/invid/README.md)
+  * [Jimpl](tools/jimpl/README.md)
   * [KartaView](tools/kartaview/README.md)
   * [Leak-Lookup](tools/leak-lookup/README.md)
   * [License Plate Maps](tools/license-plate-maps/README.md)
