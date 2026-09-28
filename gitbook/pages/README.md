@@ -94,7 +94,7 @@ Please do not suggest tools that should be added to the toolkit via this e-mail 
 
 This collaborative toolkit has been designed by Bellingcat staff member Johanna Wild during her 2024 Nieman-Berkman Klein Fellowship in Journalism Innovation at Harvard University.
 
-Viktorija Ignatavičiūtė and Galen Reich contributed to defining the volunteer involvement for this project, with Viktorija Ignatavičiūtė supporting our toolkit volunteer community also on a daily basis.
+Viktorija Ignatavičiūtė and Galen Reich contributed to defining the volunteer involvement for this project, with Viktorija Ignatavičiūtė and Manon Buret supporting our toolkit volunteer community on a daily basis.&#x20;
 
 If you have any feedback or questions, please get in touch with Johanna Wild via [toolkit@bellingcat.com](mailto:toolkit@bellingcat.com). Please do not suggest tools that you would like to see added to the toolkit via this e-mail address.
 
