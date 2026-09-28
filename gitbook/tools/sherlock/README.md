@@ -234,6 +234,7 @@ The original creator is [Siddharth Dushantha](https://github.com/sdushantha) (No
 
 Since Sherlock is a Python CLI program, it doesn’t load ads or trackers – it simply sends web requests and prints results. If using a third-party web service or GUI for Sherlock, be aware that those platforms might have their own analytics or cookies but the Sherlock CLI itself has no such components.
 
-| Page Maintainer |
-| --------------- |
-| Freya           |
+| Page Maintainer                |
+| ------------------------------ |
+| Freya                          |
+| Last updated in September 2026 |
