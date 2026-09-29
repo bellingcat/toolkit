@@ -106,13 +106,11 @@ If you have any feedback or questions, please get in touch with Johanna Wild via
 
 Bellingcat is an independent investigative collective of researchers, investigators and citizen journalists brought together by a passion for open source research. Learn more about Bellingcat in this [video](https://www.youtube.com/watch?v=DyQyHt4LNKM).
 
-You can follow [Bellingcat](https://www.bellingcat.com)'s work here:
-
-[Bellingcat website](https://www.bellingcat.com/), [BlueSky](https://bsky.app/profile/bellingcat.com), [Discord](https://discord.com/invite/bellingcat), [Facebook](https://www.facebook.com/bellingcat), [Github](https://github.com/bellingcat), [Instagram](https://www.instagram.com/bellingcatofficial/), [LinkedIn](https://www.linkedin.com/company/bellingcat), [Mastodon](https://mstdn.social/@Bellingcat), [Patreon](https://www.patreon.com/bellingcat), [Reddit](https://www.reddit.com/r/bellingcat/), [RSS](https://rss.com/podcasts/bellingcatstagetalk/) (Stage Talks), [X](https://github.com/bellingcat/toolkit/blob/main/gitbook/pages/categories/social-media/youtube/youtube.md), [Youtube](https://www.youtube.com/@bellingcatofficial/videos), [WhatsApp](https://www.whatsapp.com/channel/0029VbB7PAn9RZAd6F1R1m2r). You can always find an updated list of our social media presence [here](https://www.bellingcat.com/follow-bellingcat-on-social-media/).
+You can follow Bellingcat's work [here](https://linktr.ee/BellingcatCommunity).
 
 [Bellingcat](https://www.bellingcat.com/) is a non-profit and the ability to carry out our work is dependent on the kind support of individual donors. If you would like to support our work, you can so [here](https://www.bellingcat.com/donate/).
 
-We also provide [workshops](https://www.bellingcat.com/workshops/) on open source investigative methods and tools. For those of you interested in becoming a Bellingcat volunteer, have a look at our [volunteer community page](https://sites.google.com/bellingcat.com/bellingcat-volunteer-community/home).
+We also provide [workshops](https://www.bellingcat.com/workshops/) on open source investigative methods and tools. For those of you interested in becoming a Bellingcat volunteer, have a look at our [volunteer community page](https://www.bc-community.org/).
 
 </details>
 
