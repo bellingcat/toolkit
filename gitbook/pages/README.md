@@ -106,7 +106,7 @@ If you have any feedback or questions, please get in touch with Johanna Wild via
 
 Bellingcat is an independent investigative collective of researchers, investigators and citizen journalists brought together by a passion for open source research. Learn more about Bellingcat in this [video](https://www.youtube.com/watch?v=DyQyHt4LNKM).
 
-[Here are the different ways you can follow our work](https://linktr.ee/BellingcatCommunity).
+[Here are the different ways in which you can follow our work](https://linktr.ee/BellingcatCommunity).
 
 [Bellingcat](https://www.bellingcat.com/) is a non-profit and the ability to carry out our work is dependent on the kind support of individual donors. If you would like to support our work, you can so [here](https://www.bellingcat.com/donate/).
 
