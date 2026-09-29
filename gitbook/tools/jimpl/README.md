@@ -1,5 +1,6 @@
 ---
 description: Online EXIF data viewer
+updated: '2026-09-28'
 ---
 
 # Jimpl
