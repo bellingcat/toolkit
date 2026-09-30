@@ -32,7 +32,7 @@ layout:
 
 ## Welcome to Bellingcat’s Online Open Source Investigation Toolkit!
 
-Your go-to resource for discovering open source research tools! Our toolkit includes satellite and mapping services, tools for verifying photos and videos, websites to archive web pages, and much more. Most of the tools that we include can be used for free.
+Your go-to resource for discovering open source research tools! Our toolkit provides regularly updated deep-dive reviews of satellite and mapping services, tools for verifying photos and videos, websites to archive web pages, and much more. Most of the tools that we include can be used for free.
 
 Click on the name of a tool to view an in-depth review and guide for the tool (if available). You can also [download this toolkit](https://github.com/bellingcat/toolkit/releases/tag/csv) (or some of its categories) as a csv.
 
