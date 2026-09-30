@@ -52,7 +52,7 @@ This toolkit is still a work-in-progress and the number of available tool descri
 
 <summary>Our Toolkit Maintainers and Guardians</summary>
 
-Bellingcat’s Online Investigation Toolkit has a long tradition but our newest version is special: It is offered in collaboration with the Bellingcat volunteer community.
+Bellingcat’s Online Investigation Toolkit has a long tradition but our this version is special: It is offered in collaboration with the Bellingcat volunteer community.
 
 Bellingcat volunteers, staff and the wider open source researcher community contribute to writing and updating toolkit descriptions. Bellingcat staff checks each toolkit entry before it goes online.
 
@@ -80,7 +80,7 @@ _Sophie Tedling_ has worked with Bellingcat as a volunteer, Tech Fellow & contri
 
 <summary>Contribute to this Toolkit</summary>
 
-If you are an expert for a specific category of open source research tools and you would like to contribute to this toolkit, get in touch with Johanna via [toolkit@bellingcat.com](mailto:toolkit@bellingcat.com). Feel free to introduce yourself and share a few words about your tool expertise. We would love to hear from you.
+If you are an expert for a specific category of open source research tools and you would like to contribute to this toolkit, get in touch with Johanna via [toolkit@bellingcat.com](mailto:toolkit@bellingcat.com). Feel free to introduce yourself and share a few words about your tool expertise. We would love to hear from you.&#x20;
 
 Keep in mind that contributing to our toolkit is a long-term volunteer commitment: You write tool descriptions and update them on a monthly basis. We do not accept volunteer contributors whose identity we don’t know.
 
@@ -92,9 +92,15 @@ Please do not suggest tools that should be added to the toolkit via this e-mail 
 
 <summary>Bellingcat Team and Contact</summary>
 
-This collaborative toolkit has been designed by Bellingcat staff member Johanna Wild during her 2024 Nieman-Berkman Klein Fellowship in Journalism Innovation at Harvard University.
+This collaborative toolkit has been designed by Bellingcat's Innovation Lead Johanna Wild during her 2024 Nieman-Berkman Klein Fellowship in Journalism Innovation at Harvard University.
 
-Viktorija Ignatavičiūtė and Galen Reich contributed to defining the volunteer involvement for this project, with Viktorija Ignatavičiūtė and Manon Buret supporting our toolkit volunteer community on a daily basis.&#x20;
+Bellingcat's toolkit team consists of:
+
+* Johanna Wild, Innovation Lead
+* Manon Buret, Community Operations & Project Manager
+* Viktorija Ignatavičiūtė, Community Lead
+
+Galen Reich also contributed to the project.
 
 If you have any feedback or questions, please get in touch with Johanna Wild via [toolkit@bellingcat.com](mailto:toolkit@bellingcat.com). Please do not suggest tools that you would like to see added to the toolkit via this e-mail address.
 
