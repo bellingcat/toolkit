@@ -16,11 +16,11 @@ Hiya is available as both a standalone [Chrome](https://chromewebstore.google.co
 
 To analyze audio in a video on any website, simply open that page and click the extension icon in the Chrome browser in the top right corner. Play the video, then click the “start analyzing” tab to collect the audio sample for analysis. The media being analyzed and the extension work side by side without the need to close either.
 
-<figure><img src=".gitbook/assets/Start analyzing.jpg" alt=""><figcaption><p>Click on the "start analyzing" option to collect and analyze the media of your choice.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Start analyzing.png" alt=""><figcaption><p>Click on the "start analyzing" option to collect and analyze the media of your choice.</p></figcaption></figure>
 
-The tool then collects and rates the audio on a scale of 1 to 100 points. The lower the score, the higher the likelihood that the sample is fake. The closer the score is to 100, the higher the probability that it is real. For instance, Henry Cavill's voice in a YouTube interview from [December 2021](https://www.youtube.com/watch?v=tN6EIt9cq4w) analyzed via Hiya has been rated authentic.
+The tool then collects and rates the audio on a scale of 1 to 100 points. The lower the score, the higher the likelihood that the sample is fake. The closer the score is to 100, the higher the probability that it is real. For instance, the voice of Galen Reich, a Bellingcat researcher, in a YouTube video "[How To... Track Your Satellite Searches](https://www.youtube.com/watch?v=cKNltv2PExo)" from Nov. 28, 2024, analyzed via Hiya has been rated authentic.
 
-<div><figure><img src=".gitbook/assets/Hiya collects audio.jpg" alt=""><figcaption><p>Hiya collects an audio sample from the YouTube clip while it is being played.</p></figcaption></figure> <figure><img src=".gitbook/assets/Hiya displays results .jpg" alt=""><figcaption><p>Hiya rates the sample after collection, which in this case is an authentic audio.</p></figcaption></figure></div>
+<div><figure><img src=".gitbook/assets/Collect voice.png" alt=""><figcaption><p>Hiya collects an audio sample from the YouTube clip while it is being played.</p></figcaption></figure> <figure><img src=".gitbook/assets/Audio rating.png" alt=""><figcaption><p>Hiya rates the sample after collection, which in this case is an authentic audio.</p></figcaption></figure></div>
 
 Our testing shows the extension works on almost any website, including social media sites like X (formerly Twitter), Instagram, TikTok, Facebook and Bluesky, provided the websites are opened in Chrome and the tool is installed.
 
