@@ -80,7 +80,7 @@ _Sophie Tedling_ has worked with Bellingcat as a volunteer, Tech Fellow & contri
 
 <summary>Contribute to this Toolkit</summary>
 
-If you are an expert for a specific category of open source research tools and you would like to contribute to this toolkit, get in touch with Johanna via [toolkit@bellingcat.com](mailto:toolkit@bellingcat.com). Feel free to introduce yourself and share a few words about your tool expertise. We would love to hear from you.&#x20;
+If you are an expert for a specific category of open source research tools and you would like to contribute to this toolkit, get in touch with Johanna via [toolkit@bellingcat.com](mailto:toolkit@bellingcat.com). Feel free to introduce yourself and share a few words about your tool expertise. We would love to hear from you. We are able to add new volunteers depending on our current capacity.
 
 Keep in mind that contributing to our toolkit is a long-term volunteer commitment: You write tool descriptions and update them on a monthly basis. We do not accept volunteer contributors whose identity we don’t know.
 
