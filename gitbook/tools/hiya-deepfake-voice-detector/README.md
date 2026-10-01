@@ -30,9 +30,9 @@ The Chrome extension needs to check just [one second](https://blog.hiya.com/hiya
 
 <figure><img src=".gitbook/assets/InVid uses 2 secs to five minutes copy.png" alt=""><figcaption><p>Hiya is integrated within the InVid Verification Plugin that supports media uploads ranging from two seconds to five minutes.</p></figcaption></figure>
 
-The extension uses "[Hiya’s AI Voice detection capabilities](https://chromewebstore.google.com/detail/hiya-deepfake-voice-detec/akmieeldmgcllmokbpaibfelofjiilpc)" which are "advanced AI solutions powered by deep learning," [according](https://www.hiya.com/products/protect/ai-voice-detection) to the tool provider. We were not able to find more detailed public information about the inner workings of Hiya.
+The extension uses "[Hiya’s AI Voice detection capabilities](https://chromewebstore.google.com/detail/hiya-deepfake-voice-detec/akmieeldmgcllmokbpaibfelofjiilpc)" which are "advanced AI solutions powered by deep learning," [according](https://www.hiya.com/products/protect/ai-voice-detection) to the tool provider. It further [states](https://chromewebstore.google.com/detail/hiya-deepfake-voice-detec/akmieeldmgcllmokbpaibfelofjiilpc?pli=1): Please note that this extension utilizes probabilistic algorithms, which means that its predictions or outputs are based on statistical analysis and may not always be 100% accurate." We were not able to find more detailed public information about the inner workings of Hiya.
 
-The tool provider states its deepfake detection [technology ](https://www.hiya.com/newsroom/press-releases/hiya-acquires-deepfake-voice-detection-leader-loccus-ai)is able to analyze audios and videos in multiple languages and also states that it is "[Language and channel independent](https://www.hiya.com/products/deepfake-voice-detector)..." We have not been able to independently verify claims of multiple languages supported by Hiya.
+The tool provider states its deepfake detection [technology ](https://www.hiya.com/newsroom/press-releases/hiya-acquires-deepfake-voice-detection-leader-loccus-ai)is able to analyze audios and videos in multiple languages. We have not been able to independently verify claims of multiple languages supported by Hiya.
 
 It is important to note that the tool is not perfect and may lead to false positives. Hiya can nevertheless be a handy tool when researching the rising tide of AI generated disinformation. Several fact-checking teams, including [AFP Fact Check](https://factcheck.afp.com/doc.afp.com.78448G3), can be seen using it as part of their research workflows.
 
@@ -61,6 +61,8 @@ A sign up via email is required to use Hiya's Chrome extension.
 ## Ethical Considerations
 
 The tool may produce false positives or negatives. Users, especially journalists and researchers, need to be aware that it is crucial to double-check any results before drawing conclusions. It is recommended to be transparent about the limitations of the tool when including Hiya scores in publications or when communicating them to others.
+
+The tool provider itself states that since the tool uses "[probabilistic algorithms](https://chromewebstore.google.com/detail/hiya-deepfake-voice-detec/akmieeldmgcllmokbpaibfelofjiilpc?pli=1)", the output is based on statistical analysis, so the results may not always be accurate. Therefore it is important to "always verify important information independently."
 
 Access to detection tools may help malicious actors improve evasion [strategies](https://arxiv.org/pdf/2102.06109), increasing the sophistication of future deepfakes.
 
