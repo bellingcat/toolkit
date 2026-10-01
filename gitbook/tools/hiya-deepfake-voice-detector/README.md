@@ -66,6 +66,8 @@ The tool provider itself states that since the tool uses "[probabilistic algorit
 
 Access to detection tools may help malicious actors improve evasion [strategies](https://arxiv.org/pdf/2102.06109), increasing the sophistication of future deepfakes.
 
+Testing shows the tool is able to analyze audio from private chats from platforms like WhatsApp and Discord if opened in Chrome. This access raises privacy concerns and thus be extra careful about using the tool on chats as sensitive information may accidentally end up being collected and analyzed by the tool.
+
 ## Guides and articles
 
 Henk Van Ess wrote the guide, “[Reporter’s Guide to Detecting AI-Generated Content,](https://gijn.org/resource/guide-detecting-ai-generated-content/)” for the Global Investigative Journalism Network (GIJN) on Sept. 1, 2025. The guide recommends using Hiya’s Chrome extension, alongside techniques for detecting and debunking deepfakes.
