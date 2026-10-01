@@ -123,6 +123,7 @@
   * [Have I Been Pwned](tools/have-i-been-pwned/README.md)
   * [HERE WeGo](tools/here-wego/README.md)
   * [Hitta.se](tools/hitta.se/README.md)
+  * [Hiya Deepfake Voice Detector](tools/hiya-deepfake-voice-detector/README.md)
   * [Hoaxy](tools/hoaxy/README.md)
   * [Hugin](tools/hugin/README.md)
   * [Hunchly](tools/hunchly/README.md)
