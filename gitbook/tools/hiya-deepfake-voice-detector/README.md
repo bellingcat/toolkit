@@ -34,7 +34,7 @@ The extension uses "[Hiya’s AI Voice detection capabilities](https://chromeweb
 
 The tool provider states its deepfake detection [technology ](https://www.hiya.com/newsroom/press-releases/hiya-acquires-deepfake-voice-detection-leader-loccus-ai)is able to analyze audios and videos in multiple languages. We have not been able to independently verify claims of multiple languages supported by Hiya.
 
-It is important to note that the tool is not perfect and may lead to false positives. Hiya can nevertheless be a handy tool when researching the rising tide of AI generated disinformation. Several fact-checking teams, including [AFP Fact Check](https://factcheck.afp.com/doc.afp.com.78448G3), can be seen using the Hiya, especially the one integrated within InVid, as part of their research workflows.
+It is important to note that the tool is not perfect and may lead to false positives. Hiya can nevertheless be a handy tool when researching the rising tide of AI generated disinformation. Several fact-checking teams, including [AFP Fact Check](https://factcheck.afp.com/doc.afp.com.78448G3), can be seen using Hiya, especially the version integrated within InVid, as part of their research workflows.
 
 ### Cost
 
