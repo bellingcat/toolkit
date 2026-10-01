@@ -18,7 +18,7 @@ To analyze audio in a video on any website, simply open that page and click the 
 
 <figure><img src=".gitbook/assets/Start analyzing.png" alt=""><figcaption><p>Click on the "start analyzing" option to collect and analyze the media of your choice.</p></figcaption></figure>
 
-The tool then collects and rates the audio on a scale of 1 to 100 points. The lower the score, the higher the likelihood that the sample is fake. The closer the score is to 100, the higher the probability that it is real. For instance, the voice of Galen Reich, a Bellingcat researcher, in a YouTube video "[How To... Track Your Satellite Searches](https://www.youtube.com/watch?v=cKNltv2PExo)" from Nov. 28, 2024, analyzed via Hiya has been rated authentic.
+The tool then collects and rates the audio on a scale of 1 to 100 points. The lower the score, the higher the likelihood that the sample is fake. The closer the score is to 100, the higher the probability that it is real. For instance, the voice of Galen Reich, an investigative technologist at Bellingcat, in a YouTube video "[How To... Track Your Satellite Searches](https://www.youtube.com/watch?v=cKNltv2PExo)" from Nov. 28, 2024, analyzed via Hiya has been rated authentic.
 
 <div><figure><img src=".gitbook/assets/Collect voice.png" alt=""><figcaption><p>Hiya collects an audio sample from the YouTube clip while it is being played.</p></figcaption></figure> <figure><img src=".gitbook/assets/Audio rating.png" alt=""><figcaption><p>Hiya rates the sample after collection, which in this case is an authentic audio.</p></figcaption></figure></div>
 
