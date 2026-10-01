@@ -91,4 +91,4 @@ Another tool for audio deepfake detection and can be combined with others for ef
 | Page maintainer |
 | --------------- |
 | Anisa Shabir    |
-| September 2026  |
+| October 2026    |
