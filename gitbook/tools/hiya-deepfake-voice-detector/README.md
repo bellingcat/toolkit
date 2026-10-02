@@ -1,5 +1,6 @@
 ---
 description: A tool for detecting audio deepfakes.
+updated: '2026-10-01'
 ---
 
 # Hiya Deepfake Voice Detector
