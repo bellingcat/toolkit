@@ -15,7 +15,7 @@ Deep Sea Mining Watch displays deep sea mining vessel presence on a global map, 
 <figure><img src=".gitbook/assets/Screenshot 2026-06-21 at 12.19.34.png" alt=""><figcaption><p>The Deep Sea Mining Vessels filter on the <a href="https://bellingcat.gitbook.io/toolkit/more/all-tools/global-fishing-watch-map">Global Fishing Watch</a> (GFW) map highlights areas with deep sea mining activity.</p></figcaption></figure>
 
 {% hint style="info" %}
-Deep Sea Mining is the extraction of mineral deposits from the ocean floor. Metals such as nickel and cobalt are among the most sought after, because of soaring demands for use in batteries, electric vehicles and spacecraft. Exploration contracts can be held by (state-sponsored) private companies or state-owned entities. There is still ongoing debate on environmental concerns, licensing and costs and full-scale mining has not yet been realized. The legal and political landscape is changing fast.
+Deep Sea Mining is the extraction of mineral deposits from the ocean floor. Metals such as nickel and cobalt are among the most sought after, because of soaring [demands ](https://www.iea.org/reports/global-critical-minerals-outlook-2026/executive-summary)for use in batteries, electric vehicles, aerospace and defence industries. Exploration contracts can be held by (state-sponsored) private companies or state-owned entities. There is still [ongoing debate](https://yaleclimateconnections.org/2026/03/the-controversy-over-deep-sea-mining-explained/) on environmental concerns, licensing and costs and full-scale mining has not yet been realized. The legal and political landscape is changing fast.
 
 See the [FAQ](https://isa.org.jm/faq-for-media/) of the International Seabed Authority (ISA) for details on deep sea mining and the [Critical Minerals Data Explorer](https://www.iea.org/data-and-statistics/data-tools/critical-minerals-data-explorer) from the International Energy Agency (IEA) for the latest demand projections and industrial and domestic applications.&#x20;
 {% endhint %}
@@ -26,11 +26,17 @@ As deep sea mining occurs far offshore and out of sight in deep waters, open sou
 The USA is not a member of the international ISA and issues own licenses through the National Oceanic and Atmospheric Administration (NOAA), sometimes for the same waters. See this [visual explainer](https://www.congress.gov/crs_external_products/IG/HTML/IG10053.web.html) for details.&#x20;
 {% endhint %}
 
-<figure><img src=".gitbook/assets/Screenshot 2026-06-21 at 15.29.40.png" alt=""><figcaption><p>The Clarion-Clipperton Zone (CCZ) in international waters of the central Pacific, south-east of Hawaii; the current epicentre of deep sea mining activity. In purple the ISA licensed areas by resource type, in red the areas per contractor (not always visible due to overlap). Vessels appearing in an appointed area of particular environmental interest, the larger square boxes in this view, are a red flag.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2026-10-07 at 20.19.55.png" alt=""><figcaption><p>The <a href="https://en.wikipedia.org/wiki/Clarion%E2%80%93Clipperton_zone">Clarion-Clipperton Zone</a> (CCZ) in international waters of the central Pacific, south-east of Hawaii; the current epicentre of deep sea mining activity. In purple the ISA licensed areas by resource type, in red the areas per contractor (not always visible due to overlap). Vessels appearing in an appointed area of particular environmental interest, the larger square boxes in this view, are a red flag.</p></figcaption></figure>
+
+The main deep sea mining activity is concentrated in the Clarion-Clipperton Zone (CCZ), the Indian Ocean and the Mid-Atlantic Ridge. The CCZ is managed by the ISA and consists of several zones with active exploration claims, zones reserved for developing nations, and environmental protection areas. Reference layers within the tool provide information per zone or by resource type (mostly PMN, Polymetallic nodules, for this region) and can be toggled on or off. The larger purple boxes show Areas of particular environmental interest (APEI), protected no-mining zones. Vessels in these areas can be monitored for illegal activity, although the distinction between commercial and scientific exploration is not always clear.&#x20;
 
 <figure><img src=".gitbook/assets/Screenshot 2026-06-21 at 18.31.06.png" alt=""><figcaption><p>Selecting highlighted areas show associated vessels, the vessel presence in hours, area contracts and license area.</p></figcaption></figure>
 
+Clicking on an area shows details about license areas and contractors. 75,000 square kilometers are allocated to each contractor for polymetallic nodule Exploration Areas. Each view has the option 'Create an analysis for this area' with activity for a chosen time span, plus the option for download.
+
 <figure><img src=".gitbook/assets/Screenshot 2026-06-21 at 18.35.39.png" alt=""><figcaption><p>Zooming in on a specific vessel shows all data from <a href="https://bellingcat.gitbook.io/toolkit/more/all-tools/global-fishing-watch-map">Global Fishing Watch</a>, including IMO and MMSI numbers, past voyages, port calls and owners. </p></figcaption></figure>
+
+It is also possible to click on a detected ship to find all registry data collected by Global Fishing Watch.&#x20;
 
 The Deep Sea Mining Watch is a filter on the Global Fishing Watch map and uses the same interface. See the [Global Fishing Watch toolkit description](https://bellingcat.gitbook.io/toolkit/more/all-tools/global-fishing-watch-map) for details on all available features; they are the same for both tools. As Deep Sea Mining Watch runs inside the GFW platform, logins point to the same account and saved views, vessel groups, reports and other customized parts will carry over. The main difference is that the Deep Sea Mining Watch data is not available by API.&#x20;
 
@@ -62,15 +68,15 @@ Specific Deep Sea Mining Watch reference layers are:&#x20;
 ## Limitations
 
 * Deep Sea Mining Watch provides the vessels as a curated list, but it may not be complete; ships involved in deep sea mining may have been missed due to [AIS](https://www.dma.dk/safety-at-sea/navigational-information/ais-data) evasion or they have no current activity in deep sea mining.&#x20;
-* The filter on the curated Deep Sea Mining Vessels layer relies on Automatic Identification System ([AIS](https://www.dma.dk/safety-at-sea/navigational-information/ais-data)) data only; if a vessel turns off the transponder, it will disappear from the map.&#x20;
-* Other layers such as Radar Detections (SAR), Night light detections (VIIRS) or Events as Port Visits can be added from the layer library, but are based on the complete Global Fishing Watch Map and have no connection to the Deep Sea Mining Vessels filter. Vessels found from the added general GFW layers need to be cross-checked manually as they may not be associated with deep sea mining.&#x20;
-* The reference data layer for license areas is based on ISA licenses only and does not show claims and contracts for other jurisdictions such as NOAA. The vessels will be visible on the map, but without this context layer. &#x20;
-* Data is not real time, but approximately 72 hours behind.&#x20;
+* The filter on the curated Deep Sea Mining Vessels layer relies on Automatic Identification System ([AIS](https://www.dma.dk/safety-at-sea/navigational-information/ais-data)) data only; this registry data is self-reported and if a vessel turns off the transponder, it will disappear from the map.&#x20;
+* [Other layers](https://globalfishingwatch.org/faqs/how-do-i-view-different-types-of-data-ais-vms-viirs/) such as Radar Detections (SAR), Night light detections (VIIRS) or Events as Port Visits can be added from the layer library, but are based on the complete Global Fishing Watch Map and have no connection to the Deep Sea Mining Vessels filter. Vessels found from the added general GFW layers need to be cross-checked manually as they may not be associated with deep sea mining.&#x20;
+* The reference data layer for license areas is based on ISA licenses only and does not show claims and contracts for other jurisdictions such as [NOAA](https://oceanservice.noaa.gov/deep-seabed-mineral-resources/deep-seabed-mining/). The vessels will be visible on the map, but without this context layer. &#x20;
+* Data is not real time, but approximately [72 hours](https://globalfishingwatch.org/platform-update/deep-sea-mining-watch-portal/) behind.&#x20;
 * Limited analysis functionality: for raw data and export functionality, use [Global Fishing Watch](https://bellingcat.gitbook.io/toolkit/more/all-tools/global-fishing-watch-map#search-for-vessels-view-vessel-tracks-and-fishing-events).&#x20;
 
 ## Ethical Considerations
 
-Be careful in flagging vessels and owners. The Deep Sea Mining Watch list contains 55 ids and is curated by experts. The 'Deep Sea Mining Vessels' filter suggests that this is a definite list of active deep sea miners, but that may not be the case. The [FAQ](https://www.deepseaminingwatch.msi.ucsb.edu/faq) does state that inclusion on the list does not mean that they are currently involved in deep sea mining; vessels were selected because they were once associated with mineral-related activities, but this can include environmental research and seismic monitoring. Cross-referencing with other sources and combining with license reference layers is recommended. &#x20;
+Be careful in flagging vessels and owners. The Deep Sea Mining Watch list currently contains 55 ids ([identified deep sea mining exploration vessels](https://globalfishingwatch.org/article/bringing-transparency-to-the-deep-a-look-at-the-technology-powering-deep-sea-mining-watch/)) from 20 flags and is curated. The [vessel group](./#url) was identified by combining publicly available registry data with the output of a machine learning model that analyses vessel activity patterns. The 'Deep Sea Mining Vessels' filter suggests that this is a definite list of active deep sea miners, but that may not be the case. The [FAQ](https://www.deepseaminingwatch.msi.ucsb.edu/faq) does state that inclusion on the list does not mean that they are currently involved in deep sea mining; vessels were selected because they were once associated with mineral-related activities, but this can include environmental research and seismic monitoring. Cross-referencing with other sources and combining with license reference layers is recommended. &#x20;
 
 ## Guides and articles
 
@@ -82,7 +88,7 @@ Interesting for Open Source Researchers is this article for details on the used 
 
 ## Tool provider
 
-[Benioff Ocean Science Laboratory](https://bosl.ucsb.edu), University of California. The platform is powered by [Global Fishing Watch’](https://bellingcat.gitbook.io/toolkit/more/all-tools/global-fishing-watch-map)s Open Ocean Project.
+[Benioff Ocean Science Laboratory](https://bosl.ucsb.edu), University of California (US). The platform is powered by [Global Fishing Watch’](https://bellingcat.gitbook.io/toolkit/more/all-tools/global-fishing-watch-map)s Open Ocean Project.
 
 ## Similar tools
 
