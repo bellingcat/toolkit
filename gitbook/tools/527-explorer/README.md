@@ -20,6 +20,8 @@ Some information provided in a profile includes the organization's location, rel
 
 <figure><img src=".gitbook/assets/chrome-capture-2026-09-07.png" alt=""><figcaption></figcaption></figure>
 
+<sub>Act Blue is a fundraising platform and political action committee (PAC) affiliated with the United States Democratic Party.</sub>
+
 ## Cost
 
 * [x] Free
