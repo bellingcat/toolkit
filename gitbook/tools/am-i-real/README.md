@@ -37,7 +37,7 @@ While this alignment does not definitively confirm that the photo was generated 
 
 ## Requirements
 
-The tool can be accessed through any modern web browser.
+No specific requirements.
 
 ## Limitations
 
@@ -46,7 +46,7 @@ The tool can be accessed through any modern web browser.
 
 ## Ethical Considerations
 
-* **Potential for misuse:** There has been much discussion online around the  [ethical implications](https://www.cnn.com/2019/02/28/tech/ai-fake-faces) of AI generators and their potential for misuse. Tools that highlight the shortfalls inherent in AI-generated images can potentially aid the development of increasingly sophisticated deepfakes, which are harder to detect.
+* **Potential for misuse:** There has been much discussion online around the [ethical implications](https://www.cnn.com/2019/02/28/tech/ai-fake-faces) of AI generators and their potential for misuse. Tools that highlight the shortfalls inherent in AI-generated images can potentially aid the development of increasingly sophisticated deepfakes, which are harder to detect.
 * **Privacy:** Users should consider the privacy implications of submitting personal or sensitive videos or images to an online service.
 
 ## Tool provider
@@ -55,11 +55,11 @@ The tool was created by Polish OSINT analyst Krzysztof Wosiński ([@SEINT\_pl](h
 
 ## Similar tools
 
-[DeepFake-O-Meter](https://zinc.cse.buffalo.edu/ubmdfl/deep-o-meter/): A drag-and-drop online tool designed to pinpoint deepfake images and videos, using a variety of AI detectors.
+[DeepFake-O-Meter](https://bellingcat.gitbook.io/toolkit/more/all-tools/deepfake-o-meter): A drag-and-drop online tool designed to pinpoint deepfake images and videos, using a variety of AI detectors.
 
 [InVID](https://bellingcat.gitbook.io/toolkit/more/all-tools/invid): This toolkit, which supports the verification of images, videos and audio, enables registered users to assess the probability that content has been manipulated by AI.
 
 | Page maintainer           |
 | ------------------------- |
 | Bellingcat volunteer team |
-| August 2026               |
+| October 2026              |
