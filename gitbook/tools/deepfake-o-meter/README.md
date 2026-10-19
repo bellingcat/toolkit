@@ -1,5 +1,5 @@
 ---
-updated: '2026-09-16'
+updated: '2026-10-18'
 description: >-
   DeepFake-O-Meter is an online tool designed to detect deepfake media and help
   users differentiate between genuine and manipulated content.
