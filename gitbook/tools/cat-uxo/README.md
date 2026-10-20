@@ -5,11 +5,11 @@ description: >-
   (EOD) space.
 ---
 
-# CAT UXO
+# CAT-UXO
 
 ## URL
 
-www.cat-uxo.com
+[www.cat-uxo.com](https://www.cat-uxo.com)
 
 ## Description
 
@@ -25,7 +25,7 @@ Based on our examination, CAT-UXO has 16 categories of EO, an additional related
 
 **EO TYPES COVERED BY THE TOOL:** Landmines, Submunitions, Grenades, Aircraft Bombs, Rockets, Missiles, Mortars, Projectiles, Firing Devices, Fuzes, Naval Devices, [SALW](https://www.nato.int/cps/en/natohq/topics_52142.htm), [UCAV](https://en.wikipedia.org/wiki/Unmanned_combat_aerial_vehicle), [AFV](https://en.wikipedia.org/wiki/Armoured_fighting_vehicle), Miscellaneous, IEDs, IED Incidents, Terrorist Groups
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-09-15 072220.png" alt=""><figcaption><p>Search categories for EO on the landing page of the tool.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-09-15 072220 (1).png" alt=""><figcaption><p>Search categories for EO on the landing page of the tool.</p></figcaption></figure>
 
 According to the tool provider, the data comes from:
 
@@ -50,7 +50,7 @@ CAT-UXO groups its information according to 16 EO Types. It also provides introd
 
 On the landing page, click on the icon of the EO type you are searching for.
 
-<figure><img src="../../.gitbook/assets/2025-09-16_12-58-36-st.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/2025-09-16_12-58-36-st (1).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -58,19 +58,19 @@ On the landing page, click on the icon of the EO type you are searching for.
 
 If available for that category, click on the first result, with the icon identical to the EO type of icon. For example, you can see that the rocket icon looks the same as on the results page.
 
-<figure><img src="../../.gitbook/assets/2025-09-16_14-19-50st.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/2025-09-16_14-19-50st (1).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
-As of now, only these types of EO have introductory information, mostly sourced from Wikipedia: [Landmines](https://cat-uxo.com/explosive-hazards/landmines/01-landmine); [Submunitions](https://cat-uxo.com/explosive-hazards/submunitions/01-submunition); Grenade ([Hand Grenade](https://cat-uxo.com/explosive-hazards/grenades/01-hand-grenade) and [Projected Grenade](https://cat-uxo.com/explosive-hazards/grenades/02-projected-grenade)); [Rocket](https://cat-uxo.com/explosive-hazards/rockets/01-rocket); [Fuze](https://cat-uxo.com/explosive-hazards/fuzes/01-fuze) ([Delay Fuze](https://cat-uxo.com/explosive-hazards/fuzes/03-delay-fuze), [Pibd](https://cat-uxo.com/explosive-hazards/fuzes/04-pibd), [(AWAF) All-Ways Acting Fuze](https://cat-uxo.com/explosive-hazards/fuzes/05-awaf), [Firing Pin](https://cat-uxo.com/explosive-hazards/fuzes/06-firing-pin)).
+As of now, only these EO types have introductory information, mostly sourced from Wikipedia: [Landmines](https://cat-uxo.com/explosive-hazards/landmines/01-landmine); [Submunitions](https://cat-uxo.com/explosive-hazards/submunitions/01-submunition); Grenade ([Hand Grenade](https://cat-uxo.com/explosive-hazards/grenades/01-hand-grenade) and [Projected Grenade](https://cat-uxo.com/explosive-hazards/grenades/02-projected-grenade)); [Rocket](https://cat-uxo.com/explosive-hazards/rockets/01-rocket); [Fuze](https://cat-uxo.com/explosive-hazards/fuzes/01-fuze) ([Delay Fuze](https://cat-uxo.com/explosive-hazards/fuzes/03-delay-fuze), [Pibd](https://cat-uxo.com/explosive-hazards/fuzes/04-pibd), [(AWAF) All-Ways Acting Fuze](https://cat-uxo.com/explosive-hazards/fuzes/05-awaf), [Firing Pin](https://cat-uxo.com/explosive-hazards/fuzes/06-firing-pin)).
 
 ### SEARCHING FOR EO
 
 #### _SEARCH BAR AND SEARCH QUERY_
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-09-15 073154.png" alt=""><figcaption><p>On the landing page of the tool, users can find the search bar and the various EO types for ease of search.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-09-15 073154 (1).png" alt=""><figcaption><p>On the landing page of the tool, users can find the search bar and the various EO types for ease of search.</p></figcaption></figure>
 
-To get the best results, it is helpful to know how the search bar works. The search functionality is versatile. It operates on keyword-based retrieval, matching search queries against indexed fields.
+To get the best results, it helps to understand how the search bar works. The search functionality is versatile. It operates on keyword-based retrieval, matching search queries against indexed fields.
 
 It also handles logical combinations of attributes, such as “Chinese fuze” or “81mm mortar,” as well as exact model designations such as “type 58 landmine.” It returns results when keywords appear in either the description or the title. Partial words (i.e. “frag” for fragmentation) will also return results.
 
@@ -92,9 +92,9 @@ Example: “anti-tank” ([the common EO term referring to a purpose or function
 
 The interface also uses GUI-driven filtering without Boolean operators. This allows users to refine searches further using a dropdown filtering menu rather than advanced search syntax.
 
-<figure><img src="../../.gitbook/assets/2025-09-15_09-44-27-ed.png" alt=""><figcaption><p>Search results can be further refined by more filtering options, as seen above the search results. Once a user has entered the results page for the initial query, a filtering option becomes available.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/2025-09-15_09-44-27-ed (1).png" alt=""><figcaption><p>Search results can be further refined by more filtering options, as seen above the search results. Once a user has entered the results page for the initial query, a filtering option becomes available.</p></figcaption></figure>
 
-An additional list of filtering options can be found in the expandable below.
+An additional list of filtering options can be found in the expandable section below.
 
 {% hint style="info" %}
 Note that these lists may change and be updated.
@@ -394,11 +394,11 @@ However, based on our tests, there is no offline version of the whole catalogue.
 
 {% stepper %}
 {% step %}
-**Open the CAT-UXO mobile app while you have an internet connection**
+**Open the CAT-UXO mobile app&#x20;**_**while**_**&#x20;you have an internet connection**
 
 Navigate to the EO Category of interest or the item of interest. Look for the cloud icon highlighted below.
 
-<figure><img src="../../.gitbook/assets/Screenshot_20251124-094341.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot_20251124-094341 (1).png" alt="" width="375"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -406,7 +406,7 @@ Navigate to the EO Category of interest or the item of interest. Look for the cl
 
 Once downloaded, the cloud icon will switch from white to black. Users will see a confirmation at the bottom of the screen as shown in the image below.
 
-<figure><img src="../../.gitbook/assets/Screenshot_20251124-094354.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot_20251124-094354 (1).png" alt="" width="375"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -414,7 +414,7 @@ Once downloaded, the cloud icon will switch from white to black. Users will see 
 
 To check the downloaded items, turn off your internet connection and open the CAT-UXO app. Users will see a black cloud icon on each EO category. Click on each category to double check.
 
-<figure><img src="../../.gitbook/assets/Screenshot_20251124-094418.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot_20251124-094418 (1).png" alt="" width="375"><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -445,17 +445,17 @@ Important main differences between the public and paid account, are as follows:
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
 
-User interface difficulty is level 2 as searching and filtering are mostly intuitive
+User interface difficulty is level 2, as searching and filtering are mostly intuitive
 
 ## Requirements
 
-Payment and login required for paid version. Technical subject matter knowledge may be helpful when using the tool.
+Payment and login are required for the paid version. Technical subject matter knowledge may be helpful when using the tool.
 
 ## Limitations
 
 Note on Accuracy:
 
-1. The [Terms and Conditions state](https://cat-uxo.com/terms-conditions): "The information contained within this website is obtained from varying open-source information and individuals. The information is no way exhaustive or considered fully accurate and therefore qualified EOD trained persons should always adhere to authorised employers Standard Operating Procedures (SOPs) when working with explosive hazards." It is advisable to combine this tool with other similar tools to verify information.
+1. The [Terms and Conditions state](https://cat-uxo.com/terms-conditions): "The information contained within this website is obtained from varying open-source information and individuals. The information is in no way exhaustive or considered fully accurate and therefore qualified EOD trained persons should always adhere to authorised employers Standard Operating Procedures (SOPs) when working with explosive hazards." It is advisable to combine this tool with other similar tools to verify information.
 2. Navigation inefficiency - The search bar functionality is limited to the landing page and search results page, and does not appear on other pages. This might disrupt research workflows when working on time-sensitive research.
 3. Limited multilingual support - Insufficient foreign names or markings and local terminology for international search matching. This may be critical for those working with Soviet, Chinese, or any locally-manufactured ordnance with local designations.
 4. Restricted filtering options - No filters for color, shape, and other potentially useful physical features, which may be helpful if beginners do not have a background in ordnance.
