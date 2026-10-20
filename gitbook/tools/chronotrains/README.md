@@ -10,19 +10,19 @@ description: >-
 
 ## URL
 
-{% embed url="https://www.chronotrains.com/en" %}
+[https://www.chronotrains.com/en](https://www.chronotrains.com/en)
 
 ## Description
 
-This tool helps users visualize train destinations within Europe. When users hover the cursor over a city or a particular train station on the map, Chronotrains unveils a map where concentric zones radiate outward. This depicts all the destinations reachable by train within a chosen duration of up to eight hours.
+This tool helps users visualize train destinations within Europe. When users hover over a city or train station on the map, Chronotrains displays a map with concentric zones radiating outward. This depicts all the destinations reachable by train within a chosen duration of up to eight hours.
 
-<figure><img src="../../.gitbook/assets/2025-12-04_15-43-08-newlarge.gif" alt=""><figcaption><p>Chronotrains can be used in two primary ways: (1) Users can hover their mouse over a particular location (or starting point) and the map will show all the possible destinations by train. (2) A second way is to click on a specific station and it will show all the results. In this second example, I clicked on the city of Bordeaux, and a range of colors appeared. These correspond to the different travel times, 1 hour (darkest green) up to 8 hours (lightest green). Users can also click on the left panel to select the different times they are interested in. As shown here, I selected 1 hour from Bordeaux, followed by 2 hours, etc. (<em>Image from Chronotrains.com</em>)</p></figcaption></figure>
+<figure><img src=".gitbook/assets/2025-12-04_15-43-08-newlarge (1).gif" alt=""><figcaption><p>Chronotrains can be used in two primary ways: (1) Users can hover their mouse over a particular location (or starting point) and the map will show all the possible destinations by train. (2) A second way is to click on a specific station and it will show all the results. In this second example, I clicked on the city of Bordeaux, and a range of colors appeared. These correspond to the different travel times, 1 hour (darkest green) up to 8 hours (lightest green). Users can also click on the left panel to select the different times they are interested in. As shown here, I selected 1 hour from Bordeaux, followed by 2 hours, etc. (<em>Image from Chronotrains.com</em>)</p></figcaption></figure>
 
 **Using the Map:**
 
 1. Click on the choice of All Trains or Night Trains
 
-<figure><img src="../../.gitbook/assets/2025-12-04_15-34-52.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/2025-12-04_15-34-52 (1).png" alt=""><figcaption></figcaption></figure>
 
 2. Type or click on any train station to set it as your starting point.
 3. Select the amount of time you want to travel (e.g., minimum 1 hour, up to 8 hours maximum).
@@ -30,7 +30,7 @@ This tool helps users visualize train destinations within Europe. When users hov
 
 * As of Dec 2024, the map may sometimes include not just information on the approximate travel time but also the trip's price.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-12-08 235600.png" alt=""><figcaption><p>If the data is available, the map will sometimes show not just the approximate travel time but also the price. Click to enlarge the the map of Krakow, Poland for a sample of this new map feature.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-12-08 235600 (1).png" alt=""><figcaption><p>If the data is available, the map will sometimes show not just the approximate travel time but also the price. Click to enlarge the the map of Krakow, Poland for a sample of this new map feature.</p></figcaption></figure>
 
 **Exploring Options:**
 
@@ -50,7 +50,7 @@ This tool helps users visualize train destinations within Europe. When users hov
 
 How it works: According to the tool’s [website](https://www.chronotrains.com/en/8), this map integrates data from [Deutsche Bahn](https://www.bahn.de/) through [Direkt Bahn Guru](https://direkt.bahn.guru/).
 
-<figure><img src="../../.gitbook/assets/Chronotrains- SuggestionSample.png" alt=""><figcaption><p>In addition to the interactive map, to the left (or sometimes the bottom, depending on your screen display) you will see further location suggestions. Once you have clicked on your station or city of interest, this feature will appear in addition to the color-coded isochrones on the map.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Chronotrains- SuggestionSample (1).png" alt=""><figcaption><p>In addition to the interactive map, to the left (or sometimes the bottom, depending on your screen display) you will see further location suggestions. Once you have clicked on your station or city of interest, this feature will appear in addition to the color-coded isochrones on the map.</p></figcaption></figure>
 
 ### Possible use cases
 
@@ -79,7 +79,7 @@ Think of a graph like a map, but instead of just showing locations, it also show
 
 _2. Exploring the Graph:_
 
-For each station, the system checks which other stations you can get to in a certain amount of time. For example, it might check which stations you can reach from Station A within 1 hour, 2 hours, and so on.
+For each station, the system checks which other stations you can reach within a certain amount of time. For example, it might check which stations you can reach from Station A within 1 hour, 2 hours, and so on.
 
 **Data Source:**
 
@@ -109,16 +109,16 @@ For each station, the system checks which other stations you can get to in a cer
 Currently, Chronotrains.com does not seem to provide train data for outgoing journeys from Bosnia and Herzegovina, Albania, and Belarus. However, data is available for neighboring countries, and some connections are displayed. For instance, train stations in Croatia include destinations that extend into Bosnia and Herzegovina, which are then visible on the map.
 
 {% hint style="info" %}
-NOTE: To determine if data is available for a specific location, check the individual train stations represented as dots on the map. Filled dots indicate available data, while empty (white) dots signify the absence of outgoing train information.\\
+NOTE: To determine if data is available for a specific location, check the individual train stations represented as dots on the map. Filled dots indicate available data, while empty (white) dots signify the absence of outgoing train information.
 {% endhint %}
 
-As of January 2025, the map started including some train data in Turkey and Montenegro. Russia still does not have any data available on the tool.
+As of January 2025, the map started including some train data in Turkey and Montenegro. Russia still has no data available in the tool.
 
 While Ukraine is marked as available on the map, it may be incomplete. Make sure to cross-reference with other neighboring countries’ train data, such as Polrail, and Ukraine’s national railway network, Ukrainian Railways.
 
 2. **Accuracy**
 
-Chronotrains.com includes a caveat [that the travel times are based on estimates only provided by Deutsche Bahn data](https://www.chronotrains.com/en/8) (Under FAQs). Actual arrival times may not always match. Therefore, it is important to use this platform ony for estimates.
+Chronotrains.com includes a caveat [that the travel times are based on estimates only provided by Deutsche Bahn data](https://www.chronotrains.com/en/8) (Under FAQs). Actual arrival times may not always match. Therefore, it is important to use this platform only for estimates.
 
 3. **Adding Connections (“Edges”) Between “Closeby Stations” Based on Assumed Walking Speed**
 
@@ -170,7 +170,7 @@ Chronotrains is best used in conjunction with other tools and other sources of i
 
 **Transparency and Disclosure:**
 
-As mentioned above, Chronotrains uses data based on pre-scheduled train times and not real-time tracking. It includes this caveat under its [FAQs](https://www.chronotrains.com/en) section. As mentioned under the “Limitations” section, data are based on the user’s assumed walking speed and assumed duration for changing between trains. These variables can modify the estimates that the map shows. It is, therefore, important to disclose these limitations when using it as a tool for your investigations.
+As mentioned above, Chronotrains uses data based on pre-scheduled train times and not real-time tracking. It includes this caveat in its FAQs. As mentioned under the “Limitations” section, data are based on the user’s assumed walking speed and assumed duration for changing between trains. These variables can modify the estimates that the map shows. It is, therefore, important to disclose these limitations when using it as a tool for your investigations.
 
 **Accuracy:**
 
