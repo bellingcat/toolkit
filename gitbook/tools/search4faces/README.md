@@ -1,5 +1,5 @@
 ---
-updated: '2026-08-30'
+updated: '2026-10-20'
 description: >-
   Upload the picture of a face and find pictures of similar looking people on
   VKontakte, Odnoklassniki, TikTok and Clubhouse.

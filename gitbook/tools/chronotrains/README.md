@@ -1,5 +1,5 @@
 ---
-updated: '2025-12-04'
+updated: '2026-10-20'
 description: >-
   Chronotrains is a free interactive map designed to explore the reach of
   Europe’s extensive rail network. Enter a starting point and travel time to see

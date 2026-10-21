@@ -1,5 +1,5 @@
 ---
-updated: '2026-08-18'
+updated: '2026-10-20'
 description: >-
   A collection of web-based image forensics tools. Can identify fake or doctored
   images.

@@ -1,5 +1,5 @@
 ---
-updated: '2026-08-30'
+updated: '2026-10-20'
 description: >-
   Google Maps provides mapping information, satellite imagery and Google Street
   View imagery including historical Street View images.
