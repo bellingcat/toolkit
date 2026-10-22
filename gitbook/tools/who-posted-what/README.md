@@ -1,5 +1,5 @@
 ---
-updated: '2026-08-19'
+updated: '2026-10-21'
 description: >-
   A tool that allows a keyword search on Facebook on a specific date or within a
   specific time frame.
