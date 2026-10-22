@@ -1,8 +1,8 @@
 ---
+updated: '2026-09-18'
 description: >-
   Live flight tracker (including many military aircraft). Live data available
   for the past month. Historical data available for purchase upon request.
-updated: '2026-09-18'
 ---
 
 # ADS-B Exchange
@@ -13,9 +13,9 @@ updated: '2026-09-18'
 
 ## Description
 
-ADSB Exchange provides real-time and historic flight tracking information across the globe, including aircraft identifiers, like call number, aircraft registration number, and flight information.
+ADSB Exchange provides real-time and historic flight tracking information across the globe, including aircraft identifiers like call number, aircraft registration number, and flight information.
 
-The website captures information via its network of volunteers, or [feeders](https://map.adsbexchange.com/mlat-map/), with ADS-B receivers across the globe, as well as from satellite information ([MLAT](https://www.icao.int/sites/default/files/sp-files/APAC/Documents/edocs/mlat_concept.pdf)). All data that is displayed on the map is a result of real time data capture, and no extrapolation of the aircraft routes takes place. In other words, if there are no nearby receivers to detect an aircraft, only the last truly known location will be shown, not its expected route based on speed and heading.
+The website captures information via its network of volunteers, or [feeders](https://map.adsbexchange.com/mlat-map/), with ADS-B receivers across the globe, as well as from satellite information ([MLAT](https://www.icao.int/sites/default/files/sp-files/APAC/Documents/edocs/mlat_concept.pdf)). All data that is displayed on the map is a result of real-time data capture, and no extrapolation of the aircraft routes takes place. In other words, if there are no nearby receivers to detect an aircraft, only the last truly known location will be shown, not its expected route based on speed and heading.
 
 The platform allows filtering by many different categories. Furthermore, unlike other aircraft tracking websites that allow aircraft owners to request that their aircraft be excluded from public tracking, this site continues to display those aircraft as well.
 
@@ -31,7 +31,7 @@ ADS-B Exchange can also be used for verification of events through aircraft move
 
 1. **No** **acceptance of take-down requests**
 
-ADS-B Exchange [does not accept take-down requests](https://support.adsbexchange.com/hc/en-us/articles/36737581489037-How-Can-My-Aircraft-Be-Removed-From-the-ADS-B-Exchange-Website), thus listing all aircraft that broadcast [ADS-B](https://en.wikipedia.org/wiki/Automatic_Dependent_Surveillance%E2%80%93Broadcast) or [Mode S](https://en.wikipedia.org/wiki/Secondary_surveillance_radar#Mode_S), the primary means of tracking aircraft globally. The FAA (US Federal Aviation Administration) enables aircraft that have privacy concerns to apply to the [Privacy ICAO Aircraft Address (PIA)](https://www.faa.gov/air_traffic/technology/equipadsb/privacy) program, which will enable the aircraft to transmit a temporary asigned aircraft address instead of their actual address. Aircraft using the PIA program will still be displayed on ADS-B Exchange and can be filtered out separately (see below for a detailed description of the filters).
+ADS-B Exchange [does not accept take-down requests](https://support.adsbexchange.com/hc/en-us/articles/36737581489037-How-Can-My-Aircraft-Be-Removed-From-the-ADS-B-Exchange-Website), thus listing all aircraft that broadcast [ADS-B](https://en.wikipedia.org/wiki/Automatic_Dependent_Surveillance%E2%80%93Broadcast) or [Mode S](https://en.wikipedia.org/wiki/Secondary_surveillance_radar#Mode_S), the primary means of tracking aircraft globally. The FAA (US Federal Aviation Administration) enables aircraft that have privacy concerns to apply to the [Privacy ICAO Aircraft Address (PIA)](https://www.faa.gov/air_traffic/technology/equipadsb/privacy) program, which will enable the aircraft to transmit a temporary assigned aircraft address instead of their actual address. Aircraft using the PIA program will still be displayed on ADS-B Exchange and can be filtered out separately (see below for a detailed description of the filters).
 
 2. **See aircraft available only on ADS-B Exchange**
 
@@ -63,7 +63,7 @@ Below is an overview of the different identifiers available on ADS-B Exchange an
 
 _**For live flights:**_
 
-Call signs can be seen when you hover your cursor over a plane of interest in the live map. It is the top most field, as shown in Image 2. Users can find additional details when clicking on the aircraft, after which a detailed listing of the aircraft appears on the left hand side.
+Call signs can be seen when you hover your cursor over a plane of interest on the live map. It is the topmost field, as shown in Image 2. Users can find additional details when clicking on the aircraft, after which a detailed listing of the aircraft appears on the left hand side.
 
 _**For completed/historical flights:**_
 
@@ -160,6 +160,10 @@ A stable internet connection.
 **Context** - every flight has context behind it. It is always a good idea to not only cross check with other flight tracking platforms (if possible), but also collect contextual data to verify claims about what is being shown on the flight tracking platform.
 
 **Copyright** - the platform [use terms](https://support.adsbexchange.com/hc/en-us/articles/37364077703693-What-is-ADS-B-Exchange-s-data-use-policy) should be reviewed and adhered to whenever writing about findings or analyses from ADS-B Exchange.
+
+## Similar Tools&#x20;
+
+For alternatives, researchers can use [Flightradar24](https://bellingcat.gitbook.io/toolkit/more/all-tools/flightradar24) or [FlightAware.](https://bellingcat.gitbook.io/toolkit/more/all-tools/flightaware) However, note that the interface for these two alternatives is different from ADS-B Exchange, and that certain aircraft may not be visible since they follow takedown requests.&#x20;
 
 ## Guide
 
