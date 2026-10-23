@@ -1,5 +1,5 @@
 ---
-updated: '2026-08-31'
+updated: '2026-10-22'
 description: A browser extension to reverse search an image on multiple search engines.
 ---
 
