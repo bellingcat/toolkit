@@ -12,7 +12,7 @@ description: >-
 
 ## Description
 
-<div data-full-width="false"><figure><img src=".gitbook/assets/OPENINFRAMAP1.gif" alt=""><figcaption><p>OPEN INFRASTRUCTURE MAP INTERFACE, SHOWING THE USER ZOOMING IN ON A LOCATION, SELECTING AN OFFSHORE WIND TURBINE THEN A POWER PLANT, AND SUMMONING AN INFORMATION WINDOW FOR EACH USING LEFT MOUSE CLICK.</p></figcaption></figure></div>
+<div data-full-width="false"><figure><img src=".gitbook/assets/OPENINFRAMAP3.gif" alt=""><figcaption><p><strong>OPEN INFRASTRUCTURE MAP INTERFACE OVERVIEW</strong></p></figcaption></figure></div>
 
 Open Infrastructure Map allows users to search for and view global infrastructure networks which include:
 
@@ -29,7 +29,65 @@ Users can select and display different layers of infrastructure data at their ch
 
 The tool presents a globe that the user can turn in order to zoom in on a geographical location of interest. A location can also be selected by either typing a name or entering latitude and longitude co-ordinates into the search box on the top left of the screen.
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p><strong>EXPLODED VIEW OF THE OPEN INFRASTRUCTURE MAP INTERFACE, SHOWING SOME OF THE FEATURES AVAILABLE</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/gui2.JPG" alt=""><figcaption><p><strong>EXPLODED VIEW OF THE OPEN INFRASTRUCTURE MAP INTERFACE, SHOWING SOME OF THE FEATURES AVAILABLE</strong></p></figcaption></figure>
+
+{% tabs %}
+{% tab title="ABOUT USER DATA" %}
+* **How users can contribute data**
+
+Tutorial at [learnOSM](https://learnosm.org/)[.](https://learnosm.org/) Research the tagging guidelines for [power](http://wiki.openstreetmap.org/wiki/Power) and [telecoms](http://wiki.openstreetmap.org/wiki/Telecoms).
+
+* **How users access the data**
+
+Relatively small extracts of data can be generated using [Overpass Turbo](https://overpass-turbo.eu/) in GeoJSON and similar formats. Larger amounts of data the raw OSM data must be accessed and processed directly. Commercial exports in GIS formats such as Shapefile and GeoPackage are available from [Infrageomatics](https://www.infrageomatics.com/products)
+
+* **Open Infrastructure Map components**
+
+[Postgres](https://www.postgresql.org/)/[PostGIS](http://postgis.net/) for data storage
+
+[Imposm3](https://imposm.org/) for filtering & importing the OSM data
+
+[Tegola](http://tegola.io/) for vector tile rendering and serving
+
+The [MapLibre](https://github.com/MapLibre/maplibre-gl-js)[ GL JS](https://github.com/MapLibre/maplibre-gl-js) web interface
+
+Background map data is generated via [Protomaps](https://protomaps.com/). Search by [OpenCage](https://opencagedata.com/).
+
+* **Code Location and Author**
+
+OpenInfraMap code is [on GitHub](https://github.com/openinframap/openinframap), author:[Russ](https://russ.garrett.co.uk/)
+
+* **OSM Infrastructure Mapping Community**
+
+Join [#](irc://irc.oftc.net/osm-infrastructure)[osm](irc://irc.oftc.net/osm-infrastructure)[-infrastructure](irc://irc.oftc.net/osm-infrastructure) on the OFTC IRC network or [#](https://matrix.to/)[osm-infrastructure:matrix.org](https://matrix.to/) on Matrix. Join this channel with IRCCloud: .Follow Open Infrastructure Map on [Mastodon](https://en.osm.town/@OpenInfraMap) or [Bluesky](https://bsky.app/profile/openinframap.org)
+{% endtab %}
+
+{% tab title="GLOBAL ENERGY STATS " %}
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+
+{% tab title="OSM DATA INFRASTRUCTURE EXPORTS " %}
+* **OpenStreetMap infrastructure data exports**
+
+5.5 million kilometres of power lines, 1 million substations, &100,000 power plants covering much of the planet's electricity transmission system. More than 2,000 datacenters, 600,000 telecoms masts, and 130,000 oil & gas sites.
+
+* **Data Exports sold in GeoPackage or Shapefile formats**
+
+Infrastructure data from OpenStreetMap can be purchased in GeoPackage or Shapefile format for easy use in GIS software such as QGIS or ArcGIS. These exports provide a realtime snapshot of all electricity, telecoms, water, oil, and gas objects visible on [Open Infrastructure Map](https://openinframap.org/). Samples are available for Luxembourg Price guides as at 1/8/25..
+
+Country export including power towers GBP 80
+
+Worldwide export including power towers GBP 700
+
+* **Exports in KML/KMZ (Google Earth) format GBP 200\country**
+
+These include power lines, substations, and plants, but not power generators, or other infrastructure types such as telecoms lines, masts or datacenters. NB These exports are validated to work correctly with Google Earth Pro, but due to their size they may not work in all applications which consume KML. Due to size limitations with Google Earth Pro, KML exports for larger countries (the USA, Russia, and China) are filtered to only include power assets with a voltage rating of 25 kV or above, and generation assets with an output of 50 MW and above. Worldwide KML exports are not possible due to these limitations.
+{% endtab %}
+
+{% tab title="MAP DISPLAY LAYERS" %}
+<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+{% endtabs %}
 
 Clicking the **Layers button** on the right of the screen opens a checkbox list of various types of infrastructure that the user can select or deselect for display. Clicking the **Key button** provides a guide to interpreting the icons and colored lines representing various infrastructure types, which the user can consult to identify the infrastructure being displayed. For example, an icon of a tower denotes a telecom tower; a red line represents a ≥ 220 kV powerline, and so forth.
 
