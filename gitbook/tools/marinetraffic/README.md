@@ -195,7 +195,7 @@ REJECT ALL v ACCEPT ALL
 
 </details>
 
-| Page maintainer:-                                   |
-| --------------------------------------------------- |
-| LPetrova and Sophie Tedling: Last Modified 28/8/26. |
-|                                                     |
+| Page maintainer:-                                    |
+| ---------------------------------------------------- |
+| LPetrova and Sophie Tedling: Last Modified 24/10/26. |
+|                                                      |
