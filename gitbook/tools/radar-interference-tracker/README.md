@@ -144,6 +144,8 @@ _Summary of Steps:_
 4. Use the radio frequency graph to further investigate interference at that location - each spike represents interference. You can click on any point on the radio interference graph to obtain the visual representation of the interference on the map. Change the aggregation to "Day" to see only the interference for that day.
 5. Once you've found a day with interference, conduct a visual investigation of the area underneath the interference. You can start the search within the RIT tool by lowering the Opacity and visually searching for anything that may explain the interference, such as formation of [military equipment](https://x.com/LostWeapons/status/957342822377472000?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E957342822377472000%7Ctwgr%5Ed5bea1fa36381ff3dd0e8a27342c8d88b1ee902a%7Ctwcon%5Es1_c10\&ref_url=https%3A%2F%2Fcdn.embedly.com%2Fwidgets%2Fmedia.html%3Ftype%3Dtext2Fhtmlkey%3Da19fcc184b9711e1b4764040d3dc5c07schema%3Dtwitterurl%3Dhttps3A%2F%2Ftwitter.com%2Flostweapons%2Fstatus%2F957342822377472000image%3Dhttps3A%2F%2Fi.embed.ly%2F1%2Fimage3Furl3Dhttps253A252F252Fpbs.twimg.com252Fmedia252FDUkp-6mV4AA6Rrp.jpg253Alarge26key3Da19fcc184b9711e1b4764040d3dc5c07) or other [telecommunication](https://www.bellingcat.com/app/uploads/2022/02/image2.png) equipment. You may also use other tools on Bellingcat's Toolkit [Satellite Imagery](https://bellingcat.gitbook.io/toolkit/categories/maps-and-satellites/satellite-imagery?select=2.-radio-frequency-interference) section.
 
+**Non-interference visualization:** Occasionally, Sentinel 1 captures sun reflections of structures, for example at Port As-Salif in Yemen in August 2026. The reflection may be represented by a cross in the SAR image ([https://www.earthdata.nasa.gov/learn/earth-observation-data-basics/sar/image-interpretation#toc-human-created-structures](https://www.earthdata.nasa.gov/learn/earth-observation-data-basics/sar/image-interpretation#toc-human-created-structures)), and can be visible both in the VH and VV bands in the same location. However, it's best to verify visually using a satellite map that the cross is caused by a reflective object and not something else.
+
 {% hint style="warning" %}
 It is a good idea to cross reference with other satellite maps and tools for more up-to-date imagery and information. Keep in mind that what may appear to be the source is not always the actual source within this tool.
 {% endhint %}
@@ -224,6 +226,6 @@ To effectively use the Radar Interference Tracker, especially for beginners or t
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                          |
-| ------------------------------------------------------------------------ |
-| Bellingcat Volunteer Team. Updated by Alexandra Malikova on August 2026. |
+| Page maintainer                                                           |
+| ------------------------------------------------------------------------- |
+| Bellingcat Volunteer Team. Updated by Alexandra Malikova on October 2026. |
