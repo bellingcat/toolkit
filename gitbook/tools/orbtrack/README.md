@@ -160,6 +160,8 @@ Torsten Hoffman (Germany) with satellite data from Dr T. S. Kelso via [www.celes
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
+[Orbtrack's detailed privacy policy](https://www.orbtrack.org/privacypolicy.html) transparently describes its use and management of tracking technologies.
+
 | Page maintainer: |
 | ---------------- |
 | Sophie Tedling.  |
