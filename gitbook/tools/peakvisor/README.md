@@ -1,5 +1,5 @@
 ---
-updated: '2026-09-01'
+updated: '2026-10-24'
 description: >-
   Dual window views for any global location: (1) a 2-D map & (2) a 3-D rendered
   terrain model, with photo fitting, shade/slope mapping, sun trails & weather
