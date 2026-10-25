@@ -29,7 +29,7 @@ Users can select and display different layers of infrastructure data at their ch
 
 The tool presents a globe that the user can turn in order to zoom in on a geographical location of interest. A location can also be selected by either typing a name or entering latitude and longitude co-ordinates into the search box on the top left of the screen.
 
-<figure><img src=".gitbook/assets/gui2.JPG" alt=""><figcaption><p><strong>EXPLODED VIEW OF THE OPEN INFRASTRUCTURE MAP INTERFACE, SHOWING SOME OF THE FEATURES AVAILABLE</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/gui2.JPG" alt=""><figcaption><p><strong>EXPLODED VIEW OF THE OPEN INFRASTRUCTURE MAP INTERFACE, SHOWING THE 4 MAIN GROUPS OF FUNCTIONALITY DETAILED IN THE TABS BELOW</strong></p></figcaption></figure>
 
 {% tabs %}
 {% tab title="ABOUT USER DATA" %}
