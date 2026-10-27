@@ -1,5 +1,5 @@
 ---
-updated: '2026-08-27'
+updated: '2026-10-26'
 description: >-
   LiveUAMap is a mapping tool that provides up-to-date information on global
   geopolitical events, conflicts, and crises.

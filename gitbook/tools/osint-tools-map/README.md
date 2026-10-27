@@ -1,5 +1,5 @@
 ---
-updated: '2026-08-23'
+updated: '2026-10-26'
 description: >-
   An interactive map serving as a curated archive of country-specific OSINT
   resources, including business registries, court records, and cadastral maps,

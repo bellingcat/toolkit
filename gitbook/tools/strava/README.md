@@ -1,5 +1,5 @@
 ---
-updated: '2026-09-01'
+updated: '2026-10-26'
 description: >-
   A fitness tracking platform where publicly shared GPS activity data can reveal
   movement patterns, routines, and precise locations of individuals, including
