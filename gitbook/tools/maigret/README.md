@@ -1,8 +1,9 @@
 ---
 updated: '2026-08-23'
 description: >-
-  Maigret is a Python script that retrieves user information by searching for
-  usernames across various websites and social media platforms.
+  Maigret is an open-source tool that searches for a username across thousands
+  of websites and collects publicly available information from the profiles it
+  finds.
 ---
 
 # Maigret
@@ -13,15 +14,15 @@ description: >-
 
 ## Description
 
-Maigret is a command-line tool that collects information about a person using their username. It checks for accounts across over [3000](https://github.com/soxoj/maigret/blob/main/sites.md) sites, gathering available information directly from web pages, without the need for API keys. The tool itself is a fork of the [Sherlock project](https://bellingcat.gitbook.io/toolkit/more/all-tools/sherlock).
+Maigret is a command-line tool that collects information about a person using their username. It checks for accounts across over over 5,000 sites (5,203 enabled as of [v0.6.6](https://github.com/soxoj/maigret/blob/main/CHANGELOG.md), September 2026), gathering available information directly from web pages, without the need for API keys. The tool itself is a fork of the [Sherlock project](https://bellingcat.gitbook.io/toolkit/more/all-tools/sherlock).
 
-Coverage has recently expanded beyond primarily Western platforms - the [v0.6.4 release](https://github.com/soxoj/maigret/releases/tag/v0.6.4) added support for Chinese platforms including QQ (via a dedicated `qq_id` identifier) and Bilibili.
+Coverage has recently expanded beyond primarily Western platforms - the [v0.6.4 release](https://github.com/soxoj/maigret/releases/tag/v0.6.4) added support for Chinese platforms including QQ (via a dedicated `qq_id` identifier) and Bilibili. The latest release, [v0.6.6](https://github.com/soxoj/maigret/blob/main/CHANGELOG.md) (September 2026), doubled the site database and added the `--input-file` option, which reads usernames or other identifiers from a file, one per line, instead of typing them all on the command line.
 
 If not explicitly specified with a tag, Maigret will start its search with the top 500 sites from its database, including many popular social platforms. Users have the option to expand the search by including different options, ranging from specific sites to countries and identifiers.
 
 Identifiers refer to unique markers associated with user accounts on specific platforms, such as a **gaia\_id** (Google's internal numeric user identifier, previously found in Google Plus accounts) or other similar unique attributes. These allow Maigret to conduct more targeted and precise searches beyond ordinary usernames.
 
-<figure><img src=".gitbook/assets/maigret (1).png" alt=""><figcaption><p>Search for the username "bellingcat" on Maigret</p></figcaption></figure>
+<figure><img src=".gitbook/assets/bellingcat-cli-start-search.png" alt=""><figcaption><p>Maigret search for the username “bellingcat” (Snap version, October 2026). Note the Bluesky result: the account shares the username but is unrelated to Bellingcat, showing why every match needs manual verification.</p></figcaption></figure>
 
 To start a simple search on Maigret, all you need to do is provide one or more usernames for the individual you want to investigate. For example, searching for "bellingcat" will check if that username exists across the platforms supported by the tool (like social networks, forums, blogs and more). If an account is found, a report detailing where the username appears will be generated. This includes links to profile pages or relevant content on those platforms (e.g., Facebook, Instagram etc) and any available additional metadata like account creation dates or follower counts, if retrievable. In this case of "bellingcat," we discovered accounts on Telegram, Instagram, Github, TikTok and GithubGist.
 
@@ -31,7 +32,7 @@ The tool supports generating reports in various formats, including HTML, PDF, TX
 
 A short text report is also shown in the command line after the search phase.
 
-<figure><img src=".gitbook/assets/Maigret2 (1).png" alt=""><figcaption><p>A short report for a username "bellingcat".</p></figcaption></figure>
+<figure><img src=".gitbook/assets/bellingcat-short-report.png" alt=""><figcaption><p>The short text report at the end of a search. The “Interests” and “Countries” lines are derived from the tags of the sites where the username was found, not from the account owner’s actual interests or location.</p></figcaption></figure>
 
 ## Cost
 
@@ -45,14 +46,15 @@ A short text report is also shown in the command line after the search phase.
 
 ## Requirements
 
-* Python 3.10 or higher (Python 3.11 recommended) for installation.
-* Telegram account: only required if you wish to use Maigret Telegram bot version.
+* Python 3.10 or higher for pip, pipx or source installations. The Windows EXE, the Snap package, Docker and the Telegram bot don’t require Python. A Telegram account is needed only for the Telegram bot.
 
 ## Installation and usage
 
-For those using Windows, standalone EXE binaries are available in the [Releases section](https://github.com/soxoj/maigret/releases) of the GitHub repository. This provides an easy way to run the tool without needing Python installed.
+**Windows:** download `maigret_standalone.exe` from the [Releases](https://github.com/soxoj/maigret/releases) page. Since v0.6.6, the EXE is attached to each release directly.
 
-Additionally, Maigret is available through an official [Telegram bot](https://t.me/osint_maigret_bot), which provides a great alternative if you prefer not to install anything on your system.
+Telegram bot: [@maigret\_search\_protection\_bot](https://t.me/maigret_search_protection_bot), described in the README as a community bot, runs Maigret searches directly in Telegram without installing anything.
+
+<figure><img src=".gitbook/assets/telegram-bot.png" alt=""><figcaption><p>The Maigret Telegram bot, linked from the project’s README (October 2026).</p></figcaption></figure>
 
 If you wish to use the tool without installation, it can also be launched from cloud shells and Jupyter notebooks. This allows you to run it directly in your browser. You can follow the provided instructions to launch Maigret in your browser, with options to open it in [Google Cloud Shell,](https://shell.cloud.google.com/) run it on [Replit](https://replit.com), open it in Colab, or launch it via [Binder](https://mybinder.org).
 
@@ -64,6 +66,20 @@ For local installation, you can use pip3, Docker, or clone the GitHub repository
 // pip3 install maigret
 ```
 
+**Snap and pipx**
+
+Snap (Linux, amd64 and arm64, no Python required): The Snap version can only write files inside your home directory, so run it from there.
+
+```python
+// sudo snap install maigret
+```
+
+Pipx installation:
+
+```python
+// pipx install maigret
+```
+
 **Using Docker:**
 
 ```python
@@ -71,10 +87,10 @@ For local installation, you can use pip3, Docker, or clone the GitHub repository
 // docker run soxoj/maigret <username>
 ```
 
-When running via Docker, the web interface is accessible by default. To use it, add the `--web` flag and map the port:
+For the web interface, use the separate web image:
 
 ```
-docker run -p 5000:5000 -v /mydir:/app/reports soxoj/maigret:latest username --web 5000
+docker run -p 5000:5000 soxoj/maigret:web
 ```
 
 Then open `http://127.0.0.1:5000` in your browser.
@@ -116,7 +132,7 @@ Once Maigret is running with the web interface, open your browser and go to http
 
 Here, you can enter one or more usernames to initiate a search. After the search is complete, the web interface will display a graphical representation of the results, a table with all the accounts found, and provide options to download the reports in multiple formats (HTML, PDF, etc.).
 
-<figure><img src=".gitbook/assets/bellingcat_web_maigret (1).png" alt=""><figcaption><p>Maigret Web Interface displays search results for the username “Bellingcat,” with a combined graph of linked accounts and individual report options.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/bellingcat_web_maigret.png" alt=""><figcaption><p>Maigret Web Interface displays search results for the username “Bellingcat,” with a combined graph of linked accounts and individual report options.</p></figcaption></figure>
 
 More recent releases have also added live scan progress, persistent settings, search history, and Cloudflare bypass options to the [web interface](https://github.com/soxoj/maigret/blob/main/CHANGELOG.md).
 
@@ -128,11 +144,13 @@ As of v0.6.0, Maigret includes an optional AI analysis mode that generates a sho
 
 ## Limitations and Ethical Considerations
 
-It is important to understand Maigret's limitations. The tool can be hampered by bot protection and CAPTCHAs, which may lead to incomplete searches. False positives are actively addressed, and the project has kept a strong release cadence - three releases in quick succession ([v0.6.2](https://github.com/soxoj/maigret/releases/tag/v0.6.2), [v0.6.3](https://github.com/soxoj/maigret/releases/tag/v0.6.3), [v0.6.4](https://github.com/soxoj/maigret/releases/tag/v0.6.4)) collectively fixed dozens of site-specific false positives and patched several security issues in the tool itself, including SSRF and path-traversal vulnerabilities.
-
-Maigret's site coverage now includes platforms hosting explicit or adult content - [OnlyFans support was added in v0.6.1](https://github.com/soxoj/maigret/blob/main/CHANGELOG.md). Investigators should apply the same care to results from these platforms as to any other sensitive personal data, and be aware that a positive match on such a site is itself a disclosure that requires careful handling.
-
-Recent updates, such as the user-friendly web interface and username permutator, make the tool more accessible but do not change these core limitations. With enhanced usability comes a greater ethical responsibility. Users must verify all findings and use Maigret legally, respecting individual privacy and the websites' terms of service.
+* **Bot protection and CAPTCHAs:** Some sites block automated requests or show CAPTCHAs, which can lead to incomplete results. Maigret can route checks through a proxy, Tor or I2P, and offers an experimental [Cloudflare bypass](https://maigret.readthedocs.io/en/latest/features.html#cloudflare-bypass) (`--cloudflare-bypass`) that uses a locally running FlareSolverr instance. The developer describe this feature as experimental and subject to change. Running Maigret from cloud or data-centre servers (e.g. GitHub Codespaces, Google Cloud Shell) may also produce more blocked results, as some sites block data-centre IP addresses.
+* **Matches are not identity confirmation:** Maigret only checks whether an account with the same username exists on a site, not who owns it. In a test search for “bellingcat” (October 2026), the results included a Bluesky account with the same username that is unrelated to Bellingcat. Each result needs to be verified manually before it is attributed to a person or organisation. The “Interests” and “Countries” lines in the summary report are derived from the tags of the sites where the username was found, not from the account owner’s actual interests or location.
+* **Frequent updates:** Maigret is actively maintained, with five releases between July and September 2026 ([changelog](https://github.com/soxoj/maigret/blob/main/CHANGELOG.md)). v0.6.2 (1 July), v0.6.3 (13 July) and v0.6.4 (11 August) fixed false positives and security issues, including SSRF and path traversal vulnerabilities. v0.6.5 (25 August) fixed searches failing on read-only installations such as Snap and Docker, and v0.6.6 (18 September) doubled the site database. Because site checks change often, keeping Maigret up to date reduces false positives.
+* **Sensitive platforms:** Since v0.6.1, Maigret also checks OnlyFans and similar adult platforms. A match on such a site can be a sensitive disclosure about a person and should be handled with particular care, especially if it is unverified.
+* **AI mode sends data to a third party:** Maigret itself runs locally, without telemetry or analytics ([privacy page](https://maigret.readthedocs.io/en/latest/privacy.html)). The optional AI mode (`--ai`), however, sends the search report to the OpenAI API, or to another OpenAI-compatible service configured in the settings. For sensitive investigations, avoid AI mode or point it to a locally hosted model.
+* **Telegram bot privacy:** Searches made through the Telegram bot are processed on a third-party server and linked to your Telegram account. For sensitive investigations, run Maigret locally instead.
+* **Legal and ethical use:** Users are responsible for verifying findings and for complying with the laws that apply in their jurisdiction, including data protection rules such as the GDPR.
 
 ## Similar Tools
 
@@ -151,6 +169,9 @@ In practice, these options may be used alongside Maigret or as preliminary steps
 * Documentation: [https://maigret.readthedocs.io/en/latest/index.html](https://maigret.readthedocs.io/en/latest/index.html)
 * GitHub repo and instruction for installation: [https://github.com/soxoj/maigret](https://github.com/soxoj/maigret)
 * Youtube video for Windows installation and usage: [https://www.youtube.com/watch?v=qIgwTZOmMmM](https://www.youtube.com/watch?v=qIgwTZOmMmM)
+* Changelog with all releases: [https://github.com/soxoj/maigret/blob/main/CHANGELOG.md](https://github.com/soxoj/maigret/blob/main/CHANGELOG.md)
+* Privacy page: [https://maigret.readthedocs.io/en/latest/privacy.html](https://maigret.readthedocs.io/en/latest/privacy.html)
+* French documentation (since v0.6.6): [https://maigret.readthedocs.io/fr/latest/](https://maigret.readthedocs.io/fr/latest/)
 
 ## Tool provider
 
@@ -162,6 +183,8 @@ The tool provider of Maigret is [Dmitry Danilov](https://www.linkedin.com/in/dan
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Paige Maintainer |
-| ---------------- |
-| tsvetelina       |
+Maigret runs locally and, according to its [privacy page](https://maigret.readthedocs.io/en/latest/privacy.html), has no telemetry or analytics and sends nothing to the developers. Usernames are sent only to the sites being checked.
+
+| Paige Maintainer     |
+| -------------------- |
+| Tsvetelina Yordanova |
