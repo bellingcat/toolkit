@@ -14,7 +14,7 @@ description: >-
 
 ## Description
 
-<figure><img src=".gitbook/assets/oPTIMISEDShadowMap Gif (1).gif" alt=""><figcaption><p><strong>SHADOWMAP TILTING VIEW DEMONSTRATING AZIMUTH &#x26; ELEVATION ANGLES IN 3D</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/oPTIMISEDShadowMap Gif.gif" alt=""><figcaption><p><strong>SHADOWMAP TILTING VIEW DEMONSTRATING AZIMUTH &#x26; ELEVATION ANGLES IN 3D</strong></p></figcaption></figure>
 
 ShadowMap calculates shadow locations in real time and displays them on a 3D tilting map (now no longer restricted to the previous[ maximum angle of 45 degrees](#user-content-fn-1)[^1]), showing arcs of azimuth and elevation angles along the sun's path. A satellite imagery map view is available only in paid versions.
 
@@ -22,11 +22,11 @@ ShadowMap calculates shadow locations in real time and displays them on a 3D til
 
 <summary>For definitions of azimuth and elevation angles click here...</summary>
 
-The trajectory of the sun is its path through space. This is defined by the variation in two angles applied to the sun seen in the sky from earth: azimuth angle and elevation angle... <img src=".gitbook/assets/suncalcazimuthSC (1).jpg" alt="" data-size="original">
+The trajectory of the sun is its path through space. This is defined by the variation in two angles applied to the sun seen in the sky from earth: azimuth angle and elevation angle... <img src=".gitbook/assets/suncalcazimuthSC.jpg" alt="" data-size="original">
 
 **AZIMUTH ANGLE OF THE SUN (HORIZONTAL COMPASS BEARING)**
 
-<img src=".gitbook/assets/suncalcelevationSC (3).jpg" alt="" data-size="original">
+<img src=".gitbook/assets/suncalcelevationSC.jpg" alt="" data-size="original">
 
 ELEVATION ANGLE OF THE SUN (VERTICAL SEXTANT BEARING)
 
@@ -38,7 +38,7 @@ A range of more advanced functions are spread across 3 paid versions with increa
 
 {% tabs %}
 {% tab title="FREE VERSION ->" %}
-<figure><img src=".gitbook/assets/VersionsTablefREE1 (1).jpg" alt=""><figcaption><p>COMPARING THE FOUR VERSIONS OF SHADOWMAP: FREE, EXPLORER, HOME &#x26; STUDIO</p></figcaption></figure>
+<figure><img src=".gitbook/assets/VersionsTablefREE1.jpg" alt=""><figcaption><p>COMPARING THE FOUR VERSIONS OF SHADOWMAP: FREE, EXPLORER, HOME &#x26; STUDIO</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="EXPLORER -> " %}
@@ -79,7 +79,7 @@ Disambiguation: ShadowMap is not the same tool as [ShadeMap](https://app.gitbook
 * 24 hour animation of the sun and shadow paths at a given location and time.
 * Yearly average solar energy value for a given location in kWh/square metre.
 
-<figure><img src=".gitbook/assets/SolarAnalyticsMenu (1).JPG" alt="" width="338"><figcaption><p>PAID VERSION "STUDIO" FEATURE: SOLAR ANALYTICS, INVOKED BY PRESSING "ANALYZE" MENU BUTTON</p></figcaption></figure>
+<figure><img src=".gitbook/assets/SolarAnalyticsMenu.JPG" alt="" width="338"><figcaption><p>PAID VERSION "STUDIO" FEATURE: SOLAR ANALYTICS, INVOKED BY PRESSING "ANALYZE" MENU BUTTON</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="USE CASES" %}
@@ -91,11 +91,11 @@ Disambiguation: ShadowMap is not the same tool as [ShadeMap](https://app.gitbook
 {% endtab %}
 
 {% tab title="DATA INPUT OPTIONS" %}
-<figure><img src=".gitbook/assets/DataInputTable (1).JPG" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/DataInputTable.JPG" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
-<figure><img src=".gitbook/assets/ShadowMapvideo (1).gif" alt=""><figcaption><p><strong>SHADOWMAP STUDIO VERSION (HIGHEST COST): USER INPUT &#x26; MANIPULATION OF 3D SHAPES</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/ShadowMapvideo.gif" alt=""><figcaption><p><strong>SHADOWMAP STUDIO VERSION (HIGHEST COST): USER INPUT &#x26; MANIPULATION OF 3D SHAPES</strong></p></figcaption></figure>
 
 ### The Interface
 
@@ -135,24 +135,24 @@ The Settings menus allow:
 {% endtab %}
 
 {% tab title="SEARCHBOX.." %}
-<figure><img src=".gitbook/assets/Location HELP diag (1).JPG" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Location HELP diag.JPG" alt="" width="563"><figcaption></figcaption></figure>
 
 * The Search Box sets location by text input or co-ordinates input.
 * The Time & Date Menu sets time and date with a slider and allows numerical date input.
 * The 24H button generates an animation of sun position with shadows over 24 hours.
 * The Analyze tab switches to a view coloured according to degree of yearly sun radiation where numeric energy values appear for a point upon left mouse click.
 
-<figure><img src=".gitbook/assets/SolarAnalyticsMenu (1).JPG" alt="" width="338"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/SolarAnalyticsMenu.JPG" alt="" width="338"><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="HIDE.." %}
-<figure><img src=".gitbook/assets/HideorHeightMenu (1).JPG" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/HideorHeightMenu.JPG" alt=""><figcaption></figcaption></figure>
 
 The 'Hide & Height' menu appears in Visualization mode whenever the user Left Mouse clicks on a building (duly highlighted), allowing the user to reset the height & change the building visibility.
 {% endtab %}
 
 {% tab title="POINT N..." %}
-<figure><img src=".gitbook/assets/Buttons HELP diag (1).JPG" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Buttons HELP diag.JPG" alt=""><figcaption></figcaption></figure>
 
 * The Point North compass button resets the view orientation to the north.
 * The Share button allows the user to share or embed a project with default time, date, camera angle, focal length, etc. Shared models are not editable by the audience, but interaction is allowed and links & embeds can be updated simultaneously via the "Update" button.
@@ -212,7 +212,7 @@ Custom models (within a quota dependent upon subscription plan) up to 200MB can 
 
 Current pricing can be found at [the ShadowMap website pricing page.](https://shadowmap.org/pricing)
 
-At the time of writing in August 2026, paid versions varied from Explorer at £30/year, through Home at £8.33/month to Studio at £50/month.
+At the time of writing in October 2026, paid versions varied from Explorer at £30/year, through Home at £8.33/month to Studio at £50/month.
 
 <figure><img src=".gitbook/assets/shadowmapversionscreengrab280826.JPG" alt=""><figcaption></figcaption></figure>
 
@@ -276,6 +276,6 @@ Founder (2021) and CEO Georg Molzer.
 | Page maintainer:- |
 | ----------------- |
 | Sophie Tedling.   |
-| August 2026       |
+| October 2026      |
 
 [^1]: Tools incorporating tilting geometric representations of terrain generally allowed a maximum angle of 45 degrees when this technology first became common
