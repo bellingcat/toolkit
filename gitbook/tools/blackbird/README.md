@@ -8,27 +8,27 @@ description: Check usernames and email addresses on websites and social networks
 ## URL
 
 [https://github.com/p1ngul1n0/blackbird](https://github.com/p1ngul1n0/blackbird)\
-latest main-branch commit seen: 2025-07-13; no GitHub releases or tags, as of 2026-08-27.
+Latest code change: 13 July 2025. The README was last updated in October 2026 (new third-party installation option). No GitHub releases or version tags as of 28 October 2026.
 
 ## Description
+
+<figure><img src=".gitbook/assets/blackbird-cover.png" alt=""><figcaption><p>Blackbird’s start screen after installation. Running it without arguments shows that either <code>--username</code> or <code>--email</code> is required.</p></figcaption></figure>
 
 Blackbird is a Python command-line tool that searches for accounts associated with a given username or email address across social networks and websites.
 
 For username searches, the tool is integrated with the [WhatsMyName](https://github.com/WebBreacher/WhatsMyName) project, which maintains a community dataset of 700+ websites for reverse username lookups. The data sources maintained by the WhatsMyName team can be found [here](https://github.com/WebBreacher/WhatsMyName/blob/main/wmn-data.json).
 
-<figure><img src=".gitbook/assets/blackbird (1).png" alt=""><figcaption><p>Blackbird's logo, displayed in the terminal upon launching the tool</p></figcaption></figure>
-
 For email address searches, it queries the servers of websites in the WhatsMyName database to check whether an account exists for a given address. When a valid account is found, a direct URL to the user's profile is returned.
 
 Beyond simply listing matched accounts, the tool automatically extracts publicly available metadata from discovered profiles, such as names, locations, and profile images, and supports exporting results in PDF, CSV, JSON, or HTTP response formats for further analysis.
 
-Like other username enumeration tools such as [Sherlock](https://bellingcat.gitbook.io/toolkit/more/all-tools/sherlock), it checks usernames against its own distinct collection of sources, meaning results for the same username will differ between tools. It provides broader coverage of NSFW and alternative social media platforms, including Gab and Truth Social, while Sherlock tends to surface stronger results on mainstream social networks that are currently or were previously popular, such as LinkedIn, ICQ, 9Gag, and Letterboxd.
+Like other username enumeration tools such as Sherlock, it checks usernames against its own distinct collection of sources, meaning results for the same username will differ between tools. It provides broader coverage of NSFW and alternative social media platforms, including Gab and Truth Social, while [Sherlock](https://github.com/sherlock-project/sherlock) covers some mainstream social networks that Blackbird does not, such as LinkedIn and 9GAG.
 
-<figure><img src=".gitbook/assets/bellingcat (1).png" alt=""><figcaption><p>Blackbird's results for the username "bellingcat", showing 731 sites checked in 44.1 seconds, with matched accounts found on platforms including Tiktok, GitHub and Twitch.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/blackbird-serach-bellingcat.png" alt=""><figcaption><p>Blackbird search for the username “bellingcat” (October 2026). Blackbird downloads the latest WhatsMyName site list at each run. As with other username tools, matches such as the Bluesky account shown here may belong to unrelated users and need to be verified.</p></figcaption></figure>
 
-A built-in AI analysis feature interprets discovered profiles to generate behavioural and technical summaries. This is available free of charge within daily usage limits. The documentation says only discovered site names are sent for AI analysis, but the setup prompt in the current code says the user's IP address is registered for API-key management and abuse prevention.
+A built-in AI analysis feature generates behavioural insights based on the types of sites where a username or email was found. This is available free of charge within daily usage limits. The [documentation](https://github.com/p1ngul1n0/blackbird/blob/main/docs/ai.md) says only the names of the discovered sites are sent for AI analysis, but the setup prompt in the current code says the user’s IP address is registered for API-key management and abuse prevention.
 
-The rate of false positives and invalid results is generally low. Because it surfaces unique results compared to similar tools, using it in conjunction with other username and email search tools is recommended to achieve the widest possible coverage.
+As with other username tools, matches can include accounts that merely share the username, such as the unrelated Bluesky account in the screenshot above, so results should be verified before drawing conclusions. Because Blackbird surfaces unique results compared to similar tools, using it in conjunction with other username and email search tools is recommended to achieve the widest possible coverage.
 
 ## Cost
 
@@ -42,16 +42,13 @@ The rate of false positives and invalid results is generally low. Because it sur
 
 ## Requirements
 
-* Python3
-* Basic familiarity with the command line, as the tool is operated entirely through a terminal.
+* Python 3, and on Debian-based systems the `python3-venv` package for creating a virtual environment. Basic command-line familiarity.
 
 ## Limitations
 
-The repository has had no commits since July 13, 2025 and no formal releases or version tags. A handful of open issues report problems with specific features, including the Instagram session-ID metadata workflow and the AI analysis feature, still open as of March 2026.
-
-The enhanced Instagram metadata workflow requires setting an Instagram session ID in the .env file. Treat this as a higher-risk workflow: use an account and browser environment appropriate for the investigation, and avoid exposing personal cookies or personal accounts.
-
-In terms of username investigations, the tool may miss valid results from various sources that can be surfaced with other tools like [Sherlock](https://bellingcat.gitbook.io/toolkit/more/all-tools/sherlock).&#x20;
+* **Limited maintenance:** Blackbird’s code has not changed since July 2025, and the project has no formal releases or version tags. The only recent changes (October 2026) were README updates adding a third-party installer as an installation option. Site checks for username searches come from the separately maintained WhatsMyName project, which Blackbird downloads at each run, so this part of the tool stays current even without Blackbird updates.
+* **Instagram metadata and AI analysis:** The enhanced Instagram metadata workflow requires setting an Instagram session ID in the .env file. A session ID works like a logged-in session, so anyone who obtains it can access the account it belongs to. Treat this as a higher-risk workflow: use an account and browser environment appropriate for the investigation, and avoid exposing personal cookies or personal accounts. As of October 2026, GitHub issues reporting problems with both the Instagram workflow and the AI analysis feature remain open.
+* **Coverage gaps:** In username investigations, the tool may miss valid results that other tools like Sherlock can surface.
 
 ## Ethical Considerations
 
@@ -64,20 +61,27 @@ Treat Blackbird matches as leads rather than confirmed identities. The official 
 
 ## Installation
 
-Clone the repository and navigate into the project folder:
+**Clone the repository:**
 
 ```
 git clone https://github.com/p1ngul1n0/blackbird
 cd blackbird
-```
-
-Install the required dependencies:
-
-```
+python3 -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
+python blackbird.py --username bellingcat
 ```
 
-> **Note:** If you are using Python 3, you may need to use `pip3` instead of `pip`. See the Pro Tips section for details.
+On recent Debian-based systems (Debian 12+, Ubuntu 23.04+, Kali), installing packages directly with pip outside a virtual environment fails with an “externally-managed-environment” error, which is why the commands above create a virtual environment first. If `python3 -m venv` fails, install the module with `sudo apt install python3-venv`. In a new terminal session, run `source .venv/bin/activate` inside the blackbird folder again before using the tool.
+
+Alternatively, Blackbird can be installed with [OTinstaller](https://github.com/OSINTVerseHQ/OTinstaller), a third-party installer listed in Blackbird’s README:
+
+```
+pipx install otinstaller
+otinstaller init
+otinstaller install blackbird
+otinstaller run blackbird -- --username bellingcat
+```
 
 ## Usage And Pro tips
 
@@ -114,7 +118,9 @@ Advanced queries can be built using built-in categories, boolean operators, and 
 python blackbird.py --filter "cat=social" --username bellingcat
 ```
 
-The tool includes a built-in AI analysis feature that generates behavioural summaries based on the platforms where a username or email is found. To enable it, first generate a local API key:
+The tool includes a built-in AI analysis feature that generates behavioural summaries based on the platforms where a username or email is found.&#x20;
+
+To enable it, first generate an API key, which is stored locally in a file called `.ai_key.json`:
 
 ```
 python blackbird.py --setup-ai
@@ -126,22 +132,21 @@ Then run a search with the `--ai` flag:
 python blackbird.py --username bellingcat --ai
 ```
 
-AI-generated summaries are also included in exported PDF reports. Usage is free but subject to a daily quota. Importantly, only the names of the discovered sites are sent to the API, no personal data or profile content is transmitted.\
-For AI analysis, the documentation says only discovered site names are sent to the API and no profile content is transmitted. During setup, the current code also displays a prompt stating that the user's IP address is registered for API-key management and abuse prevention.
+AI-generated summaries are also included in exported PDF reports. Usage is free but subject to a daily quota. According to the documentation, only the names of the discovered sites are sent to the API, not profile content. During setup, Blackbird also states that the user’s IP address is registered for API-key management and abuse prevention.
 
 ## Similar Tools
 
 Blackbird sits in the middle ground between quick, browser-based username checkers and deeper enumeration tools that extract extensive metadata. Its strength lies in alternative and NSFW platform coverage through its WhatsMyName integration, but OSINT investigators will often need to combine it with other tools to cover mainstream social networks and extract richer profile data.
 
 * [**Namechk**](https://bellingcat.gitbook.io/toolkit/more/all-tools/namechk) **-** a username and domain availability checker across multiple platforms. While it overlaps with Blackbird in checking username presence, Namechk is primarily aimed at verifying availability for registration purposes rather than OSINT investigations.
-* [**WhatsMyName**](https://bellingcat.gitbook.io/toolkit/more/all-tools/whats-my-name) **-** a browser-based username checker searching across 500+ platforms. Unlike Blackbird, it requires no installation and can be used directly in a browser, making it well suited for quick checks, though it lacks Blackbird's advanced querying options and email search capability.
-* [**Maigret**](https://bellingcat.gitbook.io/toolkit/more/all-tools/maigret) **-** a CLI tool that searches for usernames across 3000+ sites and extracts additional profile metadata such as account creation dates and follower counts. Maigret covers significantly more sites than Blackbird, but Blackbird has the advantage of also supporting email address searches alongside username lookups.
+* [**WhatsMyName**](https://bellingcat.gitbook.io/toolkit/more/all-tools/whats-my-name) **-** a browser-based username checker searching nearly 700+ platforms. Unlike Blackbird, it requires no installation and can be used directly in a browser, making it well suited for quick checks, though it lacks Blackbird's advanced querying options and email search capability.
+* [**Maigret**](https://bellingcat.gitbook.io/toolkit/more/all-tools/maigret) **-** a CLI tool that searches for usernames across 5000+ sites and extracts additional profile metadata such as account creation dates and follower counts. Maigret covers significantly more sites than Blackbird, but Blackbird has the advantage of also supporting email address searches alongside username lookups.
 * [**Sherlock**](https://bellingcat.gitbook.io/toolkit/more/all-tools/sherlock) **-** an open-source CLI tool that searches for usernames across 400+ websites and social networks. Like Blackbird, it returns direct links to found profiles, but has stronger coverage of mainstream social networks such as LinkedIn and Letterboxd, while Blackbird covers more NSFW and alternative platforms such as Gab and Truth Social. Both require installation, but Blackbird additionally offers a web interface.
 * [**Skopenow**](https://bellingcat.gitbook.io/toolkit/more/all-tools/skopenow) **-** a paid, all-in-one people intelligence platform that searches social media usernames alongside addresses, corporate records, dark web leaks, and vehicle information. Unlike Blackbird, which is a free, open-source username enumeration tool, Skopenow is a commercial product aimed at professional investigators requiring consolidated reporting across multiple data types.
 
 ## Tool provider
 
-Original developer is [Lucas Antoniaci](https://www.linkedin.com/in/lucas-antoniaci/), Brasil.
+Original developer is [Lucas Antoniaci](https://www.linkedin.com/in/lucas-antoniaci/), Brazil.
 
 ## Advertising Trackers
 
@@ -149,6 +154,6 @@ Original developer is [Lucas Antoniaci](https://www.linkedin.com/in/lucas-antoni
 * [ ] This tool uses tracking cookies. Use with caution.
 * [x] This tool does not appear to use tracking cookies.
 
-| Paige Maintainer           |
-| -------------------------- |
-| tsvetelina and Martin Sona |
+| Paige Maintainer                     |
+| ------------------------------------ |
+| Tsvetelina Yordanova and Martin Sona |
