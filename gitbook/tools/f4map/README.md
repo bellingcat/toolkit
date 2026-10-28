@@ -13,15 +13,21 @@ description: >-
 
 ## Description
 
+<figure><img src=".gitbook/assets/f4map-home-page.png" alt=""><figcaption><p>F4Map’s start view: a 2D world map. 3D buildings only appear after zooming in to city level. The attribution line at the bottom shows when the OpenStreetMap data was last updated.</p></figcaption></figure>
+
 F4Map is a browser-based application that allows users to explore detailed 3D representations of cities and landscapes using [WebGL](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API) technology - no plugins required. It delivers visually rich renderings of geospatial data, especially in urban areas. However, the 3D view is limited: users can rotate and tilt the map but cannot lower the camera to ground level. This makes F4Map particularly effective for aerial exploration and general spatial analysis, rather than street-level perspectives.
 
 ## Features
 
-The example below shows a search result for the term Paris, displaying a detailed 3D view of the Eiffel Tower and its surroundings. The visualization includes nearby embassies, schools, parks, and urban infrastructure - making it useful for geographic orientation, urban analysis, or OSINT research.
+The example below shows a search result for the Colosseum in Rome, displaying a detailed 3D view of the monument and its surroundings, including nearby buildings, roads, rail lines and green spaces - making it useful for geographic orientation, urban analysis, or OSINT research.
 
 When first opening F4Map, users may not immediately see buildings rendered in 3D. These elements only appear once zoomed in closely enough, as seen in this example. Since the platform does not follow standard 3D navigation conventions, users may need to manually zoom, tilt the view, or adjust the URL parameters (e.g., zoom, pitch, bearing) in the address bar to reach the desired perspective.
 
-<figure><img src=".gitbook/assets/paris_4fmap (1).png" alt=""><figcaption><p>F4Map 3D view of central Paris, featuring the Eiffel Tower and surrounding urban environment, illustrating the platform's aerial 3D visualization of cities.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/rome-colosseo.png" alt=""><figcaption><p>F4Map 3D view of the Colosseum in Rome and its surroundings, illustrating the platform’s aerial 3D visualisation of cities. The controls on the right toggle 3D and adjust tilt and rotation(October 2026).</p></figcaption></figure>
+
+
+
+
 
 F4Map is available in the following formats:
 
@@ -41,7 +47,7 @@ F4Map is available in the following formats:
 
 * **Web:** any modern web browser.
 
-## Use Cases and Similar Tools&#x20;
+## Use Cases and Similar Tools
 
 F4Map is best suited for viewing detailed 3D structures in urban environments, where building-level data is richest. Its quick, browser-based access and visually rich rendering make it ideal for tasks such as geographic orientation, infrastructure mapping, or open-source investigations in city settings.
 
@@ -54,16 +60,14 @@ The tools below offer overlapping 3D or aerial visualisation capabilities and ma
 | [Google Earth Pro](https://bellingcat.gitbook.io/toolkit/more/all-tools/google-earth-pro) | A 3D globe with satellite imagery, historical views, and terrain data.                                                                                           | Both allow aerial 3D exploration of urban environments for OSINT. | Google Earth Pro supports historical imagery and ground-level navigation; F4Map is limited to aerial views but is fully browser-based with no installation required.                                   |
 | [PeakVisor](https://bellingcat.gitbook.io/toolkit/more/all-tools/peakvisor)               | Dual window views for any global location: (1) a 2-D map & (2) a 3-D rendered terrain model, with photo fitting, shade/slope mapping, sun trails & weather data. | Both offer browser-based 3D terrain and building visualisation.   | PeakVisor is built for elevation modeling with photo-fitting and flexible camera control; F4Map focuses on general 3D urban exploration with a fixed aerial-only perspective and no ground-level view. |
 
-
-
 ## Limitations
 
-* **Data Currency and Accuracy:** F4map relies on [OpenStreetMap](https://www.openstreetmap.org/) (OSM) data, which means the accuracy and currency of the data are dependent on the contributions from the OSM community. This might result in varying levels of data quality across different regions. Learn more in the Reddit post: [Overpass Turbo Data Out of Date](https://www.reddit.com/r/openstreetmap/comments/jcamkz/overpass_turbo_data_out_of_date/).
+* **Data Currency and Accuracy:** F4Map relies on OpenStreetMap (OSM) data, so the accuracy and currency of the data depend on contributions from the OSM community and vary across regions. The attribution line at the bottom of the map shows when the OSM data was last updated. According to F4Map’s [FAQ](https://wiki.f4map.com/faq), OSM changes are synchronised almost in real time, but a 24-hour server cache means edits can take up to a day to appear on the map.
 * **Resource Intensity:** Rendering 3D maps, especially in areas with high detail, can be resource-intensive, potentially leading to slower performance on less powerful devices. F4 Maps uses [WebGL](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API) which has performance implications on low spec machines particularly with large amounts of data.
 * **Coverage:** While F4map covers a global scale, the level of detail and the presence of 3D structures greatly vary by location, with urban areas typically having more detailed models than rural ones. There is no documentation on F4 Maps coverage.
-* **Terrain Rendering**: F4Map’s 3D elevation coverage is largely confined to urban areas. In mountainous locations, the terrain abruptly flattens at city edges, leaving surrounding slopes and valleys unrepresented in 3D. This contrasts with tools like ShadeMap, which maintain continuous elevation models across broader landscapes.
+* **Terrain Rendering**: By default, the 3D view may show terrain outside cities as flat. Elevation can be switched on under graphic options in the top-right menu ([FAQ](https://wiki.f4map.com/faq)), after which surrounding slopes and valleys are also rendered in 3D. Terrain is shown at a general level rather than in fine detail, so for detailed elevation or line-of-sight analysis, tools such as ShadeMap or PeakVisor are better suited.
 * **API Usage Limits:** F4map may impose limits on API requests to manage load on their servers, which could affect users requiring high volumes of data requests for large scale projects. No documentation available.
-* **Black Listing**: Windows XP and Vista have been black listed on Chrome since version 32, to force activation you can enable _Override software rendering list_ unde&#x72;_&#x63;hrome:flags. See the_ [_FAQ_](http://wiki.map.f4-group.com/faq)_._
+* **Browser and hardware requirements:** F4Map’s 3D view depends on WebGL, a browser technology for 3D graphics. On older computers, some work laptops with restricted settings, or browsers with hardware acceleration switched off, the 3D view may not load or may only show a flat map. If that happens, try a different browser or device, or check whether hardware acceleration is enabled in the browser settings. The [F4Map FAQ](https://wiki.f4map.com/faq) lists further troubleshooting steps.
 * **Camera Perspective**: F4Map does not support ground-level or first-person views. The camera angle is restricted to aerial perspectives, which limits realism compared to tools offering more flexible or street-level navigation.
 * **Weather Effects**: While the Sun, Rain, and Snow settings add visual richness, their practical value for OSINT tasks is limited. These features do not simulate real-time conditions and may serve more as aesthetic elements than analytical tools.
 
@@ -91,7 +95,7 @@ To effectively use F4Map, especially for beginners or those looking to refine th
 
 **F4's GitHub org**
 
-* ​https://github.com/F4-Group​
+* ​[https://github.com/F4-Group](https://github.com/F4-Group)
 
 **Community and Support**
 
@@ -100,7 +104,7 @@ To effectively use F4Map, especially for beginners or those looking to refine th
 
 ## Tool provider
 
-[F4 ](https://www.f4-group.com/)- A French-based mapping and visualization group known for its contributions to WebGL-based geospatial tools. F4 provides both community-oriented and commercial solutions in 3D mapping.
+F4, a French company (F4 Group) that develops F4Map and offers commercial 3D mapping solutions. [https://www.f4-group.com/](https://www.f4-group.com/).
 
 ## Advertising Trackers
 
@@ -108,7 +112,7 @@ To effectively use F4Map, especially for beginners or those looking to refine th
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer |
-| --------------- |
-| tsvetelina      |
-|                 |
+| Page maintainer      |
+| -------------------- |
+| Tsvetelina Yordanova |
+|                      |
