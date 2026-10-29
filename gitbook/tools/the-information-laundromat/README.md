@@ -10,7 +10,9 @@ description: >-
 ## URL
 
 [https://informationlaundromat.com](https://informationlaundromat.com)\
-(latest commit on 2025‑01‑21 on [github](https://github.com/ASD-at-GMF/disinfo-laundromat), as of May 2026)
+Latest [repository commit](https://github.com/Institute-for-Strategic-Dialogue/information-laundromat/commit/6c82e3f18b88a316efee15af6afff487c17fee18): 2025-01-21. The repository now redirects to the Institute for Strategic Dialogue account.
+
+Last source/version check: 2026-10-29.
 
 ## Description
 
@@ -354,7 +356,7 @@ GUI is straightforward (point‑and‑click) but interpreting results requires O
 * **Image Similarity is experimental** and may fail or return loose matches. [informationlaundromat.com](https://informationlaundromat.com/)
 * **Hosted usage data:** The provider notice says form data and results are collected for usage analytics and potential corpus expansion, and retained for as long as necessary for those purposes. It does not specify a 30-day deletion period or guarantee anonymization. Review the [current notice](https://informationlaundromat.com/about) before submitting sensitive material.
 * **Batch use restricted on hosted instance** (registration code required). [informationlaundromat.com](https://informationlaundromat.com/about)
-* **Releases:** No tagged releases as of today; repository is active (latest commit 2025‑01‑21). Pin your environment when self‑hosting. [GitHub](https://github.com/ASD-at-GMF/disinfo-laundromat)
+* **Releases:** No GitHub releases or tags were listed on 2026-10-29. The latest repository commit was 2025-01-21; pin the source revision when self-hosting. [Repository](https://github.com/Institute-for-Strategic-Dialogue/information-laundromat)
 * **External service dependencies:** Availability and rate limits depend on search engines/GDELT/Copyscape/URLScan; outages or throttling can affect results. (_Specific quotas not published — To verify_). [informationlaundromat.com](https://informationlaundromat.com/)
 * **Corpus note:** As stated “as of May 2024, no user‑input sites are included” — current policy may have changed. (_To verify when using_). [informationlaundromat.com](https://informationlaundromat.com/about)
 * **Legal/ToS:** Respect third‑party site terms and local law when querying/storing data.
