@@ -114,15 +114,13 @@ The live credit-bundle price table was not reachable in this audit. Check the we
 * **Search Costs:** Extensive querying can become costly in credits. High-volume searches or bulk member exports may consume credits quickly, which can be a practical limitation for some users (though result previews and incremental costs are provided).
 * **Data Accuracy:** Information retrieved might not reflect very recent changes on Telegram. There can be lag in indexing new groups or updating member lists, and some data (like historical usernames or group membership) may be incomplete if the crawler didn’t capture it in time. Always double-check critical information on Telegram itself if possible.
 
-### Terms & Conditions (Key Points Summary)
+### Terms, privacy and data removal
 
-* **Age Requirement:** You must be at least 18 years old (or the legal age in your jurisdiction) to use TelegramDB services and the @tgdb\_bot.
-* **User Obligations:** Users must not use automated scripts or bots to scrape TelegramDB’s data without permission. All usage must comply with applicable laws – you may not use TelegramDB to harass, stalk, or inflict harm on others or for any unlawful purposes.
-* **Prohibited Activities:** Unauthorized mass collection or resale of TelegramDB’s data is forbidden, as is any attempt to commercially exploit the service’s data or to post abusive content via the bot. Attempts to circumvent the bot’s security or access controls are strictly prohibited.
-* **Governing Law & Disputes:** Use of TelegramDB is governed by the laws of Italy. In the event of disputes, the Terms specify resolution via arbitration in Milan, Italy, conducted in English (unless otherwise required by law).
-* **Account Termination:** TelegramDB reserves the right to suspend or terminate your access for violations of the Terms of Use. If an account is terminated, creating substitute accounts to bypass the ban is not allowed without explicit permission.
+TgDB's [Terms of Service](https://www.tgdb.org/page/terms_and_conditions), effective 10 May 2026, identify PRISMALABS SRLS as the operator and require users to be at least 18. They prohibit automated mass extraction from TgDB, illegal uses such as harassment or stalking, and attempts to bypass access or payment controls. The terms name Italian law and courts in Milan, with a qualification preserving mandatory protections available to EU consumers under their country of residence's law.
 
-(Check the current Terms of Service in the web app; the summary above describes the earlier service terms and has not been reverified for the current web service. TelegramDB’s GitHub README also describes GDPR/data-removal requests: check whether the content remains on Telegram first, then email TelegramDB with the chat ID or username and the reason for removal.)
+The [Privacy Policy](https://www.tgdb.org/page/privacy_policy) covers the website and associated Search Plus/Search Lite services. It describes account identifiers and authentication tokens, transaction information, technical usage information including search queries, and indexed public Telegram data. Its retention statement depends on processing purposes and statutory requirements; it is not a universal fixed deletion period. These are provider policy statements, rather than independently verified backend behaviour.
+
+The current [Data Removal policy](https://www.tgdb.org/page/data_removal) recommends removal from Telegram at source, while also permitting immediate requests to TgDB regardless of the content's status on Telegram. It asks for an email to `webmaster@telegramdb.org`, subject “Chat Deletion Request”, with the chat ID or username and a brief reason. Reading this procedure does not guarantee a request's outcome.
 
 ## Ethical Considerations
 
