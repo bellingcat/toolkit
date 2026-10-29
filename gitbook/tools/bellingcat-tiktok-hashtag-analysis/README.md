@@ -12,7 +12,7 @@ description: >-
 
 ## Description
 
-This open-source tool enables researchers to download posts from TikTok for a specified list of hashtags and create a local database of posts. It utilizes the unofficial [TikTok API wrapper](https://tyk.io/blog/what-is-an-api-wrapper-and-why-would-you-use-one/) and [Playwright ](https://www.thoughtworks.com/en-us/radar/languages-and-frameworks/playwright)to fetch posts via a browser session, and optionally uses [Yt-dlp](https://wiki.archlinux.org/title/Yt-dlp) [to download the videos](https://raw.githubusercontent.com/bellingcat/tiktok-hashtag-analysis/main/README.md). The tool is run from the command line and can accept multiple hashtags at once; it stores posts in a structured `posts.json` file and [saves any downloaded media](https://raw.githubusercontent.com/bellingcat/tiktok-hashtag-analysis/main/README.md) to a `media` folder.
+This open-source tool enables researchers to download posts from TikTok for a specified list of hashtags and create a local database of posts. It utilizes the unofficial [TikTok API wrapper](https://github.com/davidteather/TikTok-Api) and [Playwright ](https://www.thoughtworks.com/en-us/radar/languages-and-frameworks/playwright)to fetch posts via a browser session, and optionally uses [Yt-dlp](https://wiki.archlinux.org/title/Yt-dlp) [to download the videos](https://raw.githubusercontent.com/bellingcat/tiktok-hashtag-analysis/main/README.md). The tool is run from the command line and can accept multiple hashtags at once; it stores posts in a structured `posts.json` file and [saves any downloaded media](https://raw.githubusercontent.com/bellingcat/tiktok-hashtag-analysis/main/README.md) to a `media` folder.
 
 In addition to scraping, the tool includes simple analysis functions. Investigators can plot or print tables showing the most common co‑occurring hashtags for a selected hashtag. For example, a researcher could collect trending posts tagged with **#london** and then plot the top twenty hashtags that appear alongside that tag. Such analyses can help identify common themes or potential influence campaigns.
 
@@ -35,14 +35,14 @@ Requires comfort with the command line and Python package installation.
 ## Requirements
 
 * Python 3.9 or later installed.
-* Install the tool with `pip install tiktok‑hashtag‑analysis` (or directly from GitHub) and install Playwright using `python -m playwright install`
+* Install the tool with `pip install tiktok-hashtag-analysis` (or directly from GitHub) and install Playwright using `python -m playwright install`
 * Internet connection: TikTok may require a logged‑in browser session.
 * Use the `--headed` flag if headless scraping fails, as TikTok often blocks headless browsers.
 * Optional: [**yt‑dlp**](https://github.com/yt-dlp/yt-dlp) is used for video downloads.
 
 ## Limitations
 
-* The tool [typically collects](https://www.bellingcat.com/resources/how-tos/2022/05/11/this-new-tool-lets-you-analyse-tiktok-hashtags/) only about 1,000 trending TikTok posts per hashtag, providing a snapshot rather than a complete archive.
+* The [2022 Bellingcat guide](https://www.bellingcat.com/resources/how-tos/2022/05/11/this-new-tool-lets-you-analyse-tiktok-hashtags/) described collections of about 1,000 trending posts per hashtag. Current yield can vary; this is a snapshot rather than a complete archive.
 * It cannot collect only the newest posts because TikTok’s hashtag pages display currently trending videos irrespective of posting date.
 * Video downloads are time and data-intensive; download one hashtag at a time to avoid network issues.
 * Scraping may fail in headless mode; using the `--headed` option opens a visible browser to improve reliability.&#x20;
