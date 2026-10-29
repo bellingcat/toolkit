@@ -9,8 +9,9 @@ description: >-
 
 ## URL
 
-[https://lumendatabase.org](https://lumendatabase.org/)\
-(last update May, 2026)
+[https://lumendatabase.org](https://lumendatabase.org/)<br>
+
+Last source/version check: 2026-10-29.
 
 ## Description
 
