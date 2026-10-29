@@ -7,7 +7,9 @@ description: Open source software for processing and analyzing images.
 ## URL
 
 [https://imagej.net/ij/](https://imagej.net/ij/)\
-(v 1.54s as of June 2026)
+Current release in the [official ImageJ 1.x release notes](https://wsr.imagej.net/notes.html): 1.54t (2026-05-16). Development builds may be newer.
+
+Last source/version check: 2026-10-29.
 
 ## Description
 
