@@ -26,7 +26,7 @@ Telemetr.io is a browser‑based analytics platform for public Telegram content.
 * **Event tracking & alerts** – real-time keyword or channel monitoring with Telegram bot notifications.
 
 {% hint style="danger" %}
-**Exports:** The pricing page lists Excel export on the Advanced plan (up to 1,000 channels/month) and Team / Custom (custom; can export any data). Free/Pro do not list Excel export and may be limited to exporting the public channel catalog, confirm current limits on the pricing page or with @telemetrio\_contact.
+**Exports:** The current pricing table lists export-row allowances for Free, Pro, Advanced and Team, with separate monthly and per-export limits. Check the live table and any credit charges before choosing a plan.
 {% endhint %}
 
 Features:
@@ -46,7 +46,7 @@ Features:
 
 The examples illustrate the results of a free-tier user account logged in and searching for the term "Bellingcat." This result page displays Bellingcat's Telegram channel, featuring several analytical data points, including subscriber counts over time, post views, engagement rate, and category.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-04-20 at 2.35.57 PM (1).png" alt=""><figcaption><p>Telemtrio example search result depicting the Bellingcat channel.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-04-20 at 2.35.57 PM (1).png" alt=""><figcaption><p>Telemtrio example search result depicting the Bellingcat channel.</p></figcaption></figure>
 
 ## Functions
 
@@ -86,7 +86,7 @@ This feature allows users to add channels not listed in the catalog. It ensures 
 
 When viewing the landing pages of individual channels, several metrics are presented that can help you quickly judge a Telegram channel's size, influence, engagement, and activity.
 
-<figure><img src="../../.gitbook/assets/grafik (7) (1).png" alt=""><figcaption><p>The results page of the Bellingcat channel showing several basic metrics. (see details below)</p></figcaption></figure>
+<figure><img src=".gitbook/assets/grafik (7) (1).png" alt=""><figcaption><p>The results page of the Bellingcat channel showing several basic metrics. (see details below)</p></figcaption></figure>
 
 <details>
 
@@ -117,7 +117,7 @@ Some example use-cases:
 
 #### The Overview Tab
 
-<figure><img src="../../.gitbook/assets/grafik (4) (1) (1).png" alt=""><figcaption><p>This section provides a visual representation of the channel's subscriber growth over time. The graph shows the number of subscribers on a daily basis, while the right column lists recent posts.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/grafik (4) (1) (1).png" alt=""><figcaption><p>This section provides a visual representation of the channel's subscriber growth over time. The graph shows the number of subscribers on a daily basis, while the right column lists recent posts.</p></figcaption></figure>
 
 The "Overview" tab provides critical insights into the channel's growth, engagement, and recent activity. A line graph shows the total number of subscribers over a selected period, highlighting trends in subscriber growth, and a table lists the exact number of subscribers, daily growth, mentions, reposts, and posts according to the selected granularity.
 
@@ -146,7 +146,7 @@ Some use-cases:
 
 #### Advertising effectiveness
 
-<figure><img src="../../.gitbook/assets/grafik (5) (1) (1).png" alt=""><figcaption><p>Advertising effectiveness tab of an "alternative news" channel.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/grafik (5) (1) (1).png" alt=""><figcaption><p>Advertising effectiveness tab of an "alternative news" channel.</p></figcaption></figure>
 
 The **Advertising Effectiveness tab** provides metrics for understanding a channel's advertising strategies and their impact. Investigating advertising can help trace funding sources or reveal connections between obfuscated networks of channels. Advertising is an aspect of research often worth looking into and a strength of the platform (compared to free or CLI tools).
 
@@ -157,22 +157,22 @@ The **Advertising Effectiveness tab** provides metrics for understanding a chann
 * **Growth (24h):** The number of new subscribers the channel gained in the last 24 hours. This can measure the immediate impact of advertising campaigns or promotions. A significant spike here could indicate a successful ad or a surge of interest due to an event.
 * **Views (24h):** The average number of views per advertising post over the last 30 days. This is calculated by summing the 24-hour view counts of each ad post in the last 30 days and dividing by the number of ad posts. It reflects how many views, on average, an ad post gets in a day, giving a sense of reach for advertisements.
 * **Advertisements per Day:** How frequently ads are posted on the channel (ad frequency). A lower frequency often indicates less ad clutter and potentially higher impact for each advertisement. A very high frequency might annoy subscribers or dilute the effectiveness of each ad.
-* **Average TOP (Time On Page):** The average time an advertisement remains at the top of the channel (i.e. until a new post is made). A longer TOP means the ad stays visible longer, which can indicate its effectiveness in holding attention (often well-funded or strategic ads remain visible longer).
+* **Average TOP:** The average time an advertisement remains the newest post before another post is made. This duration does not measure viewer attention or establish advertising spend.
 * **Advertised Channels:** The number of other Telegram channels that this channel has promoted in the last 90 days. This metric shows how often the channel is advertising _other_ channels. It can reveal connections between channels – for example, if Channel A frequently advertises Channel B, they might be part of the same network or support each other’s growth. A high number of advertised channels may indicate a broad network of cross-promotion.
 * **Other Resources:** The number of external links or resources the channel has shared (e.g. links to websites, documents, or other platforms). Sharing many external resources might indicate attempts to drive traffic outside Telegram, possibly revealing additional platforms or funding sources connected to the channel.
 * **1-hour Growth:** When this channel posts an advertisement for another channel, this metric shows how many new subscribers the advertised channel gains within one hour of the ad. It’s a measure of how quickly the audience responds to the ad. Rapid growth in one hour can signify an effective advertisement or a particularly receptive audience at that time.
 * **24-hour Growth:** Similarly, this measures the number of new subscribers gained by the advertised channel within 24 hours of the ad post. It shows the advertisement’s longer-term effect on drawing in subscribers beyond the immediate burst, indicating sustained interest.
 * **Mentions in Other Channels:** How many times the advertised channel (the one being promoted) is mentioned in other channels. This gauges the broader impact of the advertisement across Telegram. If an advertised channel is getting mentioned a lot elsewhere, it suggests the promotion resonated beyond its initial audience and may have sparked wider discussion or further sharing.
-* **Advertising Post:** Details of the ad post itself, including its content and performance (views and the average time users spent viewing that post—another “Time On Page” metric specific to the ad). High view counts and a long view duration (TOP) suggest the ad post effectively captured users’ interes&#x74;**.**
+* **Advertising Post:** Details of the ad post, its content, views and time until a newer post appeared. Views and this interval do not measure how long individual users watched or read the ad.
 
 </details>
 
 {% hint style="info" %}
 **Use cases:**
 
-* **Tracing Funding Sources:** Analyzing advertising frequency and subscriber growth can infer a channel's financial backing, helping to estimate how much money has been spent to drive the channel.
+* **Tracing Funding Sources:** Advertising frequency and subscriber growth can suggest promotion patterns to investigate; they do not identify who funded a channel or establish expenditure without independent evidence.
 * **Identifying Network Connections:** Metrics like advertised channels can reveal relationships between different disinformation networks, showing how they support and promote each other.
-* **Understanding Audience Engagement:** Average time on the page indicates how engaging the content is, suggesting the effectiveness of a channel's advertising.
+* **Understanding Audience Engagement:** The interval until a newer post appears describes posting order and timing; it does not measure how engaging viewers found the advertisement.
 * **Tracking Resource Sharing:** Monitoring additional resources shared by the channel helps identify efforts to drive traffic to external sites, providing clues about broader connections and potentially additional funding sources.
 * **Analyzing Responses to Events:** Spikes in advertising and subscriber growth often correlate with specific political or social events. These metrics can reveal political channels or disinformation campaigns that capitalize on such events to promote particular messages and narratives.
 * **Measuring Broader Influence:** Tracking mentions in other channels helps gauge the advertisement's broader impact and dissemination across the Telegram network. This can reveal how widely the advertisement is shared and discussed, indicating its influence.
@@ -187,7 +187,7 @@ The Quoting tab details how often a channel is mentioned or reposted by others, 
 
 _Quoting Tab: In/Outgoing Mentions:_
 
-<figure><img src="../../.gitbook/assets/grafik (11) (1).png" alt=""><figcaption><p>Incoming and Outgoing Messages of an "alternative news" channel.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/grafik (11) (1).png" alt=""><figcaption><p>Incoming and Outgoing Messages of an "alternative news" channel.</p></figcaption></figure>
 
 <details>
 
@@ -205,7 +205,7 @@ These metrics allow insights into key questions about the channel's interactions
 
 _Quoting Tab: Repost Graphs and Graphs by Category & GEO_
 
-<figure><img src="../../.gitbook/assets/grafik (12) (1).png" alt=""><figcaption><p>Reposts and channel mentions of an "alternative news" channel.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/grafik (12) (1).png" alt=""><figcaption><p>Reposts and channel mentions of an "alternative news" channel.</p></figcaption></figure>
 
 <details>
 
@@ -223,7 +223,7 @@ Together, these metrics help track a channel's visibility and influence, underst
 
 _Quoting Tab: Reposts and mentions table_
 
-<figure><img src="../../.gitbook/assets/grafik (6) (1) (1).png" alt=""><figcaption><p>Bellingcat's incoming reposts and mentions.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/grafik (6) (1) (1).png" alt=""><figcaption><p>Bellingcat's incoming reposts and mentions.</p></figcaption></figure>
 
 The "Reposts and Mentions of the Channel" section provides a detailed view of how the analyzed channel interacts with and is referenced by other channels. This is divided into incoming and outgoing mentions.
 
@@ -247,9 +247,9 @@ The Publication Analysis tab offers detailed insights into a channel's average d
 
 _Publication Tab: posting time distributions_
 
-<figure><img src="../../.gitbook/assets/grafik (1) (1) (1).png" alt=""><figcaption><p>A: Posting time distribution of an "alternative news" channel.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/grafik (1) (1) (1).png" alt=""><figcaption><p>A: Posting time distribution of an "alternative news" channel.</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/grafik (15) (1).png" alt=""><figcaption><p>B: Posting time distribution of Bellingcat's channel</p></figcaption></figure>
+<figure><img src=".gitbook/assets/grafik (15) (1).png" alt=""><figcaption><p>B: Posting time distribution of Bellingcat's channel</p></figcaption></figure>
 
 <details>
 
@@ -270,7 +270,7 @@ Analyzing posting times can help identify inauthentic behavior in several ways. 
 
 _Publication Tab: publication analysis_
 
-<figure><img src="../../.gitbook/assets/grafik (17) (1).png" alt=""><figcaption><p><strong>Publication Analysis metrics table</strong> includes recent posts, publication times, total views, the number of shares, and a graphical representation of how views accumulate over time.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/grafik (17) (1).png" alt=""><figcaption><p><strong>Publication Analysis metrics table</strong> includes recent posts, publication times, total views, the number of shares, and a graphical representation of how views accumulate over time.</p></figcaption></figure>
 
 <details>
 
@@ -284,7 +284,7 @@ _Publication Tab: publication analysis_
 </details>
 
 {% hint style="info" %}
-receive the most views and shares to understand what content resonates most effectivelyExample use cases:
+Example use cases:
 
 * **Analyze Content Impact:** Identify which posts have the most views and shares to understand what content resonates most. This can indicate topics of high interest or importance to the audience.
 * **Analyze the posting time distributions** to identify peak times for posting, helping to allocate monitoring resources effectively during high-activity periods.
@@ -302,7 +302,7 @@ The Audience tab on Telemetr.io provides essential metrics on the demographics, 
 This area is only accessible to channel owners who have subscribed to the service. The values in this tab are example values and will be the same for each channel.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/grafik (18) (1).png" alt=""><figcaption><p>Example demographic metrics.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/grafik (18) (1).png" alt=""><figcaption><p>Example demographic metrics.</p></figcaption></figure>
 
 <details>
 
@@ -319,7 +319,7 @@ This area is only accessible to channel owners who have subscribed to the servic
 
 #### About the channel
 
-<figure><img src="../../.gitbook/assets/grafik (23) (1).png" alt=""><figcaption><p>Bellingcat's historical changes to their channel descriptions.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/grafik (23) (1).png" alt=""><figcaption><p>Bellingcat's historical changes to their channel descriptions.</p></figcaption></figure>
 
 The **"About the Channel" tab provides details about the history of changes to** the channel names, descriptions, and external links.
 
@@ -358,7 +358,7 @@ Telemetr.io offers several tools for monitoring and analyzing Telegram channels:
 
 The event tracking tool provides the functionality to focus on relevant channels or keywords, track deleted mentions to identify potential censorship or narrative manipulation, and receive real-time notifications to stay updated on significant developments.
 
-<figure><img src="../../.gitbook/assets/grafik (20) (1).png" alt=""><figcaption><p>Word and phrase event tracking dialogue</p></figcaption></figure>
+<figure><img src=".gitbook/assets/grafik (20) (1).png" alt=""><figcaption><p>Word and phrase event tracking dialogue</p></figcaption></figure>
 
 The **word tracking tool** enables users to monitor specific words or phrases within Telegram channels and chats, allowing them to track discussions on particular topics, events, or individuals.
 
@@ -367,7 +367,7 @@ The **word tracking tool** enables users to monitor specific words or phrases wi
 <summary>Word Tracking Tool input fields</summary>
 
 * **Words or Phrases:** You input the keywords you want to monitor. The tool will track these across public channels (and chats, if selected) to help you follow the spread of information or the prevalence of a topic.
-* **Where to Look?:** You can choose to search within **channels** (public broadcasts) or **chats** (group or private conversations). Searching in channels captures public discourse, while searching in chats (where accessible) can give insight into more private or community discussions. Often, selecting both gives a comprehensive picture.
+* **Where to Look?:** Choose channels or chats that the service actually covers. These selectors do not establish access to private conversations or comprehensive Telegram coverage; verify the sources available within each selected scope.
 * **Minus Word:** If there are common but irrelevant contexts for your keywords, you can exclude certain terms. This filters out noise. For example, if you're tracking the word "mercury" but want info on the element and not the planet, you might exclude "planet" as a minus word.
 * **Search Scope:** You have three options to refine scope:
   1. _In Any Channels or Chats_ – a broad search everywhere on Telegram (within public scope or accessible chats).
@@ -377,7 +377,7 @@ The **word tracking tool** enables users to monitor specific words or phrases wi
 
 </details>
 
-<figure><img src="../../.gitbook/assets/grafik (3) (1).png" alt=""><figcaption><p>Channel and chat tracking dialogue</p></figcaption></figure>
+<figure><img src=".gitbook/assets/grafik (3) (1).png" alt=""><figcaption><p>Channel and chat tracking dialogue</p></figcaption></figure>
 
 <details>
 
@@ -389,7 +389,7 @@ The **word tracking tool** enables users to monitor specific words or phrases wi
   * **Deleted Mentions:** Get an alert if a post that mentioned this channel is later deleted. Such deletions could suggest someone tried to retract information or cover up an association. Monitoring these can be important for investigative leads (e.g., if a channel gets mentioned in a controversial context and that mention disappears).
 * **Where to Look?:** Similar to keyword tracking, you can monitor mentions in channels vs. chats (or both).
   1. Monitoring in **Channels** will focus on public mentions in other channels (which is great for capturing public discourse around the channel).
-  2. Monitoring in **Chats** will look at mentions in group or private chats (capturing more private community discussions)​
+  2. Monitoring in **Chats** covers only chats available to the selected tool scope; verify coverage and do not assume access to private conversations​
 * **Search Scope:** The same trio of scope options (anywhere, specific, exclude specific) applies here as well, allowing you to broaden or narrow where you want to monitor mentions of the channel.
 
 </details>
@@ -400,7 +400,7 @@ The **word tracking tool** enables users to monitor specific words or phrases wi
 * **Comprehensive Monitoring:** Track the development of a story or rumor by monitoring relevant keywords across Telegram. For example, during breaking news, monitor a key term to see how information spreads.
 * **Focused Investigation:** If you're researching a specific group, you might track their channel name (to see who talks about them) and exclude unrelated groups to avoid noise.
 * **Detecting Emerging Trends:** Real-time alerts for certain phrases can tip you off when a narrative is starting to go viral or when a new hashtag or slogan emerges in chats/channels you watch.
-* **Contextual Understanding:** By monitoring both public channels and private chats for a keyword, you can gauge differences in public messaging vs. grassroots discussion on that topic.
+* **Contextual Understanding:** Monitor the channels and chats actually covered by your selected scope; verify coverage before comparing discussions, and do not assume access to private conversations.
 * **Real-Time Alerts:** Get immediate notifications for critical keywords (e.g., a sudden mention of a planned protest or a key figure’s name) so you can respond or investigate quickly.
 {% endhint %}
 
@@ -408,7 +408,7 @@ The **word tracking tool** enables users to monitor specific words or phrases wi
 
 #### Advertising Tool
 
-<figure><img src="../../.gitbook/assets/grafik (22) (1).png" alt=""><figcaption><p>Comparing Advertisements for "Visa"</p></figcaption></figure>
+<figure><img src=".gitbook/assets/grafik (22) (1).png" alt=""><figcaption><p>Comparing Advertisements for "Visa"</p></figcaption></figure>
 
 The advertising search tool allows users to filter and analyze advertisement posts on Telegram, unrelated to individual channels. This tool may be used to understand advertising trends, find actors who advertise items or services of interest to your investigation, and track specific ad campaigns.
 
@@ -451,7 +451,7 @@ After applying filters, the results section will list advertisement posts that m
 
 The advertiser rankings tool allows users to analyze advertising activities on Telegram by ranking advertisers based on various criteria. Users can filter their search by category, specific channels, country, and time period to focus on industry-specific trends, targeted advertising efforts, and geographic-specific strategies. The search results provide detailed metrics for each advertiser, including brand name, total views, mentions, and the number of channels where ads are placed.
 
-<figure><img src="../../.gitbook/assets/grafik (2) (1).png" alt=""><figcaption><p>Advertizer ranking showing the top advertizers in Germany. (Free version is limited to 3 results)</p></figcaption></figure>
+<figure><img src=".gitbook/assets/grafik (2) (1).png" alt=""><figcaption><p>Advertizer ranking showing the top advertizers in Germany. (Free version is limited to 3 results)</p></figcaption></figure>
 
 <details>
 
@@ -481,7 +481,7 @@ The search results section lists advertisers based on the selected filters. Each
 **Use-cases:**
 
 * **Identifying Coordinated Campaigns:** Researchers can identify patterns suggesting coordinated disinformation efforts by filtering advertisers within specific categories and channels. Frequent advertising in certain categories can reveal orchestrated campaigns to manipulate public opinion.
-* **Tracing Financial Backing:** Identify and analyze advertisers with high view counts and frequent mentions to provide insights into their financial backing.
+* **Tracing Financial Backing:** Use advertiser visibility and placement patterns as leads for separate funding research; view counts and mentions alone do not establish who paid or how much was spent.
 * **Mapping Networks:** Investigating advertiser activity across numerous channels helps understand their reach and influence. This can reveal the structure of larger collaborating channel networks and how they disseminate information across different channels.
 * **Evaluating Impact:** Tracking changes in advertising activity over time allows researchers to correlate spikes with significant events. This can reveal how disinformation campaigns are timed and adjusted to maximize impact, potentially providing a strategic understanding of these operations.
 {% endhint %}
@@ -495,17 +495,17 @@ The search results section lists advertisers based on the selected filters. Each
 {% hint style="warning" %}
 - The free tier may suffice for basic orientation and initial exploration, but its limitations (on a number of channels tracked, search functions, event tracking, and data export) make it inadequate for most in-depth investigations.
 - The Pro tier offers some improvements (more ad post tracking and limited audience analytics), serving as a starting point for research, but it remains significantly limited in scope.
-- The Advanced tier provides extensive search capabilities and some data export, but even here, the export functionality is minimal (mostly just channel list data).
+- Export allowances are measured in rows with separate monthly and per-export caps; they may also consume credits. Check the live plan comparison for the data and format you need.
 - The Team / Custom tier includes fully customizable options and is ideal for large-scale or institutional research needs, offering the most comprehensive access.
-- **API access** is available to export a larger set of channel metrics, but this is priced separately from the main subscriptions and has its own tiers and limits.
+- **API access** has plan-specific limits and credit charges. Check the current API comparison rather than assuming a separate legacy tariff.
 {% endhint %}
 
-| Plan                  | Monthly price\* | Key allowances                                                                                                                                                                                                                                                                                                                                       |
-| --------------------- | --------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Free**              | free            | Access **TOP 100** channels in the catalog, overview analytics, channel verification, TG Bots Cleaner, and channel collections. **Post Search:** 5 queries/month (7 sources, 7‑day window, up to 4 posts). **Event Tracking:** 1 tracking with up to 100 mentions and Telegram notifications. **Advertising Posts:** 3 posts, up to 30 days history. |
-| **Pro**               | $25             | Everything in Free plus full catalog (currently labeled **9.7M+**), unlimited channel analysis, Cheater Tag & Ads Index, Advertising Posts and Channel Networks Rating.                                                                                                                                                                              |
-| **Advanced**          | $55             | Adds Post Search (**50 queries/day**, 100 sources, full history, **1,000 posts**/query), Event Tracking (**8 trackings**, **10,000 mentions**), Advertisers rating, Telegram Ads analytics, and **Excel export** (up to **1,000 channels/month**).                                                                                                   |
-| **Team** / **Custom** | Custom          | Team access, custom limits and **export any data**; contact @telemetrio\_contact.                                                                                                                                                                                                                                                                    |
+| Plan                  | Monthly price\* | Key allowances                                                                                                                                                                                                                                                                                                                                                                      |
+| --------------------- | --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Free**              | free            | Access **TOP 100** channels in the catalog, overview analytics, channel verification, TG Bots Cleaner, and channel collections. **Post Search:** Limited trial searches; check the current daily/monthly quotas and source/window limits. **Event Tracking:** 1 tracking with up to 100 mentions and Telegram notifications. **Advertising Posts:** 3 posts, up to 30 days history. |
+| **Pro**               | $25             | Everything in Free plus the available catalog, up to 150 channel analyses per day, Cheater Tag & Ads Index, Advertising Posts and Channel Networks Rating.                                                                                                                                                                                                                          |
+| **Advanced**          | $55             | Adds Post Search (50 queries/day, 100 sources, full history, 1,000 posts/query), Event Tracking (8 trackings, 10,000 mentions), Advertisers rating, Telegram Ads analytics, and **data export** (up to **10,000 rows/month**, with **5,000 rows per export**; credits may also apply).                                                                                              |
+| **Team** / **Custom** | Custom          | Team access, custom limits and **data export** (listed allowance: **50,000 rows/month**, **25,000 rows per export**; confirm negotiated terms); contact @telemetrio\_contact.                                                                                                                                                                                                       |
 
 \*Subscriptions renew automatically via Stripe; Always confirm [current pricing on the site](https://telemetr.io/en/pricing)
 
@@ -513,13 +513,13 @@ The search results section lists advertisers based on the selected filters. Each
 
 Telemetr.io provides a REST API (OpenAPI v3).
 
-**Tariffs:** Free, S, M, L, XL — **$0 / $25 / $65 / $199 / $499** per month. Free plan includes **1,000 requests/month**, **5 verified channels**, and **7 days** of history; higher tiers raise limits up to **10,000 channels** and **2 million** requests with longer history. API keys are issued via **@telemetrio\_api\_bot**. Recent doc notes: free‑plan access is limited to verified channels (**2025‑01‑20**)
+**Historical tariff example (not current pricing):** Free, S, M, L, XL — **$0 / $25 / $65 / $199 / $499** per month. Free plan includes **1,000 requests/month**, **5 verified channels**, and **7 days** of history; higher tiers raise limits up to **10,000 channels** and **2 million** requests with longer history. API keys are issued via **@telemetrio\_api\_bot**. Recent doc notes: free‑plan access is limited to verified channels (**2025‑01‑20**)
 
 ## Level of difficulty
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
 
-Basic use is point-and-click. More advanced use comes from choosing the right archive engines and interpreting gaps/partial captures across services.
+Basic use is point-and-click. More advanced use requires selecting channel and search scopes, understanding plan limits, and interpreting analytics and gaps in indexed coverage.
 
 ## Requirements
 
@@ -529,12 +529,12 @@ Basic use is point-and-click. More advanced use comes from choosing the right ar
 
 ## Limitations
 
-* **Coverage & counts**: The homepage advertises “11M+” channels and 72B posts overall, while pricing mentions “9.7M+ channels,” and category pages display 41 categories; counts and scopes differ by page and may reflect channels versus channels and chats, or curated subsets. Treat totals as approximate.
-* **Free/Pro quotas**: Post Search and Spy are heavily limited on Free/Pro (Post Search: 5 queries/month, 7 sources, 7‑day window, max 4 posts; Spy: 1 tracking, 100 mentions, Telegram notifications only). Advanced increases these (Post Search: 50 queries/day, 100 sources, all‑time, 1,000 posts; Spy: 8 trackings, 10,000 mentions).
-* **API**: The free plan is rate-limited (1,000 requests/month; 5 verified channels; 7-day history). Broader history and unverified channels require paid API plans.
+* **Coverage & counts**: Catalog counts change over time and differ by source scope, such as channels, chats and bots. Treat provider totals as approximate index sizes, not complete coverage of Telegram.
+* **Free/Pro quotas**: Search and tracking allowances vary by plan, including daily/monthly quotas, source counts and result limits. Check the current comparison and credit charges for the feature you intend to use.
+* **API**: The tariff example above is historical. Current API access has separate per-plan limits, data periods and credit charges; consult the live comparison before use.
 * **Data integrity**: Views, ER, and subscriber counts can be manipulated by channel owners; Telemetrio flags suspicious channels (Cheater Tag) and provides an Ads Index, but these are heuristics. Validate critical findings with multiple sources.
 * **Legal/ToS**: Telemetrio is not affiliated with Telegram and uses the official Telegram API under Telegram’s API TOS; abide by Telemetrio’s Terms/Privacy.
-* **Historical data:** _Free_ users have access to metrics from the last 30 days. _Pro_ extends this to 90 days; _Advanced_ and higher tiers unlock **up to 12 months** of history.
+* **Historical data:** Data periods depend on the feature and plan. The current analytics comparison lists one month for Free and one year for Pro; API data periods are listed separately. Check the relevant current row for your workflow.
 * **Real-time delay:** Updates are not instantaneous; stats refresh every **10–15 minutes**, which can miss very short-lived posts or rapid edits.
 * **Geographical coverage** – Certain languages and smaller regions may have patchy or delayed coverage, which can underrepresent local trends.
 * **Miscategorization** – Automatic topic tagging can be incorrect (the “Facts” category is especially prone to errors); always review a channel manually if precision is crucial.
