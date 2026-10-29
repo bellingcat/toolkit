@@ -37,9 +37,7 @@ For Open Source Researchers, Distill.io can be an invaluable tool for:
   * Enable advanced pattern matching to monitor specific text patterns.
   * Helpful for filtering and extracting specific data from complex pages.
   * **Regex in Visual Selector** – apply regular expressions from the _Text filter_ panel to include or exclude specific patterns at selection time
-* **Content Extraction:**
-  * Ability to extract and export data from monitored pages.
-  * Supports formats such as CSV and JSON for integration with other analysis tools.
+* **Export and backup:** Distill's [monitor export](https://distill.io/docs/web-monitor/how-to-export-and-import-monitors/) saves monitor definitions, rather than a complete archive of watched pages. JSON preserves configuration such as selectors, conditions and schedules; CSV includes basic monitor fields and a current monitored-text snippet. Alert actions and historical change records are excluded from those exports. Review detected changes through [change history](https://distill.io/docs/web-monitor/change-history-and-highlighted-changes/); available history depends on the plan.
 * **Change Highlighting:**
   * Visual representation of the changes made to the page.
   * Simplifies the process of identifying significant alterations.
