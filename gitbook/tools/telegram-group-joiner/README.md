@@ -22,9 +22,9 @@ A small, browser‑based helper that adds a Telegram **user account** to multipl
   – Preload links via `?links=` (semicolon‑separated). [GitHub](https://github.com/bellingcat/telegram-group-joiner)
 * **Optional**: Self‑hosting (Node/Yarn) if you prefer to run locally. [GitHub](https://github.com/bellingcat/telegram-group-joiner)
 
-<figure><img src="../../.gitbook/assets/grafik (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/grafik (8).png" alt=""><figcaption></figcaption></figure>
 
-The tool allows preloading of group URLs by appending them to a base URL, separated by semicolons. This automation is executed fully client-side using tdlib for a robust Telegram API experience. It is worth mentioning that the tool only operates client-side, ensuring no data retention on servers.
+The tool allows preloading of group URLs by appending them to a base URL, separated by semicolons. This automation is executed fully client-side using tdlib for a robust Telegram API experience. The app runs in the browser and communicates with Telegram through TDLib. This does not establish what Telegram or hosting/network services retain; joining groups changes your Telegram account’s memberships.
 
 Github Project: [https://github.com/bellingcat/telegram-group-joiner](https://github.com/bellingcat/telegram-group-joiner)\\
 
@@ -44,7 +44,7 @@ Beginner–intermediate. No command line is needed if you use the hosted page, b
 
 ## Requirements
 
-**Telegram API Keys:** [Obtain your API ID and API Hash](https://core.telegram.org/api/obtaining_api_id) from [my.telegram.org](https://my.telegram.org). This involves registering an application to receive these credentials. After entering the API ID and Hash, the tool will ask for your phone number and the 5-digit login code that Telegram sends you. If 2‑step verification is enabled, you’ll be prompted for the password; Telegram may also ask to set/verify a login email in some cases.
+**Telegram API Keys:** [Obtain your API ID and API Hash](https://core.telegram.org/api/obtaining_api_id) from [my.telegram.org](https://my.telegram.org). This involves registering an application to receive these credentials. After entering the API ID and Hash, the tool will ask for your phone number and the login code delivered through the method Telegram specifies. If 2‑step verification is enabled, you’ll be prompted for the password; Telegram may also ask to set/verify a login email in some cases.
 
 Use a modern desktop browser such as Chrome, Firefox, or Edge. (The page relies on WebAssembly; very old browsers (and some locked-down corporate ones) won’t load it. Safari older than v15 may fail to load the page.)
 
@@ -56,7 +56,6 @@ Use a modern desktop browser such as Chrome, Firefox, or Edge. (The page relies 
 * Consider using a dedicated phone number ("burner number") when setting up the account.
 * Utilize a VPN to enhance privacy and avoid potential geo-restrictions.
 * Accounts created or [logged in via TDLib can be flagged and suspended without warning](https://github.com/tdlib/td/issues/2920); use a spare account.
-* Telegram caps one account at roughly 500 groups/channels; after that, you’ll see ‘Limit reached’ errors.
 * **Join‑cap**: Telegram enforces an account‑level cap on the number of joined **channels/supergroups**; the values are exposed in the API config (`channels_limit_default` / `channels_limit_premium`) and widely tracked as \~**500** for free accounts and up to **1000** for Premium (numbers can change). [core.telegram.org](https://core.telegram.org/api/config?utm_source=chatgpt.com)
 * **Rate limits / flood control**: Rapid joins can trigger temporary errors; the project includes logic to handle rate limits (see “rate limits handling” commits). Pace additions. [GitHub](https://github.com/bellingcat/telegram-group-joiner/commits/main)
 * **Account risk with TDLib logins**: Some developers report temporary or permanent suspensions after authenticating via TDLib (e.g., `PHONE_NUMBER_BANNED`, `EMAIL_NOT_ALLOWED`). Use a research‑only account and follow Telegram’s rules. [GitHub](https://github.com/tdlib/td/issues/2920)
@@ -76,13 +75,13 @@ Use a modern desktop browser such as Chrome, Firefox, or Edge. (The page relies 
     Visit the [Telegram Group Joiner](https://bellingcat.github.io/telegram-group-joiner/) webpage.
 2.  **Authenticate:**
 
-    Enter your API ID, API Hash, **and then the 5-digit code Telegram texts you**.
+    Enter your API ID, API Hash, **then follow the Telegram prompts for your phone number, confirmation code and any two-step verification password. The code may arrive in Telegram rather than by SMS**.
 3.  **Prepare Group Links:**
 
     * You can preload group or channel links by using the `links` parameter in the URL.
     * Separate multiple links with a semicolon (`;`).
 
-    **Example:**
+    **Example (the private invite token is a placeholder):**
 
     *   **Links:**
 
@@ -91,9 +90,9 @@ Use a modern desktop browser such as Chrome, Firefox, or Edge. (The page relies 
         https://t.me/+privateInvite123id
         ```
     * Combined Links:\
-      `https://t.me/bellingcat;https://t.me/+privateInvite,123id`
+      `https://t.me/bellingcat;https://t.me/+privateInvite123id`
     * Resulting URL:\
-      `https://bellingcat.github.io/telegram-group-joiner/?links=https://t.me/bellingcat;https://t.me/+privateInvite,123id`
+      `https://bellingcat.github.io/telegram-group-joiner/?links=https://t.me/bellingcat;https://t.me/+privateInvite123id`
 4. **Join Groups:**
    * Use the tool interface to automatically join the specified groups or channels.
 
