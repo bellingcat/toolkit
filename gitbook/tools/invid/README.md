@@ -9,7 +9,9 @@ description: A toolkit that supports the verification of videos and images.
 
 [https://weverify.eu/verification-plugin/](https://weverify.eu/verification-plugin/)
 
-(v. 0.90; last checked: May 2026)
+Current Chrome extension: [0.93](https://chromewebstore.google.com/detail/fake-news-debunker-invid/mhccpoafgdgbhnjfhkcmgknndkeenfhe), updated 2026-07-28.
+
+Last source/version check: 2026-10-29.
 
 ### Description
 
