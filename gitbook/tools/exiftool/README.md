@@ -253,15 +253,9 @@ exiftool -ee -b suspect_file.jpg > embedded_data.bin
 
 The `-ee` option reads metadata from supported embedded structures. This command does not generally recover arbitrary hidden files or detect steganography; use format-specific extraction and specialist tools where needed.
 
-### **Extracting Metadata from Emails**
+### **Email Headers and Attachments**
 
-While ExifTool primarily handles files, you can save emails as `.eml` files and extract headers:
-
-```bash
-exiftool email.eml
-```
-
-This command extracts metadata from `email.eml`, including headers that reveal sender IP addresses, email clients, and routing information.
+`exiftool email.eml` is not a supported workflow for extracting email headers, sender IP addresses or routing information. `.eml` is absent from ExifTool’s [supported file formats](https://exiftool.org/#supported); its text-file reader reports basic text characteristics rather than message-header fields. Inspect the original message source with an email client or a dedicated email-header parser. Extracted attachments in supported formats can be examined separately with ExifTool.
 
 ### **Checking for Metadata Inconsistencies**
 
