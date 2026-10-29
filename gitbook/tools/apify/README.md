@@ -1,24 +1,24 @@
 ---
-description: A brief one line description of this tool
+description: A cloud platform for web scraping and browser automation
 ---
 
 # Apify
 
 ## URL
 
-https://example.com
+[https://apify.com](https://apify.com)
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+Apify is a cloud platform for web scraping and browser automation. Its programs, called [Actors](https://docs.apify.com/actors), can collect or process data and run through a web Console, API or CLI. Inputs, outputs, charges and limits vary by Actor; check its documentation before use.
 
 ## Cost
 
-* [x] Free
-* [ ] Partially Free
+* [ ] Free
+* [x] Partially Free
 * [ ] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
+The [Free plan](https://apify.com/pricing) includes US$5 in usage credit per month. With monthly billing, Starter costs US$19/month and includes US$19 in usage credit; usage beyond the included credit is billed separately. Actor-specific charges and limits vary; check the selected Actor’s pricing before running it.
 
 ## Level of difficulty
 
@@ -54,7 +54,7 @@ https://example.com
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
+| Page maintainer |
+| --------------- |
+| Martin Sona     |
+|                 |
