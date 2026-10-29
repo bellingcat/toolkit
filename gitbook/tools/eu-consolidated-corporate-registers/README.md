@@ -25,7 +25,7 @@ Please note that some data that is free in a national register does not appear o
 
 Here is the same company's [listing](https://www.infogreffe.fr/entreprise/monoprix/552018020/58b30ebc-d4b3-4e23-b3b7-27e468f6bb60) on the French register:
 
-<figure><img src=".gitbook/assets/Screenshot 2026-05-06 at 14.21.35.png" alt=""><figcaption><p>The same company's 'Identité' page on the French register</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2026-10-29 at 14.48.15.png" alt=""><figcaption><p>The same company's page on the French register</p></figcaption></figure>
 
 The French register provides data that the BRIS portal does not, like the [NAF code](https://entreprendre.service-public.fr/vosdroits/F33050) (which classifies business activities), many more documents than you can order on the portal, and related companies. The leader data on the portal also includes other companies in which that person is involved. (Leaders are people like directors.)
 
