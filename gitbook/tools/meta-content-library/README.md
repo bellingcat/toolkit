@@ -15,13 +15,13 @@ description: >-
 Last source/version check: 2026-10-29.
 
 {% hint style="info" %}
-While this is a free tool, access is strictly limited. However, _any_ researcher affiliated with an academic institution or another not‑for‑profit organisation whose core activity is scientific or public‑interest research can apply. Individuals can [apply for access](https://icpsr.atlassian.net/servicedesk/customer/portal/53) to these tools at the[ Inter-university Consortium for Political and Social Research (ICPSR)](https://en.wikipedia.org/wiki/Inter-university_Consortium_for_Political_and_Social_Research) at the University of Michigan. If you intend to use it for research purposes, make sure to keep in mind the application time: The review process typically takes between [2-6 weeks](https://socialmediaarchive.org/pages/?page=FAQs\&ln=en).
+While this is a free tool, access is strictly limited. However, _any_ researcher affiliated with an academic institution or another not‑for‑profit organisation whose core activity is scientific or public‑interest research can apply. Use Meta’s [current access instructions](https://developers.facebook.com/docs/content-library-and-api/get-access) for the route you intend to use. For MCL API access, SOMAR states that Meta has managed applications through Research Tools Manager since 8 December 2025. Approved API researchers choosing SOMAR’s VDE must complete its separate onboarding process. Allow time for application review and any separate environment onboarding; consult the current application instructions for processing times.
 {% endhint %}
 
 {% hint style="warning" %}
 **UPDATE: Researcher access fees (Meta Content Library API via SOMAR VDE)**
 
-Free compute on SOMAR’s Virtual Data Enclave ends on **2025‑12‑31**. Starting **January 2026**, SOMAR will charge **$371 USD per research team per month** of VDE access; **new VDE teams** created in 2026 or later will also incur a **one‑time $1,000 USD** project‑start fee. Meta’s Secure Research Environment (SRE) continues to offer **free compute**. See [SOMAR’s FAQ for details](https://somar.atlassian.net/wiki/spaces/somardocs/pages/395149314/FAQ+New+secure+computing+options+for+Meta+Content+Library+API) published Sept. 15th 2025.
+SOMAR’s [Summer 2026 newsletter](https://www.icpsr.umich.edu/sites/somar/somar-newsletter-archive/somar-newsletter-summer-2026) lists a **$1,000 USD one-time setup fee for new VDE instances** and a **$371 USD monthly fee for the duration of the research project**. Confirm the payment instructions and terms for your research environment with SOMAR before budgeting. Meta’s [FAQ](https://developers.facebook.com/docs/content-library-and-api/support/faqs) states that there are no access or computation fees for the Content Library web interface or API on Meta’s Secure Research Environment.
 {% endhint %}
 
 <p align="center">(as of June, 2026)<br></p>
@@ -91,7 +91,7 @@ The platform features:
 
 **API compute:** free on Meta’s Secure Research Environment (SRE).
 
-**SOMAR VDE:** ICPSR notes fees begin **January 2026** (one‑time **USD 1,000** per new team + **USD 371/month**).
+**SOMAR VDE:** The provider’s [Summer 2026 fee notice](https://www.icpsr.umich.edu/sites/somar/somar-newsletter-archive/somar-newsletter-summer-2026) lists a one-time USD 1,000 setup fee for new VDE instances and USD 371 per month for the research project’s duration.
 
 ## Level of difficulty
 
@@ -109,7 +109,7 @@ The **web UI** is point‑and‑click and suitable for non‑coders. The **API**
 
 ## Requirements
 
-* **Eligibility & application:** Affiliation with a **qualified academic or research institution**; [apply](https://developers.facebook.com/docs/content-library-and-api/get-access/) via [**ICPSR**](https://somar.atlassian.net/wiki/spaces/somardocs/pages/249397299/SOMAR%2BData%2BAccess%2BApplication%2BGuide)**/SOMAR** (UI and [API ](https://developers.facebook.com/docs/content-library-and-api/content-library/)have different application steps). ICPSR reviews and coordinates approvals; downloads are enabled only for ICPSR‑approved users.
+* **Eligibility & application:** An eligible institutional affiliation and approved research program are required. Follow Meta’s [current access instructions](https://developers.facebook.com/docs/content-library-and-api/get-access) for the selected route. MCL API applications are managed through Meta’s Research Tools Manager; researchers choosing SOMAR’s VDE must also complete its separate onboarding. The published UI documentation requires ICPSR or CASD approval of the Content Library application and consent to Meta’s research-tool terms for CSV downloads. Search access does not automatically grant download permission.
 * **Environments:** Choose **SOMAR Virtual Data Enclave (VDE)** or **Meta Secure Research Environment (SRE)** for API work. UI access is hosted by Meta and is separate. [somar.atlassian.net](https://somar.atlassian.net/wiki/spaces/somardocs/pages/249397299/SOMAR%2BData%2BAccess%2BApplication%2BGuide)
 * **Access & auth:** After approval, log in to SRE and launch a **Jupyter** session via **Amazon WorkSpaces Secure Browser** to use the API client. [developers.facebook.com](https://developers.facebook.com/docs/content-library-and-api/content-library-api/getting-started/)
 * **Supported modules/features (selected):**\
