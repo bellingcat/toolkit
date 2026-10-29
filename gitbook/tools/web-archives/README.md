@@ -12,7 +12,9 @@ description: >-
 [https://github.com/dessant/web-archives](https://github.com/dessant/web-archives)
 
 [Chrome](https://chromewebstore.google.com/detail/web-archives/hkligngkgcpcolhcnkgccglchdafcnao) | [Firefox](https://addons.mozilla.org/firefox/addon/view-page-archive/) | [Opera](https://addons.opera.com/en/extensions/details/view-page-archive-cache/) | [Safari](https://apps.apple.com/us/app/web-archives-for-safari/id1603181853?platform=mac)\
-(Versions recorded in the June 2026 review — Chrome/GitHub: 7.3.3; Firefox: 7.3.1; Safari/macOS: 7.2.0; Opera: 4.1.0)
+Current store/release versions: Chrome/GitHub 7.3.3 (2026-06-27); Firefox 7.3.3 (updated 2026-07-01); Safari/macOS 7.3.3 (2026-06-27); Opera 4.1.0.
+
+Last source/version check: 2026-10-29.
 
 ## Description
 
