@@ -8,6 +8,8 @@ description: A cloud platform for web scraping and browser automation
 
 [https://apify.com](https://apify.com)
 
+Last source/version check: 2026-10-29.
+
 ## Description
 
 Apify is a cloud platform for web scraping and browser automation. Its programs, called [Actors](https://docs.apify.com/actors), can collect or process data and run through a web Console, API or CLI. Inputs, outputs, charges and limits vary by Actor; check its documentation before use.
