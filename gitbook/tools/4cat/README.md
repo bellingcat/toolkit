@@ -10,7 +10,8 @@ description: >-
 ## URL
 
 [https://4cat.nl/](https://4cat.nl/)\
-(Latest release: v1.55, 2026-06-22; last checked: 2026-06-26)
+Latest release: [v1.57](https://github.com/digitalmethodsinitiative/4cat/releases/tag/v1.57), released 2026-09-10.\
+Last source/version check: 2026-10-29.
 
 ## Description
 
