@@ -9,8 +9,9 @@ description: >-
 
 ## URL
 
-[https://northdata.com](https://northdata.com)\
-(last checked June 19th, 2026)
+[https://northdata.com](https://northdata.com)<br>
+
+Last source/version check: 2026-10-29.
 
 ## Description
 
