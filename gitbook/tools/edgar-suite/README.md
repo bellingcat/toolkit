@@ -24,27 +24,27 @@ Despite [EDGAR](https://bellingcat.gitbook.io/toolkit/more/all-tools/edgar)’s 
 
 1. **Automating Search & Download**: Scrapes EDGAR in chunks, merges results, and exports them in `.csv` or `.jsonl`, avoiding repetitive manual page-by-page downloads.
 2. **Enabling Large-Scale Analysis**: The tool can handle thousands of filings, letting you run advanced queries (like tracking mentions of a keyword in multiple forms).
-3. **Filterable RSS**: Subscribes to the broad EDGAR RSS feed, but filters results by the specific tickers you care about, generating a single consolidated file.
+3. **Filterable RSS**: Reads the SEC’s XBRL RSS feed, but filters results by the specific tickers you care about, generating a single consolidated file.
 
 ### EDGAR Command Line Interface (edgar-tool) — Detailed Overview
 
-#### 1. Automated Bulk Retrieval of Filings
+#### 1. Automated Bulk Retrieval of Filing Search Results
 
 * **Challenge with EDGAR Web**: The SEC interface typically requires browsing multiple result pages and downloading PDF/HTML documents individually. This is tedious and prone to errors when dealing with dozens or hundreds of filings.
-* **edgar-tool Solution**: **Text Search** automates queries, segmenting them into manageable “chunks.” It then merges all pages into a single `.csv` or `.jsonl` file and can optionally download the linked filings themselves.
+* **edgar-tool Solution**: **Text Search** automates queries, segmenting them into manageable “chunks.” It then merges all pages into a single `.csv` or `.jsonl` file and includes links to the filings; downloading those documents requires a separate workflow.
   * **Example**: Searching for references to “ESG,” “cybersecurity,” or any specific phrase across 1,000 documents becomes a single command instead of manual page-by-page clicks.
 
 #### 2. Access to Standardized Financial Data from XBRL (Companion Dataset)
 
 * **Challenge with EDGAR Web**: While EDGAR makes data from **XBRL** filings available, companies often define their own custom tags. Basic direct comparisons of net income or total assets across different issuers can be messy or incomplete.
 * **edgar-tool Solution**: While the `edgar-tool` CLI itself is dedicated to text and metadata retrieval, the tools' maintainers provide a separate, standalone financial profile `.csv` dataset as a companion resource. This dataset uses a custom library to map commonly used GAAP/XBRL tags to plain-English financial metric (e.g., “revenue,” “net income,” “debt,” etc.).
-  * **Example**: Instead of writing complex Python scripts to parse live XBRL data or sift through dozens of custom tag variations, journalists can download this tool's pre=compiled dataset to instantly view a unified historical time-series for public companies' key financial statements.
+  * **Example**: Instead of writing complex Python scripts to parse live XBRL data or sift through dozens of custom tag variations, journalists can download this tool's precompiled dataset to instantly view a unified historical time-series for public companies' key financial statements.
 
 #### 3. Flexible, Filtered RSS Feed for Company Monitoring
 
 * **Challenge with EDGAR Web**: You can subscribe to EDGAR’s broad RSS or individual company feeds, but not a single feed covering all your target companies in one place. It’s easy to miss filings or get overwhelmed by irrelevant results.
-* **edgar-tool Solution**: **RSS** commands filter the main EDGAR feed by specific tickers or **CIKs** (Central Index Keys). You get a consolidated `.csv` or `.jsonl` with the latest filings from only the entities you care about.
-  * **Example**: Monitor five technology stocks for new 8-K or 10-K forms. Receive daily or hourly updates in one file, rather than visiting multiple feeds or searching manually.
+* **edgar-tool Solution:** The **RSS** command filters the SEC’s XBRL feed by company tickers and writes a consolidated `.csv`. It does not accept CIK filters or JSONL output.
+  * **Example**: Monitor selected company tickers for filings included in the XBRL RSS feed. Receive daily or hourly updates in one file, rather than visiting multiple feeds or searching manually.
 
 #### 4. Comprehensive Search Parameters & Output Options
 
@@ -56,7 +56,7 @@ Despite [EDGAR](https://bellingcat.gitbook.io/toolkit/more/all-tools/edgar)’s 
   * Location: In or principal executive offices located in a certain region (e.g., “Egypt”).
 * **Output Options**:
   * `.csv` (default) or `.jsonl` for easy integration with Excel, Python pandas, or other data tools.
-  * `.json` or `.jsonl` for line-by-line JSON objects—handy if you want to parse them with scripts or feed them into advanced analytics (like an NLP pipeline).
+  * `.json` for a JSON array or `.jsonl` for line-by-line JSON objects—handy if you want to parse them with scripts or feed them into advanced analytics (like an NLP pipeline).
 
 #### 5. Command-Line Simplicity & Python Integration
 
@@ -66,11 +66,11 @@ Despite [EDGAR](https://bellingcat.gitbook.io/toolkit/more/all-tools/edgar)’s 
 #### 6. Support for Large Queries & Retry Logic
 
 * **Challenge**: EDGAR enforces \~10 requests/second, and long queries can stall or fail.
-* **edgar-tool**: Includes a **retries** feature, random wait intervals (`--min_wait` / `--max_wait`) to stay within EDGAR’s usage guidelines. Automates re-requests if the initial call fails, ensuring robust data acquisition over big searches.
+* **edgar-tool:** Retries failed search-page requests, but exposes no `--min_wait` or `--max_wait` CLI flags. Check results for gaps after errors; retries do not guarantee complete retrieval.
 
 #### 7. Periodic or On-Demand Data Gathering
 
-* **RSS Interval**: The `--every_n_mins` option repeatedly checks for new filings, appending them to an ongoing output file. This is convenient for near real-time monitoring of evolving corporate disclosures.
+* **RSS Interval**: The `--every-n-mins` option repeatedly checks for new filings, appending them to an ongoing output file. This is convenient for near real-time monitoring of evolving corporate disclosures.
 * **Ad Hoc Search**: The text search can be run once for immediate insight or scheduled (e.g., weekly) to track mentions of a certain keyword over time.
 
 #### 8. Extra Tools: Financial Profile CSV
@@ -90,14 +90,14 @@ Despite [EDGAR](https://bellingcat.gitbook.io/toolkit/more/all-tools/edgar)’s 
 
 ## Requirements
 
-`edgar-tool` requires the Python interpreter to download and use. It supports any currently maintained version of Python (Python >=3.9 as of this writing). Check the [_Programming Language_ section of `edgar-tool`'s release page on PyPI](https://pypi.org/project/edgar-tool/) for officially supported versions. When in doubt, use the latest stable Python version. You can download the latest version of the Python interpreter from [www.python.org/downloads/](./#url).
+`edgar-tool` requires the Python interpreter to download and use. It supports any currently maintained version of Python (Python >=3.9 as of this writing). Check the [_Programming Language_ section of `edgar-tool`'s release page on PyPI](https://pypi.org/project/edgar-tool/) for officially supported versions. When in doubt, use the latest stable Python version. You can download the latest version of the Python interpreter from [www.python.org/downloads/](https://www.python.org/downloads/).
 
 ## Limitations
 
-* **Data Coverage**: EDGAR is strongest post-2001, with partial coverage from 1994–2000. No private-company data.
+* **Data Coverage**: EDGAR’s archive starts in 1994/1995, while this tool’s full-text search covers filings since 2001 and defaults to five years. Some private-company filings, such as Form D notices, are available; coverage is not comprehensive.
 * **Rate Limits**: The SEC enforces max requests (\~10/s). The tool handles this by spacing or retrying requests, but massive downloads still take time.
-* **Potential Gaps in XBRL**: Some foreign or unusual filers may use custom or incomplete tags that limit the consistency of the standardized table. Although edgar-tool references a standard XBRL library, some foreign filers or unusual forms can break uniform tagging.
-* **No Summaries**: The tool provides raw documents and structured metadata but does not generate textual summaries or deeper analytics for you.
+* **Potential Gaps in XBRL**: Some foreign or unusual filers may use custom or incomplete tags that limit the consistency of the standardized table. These consistency limits concern the separate companion financial dataset, rather than an XBRL-standardization feature of the CLI.
+* **No Summaries**: The tool provides filing-search records and structured metadata but does not generate textual summaries or deeper analytics for you.
 
 ## Ethical Considerations
 
