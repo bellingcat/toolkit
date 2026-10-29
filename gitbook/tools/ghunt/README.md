@@ -8,7 +8,9 @@ description: A command line tool for obtaining information about Google accounts
 ## URL
 
 [https://github.com/mxrch/GHunt](https://github.com/mxrch/GHunt)\
-(Current version: 2.3.4, released on PyPI on 2026-03-16. PyPI is the current release source to watch. GitHub Releases currently stop at v2.2.0, released on 2024-06-06; seen June 2026)
+(Current version: 2.3.4, released on PyPI on 2026-03-16. PyPI is the current release source to watch. GitHub Releases currently stop at v2.2.0, released on 2024-06-06)
+
+Last source/version check: 2026-10-29.
 
 ## Description
 
@@ -54,7 +56,7 @@ You’ll need to be comfortable with the command line, installing Python package
 * **Runtime**: Python >=3.10. The project also states that it is compatible with Python 3.13.
 * **Install**: pipx install ghunt is the recommended isolated install. Use pip install ghunt instead if you want to import GHunt as a Python library.
 * **Authentication**: run ghunt login and use GHunt Companion. The extension can either send required cookies to GHunt while it listens on port 60067, or copy base64-encoded cookie material for pasting into GHunt. Manual cookie entry is also available.
-*   **Companion extension**: available through [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/ghunt-companion/) and the [Chrome Web Store](https://chromewebstore.google.com/detail/ghunt-companion/dpdcofblfbmmnikcbmmiakkclocadjab) as of 2026-06-26. Both listings show version 2.0.0, last updated on 2022-12-03.
+*   **Companion extension:** [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/ghunt-companion/) | [Chrome Web Store](https://chromewebstore.google.com/detail/ghunt-companion/dpdcofblfbmmnikcbmmiakkclocadjab). The Firefox listing shows version 2.0.0, last updated 2022-12-03, when checked on 2026-10-29.
 
     Supported modules: email, gaia, drive, geolocate, and spiderdal. JSON export is supported for email, gaia, drive, and geolocate.
 
