@@ -40,13 +40,13 @@ Since April 2025, HURIDOCS has shipped[ integrated machine‑learning features](
 5. **Multi-language Support**: The platform supports multilingual document collections and provides a fully localized user interface, making it accessible for global projects.
 6. **Collaboration and Permissions**: Uwazi facilitates collaboration with its multi-user environment, where permissions can be finely tuned to protect sensitive information.
 7. **Public and Private Sharing**: The platform enables the sharing of document collections, with options for both public access and private, controlled sharing.
-8. **Security and Compliance**: Uwazi incorporates security measures, including encrypted data storage and secure access controls, to ensure compliance with privacy regulations and safeguard sensitive information.
+8. **Security and Compliance**: Uwazi provides access controls and supports secure deployment. Administrators must configure and verify transport/storage security and assess applicable privacy requirements; the software alone does not ensure compliance.
 9. Integration with the Tella App: Once set up, Uwazi databases can be populated via the [Tella App](https://tella-app.org/), which provides encrypted asynchronous uploads of photos and videos from a user's phone, in an environment separate from the phone's gallery.
 10. **Machine-learning tools (beta)**: Uwazi includes optional ML-assisted workflows such as metadata extraction and paragraph extraction for PDF collections. Metadata extraction is human-in-the-loop: users define the field, label examples, train an extractor, apply it across documents and review suggested values before accepting them. HURIDOCS’ September 2025 [example](https://huridocs.org/2025/09/uwazi-ai-powered-metadata-extractor-a-game-changer-for-human-rights-documentation/) says UPR Info reduced a workflow from approximately three months of manual work for 228 documents to 43 hours to extract and process metadata from 30,267 recommendations in two languages. Official docs state that metadata extraction is in beta and is not activated automatically for all instances; paragraph extraction is also not enabled by default.
 
 ### **Security Measures**
 
-* An independent [security audit conducted by Recurity Labs](https://huridocs.org/2024/08/uwazi-undergoes-third-independent-audit-to-ensure-security/) (commissioned by HURIDOCS) evaluated Uwazi’s architecture and code against common vulnerabilities based on OWASP and SANS standards (which is about as good as it gets). The assessment confirmed that Uwazi maintains a high level of security. Several minor issues were identified, which have since been addressed and patched. A second audit was done by [Assured ](https://www.opentech.fund/security-safety-audits/uwazi-security-audit/)in May 2024. A [third audit](https://huridocs.org/2024/08/uwazi-undergoes-third-independent-audit-to-ensure-security) was concluded in August 2024 to ensure security. Regular Audits are planned.
+* HURIDOCS’ [August 2024 report](https://huridocs.org/2024/08/uwazi-undergoes-third-independent-audit-to-ensure-security/) describes Uwazi’s third independent audit, performed by Assured Security Consultants. It found eleven issues, including one critical and one high-risk vulnerability; HURIDOCS says all were patched. The second audit was performed by Recurity Labs and [reported by HURIDOCS in June 2022](https://huridocs.org/2022/06/independent-audit-finds-uwazi-has-a-high-level-of-security/). These historical assessments do not establish the security of every current deployment.
 * Uwazi integrates several technical measures that contribute to a secure environment for handling sensitive human rights documentation and related materials. These features include support for HTTPS encryption, secure user authentication (including two-factor authentication), and the option to run Uwazi behind a reverse proxy for additional network protections. Admins can configure role-based permissions to ensure only authorized users can access or modify sensitive content. Additionally, Uwazi supports regular updates, backups, and indexing maintenance, providing a stable foundation for safeguarding data integrity. Together, these features can make Uwazi a practical choice for organizations that need a reliable, secure digital infrastructure for their human rights work.
   * For configuring HTTPS, reverse proxy and environment variables: [Sysadmin Guide](https://uwazi.readthedocs.io/en/latest/sysadmin-docs/index.html)
   * For enabling two-factor authentication (2FA) and managing user permissions:[ Administrator’s Guide](https://uwazi.readthedocs.io/en/latest/admin-docs/managing-settings.html#how-to-configure-your-account)
@@ -59,11 +59,11 @@ For more detailed information and guidance, users can consult:
 
 #### **Best Practices for Uwazi Administration if running locally**
 
-* **Use Default Configurations First:** Start with Uwazi’s default settings to reduce complexity. Only override environment variables if you have a clear reason and know the impact on your setup.
+* **Review credentials and access settings before use:** Before exposing a new instance, change the default administrator password and configure access permissions. Follow the version-specific deployment instructions and review settings before storing sensitive material.
 * **Secure Your Deployment:** Run Uwazi behind a reverse proxy (like Nginx) with HTTPS, and set `LOCALHOST_ONLY=true` so that external traffic must pass through the proxy. When mail notifications are required, properly configure your sendmail or SMTP server.
 * **Regular Backups and Data Integrity:** Regularly back up both the MongoDB database and the `uploaded_documents` directory. After restoring, run `yarn migrate` and `yarn reindex` to maintain data integrity and search functionality.
 * **Multi-Tenancy and Scaling:** Use distinct database and index names for each tenant, and consider a reverse proxy to direct requests to the correct tenant. Keep code separate from user data, and rely on environment variables to run multiple instances from a single codebase.
-* **Routine Maintenance:** Periodically run maintenance scripts like `yarn migrate` and `yarn reindex`. Monitor logs and apply updates or patches as they become available to ensure ongoing stability and security.
+* **Routine Maintenance:** Run required migration and reindex procedures when upgrading or restoring, following the instructions for the installed version. Monitor logs and apply updates or patches as they become available.
 
 For detailed instructions and configurations, refer to the [Sysadmin Guide](https://uwazi.readthedocs.io/en/latest/sysadmin-docs/index.html).
 
@@ -102,7 +102,7 @@ To use Uwazi, particularly if you're opting for the self-hosted version, you'll 
 
 While Uwazi’s security capabilities help protect sensitive information, responsible use remains essential. Human rights documentation often involves vulnerable individuals and communities, so it’s critical to limit data access to trusted team members, maintain strict user permissions, and keep collections private if public release is not appropriate. Ensure robust password practices, enable two-factor authentication, and review audit logs regularly. Consider applicable data protection laws, inform users about the use of cookies, and ensure that any publicly shared data does not expose personal details or put individuals at risk. By taking these ethical considerations into account, Uwazi users can help ensure that their documentation efforts respect privacy, uphold legal standards, and serve the broader goal of advancing human rights.
 
-* **Data Encryption**: Uwazi uses HTTPS encryption for secure data transmission, protecting sensitive information from unauthorized access. Uwazi also supports data encryption at rest, ensuring that all sensitive information is protected from unauthorized access during transmission and while stored on the server.
+* **Data Encryption**: Configure and verify HTTPS for the deployment. Confirm encryption at rest separately for its databases, document storage and backups with the hosting provider or administrator; do not assume every installation provides it.
 * **User Authentication**: Two-factor authentication (2FA) is available to enhance account security.
 * **Hosting Security**: Uwazi’s hosted environments are secured with regular updates and security patches.
 * **Data Backup and Recovery**: Regular backups must be conducted to ensure data integrity and availability in case of failures.
@@ -148,9 +148,9 @@ You can view example projects on [Uwazi’s use-cases page](https://uwazi.io/use
 
 ### Guides and articles
 
-Uwazi Administrator’s Guide — official guide for configuring collections, users, templates, entities, translations, visualisations, extraction workflows and integrations: [https://uwazi.readthedocs.io/en/latest/admin-docs/index.html](https://uwazi.readthedocs.io/en/latest/admin-docs/index.html?utm_source=chatgpt.com)
+Current documentation: [Uwazi Docs](https://docs.uwazi.io/). The legacy [Administrator’s Guide](https://uwazi.readthedocs.io/en/latest/admin-docs/index.html) is scheduled to retire on 1 December 2026; use the current portal for version-specific instructions.
 
-Uwazi Systems Administrator’s Guide — official guide for installation, backups, multi-tenancy and optional extraction services: [https://uwazi.readthedocs.io/en/latest/sysadmin-docs/index.html](https://uwazi.readthedocs.io/en/latest/sysadmin-docs/index.html?utm_source=chatgpt.com)
+Legacy Uwazi Systems Administrator’s Guide — guide for installation, backups, multi-tenancy and optional extraction services: [https://uwazi.readthedocs.io/en/latest/sysadmin-docs/index.html](https://uwazi.readthedocs.io/en/latest/sysadmin-docs/index.html?utm_source=chatgpt.com)
 
 Uwazi documentation source repository — GitHub repository for the Read the Docs documentation, including the admin-docs and sysadmin-docs folders: [https://github.com/huridocs/uwazi-documentation](https://github.com/huridocs/uwazi-documentation)
 
