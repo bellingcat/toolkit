@@ -8,10 +8,10 @@ description: Open-source network analysis and visualization software
 ## URL
 
 [https://gephi.org](https://gephi.org)\
-(Gephi Desktop 0.11.2 as of 2026-06-19)\
+(Gephi Desktop 0.11.3 as of 2026-10-29)\
 \
 [https://lite.gephi.org/](https://lite.gephi.org/)\
-(Gephi Lite 1.0.2 as of 2026-06-19)
+(Gephi Lite 1.1.0 as of 2026-10-29)
 
 ## Description
 
@@ -21,7 +21,7 @@ Gephi has the ability to create [detailed](https://www.youtube.com/watch?v=GXtbL
 \
 [Gephi Lite is Gephi’s web-based companion](https://gephi.wordpress.com/2025/10/08/gephi-lite-v1/) for lightweight, installation-free network exploration and sharing. Gephi Lite is designed to run client-side (“serverless”), so graphs you open locally stay on your device unless you choose to use sharing/cloud workflows (for example, saving/loading graphs via GitHub gists or opening hosted graphs via a shareable URL / iframe embed). Compared with the desktop application, Lite currently targets smaller networks (roughly ≤10k nodes / ≤20k edges) and focuses on web-friendly formats (GEXF and GraphML, plus its own workspace JSON), while omitting heavier desktop capabilities such as the Preview workflow (SVG/PDF export), timeline/dynamic graphs, and the plugin ecosystem, so it’s best treated as a lightweight viewer/editor and publishing layer alongside Gephi Desktop.
 
-<figure><img src="../../.gitbook/assets/gephi (1).gif" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/gephi (1).gif" alt=""><figcaption></figcaption></figure>
 
 ### Core Social Network Analysis Metrics
 
@@ -126,7 +126,7 @@ Social network analysis has been used to investigate [political ](https://www.ca
 
 Due to its extensive features, Gephi has a moderate learning curve. Still, beginners can start with basic tutorials and sample datasets to understand the interface and critical functions like layouts, filters, and metrics. A good strategy is to focus on one feature at a time: experiment with layouts to arrange nodes, use filters to simplify complex networks, and apply basic metrics like centrality to interpret relationships. As they become comfortable, users can explore plugins and advanced features like[ time-based visualizations](https://github.com/gephi/gephi/wiki/Import-Dynamic-Data) for more tailored analyses.
 
-Gephi has an **active user community** that can provide help and share tips. The primary hub in recent years has been the [**Gephi Facebook Group**](https://www.facebook.com/groups/gephi/), which serves as the main place to ask questions and get support​. This Facebook group effectively replaced the older official forum. (The legacy [**Gephi Forum**](https://forum-gephi.org/) exists, but as of 2018–2019 it saw declining activity and new questions are directed to the Facebook ​forum.) Additionally, Gephi’s developers and power users monitor the [**GitHub issue tracker**](https://github.com/gephi/gephi/issues)**.**
+The provider’s [community page](https://gephi.org/community/) links to a Matrix discussion channel for questions and a blog newsletter for announcements.
 
 ## Requirements
 
@@ -143,7 +143,7 @@ Gephi has an **active user community** that can provide help and share tips. The
   – **Filtering/Queries:** Attribute & topology filters; interactive selection. [Quickstart](https://gephi.org/quickstart/?utm_source=chatgpt.com)\
   – **Export:** PNG/SVG/PDF images; GEXF/Graph files; **multi‑export** since 0.10.0. [0.10.0 highlights](https://newreleases.io/project/github/gephi/gephi/release/v0.10.0?utm_source=chatgpt.com)\
   – **Plugins:** Install from **Tools → Plugins** (Plugin Center); compatibility indicated by Gephi version. [Plugin Center](https://gephi.org/desktop/plugins/?utm_source=chatgpt.com), [Plugin quick start](https://docs.gephi.org/Plugins/Plugin_Quick_Start/?utm_source=chatgpt.com)\
-  – **Programmatic use:** Gephi Toolkit 0.10.1 (released 2023-03-08) is the latest Gephi Toolkit release listed on GitHub; it is based on Gephi 0.10.1, so do not assume it includes all Gephi Desktop 0.11.x behavior.
+  – **Programmatic use:** [Gephi Toolkit 0.11.3](https://github.com/gephi/gephi-toolkit/releases/tag/v0.11.3) (released 2026-09-06) is the latest Toolkit release and is based on Gephi 0.11.3.
 
 • **Optional dependencies:**\
 – A GPU/driver with stable **OpenGL** support improves interactivity; outdated/virtualized graphics can cause rendering issues.
