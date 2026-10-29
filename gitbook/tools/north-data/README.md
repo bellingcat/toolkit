@@ -44,7 +44,7 @@ Key features and content include:
 
 * **Free (no login):** Quick lookups and basic company/person pages
 * **Premium Service Account**: Starts at €49/month or €490/year excluding VAT (single user).
-* **API Access**: Separate plans start at €500/month excluding VAT, with a minimum 12-month term. The first 5,000 requests per month are included; further requests incur usage charges. The account covers all supported countries.
+* **API Access**: Separate plans start at €500/month excluding VAT, with a minimum 12-month term. The base fee includes the first 5,000 distinct companies or persons requested per calendar month; further distinct-company/person requests incur usage charges. Repeated HTTP calls for the same company or person in that month are not each a new billable entity. The account covers all supported countries.
 * **Data Export**: Starts at €2,250/quarter per country excluding VAT, with a minimum 12-month term.
 * **Investigative Accounts for Journalists**: Free premium access for journalists upon request and approval (email-based process).
 * Event alerts and watchlists require Premium Services; basic company/person lookups remain free.
@@ -97,7 +97,7 @@ User registration is required to access certain features (see the cost section).
   * Events: [https://help.northdata.com/en/center/event-filter](https://help.northdata.com/en/center/event-filter)
   * Performance indicators: [https://help.northdata.com/en/center/power-search-performance-indicator](https://help.northdata.com/en/center/power-search-performance-indicator)
   * Legal forms: [https://help.northdata.com/en/center/power-search-legal-forms](https://help.northdata.com/en/center/power-search-legal-forms)
-* **Data API & Exports (when quarterly exports still matter):** [https://help.northdata.com/en/center/data-api-and-export](https://help.northdata.com/en/center/data-api-and-export)
+* **Data API & Exports (when quarterly exports still matter):** [https://help.northdata.com/en/center/data-services](https://help.northdata.com/en/center/data-services)
 * **Google Sheets tutorial (Apps Script):** [https://blog.northdata.com/company-data-on-your-google-sheets-spreadsheet](https://blog.northdata.com/company-data-on-your-google-sheets-spreadsheet)
 
 ### **See also**
