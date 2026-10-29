@@ -588,7 +588,7 @@ To effectively use Telemetr.io, especially for beginners or those looking to ref
 
 **Tracking and Cookies:** Telemetr.io discloses the use of cookies and other tracking technologies, including analytics/marketing tools such as Google Analytics, Hotjar, Segment, ContentSquare, and Beamer (see Cookie Notice). Use the site with appropriate caution (e.g., browser extensions or settings to block trackers if desired).
 
-**Data Collection:** According to [Telemetr.io’s Cookie Notice](https://telemetr.io/en/use-of-cookies), the platform may process certain personal data via cookies, including the date and time of visits, a masked IP address, and approximate location (country, region, city, and latitude/longitude) of users. Users should be aware that by logging in through Google or Telegram and using the service, some of their data (albeit limited and anonymized) is being recorded
+**Data Collection:** According to [Telemetr.io’s Cookie Notice](https://telemetr.io/en/use-of-cookies), the platform may process certain personal data via cookies, including the date and time of visits, a masked IP address, and approximate location (country, region, city, and latitude/longitude) of users. Users should be aware that by logging in through Google or Telegram and using the service, some of their personal data may be processed as described in the notice.
 
 | Page maintainer |
 | --------------- |
