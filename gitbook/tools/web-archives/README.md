@@ -12,11 +12,11 @@ description: >-
 [https://github.com/dessant/web-archives](https://github.com/dessant/web-archives)
 
 [Chrome](https://chromewebstore.google.com/detail/web-archives/hkligngkgcpcolhcnkgccglchdafcnao) | [Firefox](https://addons.mozilla.org/firefox/addon/view-page-archive/) | [Opera](https://addons.opera.com/en/extensions/details/view-page-archive-cache/) | [Safari](https://apps.apple.com/us/app/web-archives-for-safari/id1603181853?platform=mac)\
-(current Chrome/GitHub version: 7.3.3; Firefox: 7.3.1; Safari/macOS: 7.2.0; Opera: 4.1.0)
+(Versions recorded in the June 2026 review — Chrome/GitHub: 7.3.3; Firefox: 7.3.1; Safari/macOS: 7.2.0; Opera: 4.1.0)
 
 ## Description
 
-eb Archives is a browser extension that opens archived or cached versions of a URL across multiple services, such as Internet Archive’s Wayback Machine, Archive.today, Perma.cc, Ghostarchive, WebCite and Software Heritage. You trigger lookups from the toolbar or the context menu; the extension then **sends the selected URL to the chosen archive** and opens results in a new tab. It does not crawl or store pages itself. Typical pivots include checking historical versions, retrieving removed pages, and comparing captures across archives.
+Web Archives is a browser extension that opens archived or cached versions of a URL across multiple services, such as Internet Archive’s Wayback Machine, Archive.today, Perma.cc, Ghostarchive, WebCite and Software Heritage. You trigger lookups from the toolbar or the context menu; the extension then **sends the selected URL to the chosen archive** and opens results in a new tab. It does not crawl or store pages itself. Typical pivots include checking historical versions, retrieving removed pages, and comparing captures across archives.
 
 **Example use case:** You are investigating a website that frequently updates its content or might remove sensitive pages. Web Archives enables you to quickly check archived versions from different platforms to track changes or retrieve deleted content.
 
@@ -28,25 +28,25 @@ You can start searches directly from the context menu or the browser toolbar.
 
 Open the extension menu and select the desired engine. This will open a new tab with the results.
 
-<figure><img src="../../.gitbook/assets/demo (5) (1).gif" alt=""><figcaption><p>You can also fetch on all engines simultaneously</p></figcaption></figure>
+<figure><img src=".gitbook/assets/demo (5) (1).gif" alt=""><figcaption><p>You can also fetch on all engines simultaneously</p></figcaption></figure>
 
 ### Fetch the archives for a link using the context menu
 
 If your target is a link available in the current page, you can right-click on the link, select "Web Archives" context menu and then select the desired engine.
 
-<figure><img src="../../.gitbook/assets/demo2 (1) (1).gif" alt=""><figcaption><p>You can use Web Archives' context menu on a link</p></figcaption></figure>
+<figure><img src=".gitbook/assets/demo2 (1) (1).gif" alt=""><figcaption><p>You can use Web Archives' context menu on a link</p></figcaption></figure>
 
 ### Fetch the archive of a given URL from the clipboard
 
 From the extension menu, select the URL Mode and then copy-paste the target URL.
 
-<figure><img src="../../.gitbook/assets/demo3url (1) (1).gif" alt=""><figcaption><p>The URL Mode allows you to fetch for a URL without opening it, that makes you check a resource passively, without interacting with the target.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/demo3url (1) (1).gif" alt=""><figcaption><p>URL Mode lets you query an archive without first opening the live target URL. The archive receives your query; replayed pages or redirects may still contact live sites, so this is not a guarantee of passive access.</p></figcaption></figure>
 
 ### Change behavior to open new tabs in the background
 
 By default, Web Archives will open the results in a new tab and switch focus to it. If you prefer to open the tab in the background and view the results later, you can adjust this behavior in **Options > Miscellaneous >&#x20;**_**Open new tabs in the background**_.
 
-<figure><img src="../../.gitbook/assets/demo4 (1) (1).gif" alt=""><figcaption><p>Now tabs will open in the background and you can switch focus to it later.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/demo4 (1) (1).gif" alt=""><figcaption><p>Now tabs will open in the background and you can switch focus to it later.</p></figcaption></figure>
 
 You can also choose the desired engines and re-order them in the Options.
 
@@ -102,7 +102,7 @@ Armin Sebastian ([@dessant on GitHub](https://github.com/dessant)) is an EU-base
 * [ ] This tool uses tracking cookies. Use with caution.
 * [x] This tool does not appear to use tracking cookies.
 
-Extension declares **“no data collected”** on the Chrome Web Store, and **“Data Not Collected”** on the Mac App Store. Individual archive services set their own cookies/policies; not assessed here. The tool itself does not use tracking cookies but the archving sites/search engines may use them. Be mindful of the their privacy policies.
+Extension declares **“no data collected”** on the Chrome Web Store, and **“Data Not Collected”** on the Mac App Store. Individual archive services set their own cookies/policies; not assessed here. The tool itself does not use tracking cookies but the archiving sites/search engines may use them. Be mindful of their privacy policies.
 
 | Page maintainer |
 | --------------- |
