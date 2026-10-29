@@ -8,7 +8,9 @@ description: Check usernames and email addresses on websites and social networks
 ## URL
 
 [https://github.com/p1ngul1n0/blackbird](https://github.com/p1ngul1n0/blackbird)\
-Latest code change: 13 July 2025. The README was last updated in October 2026 (new third-party installation option). No GitHub releases or version tags as of 28 October 2026.
+Latest code change: 13 July 2025. The README was last updated in October 2026 (new third-party installation option). No GitHub releases or version tags as of 2026-10-29.
+
+Last source/version check: 2026-10-29.
 
 ## Description
 
