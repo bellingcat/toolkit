@@ -46,7 +46,7 @@ To run Auto Archiver locally, some technical knowledge is needed for the initial
 
 ## Notable instances and case studies:
 
-* **Russia-Ukraine War**: [Bellingcat used the Auto Archiver to systematically capture social media posts](https://www.bellingcat.com/resources/how-tos/2022/03/08/how-to-archive-telegram-content-to-document-russias-invasion-of-ukraine/) from platforms like Telegram and X, creating a permanent record of military movements, civilian harm, and other evidence.
+* **Russia-Ukraine War:** In a [September 2022 article](https://www.bellingcat.com/resources/2022/09/22/preserve-vital-online-content-with-bellingcats-auto-archiver-tool/), Bellingcat reported using Auto Archiver to preserve thousands of pages, videos and images, including material depicting civilian harm during Russia's invasion of Ukraine. This is a historical publisher account of its use of Auto Archiver.
 * **Human Rights in Myanmar**: The tool has been used to document social media posts related to [human rights violations during the 2021 military coup](https://osr4rightstools.org/auto-archiver), preserving evidence of protests and crackdowns.
 * **Election Violence Evidence:** The Global Investigative Journalism Network (GIJN) highlighted the Auto Archiver as a critical tool for preserving video evidence of election-related violence, naming it one of its ["Top 10 Investigative Tools of 2023."](https://gijn.org/resource/revised-elections-reporting-guide-new-digging-tools/)
 * **Misinformation Campaigns**: Researchers use the tool to [save posts from coordinated disinformation campaigns](https://gijn.org/resource/investigating-digital-threats-disinformation/) before they are removed, allowing for later analysis of tactics.
