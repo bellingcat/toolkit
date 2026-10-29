@@ -26,7 +26,7 @@ Follow the site’s safety advice (use Tor/VPN, JS/privacy controls) when openin
 – [**Rocket.Chat corpus**](https://unicornriot.ninja/2022/patriot-front-fascist-leak-exposes-nationwide-racist-campaigns/) — includes **Patriot Front** leak; UR notes **55,249 Rocket.Chat messages** hosted with attachments and “Vault” downloads.\
 – [**Skype corpus**](https://discordleaks.unicornriot.ninja/skype/) — browsable conversations and user listings.
 
-<figure><img src="../../.gitbook/assets/image (59) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (59) (1).png" alt=""><figcaption></figcaption></figure>
 
 <details>
 
@@ -115,7 +115,7 @@ Overall, Unicorn Riot presents DiscordLeaks as a research tool but cautions that
 *   **Investigative Journalism:** Many news outlets have **cited DiscordLeaks to expose extremist activities**. For example, _ProPublica_ tapped the Charlottesville Discord chat dump to report how white supremacists joked about vehicular attacks weeks before[ Heather Heyer](https://de.wikipedia.org/wiki/Heather_Heyer) was killed; while doing so, ProPublica independently verified the identities of at least two users from the leak to confirm the authenticity of the conversations​
 
     ([propublica.org](https://www.propublica.org/article/white-supremacists-joked-about-using-cars-to-run-over-opponents-before-charlottesville),​ [propublica.org](https://www.propublica.org/article/white-supremacists-joked-about-using-cars-to-run-over-opponents-before-charlottesville)).\
-    \&#xNAN;_HuffPost_ journalists used Unicorn Riot’s Discord chats to identify **members of hate groups embedded in institutions** – in 2019 HuffPost revealed 11 U.S. military service members as participants in[ Identity Evropa](https://app.gitbook.com/s/syFo2CguDc8O5VWEVXJP/categories)’s Discord server, after cross-referencing the leaked messages (​[vice.com](https://www.vice.com/en/article/unicorn-riot-outed-a-white-nationalist-in-the-national-guard-but-theyre-not-kicking-him-out/), ​[vice.com](https://www.vice.com/en/article/unicorn-riot-outed-a-white-nationalist-in-the-national-guard-but-theyre-not-kicking-him-out/)). Similarly, local reporters have used DiscordLeaks to link extremists to real-world actions; for instance, chat evidence from the leaks helped journalists document how [Patriot Front](https://en.wikipedia.org/wiki/Patriot_Front) members coordinated vandalism and propaganda campaigns nationwide​ ([vice.com](https://www.vice.com/en/article/patriot-front-leaked-chats-porn-habits/), ​[vice.com](https://www.vice.com/en/article/patriot-front-leaked-chats-porn-habits/)).
+    _&#x48;uffPost_ journalists used Unicorn Riot’s Discord chats to identify **members of hate groups embedded in institutions** – in 2019 HuffPost revealed 11 U.S. military service members as participants in [Identity Evropa](https://en.wikipedia.org/wiki/Identity_Evropa)’s Discord server, after cross-referencing the leaked messages (​[vice.com](https://www.vice.com/en/article/unicorn-riot-outed-a-white-nationalist-in-the-national-guard-but-theyre-not-kicking-him-out/), ​[vice.com](https://www.vice.com/en/article/unicorn-riot-outed-a-white-nationalist-in-the-national-guard-but-theyre-not-kicking-him-out/)). Similarly, local reporters have used DiscordLeaks to link extremists to real-world actions; for instance, chat evidence from the leaks helped journalists document how [Patriot Front](https://en.wikipedia.org/wiki/Patriot_Front) members coordinated vandalism and propaganda campaigns nationwide​ ([vice.com](https://www.vice.com/en/article/patriot-front-leaked-chats-porn-habits/), ​[vice.com](https://www.vice.com/en/article/patriot-front-leaked-chats-porn-habits/)).
 *   **Academic and Analytical Research:** Scholars and extremism researchers have incorporated the DiscordLeaks dataset into their studies. A 2020 study on far-right online radicalization noted that researchers leveraged _Unicorn Riot’s Discord data from 129 different Discord servers_ to compile narratives of “redpilling” (radicalization) in those communities​
 
     ([osf.io](https://osf.io/vwnp4/download/)).\
@@ -149,7 +149,7 @@ Overall, Unicorn Riot presents DiscordLeaks as a research tool but cautions that
 * Partial Coverage: This is not a comprehensive archive of all Discord servers, or even all far-right servers. It only includes servers that Unicorn Riot’s team had access to.
 * Potential Data Gaps: Some servers or channels might have been deleted or not fully logged, leading to incomplete archives.
 * Relevance: The data can be most useful to those who already know the group, channel, or user they’re investigating.
-* Unverified Accuracy: Logs are presented as-is. Names, time stamps, or content may be incomplete or contain disinformation.
+* Unverified Accuracy: Logs are presented as-is. Names, time stamps, or content may be incomplete or contain disinformation. Discord usernames are handles, not verified identities. Attribute statements to handles unless identities are [independently corroborated](https://www.propublica.org/article/white-supremacists-joked-about-using-cars-to-run-over-opponents-before-charlottesville).
 
 ## Ethical Considerations
 
