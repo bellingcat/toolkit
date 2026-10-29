@@ -12,6 +12,8 @@ description: >-
 [https://logseq.com/](https://logseq.com/)\
 (desktop 2.0.2 DB beta, October 2026; mobile store apps remain on the 0.10.x file-graph line)
 
+Last source/version check: 2026-10-29.
+
 ## Description
 
 Logseq is an open-source, local-first knowledge management app for desktop and mobile. File graphs use **Markdown and Org-mode** and are now maintained separately as [Logseq OG](https://github.com/logseq/og). The current Logseq beta uses **SQLite DB graphs**, with collaboration features still in alpha. Core capabilities include block-based outliner notes, **bidirectional links and graph view**, **tasks/flashcards**, **advanced (Datalog-style) queries**, **PDF annotation**, and plugins/themes. File graphs also include whiteboards and built-in Zotero integration; these features have been removed from DB graphs. Typical OSINT workflows include journaling timelines, linking entities across sources, annotating PDFs, and pivoting through backlinks/queries. See the [DB feature changes](https://github.com/logseq/docs/blob/master/db-version-changes.md).
