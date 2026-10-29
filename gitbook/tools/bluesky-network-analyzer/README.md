@@ -12,6 +12,8 @@ description: >-
 
 [https://bsky-follow-finder.theo.io/](https://bsky-follow-finder.theo.io/)
 
+Last source/version check: 2026-10-29.
+
 ## Description
 
 BskyFollowFinder is a small web app for Bluesky that surfaces **second‑degree** connection suggestions: it lists accounts that many of your followees follow but that **you** don’t (yet). You can run it on **any handle** (including other users) without logging in; an optional app password lets you follow results directly from the page. Output is a ranked list by count, with a toggle to **“Sort by proportion (favours niche accounts)”** that highlights less‑popular but highly shared follows among your network.
