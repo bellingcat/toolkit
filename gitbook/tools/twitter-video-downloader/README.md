@@ -24,7 +24,7 @@ Twitter Video Downloader is a free website that converts a public X (formerly Tw
 6. Right-click (or control-click on Mac) on the video and select **Save Video As**.
 7. Rename the file if needed and save it to your desired location.
 
-<figure><img src="../../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
 
 ## Cost
 
@@ -85,7 +85,7 @@ This tool is easy to use and requires no technical knowledge.
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-The privacy policy names Google Analytics and browser cookies; no advertising placements were visible on the homepage, About page, Error page, or Privacy Policy page when checked on 2026-06-26.
+The privacy policy names Google Analytics and browser cookies; no advertising placements were visible on the homepage, About page, Error page, or Privacy Policy page when checked on 2026-06-26. On 2026-10-29, the homepage stated that a short ad may play before a download; this review did not run a download or measure tracking behavior.
 
 | Page Maintainer |
 | --------------- |
