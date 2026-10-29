@@ -39,8 +39,8 @@ Despite [EDGAR](https://bellingcat.gitbook.io/toolkit/more/all-tools/edgar)’s 
 #### 2. Access to Standardized Financial Data from XBRL (Companion Dataset)
 
 * **Challenge with EDGAR Web**: While EDGAR makes data from **XBRL** filings available, companies often define their own custom tags. Basic direct comparisons of net income or total assets across different issuers can be messy or incomplete.
-* **edgar-tool Solution**: While the `edgar-tool` CLI itself is dedicated to text and metadata retrieval, the tools' maintainers provide a separate, standalone financial profile `.csv` dataset as a companion resource. This dataset uses a custom library to map commonly used GAAP/XBRL tags to plain-English financial metric (e.g., “revenue,” “net income,” “debt,” etc.).
-  * **Example**: Instead of writing complex Python scripts to parse live XBRL data or sift through dozens of custom tag variations, journalists can download this tool's precompiled dataset to instantly view a unified historical time-series for public companies' key financial statements.
+* **edgar-tool Solution**: While the `edgar-tool` CLI itself is dedicated to text and metadata retrieval, Bellingcat's [December 2023 introduction](https://www.bellingcat.com/resources/2023/12/18/new-tools-dig-deeper-into-hard-to-aggregate-us-corporate-data/) described a separate financial-profile `.csv` companion dataset; its current download location and update date have not been verified for this entry. This dataset uses a custom library to map commonly used GAAP/XBRL tags to plain-English financial metric (e.g., “revenue,” “net income,” “debt,” etc.).
+  * **Example**: Instead of writing complex Python scripts to parse live XBRL data or sift through dozens of custom tag variations, a copy of the historical dataset could support comparisons of public-company financial statements, provided its source, coverage, metric definitions and update date are established first.
 
 #### 3. Flexible, Filtered RSS Feed for Company Monitoring
 
@@ -77,7 +77,7 @@ Despite [EDGAR](https://bellingcat.gitbook.io/toolkit/more/all-tools/edgar)’s 
 
 #### 8. Extra Tools: Financial Profile CSV
 
-* In addition to the real-time search & RSS, the tool’s maintainers provide a **financial dataset** in `.csv` form. This dataset aims to unify official EDGAR numbers into consistent lines for each public company, making cross-company or time-series analysis more straightforward.
+* Alongside its search and RSS tools, Bellingcat’s December 2023 introduction described a companion **financial dataset** in `.csv` form. Its current download location and maintenance status have not been verified for this entry. This dataset aims to unify official EDGAR numbers into consistent lines for each public company, making cross-company or time-series analysis more straightforward.
   * Great for generating quick historical charts (like net income trends) in Excel or Python.
 
 ## Cost
