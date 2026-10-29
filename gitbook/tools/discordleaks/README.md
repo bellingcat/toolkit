@@ -9,8 +9,9 @@ description: >-
 
 ## URL
 
-[https://discordleaks.unicornriot.ninja/](https://discordleaks.unicornriot.ninja/)\
-(last accessed June 26. 2026)
+[https://discordleaks.unicornriot.ninja/](https://discordleaks.unicornriot.ninja/)
+
+Last documentary source review: 2026-10-29.
 
 ## Description
 
