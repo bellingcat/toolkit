@@ -10,7 +10,7 @@ description: >-
 ## URL
 
 [https://logseq.com/](https://logseq.com/)\
-(version 0.10.15; June 2026)
+(desktop 2.0.2 DB beta, October 2026; mobile store apps remain on the 0.10.x file-graph line)
 
 ## Description
 
@@ -68,7 +68,7 @@ Latest changes: [https://github.com/logseq/logseq/releases](https://github.com/l
 * [ ] Partially Free
 * [ ] Paid
 
-Core app is free/open‑source (AGPL‑3.0‑only). Optional **Logseq Sync** is offered to supporters and is transitioning from beta; **Logseq Pro** (sync with own storage, real‑time collaboration) has been announced, but pricing is not finalized publicly. **Status can change; check current offers.**
+Core app is free/open‑source (AGPL‑3.0‑only) for local graphs. Optional **Logseq Sync and DB-graph real-time collaboration (RTC)** are offered to active monthly OpenCollective backers/sponsors; the Backers tier currently starts at US$5/month. See the provider’s [current access terms and contribution tiers](https://opencollective.com/logseq).
 
 ## Level of difficulty
 
@@ -82,16 +82,16 @@ Getting started (notes, links, tags, tasks) is straightforward. Power features, 
 * **Install methods:**\
   – **Desktop:** GitHub Releases (Win EXE, macOS DMG/ZIP \[Intel/ARM], Linux AppImage/ZIP); macOS via **Homebrew** (`brew install --cask logseq`); Windows via **winget** (`Logseq.Logseq`).\
   – **Linux helper script:** `install-linux.sh` from the official repo. [GitHub](https://github.com/logseq/logseq)\
-  – **Mobile:** iOS App Store; Android via **F‑Droid** (Logseq is not listed on Google Play as of 2025‑10).
+  – **Mobile:** iOS App Store (legacy file-graph app; the separate DB mobile app is an alpha via TestFlight); Android via **F‑Droid** (Logseq is not listed on Google Play as of 2025‑10).
 * **Auth/tokens:** Not required for local graphs. **Logseq Sync** and RTC features require a Logseq account (historically provisioned via OpenCollective backer access during beta).
 
 ## Limitations
 
 * **Learning Curve**: Logseq has a steep learning curve for users unfamiliar with markdown or outliner software.
-* **Performance**: Can experience performance issues with very large databases or extensive use of plugins. Large numbers of notes can cause [performance issues](https://discuss.logseq.com/t/curious-about-performance/27708/6). The dev team is working on a [database + markdown version](https://discuss.logseq.com/t/why-the-database-version-and-how-its-going/26744) to improve this.
+* **Performance**: Can experience performance issues with very large databases or extensive use of plugins. Large numbers of notes can cause [performance issues](https://discuss.logseq.com/t/curious-about-performance/27708/6). The dev team is working on a [database (DB) version](https://discuss.logseq.com/t/why-the-database-version-and-how-its-going/26744) to improve this. The DB version is beta; its new mobile app and RTC are alpha. Data loss is possible: keep backups and use a separate, non-critical test graph. See the [provider’s DB guidance](https://github.com/logseq/logseq#-database-version).
 * **Mobile App**: The mobile app is not as fully featured as the desktop version, which may limit functionality on the go. Logseq doesn't document exactly what these features are.
 * **Export Options**: While Logseq supports exporting to Markdown, org-mode, and JSON, transitioning fully formatted notes to other platforms like Microsoft Word may require additional formatting. This forum post details some solutions: [How to export to Word and maintain the outline structure?](https://discuss.logseq.com/t/how-to-export-to-word-and-maintain-the-outline-structure/18746)
-* **Collaboration**: Real-time collaboration is not as straightforward as on other platforms like Google Docs. Workarounds are needed to collaborate effectively. The [database + markdown version](https://discuss.logseq.com/t/why-the-database-version-and-how-its-going/26744) is intended to improve this.
+* **Collaboration**: In file-graph workflows, real-time collaboration is not as straightforward as on other platforms like Google Docs. Workarounds are needed to collaborate effectively. The [database (DB) version](https://discuss.logseq.com/t/why-the-database-version-and-how-its-going/26744) now provides RTC in alpha, with separate access requirements and limitations.
 * **Plugin Ecosystem**: Although growing, the plugin ecosystem is not as extensive as more mature platforms (such as [Roam Research](https://roamresearch.com/) or [Obsidian](https://obsidian.md/)), potentially limiting customization options.
 
 ## Ethical Considerations
