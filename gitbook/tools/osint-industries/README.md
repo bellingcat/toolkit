@@ -1,12 +1,14 @@
 ---
-description: A brief one line description of this tool
+description: >-
+  A search platform for identifiers such as email addresses, phone numbers and
+  usernames.
 ---
 
 # OSINT Industries
 
 ## URL
 
-https://example.com
+[https://www.osint.industries/](https://www.osint.industries/)
 
 ## Description
 
@@ -14,11 +16,11 @@ https://example.com
 
 ## Cost
 
-* [x] Free
+* [ ] Free
 * [ ] Partially Free
-* [ ] Paid
+* [x] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
+General access uses paid credit plans. The provider offers application-based free access or trials to some eligible users; check current eligibility and terms on the [pricing page](https://www.osint.industries/pricing).
 
 ## Level of difficulty
 
