@@ -11,7 +11,9 @@ description: >-
 
 [https://www.zotero.org](https://www.zotero.org)
 
-Current release listed in the official changelog: Zotero 10.0.6 (2026-10-07). Earlier entry check: 2026-06-29.
+Current release in the [official changelog](https://www.zotero.org/support/changelog): Zotero 10.0.6 (2026-10-07).
+
+Last source/version check: 2026-10-29.
 
 ## Description
 
