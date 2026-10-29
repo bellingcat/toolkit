@@ -2,7 +2,7 @@
 updated: '2026-06-26'
 description: >-
   TelegramDB is a searchable database service that allows users to explore
-  public Telegram groups and channels via a dedicated bot.
+  public Telegram groups and channels through its web app.
 ---
 
 # TelegramDB
@@ -14,14 +14,14 @@ description: >-
 
 ## Description
 
-TelegramDB (“TgDB”) is a searchable index of public Telegram spaces exposed through two products: **TgDB Search Lite** (a free bot at `@tgdb_search_bot`) and **TgDB Search Plus** (a web bot/webchat at tgdb.org for advanced/credit‑based queries). Core functions include keyword discovery of public channels, groups and bots, resolving IDs/usernames, and footprinting a user’s public group/channel history. Recent additions include network/affinity discovery (similar users or “near” users; groups with similar communities) and expanded result volumes for paid searches.
+TelegramDB (“TgDB”) is a searchable index of public Telegram spaces accessed through TgDB Search Plus on the web. The provider has announced retirement of its Telegram bot; a possible future lightweight bot has not been established as available. Core functions include keyword discovery of public channels, groups and bots, resolving IDs/usernames, and footprinting a user’s public group/channel history. Recent additions include network/affinity discovery (similar users or “near” users; groups with similar communities) and expanded result volumes for paid searches.
 
 \
-The bot lets you:
+The service offers the following indexed-data functions:
 
 1. **Look up public chats** by keyword, name or username.
 2. **Check a user’s public footprint** (`/where`) and see which groups they’ve joined.
-3. **Export data** (CSV) such as full member lists, overlapping users or “near” users for network analysis tools.
+3. **Export data** (CSV) such as indexed member records, overlapping users or “near” users for network analysis tools.
 4. **See live stats** on the TelegramDB index (`/stats`).
 
 As of 2026-06-26, Telegram’s public bot page lists 658,148 monthly users for TgDB Search Lite (@tgdb\_search\_bot).
@@ -30,7 +30,7 @@ Recent[ TgDB Search Plus updates](https://t.me/s/tgdatabase) include multilingua
 
 ### Commands
 
-As of 2025, TelegramDB straddles a freemium model: a free “Search Lite” bot for basic discovery and a “Search Plus” web bot for premium features and heavy usage. Telegram’s bot info page shows a public monthly-user count for TgDB Search Lite (@tgdb\_search\_bot); treat this as a rough indicator that changes over time.
+The provider now directs users to TgDB Search Plus on the web after retiring its Telegram bot. The command overview below records the earlier interface; check the current web app for available functions and costs.
 
 <details>
 
@@ -64,7 +64,7 @@ As of 2025, TelegramDB straddles a freemium model: a free “Search Lite” bot 
 
 **Partially Free**
 
-* **Free tier** (Search Lite): /search and /resolve are available without credits; /search returns 20 free results before paid expansion.
+* **Documented free allowance**: /search and /resolve are documented as available without credits; /search returns 20 free results before paid expansion.
 * **Paid tier** (Search Plus): premium functions use credits. The official news channel says the web interface is the place to purchase credits and access the full premium feature set, including /where, /members, /near and /network.
 
 Search costs scale with result volume. Example (from [TelegramDB’s GitHub README](https://raw.githubusercontent.com/TelegramDB/TelegramDB/master/README.md)): /search as 20 free results plus 1 credit per additional 40 results, and /where as a 3-credit base price plus 1 credit per additional 40 results after the free count-only allowance. Always check the in-app cost preview before spending credits.
@@ -90,16 +90,15 @@ The live credit-bundle price table was not reachable in this audit. Check the we
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
 
-* For most workflows this is **easy**: you interact with a Telegram bot or a simple web UI—no CLI, coding, or API keys. Investigators should be comfortable with Telegram usernames/IDs and basic search/refinement. Advanced outputs (CSV exports, larger result sets, user/network analysis) require using the web bot and credit management.
+* For most workflows this is **easy**: you interact with the web UI—no CLI, coding, or API keys. Investigators should be comfortable with Telegram usernames/IDs and basic search/refinement. Advanced outputs (CSV exports, larger result sets, user/network analysis) require using the web bot and credit management.
 * Premium features (CSV exports, group network mapping) can be used for deeper OSINT investigations or data analytics.
 
 ## Requirements
 
-* **Platform/runtime:** Any modern browser (tgdb.org web bot) or Telegram app (bot). [tgdb.org](https://www.tgdb.org/bot?utm_source=chatgpt.com)
-* **Access & install:** No local install. Start the bot at @tgdb\_search\_bot (Lite) or use TgDB Search Plus via the web bot (tgdb.org/bot; some announcements also reference tgdb.org/page/bot). [Telegram](https://t.me/tgdb_search_bot)
-* **Auth / tokens:** TgDB Search Lite requires a Telegram account. TgDB Search Plus uses a TgDB website account; credits are purchased via /credits and availability of payment methods can vary over time. [GitHub](https://github.com/TelegramDB/TelegramDB)
-* **Telegram Account**: Telegram account: Required for TgDB Search Lite at @tgdb\_search\_bot. TgDB Search Plus is accessed via the TgDB webchat and may require a TgDB website account.
-* **Credits**: Needed for premium features (purchased in-bot)
+* **Platform/runtime:** A modern browser for [TgDB Search Plus](https://www.tgdb.org/bot).
+* **Access & install:** No local install. Use [TgDB Search Plus](https://www.tgdb.org/bot); the provider has retired its Telegram bot.
+* **Auth / tokens:** TgDB Search Plus uses a website account. Check the web interface for current authentication and payment options.
+* **Credits**: Premium features require credits purchased through the TgDB web interface; check its current cost preview.
 * **Data Analysis Skills**: Helpful for interpreting CSV files, especially if you plan to load them into visualization tools (e.g. Maltego).
 
 ## Limitations
@@ -120,7 +119,7 @@ The live credit-bundle price table was not reachable in this audit. Check the we
 * **Governing Law & Disputes:** Use of TelegramDB is governed by the laws of Italy. In the event of disputes, the Terms specify resolution via arbitration in Milan, Italy, conducted in English (unless otherwise required by law).
 * **Account Termination:** TelegramDB reserves the right to suspend or terminate your access for violations of the Terms of Use. If an account is terminated, creating substitute accounts to bypass the ban is not allowed without explicit permission.
 
-(Refer to the full Terms of Service via the /terms command in the bot for complete details. TelegramDB’s GitHub README also describes GDPR/data-removal requests: check whether the content remains on Telegram first, then email TelegramDB with the chat ID or username and the reason for removal.)
+(Check the current Terms of Service in the web app; the summary above describes the earlier service terms and has not been reverified for the current web service. TelegramDB’s GitHub README also describes GDPR/data-removal requests: check whether the content remains on Telegram first, then email TelegramDB with the chat ID or username and the reason for removal.)
 
 ## Ethical Considerations
 
@@ -133,7 +132,7 @@ The live credit-bundle price table was not reachable in this audit. Check the we
 
 * TelegramDB – **README / product overview** (commands, credits, policies). [GitHub](https://github.com/TelegramDB/TelegramDB)
 * TgDB News (@tgdatabase) – official announcements about access changes, outages, search behavior and feature updates: [https://t.me/s/tgdatabase](https://t.me/s/tgdatabase?utm_source=chatgpt.com)
-* TgDB Search Lite – **Bot page** (`@tgdb_search_bot`). [Telegram](https://t.me/tgdb_search_bot)
+* Retired TgDB Search Lite – **historical bot page** (`@tgdb_search_bot`). [Telegram](https://t.me/tgdb_search_bot)
 * TelegramDB – Content policies, GDPR/data-removal process and contact email in the official README: [https://github.com/TelegramDB/TelegramDB](https://github.com/TelegramDB/TelegramDB?utm_source=chatgpt.com)
 * Authentic8 – **Understanding Telegram for OSINT research** (contextual how‑to, 2025‑06‑05). [https://authentic8.com/telegram-osint-research](https://authentic8.com/telegram-osint-research)
 
@@ -142,7 +141,7 @@ The live credit-bundle price table was not reachable in this audit. Check the we
 TelegramDB.org / TgDB Team maintains the service. Public organizational details are limited; the official [GitHub README](https://raw.githubusercontent.com/TelegramDB/TelegramDB/master/README.md) identifies the project’s public endpoints, support group and support account, and says the service is not affiliated with Telegram. The README also says its servers are located on European territory.
 
 But they're listening to the community:\
-![](<../../.gitbook/assets/image (41) (2).png>)
+![](<.gitbook/assets/image (41) (2).png>)
 
 ## Advertising Trackers
 
