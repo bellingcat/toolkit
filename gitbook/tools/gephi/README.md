@@ -30,12 +30,12 @@ Gephi includes built-in support for computing **key metrics** that help identify
 * [**Degree Centrality**](https://cambridge-intelligence.com/keylines-faqs-social-network-analysis/) measures how many direct connections (edges) a node has. A node with a high degree centrality has **many links to others**, making it well-connected. It’s essentially a count of immediate neighbors.
   * _What it indicates:_ Nodes with higher degree centrality can be influencers or hubs that directly reach many others.
   * _Example:_ In a Twitter network, a user with connections to many others (through follows or mentions) would have high degree centrality.
-* [**Betweenness Centrality**](https://cambridge-intelligence.com/keylines-faqs-social-network-analysis/) measures how often a node lies on the **shortest paths between other nodes**​. In other words, a node with high betweenness centrality is a critical **broker or bridge** in the network.
-  * _What it indicates:_ Such nodes connect different clusters or sections of the graph; they may not have the most connections, but they control information or resource flow by being on the paths that link others. A higher betweenness means a greater brokerage role. They act as gatekeepers or intermediaries.
+* [**Betweenness Centrality**](https://cambridge-intelligence.com/keylines-faqs-social-network-analysis/) measures how often a node lies on the **shortest paths between other nodes**​. In other words, a node with high betweenness centrality lies on many shortest paths and may be a potential **broker or bridge** in the modeled network.
+  * _What it indicates:_ Such nodes connect different clusters or sections of the graph; they may not have the most connections, but they may be candidates for further investigation as intermediaries. Actual control of information or resources requires evidence beyond a shortest-path score.
   * _Example:_ In a criminal network, a person who links two otherwise separate groups (even with only a few connections themselves) likely has high betweenness – remove that person and the network might fragment.
-* [**Closeness Centrality**](https://cambridge-intelligence.com/keylines-faqs-social-network-analysis/)**:** Measures how “close” a node is to all others in the network, typically defined as the **reciprocal of the total distance** from that node to all other nodes. A node with high closeness centrality can reach all others _quickly_ (in few hops on average).
-  * _What it indicates:_ This can identify nodes that are centrally positioned overall (not in a geographical sense, but in network topology). Such nodes could quickly disseminate information to the entire network.
-  * _Example:_ In a social network, someone at the “center” of the friend-of-friend graph (even if they aren’t connected to everyone directly) will have a high closeness score, meaning they are on average a short distance from anyone in the network.
+* [**Closeness Centrality**](https://github.com/gephi/gephi/blob/master/modules/StatisticsPlugin/src/main/java/org/gephi/statistics/plugin/GraphDistance.java): Gephi calculates the number of reachable other nodes divided by their summed hop distances. High values indicate short average paths to reachable nodes, not guaranteed reachability of the entire graph.
+  * _What it indicates:_ This can identify nodes that are centrally positioned overall (not in a geographical sense, but in network topology). Short paths describe potential connections to reachable nodes; actual information dissemination requires separate evidence.
+  * _Example:_ In a social network, someone at the “center” of the friend-of-friend graph (even if they aren’t connected to everyone directly) will have a high closeness score, meaning they are on average a short distance from other reachable nodes in the modeled network.
 
 <details>
 
@@ -43,7 +43,7 @@ Gephi includes built-in support for computing **key metrics** that help identify
 
 **Core Concepts**
 
-* **Weighted vs. Unweighted Metrics:** Many of these measures (degree, clustering coefficient, path length, centralities) can be computed in both unweighted (treating all edges equally) and weighted modes (if your edges have an associated weight).
+* **Weighted vs. Unweighted Metrics:** Weight support depends on the statistic. Weighted degree sums edge weights, but Gephi’s built-in Network Diameter calculations use unweighted hop distances for paths, betweenness and closeness.
 * **Directed vs. Undirected Graphs:** For directed graphs (e.g., Twitter follow networks), some metrics like in-degree/out-degree, PageRank, and HITS become crucial. In undirected graphs (e.g., co-appearance networks), you only have a single “degree” measure.
 * **Plugins & Experimental Metrics:** Gephi’s plugin repository may offer additional statistical measures or variants (for example, advanced community detection algorithms, [Hierarchical Edge Bundling](https://gephi.wordpress.com/tag/edge-bundling/), [timeline-based metrics](https://gephi.org/plugins/#/plugin/eventgraphlayout), or [new centrality formulas](https://gephi.org/plugins/#/plugin/bridge-gephi-plugin)). Be sure to check the Gephi Plugin Center if you need specialized metrics.
 
