@@ -13,6 +13,8 @@ description: >-
 [https://datasette.io](https://datasette.io)\
 (v.0.65.5, released September 16, 2026)
 
+Last source/version check: 2026-10-29.
+
 ## Description
 
 Datasette is a free, open-source tool that enables you to transform your datasets into an interactive database website, making it easy to explore and share data without requiring advanced technical skills.
