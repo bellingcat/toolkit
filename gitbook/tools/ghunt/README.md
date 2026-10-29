@@ -14,11 +14,11 @@ description: A command line tool for obtaining information about Google accounts
 
 <figure><img src=".gitbook/assets/Screenshot 2024-07-29 at 10.49.53 PM (1).png" alt=""><figcaption></figcaption></figure>
 
-GHunt is a local command-line and Python framework for open-source research around Google accounts and Google-linked artefacts. It starts from identifiers such as a Gmail address, GAIA ID, Google Drive file or folder link, Wi-Fi BSSID, or Digital Asset Links data, then queries Google service surfaces and exposed metadata that are reachable to the authenticated session.
+GHunt is a local command-line and Python framework for open-source research around Google accounts and Google-linked artefacts. It starts from identifiers such as an email address associated with a Google account, GAIA ID, Google Drive file or folder ID, Wi-Fi BSSID, or Digital Asset Links data, then queries Google service surfaces and exposed metadata that are reachable to the authenticated session.
 
 The usual workflow is: install GHunt with pipx, run ghunt login, authenticate with a Google session using GHunt Companion, then run a module from the command line. GHunt Companion can either send the required Google cookies to a local GHunt listener on port 60067 or copy base64-encoded cookie material for pasting into the login prompt. Since the v2.1.0 rewrite, GHunt uses an OAuth-token and Android-master-token based approach internally, while the Companion extension remains the supported helper for setup.
 
-The main modules are email, gaia, drive, geolocate, and spiderdal. The email module pivots from a Gmail address; gaia pivots from a Google account identifier; drive extracts metadata from shared Drive links; geolocate estimates the location of a Wi-Fi access point from a BSSID; and spiderdal follows Google Digital Asset Links declarations to identify related web or Android app assets. Several modules support JSON export for documentation or later analysis.
+The main modules are email, gaia, drive, geolocate, and spiderdal. The email module pivots from an email address associated with a Google account; gaia pivots from a Google account identifier; drive extracts metadata using a Drive file or folder ID obtained from a shared link; geolocate estimates the location of a Wi-Fi access point from a BSSID; and spiderdal follows Google Digital Asset Links declarations to identify related web or Android app assets. Several modules support JSON export for documentation or later analysis.
 
 GHunt should be treated as a pivot and enrichment tool, not as a verification tool. Returned account details, service associations, Drive metadata, BSSID locations, and linked assets should be corroborated with other sources before being used in reporting or evidence workflows.
 
@@ -101,7 +101,7 @@ Jake Creps: [OSINT Newsletter - Ghunt](https://osintnewsletter.com/p/ghunt); att
 
 [Maltego ](https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/zN2THeKre3FW0PtY09jc/)Google Social Network / Google Programmable Search Engine transforms: use when you want graph-based pivots from names or aliases into broader web and social profile discovery. It is better for relationship mapping than for GHunt’s Google-specific account and Drive metadata workflow.
 
-[Sherlock](https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/jONzWxigquVNbAeyCM28/): use when your starting point is a username or alias rather than a Gmail address. Sherlock checks for matching usernames across hundreds of social networks, while GHunt focuses on Google-linked identifiers and artefacts.
+[Sherlock](https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/jONzWxigquVNbAeyCM28/): use when your starting point is a username or alias rather than an email address associated with a Google account. Sherlock checks for matching usernames across hundreds of social networks, while GHunt focuses on Google-linked identifiers and artefacts.
 
 [OSINT Industries:](https://osint.industries/) use when you need a hosted, paid identity-search platform instead of a local command-line workflow. Treat it as a separate service with its own pricing, data sources, and terms, even though the GHunt README points to it as an online version.
 
