@@ -9,7 +9,8 @@ description: >-
 ## URL
 
 Tool page: [https://anytype.io/](https://anytype.io/)\
-(Version current as of 2025‑08)\
+Current desktop release: [0.57.4](https://github.com/anyproto/anytype-ts/releases/tag/v0.57.4), released 2026-10-03.\
+Last source/version check: 2026-10-29.\
 [Current downloads and release channels](https://github.com/anyproto/anytype-ts/releases)
 
 ## Description
