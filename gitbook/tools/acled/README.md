@@ -53,13 +53,13 @@ The [ACLED Explorer](https://acleddata.com/platform/explorer/) filters and summa
 
 #### _**ACLED Trends**_
 
-ACLED Trendfinder provides interactive tools for tracking global political violence and demonstrations. It enables the identification of significant changes, historical context, and early warning signs of conflict emergence across countries and regions.
+The following walkthrough illustrates the older Trendfinder interface. Current ACLED Trends emphasizes forecasts and scenario analysis; verify its current controls and exports before following the historical examples. It enables the identification of significant changes, historical context, and early warning signs of conflict emergence across countries and regions.
 
 <figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 <details>
 
-<summary>Trends Functions</summary>
+<summary>Legacy Trendfinder functions (historical examples)</summary>
 
 * **Annual Trend graph**: a bar chart and line graph with a time range slider.
 * **Compare**: compare events to the previous month or year.
