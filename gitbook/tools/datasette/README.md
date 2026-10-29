@@ -27,15 +27,15 @@ In simpler terms, if you have information in a spreadsheet or CSV file and want 
 
 According to Datasette creator Simon Willison, ["One of the most compelling use cases of Datasette"](https://www.newsroomrobots.com/p/how-datasette-helps-with-investigative) was Bellingcat's use of Datasette to examine leaked data – analyzing a leaked food delivery company database to uncover links to Russia's security agency. This means that whether you’re a journalist sifting through thousands of records or a researcher sharing data with the public, Datasette can make the job easier by providing an intuitive way to browse and query your information.
 
-Under the hood, Datasette packages your data (of almost any shape or size) into a lightweight SQLite database and automatically generates a web interface and URL [endpoints for it](https://datasette.io). However, you don’t need to know SQL or database programming to use the basic features – Datasette’s web UI lets you filter tables, sort results, and search your data through simple forms and links. More technically inclined users **can** leverage SQL queries for complex analysis or use the provided JSON API to integrate the data into other applications. In other words, Datasette works for beginners who just want point-and-click data exploration **and** for advanced users who might script queries or build upon the data.
+Under the hood, Datasette serves prepared SQLite databases (convert CSV or other structured inputs first with companion tools such as sqlite-utils) and automatically generates a web interface and URL [endpoints for it](https://datasette.io). However, you don’t need to know SQL or database programming to use the basic features – Datasette’s web UI lets you filter tables, sort results, and search your data through simple forms and links. More technically inclined users **can** leverage SQL queries for complex analysis or use the provided JSON API to integrate the data into other applications. In other words, Datasette works for beginners who just want point-and-click data exploration **and** for advanced users who might script queries or build upon the data.
 
 Some key things you can do with Datasette include:
 
-* **Explore data interactively:** Upload or import your dataset (e.g., CSV files or other formats) and Datasette will allow you to browse the tables, view individual records, and follow relationships between tables. You can click to apply filters or conduct a full-text search of your data, helping you find stories and patterns without writing code.
-* **Share data easily:** With a single command, you can deploy your data as a public or private website that others can access. It’s like publishing your spreadsheet online, but with additional features for sorting, filtering, and exporting. Colleagues or readers can use the interface to answer their own questions from the data, or download slices of the data in CSV or JSON format.
+* **Explore data interactively:** Prepare a SQLite database, using an import tool for formats such as CSV; Datasette then allows you to browse the tables, view individual records, and follow relationships between tables. You can click to apply filters or, where a full-text index has been configured, search your data, helping you find stories and patterns without writing code.
+* **Share data easily:** With hosting configured, you can publish a reachable website; private data also requires suitable access rules and authentication. It’s like publishing your spreadsheet online, but with additional features for sorting, filtering, and exporting. Colleagues or readers can use the interface to answer their own questions from the data, or download slices of the data in CSV or JSON format.
 * **Export and API access:** Every table and query in Datasette can be exported. You can download results as CSV or JSON files, or access them programmatically via an API endpoint. This means other tools or journalists can fetch the data directly for further analysis or visualizations.
 * **Extensibility with plugins:** Datasette has a rich plugin ecosystem that adds extra functionality. For instance, there are plugins for plotting charts, handling geospatial data, adding user authentication, and more. If you have a special need, there’s a good chance a plugin (or the option to write one) can extend Datasette to meet it.
-* **Multiple deployment options:** You can run Datasette on your own computer for private analysis, or host it on cloud services to share with the world. There’s even **Datasette Desktop** (a simple application for macOS) and **Datasette Cloud** (a hosted service) if you prefer a point-and-click approach to running the tool. Advanced users can use the `datasette publish` command to deploy to platforms like Google Cloud Run or Vercel [in seconds](https://datasette.io/for/publishing-data).
+* **Multiple deployment options:** You can run Datasette on your own computer for private analysis, or host it on cloud services to share with the world. There’s even **Datasette Desktop** (a simple application for macOS) and **Datasette Cloud** (a hosted service) if you prefer a point-and-click approach to running the tool. Advanced users can use the `datasette publish` command to deploy to configured hosting such as Google Cloud Run, or Vercel with a separate publishing plugin. See the [publishing documentation](https://docs.datasette.io/en/stable/publish.html).
 
 **Why is this useful for journalists?** Because it eliminates a significant amount of friction in analyzing and publishing data. Instead of building a custom database or application for each dataset, Datasette provides a ready-made solution. A journalist, for example, can take a large list of public records or FOIA data, load it into Datasette, and immediately start filtering and searching for interesting entries or outliers. They can then share the same Datasette instance with editors or readers, allowing them to verify findings or explore the data further independently. The tool promotes transparency by making the “raw data” behind a story accessible in an interactive format, similar to how the Guardian’s Data Blog shares source data for readers to examine.
 
@@ -50,25 +50,24 @@ Datasette Desktop), then run:
 datasette serve mydata.db
 ```
 
-Seconds later, colleagues can filter tables, run SQL, download results, and\
-embed charts—without needing a backend developer.
+You can then explore the database locally. Colleagues need a reachable deployment; charts require an appropriate plugin.
 
 ### Typical use cases
 
-| Scenario                                    | How Datasette helps                                                                                                                                                                       |
-| ------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Ask natural-language questions of a dataset | `datasette-query-assistant` translates prompts to SQL & shows provenance. ([datasette.cloud](https://www.datasette.cloud/blog/2023/datasette-plot/?utm_source=chatgpt.com))               |
-| Rapid exploratory data-viz                  | `datasette-plot` lets users build shareable Observable Plot charts from tables/queries. ([datasette.cloud](https://www.datasette.cloud/blog/2023/datasette-plot/?utm_source=chatgpt.com)) |
-| Publish FOIA transparency data              | `datasette publish cloudrun` for a scale-to-zero interactive portal.                                                                                                                      |
-| Private newsroom data room                  | Datasette Cloud with per-table permissions and Newsrooms starter bundle. ([simonwillison.net](https://simonwillison.net/tags/datasette-cloud/))                                           |
-| Reproducible notebooks & APIs               | Bundle `.db` + `metadata.yaml`; anyone can clone & run.                                                                                                                                   |
+| Scenario                                    | How Datasette helps                                                                                                                                                                                                                  |
+| ------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Ask natural-language questions of a dataset | [`datasette-query-assistant`](https://datasette.io/plugins/datasette-query-assistant) is an early-alpha plugin that generates commented SQL from questions; model configuration and any required API key are separate prerequisites. |
+| Rapid exploratory data-viz                  | `datasette-plot` lets users build shareable Observable Plot charts from tables/queries. ([datasette.cloud](https://www.datasette.cloud/blog/2023/datasette-plot/?utm_source=chatgpt.com))                                            |
+| Publish FOIA transparency data              | `datasette publish cloudrun` for a scale-to-zero interactive portal.                                                                                                                                                                 |
+| Private newsroom data room                  | Datasette Cloud with per-table permissions and Newsrooms starter bundle. ([simonwillison.net](https://simonwillison.net/tags/datasette-cloud/))                                                                                      |
+| Reproducible notebooks & APIs               | Bundle `.db` + `metadata.yaml`; anyone can clone & run.                                                                                                                                                                              |
 
 #### Key features
 
 * **Instant web interface** (table view, faceting, SQL editor, CSV export, API explorer `/-/api`).
-* **Stable JSON and CSV API** with row-level permissions; **alpha JSON Write API (CRUD + alter-table)**.
+* **Stable JSON and CSV API** with configurable instance, database, table/view and canned-query permissions; **alpha JSON Write API (CRUD + alter-table)**.
 * **Plugin system**—maps, Vega [& Observable Plot charts](https://www.datasette.cloud/blog/2023/datasette-plot/), GraphQL, auth, enrichments and more
-* **`datasette publish`** helpers for Vercel, Fly.io, Google Cloud Run, GitHub Pages static builds
+* **`datasette publish`** supports Google Cloud Run; Vercel and Fly.io use separate publishing plugins and require host-account/CLI setup
 * **Datasette Desktop** one-click macOS app; **Datasette Cloud** managed SaaS (private or public) ([datasette.io](https://datasette.io/desktop?utm_source=chatgpt.com)[datasette.io](https://datasette.io/))
 * Alpha-stage **write API** (`insert`, `update`, `upsert`, `alter table`) in 1.0a series ([Datasette](https://docs.datasette.io/en/latest/changelog.html?utm_source=chatgpt.com))
 
@@ -98,8 +97,7 @@ Cloud pricing on request.
 * **JSON Write support is experimental** and remains alpha until Datasette 1.0 stable.
 * Each SQL query has a configurable row cap; oversized results are truncated\
   (`"truncated": true`). ([Datasette](https://docs.datasette.io/en/latest/changelog.html?utm_source=chatgpt.com))
-* **Security defaults to public**; you must enable plugins (e.g. `datasette-auth-*`)\
-  or Cloud permissions for private data.
+* **Security defaults to public**; configure access rules and a suitable authentication method, or Cloud permissions, before serving private data.
 * No built-in version control. Use CI (e.g. GitHub Actions) to rebuild and redeploy.
 
 ## Ethical Considerations
