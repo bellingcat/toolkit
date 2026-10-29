@@ -10,6 +10,8 @@ description: Download pictures or videos (with metadata) from Instagram.
 [https://instaloader.github.io](https://instaloader.github.io)\
 Historical examples: v4.15.1 (released 2026-03-21), checked 2026-06-19. Current published release: v4.16 (2026-10-26), requiring Python 3.10 or later.
 
+Last source/version check: 2026-10-29.
+
 {% hint style="warning" %}
 Usage may lead to the loss of the Instagram account being used. Please see Limitations and Ethical Considerations before using this tool.
 {% endhint %}
