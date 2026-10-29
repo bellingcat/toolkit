@@ -10,7 +10,9 @@ description: >-
 ## URL
 
 [https://bellingcat.github.io/telegram-group-joiner/](https://bellingcat.github.io/telegram-group-joiner/)\
-(latest commit on **2023‑12‑18,** last checked June 2026)
+Latest repository commit: [2026-03-02](https://github.com/bellingcat/telegram-group-joiner/commit/863c47fd28930dc03059411251c11a97422ba900) (workflow updates). A repository commit is not a versioned release.
+
+Last source/version check: 2026-10-29.
 
 ## Description
 
@@ -59,7 +61,7 @@ Use a modern desktop browser such as Chrome, Firefox, or Edge. (The page relies 
 * **Join‑cap**: Telegram enforces an account‑level cap on the number of joined **channels/supergroups**; the values are exposed in the API config (`channels_limit_default` / `channels_limit_premium`) and widely tracked as \~**500** for free accounts and up to **1000** for Premium (numbers can change). [core.telegram.org](https://core.telegram.org/api/config?utm_source=chatgpt.com)
 * **Rate limits / flood control**: Rapid joins can trigger temporary errors; the project includes logic to handle rate limits (see “rate limits handling” commits). Pace additions. [GitHub](https://github.com/bellingcat/telegram-group-joiner/commits/main)
 * **Account risk with TDLib logins**: Some developers report temporary or permanent suspensions after authenticating via TDLib (e.g., `PHONE_NUMBER_BANNED`, `EMAIL_NOT_ALLOWED`). Use a research‑only account and follow Telegram’s rules. [GitHub](https://github.com/tdlib/td/issues/2920)
-* **Releases / maintenance**: No tagged releases; the latest repo change was **2023‑12‑18**. Treat the hosted page as the current build. [GitHub](https://github.com/bellingcat/telegram-group-joiner/tags)
+* **Releases / maintenance:** The latest [repository commit](https://github.com/bellingcat/telegram-group-joiner/commit/863c47fd28930dc03059411251c11a97422ba900) was 2026-03-02 and changed workflows. Repository history alone does not establish which build is currently deployed on the hosted page.
 * **Legal/ToS**: Use must comply with Telegram’s Terms and API Terms; avoid spammy or abusive behavior. [Telegram](https://telegram.org/tos?utm_source=chatgpt.com)
 
 ## Ethical Considerations
