@@ -9,8 +9,11 @@ description: >-
 
 ## URL
 
-[https://www.telegramdb.org/](https://www.telegramdb.org/)\
-(June 2025, [github](https://github.com/TelegramDB/TelegramDB))
+[TgDB Search Plus web app](https://www.tgdb.org/bot)
+
+[Project documentation](https://github.com/TelegramDB/TelegramDB) | [Official news channel](https://t.me/tgdatabase)
+
+Last documentary source review: 2026-10-29.
 
 ## Description
 
