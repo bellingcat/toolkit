@@ -8,7 +8,7 @@ description: Download pictures or videos (with metadata) from Instagram.
 ## URL
 
 [https://instaloader.github.io](https://instaloader.github.io)\
-v4.15.1 (released 2026-03-21), checked 2026-06-19
+Historical examples: v4.15.1 (released 2026-03-21), checked 2026-06-19. Current published release: v4.16 (2026-10-26), requiring Python 3.10 or later.
 
 {% hint style="warning" %}
 Usage may lead to the loss of the Instagram account being used. Please see Limitations and Ethical Considerations before using this tool.
@@ -16,14 +16,14 @@ Usage may lead to the loss of the Instagram account being used. Please see Limit
 
 ## Description
 
-Instaloader lets you save Instagram content for documentation and analysis. It can download posts, videos, Stories, Highlights, Reels, and profile pictures. It also exports captions, timestamps, and geotags, so you keep context with the media.\
+Instaloader lets you save Instagram content for documentation and analysis. It can download posts, videos, Stories, Highlights, Reels, and profile pictures. It also saves captions and timestamps; geotags require login and the optional --geotags flag.\
 Investigators typically use it to archive profiles, collect evidence before takedowns, or retrieve posts for later review. Logged-in mode provides access to your feed, saved posts, and followed accounts, where permitted.\
-You can run it from the command line or script it in Python. It supports resuming interrupted downloads and only grabs new items to keep an archive up to date.
+You can run it from the command line or script it in Python. It supports resuming interrupted downloads and offers optional incremental-update flags.
 
 1. **Media Downloading**:
    * Downloads photos and videos from public and private Instagram profiles, hashtags, Stories, feeds, saved media, **long-form videos (formerly IGTV),** and **Reels** (`--reels` flag).
-   * It captures metadata, including captions, comments, geotags (such as Google Maps links), timestamps, and more.
-   * Allows downloading from private profiles if you follow the account or provide valid credentials.
+   * It saves captions and post metadata; comment and geotag downloads require login and the optional --comments and --geotags flags.
+   * Allows downloading from private profiles when logged in as the account owner or an approved follower.
    * Offers optional parameters to limit downloads (e.g., specific sidecar slides, date ranges, post filters).
 2. **Automation and Customization**:
    * Automatically detects changes to the profile name and renames the target directory accordingly.
@@ -35,12 +35,12 @@ You can run it from the command line or script it in Python. It supports resumin
 
 1. **Targeted Content Retrieval**:
    * **Profiles**: Download posts, profile pictures, tagged posts, Reels, IGTV videos, Stories, and Highlights.
-   * **Hashtags and Locations**: Fetch posts associated with specific hashtags or geographical locations; both hashtag and location targets require login..
+   * **Hashtags and Locations**: Fetch posts associated with specific hashtags or geographical locations; both hashtag and location targets require login.
    * **User Feed and Saved Posts**: For logged-in accounts, retrieve posts from a user’s feed or saved collections.
    * **Individual Posts**: Download specific posts using their unique shortcode (e.g., `instaloader -- -SHORTCODE`).
    * **Followee List**: Download all profiles followed by a user using `@username` syntax (requires login).
 2. **Metadata Extraction**:
-   * Captures detailed metadata for each post, such as captions, comments (requires login), geotags, likes count, and hashtags.
+   * Captures post metadata such as captions, like counts and hashtags; comments and geotags require login and their optional download flags.
    * Customizable text or JSON output for metadata, including caption and comment details.
 3. **Efficient File Management**:
    * Customizable directory and file naming conventions using patterns such as `{profile}`, `{date_utc}`, and `{shortcode}`.
@@ -49,7 +49,7 @@ You can run it from the command line or script it in Python. It supports resumin
    * `--fast-update` stops downloading as soon as Instaloader sees a post that’s already present locally.
    * `--latest-stamps` uses timestamps instead of local files to handle updates (so you can move or delete files without confusing Instaloader).
 5. **Python Module**:
-   * Provides a Python API to script custom OSINT workflows, such as analyzing likes, tracking deleted posts, or filtering content by date.
+   * Provides a Python API to script custom OSINT workflows, such as analyzing likes, comparing archived posts with currently retrieved posts, or filtering content by date.
 6. **Automation**:
    * Designed for cron jobs with options like `--quiet` mode and session persistence enable scheduled and automated downloads.
 7. **Advanced Filters**:
@@ -62,7 +62,7 @@ You can run it from the command line or script it in Python. It supports resumin
 
 {% tabs %}
 {% tab title="Option 1: pip" %}
-**Recommended one‑liner:** reliably works on Linux, macOS, WSL, and Windows (PowerShell)
+Use this inside a virtual environment with the appropriate Python command for your system, or use pipx.
 
 ```
 python3 -m pip install --upgrade instaloader
@@ -111,7 +111,7 @@ python setup.py install
 1. `git clone …` downloads the Instaloader source code into a new folder.
 2. `cd instaloader` moves into that folder.
 3. `python -m pip install .` (or `python setup.py install`) builds and installs the package from the source you just checked out.\
-   \&#xNAN;_Tip: run this inside a virtual-env so it won’t clash with other Python tools._
+   _&#x54;ip: run this inside a virtual-env so it won’t clash with other Python tools._
 {% endtab %}
 {% endtabs %}
 
@@ -129,10 +129,10 @@ instaloader --login YOUR_USER --stories --fast-update instagram
 
 ***
 
-* Archive only the **last 100 posts with the hashtag "#ukraine"**
+* Retrieve up to **100 returned posts with the hashtag "#ukraine"**
 
 ```bash
-instaloader --count 100 "#ukraine"
+instaloader --login YOUR_USER --count 100 "#ukraine"
 ```
 
 ***
@@ -147,7 +147,7 @@ The `--stories` flag is documented in the [CLI reference.](https://instaloader.g
 
 ***
 
-* Download all **available posts between two dates** (server‑side filter)
+* Download all **available posts between two dates** (client-side per-post filter)
 
 ```bash
 # Posts from 1 Jan 2024 – 31 Dec 2024
@@ -171,12 +171,12 @@ Instaloader writes a JSON checkpoint so the next invocation restarts exactly whe
 ### Example Use Cases: Python
 
 {% hint style="info" %}
-All snippets require `pip install instaloader` and should live in their own virtual environment or notebook.
+Install `instaloader`, plus `tqdm` for the progress-bar example. Use a separate virtual environment or notebook for each workflow. Examples that load a saved session require an existing authorized session file.
 {% endhint %}
 
 <details>
 
-<summary>Download the N most recent posts from a profile</summary>
+<summary>Download up to N posts in the order returned by a profile</summary>
 
 ```python
 from itertools import islice
@@ -223,12 +223,12 @@ for story in L.get_stories():                       # generator of Story objects
 
 <details>
 
-<summary>Detect deleted posts (advanced)</summary>
+<summary>Compare archived posts with currently retrieved posts (advanced)</summary>
 
 The project ships a full example, but here is the distilled logic:
 
 ```python
-pythonCopyEditfrom instaloader import Instaloader, Profile
+from instaloader import Instaloader, Profile, Post, load_structure_from_file
 from pathlib import Path
 
 L = Instaloader()
@@ -237,13 +237,16 @@ target = "example_account"
 
 profile = Profile.from_username(L.context, target)
 online = {p.shortcode for p in profile.get_posts()}     # existing on IG
-offline = {f.stem.split('_')[2]                        # existing locally
-           for f in Path(target).glob("*.json.xz")}
+offline = set()
+for f in Path(target).glob("*.json.xz"):
+    obj = load_structure_from_file(L.context, str(f))
+    if isinstance(obj, Post):
+        offline.add(obj.shortcode)
 
 deleted = offline - online
 new     = online  - offline
 
-print("Deleted on IG:", deleted)
+print("Archived locally but absent from retrieved posts:", deleted)
 print("Not yet downloaded:", new)
 ```
 
@@ -261,10 +264,10 @@ Download posts from multiple profiles (Jan–Mar 2025) and write core
 metadata (caption, likes, timestamp) to posts.csv
 """
 import csv, datetime as dt, instaloader
-from dateutil.tz import UTC
+# date_utc uses UTC datetimes without timezone objects
 
 PROFILES = ["cnn", "bbcnews", "dwnews"]
-START, END = dt.datetime(2025,1,1,tzinfo=UTC), dt.datetime(2025,4,1,tzinfo=UTC)
+START, END = dt.datetime(2025,1,1), dt.datetime(2025,4,1)
 
 L = instaloader.Instaloader(dirname_pattern="downloads/{target}", quiet=True)
 L.load_session_from_file("YOUR_USER")
@@ -274,7 +277,7 @@ for username in PROFILES:
     profile = instaloader.Profile.from_username(L.context, username)
     for post in profile.get_posts():
         if post.date_utc < START:
-            break                       # posts are reverse-chronological → done
+            continue                    # pinned posts can appear out of date order
         if START <= post.date_utc < END:
             L.download_post(post, target=username)
             rows.append({
@@ -286,7 +289,7 @@ for username in PROFILES:
             })
 
 with open("posts.csv", "w", newline="", encoding="utf-8") as f:
-    writer = csv.DictWriter(f, fieldnames=rows[0].keys())
+    writer = csv.DictWriter(f, fieldnames=["user", "shortcode", "date", "likes", "caption"])
     writer.writeheader(); writer.writerows(rows)
 
 print(f"Exported {len(rows)} rows to posts.csv")
@@ -335,7 +338,7 @@ STATE.write_text(json.dumps(today, indent=2))
 
 ```python
 """
-Build hashtag counts across the latest 400 posts of a target profile.
+Build hashtag counts across up to 400 returned posts of a target profile; pinned posts may affect their order.
 Output TSV sorted by frequency.
 """
 import re, collections, instaloader, itertools, csv
@@ -348,7 +351,7 @@ freq = collections.Counter()
 
 L = instaloader.Instaloader(quiet=True)
 for post in itertools.islice(instaloader.Profile.from_username(L.context, TARGET).get_posts(), MAX_POSTS):
-    freq.update(hashtag_re.findall(post.caption or ""))
+    freq.update(tag.lower() for tag in hashtag_re.findall(post.caption or ""))
 
 with open(f"{TARGET}_hashtags.tsv", "w", newline="", encoding="utf-8") as f:
     writer = csv.writer(f, delimiter="\t")
@@ -367,7 +370,7 @@ print("Top 10:", freq.most_common(10))
 
 ```python
 """
-Scrape 1 000 #ukraine posts, obeying a minimum 2-second delay between requests.
+Scrape up to 1,000 #ukraine posts, adding an outer per-post delay; internal requests use Instaloader’s rate controller.
 """
 import time, itertools, instaloader, tqdm
 
@@ -377,7 +380,8 @@ MAX_ITEMS = 1_000
 MIN_DELAY = 2.0                     # seconds
 
 L = instaloader.Instaloader(quiet=True)
-posts = itertools.islice(instaloader.Hashtag.from_name(L.context, HASHTAG).get_posts(), MAX_ITEMS)
+L.load_session_from_file("YOUR_USER")
+posts = itertools.islice(instaloader.Hashtag.from_name(L.context, HASHTAG).get_posts_resumable(), MAX_ITEMS)
 
 for post in tqdm.tqdm(posts, total=MAX_ITEMS):
     start = time.time()
@@ -424,7 +428,7 @@ When the flag controls behaviour **per download call**, the mapping is shown nex
 | **CLI flag**                                   | **What it does**                          | **Python equivalent**                                                                                               |
 | ---------------------------------------------- | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
 | `--login USER`, `--password PASS`              | Interactive/password login & save session | `L.login(user, passwd)` or `L.interactive_login(user)`                                                              |
-| `--load-cookies BROWSER` / `--cookiefile FILE` | Import cookies from browser / file        | `L.context.load_cookies(browser='chrome')` `L.context.load_cookies(cookiefile="cookies.txt")`                       |
+| `--load-cookies BROWSER` / `--cookiefile FILE` | Import cookies from browser / file        | Reuse the CLI-imported session with `L.load_session_from_file("USER")`.                                             |
 | `--sessionfile FILE`                           | Use custom session path                   | `L.load_session_from_file("USER", filename="my.session")`                                                           |
 | **Download‐what flags (profile scope)**        |                                           |                                                                                                                     |
 | `--stories`                                    | Stories of targets                        | `download_profiles(..., stories=True)`                                                                              |
@@ -466,9 +470,9 @@ When the flag controls behaviour **per download call**, the mapping is shown nex
 | `--no-iphone`                                  | Disable iPhone-quality fetch              | `Instaloader(iphone_support=False)`                                                                                 |
 | **Misc.**                                      |                                           |                                                                                                                     |
 | `--quiet`                                      | Non-interactive / cron-safe               | `Instaloader(quiet=True)`                                                                                           |
-| `+args.txt`                                    | Read arguments from file                  | Call: `instaloader @args.txt` (no direct Python analogue; embed logic in script)                                    |
+| `+args.txt`                                    | Read arguments from file                  | Call: `instaloader +args.txt` (no direct Python analogue; embed logic in script)                                    |
 
-All mappings verified against Instaloader 4.14.1 docs and source.
+Historical cheat sheet retained from the June 2026 entry. Selected API and example corrections were checked against source in October 2026; complete CLI-to-Python parity has not been retested.
 
 </details>
 
@@ -505,25 +509,25 @@ L.download_profiles(profiles,
 
 <summary>Special Relationship: Instaloader &#x26; Bellingcat Auto Archiver</summary>
 
-When you're working with the [Bellingcat Auto Archiver](https://bellingcat.gitbook.io/toolkit/more/all-tools/auto-archiver), you may be asked to provide instaloader.session
+When you're working with the [Bellingcat Auto Archiver](https://bellingcat.gitbook.io/toolkit/more/all-tools/auto-archiver), check whether your installed version requires an Instaloader session file and which path it expects.
 
-**`instaloader.session`** is a file created by the Instaloader tool (which Auto Archiver uses under the hood for Instagram content). It is a small data file that stores your **login session** (including cookies) for Instagram so that you don’t have to log in every time you run Instaloader or the Auto Archiver.
+An Instaloader session file stores reusable Instagram login cookies. `instaloader.session` is an example custom name, not Instaloader’s default filename; check your installed Auto Archiver version’s configuration. Treat the file as sensitive credential material.
 
 1. **Why It Exists**
    * Instagram requires users to log in for certain types of data access (especially if you need to see private or protected content). When you enter your username and password in Instaloader for the first time, the tool authenticates with Instagram and fetches a session token (a cookie).
-   * Instaloader then **saves** that session token locally to a file called `instaloader.session`.
+   * Instaloader can save a reusable session. Its default is a per-user `session-USERNAME` file in a platform-dependent configuration directory; `--sessionfile` selects a custom path.
 2. **How It Is Created**
-   * The **first time** you run Instaloader (or Auto Archiver with the `instagram_archiver` step enabled) and attempt to archive from a private Instagram account or any content that requires login; Instaloader will prompt you for Instagram credentials.
-   * After successful login, a file named `instaloader.session` appears in the working directory (or wherever the tool is configured to store session data).
+   * Acquire an authorized session through Instaloader’s supported login or browser-cookie method, then configure the integration according to the installed Auto Archiver version. Do not assume that an unattended archival run prompts for or creates credentials.
+   * A saved session uses Instaloader’s default per-user location or the explicitly configured session path; it is not automatically a working-directory file named `instaloader.session`.
 3. **What’s Inside**
    * Internally, it contains **cookies** that represent your authenticated session on Instagram. These cookies let Instaloader reuse your login, so you don’t have to type your username and password on each run.
-   * It also ensures Instagram recognizes you in the same way as if you logged in via your browser.
+   * A valid session can authenticate requests, but does not guarantee browser-equivalent access or prevent login challenges.
 4. **Where to Store It**
-   * For **Auto Archiver**, best practice is to place `instaloader.session` (once generated) in your `secrets/` folder. That way, the Docker container or local script knows where to find your session, and you’re not repeatedly asked for credentials.
+   * For **Auto Archiver**, use the session path and credential settings required by your installed version; check its deployment documentation. Keep the session file private.
    * Remember to keep this file **private** and avoid committing it to version control (e.g., GitHub). Anyone with access to it could theoretically use your Instagram session.
 5. **Expiration & Re-authentication**
-   * Sometimes, Instagram invalidates session cookies (e.g., for security or if you change your password). If that happens, Instaloader may prompt you to log in again and create a **new** `instaloader.session` file.
-   * If you notice Instagram's archiving stops working, you might need to delete the old session file and let Instaloader recreate it with fresh credentials.
+   * Sometimes, Instagram invalidates session cookies (e.g., for security or if you change your password). If that happens, renew the authorized session through the supported login method and update the configured session file.
+   * If archiving stops working, check the error and current troubleshooting guidance before renewing the session; expired login is only one possible cause.
 6. **Security Considerations**
    * Treat `instaloader.session` as if it’s your actual Instagram login. Anyone who obtains a valid session file might have the same access to your account.
    * Use a dedicated Instagram account for archiving whenever possible (instead of a personal one), and store that account’s session file in a secure place.
@@ -552,16 +556,16 @@ While basic usage (e.g., downloading all posts from a profile) is straightforwar
 
 ### **Python Environment**
 
-* **Python 3.9 or higher** (PyPI lists support through Python 3.14; Python 3.8 support was dropped in v4.14).
-* Primary dependencies (installed automatically with pip):
+* **Python 3.10+ for current Instaloader 4.16.** Historical 4.15.1 supports Python 3.9.
+* Dependencies and optional additions:
   * [`requests`](https://pypi.org/project/requests/) Requests lets you send HTTP/1.1 requests effortlessly, with automatic query-string encoding, JSON support, and more
-  * [`lxml`](https://github.com/lxml/lxml) is a feature-rich and easy-to-use library for processing XML and HTML in the Python language, with good performance, and memory efficiency,
-  * [`BeautifulSoup4`](https://pypi.org/project/beautifulsoup4/) Python package for parsing HTML/XML (including malformed markup) into a navigable parse tree for data extraction. Provides idiomatic tools for iterating, searching, and modifying the parse tree (optional; only needed for certain features)
+  * Optional cookie import: install `instaloader[browser-cookie3]`.
+  * The progress-bar example separately requires `tqdm`; it is not an Instaloader core dependency.
 
 ### **Access Requirements**
 
 * **Anonymous Access**: Some public profile and single-post downloads may work without logging in, but hashtag and location targets require login, and Instagram may still rate-limit or block anonymous access.
-* **Logged-In Access**: To scrape private profiles or retrieve user-specific data (e.g., user feed, saved posts), you must log in with valid Instagram credentials. Instaloader stores a session file to avoid repeated logins.
+* **Logged-In Access**: To scrape private profiles or retrieve user-specific data (e.g., user feed, saved posts), log in with an account authorized to access that content (the owner or an approved follower for private profiles). Instaloader stores a session file to avoid repeated logins.
 
 ## Limitations
 
@@ -597,9 +601,9 @@ If you encounter 429 errors or want to avoid them, consider these practices:
 * **Rotate User Agents:** Instagram might flag automated clients partly by their HTTP User-Agent string. Instaloader’s current default user-agent is Chrome 142 on Linux, and you can still override it with a custom user-agent. Some developers suggest [using a common browser User-Agent](https://stackoverflow.com/questions/65002504/would-it-be-possible-to-use-ip-rotation-to-avoid-the-exception-toomanyrequestsex) so the requests look more like normal web traffic​. In code, you can initialize Instaloader with a custom `user_agent`. For multiple runs, rotating through a list of user-agent strings for each session[ may slightly reduce the chance of detection](https://stackoverflow.com/questions/65002504/would-it-be-possible-to-use-ip-rotation-to-avoid-the-exception-toomanyrequestsex)​. _(Note: This is not foolproof, but may help at the margins.)_
 * **Avoid Obvious Scraping Patterns:** Try not to scrape the same data repeatedly in a short period of time. For example, do not repeatedly download the same profile or hashtag in rapid succession. Likewise, if you are scraping stories, be aware that grabbing many stories in quick succession is a known trigger​. [Spreading out story downloads](https://github.com/instaloader/instaloader/issues/1711) (or limiting the number of story feeds you scrape per hour) can help.
 * **Handle 429 Gracefully:** If you get a 429 error, **stop requests and wait**. Instaloader’s built-in backoff will pause execution; respect it. If you’re writing a custom script and catch a `TooManyRequestsException`, implement a long sleep (e.g., 10–15 minutes or more) before retrying. [Do not aggressively retry failed requests](https://github.com/instaloader/instaloader/issues/834) or you risk extending the ban​.
-* **IP and Account Rotation (Last resort):** In extreme cases, if one IP address is consistently getting blocked, you might try switching to another network/IP or using a proxy with a different IP. This can bypass an IP-based throttle, but use caution: Instagram might detect account sharing or unusual IP changes. If you have multiple Instagram accounts, you could distribute your queries among them (log in with different accounts for different tasks) to stay under per-account limits. Only do this with accounts you control, and **never** use accounts without permission.e.
+* **IP and Account Rotation (Last resort):** In extreme cases, if one IP address is consistently getting blocked, you might try switching to another network/IP or using a proxy with a different IP. This can bypass an IP-based throttle, but use caution: Instagram might detect account sharing or unusual IP changes. If you have multiple Instagram accounts, you could distribute your queries among them (log in with different accounts for different tasks) to stay under per-account limits. Only do this with accounts you control, and **never** use accounts without permission.
 
-Ultimately, [**there is no way to completely “bypass” Instagram’s rate limits**](https://instaloader.github.io/troubleshooting.html#too-many-requests) – you must work within them​. The key is to slow down and behave more like a normal user. If you hit a limit, patience is the only guaranteed solution (wait until the block lifts). Trying to outsmart Instagram’s anti-scraping measures (with rapid IP rotations, etc.) often only works briefly, if at all, and can risk longer-term bans.
+Ultimately, [**there is no way to completely “bypass” Instagram’s rate limits**](https://instaloader.github.io/troubleshooting.html#too-many-requests) – you must work within them​. The key is to slow down and behave more like a normal user. If you hit a limit, waiting may help, but resumed access is not guaranteed. Trying to outsmart Instagram’s anti-scraping measures (with rapid IP rotations, etc.) often only works briefly, if at all, and can risk longer-term bans.
 
 </details>
 
