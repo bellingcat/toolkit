@@ -64,7 +64,7 @@ Gephi includes built-in support for computing **key metrics** that help identify
    * **What it is:** Identifies distinct sub-networks (components) in the graph where each node is reachable from any other node within the same component.
    * **Why it matters:** Shows whether the network is all in one piece or if it breaks into multiple isolated clusters.
 5. **Average Path Length**
-   * **What it is:** The mean number of steps along the shortest paths between all pairs of nodes.
+   * **What it is:** For the Network Diameter calculation, the mean hop distance over reachable ordered node pairs.
    * **Why it matters:** It gives a sense of how easily (in how many hops) information or influence can spread across the network.
 6. **Average Clustering Coefficient**
    * **What it is:** A measure of how often nodes form tightly knit groups (where neighbors of a node are also neighbors with each other). Gephi can calculate both global (average) and node-level clustering.
@@ -85,10 +85,10 @@ Gephi includes built-in support for computing **key metrics** that help identify
    * **Why it matters:** Helps identify whether a few nodes dominate in connectivity (e.g., a power-law distribution) or if most nodes have similar degree.
 10. **Betweenness Centrality**
     * **What it is:** Counts how often a node lies on the shortest paths between other nodes.
-    * **Why it matters:** Captures “broker” or “bridge” nodes that can control information flow across different parts of the network.
+    * **Why it matters:** Identifies nodes lying on many shortest paths in the modeled graph. Whether they control actual information flow requires evidence beyond the structural score.
 11. **Closeness Centrality** / **Harmonic Closeness**
-    * **What it is:** Measures how close a node is to all others (based on the sum of shortest path distances). “Harmonic closeness” is a variant that handles disconnected graphs more gracefully.
-    * **Why it matters:** A higher closeness value means the node can reach the rest of the network more quickly (in fewer hops).
+    * **What it is:** In Network Diameter, closeness is the number of reachable other nodes divided by their summed hop distances. The same implementation calculates harmonic closeness from reciprocal distances to reachable nodes.
+    * **Why it matters:** A higher closeness value indicates shorter average paths to reachable nodes; it does not guarantee reachability of the whole graph or actual information delivery.
 12. **Eigenvector Centrality**
     * **What it is:** Measures a node’s influence based not just on its connections but also on the importance of the nodes it connects to.
     * **Why it matters:** A node connected to other high-scoring (influential) nodes will have a higher eigenvector centrality, reflecting second-order influence.
