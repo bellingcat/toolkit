@@ -18,7 +18,7 @@ Anytype is a **local‑first knowledge‑management app** that blends note‑tak
 
 #### What problem does it solve?
 
-Investigative work often requires managing disparate pieces of information (notes, documents, images) and linking them together. Conventional note apps lack structure, while databases lack flexibility. Anytype aims to solve this by giving users a private, offline workspace where they can both **take notes and build relationships between them**. Because data is stored locally and encrypted, the encryption keys never leave your device, and indexes are not synced.[ It suits sensitive investigations](https://doc.anytype.io/anytype-docs/advanced/data-and-security/how-we-keep-your-data-safe) that should not live on a cloud server. At the same time, its types, relations, and queries provide database‑like power without coding. It enables you to capture text, images, PDFs, and other media within encrypted vaults, then **model your information as objects connected by relations and explore those connections** through queries and a graph view. While still in beta, it offers investigators a promising way to manage and link evidence without surrendering data to external servers
+Investigative work often requires managing disparate pieces of information (notes, documents, images) and linking them together. Conventional note apps lack structure, while databases lack flexibility. Anytype aims to solve this by giving users a private, offline workspace where they can both **take notes and build relationships between them**. Objects are encrypted locally and, when network sync or backup is enabled, on remote nodes. Content-decryption keys are held on your devices, but local search indexes are unencrypted and are not synced; secure the device and its backups. For material that must stay off remote servers, select local-only mode and secure the device; encrypted remote backup is a separate choice. At the same time, its types, relations, and queries provide database‑like power without coding. It enables you to capture text, images, PDFs, and other media within encrypted vaults, then **model your information as objects connected by relations and explore those connections** through queries and a graph view. While still in beta, it offers investigators a promising way to manage and link evidence while encrypting objects before any enabled remote sync or backup; use local-only mode if remote copies are unsuitable.
 
 #### How does it work?
 
@@ -27,7 +27,7 @@ Investigative work often requires managing disparate pieces of information (note
 * [**Relations and Queries**](https://doc.anytype.io/anytype-docs/getting-started/sets) – Relations act as fields (string, number, date, etc.) that you attach to objects. Queries are live filters that display all objects matching a type or relation; they can be sorted and edited in place. Views include list, table, board (Kanban), calendar, gallery and graph (some views are desktop‑only)
 * [**Graph view**](https://doc.anytype.io/anytype-docs/advanced/feature-list-by-platform/graph) – On desktop, a graph visualizes how objects link to each other, useful for mapping relationships in complex investigations.
 * [**Import & export** ](https://doc.anytype.io/anytype-docs/advanced/data-and-security/import-export)– You can import data from Obsidian, Notion, Evernote, Markdown, HTML, plain text or CSV (mapping columns to relations), and export your vault as Markdown or an **Any‑Block** (Protobuf/JSON) archive.
-* [**Security & local‑first storage**](https://doc.anytype.io/anytype-docs/advanced/data-and-security/how-we-keep-your-data-safe) – Data stays on your device and is encrypted; only you hold the keys. A [local‑only mode](https://doc.anytype.io/anytype-docs/advanced/data-and-security/self-hosting/local-only) disables cloud backup and limits sync to devices on the same network
+* [**Security & local‑first storage**](https://doc.anytype.io/anytype-docs/advanced/data-and-security/how-we-keep-your-data-safe) – Objects are encrypted, with content-decryption keys held on your devices; enabled sync or backup can store encrypted copies remotely, while local search indexes remain unencrypted. A [local‑only mode](https://doc.anytype.io/anytype-docs/advanced/data-and-security/self-hosting/local-only) disables cloud backup and limits sync to devices on the same network
 * [**Collaboration & sharing**](https://doc.anytype.io/anytype-docs/getting-started/collaboration) – Each account can create up to three shared spaces and invite others as Editors or Viewers via a link [Web publishing](https://doc.anytype.io/anytype-docs/getting-started/web-publishing) lets you publish a single object as a static page on your personal subdomain, though it currently does not support collections or queries.
 
 ## Cost
@@ -70,7 +70,7 @@ Anytype’s basic functions (creating objects, linking notes) are straightforwar
 
 ## Ethical Considerations
 
-[Anytype emphasises](https://doc.anytype.io/anytype-docs/advanced/data-and-security/how-we-keep-your-data-safe) autonomy and privacy by storing data locally and encrypting it, with keys held by the user. This protects sensitive investigative data from third‑party access. Still, investigators should practice good operational security: use dedicated devices or burner accounts for high-risk projects, be cautious when inviting collaborators, and sanitize data before publishing pages online. Since the platform is in beta, be aware of potential bugs and install updates regularly. Additionally, back up critical data on a regular basis.
+[Anytype emphasises](https://doc.anytype.io/anytype-docs/advanced/data-and-security/how-we-keep-your-data-safe) autonomy and privacy by storing data locally and encrypting it, with keys held by the user. Local search indexes and device backups still require protection; enabled network sync or backup can store encrypted copies remotely. Still, investigators should practice good operational security: use dedicated devices or burner accounts for high-risk projects, be cautious when inviting collaborators, and sanitize data before publishing pages online. Since the platform is in beta, be aware of potential bugs and install updates regularly. Additionally, back up critical data on a regular basis.
 
 ## Guides and articles
 
@@ -81,7 +81,7 @@ Anytype’s basic functions (creating objects, linking notes) are straightforwar
 
 ## Tool provider
 
-Anytype is developed by **Any Association (Zug, Switzerland & Berlin, Germany)**, a non‑profit organisation focused on decentralised protocols and peer‑to‑peer networks. The project is open‑source, and its community contributes to the codebase and documentation via GitHub.
+Anytype is developed by **Any Association (Zug, Switzerland & Berlin, Germany)**, a non‑profit organisation focused on decentralised protocols and peer‑to‑peer networks. The desktop app’s code is source-available under the Any Source Available License, and its community contributes via GitHub; see the licensing caveat above.
 
 ## Similar tools
 
