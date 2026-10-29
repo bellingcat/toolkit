@@ -11,8 +11,10 @@ description: >-
 
 [https://pypi.org/project/edgar-tool/](https://pypi.org/project/edgar-tool/)
 
-* Source code is freely available on [GitHub](https://github.com/bellingcat/EDGAR) (v 2.1.2 – 15 May 2025, last checked June 24, 2026.)
+* Source code is freely available on [GitHub](https://github.com/bellingcat/EDGAR) ([edgar-tool 2.1.2](https://pypi.org/project/edgar-tool/2.1.2/), released 2025-05-15).
 * Users can download `edgar-tool` (the CLI) directly from [PyPI](https://pypi.org/project/edgar-tool/)
+
+Last source/version check: 2026-10-29.
 
 ## EDGAR Database Overview
 
@@ -90,7 +92,7 @@ Despite [EDGAR](https://bellingcat.gitbook.io/toolkit/more/all-tools/edgar)’s 
 
 ## Requirements
 
-`edgar-tool` requires the Python interpreter to download and use. It supports any currently maintained version of Python (Python >=3.9 as of this writing). Check the [_Programming Language_ section of `edgar-tool`'s release page on PyPI](https://pypi.org/project/edgar-tool/) for officially supported versions. When in doubt, use the latest stable Python version. You can download the latest version of the Python interpreter from [www.python.org/downloads/](https://www.python.org/downloads/).
+`edgar-tool` requires Python. The [PyPI metadata for edgar-tool 2.1.2](https://pypi.org/project/edgar-tool/2.1.2/) specifies Python 3.9 or later. That minimum does not establish compatibility with every newer interpreter or dependency combination; consult the project’s installation guidance for your environment. Download Python from [python.org](https://www.python.org/downloads/).
 
 ## Limitations
 
