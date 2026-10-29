@@ -179,4 +179,4 @@ Created by GitHub user **jibalio** and hosted on AWS. Codebase is a fork of u/or
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-Cookies are limited to site preferences, Google Analytics and AdSense ads (Cookie policy).
+The homepage source checked on 29 October 2026 included a Google Analytics tag. Actual cookies and current AdSense or preference-cookie use were not verified; the served tag alone does not establish a complete cookie inventory.
