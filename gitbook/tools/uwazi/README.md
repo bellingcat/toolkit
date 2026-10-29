@@ -23,7 +23,7 @@ Uwazi can be useful for organizations and individuals who need a user-friendly, 
 
 Uwazi offers two deployment options: **self-hosted (free)** and **hosted**. With the [**self-hosted**](https://github.com/huridocs/uwazi) option, users can download and set up Uwazi on their own servers at no cost. This option provides full control over the platform, including customization and data security, but it requires technical expertise to install, manage, and maintain the server environment. Self-hosting also implies responsibility for implementing security measures, performing updates, and ensuring system reliability, which might be challenging for organizations without a dedicated IT team.
 
-On the other hand, the **hosted** option involves using Uwazi’s managed hosting service, where the platform is hosted and maintained by [HURIDOCS](https://huridocs.org/). This option is ideal for organizations that prefer a hassle-free setup with support and regular updates handled by the Uwazi team. For hosted use, Uwazi’s Try page says users can request a database to test for free; the first 100MB are complementary, and continued hosting is offered through packages scaled to the data volume used in the collection.
+On the other hand, the **hosted** option involves using Uwazi’s managed hosting service, where the platform is hosted and maintained by [HURIDOCS](https://huridocs.org/). This option is ideal for organizations that prefer a hassle-free setup with support and regular updates handled by the Uwazi team. Uwazi offers [managed hosting plans](https://uwazi.io/pricing); its standard Free managed tier is restricted to private instances. Check current pricing or contact HURIDOCS for limits and public-collection or partner arrangements.
 
 Since April 2025, HURIDOCS has shipped[ integrated machine‑learning features](https://huridocs.org/2025/04/using-machine-learning-in-uwazi-to-support-human-rights-documentation-work/) that assist with translation, metadata/NER extraction, topic suggestions, and PDF‑focused workflows (segmentation and table‑of‑contents generation). Some functions are powered by optional external services HURIDOCS maintains as open source.
 
@@ -79,7 +79,7 @@ For detailed instructions and configurations, refer to the [Sysadmin Guide](http
 * [x] Partially Free
 * [ ] Paid
 
-Uwazi is partially free. The self-hosted version is free to download and run on your own server if you have the technical capacity to maintain it. The hosted option is request-based: users can request an Uwazi database to test for free; the first 100MB is complimentary, and continued hosting is offered through packages scaled to the data volume used in the collection. HURIDOCS says groups using Uwazi for human-rights-related collections receive free hosting services up to 100MB, with more details available on request.
+Uwazi is partially free. The self-hosted version is free to download and run on your own server if you have the technical capacity to maintain it. Uwazi offers [managed hosting plans](https://uwazi.io/pricing); its standard Free managed tier is restricted to private instances. Check current pricing or contact HURIDOCS for limits and public-collection or partner arrangements.
 
 ## Level of difficulty
 
