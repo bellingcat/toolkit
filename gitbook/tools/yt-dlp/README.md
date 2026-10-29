@@ -10,7 +10,9 @@ description: >-
 
 [https://github.com/yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp)\
 \
-**Version recorded in June 2026:** `2026.06.09`, released `2026-06-09`; last checked `2026-06-19`. The same version was listed on GitHub Releases and PyPI
+Current stable PyPI release: [`2026.10.26`](https://pypi.org/project/yt-dlp/2026.10.26/), released 2026-10-26. Requires Python 3.11 or later.
+
+Last source/version check: 2026-10-29.
 
 ## Description
 
