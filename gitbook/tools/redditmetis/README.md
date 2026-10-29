@@ -11,6 +11,8 @@ description: >-
 
 [https://redditmetis.com](https://redditmetis.com)
 
+Last source/version check: 2026-10-29.
+
 ## Description
 
 RedditMetis is a free, web-based dashboard for analysing **public** Reddit accounts. Enter a username without the `u/` prefix. The [current homepage](https://redditmetis.com/) describes analysis of up to the last 1,000 comments and posts available for that user; fewer may be returned, and this is not a complete account archive.
