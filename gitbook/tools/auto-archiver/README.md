@@ -13,9 +13,10 @@ description: >-
 
 Official documentation: [https://auto-archiver.readthedocs.io/en/latest/](https://auto-archiver.readthedocs.io/en/latest/)
 
-PyPI package: [https://pypi.org/project/auto-archiver/](https://pypi.org/project/auto-archiver/)
+PyPI package: [https://pypi.org/project/auto-archiver/](https://pypi.org/project/auto-archiver/)\
+Current PyPI release: [1.2.9](https://pypi.org/project/auto-archiver/1.2.9/), released 2026-09-01. Requires Python 3.10–3.12.
 
-Current version checked: v1.2.7, released 2026-04-27. Last checked: 2026-06-18.
+Last source/version check: 2026-10-29.
 
 ## Description
 
@@ -115,7 +116,7 @@ docker run -it --rm \
 
 **Option B: Python/**[**Pip**](https://packaging.python.org/tutorials/installing-packages/)
 
-For local installation, use Python 3.10 or newer. PyPI currently lists support for Python `>=3.10,<3.13`.
+For local installation of Auto Archiver 1.2.9, use Python 3.10–3.12. Its [PyPI metadata](https://pypi.org/project/auto-archiver/1.2.9/) specifies Python `>=3.10,<3.13`.
 
 ```bash
 pip install auto-archiver
@@ -316,7 +317,7 @@ GIJN Article: [New Reporting Tools to Archive Videos, Find QAnon Networks, and T
 
 #### Resources and Support
 
-* **Current Version:** Auto Archiver is under active development. As of July 2025, the latest version is **v1.1.1** (released June 30, 2025).
+* **Current version:** [Auto Archiver 1.2.9](https://pypi.org/project/auto-archiver/1.2.9/) was released on 2026-09-01; release information was checked on 2026-10-29. Follow the documentation for your installed release.
 * **Documentation:** Official docs are available on [_ReadTheDocs_](https://auto-archiver.readthedocs.io/en/v1.0.1/index.html) (covering [installation](https://auto-archiver.readthedocs.io/en/latest/installation/installation.html), [modules](https://auto-archiver.readthedocs.io/en/latest/core_modules.html), and [usage in detail](https://auto-archiver.readthedocs.io/en/latest/how_to.html)). The documentation includes a [configuration guide](https://auto-archiver.readthedocs.io/en/latest/development/settings_page.html) and examples of advanced setups. _(Note:_ The docs may lag a bit behind the very latest features, so community forums can help fill the gaps.)
 * **GitHub:** The source code is on GitHub at [**bellingcat/auto-archiver**](https://github.com/bellingcat/auto-archiver). The README there provides installation instructions and links to the docs. Check the GitHub **issues** page if you encounter bugs – you might find that others have reported the same, along with fixes or workarounds. You can also open a new issue to ask questions or report problems. The project is open-source (MIT License) and [welcomes contributions](https://auto-archiver.readthedocs.io/en/latest/development/creating_modules.html).
 * **Community & Support:** For direct support, consider the following:
