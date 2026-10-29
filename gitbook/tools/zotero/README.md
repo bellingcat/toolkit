@@ -11,14 +11,14 @@ description: >-
 
 [https://www.zotero.org](https://www.zotero.org)
 
-Current version: Zotero 9.0.5 (official changelog release date: 2026-06-10; GitHub tag date: 2026-06-12) Last checked: 2026-06-29
+Current release listed in the official changelog: Zotero 10.0.6 (2026-10-07). Earlier entry check: 2026-06-29.
 
 ## Description
 
 Zotero is a free, open‑source reference manager for **Windows, macOS, Linux, iOS, and Android** that helps you collect, organize, annotate, cite, and share research materials. A desktop app works with browser “Connectors” (Chrome, Firefox, Edge, Safari) to save sources and snapshots; a built‑in reader supports **PDF/EPUB/HTML** annotation with notes that can be cited into Word, LibreOffice, and Google Docs. Libraries sync across devices via a Zotero account; attachments can sync via Zotero Storage or **WebDAV**. Group libraries support collaborative OSINT workflows and shared source curation.
 
 {% hint style="info" %}
-**These examples assume you have created a free account and installed Zotero, as well as the browser plugin, on your system.**
+**Install Zotero and its browser Connector for these examples. A free account is needed for sync and group-library features; local use does not require one.**
 {% endhint %}
 
 ### Phase A - Research
@@ -30,34 +30,34 @@ Zotero is a free, open‑source reference manager for **Windows, macOS, Linux, i
   * Add **tags** or create **collections** to group related items (e.g., by project or topic).
   * Bulk-edit metadata or manually correct fields if Zotero’s automatic capture is incomplete.
 
-<div data-full-width="false"><figure><img src="../../.gitbook/assets/image (4) (3).png" alt=""><figcaption><p>Search results at scholar.google.nl using the search term "Bellingcat"</p></figcaption></figure></div>
+<div data-full-width="false"><figure><img src=".gitbook/assets/image (4) (3).png" alt=""><figcaption><p>Search results at scholar.google.nl using the search term "Bellingcat"</p></figcaption></figure></div>
 
 This is a review article of Eliot Higgins' book. We click on it.
 
-<div data-full-width="false"><figure><img src="../../.gitbook/assets/image (6) (2).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="false"><figure><img src=".gitbook/assets/image (6) (2).png" alt=""><figcaption></figcaption></figure></div>
 
 We want to save the review for later referencing. If someone asks for our opinion about the book, we now have evidence to back it up. (The review says it's good.)
 
 ### Phase B - Archiving
 
 * **Snapshots & Attachments**
-  * **Snapshots** – Save a local **HTML snapshot** of any webpage (static copy of source & assets)
+  * **Snapshots** – Save a local **HTML snapshot** of a webpage and check that the saved copy contains the material needed for the investigation.
   * **Attachments** – Drag‑and‑drop or auto‑download PDFs, images, and other files.
 * **Adding Full-Text PDFs**
   * Zotero can auto-download PDFs if it detects open-access links. Otherwise, you can attach PDFs manually.
   * Annotations can be made directly on PDFs, EPUBs, and saved webpage snapshots within the current Zotero desktop reader.
 
-<div data-full-width="false"><figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption><p>My browser during the search results.</p></figcaption></figure></div>
+<div data-full-width="false"><figure><img src=".gitbook/assets/image (8) (1).png" alt=""><figcaption><p>My browser during the search results.</p></figcaption></figure></div>
 
-<div data-full-width="false"><figure><img src="../../.gitbook/assets/image (10) (4).png" alt=""><figcaption><p>My browser on the page containing the review.</p></figcaption></figure></div>
+<div data-full-width="false"><figure><img src=".gitbook/assets/image (10) (4).png" alt=""><figcaption><p>My browser on the page containing the review.</p></figcaption></figure></div>
 
 Sleuths among you may have noticed that one icon in particular has undergone a change. The Zotero icon has been changed from a folder to a paper. This means that Zotero has identified this as, you guessed it, a paper.
 
-<div data-full-width="false"><figure><img src="../../.gitbook/assets/image (11) (2).png" alt=""><figcaption><p>Upon clicking the 'paper' icon, this box appears, indicating that the paper was sucessfully retrieved and archived.</p></figcaption></figure></div>
+<div data-full-width="false"><figure><img src=".gitbook/assets/image (11) (2).png" alt=""><figcaption><p>Upon clicking the 'paper' icon, this box appears, indicating that the paper was successfully retrieved and archived.</p></figcaption></figure></div>
 
 When you click the icon, you'll see identified metadata, and you can select a folder to archive your paper in. You'll also notice that a full-text PDF is available and has been conveniently attached to your entry.
 
-<div data-full-width="false"><figure><img src="../../.gitbook/assets/image (12) (2).png" alt=""><figcaption><p>A screenshot of my Zotero window where you can find the review we just archived for future reference.</p></figcaption></figure></div>
+<div data-full-width="false"><figure><img src=".gitbook/assets/image (12) (2).png" alt=""><figcaption><p>A screenshot of my Zotero window where you can find the review we just archived for future reference.</p></figcaption></figure></div>
 
 Huzzah! Prolific researchers like us can't write about a review of the book without reading the book, though, can we? DEFINITELY good that we installed the browser plugin. It's totally possible to fill out these fields by hand.
 
@@ -67,15 +67,15 @@ Huzzah! Prolific researchers like us can't write about a review of the book with
 * Fields such as Author, Title, Publication Date, and Publisher are automatically populated.
 * For OSINT, this can extend to recognized metadata from news sites, specialized databases, or blog platforms.
 
-<div data-full-width="false"><figure><img src="../../.gitbook/assets/image (14) (2).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="false"><figure><img src=".gitbook/assets/image (14) (2).png" alt=""><figcaption></figcaption></figure></div>
 
 Oh, it was right there? Wait, but these lead to Google Books...
 
-<div data-full-width="false"><figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="false"><figure><img src=".gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Noticed something? Correct, Zotero knows we're looking at a page that contains book metadata.
 
-<div data-full-width="false"><figure><img src="../../.gitbook/assets/image (18) (2).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="false"><figure><img src=".gitbook/assets/image (18) (2).png" alt=""><figcaption></figcaption></figure></div>
 
 And, obviously, we also grabbed the other one. Notice the Item Type change?
 
@@ -92,13 +92,13 @@ Higgins, E. (2021). _We Are Bellingcat: Global Crime, Online Sleuths, and the Bo
 
 How to cite neatly and without effort? "Create Bibliography from Item" is one way.
 
-<div data-full-width="false"><figure><img src="../../.gitbook/assets/image (21) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="false"><figure><img src=".gitbook/assets/image (21) (1).png" alt=""><figcaption></figcaption></figure></div>
 
-<div data-full-width="false"><figure><img src="../../.gitbook/assets/image (22) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="false"><figure><img src=".gitbook/assets/image (22) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Depending on your field, preference, or journal, you pick a Citation Style. The above will create an in-text citation like (Higgins, 2021).
 
-<div data-full-width="false"><figure><img src="../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="false"><figure><img src=".gitbook/assets/image (25) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 While this creates, you guessed it:
 
@@ -107,30 +107,30 @@ Sullivan, J. P. (2022). \[Review of _Review of We Are Bellingcat: Global Crime, 
 
 Now, you're ready to write your paper. A Word plugin exists.
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Examples 2 ... n
 
 **Also works on news articles.**
 
-<figure><img src="../../.gitbook/assets/image (26) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (26) (2).png" alt=""><figcaption></figcaption></figure>
 
 Mind, though, that if you want an excellent screen capture to accompany your reference, you'll need to scroll down after clicking the icon or wait a couple of seconds, depending on whether or not the content is dynamically generated. Just wait or scroll until the "Snapshot" is not greyed out anymore.
 
-<figure><img src="../../.gitbook/assets/image (27) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (27) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (28) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (28) (1).png" alt=""><figcaption></figcaption></figure>
 
 Oh, and if you select multiple entries, the bibliography will also contain multiple references:
 
 \
-\&#xNAN;_Bellingcat-Analyst Nick Waters: Kriegsverbrechen in der Ukraine: „Unsere Beweise müssen vor Gericht halten“_. (2024, March 22). [https://www.kleinezeitung.at/politik/aussenpolitik/18296327/kriegsverbrechen-in-der-ukraine-unsere-beweise-muessen-vor-gericht](https://www.kleinezeitung.at/politik/aussenpolitik/18296327/kriegsverbrechen-in-der-ukraine-unsere-beweise-muessen-vor-gericht)
+_&#x42;ellingcat-Analyst Nick Waters: Kriegsverbrechen in der Ukraine: „Unsere Beweise müssen vor Gericht halten“_. (2024, March 22). [https://www.kleinezeitung.at/politik/aussenpolitik/18296327/kriegsverbrechen-in-der-ukraine-unsere-beweise-muessen-vor-gericht](https://www.kleinezeitung.at/politik/aussenpolitik/18296327/kriegsverbrechen-in-der-ukraine-unsere-beweise-muessen-vor-gericht)
 
 _Gefälschter BBC-Bericht: Bellingcat berichtete nicht über Waffenschmuggel der Ukraine an Hamas_. (n.d.). Retrieved August 2, 2024, from [https://correctiv.org/faktencheck/2023/10/23/ukraine-hamas-gefaelschter-bbc-bericht-bellingcat-bestaetigte-keinen-waffenschmuggel/](https://correctiv.org/faktencheck/2023/10/23/ukraine-hamas-gefaelschter-bbc-bericht-bellingcat-bestaetigte-keinen-waffenschmuggel/)
 
 Here, you also see that it sometimes doesn't work correctly. You can easily go back to the software and make manual changes.
 
-<figure><img src="../../.gitbook/assets/image (30) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (30) (1).png" alt=""><figcaption></figcaption></figure>
 
 Knes, D. (2024, March 22). _Bellingcat-Analyst Nick Waters: Kriegsverbrechen in der Ukraine: „Unsere Beweise müssen vor Gericht halten“_. [https://www.kleinezeitung.at/politik/aussenpolitik/18296327/kriegsverbrechen-in-der-ukraine-unsere-beweise-muessen-vor-gericht](https://www.kleinezeitung.at/politik/aussenpolitik/18296327/kriegsverbrechen-in-der-ukraine-unsere-beweise-muessen-vor-gericht)
 
@@ -138,7 +138,7 @@ Max, B. (2023, October 23). _Gefälschter BBC-Bericht: Bellingcat berichtete nic
 
 ### **It also works on Videos.**
 
-<figure><img src="../../.gitbook/assets/image (31) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (31) (1).png" alt=""><figcaption></figcaption></figure>
 
 Bellingcat. (2024, February 9). _Command Line Fundamentals: Bellingcat Tech Series_ \[Video recording]. [https://www.youtube.com/watch?v=B3gm-ud91v0](https://www.youtube.com/watch?v=B3gm-ud91v0)
 
@@ -148,11 +148,11 @@ Bellingcat. (2024, February 9). _Command Line Fundamentals: Bellingcat Tech Seri
 
 Proper documentation is essential if the material is used in legal, academic, or policy advocacy contexts. [The Berkeley Protocol](https://www.ohchr.org/sites/default/files/2024-01/OHCHR_BerkeleyProtocol.pdf) outlines how OSINT data should be handled to be admissible in court (at least in the context of international proceedings).
 
-* **Berkeley Protocol Alignment**: Properly stored OSINT data improves evidentiary value in legal and policy contexts. Zotero’s ability to capture full snapshots, along with timestamps, aids transparency and reproducibility.
-* **Local & Cloud Sync** – Data stays local unless you enable sync. When you do, file sync traffic is encrypted in transit, and files in new accounts are AES‑256 encrypted at rest on Zotero’s AWS servers (not end‑to‑end).
+* **Berkeley Protocol Alignment**: Properly stored OSINT data improves evidentiary value in legal and policy contexts. Zotero’s source snapshots and timestamps, checked for completeness, aid transparency and reproducibility.
+* **Local & Cloud Sync** – Library syncing is optional and disabled by default; metadata lookups, failed-save reporting and other network features can still send information without sync. When you enable file sync, its traffic is encrypted in transit, and files in new accounts are AES‑256 encrypted at rest on Zotero’s AWS servers (not end‑to‑end).
 * **Limitations**:
   1. No native encryption of local files.
-  2. No automatic hashing of archived material.
+  2. Zotero’s internal MD5 sync hashes do not replace separately recorded integrity checks.
   3. No password protection built in to the Zotero desktop app.
 
 #### Recommended Best Practices
@@ -177,8 +177,8 @@ GUI‑first and beginner‑friendly. Most users only install the desktop app and
 
 ## Requirements
 
-* Zotero 9 desktop app: macOS 10.15 or later, Windows 10 or later, or Linux with the same library requirements as Firefox 140.
-* Zotero Connector for desktop browser capture: Chrome or Edge current Stable/Extended Stable, Firefox 115 or later, or Safari on macOS 11 Big Sur or later. The Safari connector is bundled with Zotero.
+* Zotero 10 desktop app: macOS 10.15 or later, Windows 10 or later, or Linux with the same library requirements as Firefox 140.
+* Zotero Connector for desktop browser capture: Chrome or Edge current Stable/Extended Stable, Firefox 115 or later, or Safari 18 or later on macOS 13 Ventura or later; macOS 11 and 12 use an older connector with fewer features. The Safari connector is bundled with Zotero.
 * A Zotero account is optional for local-only use, but required for Zotero sync and group-library workflows.
 * Zotero file syncing can use Zotero Storage. Personal-library files can also use WebDAV, a file-sync method provided by some institutions or storage services. Group-library files cannot use WebDAV.
 * Supported word processors vary by platform; check Zotero’s system requirements before relying on Word or LibreOffice integration.
@@ -196,7 +196,7 @@ GUI‑first and beginner‑friendly. Most users only install the desktop app and
 
 * **Zotero is useful for organizing and citing OSINT source material, but it is not a forensic archive or evidence-management system.**
   * **Snapshot limits:** Zotero snapshots may miss dynamic content, meaning content that changes or loads after the page opens, as well as logged-in content, embedded media, or material that loads only after scrolling. Check every saved item before relying on it.
-  * **No native file hashing:** Zotero does not create or manage hashes, meaning digital fingerprints used to check that a file has not changed. If integrity matters, calculate hashes outside Zotero and store them with the item.
+  * **Integrity checks:** Zotero uses internal MD5 hashes for file synchronization. If evidentiary integrity matters, calculate and record a separate cryptographic hash, such as SHA-256, with the item.
   * **No default local encryption:** data and attachments saved on your device are not encrypted by Zotero itself. Use full-disk encryption or an encrypted storage location for sensitive work.
   * **Sync privacy:** if you enable Zotero sync, library data goes to Zotero servers. Attachment files also go to Zotero Storage unless you use WebDAV for personal-library files. Group-library files use Zotero Storage and cannot use WebDAV.
   * **Descriptive-field cleanup**: automatic capture can create incomplete or incorrect title, author, date, URL, or access-date fields, especially on news sites, social platforms, dynamically generated pages, or sites without a Zotero translator. Manually verify important entries.
@@ -204,7 +204,7 @@ GUI‑first and beginner‑friendly. Most users only install the desktop app and
 
 ### Additional Tips
 
-* **Waiting for Snapshot**: If saving a dynamically generated page, wait until Zotero’s connector icon indicates that a full snapshot is available. Scrolling or a short pause may be necessary.
+* **Waiting for Snapshot**: If saving a dynamically generated page, wait until Zotero’s Connector offers snapshot capture, then inspect the saved copy for completeness. Scrolling or a short pause may be necessary.
 * **Group Libraries**: Collaborate with team members by creating a shared project library.
 * **Custom Citation Styles**: Install or modify CSL (Citation Style Language) files for specialized formatting.
 
