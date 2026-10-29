@@ -25,9 +25,9 @@ Developed by the Alliance for Securing Democracy (ASD) with contributions from t
 * Compares URLs, titles, or text snippets (≥15 words) across the open web.
 * Uses multiple sources—such as the [**Global Database of Events, Language, and Tone (GDELT)**](https://www.gdeltproject.org/), various search engines, and the [**Copyscape** ](https://www.copyscape.com/)plagiarism detection service—to identify near-duplicate or highly similar content. (Note: **GDELT** is a global database that logs worldwide broadcasts/online news, and **Copyscape** checks plagiarism by comparing text across its index.)
 * Provides similarity scores (e.g., 97% for near-identical copies) to help investigators see which sites replicate or closely mimic the queried text.
-* **Content Similarity** compares a URL, title, or text snippet against search engines, GDELT and Copyscape, returning a match score; items scoring around **70%+** are often the most actionable leads
-* **Craig Silverman** (2024, [Indicator](https://indicator.media/p/a-look-at-the-information-laundromat)) describes the Laundromat as “one of the newest and most interesting free website analysis tools I’ve come across,” and notes how ASD used it to detect repeated reprinting of Russia Today (RT) content.
-* According to Silverman’s interview with the tool’s developer, Peter Benzoni, items scoring [**70% or higher**](https://digitalinvestigations.substack.com/p/a-look-at-the-information-laundromat) on content similarity are “likely to be of most interest.”
+* **Content Similarity** compares a URL, title, or text snippet against search engines, GDELT and Copyscape, returning a match score; inspect matching passages manually rather than treating a fixed score as proof of replication.
+* **Further reading:** Craig Silverman’s [“A look at the Information Laundromat website analysis tool”](https://indicator.media/p/a-look-at-the-information-laundromat), published 5 September 2024, introduces its content and metadata searches. The full article requires a paid subscription.
+* **Interpreting results:** Compare matching passages and their publication context. A similarity score alone does not establish which page came first or why the wording overlaps.
 
 {% tabs %}
 {% tab title="Content Similarity Search" %}
@@ -301,7 +301,7 @@ To identify websites that replicate or closely match specific content, helping t
    * **Search Engines & Databases**: Pick from [GDELT](https://www.gdeltproject.org/), [Copyscape](https://www.copyscape.com/), and other engines.
 3. **Review Results**
    * [Results appear with **similarity scores**](https://informationlaundromat.com/dashboard) (e.g., 97% means near-duplicate).
-   * According to the developer Peter Benzoni (via Craig Silverman’s [interview](https://indicator.media/p/a-look-at-the-information-laundromat)), a 70% or higher similarity rating usually indicates that content is heavily replicated.
+   * Similarity scores require manual comparison of the matching passages and their context; a score alone is not proof of copying. See the provider’s [About guidance](https://informationlaundromat.com/about).
    * If there are many hits, you can **export** them (e.g., .csv or .xlsx) for further filtering or pivot table analysis. (Excel pivot tables help by grouping data by domain or score.)
 4. **Interpret Carefully**
    * High similarity among multiple sites may imply a broader content-laundering network.
