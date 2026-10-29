@@ -10,6 +10,10 @@ description: >-
 
 [https://github.com/bellingcat/tiktok-hashtag-analysis](https://github.com/bellingcat/tiktok-hashtag-analysis)
 
+Latest tagged release: [2.0.2](https://github.com/bellingcat/tiktok-hashtag-analysis/releases/tag/v2.0.2), released 2023-09-21.
+
+Last source/version check: 2026-10-29.
+
 ## Description
 
 This open-source tool enables researchers to download posts from TikTok for a specified list of hashtags and create a local database of posts. It utilizes the unofficial [TikTok API wrapper](https://github.com/davidteather/TikTok-Api) and [Playwright ](https://www.thoughtworks.com/en-us/radar/languages-and-frameworks/playwright)to fetch posts via a browser session, and optionally uses [Yt-dlp](https://wiki.archlinux.org/title/Yt-dlp) [to download the videos](https://raw.githubusercontent.com/bellingcat/tiktok-hashtag-analysis/main/README.md). The tool is run from the command line and can accept multiple hashtags at once; it stores posts in a structured `posts.json` file and [saves any downloaded media](https://raw.githubusercontent.com/bellingcat/tiktok-hashtag-analysis/main/README.md) to a `media` folder.
