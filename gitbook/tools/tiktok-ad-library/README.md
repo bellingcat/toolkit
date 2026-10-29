@@ -10,7 +10,7 @@ description: >-
 
 [https://library.tiktok.com/ads](https://library.tiktok.com/ads)&#x20;
 
-Last checked: 2026-08-02
+Last source/version check: 2026-10-29.
 
 ## Description
 
