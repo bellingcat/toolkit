@@ -13,11 +13,11 @@ description: A list of official business registers around the world.
 
 Most countries have a publicly available official register which lists companies that are allowed to conduct business in that country. Registers usually contain fields like: Company name, directors, and registered address. Some contain data like shareholders, filings, VAT number, tax number and telephone number.
 
-Some are free, while some give very basic details for free and require payment for more. Some registers allow you to search only by company name, while others also allow for searching by person names (e.g. director names).
+Some are free, while others give very basic details for free and require payment for more. Some registers allow you to search only by company name, while others also allow for searching by person names (e.g. director names).
 
 The Wikipedia list of registers will help you to find an online register for a particular country.
 
-[OpenCorporates](https://bellingcat.gitbook.io/toolkit/more/all-tools/opencorporates) has unified many of the registers in a single database, so it may be better to use in some instances. It's worth checking their [data coverage page](https://knowledge.opencorporates.com/knowledge-base/overview/) to see which registers are currently online (i.e. regularly updated), and which are not.
+[OpenCorporates](https://bellingcat.gitbook.io/toolkit/more/all-tools/opencorporates) has unified many of the registers in a single database, so it may be better to use in some instances. It's worth checking their [data coverage page](https://knowledge.opencorporates.com/knowledge-base/overview/) to see which registers are currently online (i.e. regularly updated), and which are not. [North Data](https://bellingcat.gitbook.io/toolkit/more/all-tools/north-data) is another unified register covering multiple countries.
 
 ## Cost
 
