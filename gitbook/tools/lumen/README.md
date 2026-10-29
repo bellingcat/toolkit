@@ -45,7 +45,7 @@ Lumen’s overarching goal is to bring **transparency** to the ecosystem of onli
 
 ### **What Lumen Shows**
 
-<figure><img src="../../.gitbook/assets/image (43) (2).png" alt=""><figcaption><p>A Lumen Database search query for “AfD” displaying multiple takedown notices, each labeled by complaint type (e.g., trademark, defamation) and showing key fields like sender, recipient, and date received. (Filtered by language DE.)</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (43) (2).png" alt=""><figcaption><p>A Lumen Database search query for “AfD” displaying multiple takedown notices, each labeled by complaint type (e.g., trademark, defamation) and showing key fields like sender, recipient, and date received. (Filtered by language DE.)</p></figcaption></figure>
 
 *   **Full or partially redacted copies of notices:**
 
@@ -53,7 +53,7 @@ Lumen’s overarching goal is to bring **transparency** to the ecosystem of onli
     * Recipient (Google, Vimeo, Medium, or others)
     * Target URLs and reason (e.g. copyright, defamation, trademark)
 
-    <figure><img src="../../.gitbook/assets/image (1) (9) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (1) (9) (1).png" alt=""><figcaption></figcaption></figure>
 * **Contextual metadata:**
   * Date sent/received
   * Claimed legal grounds (DMCA, local law, court order)
@@ -68,7 +68,7 @@ Below is a **short sample** of how a journalist or researcher might retrieve dat
 
 ```bash
 # 1. Replace YOUR_API_TOKEN with the token you received from Lumen
-# 2. Adjust the date range (in Unix time) and term as needed.
+# 2. Adjust the date range (in Unix time in milliseconds) and term as needed.
 
 curl -H "User-Agent: MyResearchBot/1.0" \
      -H "Accept: application/json" \
@@ -95,7 +95,7 @@ You will receive a JSON object listing all matching takedown notices, each with 
 **Scenario:** You want to see all takedown notices referring to “piracy” from January 1, 2023 through January 1, 2024.
 
 ```bash
-     -H "User-Agent: MyResearchBot/1.0" \
+curl -H "User-Agent: MyResearchBot/1.0" \
      -H "X-Authentication-Token: YOUR_API_TOKEN" \
      -H "Accept: application/json" \
 "https://lumendatabase.org/notices/search.json?term=piracy&date_received_facet=1672531200000..1704067200000&sort_by=date_received%20asc"
@@ -113,7 +113,7 @@ You will receive a JSON object listing all matching takedown notices, each with 
 **Scenario:** You suspect certain notices mention an exact phrase—e.g. “copyright troll”—and want only those that contain that _entire_ phrase, not just the words separately.
 
 ```bash
-     -H "User-Agent: MyResearchBot/1.0" \
+curl -H "User-Agent: MyResearchBot/1.0" \
      -H "X-Authentication-Token: YOUR_API_TOKEN" \
      -H "Accept: application/json" \
 "https://lumendatabase.org/notices/search.json?term=%22copyright%20troll%22"
@@ -129,7 +129,7 @@ You will receive a JSON object listing all matching takedown notices, each with 
 **Scenario:** You want to find all notices **sent by** a specific party (the _sender\_name_) who has repeatedly filed DMCA takedowns about “videos.” Also, you only want notices classified under **Copyright** topics.
 
 ```bash
-     -H "User-Agent: MyResearchBot/1.0" \
+curl -H "User-Agent: MyResearchBot/1.0" \
      -H "X-Authentication-Token: YOUR_API_TOKEN" \
      -H "Accept: application/json" \
 "https://lumendatabase.org/notices/search.json?term=video&sender_name_facet=Company%20XYZ&topic_facet=Copyright"
@@ -146,7 +146,7 @@ You will receive a JSON object listing all matching takedown notices, each with 
 **Scenario:** You suspect a major law firm is filing notices on behalf of a big music label. You want to see everything posted _on behalf of_ that label.
 
 ```bash
-     -H "User-Agent: MyResearchBot/1.0" \
+curl -H "User-Agent: MyResearchBot/1.0" \
      -H "X-Authentication-Token: YOUR_API_TOKEN" \
      -H "Accept: application/json" \
 "https://lumendatabase.org/notices/search.json?principal_name=Big%20Music%20Label"
@@ -162,14 +162,14 @@ You will receive a JSON object listing all matching takedown notices, each with 
 **Scenario:** You want takedown notices about “fake news” specifically tagged with “misinformation,” and you only want to see those that had “Partial” action taken, in Spanish.
 
 ```bash
-     -H "User-Agent: MyResearchBot/1.0" \
+curl -H "User-Agent: MyResearchBot/1.0" \
      -H "X-Authentication-Token: YOUR_API_TOKEN" \
      -H "Accept: application/json" \
-"https://lumendatabase.org/notices/search.json?term=%22fake%20news%22&tags=misinformation&action_taken_facet=Partial&language_facet=es"
+"https://lumendatabase.org/notices/search.json?term=%22fake%20news%22&tag_list_facet=misinformation&action_taken_facet=Partial&language_facet=es"
 ```
 
 * **`term="%22fake%20news%22"`**: The exact phrase “fake news.”
-* **`tags=misinformation`**: Only those notices with “misinformation” as a tag.
+* `tag_list_facet=misinformation`: Only those notices with “misinformation” as a tag.
 * **`action_taken_facet=Partial`**: The platform partially complied with the request.
 * **`language_facet=es`**: The notice text is recorded as Spanish.
 
@@ -180,7 +180,7 @@ You will receive a JSON object listing all matching takedown notices, each with 
 **Scenario:** You suspect the same actor used different angles—defamation, copyright, trademark—to remove social media criticism. Combine a keyword (`“criticism”`), a date range, and the **sender's name**.
 
 ```bash
-     -H "User-Agent: MyResearchBot/1.0" \
+curl -H "User-Agent: MyResearchBot/1.0" \
      -H "X-Authentication-Token: YOUR_API_TOKEN" \
      -H "Accept: application/json" \
 "https://lumendatabase.org/notices/search.json?term=criticism&sender_name=Some%20Law%20Office&date_received_facet=1669852800000..1693612800000"
@@ -197,7 +197,7 @@ You will receive a JSON object listing all matching takedown notices, each with 
 **Scenario:** You want the full record of a known notice with ID `123456` to see original or supporting documents.
 
 ```bash
-     -H "User-Agent: MyResearchBot/1.0" \
+curl -H "User-Agent: MyResearchBot/1.0" \
      -H "X-Authentication-Token: YOUR_API_TOKEN" \
      -H "Accept: application/json" \
 "https://lumendatabase.org/notices/123456.json"
@@ -209,10 +209,10 @@ You will receive a JSON object listing all matching takedown notices, each with 
 
 **8. Filtering by “Safe Harbor” or “Court Order”**
 
-**Scenario:** You want all the **Court Orders** posted this year, focusing on possibly sealed or partially redacted legal documents.
+**Scenario:** You want all the **Court Orders** in the illustrated January 2023 to January 2024 date range, focusing on possibly sealed or partially redacted legal documents.
 
 ```bash
-     -H "User-Agent: MyResearchBot/1.0" \
+curl -H "User-Agent: MyResearchBot/1.0" \
      -H "X-Authentication-Token: YOUR_API_TOKEN" \
      -H "Accept: application/json" \
 "https://lumendatabase.org/notices/search.json?topic_facet=Court%20Order&date_received_facet=1672531200000..1704067200000"
@@ -225,10 +225,10 @@ You will receive a JSON object listing all matching takedown notices, each with 
 
 **A Note on Parsing Results**
 
-All responses return JSON with a structure like:
+Illustrative response sketch (ellipses indicate omitted content; this is not valid JSON for direct parsing):
 
-```json
-jsonKopieren{
+```
+{
   "notices": [
     {
       "id": "123456",
@@ -309,7 +309,7 @@ Dan Morrill: [DMCA notice BPI Part 2 Empty Claims](https://www.youtube.com/watch
 [The Berkman Klein Centre for Internet & Society at Harvard University](https://github.com/berkmancenter)\
 A research-focused center studying the intersection of law, technology, and society.
 
-Current major contributors (2025): Google Search, YouTube, Meta (Facebook & Instagram), GitHub, Reddit, Wikipedia, Medium, Vimeo, DuckDuckGo, Wordpress, University of California systems. _Twitter/X not currently contributing._
+Contributions vary by platform and period. Consult the coverage caveat above and Lumen’s current [notice-basics page](https://lumendatabase.org/pages/lumen-notice-basics) before inferring that a service is represented.
 
 ## Advertising Trackers
 
