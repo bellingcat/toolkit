@@ -11,7 +11,9 @@ description: >-
 ## URL
 
 [https://uwazi.io/](https://uwazi.io/)\
-latest stable 1.229.280 (released 2026-10-28)
+Latest stable release: [1.229.283](https://github.com/huridocs/uwazi/releases/tag/1.229.283), released 2026-10-29. Release candidates are listed separately.
+
+Last source/version check: 2026-10-29.
 
 ## Description
 
@@ -87,7 +89,7 @@ Uwazi is partially free. The self-hosted version is free to download and run on 
 
 ## Requirements
 
-To use Uwazi, particularly if you're opting for the self-hosted version, you'll need a server with sufficient resources to handle the platform and a level of technical expertise to manage installation and maintenance. For both hosted and self-hosted options, you need a valid email address to set up accounts and manage user permissions. No additional software is required if using the hosted version, as HURIDOCS handles all management. (Self-hosting dependencies include NodeJs 20.19.6, ElasticSearch 8.18.0 with the ICU Analysis Plugin recommended, MongoDB 7.0.24 with a replica set, mongosh, Redis, Minio, pdftotext/Poppler, and Yarn 4+; the project currently uses Yarn 4.13.0.)
+To use Uwazi, particularly if you're opting for the self-hosted version, you'll need a server with sufficient resources to handle the platform and a level of technical expertise to manage installation and maintenance. For both hosted and self-hosted options, you need a valid email address to set up accounts and manage user permissions. No additional software is required if using the hosted version, as HURIDOCS handles all management. For Uwazi 1.229.283, [package.json](https://github.com/huridocs/uwazi/blob/1.229.283/package.json) declares Node.js `>=22.23.2`, while the [same release’s README](https://github.com/huridocs/uwazi/blob/1.229.283/README.md) lists Node.js 20.19.6. These published requirements conflict. The README also lists ElasticSearch 8.18.0 with the ICU Analysis Plugin recommended, MongoDB 7.0.24 configured as a replica set, mongosh, Redis, Minio and pdftotext/Poppler. The package declares Yarn 4.13.0.
 
 ## Limitations
 
