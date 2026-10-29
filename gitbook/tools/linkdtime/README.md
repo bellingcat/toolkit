@@ -10,7 +10,9 @@ description: >-
 ## URL
 
 [https://github.com/Lucksi/LinkdTime](https://github.com/Lucksi/LinkdTime)\
-**no tagged releases**; latest commit **2025‑04‑11 (as of May, 2026)**
+No tagged releases. Latest repository commit: [2026-02-21](https://github.com/Lucksi/LinkdTime/commit/f2cc0be88cd7c8689511b45cc366e92d671fe225) (README update).
+
+Last source/version check: 2026-10-29.
 
 ## Description
 
