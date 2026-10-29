@@ -20,7 +20,7 @@ By leveraging Bluesky’s [AT Protocol API](https://docs.bsky.app/docs/advanced-
 
 This functionality can be useful for open source researchers, investigative journalists, and analysts who need to map social relationships, identify key influencers, and understand community structures on the platform.
 
-<figure><img src="../../.gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>
 
 #### Key Features:
 
@@ -100,7 +100,7 @@ Beginner‑friendly, point‑and‑click web UI. Enter a Bluesky handle and revi
 
 * A **Bluesky account** (only if you want to access your account and follow suggested users).
 * Your **Bluesky username** for personalized results.
-* **Optional:** Enter your Bluesky password (stored in your browser) to enable one-click follow actions securely.
+* **Optional:** To follow accounts from the results, use a separate Bluesky **app password**, not your main account password. See [Bluesky’s guidance for third-party apps](https://bsky.social/about/blog/5-19-2023-user-faq).
 
 **No additional API keys, downloads, or complex setup is necessary.**
 
