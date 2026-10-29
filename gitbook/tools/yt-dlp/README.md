@@ -10,7 +10,7 @@ description: >-
 
 [https://github.com/yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp)\
 \
-**Current version:** `2026.06.09`, released `2026-06-09`; last checked `2026-06-19`. The same version is listed on GitHub Releases and PyPo
+**Version recorded in June 2026:** `2026.06.09`, released `2026-06-09`; last checked `2026-06-19`. The same version was listed on GitHub Releases and PyPI
 
 ## Description
 
@@ -58,7 +58,7 @@ yt-dlp does **not** verify whether a video is authentic. Think of it as a collec
 * **Saves subtitles and automatic captions:** `--write-subs` and `--write-auto-subs` are useful for transcript review, translation, quote checking and keyword searches.
 * **Saves thumbnails:** `--write-thumbnail` and `--write-all-thumbnails` can preserve visual context that may later change.
 * **Supports channel and playlist monitoring:** `--download-archive FILE` records downloaded video IDs and skips them in future runs, which is useful for recurring monitoring.
-* **Supports livestream capture:** `--live-from-start` can download supported livestreams from the start, but it is marked experimental and is only listed as supported for YouTube, Twitch and TVer.
+* **Supports livestream capture:** `--live-from-start` is experimental and site-limited. Consult the current [supported options](https://github.com/yt-dlp/yt-dlp#video-selection) for the installed release, and test the required site before relying on it.
 * **Works with browser cookies:** `--cookies-from-browser` can read cookies from supported browsers, including Firefox, Chrome, Chromium, Edge, Brave, Opera, Safari, Vivaldi and others. This is useful for content you can lawfully view in a research browser profile.
 * **Integrates with FFmpeg:** FFmpeg and FFprobe are strongly recommended and are required for common tasks such as merging separate video and audio streams and post-processing files.
 * **Includes an updater:** release binaries support `yt-dlp -U`; the project also supports release channels such as `stable`, `nightly` and `master` through `--update-to`. Some package-manager or unpackaged binaries do not auto-update, so check how you installed it.
@@ -194,7 +194,7 @@ yt-dlp \
   "<CHANNEL_OR_PLAYLIST_URL>" > index.tsv
 ```
 
-Expected output: a tab-separated file that can be opened in a spreadsheet or imported into analysis tools.
+Expected output: a tab-separated index, with fields unavailable in flat-playlist extraction potentially missing or shown as NA. Do not treat a missing upload date as evidence that the source lacks one; use full extraction when reliable dates are required.
 
 #### **Monitor a channel and only download new items**
 
@@ -234,14 +234,14 @@ Use this only when you understand the account and privacy risks.
 
 ```bash
 yt-dlp \
-  --cookies-from-browser firefox \
+  --cookies-from-browser "firefox:<PATH_TO_RESEARCH_PROFILE>" \
   --write-info-json \
   --write-subs \
   --write-auto-subs \
   "<URL_VISIBLE_IN_RESEARCH_BROWSER>"
 ```
 
-Do not run this against a personal browser profile. Use a dedicated research profile or a separate research machine.
+Do not run this against a personal browser profile. Use a dedicated research profile or a separate research machine. Replace \<PATH\_TO\_RESEARCH\_PROFILE> in the example with that profile’s path; without an explicit profile selector, the most recently accessed profile may be selected.
 
 #### **Update yt-dlp**
 
@@ -276,7 +276,7 @@ curl -L https://github.com/yt-dlp/yt-dlp/raw/master/public.key | gpg --import
 gpg --verify SHA2-256SUMS.sig SHA2-256SUMS
 ```
 
-The README documents release signature verification using the project’s public key.
+This verifies the signature on the checksum manifest. Also download the chosen release file from the same release and compare its SHA-256 digest with that file’s manifest entry before running it. A signed manifest alone does not check your executable; establish trust in the signing key independently.
 
 ### Example Use Cases
 
@@ -319,10 +319,10 @@ A basic download is simple once yt-dlp is installed, but this is still a command
 #### Requirements
 
 * **Operating system:** Windows, macOS, Linux or another system supported by yt-dlp’s release or Python installation methods.
-* **Python:** Python `3.10+` is required for Python-based installs; PyPy `3.11+` is also supported.
+* **Python:** Current Python-based installs require Python `3.11+` (CPython or PyPy). Check the chosen release’s requirements when reproducing an older environment.
 * **Terminal access:** required.
 * **FFmpeg and FFprobe:** strongly recommended; required for merging separate video/audio streams and many post-processing workflows.
-* **JavaScript runtime for some sites:** the README recommends `yt-dlp-ejs` and a JavaScript runtime for full YouTube support; supported runtimes include Deno, Node.js, Bun and QuickJS, with Deno recommended in the README.
+* **JavaScript runtime for some sites:** The README requires `yt-dlp-ejs` and a supported JavaScript runtime for full YouTube support; supported runtimes include Deno, Node.js, Bun and QuickJS, with Deno recommended in the README.
 * **Storage space:** channel and livestream archives can become large quickly.
 * **Optional browser cookies:** needed for some age-gated, region-gated or account-visible content, but use a dedicated research profile and document the access context.
 * **Updater awareness:** official release binaries can use `yt-dlp -U`; pip and package-manager installs should generally be updated using the same method that installed them. Some unpackaged binaries have no auto-update support.
