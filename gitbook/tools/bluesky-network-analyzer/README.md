@@ -25,7 +25,7 @@ This functionality can be useful for open source researchers, investigative jour
 #### Key Features:
 
 * **Automated Second-Degree Analysis**
-  * The tool collects the accounts that a user follows and then compiles the connection lists of those accounts. This results in a ranked list of second-degree suggestions—accounts that are frequently followed by the original user’s connections. This analysis is limited to a single hop without exploring deeper network layers.
+  * The tool collects the accounts that a user follows and then compiles the connection lists of those accounts. This results in a ranked list of second-degree suggestions—accounts that are frequently followed by the original user’s connections. This examines two follow edges from the starting account, without exploring further layers.
 * **Filtering for Niche Accounts**
   * A toggle option allows the filtering of results to prioritize smaller or more specialized accounts over universally popular ones, enabling the discovery of unique voices that might otherwise be overshadowed by mainstream profiles.
 * **One-Click Following (Optional)**
@@ -39,25 +39,25 @@ This functionality can be useful for open source researchers, investigative jour
 
 {% tabs %}
 {% tab title="Investigative Journalism & OSINT" %}
-A researcher examining disinformation networks can use BskyFollowFinder to pinpoint influential hubs. If many known disinformation actors follow a particular account, it may serve as a critical node for further investigation.
+A researcher examining disinformation networks can use BskyFollowFinder to find recurring second-degree suggestions for further investigation. Suggestions do not establish direct follows by the starting actors or demonstrate influence.
 {% endtab %}
 
 {% tab title="Detailed Steps" %}
-Using **BskyFollowFinder** to pinpoint influential hubs in a disinformation network involves a systematic approach. Here’s a step-by-step guide on how you might do that:
+Using **BskyFollowFinder** to find leads for examining a disinformation network involves a systematic approach. Here’s a step-by-step guide on how you might do that:
 
 1. **Compile a List of Known Disinformation Actors:**\
    Begin by identifying a set of Bluesky accounts that have been previously flagged or verified as disinformation sources. This can come from prior open source investigations, trusted reports, or expert lists.
 2. **Run Individual Network Analyses:**\
-   For each actor, input their handle into BskyFollowFinder to generate a ranked list of accounts they follow, highlighting common connections among the selected profiles.
+   For each actor, input their handle into BskyFollowFinder to generate ranked suggestions followed by their followees, excluding accounts the actor already follows.
 3. **Aggregate and Compare Results:**\
-   Collect the output from each disinformation actor. Look for accounts that repeatedly appear across multiple analyses. If several known disinformation actors follow a particular account, it likely serves as a central node, or influential hub, in that network.
+   Collect the output from each disinformation actor. Look for accounts that repeatedly appear across multiple analyses. Recurring suggestions are leads for further investigation; these results do not establish that the actors directly follow the suggested account or that it is influential.
 4. **Verify the Critical Node:**\
    Once you’ve identified an account that appears frequently, dig deeper:
    * **Profile Analysis:** Review the account’s profile, bio, and content to understand its role and influence.
    * **Cross-Reference:** Check if this account is mentioned or linked in other open source research reports, social media analyses, or disinformation research.
    * **Contextual Review:** Evaluate its interactions and network position by looking at who engages with the account and what content it promotes.
 5. **Enhance Your Analysis with Visualization Tools:**\
-   For a broader picture, consider exporting the data and using network visualization tools like [**Gephi**](https://bellingcat.gitbook.io/toolkit/more/all-tools/gephi) or [**Maltego**](https://bellingcat.gitbook.io/toolkit/more/all-tools/maltego). Import the common nodes and their connections to visualize the network structure, which can help confirm the hub’s influence and reveal additional relationships.
+   For a broader picture, collect and verify the underlying follow relationships separately before using network visualization tools like [**Gephi**](https://bellingcat.gitbook.io/toolkit/more/all-tools/gephi) or [**Maltego**](https://bellingcat.gitbook.io/toolkit/more/all-tools/maltego). Import the common nodes and their connections to visualize the network structure, which can help examine structural relationships; influence requires separate evidence.
 6. **Document Your Findings:**\
    Record your methodology, the handles analyzed, common nodes identified, and any corroborating evidence from further investigation.
 {% endtab %}
@@ -74,13 +74,13 @@ To leverage BskyFollowFinder for community growth and influence mapping—helpin
 1. **Identify Trusted Contacts:**\
    Start by listing the Bluesky accounts you already follow and trust. These may include colleagues, well-known activists, journalists, or experts in your area of interest.
 2. **Run a Network Analysis:**\
-   Enter your own Bluesky handle (or that of a trusted contact) into BskyFollowFinder. The tool will compile the follow lists of your trusted accounts and rank suggested accounts based on how many of your contacts follow them. The more frequently an account appears in these lists, the more likely it is a key influencer in your niche.
+   Enter your own Bluesky handle (or that of a trusted contact) into BskyFollowFinder. The tool will compile the follow lists of your trusted accounts and rank suggested accounts based on how many of your contacts follow them. Frequent appearance identifies a commonly followed suggestion within the examined networks; it does not by itself establish influence.
 3. **Evaluate the Suggestions:**\
    Review the ranked list to identify which accounts consistently appear across multiple trusted networks. Click on these accounts to examine their profiles, read their bios, and assess their content to ensure they align with your niche and values.
 4. **Expand Your Network:**\
    Once you’ve identified promising key voices, consider following them. Over time, as you build your network, run the analysis periodically to capture new influential voices emerging within your community.
 5. **Integrate with Visualization Tools (Optional):**\
-   For a broader perspective, you can export the list of suggestions and import it into network visualization tools like [Gephi](https://bellingcat.gitbook.io/toolkit/more/all-tools/gephi) or [Maltego](https://bellingcat.gitbook.io/toolkit/more/all-tools/maltego). These tools help you map out the social graph visually, revealing clusters and the most interconnected nodes within your community.
+   For a broader perspective, you can separately collect follow relationships for import into network visualization tools like [Gephi](https://bellingcat.gitbook.io/toolkit/more/all-tools/gephi) or [Maltego](https://bellingcat.gitbook.io/toolkit/more/all-tools/maltego). These tools help you map out the social graph visually, revealing clusters and the most interconnected nodes within your community.
 6. **Document and Iterate:**\
    Keep a record of the accounts you follow and monitor their influence over time. This documentation can serve as a baseline for further analysis and can help you refine your criteria for what constitutes a “key voice” in your niche.
 {% endtab %}
@@ -106,9 +106,9 @@ Beginner‑friendly, point‑and‑click web UI. Enter a Bluesky handle and revi
 
 ## Limitations
 
-* **"One-Hop" Analysis only:** BskyFollowFinder examines only the user’s direct connections (the accounts they follow or who follow them) and doesn’t delve into “friends of friends” or deeper network layers.
+* **Second-degree suggestions only:** It examines accounts followed by the starting account’s followees, excludes existing follows, and does not analyze followers or deeper layers.
 * **No Graph Visualization:** Outputs are provided as a ranked list; it does not generate visual network maps like [Gephi ](https://bellingcat.gitbook.io/toolkit/more/all-tools/gephi)or [Maltego](https://bellingcat.gitbook.io/toolkit/more/all-tools/maltego).
-* **Performance:** Processing can be slow for high‑follower accounts (the app must compile many lists).
+* **Performance:** Processing can be slow when the starting account follows many accounts or those followees have long follow lists.
 * **Rate limits:** Subject to Bluesky/AT Protocol limits (write & other limits vary by service); heavy use or bursts may trigger throttling.
 * **Maintenance/versions:** No tagged releases; repo shows updates through 2024‑11‑18; license not stated (unknown).
 
@@ -134,7 +134,7 @@ Beginner‑friendly, point‑and‑click web UI. Enter a Bluesky handle and revi
 | [**Bluesky Directory**](https://blueskydirectory.com/)                      | Bluesky            | Offers curated lists of user accounts by interest           |
 | [**Sky Follower Bridge**](https://www.sky-follower-bridge.dev/)             | Twitter → Bluesky  | Finds cross-platform identities between Twitter and Bluesky |
 
-**Best Combination:** Use BskyFollowFinder to generate a list of suggested connections, then export or integrate the data into Gephi or Maltego for advanced network analysis.
+**Best Combination:** Use BskyFollowFinder to generate a list of suggested connections, then collect and verify the underlying follow relationships separately for analysis in Gephi or Maltego.
 
 ## Tool provider
 
