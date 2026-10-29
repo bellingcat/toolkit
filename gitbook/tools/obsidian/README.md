@@ -11,7 +11,9 @@ description: >-
 
 [https://obsidian.md/](https://obsidian.md/)
 
-(version 1.13.1 Desktop, released June 9, 2026; as of June 19, 2026)
+Current public desktop release: [1.14.5](https://obsidian.md/changelog/2026-10-22-desktop-v1.14.5/), released 2026-10-22. Early-access releases use a separate channel.
+
+Last source/version check: 2026-10-29.
 
 ## Description
 
