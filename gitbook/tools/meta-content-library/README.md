@@ -12,6 +12,8 @@ description: >-
 
 [https://transparency.meta.com/researchtools/meta-content-library](https://transparency.meta.com/researchtools/meta-content-library)
 
+Last source/version check: 2026-10-29.
+
 {% hint style="info" %}
 While this is a free tool, access is strictly limited. However, _any_ researcher affiliated with an academic institution or another not‑for‑profit organisation whose core activity is scientific or public‑interest research can apply. Individuals can [apply for access](https://icpsr.atlassian.net/servicedesk/customer/portal/53) to these tools at the[ Inter-university Consortium for Political and Social Research (ICPSR)](https://en.wikipedia.org/wiki/Inter-university_Consortium_for_Political_and_Social_Research) at the University of Michigan. If you intend to use it for research purposes, make sure to keep in mind the application time: The review process typically takes between [2-6 weeks](https://socialmediaarchive.org/pages/?page=FAQs\&ln=en).
 {% endhint %}
@@ -121,7 +123,7 @@ The **web UI** is point‑and‑click and suitable for non‑coders. The **API**
   – **CSV downloads** for “widely‑known” accounts (see thresholds) and counted toward rate quota. [Transparency](https://transparency.meta.com/researchtools/meta-content-library)
 * **“Widely‑known” thresholds for downloadable data:** **Facebook Pages ≥15,000** likes/followers; **public profiles ≥25,000** followers or **verified badge**. (Developer docs/Meta comms.) [developers.facebook.com](https://developers.facebook.com/docs/content-library-and-api/content-library/)
 * **Optional dependencies:** None installed locally; code runs within SRE/VDE notebooks provided by Meta/ICPSR. [developers.facebook.com](https://developers.facebook.com/docs/content-library-and-api/content-library-api/getting-started/)
-* **Versioning note:** Current API docs show **v5.0** (release date not published in docs). **To verify:** confirm version and publication date in your environment. [developers.facebook.com](https://developers.facebook.com/docs/content-library-and-api/content-library-api/)
+* **API version:** The [current Meta Content Library API documentation](https://developers.facebook.com/docs/content-library-and-api/content-library-api/) shows **v6.0**, checked 2026-10-29. A publication date was not established; confirm the version available in your approved research environment.
 
 ## Ethical Considerations
 
