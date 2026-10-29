@@ -166,7 +166,7 @@ Uwazi is developed by the NGO HURIDOCS (Human Rights Information and Documentati
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-Uwazi uses cookies on its websites and applications to improve functionality, track usage statistics (Google Analytics), facilitate navigation and enable social media sharing. First-party and third-party cookies are used, including session cookies, persistent cookies, and pixel tags. Users can control cookies through their browser settings, but disabling them may limit functionality. This would, for example, restrict the ability to embed posts or integrate content from, for example, WordPress, Matomo Analytics Facebook, YouTube, LinkedIn, LimeSurvey, or GitHub. Their dedicated [cookie policy ](https://uwazi.io/page/sg0hbnvot3l/cookies-policy)page explains their use of cookies in detail.
+HURIDOCS' [cookies policy](https://uwazi.io/cookies-policy), updated 23 June 2026, covers its named websites and subdomains, including uwazi.io. It describes cookies and service providers used for functionality, usage statistics and social sharing. This is the provider's policy for those websites; it does not establish which cookies a particular independently operated Uwazi instance sets. Consult the specific instance operator's policy and check that deployment before drawing conclusions about its tracking behaviour. Browser cookie controls may affect functionality.
 
 | Page maintainer |
 | --------------- |
