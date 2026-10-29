@@ -13,6 +13,8 @@ description: Open-source network analysis and visualization software
 [https://lite.gephi.org/](https://lite.gephi.org/)\
 (Gephi Lite 1.1.0 as of 2026-10-29)
 
+Last source/version check: 2026-10-29.
+
 ## Description
 
 Gephi is a free, open-source tool for network visualization and analysis, widely used to explore and represent relationships in large datasets, such as social networks, links between documents, or web structures. Gephi allows users to create customizable network graphs, analyze metrics (like centrality and clustering), and identify patterns within complex datasets. The tool supports importing various data formats (CSV, GEXF) and offers plugins for advanced functionality. It can be used in journalism and open source research to visually analyze and reveal hidden connections in data, such as by examining online misinformation networks.
