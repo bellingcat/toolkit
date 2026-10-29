@@ -11,7 +11,7 @@ description: >-
 ## URL
 
 [https://datasette.io](https://datasette.io)\
-(v.0.65.2, released November 5, 2025)
+(v.0.65.5, released September 16, 2026)
 
 ## Description
 
@@ -23,7 +23,7 @@ Datasette is an Apache-2.0-licensed tool that turns one or more SQLite databases
 
 In simpler terms, if you have information in a spreadsheet or CSV file and want to find insights or share it with others, Datasette helps you publish that data online in a searchable, user-friendly format.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2026-06-23 at 12.24.12 pm (1).png" alt=""><figcaption><p>An example of how Datasette can be used - <a href="https://datasette.io/global-power-plants/global-power-plants">a global power plant database</a> (screenshot from Datasette website)</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2026-06-23 at 12.24.12 pm (1).png" alt=""><figcaption><p>An example of how Datasette can be used - <a href="https://datasette.io/global-power-plants/global-power-plants">a global power plant database</a> (screenshot from Datasette website)</p></figcaption></figure>
 
 According to Datasette creator Simon Willison, ["One of the most compelling use cases of Datasette"](https://www.newsroomrobots.com/p/how-datasette-helps-with-investigative) was Bellingcat's use of Datasette to examine leaked data – analyzing a leaked food delivery company database to uncover links to Russia's security agency. This means that whether you’re a journalist sifting through thousands of records or a researcher sharing data with the public, Datasette can make the job easier by providing an intuitive way to browse and query your information.
 
@@ -47,7 +47,7 @@ Researchers and newsrooms often sit on CSVs or spreadsheets that are hard to sea
 Datasette Desktop), then run:
 
 ```bash
-bashCopyEditdatasette serve mydata.db
+datasette serve mydata.db
 ```
 
 Seconds later, colleagues can filter tables, run SQL, download results, and\
@@ -86,7 +86,7 @@ Cloud pricing on request.
 
 ## Requirements
 
-* **Self-host:** Python 3.8 + (works on 3.8 – 3.13); SQLite databases (created via `sqlite-utils` or any source)
+* **Self-host:** Python 3.10 or later for stable Datasette 0.65.5; SQLite databases (created via `sqlite-utils` or any source)
 * **Desktop:** macOS 12 + (bundles Python)
 * **Cloud:** Organisation account and login; browser upload or `datasette push`; optional SSO
 * Optional: GitHub/Fly.io/Vercel credentials for one-command publishing
@@ -110,7 +110,7 @@ Cloud pricing on request.
 
 ## Guides and articles
 
-* [Official “Getting started” docs; Exploring a DB tutorial](https://docs.dbdocs.io/)
+* [Official “Getting started” docs; Exploring a DB tutorial](https://docs.datasette.io/en/stable/getting_started.html)
 * Simon Willison, [_Tracking FARA with GitHub Actions and Cloud Run_](https://simonwillison.net/2020/Jan/21/github-actions-cloud-run/); Blog
 * Datasette Cloud blog: [_datasette-plot_ visualisation plugin; _datasette-pins_ favourites manager; _datasette-write-ui_ row editor](https://www.datasette.cloud/blog/2023/datasette-write-ui/)
 * Video: [_Datasette for data journalists_](https://simonwillison.net/2024/Jul/14/pycon/) (PyCon 2024 talk)
