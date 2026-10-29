@@ -33,10 +33,10 @@ Some functions or Dashboards within ACLED (such as CAST) might not work with an 
 
 * [**Data export tool**](https://acleddata.com/data-export-tool/)**:** Weekly updated conflict and protest data, as well as[ curated datasets.](https://acleddata.com/curated-data-files/)
 * [**ACLED Explorer**](https://acleddata.com/explorer/): Filters and summarizes data from the past year, with country profiles at subnational level and trend views for events, fatalities, and civilians exposed to violence. Use the Data Export Tool, downloadable data files, or API for broader historical exports.
-* [ACLED Trends](https://acleddata.com/platform/trends): Forward-looking conflict intelligence platform for anticipating where violence, unrest, and instability are most likely to escalate. It requires users to register or log in to myACLED, and the older Trendfinder URLs now redirect to the current Trends platform.
+* [ACLED Trends](https://acleddata.com/platform/trends): Forward-looking conflict intelligence platform for anticipating where violence, unrest, and instability are most likely to escalate. It requires a myACLED Partner or Enterprise access level, and the older Trendfinder URLs now redirect to the current Trends platform.
 * [**CAST (Conflict Alert System)**](https://acleddata.com/conflict-alert-system/): Provides forecasts for political violence up to six months ahead.
 * **Conflict Exposure Calculator**: Assesses population exposure to conflict within specified areas and timeframes.
-* [**Conflict Index**](https://acleddata.com/conflict-index/): Severity ranking that [combines four indicators](https://acleddata.com/conflict-index/about/) (fatalities, events, locations, and actors) to rank global conflicts.
+* [**Conflict Index**](https://acleddata.com/conflict-index/): Severity ranking that [combines four indicators](https://acleddata.com/conflict-index/about/) (deadliness, danger to civilians, geographic diffusion, and armed group fragmentation) to rank global conflicts.
 * [**Spotlight areas:**](https://acleddata.com/global-analysis/spotlight-areas) Includes current ACLED monitor pages for Ukraine, Gaza, Iran war updates, the Middle East, Mozambique, the South China Sea, the United States, and Yemen; some pages or downloads may be restricted by myACLED access level.
 
 ### **Analysis - Tools**
@@ -49,13 +49,13 @@ The following part of the text contains detailed function information in collaps
 
 The [ACLED Explorer](https://acleddata.com/platform/explorer/) filters and summarizes ACLED data from the past year. For longer historical exports, use the Data Export Tool, downloadable regional or curated data files, or the API, and check ACLED’s country/time-period coverage page because start dates vary across locations.
 
-<figure><img src=".gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 #### _**ACLED Trends**_
 
 ACLED Trendfinder provides interactive tools for tracking global political violence and demonstrations. It enables the identification of significant changes, historical context, and early warning signs of conflict emergence across countries and regions.
 
-<figure><img src=".gitbook/assets/image (7) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 <details>
 
@@ -80,7 +80,7 @@ ACLED Trendfinder provides interactive tools for tracking global political viole
 
 The [ACLED Conflict Alert System (CAST)](https://acleddata.com/platform/cast-conflict-alert-system) forecasts the number of political violence events expected in each of the next six rolling four-week periods in every country. CAST requires users to register or log in to myACLED.
 
-<figure><img src=".gitbook/assets/image (6) (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 <details>
 
@@ -100,7 +100,7 @@ The [ACLED Conflict Alert System (CAST)](https://acleddata.com/platform/cast-con
 
 Accuracy metrics in the CAST system enable users to assess the accuracy of the forecast compared to the last six months.
 
-<figure><img src=".gitbook/assets/image (8) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 <details>
 
@@ -119,15 +119,15 @@ CAST pages may include restricted monthly results and report links when availabl
 
 #### _**Conflict Exposure Calculator**_
 
-[Estimates](https://acleddata.com/platform/conflict-exposure-calculator) civilian exposure to conflict by combining ACLED event data with WorldPop population estimates and proximity buffers. ACLED notes that WorldPop estimates are not updated with migration, refugee, or internally displaced person flows, so treat exposure outputs as estimates rather than exact population counts.d.
+[Estimates](https://acleddata.com/platform/conflict-exposure-calculator) civilian exposure to conflict by combining ACLED event data with WorldPop population estimates and proximity buffers. ACLED notes that WorldPop estimates are not updated with migration, refugee, or internally displaced person flows, so treat exposure outputs as estimates rather than exact population counts.
 
-<figure><img src=".gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 <details>
 
-<summary>Conflict exposure calucator functions</summary>
+<summary>Conflict exposure calculator functions</summary>
 
-* **Data download:**: download data in `.xlsx` format
+* **Data download:** download data in `.xlsx` format
 * **Level of aggregation**: Country, Global, Provinces, or District Level Location.
 * **Filter** by event or actor type and Actors.
 * **Filter by country:** filter by country or countries.
@@ -142,7 +142,7 @@ The Weekly Conflict Index provides a singular measure of conflict intensity in e
 
 Example below: May 2024.
 
-<figure><img src=".gitbook/assets/image (10) (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 #### **Special Projects**
 
@@ -152,7 +152,7 @@ Example below: May 2024.
 Not every focused conflict monitor is available for every registered user.
 {% endhint %}
 
-<figure><img src=".gitbook/assets/image (11) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 ## Cost
 
@@ -184,7 +184,7 @@ The ACLED dataset and tools come with several limitations that researchers shoul
 * **Access Restrictions**: Some detailed data or analysis tools may be available only to users with specific access levels, limiting the scope of research for those with basic access.
 *   **API limits:** ACLED API responses default to 5,000 rows. For larger queries, use filters, request only the fields you need, and paginate requests to avoid missing rows or hitting timeout errors.
 
-    Formatting to apply manually in GitBook:
+
 * **Dependence on Open Sources**: The quality and reliability of ACLED data is dependent on the availability and veracity of open sources. In regions where the media is restricted or unreliable, this could impact the accuracy of the dataset.
 * _**Conflict Alert System (CAST):**_ As a future forecasting system, it comes with caveats regarding accuracy. To understand more, see the methodology [here](https://acleddata.com/acleddatanew/wp-content/uploads/dlm_uploads/2023/07/ACLED-CAST-Methodology-%E2%80%93-July-2023.pdf). CAST forecasts are indicative and should not be treated as certainties.
 
@@ -212,7 +212,7 @@ ACLED maintains a [Knowledge Base](https://acleddata.com/conflict-data/knowledge
 
 *   The current [ACLED API documentation](https://acleddata.com/api-documentation/getting-started) explains myACLED authentication, endpoints, response formats, query filters, pagination, and examples for browser, R, and Python workflows.
 
-    Formatting to apply manually in GitBook:
+
 * [**Keeping ACLED Data Updated**](https://acleddata.com/knowledge-base/keeping-acled-data-updated/) – A brief FAQ outlining ACLED’s “living dataset” policy: new events are added and historical records may be revised during the weekly Monday–Tuesday release cycle. It lists the kinds of changes users should expect (additions, substitutions, deletions) and reminds analysts to refresh local copies regularly to avoid version drift.
 
 #### Use Cases:
