@@ -33,7 +33,7 @@ description: >-
 * TikTok (posts and comments)
 * Instagram (posts only)
 * X/Twitter
-* LinkedIn
+* LinkedIn: Zeeschuimer removed its LinkedIn capture module in [v1.14](https://github.com/digitalmethodsinitiative/zeeschuimer/releases); check version-specific support before relying on this source.
 * 9gag
 * Imgur
 * Douyin
@@ -72,7 +72,7 @@ In this example, Tumblr is selected to collect posts/comments. Here, the dataset
 
 <figure><img src="https://lh7-us.googleusercontent.com/iEJanp6kHwwHU7RW7A9eYfTC3N6hBkdvZz5AUyBYE8yDyHUgfGeKS6KuqxaOLT0GF1Dg_bSSVQipQtb6_K4jX2bVpxXGfCQ-RRwq_nL5mil3COBxkOBWou14ETrr0XFQILrbko-g3TkFMumnDTjCx-o" alt="[Screenshot: “Create dataset” screen showing Tumblr selected + Tags/blogs field filled]"><figcaption><p>4CAT’s “Create new dataset” screen for Tumblr. This example searches by tag, using <code>liminal spaces</code>, so 4CAT retrieves posts explicitly tagged with that phrase rather than generic keyword matches. The query is intentionally narrow to reduce load on the shared instance and avoid large, slow collections. Before creating the dataset, author information is pseudonymised/replaced and “Make dataset private” is enabled. Use the date range fields to narrow the collection further, then check the output for missing time periods or gaps.</p></figcaption></figure>
 
-Example of the customization of a steam graph visualization in 4Cat.
+Example of the customization of a stream graph visualization in 4Cat.
 
 <figure><img src="https://lh7-us.googleusercontent.com/qjR2UY8Xbt_M-Vb4DiRJZJcWhBtaeXgdekAo_Bl6eeYvJoGlZ7sFczznJDuxXnDkX1c2PvPCYhNh4qnbY0Xa6F6IjFmM8aCNQEp6laPkT4RTICZ90GwocoJ-bOwW9m2YDHqA82bo3lneCdNhair9Fw" alt=""><figcaption><p>Example of a 4CAT stream graph. Each colour is a selected term/category, and thicker bands mean more matching posts/items in that time period. The large peak near late summer 2021 marks a short burst of activity worth inspecting in the underlying dataset. Downward bands are not negative values; stream graphs are centred, so the important signal is band thickness over time.</p></figcaption></figure>
 
@@ -88,13 +88,13 @@ Hosting cost may apply if 4Cat is deployed as a web application for a team.
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>4</td></tr></tbody></table>
 
-Installation/server maintenance (often via Docker) is the main hurdle; day-to-day use in the web UI is typically easier once an instance is running.)
+Installation/server maintenance (often via Docker) is the main hurdle; day-to-day use in the web UI is typically easier once an instance is running.
 
 ## Requirements
 
 * **Platforms**: runs on Linux, Windows and macOS.
-* **Docker:** the application has been containerised with [Docker](https://www.docker.com/) so Docker needs to be installed for the application to run.
-* **Memory Requirements:** 16GB of RAM
+* **Installation:** Use [Docker](https://www.docker.com/) for the recommended installation route; manual installation is also supported.
+* **Memory:** Requirements depend on workload. The project says 8 GB may suffice for capture and the web interface; it recommends at least 16 GB for analysis, especially NLP processors.
 * **API key**: Some of the custom datasets may require an API key to be configured.
 
 For more information on hardware requirements see: [https://github.com/digitalmethodsinitiative/4cat/wiki/What-hardware-do-I-need-to-run-4CAT%3F](https://github.com/digitalmethodsinitiative/4cat/wiki/What-hardware-do-I-need-to-run-4CAT%3F)&#x20;
