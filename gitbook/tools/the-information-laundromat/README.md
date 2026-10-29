@@ -29,11 +29,11 @@ Developed by the Alliance for Securing Democracy (ASD) with contributions from t
 
 {% tabs %}
 {% tab title="Content Similarity Search" %}
-<figure><img src="../../.gitbook/assets/image (1) (1) (5) (1).png" alt=""><figcaption><p>"Content Similarity” input form: shows how to enter a URL or text snippet, select a country, language, and search engines, and then run a search for reprinted or near-identical content</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1) (5) (1).png" alt=""><figcaption><p>"Content Similarity” input form: shows how to enter a URL or text snippet, select a country, language, and search engines, and then run a search for reprinted or near-identical content</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Results" %}
-<figure><img src="../../.gitbook/assets/image (5) (3) (1).png" alt=""><figcaption><p>“Results with Similar Titles or Content”: a table listing domains, article titles, text snippets, and match percentages, illustrating how the tool surfaces sites sharing overlapping text from the query.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (5) (3) (1).png" alt=""><figcaption><p>“Results with Similar Titles or Content”: a table listing domains, article titles, text snippets, and match percentages, illustrating how the tool surfaces sites sharing overlapping text from the query.</p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -43,11 +43,11 @@ Developed by the Alliance for Securing Democracy (ASD) with contributions from t
 
 {% tabs %}
 {% tab title="Metadata Similarity Search" %}
-<figure><img src="../../.gitbook/assets/image (7) (2) (2).png" alt=""><figcaption><p>“Metadata Similarity” input form: displays fields to enter one or more domains, along with options like ‘Run URLSCAN’ or ‘In-group matching,’ enabling users to detect shared technical indicators among websites.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (7) (2) (2).png" alt=""><figcaption><p>“Metadata Similarity” input form: displays fields to enter one or more domains, along with options like ‘Run URLSCAN’ or ‘In-group matching,’ enabling users to detect shared technical indicators among websites.</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Results" %}
-<figure><img src="../../.gitbook/assets/image (2) (4) (1).png" alt=""><figcaption><p>“Indicators” results page: a color-coded table (Tier 1 in green, Tier 2 in yellow, Tier 3 in teal) detailing unique or moderate-to-weak indicators (certificates, IPs, subnets, cookies, etc.) found for the queried domain(s).</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (4) (1).png" alt=""><figcaption><p>“Indicators” results page: a color-coded table (Tier 1 in green, Tier 2 in yellow, Tier 3 in teal) detailing unique or moderate-to-weak indicators (certificates, IPs, subnets, cookies, etc.) found for the queried domain(s).</p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -57,7 +57,7 @@ Scans domains to find shared infrastructure, such as [**IP addresses**](https://
 
 <details>
 
-<summary><strong>Tier 1</strong>: High-confidence indicators that strongly suggest a connection.</summary>
+<summary><strong>Tier 1</strong>: Potentially distinctive indicators; validate each overlap and rule out shared hosting, CDNs and reused identifiers.</summary>
 
 1.  **Adobe Analytics ID (`1-adobe_analytics_id`)**
 
@@ -71,12 +71,12 @@ Scans domains to find shared infrastructure, such as [**IP addresses**](https://
     A wallet address for cryptocurrencies (e.g., Bitcoin, Ethereum) is used to send, receive, or store digital assets. **OSINT Note**: An identical wallet address on two sites strongly suggests a common financial link or ownership. However, cryptocurrency’s pseudonymous nature means additional data is needed to confirm identities or relationships.
 4.  **Domain Name (`1-domain`)**
 
-    The primary identifier (e.g., `example.com`) that a site uses. Observing how domain names are chosen can reveal shared naming conventions or patterns hinting at affiliation. Still, domains are easy to register so a shared domain pattern may be only a **partial** lead.
+    In the published crawler, this separate indicator is the extracted domain label (e.g. `example` from `example.com`). Shared labels or naming patterns are leads for investigation; domains are easy to register and a naming overlap alone does not establish affiliation.
 5.  **Domain Suffix (`1-domain_suffix`)**
 
-    The top-level domain or country code at the end of a URL (e.g., `.com`, `.ru`, `.co.uk`).
+    In the published crawler, this indicator combines the public suffix and domain label (stored as `suffix.domain`, e.g. `com.example`). The matcher compares the combined value. Check the values returned by the deployed service; sharing a common suffix such as `.com` alone does not establish affiliation.
 
-    Shared suffixes might indicate a regional or organizational link. Yet, many TLDs are globally accessible, so it’s rarely a standalone proof of connection.
+    Validate the complete indicator values and seek independent corroboration. A common top-level domain alone is not evidence of shared ownership.
 6.  **Facebook Pixel ID (`1-fb_pixel_id`)**
 
     A unique analytics/tracking code used by Facebook to measure ad performance on a site. Sites sharing a **Facebook Pixel ID** could have the same operator or marketing strategy. However, external agencies can configure one pixel across numerous clients, risking **misattribution**.
@@ -281,7 +281,7 @@ By combining these searches, users can quickly spot patterns of content launderi
 
 {% tabs %}
 {% tab title="Image Similarity" %}
-<figure><img src="../../.gitbook/assets/image (58) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (58) (1).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -313,7 +313,7 @@ To identify websites that replicate or closely match specific content, helping t
 
 **Step-by-Step Guide**:
 
-1. **Input Domains**: In “Metadata Similarity,” enter one or more domain names (e.g., domain1.com, domain2.com) you suspect might share ownership or design.
+1. **Input Domains**: In “Metadata Similarity,” enter one or more domain names (e.g., https://domain1.com, https://domain2.com; the provider requires an https:// prefix on each domain) you suspect might share ownership or design.
 2. **Run the Search**:
    * The system inspects metadata such as[ IP addresses, SSL certificates, analytics codes, CSS overlap](https://informationlaundromat.com/indicators), etc.
    * “If you have a set of sites \[...], this is a good way to do a quick snapshot \[...]” says developer **Benzoni** in [Silverman’s piece](https://digitalinvestigations.substack.com/p/a-look-at-the-information-laundromat).
@@ -352,7 +352,7 @@ GUI is straightforward (point‑and‑click) but interpreting results requires O
 * **Text matches are indicative, not provenance:** The tool does not determine original source; high scores show similarity, not authorship. Accuracy varies with text length/uniqueness; URLs often yield lower scores due to sidebars/boilerplate. Always manually verify. [informationlaundromat.com](https://informationlaundromat.com/about)
 * **Infrastructure signals can be spurious:** CDNs, DDoS protection (e.g., Cloudflare), and shared hosts can produce false links; treat Tier 2–3 indicators with caution. [informationlaundromat.com](https://informationlaundromat.com/about)
 * **Image Similarity is experimental** and may fail or return loose matches. [informationlaundromat.com](https://informationlaundromat.com/)
-* **Hosted usage data:** site logs IP/page/time and deletes logs after \~30 days; analytics anonymized (GDPR notice). [informationlaundromat.com](https://informationlaundromat.com/)
+* **Hosted usage data:** The provider notice says form data and results are collected for usage analytics and potential corpus expansion, and retained for as long as necessary for those purposes. It does not specify a 30-day deletion period or guarantee anonymization. Review the [current notice](https://informationlaundromat.com/about) before submitting sensitive material.
 * **Batch use restricted on hosted instance** (registration code required). [informationlaundromat.com](https://informationlaundromat.com/about)
 * **Releases:** No tagged releases as of today; repository is active (latest commit 2025‑01‑21). Pin your environment when self‑hosting. [GitHub](https://github.com/ASD-at-GMF/disinfo-laundromat)
 * **External service dependencies:** Availability and rate limits depend on search engines/GDELT/Copyscape/URLScan; outages or throttling can affect results. (_Specific quotas not published — To verify_). [informationlaundromat.com](https://informationlaundromat.com/)
@@ -361,7 +361,7 @@ GUI is straightforward (point‑and‑click) but interpreting results requires O
 
 ## Ethical Considerations
 
-**Indicator Validity**: Distinguish between high-confidence Tier 1 data vs. broad Tier 3 overlaps.
+**Indicator Validity**: Interpret each indicator in context and corroborate overlaps; a tier label alone does not establish shared ownership.
 
 **Avoid Misattribution**: Investigate thoroughly before concluding sites are connected, especially with free or commonly used hosting solutions. While using the tool, analysts must carefully assess indicator validity to avoid misattributing content or website relationships, as many elements, such as shared hosting, can create misleading connections. Careful verification is required.
 
