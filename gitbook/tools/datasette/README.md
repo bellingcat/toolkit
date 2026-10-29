@@ -21,7 +21,7 @@ Datasette is a free, open-source tool that enables you to transform your dataset
 
 It was created with data journalists and investigators in mind, but anyone who works with structured data can benefit from it.
 
-Datasette is an Apache-2.0-licensed tool that turns one or more SQLite databases into an interactive website and stable JSON/CSV API within seconds. The growing ecosystem now counts 154+ plugins and 40+ companion tools, a macOS Desktop app (v0.2.3) with a one-click plugin manager, and the hosted Datasette Cloud service, with a new “Datasette for Newsrooms” bundle for investigative teams.
+Datasette is an Apache-2.0-licensed tool that turns one or more SQLite databases into an interactive website and stable JSON/CSV API within seconds. The growing ecosystem now counts 154+ plugins and 40+ companion tools, a macOS Desktop app (v0.2.3) with a one-click plugin manager, and the hosted Datasette Cloud service, with a “Datasette for Newsrooms” offering for investigative teams.
 
 In simpler terms, if you have information in a spreadsheet or CSV file and want to find insights or share it with others, Datasette helps you publish that data online in a searchable, user-friendly format.
 
@@ -61,7 +61,7 @@ You can then explore the database locally. Colleagues need a reachable deploymen
 | Ask natural-language questions of a dataset | [`datasette-query-assistant`](https://datasette.io/plugins/datasette-query-assistant) is an early-alpha plugin that generates commented SQL from questions; model configuration and any required API key are separate prerequisites. |
 | Rapid exploratory data-viz                  | `datasette-plot` lets users build shareable Observable Plot charts from tables/queries. ([datasette.cloud](https://www.datasette.cloud/blog/2023/datasette-plot/?utm_source=chatgpt.com))                                            |
 | Publish FOIA transparency data              | `datasette publish cloudrun` for a scale-to-zero interactive portal.                                                                                                                                                                 |
-| Private newsroom data room                  | Datasette Cloud with per-table permissions and Newsrooms starter bundle. ([simonwillison.net](https://simonwillison.net/tags/datasette-cloud/))                                                                                      |
+| Private newsroom data room                  | [Datasette Cloud](https://www.datasette.cloud/docs/) provides private spaces for invited members, with admins able to manage membership. A [Newsrooms offering](https://www.datasette.cloud/newsrooms/) is also available.           |
 | Reproducible notebooks & APIs               | Bundle `.db` + `metadata.yaml`; anyone can clone & run.                                                                                                                                                                              |
 
 #### Key features
