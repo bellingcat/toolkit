@@ -10,6 +10,8 @@ description: >-
 
 [https://www.osint.industries/](https://www.osint.industries/)
 
+Last source/version check: 2026-10-29.
+
 ## Description
 
 \[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
