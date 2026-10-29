@@ -11,7 +11,7 @@ description: >-
 ## URL
 
 [https://uwazi.io/](https://uwazi.io/)\
-latest stable 1.229.24 (released 2026-06-26; checked 2026-06-26)
+latest stable 1.229.280 (released 2026-10-28)
 
 ## Description
 
@@ -29,7 +29,7 @@ Since April 2025, HURIDOCS has shipped[ integrated machine‑learning features](
 
 [Integration with Tella](https://huridocs.org/2026/01/the-new-tella-app-lets-uwazi-users-document-violations-safely-and-while-offline/): Once set up, Uwazi databases can be populated via Tella, a secure mobile documentation app by Horizontal. It supports encrypted capture and import of photos, videos, audio and files, stores them separately from the device gallery, supports offline data entry, and can upload to Uwazi when connectivity returns.
 
-<div><figure><img src="../../.gitbook/assets/Screenshot 2024-09-25 115523 (1).png" alt=""><figcaption><p>This screenshot illustrates Uwazi’s geospatial mapping capability, allowing users to visually pinpoint and organize documented information by location.</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Screenshot 2024-09-25 115546 (1).png" alt=""><figcaption><p>Uwazi’s functionality for defining and managing relationships between different categories or templates of information. It shows how various entity types (e.g., Organization, Incident, Individuals) can be connected, enabling users to structure their data and understand links between different records.</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Screenshot 2024-09-25 115606 (1).png" alt=""><figcaption><p>This screenshot illustrates Uwazi’s metadata configuration capabilities, showing how administrators can define, edit, and organize custom fields (e.g., text, numeric, relationships, links) to structure the information collected about a particular entity type.</p></figcaption></figure></div>
+<div><figure><img src=".gitbook/assets/Screenshot 2024-09-25 115523 (1).png" alt=""><figcaption><p>This screenshot illustrates Uwazi’s geospatial mapping capability, allowing users to visually pinpoint and organize documented information by location.</p></figcaption></figure> <figure><img src=".gitbook/assets/Screenshot 2024-09-25 115546 (1).png" alt=""><figcaption><p>Uwazi’s functionality for defining and managing relationships between different categories or templates of information. It shows how various entity types (e.g., Organization, Incident, Individuals) can be connected, enabling users to structure their data and understand links between different records.</p></figcaption></figure> <figure><img src=".gitbook/assets/Screenshot 2024-09-25 115606 (1).png" alt=""><figcaption><p>This screenshot illustrates Uwazi’s metadata configuration capabilities, showing how administrators can define, edit, and organize custom fields (e.g., text, numeric, relationships, links) to structure the information collected about a particular entity type.</p></figcaption></figure></div>
 
 #### Key Features:
 
@@ -55,7 +55,7 @@ Since April 2025, HURIDOCS has shipped[ integrated machine‑learning features](
 For more detailed information and guidance, users can consult:
 
 * **Security Information:** [Uwazi Security Page](https://uwazi.io/page/o7annbvfatg/security)
-* **Privacy & Cookies Policies:** [Privacy Policy](https://uwazi.io/page/frhg6i127jc/privacy-policy), [Cookies Policy](https://uwazi.io/page/sg0hbnvot3l/cookies-policy)
+* **Privacy & Cookies Policies:** [Privacy Policy](https://uwazi.io/page/frhg6i127jc/privacy-policy), [Cookies Policy](https://uwazi.io/cookies-policy)
 
 #### **Best Practices for Uwazi Administration if running locally**
 
@@ -144,7 +144,7 @@ Uwazi has been employed to document war crimes, manage legal evidence, and archi
 * [Global Legal Action Network](https://glanlaw.org/): An organization involved in transnational human rights litigation.
 * [Justice Watch Archive](https://foreign-nationals.uwazi.io/): A database monitoring the treatment of foreign nationals in detention.
 
-You can view the full showcase [here](https://uwazi.io/en/page/k5htkcauq7i/showcase).
+You can view example projects on [Uwazi’s use-cases page](https://uwazi.io/use-cases).
 
 ### Guides and articles
 
