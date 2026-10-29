@@ -13,12 +13,11 @@ description: >-
 
 ## Description
 
-RedditMetis is a free, web-based dashboard for quick, one-off checks on any **public** Reddit account.\
-Type a username (without the `u/` prefix) and the [site fetches](https://redditmetis.com/) the last 1,000 comments **and** the last 1,000 submissions made by that user, then builds an interactive report in your browser.
+RedditMetis is a free, web-based dashboard for analysing **public** Reddit accounts. Enter a username without the `u/` prefix. The [current homepage](https://redditmetis.com/) describes analysis of up to the last 1,000 comments and posts available for that user; fewer may be returned, and this is not a complete account archive.
 
 {% tabs %}
 {% tab title="Basic Information" %}
-<figure><img src="../../.gitbook/assets/image (70) (1).png" alt=""><figcaption><p>Public Profile of Steve Huffman aka "spez" - the CEO of Reddit</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (70) (1).png" alt=""><figcaption><p>Public Profile of Steve Huffman aka "spez" - the CEO of Reddit</p></figcaption></figure>
 
 * **About** — Lists the username, account creation date (“cake day”), link karma, comment karma, and total karma. It also notes detected interests and topics (for instance, pets like “dog,” and preferred discussion topics like “finance”).
 * **Text Readability** — Provides a _Gunning Fog Index_ score of 12, rated as _medium_ complexity, indicating the average education level needed to understand the user’s writing.
@@ -27,7 +26,7 @@ Type a username (without the `u/` prefix) and the [site fetches](https://redditm
 {% endtab %}
 
 {% tab title="Activity Patterns" %}
-<figure><img src="../../.gitbook/assets/image (1) (21) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (21) (1).png" alt=""><figcaption></figcaption></figure>
 
 This screenshot from **RedditMetis** shows the _Activity Pattern_ section of a Reddit profile summary.
 
@@ -41,7 +40,7 @@ Overall, this visualization summarizes the user’s **temporal posting habits**,
 {% endtab %}
 
 {% tab title="Usage Breakdown" %}
-<figure><img src="../../.gitbook/assets/image (2) (15) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (15) (1).png" alt=""><figcaption></figcaption></figure>
 
 Each colored block represents a category of subreddits, with size proportional to the **number of posts or comments** (the selected mode).
 
@@ -53,7 +52,7 @@ This layout offers a quick visual overview of the user’s posting distribution,
 {% endtab %}
 
 {% tab title="Comment Statistics" %}
-<figure><img src="../../.gitbook/assets/image (3) (13) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3) (13) (1).png" alt=""><figcaption></figcaption></figure>
 
 It summarizes how the user engages through comments, combining quantitative data, qualitative highlights, and subreddit-based breakdowns:
 
@@ -68,7 +67,7 @@ It summarizes how the user engages through comments, combining quantitative data
 {% endtab %}
 
 {% tab title="Post Statistics" %}
-<figure><img src="../../.gitbook/assets/image (4) (10) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (4) (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 This screenshot summarizes how and where the user posts, including performance and subreddit activity patterns:
 
@@ -86,7 +85,7 @@ Overall, this panel captures a **concise posting history**, showing that most of
 {% endtab %}
 
 {% tab title="Corpus" %}
-<figure><img src="../../.gitbook/assets/image (5) (8) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (5) (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 This screenshot illustrates the **Corpus Statistics** section of a Reddit profile analysis, highlighting the user’s most frequently used words.
 
@@ -112,8 +111,8 @@ Together, these graphics summarize the **linguistic themes** of the user’s wri
 
 **What the report shows**
 
-* **Activity statistics** – a heat-map of posting hours plus monthly counts of comments and submissions (helpful for spotting time zones or daily routines).
-* **Comment analysis** – sentiment (positive / neutral / negative),[ readability scores (Flesch)](https://plainenglish.ie/readability-test/), average length, and keyword cloud.
+* **Activity statistics** – a heat-map of posting hours plus monthly counts of comments and submissions (check the report timezone; posting times alone do not establish a user’s location or daily routine).
+* **Comment analysis** – sentiment (positive / neutral / negative), readability scores (Gunning Fog Index), average length, and keyword cloud.
 * **Submission analysis** – top link types and external domains.
 * **Corpus overview** – most-used words, top subreddits, potentially controversial comments, and entities that the user has self-disclosed (profession, nationality, etc.) with a link back to the original post for context.
 * **Export** – copy-ready CSV/JSON for offline archiving.
@@ -136,22 +135,22 @@ Enter a username, press **Analyse** – no technical skills required.
 
 ## Requirements
 
-* **No login is needed – all data is sourced** from Reddit’s public API.
+* The RedditMetis interface does not request a login. Its [published code](https://github.com/jibalio/redditmetis/blob/master/frontend/src/assets/js/metisclient.js) uses public Reddit JSON endpoints, whose current availability should not be assumed under Reddit’s OAuth requirements.
 * **Modern browser** – Chrome, Firefox, Edge or Safari 15 +. Older browsers may not render the interactive charts correctly.
-* **Network speed** – the report is built client-side; a slow connection will delay the fetch.
+* **Data processing** – the published repository retrieves Reddit data in the browser and sends account data, comments, submissions and browser timezone to a backend for analysis; the current deployment may differ.
 
 ## Limitations
 
 * **Public data only** – the tool cannot read private messages, private subreddits, or removed content.
-* **Fixed scope** – each run covers exactly the latest **1,000 comments and 1,000 submissions**; older posts are ignored ([Site FAQ](https://redditmetis.com/faq)).
-* **Caching** – results are cached for **≈ 2 hours** to save API calls; very recent activity may not appear ([FAQ](https://redditmetis.com/faq)).
-* **Reddit rate limit** – the current free API ceiling is **100 requests per minute**; very busy accounts may take a minute or two to finish ([Reddit Data API wiki](https://www.reddit.com/r/redditdev/wiki/api/)).
+* **Fixed scope** – the provider describes a limit of up to the last 1,000 comments and posts; fewer may be available, and this is not a complete account history ([Site FAQ](https://redditmetis.com/faq)).
+* **Caching** – the provider’s [published FAQ](https://github.com/jibalio/redditmetis/blob/master/backend/app_redditmetis/templates/faq.html) describes caching for an undisclosed number of hours; very recent activity may not appear.
+* **Reddit rate limit** – Reddit documents 100 queries per minute per eligible OAuth client ID, averaged over ten minutes. That limit does not apply to unidentified/no-login requests; Reddit says such traffic may be blocked ([Reddit Data API wiki](https://support.reddithelp.com/hc/en-us/articles/16160319875092-Reddit-Data-API-Wiki)).
 * **NLP accuracy** – sentiment and entity extraction can misread sarcasm or joking self-descriptions.
 * **Profile not found** – typos, shadow-bans or aggressive ad-blockers can break a lookup (FAQ).
 
 ## Ethical Considerations
 
-* **Pattern revelation** – heat maps can expose a user’s daily schedule or time zone.
+* **Pattern revelation** – heat maps can reveal activity patterns, but do not establish a user’s physical timezone or daily schedule.
 * **Context matters** – automated sentiment may misclassify humour or irony; always read the source comment.
 * **No consent** – the analysed user does not need to approve the lookups; share results responsibly and within your local data-protection laws.
 * **Tool unaffiliated** – RedditMetis is not endorsed by Reddit.
