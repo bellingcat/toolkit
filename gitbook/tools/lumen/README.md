@@ -91,6 +91,8 @@ You will receive a JSON object listing all matching takedown notices, each with 
 
 <summary>Advanced API examples</summary>
 
+The requests below are documentation-based illustrations, not authenticated test results. Facet values such as `Copyright`, `misinformation`, `Partial`, `es` and `Court Order` are illustrative; check the current response facet values before adapting them.
+
 **1. Searching for a Keyword with Date Range**
 
 **Scenario:** You want to see all takedown notices referring to “piracy” from January 1, 2023 through January 1, 2024.
@@ -109,7 +111,7 @@ curl -H "User-Agent: MyResearchBot/1.0" \
 
 ***
 
-**2. Exact Phrase Searches**
+**2. Quoted Search Example (Match Behaviour to Verify)**
 
 **Scenario:** You suspect certain notices mention an exact phrase—e.g. “copyright troll”—and want only those that contain that _entire_ phrase, not just the words separately.
 
@@ -120,8 +122,8 @@ curl -H "User-Agent: MyResearchBot/1.0" \
 "https://lumendatabase.org/notices/search.json?term=%22copyright%20troll%22"
 ```
 
-* **`term="%22copyright%20troll%22"`** (URL-encoded quotes) searches for the exact phrase “copyright troll.”
-* By default, Lumen’s search is flexible with spacing and partial matches; quoting your query forces exact matching of the entire phrase.
+* **`term=%22copyright%20troll%22`** sends a query containing quotation marks around “copyright troll”; inspect returned notices to confirm the intended match behaviour.
+* The API documents OR matching of query words by default and a `term-require-all=true` parameter for requiring all words. Requiring all words is not, by itself, a guarantee that they appear as an adjacent phrase.
 
 ***
 
@@ -169,7 +171,7 @@ curl -H "User-Agent: MyResearchBot/1.0" \
 "https://lumendatabase.org/notices/search.json?term=%22fake%20news%22&tag_list_facet=misinformation&action_taken_facet=Partial&language_facet=es"
 ```
 
-* **`term="%22fake%20news%22"`**: The exact phrase “fake news.”
+* **`term=%22fake%20news%22`**: A URL-encoded quoted query; verify its match behaviour in the returned notices.
 * `tag_list_facet=misinformation`: Only those notices with “misinformation” as a tag.
 * **`action_taken_facet=Partial`**: The platform partially complied with the request.
 * **`language_facet=es`**: The notice text is recorded as Spanish.
@@ -204,7 +206,7 @@ curl -H "User-Agent: MyResearchBot/1.0" \
 "https://lumendatabase.org/notices/123456.json"
 ```
 
-* **`https://lumendatabase.org/notices/123456.json`**: Fetches the entire notice #123456 in JSON format, including structured attributes (e.g., `works`, `infringing_urls`, etc.).
+* **`https://lumendatabase.org/notices/123456.json`**: Requests the API representation of notice #123456. Returned attributes and any redactions depend on the record; this is not a guarantee of every original or supporting document.
 
 ***
 
@@ -253,7 +255,7 @@ Illustrative response sketch (ellipses indicate omitted content; this is not val
 }
 ```
 
-You can iterate through pages by appending **`&page=2`**, **`&page=3`**, and so on to gather additional matches. If you plan to store or display the results, consider normalizing them in a spreadsheet or database for further analysis.
+You can iterate through pages by appending **`&page=2`**, **`&page=3`**, and so on to gather additional matches. Lumen cannot return results beyond the 10,000th row; divide a larger search using documented facets such as date ranges. If you plan to store or display the results, consider normalizing them in a spreadsheet or database for further analysis.
 
 </details>
 
@@ -297,7 +299,7 @@ API access is free for **research purposes**; tokens are issued on request to th
 
 ## Guides and articles
 
-Official Lumen API documentation – [https://berkman-klein-center.gitbook.io/lumen-database/api/documentation](https://berkman-klein-center.gitbook.io/lumen-database/api/documentation) seen 2026-06-29.
+Official Lumen API documentation – [https://berkman-klein-center.gitbook.io/lumen-database/api/documentation](https://berkman-klein-center.gitbook.io/lumen-database/api/documentation) source checked 2026-10-29.
 
 Steve Vondran: [How to track Trump Twitter Takedowns on the lumen database](https://www.youtube.com/watch?v=tY5sOxznvEU)\*, Youtube.
 
