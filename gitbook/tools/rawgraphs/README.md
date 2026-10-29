@@ -19,10 +19,10 @@ RAWGraphs is a visualization tool that converts tabular data into clean, vector-
 
 RAWGraphs allows users to create a variety of charts and diagrams without any coding skills. It has an intuitive drag-and-drop interface where data columns can be mapped to visual variables of a chart. This approach lets journalists, designers, researchers, and other users quickly generate visualizations and then refine them using external graphic software if needed​.
 
-The hosted app offers \~“almost 30” visualization models and exports to SVG/PNG/JPG or a .rawgraphs project file for reopening work in RAWGraphs; SVG files are the vector format intended for editing in graphics software\
+The hosted app offers \~“almost 30” visualization models and exports to SVG/PNG/JPG or a .rawgraphs project file for reopening work in RAWGraphs; SVG files are the vector format intended for editing in graphics software.\
 Data is processed **only in your browser** (no server‑side storage/processing).
 
-<figure><img src="../../.gitbook/assets/image (49) (2).png" alt=""><figcaption><p>The vast number of charts available.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (49) (2).png" alt=""><figcaption><p>The vast number of charts available.</p></figcaption></figure>
 
 ## Key Features
 
@@ -36,7 +36,7 @@ Data is processed **only in your browser** (no server‑side storage/processing)
 
 ### Offline Use
 
-You can run RAWGraphs locally via the `rawgraphs-app` repository (Node + Yarn) and/or build a static version for internal hosting. The official [**rawgraphs-app** README](https://github.com/rawgraphs/rawgraphs-app) includes local install requirements (Git, Node.js, Yarn), `yarn start` for dev mode and `yarn build` for a self-hostable build.<br>
+You can run RAWGraphs locally via the `rawgraphs-app` repository (Git, Node.js and npm for the current repository instructions) and/or build a static version for internal hosting. The current [**rawgraphs-app** README](https://github.com/rawgraphs/rawgraphs-app) lists Git and Node.js, then `npm install`, `npm start` for development and `npm run build` for a self-hostable build. Follow the README for the revision you install.
 
 <details>
 
