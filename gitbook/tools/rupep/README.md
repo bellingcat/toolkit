@@ -94,11 +94,7 @@ There is a limit to viewing 20 profiles (person or organisation) per day. You ca
 
 They do not permit use of their data for commercial purposes - see the [terms and conditions](https://rupep.org/en/t-and-c/).
 
-The data is obviously limited to Russia, Belarus and Kazakhstan. If you want to look at PEPs in other countries, [OpenSanctions](https://bellingcat.gitbook.io/toolkit/more/all-tools/opensanctions) could be a good source.
-
-It appears that the home page search provides more comprehensive results than the search function in the top right of the page:
-
-<figure><img src=".gitbook/assets/Screenshot 2026-07-01 at 11.21.44.png" alt=""><figcaption><p>The home page search, circled in green, is preferable to the search at the top right of the site (marked in red)</p></figcaption></figure>
+The data is obviously limited to Russia, Belarus, Kyrgyzstan, Kazakhstan, Georgia and Moldova. If you want to look at PEPs in other countries, [OpenSanctions](https://bellingcat.gitbook.io/toolkit/more/all-tools/opensanctions) could be a good source.
 
 ## Ethical Considerations
 
