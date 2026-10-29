@@ -10,8 +10,9 @@ description: >-
 
 ## URL
 
-[https://telemetr.io/](https://telemetr.io/)\
-(as of May 2026)
+[https://telemetr.io/](https://telemetr.io/)
+
+Last documentary review: 2026-10-29.
 
 ## Description
 
@@ -513,7 +514,7 @@ The search results section lists advertisers based on the selected filters. Each
 
 Telemetr.io provides a REST API (OpenAPI v3).
 
-**Historical tariff example (not current pricing):** Free, S, M, L, XL — **$0 / $25 / $65 / $199 / $499** per month. Free plan includes **1,000 requests/month**, **5 verified channels**, and **7 days** of history; higher tiers raise limits up to **10,000 channels** and **2 million** requests with longer history. API keys are issued via **@telemetrio\_api\_bot**. Recent doc notes: free‑plan access is limited to verified channels (**2025‑01‑20**)
+Telemetr.io's [API documentation](https://api.tlmtr.io/docs/intro/tariff-plans/) distinguishes credits-based keys from subscription API packages. Credits API operations spend the applicable personal or team credit wallet; the key is not a separate wallet. Request and channel ceilings and feature access apply in addition to credit charges, and a credit top-up does not raise those ceilings. Subscription API packages provide configured allowances under a different billing model. Check `key_type` and the limits attached to your key, and review [current API plans](https://api.tlmtr.io/docs/intro/tariff-plans/) and [web-app plans](https://telemetr.io/en/pricing) before paying or scaling a collection.
 
 ## Level of difficulty
 
@@ -531,7 +532,7 @@ Basic use is point-and-click. More advanced use requires selecting channel and s
 
 * **Coverage & counts**: Catalog counts change over time and differ by source scope, such as channels, chats and bots. Treat provider totals as approximate index sizes, not complete coverage of Telegram.
 * **Free/Pro quotas**: Search and tracking allowances vary by plan, including daily/monthly quotas, source counts and result limits. Check the current comparison and credit charges for the feature you intend to use.
-* **API**: The tariff example above is historical. Current API access has separate per-plan limits, data periods and credit charges; consult the live comparison before use.
+* **API:** Credits-based and subscription API keys have different request limits, history depths and charges. Check the [API plans documentation](https://api.tlmtr.io/docs/intro/tariff-plans/) for the model attached to your key; web-app quotas do not establish every API entitlement.
 * **Data integrity**: Views, ER, and subscriber counts can be manipulated by channel owners; Telemetrio flags suspicious channels (Cheater Tag) and provides an Ads Index, but these are heuristics. Validate critical findings with multiple sources.
 * **Legal/ToS**: Telemetrio is not affiliated with Telegram and uses the official Telegram API under Telegram’s API TOS; abide by Telemetrio’s Terms/Privacy.
 * **Historical data:** Data periods depend on the feature and plan. The current analytics comparison lists one month for Free and one year for Pro; API data periods are listed separately. Check the relevant current row for your workflow.
