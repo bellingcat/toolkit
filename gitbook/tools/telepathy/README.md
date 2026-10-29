@@ -12,7 +12,9 @@ description: >-
 
 [https://github.com/prose-intelligence-ltd/Telepathy-Community](https://github.com/prose-intelligence-ltd/Telepathy-Community)
 
-Version: Telepathy 2.3.4 (released 2024-07-12; last checked 2026-06-26)
+Version declared in the [current source package](https://github.com/prose-intelligence-ltd/Telepathy-Community/blob/main/setup.py): 2.3.4. This is a source-package version, not a newly verified tagged release.
+
+Last source/version check: 2026-10-29.
 
 ## Description
 
