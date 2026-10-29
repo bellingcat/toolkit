@@ -9,8 +9,9 @@ description: >-
 
 ## URL
 
-[https://distill.io/](https://distill.io/)\
-(last revised 2026-06-29)
+[https://distill.io/](https://distill.io/)<br>
+
+Last source/version check: 2026-10-29.
 
 ## Description
 
