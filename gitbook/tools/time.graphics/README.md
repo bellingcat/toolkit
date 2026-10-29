@@ -76,7 +76,7 @@ Example: assemble posts, press releases, and footage timestamps into a single sc
 * [x] Partially Free
 * [ ] Paid
 
-&#x20;Free accounts create public timelines. Premium unlocks private or link-only timelines and removes watermarks. Pricing listed by the provider: 1 day 4.90 USD; 1 month 18.90 USD; 1 year 99 USD; education pricing available.
+&#x20;Free accounts create public timelines. Premium unlocks private or link-only timelines and removes watermarks. Check the current checkout and renewal terms before paying. On 2026-10-29, the pricing page displayed a two-day option and longer periods, while the FAQ described an automatically renewing two-day plan and said separate monthly/annual plans were unavailable. Education offers are also listed.
 
 ## Level of difficulty
 
@@ -102,10 +102,10 @@ Generally beginner-friendly for basic timelines. More advanced features (JSON da
 ## Ethical Considerations
 
 {% hint style="danger" %}
-**Privacy Controls**: Free timelines default to public; upgrade to premium for full privacy settings and controlled link-based sharing.
+**Privacy Controls**: Free timelines are public. Premium adds private and link-only modes; a shareable link can be forwarded and does not identify approved viewers.
 {% endhint %}
 
-For effective privacy management on Time.Graphics, users should carefully consider the privacy settings for each timeline, especially when handling sensitive or confidential data. By default, timelines created in the free version are set to public, making them accessible to anyone online. For users requiring privacy or limited access, the **premium version** provides essential options, including the ability to set timelines to private or restrict access to those with a direct link. This link-restricted access is beneficial for sharing information with a controlled audience without making it publicly visible. Users should regularly review and update privacy settings, particularly when working in collaborative settings, to prevent accidental public sharing. For highly sensitive content, it’s advisable to enable premium features that allow complete control over who can view and interact with each timeline, ensuring data is kept secure and accessible only to authorized individuals.
+For effective privacy management on Time.Graphics, users should carefully consider the privacy settings for each timeline, especially when handling sensitive or confidential data. By default, timelines created in the free version are set to public, making them accessible to anyone online. For users requiring privacy or limited access, the **premium version** provides essential options, including the ability to set timelines to private or restrict access to those with a direct link. Link-only sharing limits discovery but anyone who obtains the link may access or forward it; it should not be treated as an authenticated list of approved viewers. Users should regularly review and update privacy settings, particularly when working in collaborative settings, to prevent accidental public sharing. For sensitive material, assess the provider’s data handling and the selected access mode. Link-only sharing should not be treated as identity-based authorization or a guarantee of secure storage.
 
 * Avoid publishing sensitive personal data and obtain consent where appropriate.
 * Respect copyright and platform terms when attaching media.
