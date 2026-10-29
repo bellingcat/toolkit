@@ -9,7 +9,9 @@ description: >-
 
 ## URL
 
-[https://acleddata.com/](https://acleddata.com/) (as of 2026-06-18)
+[https://acleddata.com/](https://acleddata.com/)
+
+Last source/version check: 2026-10-29.
 
 ## Description
 
