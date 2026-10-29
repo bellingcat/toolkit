@@ -410,9 +410,9 @@ for post in tqdm.tqdm(posts, total=MAX_ITEMS):
 Feel free to remix flags (e.g., add `download_comments=True`) or combine ideas (geofilter + hashtag counter) to suit your investigation.
 {% endhint %}
 
-### CLI-to-Python “cheat sheet” (Instaloader 4.15.1, checked 2026-06-19)
+### CLI-to-Python reference (historical Instaloader 4.15.1 examples; original check date 2026-06-19)
 
-Below you’ll find **every current command-line flag** grouped by purpose, with the _canonical_ Python call or argument that achieves the same effect.\
+The table below contains historical Instaloader 4.15.1 CLI/Python examples. It is not an exhaustive or revalidated 4.16 reference; check a flag and its Python method against the documentation for the release you use.\
 Where the Instaloader **constructor** accepts a parameter mapped 1-to-1 to the flag, it is shown like `Instaloader(download_pictures=False)`.\
 When the flag controls behaviour **per download call**, the mapping is shown next to the relevant high-level method (e.g. `download_profiles(..., fast_update=True)`).
 
@@ -511,7 +511,7 @@ L.download_profiles(profiles,
 
 <summary>Special Relationship: Instaloader &#x26; Bellingcat Auto Archiver</summary>
 
-When you're working with the [Bellingcat Auto Archiver](https://bellingcat.gitbook.io/toolkit/more/all-tools/auto-archiver), check whether your installed version requires an Instaloader session file and which path it expects.
+When you're working with the [Bellingcat Auto Archiver](https://bellingcat.gitbook.io/toolkit/more/all-tools/auto-archiver), check whether your installed version requires an Instaloader session file and which path it expects. Auto Archiver's [published Instagram Extractor documentation](https://auto-archiver.readthedocs.io/en/latest/modules/autogen/extractor/instagram_extractor.html) marks its Instaloader-based module as not actively maintained because of blocking issues and recommends the Instagram Tbot or Instagram API extractors instead.
 
 An Instaloader session file stores reusable Instagram login cookies. `instaloader.session` is an example custom name, not Instaloader’s default filename; check your installed Auto Archiver version’s configuration. Treat the file as sensitive credential material.
 
