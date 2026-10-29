@@ -1,5 +1,5 @@
 ---
-updated: '2026-08-23'
+updated: '2026-10-28'
 description: >-
   Maigret is an open-source tool that searches for a username across thousands
   of websites and collects publicly available information from the profiles it

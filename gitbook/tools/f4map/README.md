@@ -1,5 +1,5 @@
 ---
-updated: '2026-08-27'
+updated: '2026-10-28'
 description: >-
   F4Map is an interactive 3D map visualization tool that provides detailed
   rendering of urban landscapes and geographical features.
