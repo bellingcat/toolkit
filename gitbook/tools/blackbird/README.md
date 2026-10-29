@@ -46,8 +46,8 @@ As with other username tools, matches can include accounts that merely share the
 
 ## Limitations
 
-* **Limited maintenance:** Blackbird’s code has not changed since July 2025, and the project has no formal releases or version tags. The only recent changes (October 2026) were README updates adding a third-party installer as an installation option. Site checks for username searches come from the separately maintained WhatsMyName project, which Blackbird downloads at each run, so this part of the tool stays current even without Blackbird updates.
-* **Instagram metadata and AI analysis:** The enhanced Instagram metadata workflow requires setting an Instagram session ID in the .env file. A session ID works like a logged-in session, so anyone who obtains it can access the account it belongs to. Treat this as a higher-risk workflow: use an account and browser environment appropriate for the investigation, and avoid exposing personal cookies or personal accounts. As of October 2026, GitHub issues reporting problems with both the Instagram workflow and the AI analysis feature remain open.
+* **Limited maintenance:** Blackbird’s code has not changed since July 2025, and the project has no formal releases or version tags. The only recent changes (October 2026) were README updates adding a third-party installer as an installation option. Blackbird downloads the separately maintained WhatsMyName site list at each run, but the checker must also support the current data format. In October 2026, the WhatsMyName maintainer reported missing support for POST request bodies and username character handling, which can cause false negatives. A failed match does not establish that an account is absent. See [issue #215](https://github.com/antoniaci/blackbird/issues/215).
+* **Instagram metadata and AI analysis:** The enhanced Instagram metadata workflow requires setting an Instagram session ID in the .env file. A session ID works like a logged-in session, so anyone who obtains it can access the account it belongs to. Treat this as a higher-risk workflow: use an account and browser environment appropriate for the investigation, and avoid exposing personal cookies or personal accounts. As of October 2026, the [Instagram bug report](https://github.com/antoniaci/blackbird/issues/160) remains open; an [open community pull request](https://github.com/antoniaci/blackbird/pull/207) also reports and proposes fixes for AI-assisted extraction problems.
 * **Coverage gaps:** In username investigations, the tool may miss valid results that other tools like Sherlock can surface.
 
 ## Ethical Considerations
@@ -118,7 +118,7 @@ Advanced queries can be built using built-in categories, boolean operators, and 
 python blackbird.py --filter "cat=social" --username bellingcat
 ```
 
-The tool includes a built-in AI analysis feature that generates behavioural summaries based on the platforms where a username or email is found.&#x20;
+The tool includes a built-in AI analysis feature that generates behavioural summaries based on the platforms where a username or email is found.
 
 To enable it, first generate an API key, which is stored locally in a file called `.ai_key.json`:
 
@@ -141,7 +141,7 @@ Blackbird sits in the middle ground between quick, browser-based username checke
 * [**Namechk**](https://bellingcat.gitbook.io/toolkit/more/all-tools/namechk) **-** a username and domain availability checker across multiple platforms. While it overlaps with Blackbird in checking username presence, Namechk is primarily aimed at verifying availability for registration purposes rather than OSINT investigations.
 * [**WhatsMyName**](https://bellingcat.gitbook.io/toolkit/more/all-tools/whats-my-name) **-** a browser-based username checker searching nearly 700+ platforms. Unlike Blackbird, it requires no installation and can be used directly in a browser, making it well suited for quick checks, though it lacks Blackbird's advanced querying options and email search capability.
 * [**Maigret**](https://bellingcat.gitbook.io/toolkit/more/all-tools/maigret) **-** a CLI tool that searches for usernames across 5000+ sites and extracts additional profile metadata such as account creation dates and follower counts. Maigret covers significantly more sites than Blackbird, but Blackbird has the advantage of also supporting email address searches alongside username lookups.
-* [**Sherlock**](https://bellingcat.gitbook.io/toolkit/more/all-tools/sherlock) **-** an open-source CLI tool that searches for usernames across 400+ websites and social networks. Like Blackbird, it returns direct links to found profiles, but has stronger coverage of mainstream social networks such as LinkedIn and Letterboxd, while Blackbird covers more NSFW and alternative platforms such as Gab and Truth Social. Both require installation, but Blackbird additionally offers a web interface.
+* [**Sherlock**](https://bellingcat.gitbook.io/toolkit/more/all-tools/sherlock) **-** an open-source CLI tool that searches for usernames across 400+ websites and social networks. Like Blackbird, it returns direct links to found profiles, but has stronger coverage of mainstream social networks such as LinkedIn and Letterboxd, while Blackbird covers more NSFW and alternative platforms such as Gab and Truth Social. Both require installation.
 * [**Skopenow**](https://bellingcat.gitbook.io/toolkit/more/all-tools/skopenow) **-** a paid, all-in-one people intelligence platform that searches social media usernames alongside addresses, corporate records, dark web leaks, and vehicle information. Unlike Blackbird, which is a free, open-source username enumeration tool, Skopenow is a commercial product aimed at professional investigators requiring consolidated reporting across multiple data types.
 
 ## Tool provider
@@ -154,6 +154,6 @@ Original developer is [Lucas Antoniaci](https://www.linkedin.com/in/lucas-antoni
 * [ ] This tool uses tracking cookies. Use with caution.
 * [x] This tool does not appear to use tracking cookies.
 
-| Paige Maintainer                     |
+| Page Maintainer                      |
 | ------------------------------------ |
 | Tsvetelina Yordanova and Martin Sona |
