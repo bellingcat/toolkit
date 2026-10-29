@@ -9,8 +9,9 @@ description: >-
 
 ## URL
 
-[https://twittervideodownloader.com/](https://twittervideodownloader.com/)\
-(May 2026)
+[https://twittervideodownloader.com/](https://twittervideodownloader.com/)<br>
+
+Last source/version check: 2026-10-29.
 
 ## Description
 
