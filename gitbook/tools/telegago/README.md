@@ -13,7 +13,7 @@ description: >-
 
 ## Description
 
-<figure><img src="../../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
 
 Telegago is a Google Custom Search Engine (CSE) designed for Open Source Intelligence (OSINT) research on public Telegram content. By focusing on Telegram’s publicly available web domains (e.g., **t.me** and **telegram.me**), it allows users to perform targeted and precise searches without requiring a Telegram account.
 
@@ -46,7 +46,7 @@ Telegago is a Google Custom Search Engine (CSE) designed for Open Source Intelli
 * **Leverage Additional Operators and Filters:**\
   Tools like `inurl:`, date filters (such as `before:` or `after:`), and language settings refine results to your exact needs.
 * **First-Person Keywords for Eyewitness Content:**\
-  Include first-person pronouns like "I," "me," or "my" alongside location or event terms to find firsthand accounts. For example, searching `"I saw" European Parliament protest` can uncover direct eyewitness posts. (Jane L., thanks for the tip, I hope you're safe.)
+  Include first-person pronouns like "I," "me," or "my" alongside location or event terms to find possible firsthand accounts. For example, searching `"I saw" European Parliament protest` can surface possible eyewitness posts, whose authorship and firsthand provenance still need verification. (Jane L., thanks for the tip, I hope you're safe.)
 * **Experiment with Synonyms and Alternate Spellings:**\
   Expand beyond a single keyword. If a search for `"protests"` is too narrow, try synonyms like `"demonstrations"`, `"rallies"`, or `"marches"`. Different communities and regions may favor different terms for similar events.
 * **Contextual and Localized Keywords:**\
@@ -78,11 +78,11 @@ Telegago is a Google Custom Search Engine (CSE) designed for Open Source Intelli
     * `"Ukraine front line" -rumor -speculation`
     * `("refugees" OR "migrants") "my photo"`
     * `“Kyiv protest” after:2023-01-01 before:2023-03-31`
-      * _(Shows results mentioning “Kyiv protest” published between January and March 2023.)_
+      * _(Finds indexed pages matching “Kyiv protest” and Google’s date filters; verify the original Telegram publication date.)_
     * `"European Parliament" "I saw" after:2022-05-01`
-      * _(Finds recent references to eyewitness accounts involving the European Parliament after May 1, 2022.)_
+      * _(Finds indexed pages matching these terms and the date filter; verify authorship, firsthand provenance and the Telegram post date.)_
     * `“Kyiv explosion” "I recorded" after:2023-02-01 -rumors`
-      * _(Shows recent firsthand video posts about Kyiv explosions while excluding the word “rumors.”)_
+      * _(Finds indexed pages matching these terms and Google’s date filters; verify the Telegram post date and whether the author actually recorded the footage.)_
 
 ### Alternative Tools for Telegram Searches
 
@@ -114,7 +114,7 @@ No technical expertise is required beyond basic internet browsing skills.
 
 ## Limitations
 
-* **Public Content Only:** Telegago indexes only publicly accessible information on Telegram. Private or deleted content will not appear in search results.
+* **Public Content Only:** Telegago indexes only publicly accessible information on Telegram. It does not search private Telegram content directly. Google results may be incomplete or stale, and snippets or links can outlast changes or deletion at the source; verify each result on Telegram.
 * **CSE preview limitations:** Search results usually show channel-level pages; single messages don’t always appear
 * **Search Effectiveness:** The quality of results depends on the specificity and effectiveness of your search terms.
 * **EU limitations:** Some links are hidden in the EU (from EU IPs) due to legal takedown requests.
