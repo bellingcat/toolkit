@@ -66,4 +66,4 @@ Daniel Endresz, Dan Nemec and Tormund Gerhardsen (Idea: Henk van Ess).
 
 | Page maintainer |
 | --------------- |
-| Anisa Shabir    |
+| Anisa Shabir.   |
