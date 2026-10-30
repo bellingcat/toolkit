@@ -26,7 +26,7 @@ Search for YouTube videos by keywords, location name, or coordinates. You can fi
 * Search results are automatically visualized on a map, which shows icons from the YouTube videos. Click on the icon to see the video's title, channel, and other details. Alternatively, scroll down the page to see the same details listed.
 
 {% hint style="warning" %}
-Restricted by [Youtube's API rate limits](https://github.com/mattwright324/youtube-geofind/issues/11), MW Geofind will not function if the day's limit has been reached. This is reset every day at 9am Pacific time. If you attempt to search and the page appears unresponsive, or the word "Idle" appears above the search bar, then use other methods to search (or wait till the next day after 9am Pacific time). See the section Similar Tools for details.
+Restricted by [Youtube's API rate limits](https://github.com/mattwright324/youtube-geofind/issues/11), MW Geofind will not function if the day's limit has been reached. This is reset every day at 9am Pacific time. If you attempt to search and the page is unresponsive, or the word "Idle" appears above the search bar, then use other methods to search (or wait till the next day after 9am Pacific time). See the section Similar Tools for details.
 {% endhint %}
 
 <figure><img src=".gitbook/assets/map.png" alt=""><figcaption><p>Search results visualized on a map, for YouTube videos geotagged within 20km of the Hungarian State Opera House in Budapest. A radius of 20km is shown (in the green circle). Each icon represents a YouTube channel. Note that the map also shows some videos geotagged beyond the 20km radius.</p></figcaption></figure>
@@ -58,7 +58,7 @@ Geotags can also be [imprecise](https://github.com/mattwright324/youtube-geofind
 \
 Video creators can intentionally enter an inaccurate geotag.\
 \
-Given these caveats, researchers should use the search results from MW Geofind as only one reference points and seek to independently verify any location information.
+Given these caveats, researchers should use the search results from MW Geofind as only one reference point and seek to independently verify any location information.
 
 #### Available format
 
@@ -88,8 +88,6 @@ Another approach is to use YouTube's search by location function.
 </details>
 
 In our tests, searching directly on Youtube can lead to more comprehensive search results (i.e., more videos found), though there are a few disadvantages, as discussed in the [MW Geofind documentation](https://github.com/mattwright324/youtube-geofind/wiki):
-
-Searching directly on Youtube can lead to more comprehensive search results (i.e., more videos found).
 
 * On YouTube, the user can only search by location name and not by coordinates.
 * On YouTube, geotags are in the video creator's chosen language. E.g., a French speaker may geotag their video "États-Unis" instead of "United States". When searching on Youtube, researchers should try different languages for more complete results. The language issue would not affect researchers searching by coordinates in MW Geofind.
@@ -158,4 +156,4 @@ Matthew Wright [https://mattw.io/](https://mattw.io/) - United States
 | --------------- |
 | river\_n        |
 
-August 31, 2026
+October 2026
