@@ -10,9 +10,9 @@ description: >-
 
 [https://github.com/yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp)\
 \
-Current stable PyPI release: [`2026.10.26`](https://pypi.org/project/yt-dlp/2026.10.26/), released 2026-10-26. Requires Python 3.11 or later.
+Current stable PyPI release: [`2026.10.26`](https://pypi.org/project/yt-dlp/2026.10.26/), released 2026-10-26. Python-based installs require Python 3.11 or later; official standalone binaries bundle Python.
 
-Last source/version check: 2026-10-29.
+Last source/version check: 2026-10-30.
 
 ## Description
 
