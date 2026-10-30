@@ -1,9 +1,9 @@
 ---
+updated: '2026-10-29'
 description: >-
   4CAT is a tool designed for the easy collection and analysis of online
   datasets. It allows researchers to uncover patterns and trends in data  from
   social media and other digital platforms.
-updated: '2026-10-29'
 ---
 
 # 4CAT
@@ -12,7 +12,7 @@ updated: '2026-10-29'
 
 [https://4cat.nl/](https://4cat.nl/)\
 Latest release: [v1.57](https://github.com/digitalmethodsinitiative/4cat/releases/tag/v1.57), released 2026-09-10.\
-Last source/version check: 2026-10-29.
+Last source/version check: 2026-10-30.
 
 ## Description
 
@@ -70,7 +70,7 @@ Processors are 4CAT’s built-in tools for working with a dataset after it has b
 
 The example below shows creating a new dataset and then visualizing results with a stream graph (a stacked time-series view that helps you compare how topics/terms rise and fall over time).
 
-In this example, Tumblr is selected to collect posts/comments. Here, the dataset is defined via tags entered in the Tags/blogs field (e.g., `#liminalspaces`), and the results are visualized over time to compare term/topic trends.&#x20;
+In this example, Tumblr is selected to collect posts/comments. Here, the dataset is defined via tags entered in the Tags/blogs field (e.g., `#liminalspaces`), and the results are visualized over time to compare term/topic trends.
 
 <figure><img src="https://lh7-us.googleusercontent.com/iEJanp6kHwwHU7RW7A9eYfTC3N6hBkdvZz5AUyBYE8yDyHUgfGeKS6KuqxaOLT0GF1Dg_bSSVQipQtb6_K4jX2bVpxXGfCQ-RRwq_nL5mil3COBxkOBWou14ETrr0XFQILrbko-g3TkFMumnDTjCx-o" alt="[Screenshot: “Create dataset” screen showing Tumblr selected + Tags/blogs field filled]"><figcaption><p>4CAT’s “Create new dataset” screen for Tumblr. This example searches by tag, using <code>liminal spaces</code>, so 4CAT retrieves posts explicitly tagged with that phrase rather than generic keyword matches. The query is intentionally narrow to reduce load on the shared instance and avoid large, slow collections. Before creating the dataset, author information is pseudonymised/replaced and “Make dataset private” is enabled. Use the date range fields to narrow the collection further, then check the output for missing time periods or gaps.</p></figcaption></figure>
 
@@ -99,17 +99,17 @@ Installation/server maintenance (often via Docker) is the main hurdle; day-to-da
 * **Memory:** Requirements depend on workload. The project says 8 GB may suffice for capture and the web interface; it recommends at least 16 GB for analysis, especially NLP processors.
 * **API key**: Some of the custom datasets may require an API key to be configured.
 
-For more information on hardware requirements see: [https://github.com/digitalmethodsinitiative/4cat/wiki/What-hardware-do-I-need-to-run-4CAT%3F](https://github.com/digitalmethodsinitiative/4cat/wiki/What-hardware-do-I-need-to-run-4CAT%3F)&#x20;
+For more information on hardware requirements see: [https://github.com/digitalmethodsinitiative/4cat/wiki/What-hardware-do-I-need-to-run-4CAT%3F](https://github.com/digitalmethodsinitiative/4cat/wiki/What-hardware-do-I-need-to-run-4CAT%3F)
 
 ## Limitations
 
-* **Technical Installation:** the primary limitation of 4Cat is that to install it you need specialised technical knowledge of tools like [Docker](https://www.docker.com/) and a server to run it on.    &#x20;
+* **Technical Installation:** installing and maintaining 4CAT requires technical setup, commonly with [Docker](https://www.docker.com/), on a local computer or server. Researchers with access to an institutional instance can use that instead of installing their own.
 * **Data Access:** coverage and depth vary by platform. The [project notes](https://github.com/digitalmethodsinitiative/4cat) that some built-in sources are untested or require special API access, and platform policy/technical changes can reduce what is collectible.
 * **Complex Queries:** Users with limited technical expertise may find it challenging to construct complex queries or fully utilize the tool's capabilities without a steep learning curve.
 * **Processing Time:** Large datasets or complex analysis tasks may require significant processing time, which could impact efficiency for time-sensitive research.
 * **Update Frequency:** Platform coverage can change quickly. The [4CAT project notes](https://github.com/digitalmethodsinitiative/4cat) that some built-in platform support is untested or requires special API access, and platform policy/technical changes can break capture. Treat the platform list as “as of last checked” and verify against the README/wiki before relying on it for time-sensitive work.
 * **Cost:** While 4CAT itself may be free to use, certain analyses may require substantial computational resources or access to premium data sources, which may incur costs.
-* **Rate Limits**: some services throttle collection. In 4CAT’s own docs, some sources are explicitly documented as hard to scrape “within 4CAT itself” due to aggressive rate limiting (e.g., [TikTok comments](https://docs.4cat.nl/datasources/tiktok_comments/search_tiktok_comments.html), [Imgur](https://docs.4cat.nl/datasources/imgur/search_imgur.html)), with a recommendation to import data collected elsewhere.&#x20;
+* **Rate Limits**: some services throttle collection. In 4CAT’s own docs, some sources are explicitly documented as hard to scrape “within 4CAT itself” due to aggressive rate limiting (e.g., [TikTok comments](https://docs.4cat.nl/datasources/tiktok_comments/search_tiktok_comments.html), [Imgur](https://docs.4cat.nl/datasources/imgur/search_imgur.html)), with a recommendation to import data collected elsewhere.
 
 ## Ethical Considerations
 
@@ -125,7 +125,7 @@ When using 4CAT for research, several ethical considerations must be taken into 
 
 To effectively use 4Cat, especially for beginners or those looking to refine their skills, the following resources are highly recommended:
 
-**Official Wiki**&#x20;
+**Official Wiki**
 
 * [https://github.com/digitalmethodsinitiative/4cat/wiki](https://github.com/digitalmethodsinitiative/4cat/wiki)
 * [https://computationalcommunication.org/ccr/article/view/120](https://computationalcommunication.org/ccr/article/view/120)
@@ -156,13 +156,13 @@ Digital Methods Initiative [https://digitalmethods.net/](https://digitalmethods.
 
 ## Similar Tools
 
-[Zeeschuimer ](https://bellingcat.gitbook.io/toolkit/more/all-tools/zeeschuimer)- Best if you mainly need in-browser capture from hard-to-scrape platforms and do not yet need 4CAT’s processor library.&#x20;
+[Zeeschuimer ](https://bellingcat.gitbook.io/toolkit/more/all-tools/zeeschuimer)- Best if you mainly need in-browser capture from hard-to-scrape platforms and do not yet need 4CAT’s processor library.
 
-[Facepager](https://github.com/strohne/Facepager) - Better for API-based or custom web/API collection workflows; less of an end-to-end analysis environment than 4CAT.&#x20;
+[Facepager](https://github.com/strohne/Facepager) - Better for API-based or custom web/API collection workflows; less of an end-to-end analysis environment than 4CAT.
 
-[YouTube Data Tools](https://ytdt.digitalmethods.net/) - Better if your project is only about YouTube and you want dedicated extractors rather than a multi-platform toolkit.&#x20;
+[YouTube Data Tools](https://ytdt.digitalmethods.net/) - Better if your project is only about YouTube and you want dedicated extractors rather than a multi-platform toolkit.
 
-[Gephi ](https://bellingcat.gitbook.io/toolkit/more/all-tools/gephi)- Better for advanced network exploration and visual styling after exporting GEXF or edge lists from 4CAT.&#x20;
+[Gephi ](https://bellingcat.gitbook.io/toolkit/more/all-tools/gephi)- Better for advanced network exploration and visual styling after exporting GEXF or edge lists from 4CAT.
 
 [Voyant Tools](https://voyant-tools.org/) - Better for lightweight browser-based text exploration when you already have a clean corpus and do not need 4CAT’s capture or import workflow.
 
