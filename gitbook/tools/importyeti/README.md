@@ -13,9 +13,9 @@ description: >-
 
 ## Description
 
-Sea shipments for the United States require a bill of lading. ImportYeti has acquired all the bills of lading data from January 2015 [through a freedom of information request to US Customs](https://www.importyeti.com/faqs). The database includes Mexican shipments. Here is ImportYeti's [outline](https://www.importyeti.com/dataset-info) of the modes of transportation that their database covers for the US and Mexico:
+Sea shipments for the United States require a bill of lading. ImportYeti has acquired all the bills of lading data from January 2015 [through a freedom of information request to US Customs](https://www.importyeti.com/faqs). The database includes Mexican shipments. Here is ImportYeti's [outline](https://www.importyeti.com/dataset-info) of the transportation modes that their database covers for the US and Mexico:
 
-<figure><img src=".gitbook/assets/Screenshot 2026-08-31 at 10.25.47.png" alt=""><figcaption><p>Modes of transportation covered by ImportYeti for the US and Mexico</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2026-10-30 at 15.57.43.png" alt=""><figcaption><p>The modes of transportation of shipped goods included in the ImportYeti database</p></figcaption></figure>
 
 ImportYeti provides free access to the data online. Bills of lading include fields like: Purchaser and supplier names, supplier country, weight of goods, ports shipped to and from, and product HS ([Harmonised System](https://www.wcotradetools.org/en/how-central-harmonized-system-international-shipments)) code which classifies traded products.
 
@@ -29,15 +29,15 @@ The 'Smart Bookmarks' button allows you to save companies in groups, which could
 
 Here's the top of Harrington Moore's table of suppliers, i.e. the list of all suppliers from which they receive shipped goods:
 
-<figure><img src=".gitbook/assets/Screenshot 2026-05-11 at 12.07.58 (1).png" alt=""><figcaption><p>The top of the search results for a randomly selected company</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2026-05-11 at 12.07.58.png" alt=""><figcaption><p>The top of the search results for a randomly selected company</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/Screenshot 2026-05-11 at 12.09.17 (1).png" alt=""><figcaption><p>Some of the supplier data for that company</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2026-05-11 at 12.09.17.png" alt=""><figcaption><p>Some of the supplier data for that company</p></figcaption></figure>
 
 If you click on a supplier name, you can see all the companies in the database to which they ship goods.
 
 Here's an example of how a company's product HS codes are represented:
 
-<figure><img src=".gitbook/assets/Screenshot 2026-05-11 at 12.11.13 (1).png" alt=""><figcaption><p>A company's imported products' HS codes depicted graphically</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2026-05-11 at 12.11.13.png" alt=""><figcaption><p>A company's imported products' HS codes depicted graphically</p></figcaption></figure>
 
 The HS code data is highly structured. For instance in this example, you can see that 'Iron/Steel products' is the largest category of products that Harrington Moore receives, and the sub-categories are shown within that. This is useful if you are looking for very particular kinds of shipped goods. ImportYeti's [page](https://www.importyeti.com/hs-codes) explaining HS codes is useful.
 
