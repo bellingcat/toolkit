@@ -19,7 +19,7 @@ Browser version: create an account and log in via this link: [https://app.malteg
 Maltego Graph is both a search tool and a visualization tool. It can search for information using integrated data sources and connect the pieces to show you how they are related. It's like a data map that helps you see the bigger picture in your investigation. This software allows a researcher to start with a particular item of information, such as an alias, an email address, phone number, company name, or IP address, and use this information as the basis to collect additional information. Maltego Graph links all these individual data points and [“emphasizes their relationships and connections.”](https://medium.com/@whart842/understanding-maltego-an-overview-e32205326512)
 
 {% hint style="info" %}
-We tested the Maltego Graph 4.11.3 (Basic Plan) version for this toolkit description.
+We tested the Maltego Graph 4.14.0 (Basic Plan) version for this toolkit description.
 {% endhint %}
 
 ### Getting Started
@@ -171,8 +171,8 @@ TIP: We learned that putting a link to your source under “label” can be effe
 * [x] Partially Free
 * [ ] Paid
 
-- This is a partially free version, meaning that some data sources come for free while others require access through external APIs, which are paid. Find a list of available data sources for Maltego CE [here](https://www.maltego.com/transform-hub/?q=available-for-licenses-maltego-community). The free data sources have a limit of transform requests per month, and may require individual subscriptions to those data providers.
-- Limitation: A Maximum of 10,000 entities per graph, and maximum amount of results per single transform is 12.
+- This is a partially free version, meaning that some data sources come for free while others require access through external APIs, which are paid. Find a list of available data sources for Maltego  [here](https://www.maltego.com/transform-hub/?q=available-for-licenses-maltego-community). The free data sources have a limit of transform requests per month, and may require individual subscriptions to those data providers.
+- Limitation: A Maximum of 10,000 entities per graph, and maximum amount of results per single transform is 24.
 - Learn more about this plan [here.](https://www.maltego.com/maltego-community/#maltegoEssentials)
 
 Maltego has both free and paid editions. They all include Maltego Graph.
@@ -187,7 +187,7 @@ There are four tiers: Basic (free), Basic+ (for organizations and by invite only
 
 ## Requirements
 
-Depending on the product, users can either sign up on the Maltego website (for Maltego CE) or they need to purchase a license via their web shop (Maltego Professional) or by contacting Maltego directly (Maltego Organization), see [here](https://www.maltego.com/pricing-plans/).
+Depending on the product, users can either sign up on the Maltego website or they need to purchase a license via their web shop  or by contacting Maltego directly, see [here](https://www.maltego.com/pricing-plans/).
 
 Maltego Graph can be downloaded from the website. Operating system, software/hardware requirements, and network requirements are found [here](https://docs.maltego.com/en/support/solutions/articles/15000008703-maltego-graph-desktop-application-requirements).
 
