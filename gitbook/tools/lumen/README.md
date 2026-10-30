@@ -1,5 +1,5 @@
 ---
-updated: '2026-06-29'
+updated: '2026-10-29'
 description: >-
   A research project collecting and publishing legal takedown notices for online
   content transparency

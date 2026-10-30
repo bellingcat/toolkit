@@ -1,5 +1,5 @@
 ---
-updated: '2026-06-26'
+updated: '2026-10-29'
 description: >-
   Zeeschuimer is a Firefox extension that collects structured social-media items
   received by the browser for later analysis. Supported capture and export

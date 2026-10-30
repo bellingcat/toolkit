@@ -1,5 +1,5 @@
 ---
-updated: '2026-06-30'
+updated: '2026-10-29'
 description: >-
   Distill is a website change monitoring tool that allows users to track changes
   on web pages.

@@ -3,6 +3,7 @@ description: >-
   RedditMetis is an online tool that analyses any public Reddit profile and
   returns charts and statistics on the user’s activity, language, sentiment and
   favourite sub-communities.
+updated: '2026-10-29'
 ---
 
 # RedditMetis

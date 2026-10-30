@@ -1,5 +1,5 @@
 ---
-updated: '2026-05-03'
+updated: '2026-10-29'
 description: >-
   Build a clean timeline of any LinkedIn activity from a single URL or a whole
   list of links.

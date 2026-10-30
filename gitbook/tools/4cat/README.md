@@ -3,6 +3,7 @@ description: >-
   4CAT is a tool designed for the easy collection and analysis of online
   datasets. It allows researchers to uncover patterns and trends in data  from
   social media and other digital platforms.
+updated: '2026-10-29'
 ---
 
 # 4CAT

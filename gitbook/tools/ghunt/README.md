@@ -1,5 +1,5 @@
 ---
-updated: '2026-06-29'
+updated: '2026-10-29'
 description: A command line tool for obtaining information about Google accounts.
 ---
 

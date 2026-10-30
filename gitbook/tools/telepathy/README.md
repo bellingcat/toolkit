@@ -1,5 +1,5 @@
 ---
-updated: '2026-06-26'
+updated: '2026-10-29'
 description: >-
   Telepathy Community is an unmaintained Telegram collection toolkit for chat
   archiving and analysis; its historical location lookup and current

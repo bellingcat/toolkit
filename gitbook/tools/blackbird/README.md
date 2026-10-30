@@ -1,5 +1,5 @@
 ---
-updated: '2026-10-28'
+updated: '2026-10-29'
 description: Check usernames and email addresses on websites and social networks
 ---
 

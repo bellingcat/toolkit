@@ -1,5 +1,5 @@
 ---
-updated: '2026-06-30'
+updated: '2026-10-29'
 description: >-
   A browser extension to view archived and cached versions of a website on
   multiple archiving sites.

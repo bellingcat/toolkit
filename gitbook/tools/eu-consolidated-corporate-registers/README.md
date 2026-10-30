@@ -1,5 +1,5 @@
 ---
-updated: '2026-08-31'
+updated: '2026-10-29'
 description: >-
   Consolidated company registers covering most of the EU, Iceland, Liechtenstein
   and Norway.
