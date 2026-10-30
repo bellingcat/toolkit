@@ -9,7 +9,9 @@ description: >-
 ## URL
 
 [https://github.com/davidteather/TikTok-Api/](https://github.com/davidteather/TikTok-Api/)\
-(v7.3.3, released April 2026, last checked June 2026)
+Current PyPI release: [7.3.3](https://pypi.org/project/TikTokApi/7.3.3/), released 2026-04-01.
+
+Last source/version check: 2026-10-29.
 
 {% hint style="info" %}
 Keep in mind that because this is an unofficial solution, it may break whenever TikTok updates its site, and maintaining the library’s functionality is an ongoing effort by the open-source community. Always refer to the latest documentation and user discussions for troubleshooting tips if something stops working.
@@ -19,7 +21,7 @@ Keep in mind that because this is an unofficial solution, it may break whenever 
 
 TikTok-Api (also known as **TikTokApi** on PyPI) is an unofficial API wrapper for TikTok written in Python. It enables programmatic **retrieval of public TikTok data** without using TikTok’s official API. Using this tool, you can fetch **trending videos**, gather videos associated with a specific **hashtag**, retrieve information and posts from **user profiles**, and even collect **comments** from TikTok videos. The library essentially acts as a web scraper that mimics a regular user’s browser to gather data from TikTok’s public web interface, since the official TikTok API is restrictive or inaccessible to most users.
 
-Under the hood, TikTok-Api uses a [headless browser](https://www.ituonline.com/tech-definitions/what-is-a-headless-browser/) (powered by [Playwright](https://www.lambdatest.com/playwright)) to **simulate human browsing** on TikTok. This approach allows it to bypass basic scraping countermeasures and retrieve dynamic content. However, because TikTok frequently updates its site and [anti-scraping measures](https://en.wikipedia.org/wiki/Bot_prevention), the library may require additional setup such as using cookies or proxies for reliable results. For instance, **some requests require a** [**TikTok session cookie (called `MS_TOKEN`)**](https://github.com/davidteather/TikTok-Api/discussions/1101) **from your own browser** to authenticate as a real user. This cookie can be obtained by logging into TikTok in a web browser and copying the `ms_token` value from your cookies. TikTok-Api does not handle user login or official [OAuth](https://en.wikipedia.org/wiki/OAuth). it only accesses content available to an ordinary viewer (so it **cannot retrieve private or age-restricted data**, nor can it post content on a user’s behalf. All data collection is read-only).
+Under the hood, TikTok-Api uses a [headless browser](https://www.ituonline.com/tech-definitions/what-is-a-headless-browser/) (powered by [Playwright](https://www.lambdatest.com/playwright)) to **simulate human browsing** on TikTok. This approach allows it to bypass basic scraping countermeasures and retrieve dynamic content. However, because TikTok frequently updates its site and [anti-scraping measures](https://en.wikipedia.org/wiki/Bot_prevention), the library may require additional setup such as using cookies or proxies for reliable results. For instance, **some requests require a** [**browser token (`msToken`)**](https://github.com/davidteather/TikTok-Api/discussions/1101) **from a browser session** for request validation; this does not enable private or user-authenticated routes. The token can be obtained by visiting TikTok in a web browser and copying the `msToken` cookie value; `ms_token` is a Python variable name and `ms_tokens` is the session-creation argument. TikTok-Api does not handle user login or official [OAuth](https://en.wikipedia.org/wiki/OAuth). It only accesses content available to an ordinary viewer (so it **cannot retrieve private or age-restricted data**, nor can it post content on a user’s behalf. All data collection is read-only).
 
 ### **Key capabilities of TikTok-Api**
 
@@ -27,7 +29,7 @@ Retrieving the current **Trending feed** (popular public videos), scraping **vid
 
 Behind the scenes, the library’s use of a browser means it sometimes needs to load TikTok’s web content fully. This can make it a bit slow or resource-intensive compared to calling a typical [JSON API. ](https://en.wikipedia.org/wiki/Web_API)Additionally, TikTok has measures like [CAPTCHAs](https://www.techtarget.com/searchsecurity/definition/CAPTCHA) and request throttling: if the tool’s requests are detected as **bot activity**, TikTok might return empty responses or block the requests. In many cases, using **residential or rotating proxies** can help avoid blocks if you are scraping a large volume of data. The developer of TikTok-Api notes that an `EmptyResponseException` usually indicates TikTok is blocking the scrape, in which case changing your network (using a proxy or different IP) or adjusting parameters is needed[GitHub](https://github.com/davidteather/TikTok-Api/blob/62a8cfa8ab7bb5bbdd0f8c8b13e84731fff7ac75/README.md#L102-L105).
 
-Overall, TikTok-Api provides a way for semi-technical users to **collect TikTok data without official API access**. It [has](https://lab.imedd.org/en/investigating-data-available-on-social-media-platforms) [been](https://www.researchgate.net/publication/377002340_Covid-19_Vaccine_on_TikTok_A_Study_of_Emotional_Expression_in_The_Brazilian_Context) used in data journalism and research to gather insights from TikTok.&#x20;
+Overall, TikTok-Api provides a way for semi-technical users to **collect TikTok data without official API access**. It [has](https://lab.imedd.org/en/investigating-data-available-on-social-media-platforms) [been](https://www.researchgate.net/publication/377002340_Covid-19_Vaccine_on_TikTok_A_Study_of_Emotional_Expression_in_The_Brazilian_Context) used in data journalism and research to gather insights from TikTok.
 
 ### Installation and usage
 
@@ -51,8 +53,8 @@ Once installation is done, you can start using the library in your Python script
 import asyncio
 from TikTokApi import TikTokApi
 
-# Your TikTok session cookie (ms_token) retrieved from your browser.
-MS_TOKEN = "paste_your_ms_token_cookie_here"
+# Value of the browser’s msToken cookie; MS_TOKEN below is a Python variable.
+MS_TOKEN = "paste_your_msToken_cookie_value_here"
 
 async def fetch_trending_videos():
     async with TikTokApi() as api:
@@ -64,23 +66,26 @@ async def fetch_trending_videos():
         async for video in trending_iter:
             video_data = video.as_dict  # convert video object to a dictionary
             print(f"Video ID: {video_data['id']}, Likes: {video_data['stats']['diggCount']}, Description: {video_data['desc'][:50]}...")
+
+if __name__ == "__main__":
+    asyncio.run(fetch_trending_videos())
 ```
 
-To run the above asynchronous code, save it in a Python file (e.g., `tiktok_trending.py`) and execute it with `python3 tiktok_trending.py`. The script will open a Chromium instance in the background, navigate TikTok’s site, and retrieve data. In the example, we print each video’s unique ID, the number of likes, and the beginning of its description. You can adjust the fields or loop through the `video_data` dictionary to get other details (such as comment count, share count, etc.). The library provides data in a structured way – for example, `video_data['author']` would contain the uploader’s profile info, and `video_data['music']` the details of the soundtrack.
+To run the above asynchronous code, save it in a Python file (e.g., `tiktok_trending.py`) and execute it with `python3 tiktok_trending.py`. The script attempts to open a Chromium instance and retrieve public data; current collection success depends on TikTok’s responses and the selected library version. In the example, we print each video’s unique ID, the number of likes, and the beginning of its description. You can adjust the fields or loop through the `video_data` dictionary to get other details (such as comment count, share count, etc.). The library provides data in a structured way – for example, `video_data['author']` would contain the uploader’s profile info, and `video_data['music']` the details of the soundtrack.
 
 Besides trending videos, TikTok-Api allows similar access to other types of content:
 
 * **User posts**: You can retrieve a specific user’s videos by username. For example, `api.user(username="therock")` returns a user object, and you could then iterate over `user.videos` to get that user’s recent TikToks.
 * **Hashtag search**: You can fetch videos under a given hashtag. For example, `api.hashtag(name="funny")` would give a hashtag object, and then `hashtag.videos(count=10)` yields videos tagged with #funny.
 * **Video comments**: Given a video object (or ID), you can request its comments. For example, `video = api.video(id="7181234567890")` followed by iterating `video.comments(count=50)` would yield up to 50 comments on that video.
-* **Other endpoints**: The API also exposes trending **hashtags** and **music** (sounds) through `api.discoverHashtags()` and `api.discoverMusic()`, as well as search functions for users or music by keywords (note: text search for videos is **not available** due to TikTok’s limitations).
+* **Other endpoints:** The [v7.3.3 search module](https://github.com/davidteather/TikTok-Api/blob/v7.3.3/TikTokApi/api/search.py) documents user search through `api.search.users(...)` and notes that the `ms_token` must come from a browser session that has already performed a search. Check the current API documentation for other endpoints; the older `discoverHashtags()` and `discoverMusic()` calls should not be used as current v7 examples.
 
 **Note:** The library’s interface evolves, so function names or usage might differ slightly in newer versions. Always check the [official documentation](https://davidteather.github.io/TikTok-Api/) for the latest usage patterns. For example, older versions used `TikTokApi.get_instance()` (synchronous) while newer versions use asynchronous context managers as shown above. The documentation and example scripts on the GitHub repository provide up-to-date code samples for various tasks.
 
 If you encounter **errors or empty data**, common causes include missing/expired cookies, TikTok detecting automated scraping, or changes in TikTok’s site structure. In such cases, consider these troubleshooting steps:
 
-* Ensure your `ms_token` cookie is fresh (visit TikTok in a browser again to get a new one if needed).
-* Try running the browser in **headed mode** (visible browser) instead of headless. You can do this by setting an environment variable, for example: `export TIKTOK_BROWSER=chromium` (Playwright’s default) and possibly configure it to show the browser window. Running in headed mode can solve certain CAPTCHA or anti-bot challenges that fail in headless mode.
+* Ensure the browser’s `msToken` cookie value is fresh; visit TikTok in the research browser again if a new value is needed.
+* Try running the browser in headed mode (visible browser) instead of headless. Pass `headless=False` to `api.create_sessions(...)` to open a visible browser. The `browser` argument selects the engine; setting `TIKTOK_BROWSER=chromium` alone does not disable headless mode. A visible browser may help diagnose failures but does not guarantee collection success.
 * Use a **proxy** if your IP is being rate-limited or blocked by TikTok. Residential proxies tend to work better if scraping at scale.
 * Check the GitHub issues page – many common problems and their solutions are documented by other users and the developer. For instance, errors like `Browser closed unexpectedly` or `EmptyResponseException` have been discussed with fixes (often related to the points above).
 
@@ -104,7 +109,7 @@ Using TikTok-Api requires **intermediate technical skills**. Basic knowledge of 
 
 * **Python 3.9+** – TikTok-Api requires Python version 3.9 or higher.
 * **Playwright** – The library uses Playwright for browser automation. After installing TikTok-Api, you must run `python -m playwright install` to download the necessary browser drivers.
-* **TikTok cookie (ms\_token)** – Some data endpoints **require a valid TikTok session cookie** from a real user session. Specifically, you often need to provide an `ms_token` cookie value (and sometimes a `s_v_web_id` or `verifyFp` token, depending on the TikTok-Api version) to access certain features like the trending feed or video comments. This means you should have a TikTok account (for obtaining cookies) or at least visit TikTok’s website to grab the cookie. No official API key is needed (since this is unofficial), but cookies act as a form of authentication/verification.
+* **TikTok browser token (`msToken`)** – Some requests need the `msToken` cookie value from a browser session; `ms_tokens` is the session-creation argument. This does not provide account login or access to private or user-authenticated routes. Check the selected version’s documentation for other prerequisites. No official API key is needed.
 * **Internet connection** – As this is a web-scraping tool, it requires network access to TikTok’s website. In restrictive network environments, you might need to use [proxies ](https://en.wikipedia.org/wiki/Proxy_server)or VPNs.
 * **Headed browser environment (optional)** – If running on a headless server, note that sometimes the tool works more reliably in a non-headless (headed) mode. If headless mode fails, the environment should support opening a browser UI or use [Xvfb on Linux](https://elementalselenium.com/tips/38-headless).
 
@@ -139,4 +144,3 @@ Using TikTok-Api requires **intermediate technical skills**. Basic knowledge of 
 | --------------- |
 | Martin Sona     |
 |                 |
-
