@@ -76,15 +76,16 @@ To effectively use Hugin, especially for beginners or those looking to refine th
 
 **Tutorials and Articles**
 
-* _Carpebble - Using Hugin_ (no date). Available at: [https://sites.google.com/site/carpebble/home/360x180-panoramas/using-hugin](https://sites.google.com/site/carpebble/home/360x180-panoramas/using-hugin) (Last accessed: 31 August 2026).
-* _Creating linear panoramas with Hugin_ (no date). Available at: [http://www.dojoe.net/tutorials/linear-pano/](http://www.dojoe.net/tutorials/linear-pano/) (Last accessed: 31 August 2026).
-* _Hugin Tutorials_ (no date). Available at: [https://hugin.sourceforge.io/tutorials/index.shtml](https://hugin.sourceforge.io/tutorials/index.shtml) (Last accessed: 31 August 2026).
+* _Carpebble - Using Hugin_ (no date). Available at: [https://sites.google.com/site/carpebble/home/360x180-panoramas/using-hugin](https://sites.google.com/site/carpebble/home/360x180-panoramas/using-hugin) (Last accessed: 30 October 2026).
+* _Creating Panoramas with Hugin Photo Stitcher_ (no date). Available at: [https://digital-photography-school.com/creating-panoramas-with-hugin-photo-stitcher/](https://digital-photography-school.com/creating-panoramas-with-hugin-photo-stitcher/) (Last accessed: 30 October 2026).
+* _Hugin Tutorials_ (no date). Available at: [https://hugin.sourceforge.io/tutorials/index.shtml](https://hugin.sourceforge.io/tutorials/index.shtml) (Last accessed: 30 October 2026).
 
 **Video Tutorials**
 
-* _How To: Hi-Res Panos in Hugin - Advanced_ (2020). Available at: [https://www.youtube.com/watch?v=06jXEJMTQds](https://www.youtube.com/watch?v=06jXEJMTQds) (Last accessed: 31 August 2026).
-* _Panorama stitching with Hugin Tutorial Part 1 - Introduction_ (2020). Available at: [https://www.youtube.com/watch?v=DMYlm3D3NhY](https://www.youtube.com/watch?v=DMYlm3D3NhY) (Last accessed: 31 August 2026).
-* _Panorama stitching with Hugin Tutorial Part 2 - Expert Mode_ (2020). Available at: [https://www.youtube.com/watch?v=\_Ad1Mi5BzGk](https://www.youtube.com/watch?v=_Ad1Mi5BzGk) (Last accessed: 31 August 2026).
+* _How To: Hi-Res Panos in Hugin - Advanced_ (2020). Available at: [https://www.youtube.com/watch?v=06jXEJMTQds](https://www.youtube.com/watch?v=06jXEJMTQds) (Last accessed: 30 October 2026).
+* _Panorama stitching with Hugin Tutorial Part 1 - Introduction_ (2020). Available at: [https://www.youtube.com/watch?v=DMYlm3D3NhY](https://www.youtube.com/watch?v=DMYlm3D3NhY) (Last accessed: 30 October 2026).
+* _Panorama stitching with Hugin Tutorial Part 2 - Expert Mode_ (2020). Available at: [https://www.youtube.com/watch?v=\_Ad1Mi5BzGk](https://www.youtube.com/watch?v=_Ad1Mi5BzGk) (Last accessed: 30 October 2026).
+* _Hugin: Create amazing panoramas easily on Linux, Windows, and Mac_ (2026). Available at: [https://www.youtube.com/watch?v=yprc\_8DbwO4](https://www.youtube.com/watch?v=yprc_8DbwO4) (Last accessed: 30 October 2026).
 
 #### Developer Resources
 
@@ -113,7 +114,6 @@ Full authors list: [https://sourceforge.net/p/hugin/hugin/ci/default/tree/author
 * [ ] This tool uses tracking cookies. Use with caution.
 * [x] This tool does not appear to use tracking cookies.
 
-| Page maintainer           |
-| ------------------------- |
-| Bellingcat Volunteer Team |
-|                           |
+| Page maintainer                         |
+| --------------------------------------- |
+| Bellingcat Volunteer Team, October 2026 |
