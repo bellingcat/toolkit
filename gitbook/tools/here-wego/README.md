@@ -50,7 +50,7 @@ A guide to what Here WeGo, its setup and its use is available on a community-run
 
 ## Tool provider
 
-The tool is created and maintained by an entity named [Here Technologies](https://www.here.com/). They are a Dutch multinational headquartered in Amsterdam that is majority owned by a consortium of German automotive companies. The entity's core business revolves around licencing mapping content to other companies.
+The tool is created and maintained by an entity named [Here Technologies](https://www.here.com/). They are a Dutch multinational headquartered in Amsterdam that is majority owned by a consortium of German automotive companies. The entity's core business revolves around licensing mapping content to other companies.
 
 ## Advertising Trackers
 
