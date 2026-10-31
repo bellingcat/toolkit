@@ -1,6 +1,6 @@
 ---
-description: A tool for detecting audio deepfakes.
 updated: '2026-10-01'
+description: A tool for detecting audio deepfakes.
 ---
 
 # Hiya Deepfake Voice Detector
@@ -13,7 +13,7 @@ updated: '2026-10-01'
 
 Hiya identifies deepfake audio. A deepfake is [synthetic](https://www.turing.ac.uk/blog/what-are-deepfakes-and-how-can-we-detect-them) media, such as audio, video, or images, that can mimic the appearance or voice of a real person by using artificial intelligence. This technology has been misused to spread disinformation and scam people, for example, by faking audio messages from [officials](https://www.abc.net.au/news/2024-01-23/ai-phonecall-posing-as-joe-biden-being-investigated/103378702) or [loved ones](https://archive.fo/cn2UV).
 
-Hiya is available as both a standalone [Chrome](https://chromewebstore.google.com/detail/hiya-deepfake-voice-detec/akmieeldmgcllmokbpaibfelofjiilpc) extension and an integrated tool within the [InVID Verification Plugin](https://bellingcat.gitbook.io/toolkit/more/all-tools/invid), a suite of verification tools used by journalists, researchers and fact-checkers to verify digital media. Once installed in the browser, the extension aims to detect audio deepfakes across social media, news, and other websites.&#x20;
+Hiya is available as both a standalone [Chrome](https://chromewebstore.google.com/detail/hiya-deepfake-voice-detec/akmieeldmgcllmokbpaibfelofjiilpc) extension and an integrated tool within the [InVID Verification Plugin](https://bellingcat.gitbook.io/toolkit/more/all-tools/invid), a suite of verification tools used by journalists, researchers and fact-checkers to verify digital media. Once installed in the browser, the extension aims to detect audio deepfakes across social media, news, and other websites.
 
 To analyze audio in a video on any website, simply open that page and click the extension icon in the Chrome browser in the top right corner. Play the video, then click the “start analyzing” tab to collect the audio sample for analysis. The media being analyzed and the extension work side by side without the need to close either.
 
@@ -27,13 +27,13 @@ Our testing shows the extension works on almost any website, including social me
 
 <figure><img src=".gitbook/assets/Screenshot 2025-10-31 at 02.05.24.png" alt=""><figcaption><p>Hiya's Chrome extension shows a score of 3/100 ("likely a deepfake") for a portion of a video (from 0:17 to0:25), featuring the Indian Army Chief, purportedly admitting that India lost six jets to Pakistan in the India-Pakistan conflict. The video was circulating online in August 2025. <a href="https://www.sochfactcheck.com/doctored-clip-of-indian-army-chief-admitting-india-lost-six-jets-goes-viral/">The author of this text investigated this synthetic claim</a> by using - amongst other methods - Hiya's Chrome extension. Other organizations, for example <a href="https://cyberpeace.org/resources/blogs/factcheck-ai-generated-audio-falsely-claims-coas-admitted-to-loss-of-6-jets-and-250-soldiers">CyberPeace</a> and <a href="https://www.boomlive.in/fact-check/fake-news-ai-voice-over-video-army-chief-general-upendra-dwivedi-admitting-that-india-lost-6-jets-and-2-50-soldiers-factcheck-29250">Boom</a>, had also fact-checked the video.</p></figcaption></figure>
 
-The Chrome extension needs to check just [one second](https://blog.hiya.com/hiyas-new-chrome-extension-identifies-deepfakes) of audio or video to determine whether the tool considers it as fake or real, while the version integrated into the InVID Verification Plugin allows longer media uploads (audio files only) ranging from two seconds to five minutes.&#x20;
+The Chrome extension needs to check just [one second](https://blog.hiya.com/hiyas-new-chrome-extension-identifies-deepfakes) of audio or video to determine whether the tool considers it as fake or real, while the version integrated into the InVID Verification Plugin allows longer media uploads (audio files only) ranging from two seconds to five minutes.
 
 <figure><img src=".gitbook/assets/InVid uses 2 secs to five minutes copy.png" alt=""><figcaption><p>Hiya is integrated within the InVid Verification Plugin that supports media uploads ranging from two seconds to five minutes.</p></figcaption></figure>
 
 The extension uses "[Hiya’s AI Voice detection capabilities](https://chromewebstore.google.com/detail/hiya-deepfake-voice-detec/akmieeldmgcllmokbpaibfelofjiilpc)" which are "advanced AI solutions powered by deep learning," [according](https://www.hiya.com/products/protect/ai-voice-detection) to the tool provider. It further [states](https://chromewebstore.google.com/detail/hiya-deepfake-voice-detec/akmieeldmgcllmokbpaibfelofjiilpc?pli=1): "Please note that this extension utilizes probabilistic algorithms, which means that its predictions or outputs are based on statistical analysis and may not always be 100% accurate." We were not able to find more detailed public information about the inner workings of Hiya.
 
-The tool provider also states its deepfake detection [technology ](https://www.hiya.com/newsroom/press-releases/hiya-acquires-deepfake-voice-detection-leader-loccus-ai)is able to analyze audios and videos in multiple languages.&#x20;
+The tool provider also states its deepfake detection [technology ](https://www.hiya.com/newsroom/press-releases/hiya-acquires-deepfake-voice-detection-leader-loccus-ai)is able to analyze audios and videos in multiple languages.
 
 It is important to note that the tool is not perfect and may lead to false positives. Hiya can nevertheless be a handy tool when researching the rising tide of AI generated disinformation. Several fact-checking teams, including [AFP Fact Check](https://factcheck.afp.com/doc.afp.com.78448G3), can be seen using Hiya, especially the version integrated within InVid, as part of their research workflows.
 
@@ -91,5 +91,5 @@ Another tool for audio deepfake detection and can be combined with others for ef
 
 | Page maintainer |
 | --------------- |
-| Anisa Shabir    |
+| Anisa Shabir.   |
 | October 2026    |
