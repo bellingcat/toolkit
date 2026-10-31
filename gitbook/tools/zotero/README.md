@@ -1,5 +1,5 @@
 ---
-updated: '2026-10-29'
+updated: '2026-10-30'
 description: >-
   A tool for collecting, organizing, annotating, citing, and sharing research
   sources.

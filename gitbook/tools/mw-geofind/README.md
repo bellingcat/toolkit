@@ -1,5 +1,5 @@
 ---
-updated: '2026-08-31'
+updated: '2026-10-30'
 description: MW Geofind is a tool for finding geotagged YouTube videos.
 ---
 

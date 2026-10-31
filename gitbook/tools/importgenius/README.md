@@ -1,5 +1,5 @@
 ---
-updated: '2026-08-31'
+updated: '2026-10-30'
 description: >-
   Commercial supplier of trade data for 25 countries. Paid service but
   journalists can ask for free access.
