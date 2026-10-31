@@ -106,7 +106,7 @@ These use cases highlight the versatility of the Earth Online portal in supporti
 NASA offers many data collections, but less on the European missions, documentation and historical data.
 
 * View satellite data: [NASA Worldview](https://bellingcat.gitbook.io/toolkit/more/all-tools/nasa-worldview) and [Copernicus Browser](https://bellingcat.gitbook.io/toolkit/more/all-tools/sentinal-hub-playground)
-* Download and analyze data:  [NASA Earthdata Search ](https://search.earthdata.nasa.gov/)
+* Download and analyze data: [NASA Earthdata Search](https://search.earthdata.nasa.gov/)
 
 {% hint style="success" %}
 Complement ESA raw data with thematic platforms such as [Global Forest Watch](https://bellingcat.gitbook.io/toolkit/more/all-tools/global-forest-watch) (deforestation), [Aqueduct](https://www.wri.org/applications/aqueduct/water-risk-atlas/#/?advanced=false\&basemap=hydro\&indicator=w_awr_def_tot_cat\&lat=30\&lng=-80\&mapMode=view\&month=1\&opacity=0.5\&ponderation=DEF\&predefined=false\&projection=absolute\&scenario=optimistic\&scope=baseline\&threshold\&timeScale=annual\&year=baseline\&zoom=3) (water stress, flood risks), [Global Fishing Watch](https://bellingcat.gitbook.io/toolkit/more/all-tools/global-fishing-watch-map) (fishing activity) or [Deep Sea Mining Watch](https://www.deepseaminingwatch.msi.ucsb.edu/) (seabed mining); those tools can be used to find patterns or hot spots. Then use the ESA Earth Online data and tools for raw satellite imagery to verify or analyse changes over time.
@@ -126,7 +126,7 @@ Complement ESA raw data with thematic platforms such as [Global Forest Watch](ht
 
 * [**EO Sign-In**](https://eoiam-idp.eo.esa.int/): the majority of tools and platforms use one and the same SSO (single sign on) account. Registering is free and only requires an email adress and basic profile information, and is open to independent journalists and researchers. Documentation and local installed tools (such as SNAP) are accessible without login. Some of the advanced tools (MAAP) may need an additional request to access workspaces.
 * **Cloud access** does not require more than a modern web browser and a solid connection. Locally installed tools will need sufficient memory and storage for processing the generally very large Earth Observation files. See the individual tools for further details.
-* **Advanced skills:** Some of the tools require Jupyter Notebook and Python programming experience or higher level expertise in methodology, remote sensing and satellite imagery.
+* **Advanced skills:** Some of the tools require [Jupyter Notebook](#user-content-fn-1)[^1] and Python[^2] programming experience or higher level expertise in methodology, remote sensing and satellite imagery.
 
 ## Limitations
 
@@ -153,4 +153,8 @@ European Space Agency [https://www.esa.int/](https://www.esa.int/), with [23 mem
 | Page maintainer                                                      |
 | -------------------------------------------------------------------- |
 | Author: Bellingcat Volunteer Team / Lavache Reviewed: Sophie Tedling |
-|                                                                      |
+| October 2026                                                         |
+
+[^1]: [**Jupyter Notebook**](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html) is a free, open-source, web-based application used to create and share documents containing live code, equations, visualizations, and narrative text.
+
+[^2]: 
