@@ -1,5 +1,5 @@
 ---
-updated: '2026-10-01'
+updated: '2026-10-31'
 description: A tool for detecting audio deepfakes.
 ---
 
