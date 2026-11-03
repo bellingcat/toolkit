@@ -9,12 +9,24 @@ function ghql(query, vars = {}) {
     const flag = typeof value === 'number' ? '-F' : '-f';
     args.push(flag, `${key}=${value}`);
   }
-  const result = spawnSync('gh', args, { encoding: 'utf-8' });
-  if (result.error) throw result.error;
-  if (result.status !== 0) throw new Error(`gh api graphql failed:\n${result.stderr}`);
-  const data = JSON.parse(result.stdout);
-  if (data.errors) throw new Error(data.errors.map(e => e.message).join('\n'));
-  return data;
+  // Only retry reads: a timed-out mutation may already have been applied.
+  const retries = /^\s*query\b/.test(query) ? 3 : 0;
+  for (let attempt = 0; ; attempt++) {
+    const result = spawnSync('gh', args, { encoding: 'utf-8' });
+    if (result.error) throw result.error;
+    if (result.status !== 0) {
+      if (attempt < retries && /\bHTTP (502|503|504)\b/.test(result.stderr)) {
+        const delay = 1000 * Math.pow(2, attempt);
+        console.warn(`GitHub GraphQL request failed, retrying in ${delay}ms...`);
+        Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0, delay);
+        continue;
+      }
+      throw new Error(`gh api graphql failed:\n${result.stderr}`);
+    }
+    const data = JSON.parse(result.stdout);
+    if (data.errors) throw new Error(data.errors.map(e => e.message).join('\n'));
+    return data;
+  }
 }
 
 // --- Cached project metadata ---
@@ -65,7 +77,7 @@ const ITEMS_QUERY = `
   query($project: ID!, $after: String) {
     node(id: $project) {
       ... on ProjectV2 {
-        items(first: 100, after: $after) {
+        items(first: 50, after: $after) {
           nodes {
             id
             fieldValues(first: 20) {
