@@ -1,8 +1,8 @@
 ---
-description: Deep-Sea Mining Watch maps and monitors vessels involved in deep sea mining.
+description: Deep Sea Mining Watch maps and monitors vessels involved in deep sea mining.
 ---
 
-# deep-sea-mining-watch
+# Deep Sea Mining Watch
 
 ## URL
 
