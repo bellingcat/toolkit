@@ -78,7 +78,7 @@
   * [Copernicus Browser (formerly Sentinel Hub Playground, EO Browser)](tools/sentinal-hub-playground/README.md)
   * [Datasette](tools/datasette/README.md)
   * [Datawrapper](tools/datawrapper/README.md)
-  * [deep-sea-mining-watch](tools/deep-sea-mining-watch/README.md)
+  * [Deep Sea Mining Watch](tools/deep-sea-mining-watch/README.md)
   * [DeepFake-O-Meter](tools/deepfake-o-meter/README.md)
   * [DeHashed](tools/dehashed/README.md)
   * [Discord Chat Exporter](tools/discord-chat-exporter/README.md)

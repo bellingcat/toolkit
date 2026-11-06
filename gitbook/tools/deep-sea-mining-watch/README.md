@@ -1,5 +1,6 @@
 ---
 description: Deep Sea Mining Watch maps and monitors vessels involved in deep sea mining.
+updated: '2026-11-05'
 ---
 
 # Deep Sea Mining Watch
