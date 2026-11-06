@@ -22,13 +22,13 @@ WHOIS is a protocol, standardized by the Internet Corporation for Assigned Names
 
 Use Whoxy to trace who’s behind a website, or to surface connections between different websites.
 
-<figure><img src=".gitbook/assets/Screenshot 2026-06-27 at 21.20.30 (1).png" alt=""><figcaption><p>Search for the domain Bellingcat.com. The column 'similar domains' can surface related, derived or <a href="https://en.wikipedia.org/wiki/Typosquatting">typosquatted</a> domains.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2026-06-27 at 21.20.30.png" alt=""><figcaption><p>Search for the domain Bellingcat.com. The column 'similar domains' can surface related, derived or <a href="https://en.wikipedia.org/wiki/Typosquatting">typosquatted</a> domains.</p></figcaption></figure>
 
 Registrant names and contact details can be masked in the form of a proxy. This is often the case for domains registered after 2018, when [domain registration procedures](https://www.icann.org/en/contracted-parties/consensus-policies/registration-data-policy) were adopted to bring them into compliance with the EU's General Data Protection Regulation (GDPR).
 
 Whoxy offers several ways to look up domain information. An account is free but only needed if you plan to do more than a few searches.
 
-<figure><img src=".gitbook/assets/Screenshot 2025-12-15 at 21.23.43 (1).png" alt=""><figcaption><p>Single searches on Whoxy.com are free and without login.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-12-15 at 21.23.43.png" alt=""><figcaption><p>Single searches on Whoxy.com are free and without login.</p></figcaption></figure>
 
 Search options:
 
@@ -40,7 +40,7 @@ Search options:
   * Email address. Enter a valid e-mail address for reversed whois results on which domain names are linked with that e-mail address.
   * Domain keyword. The results will show a list of domain names that include a given keyword. If the amount of results is substantial, a subset will be shown with the remark to use the Reverse Whois API.
 
-<figure><img src=".gitbook/assets/Screenshot 2026-06-27 at 21.30.40 (1).png" alt=""><figcaption><p>Reverse Whois on keyword 'Bellingcat' returns 36 domains matching the string Bellingcat. The sites may not be related at all.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2026-06-27 at 21.30.40.png" alt=""><figcaption><p>Reverse Whois on keyword 'Bellingcat' returns 36 domains matching the string Bellingcat. The sites may not be related at all.</p></figcaption></figure>
 
 The list for keywords show (if available) the domain name, registrar, and the created, updated and expiry dates for the domain.
 
@@ -55,7 +55,7 @@ Regular Whois queries and Whois History queries return data in standard Whois fo
 Single searches are free and do not require an account. Whoxy has a "pay as you go" policy if an API is used.
 
 {% hint style="success" %}
-Free API access is available on request for academics, those working in non-profit organisations and researchers on non-commercial basis.
+Free API access is available on request for students and those working in non-profit organisations based in the US.
 {% endhint %}
 
 ## Level of difficulty
@@ -66,6 +66,7 @@ Free API access is available on request for academics, those working in non-prof
 
 * Standard lookups are free and without login. There is no documented limit on single searches.
 * API access for bulk access requires an account. The [registry form](https://www.whoxy.com/signup.php) demands personal info, full name, including address and a valid (non-disposable) email address. A company name and a tax ID are optional.
+* Free use of the API services can be [requested](https://www.whoxy.com/free-whois-api/) but only for students (copy of id required) and non profit organisations holding an American [501(c)(3)](https://en.wikipedia.org/wiki/501\(c\)\(3\)_organization) status.
 
 ## Limitations
 
@@ -97,7 +98,7 @@ It is not clear who the tool provider behind [Whoxy.com](http://whoxy.com) is. T
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                          |
-| ---------------------------------------- |
-| Bellingcat Volunteer Community / Lavache |
-|                                          |
+| Page maintainer                                 |
+| ----------------------------------------------- |
+| Lavache/Bellingcat Volunteer Team, October 2026 |
+|                                                 |
