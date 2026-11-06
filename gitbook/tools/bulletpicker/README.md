@@ -9,13 +9,13 @@ description: >-
 
 ## URL
 
-www.bulletpicker.com
+[www.bulletpicker.com](https://www.bulletpicker.com)&#x20;
 
 The offline version is available [here.](https://bulletpicker.com/pdf/bulletpicker-24-11-20.zip)
 
 ## Description
 
-The [Bulletpicker platform](https://www.bulletpicker.com/index.html) compiles a wide range of ammunition manuals and guidebooks from multiple military forces. Users can search the database easily, and every item provides a link back to the original source. Each ordnance item in Bulletpicker has its own page, typically including technical diagrams, real-life images (if available), and a written overview.
+The [Bulletpicker platform](https://www.bulletpicker.com/index.html) compiles a wide range of ammunition manuals and guidebooks from multiple military forces. Users can search the database, and every item provides a link back to the original source. Each ordnance item in Bulletpicker has its own page, typically including technical diagrams, real-life images (if available), and a written overview.
 
 {% hint style="danger" %}
 **NOTE:** This website contains information about ordnance, explosives, and related items for educational and reference purposes only. The content should not be used for: (1) attempting self-guided disposal of explosive devices; (2) manufacturing explosive devices or components; (3) handling unexploded ordnance without proper training; (4) any illegal activities involving explosive materials.
@@ -40,7 +40,7 @@ NOTE: When researching ordnance, explosives, and related items using Bulletpicke
 ### Key Areas
 
 {% hint style="success" %}
-TIP: Because the website contains a vast repository of resources, users can use the search function on the top left for keywords.
+TIP: Because the website contains a vast repository of resources, users can use the search function in the top left to search for keywords.
 {% endhint %}
 
 The contents are organized into the following categories, accessible through the navigation menu on the left side of the page.
@@ -49,7 +49,7 @@ The contents are organized into the following categories, accessible through the
 
 2\. [Fillers](https://www.bulletpicker.com/_explosives.html) - this section contains resources on various fillers, defined as the[ "energetic material (propellants, explosives, or pyrotechnic mixes)" contained inside military munitions.](https://www.denix.osd.mil/uxo/explosives-safety/faqs/#faq-1) These are the explosive materials packed inside an ordnance and are the substances that do the job of creating the explosion. Contents are organized in alphabetical order by name of the explosive agent and contain technical information.
 
-<figure><img src="../../.gitbook/assets/2025-05-02_19-48-10-ed (1).png" alt=""><figcaption><p>Information (if available) on fillers are organized as follows: Other Names, Use, Sources. (Image credit: Bulletpicker.com)</p></figcaption></figure>
+<figure><img src=".gitbook/assets/2025-05-02_19-48-10-ed (1).png" alt=""><figcaption><p>Information (if available) on fillers are organized as follows: Other Names, Use, Sources. (Image credit: Bulletpicker.com)</p></figcaption></figure>
 
 3\. [Ordnance](https://www.bulletpicker.com/_ord.html) - This section contains a list of various weapon systems, along with a brief introduction to each system. If you are new to the subject matter, it is recommended to start by exploring the “General Information” tab before moving on to more technical sections.
 
@@ -61,13 +61,13 @@ Users interested in resources related to Ukrainian ordnance can follow the steps
 
 _Ordnance → Bombs → Ukraine_
 
-<figure><img src="../../.gitbook/assets/2025-05-02_18-29-44 (1).png" alt="" width="246"><figcaption><p>This is the navigation pane of the website, located to the left. This shows a sample navigation for a user interested in researching Ukrainian ordnance. Note that the contents are mainly those found in the public domain.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/2025-05-02_18-29-44 (1).png" alt="" width="246"><figcaption><p>This is the navigation pane of the website, located to the left. This shows a sample navigation for a user interested in researching Ukrainian ordnance. Note that the contents are mainly those found in the public domain.</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/2025-05-02_20-16-20-ed (1).png" alt=""><figcaption><p>This is a quick guide we created for navigating information on various ordnance listed on the website. Note that not all types of ordnance have information on each of these categories. Some do not have images, and some do not have information on how they function or information on hazardous content. Also note that sometimes items will contain just a diagram and no real-life photo, or just a real-life photo with no diagram. Sometimes, these items contain both. This example can be found on: <a href="https://www.bulletpicker.com/landmine_-apers_-m2a4.html">https://www.bulletpicker.com/landmine_-apers_-m2a4.html</a></p></figcaption></figure>
+<figure><img src=".gitbook/assets/2025-05-02_20-16-20-ed (1).png" alt=""><figcaption><p>This is a quick guide we created for navigating information on various ordnance listed on the website. Note that not all types of ordnance have information on each of these categories. Some do not have images, and some do not have information on how they function or information on hazardous content. Also note that sometimes items will contain just a diagram and no real-life photo, or just a real-life photo with no diagram. Sometimes, these items contain both. This example can be found on: <a href="https://www.bulletpicker.com/landmine_-apers_-m2a4.html">https://www.bulletpicker.com/landmine_-apers_-m2a4.html</a></p></figcaption></figure>
 
 Information on ballistic properties ([how weapons behave as they are launched](https://en.wikipedia.org/wiki/Ballistics)) can be found under "description" or "functioning."
 
-4\. [Fuzes](https://www.bulletpicker.com/_fuze.html) - According to this [Wikipedia article](https://en.wikipedia.org/wiki/Fuze), a fuze is a “device with explosive components designed to initiate the main charge” and determines when the explosion happens. This section of the website lists various types of fuzes which are categorized by country. Some types contain a short description, an image, a short description of its function, hazardous components, if any, - for example [here](https://www.bulletpicker.com/adapter-booster_-m102a1.html). Also note that sometimes items will contain just a diagram and no real-life photo, or just a real-life photo with no diagram. Sometimes, these items contain both.
+4\. [Fuzes](https://www.bulletpicker.com/_fuze.html) - According to this [Wikipedia article](https://en.wikipedia.org/wiki/Fuze), a fuze is a “device with explosive components designed to initiate the main charge” and determines when the explosion happens. This section of the website lists various types of fuzes, categorized by country. Some types contain a short description, an image, a short description of its function, hazardous components, if any, - for example, [here](https://www.bulletpicker.com/adapter-booster_-m102a1.html). Also note that some items contain only a diagram and no real-life photo, or only a real-life photo with no diagram. Sometimes, these items contain both.
 
 The content is organized by type of ordnance in which the fuze is used, and then followed by a subcategory organized by country.
 
@@ -144,7 +144,7 @@ According to the tool provider, this is because some images are classified as se
 
 ## Ethical Considerations
 
-Given the sensitive nature of the information (ordnance and explosives), users should consider the ethical implications of how they use this information. It should not be used for any illegal or harmful activities. Respecting the disclaimers and limitations of the site is imperative.
+Given the sensitive nature of the information (ordnance and explosives), users should consider the ethical implications of how they use this information. It should not be used for any illegal or harmful activities. Respecting the site's disclaimers and limitations is imperative.
 
 ## Guide
 
