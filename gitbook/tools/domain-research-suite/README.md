@@ -1,9 +1,9 @@
 ---
+updated: '2026-08-12'
 description: >-
   Domain Research Suite provides tools to obtain registration and ownership data
   for domain names, along with historical search and reverse lookup
   functionality.
-updated: '2026-08-12'
 ---
 
 # Domain Research Suite
@@ -39,7 +39,7 @@ Credits are required for all services, including:
 * [ ] Partially Free
 * [x] Paid
 
-A small number of free base credits (500) are provided upon sign-up. Full pricing information is [available here](https://drs.whoisxmlapi.com/pricing).&#x20;
+A small number of free base credits (500) are provided upon sign-up. Full pricing information is [available here](https://drs.whoisxmlapi.com/pricing).
 
 ## Level of difficulty
 
@@ -51,9 +51,8 @@ You must enter a first name and valid email address to create an account. Other 
 
 ## Limitations
 
-The 500 free base credits that are provided upon sign-up will be used up quickly, so any long-term use of the site or deep research would require purchasing additional credits.
-
-Due to domain privacy measures, most registrars allow registrants to anonymize their details, so searches may not yield useful information.
+* **Cost:** The 500 free base credits that are provided upon sign-up will be consumed quickly, so any long-term use of the site or deep research would require purchasing additional credits.
+* **Anonymization:** Due to domain privacy measures, most registrars allow registrants to anonymize their details, so searches may not yield useful information.
 
 ## Ethical Considerations
 
@@ -69,7 +68,7 @@ Tutorials and FAQs can be accessed [here](https://knowledge.whoisxmlapi.com/doma
 
 ## Similar tools
 
-[DomainTools Whois Lookup](https://bellingcat.gitbook.io/toolkit/more/all-tools/domaintools-whois-lookup): A similar site that also enables users to pinpoint Whois records, conduct reverse searches based on criteria such as IP address or name server, and monitor domain information on an ongoing basis. Both sites require payment for deeper investigative uses.&#x20;
+[DomainTools Whois Lookup](https://bellingcat.gitbook.io/toolkit/more/all-tools/domaintools-whois-lookup): A similar site that also enables users to pinpoint Whois records, conduct reverse searches based on criteria such as IP address or name server, and monitor domain information on an ongoing basis. Both sites require payment for deeper investigative uses.
 
 [IDN Checker](https://bellingcat.gitbook.io/toolkit/more/all-tools/idn-checker): A much simpler tool that is primarily geared towards detecting visually similar versions of a domain.
 
@@ -84,4 +83,4 @@ Tutorials and FAQs can be accessed [here](https://knowledge.whoisxmlapi.com/doma
 | Page maintainer           |
 | ------------------------- |
 | Bellingcat volunteer team |
-| July 2026                 |
+| October 2026              |
