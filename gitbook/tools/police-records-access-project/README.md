@@ -1,5 +1,5 @@
 ---
-updated: '2025-10-20'
+updated: '2026-11-06'
 description: >-
   A database providing searchable access to California law enforcement records
   including police use-of-force incidents, shootings, and misconduct cases.

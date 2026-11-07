@@ -1,5 +1,5 @@
 ---
-updated: '2026-07-08'
+updated: '2026-11-06'
 description: >-
   Bulletpicker.com is a collection of ammunition guidebooks and manuals from
   several different armed forces.

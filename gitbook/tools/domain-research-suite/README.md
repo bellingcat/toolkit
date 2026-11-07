@@ -1,5 +1,5 @@
 ---
-updated: '2026-08-12'
+updated: '2026-11-06'
 description: >-
   Domain Research Suite provides tools to obtain registration and ownership data
   for domain names, along with historical search and reverse lookup
