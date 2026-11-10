@@ -1,8 +1,8 @@
 ---
+updated: '2026-07-28'
 description: >-
   View current and historic wind, weather, ocean and pollution conditions on an
   interactive animated map.
-updated: '2026-07-28'
 ---
 
 # Nullschool Earth Map
@@ -50,6 +50,9 @@ This is not a comprehensive list. This tool contains a wealth of data which may 
   *   Example:
 
       [https://earth.nullschool.net/#2018/08/04/2000Z/particulates/surface/level/overlay=duexttau/orthographic=54.12,6.65,449/<mark style="background-color:yellow;">**loc=11.539,19.014**</mark>](https://earth.nullschool.net/#2018/08/04/2000Z/particulates/surface/level/overlay=duexttau/orthographic=54.12,6.65,449/loc=11.539,19.014)
+* To increase the base map's level of detail when zoomed in, open Settings from the bottom right of the panel above. Then select 'detailed.' This does not change the data on the map. It may make it easier to orient yourself geographically when zoomed in.
+
+<figure><img src=".gitbook/assets/image.png" alt="Screenshot of settings menu, cropped to show base map options &#x22;classic&#x22; and &#x22;detailed.&#x22; &#x22;Detailed&#x22; is selected."><figcaption></figcaption></figure>
 
 ### Available Metrics
 
@@ -64,7 +67,7 @@ Each metric can be viewed at surface temperature, or at 1000, 850, 700, 500, 250
 * **Wind:** Wind speed
 * **Temp**: Temperature
 * **RH**: Relative humidity
-* **Dew**: Dew point temperature&#x20;
+* **Dew**: Dew point temperature
 * **WBT**: Wet bulb temperature
 * **3HPA**: 3-hour precipitation accumulation
 * **CAPE**: Convective available potential energy from surface
@@ -129,7 +132,7 @@ In any mode, the following animations can be viewed on the map:
 * [x] Partially Free
 * [ ] Paid
 
-All core features are free. The mobile app offers an optional paid subscription, which includes extra features such as snapshot sharing and a Favorites gallery to save notable weather events.&#x20;
+All core features are free. The mobile app offers an optional paid subscription, which includes extra features such as snapshot sharing and a Favorites gallery to save notable weather events.
 
 ## Level of difficulty
 
@@ -141,15 +144,15 @@ No special setup is needed. The map works well on mobile devices and is optimize
 
 ## Limitations
 
-* **Secondary Source**: This tool processes both historic and near real-time data from a number of sources. Data sources for each map layer are listed [here](https://earth.nullschool.net/about). Always verify data through its original source.&#x20;
-* **Approximate Data Between Grid Points:** Layers in Air Mode use [Global Forecast System](https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00631) data, which is based on a global grid with points spaced [**1° apart**](https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00631)**.** This means the map is divided into squares that are 1 degree of latitude by 1 degree of longitude in size. For any location selected between these points, your browser computes a **best-guess** value using an estimation technique called [bilinear interpolation](http://en.wikipedia.org/wiki/Bilinear_interpolation). If the map's projection is changed while in Air Mode, [an algorithm](https://en.wikipedia.org/wiki/Finite_difference) is used to estimate distortion during the interpolation process.&#x20;
+* **Secondary Source**: This tool processes both historic and near real-time data from a number of sources. Data sources for each map layer are listed [here](https://earth.nullschool.net/about). Always verify data through its original source.
+* **Approximate Data Between Grid Points:** Layers in Air Mode use [Global Forecast System](https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00631) data, which is based on a global grid with points spaced [**1° apart**](https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00631)**.** This means the map is divided into squares that are 1 degree of latitude by 1 degree of longitude in size. For any location selected between these points, your browser computes a **best-guess** value using an estimation technique called [bilinear interpolation](http://en.wikipedia.org/wiki/Bilinear_interpolation). If the map's projection is changed while in Air Mode, [an algorithm](https://en.wikipedia.org/wiki/Finite_difference) is used to estimate distortion during the interpolation process.
   * Air Mode is the only mode [performing real-time interpolation](https://github.com/kkpoon/nullschool-earth/blob/master/README.md#implementation-notes). Other modes' layers should deliver the data exactly as their providers serve it.
 * **Configuration Complexity and Inconsistencies:** The site stores your settings (like chosen layer, date, projection and selected point) in the URL itself. While this allows for easy sharing and bookmarking, and specifying exact latitude/longitude, it can sometimes cause strange behavior when switching between layers, leading to temporary glitches that usually quickly fix themselves.
 * **Errors Fetching 2013 Data:** The interface allows the user to select dates as far back as January 2013, but for all modes, when a date prior to November 2013 is selected, an error message appears indicating that the data could not be retrieved. Some modes are not able to successfully fetch data until at least 2014.
 
 ## Ethical Considerations
 
-* **Do not overstate precision.** Some layers of this map are based on model-based, [interpolated](https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-analyst/understanding-interpolation-analysis.htm) data. It may not be precise at a hyper-local level and should be used as supporting context, not as definitive proof.&#x20;
+* **Do not overstate precision.** Some layers of this map are based on model-based, [interpolated](https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-analyst/understanding-interpolation-analysis.htm) data. It may not be precise at a hyper-local level and should be used as supporting context, not as definitive proof.
 * **Use in combination with other sources.** Cross-reference environmental data with satellite imagery, eyewitness reports or local measurements to avoid misinterpretation.
 * **Avoid misleading visuals.** Animated wind or pollution overlays can appear dramatic. Be careful not to exaggerate claims or mislead audiences based on the visual effect alone.
 
