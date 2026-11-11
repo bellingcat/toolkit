@@ -1,5 +1,5 @@
 ---
-updated: '2026-07-28'
+updated: '2026-11-10'
 description: >-
   View current and historic wind, weather, ocean and pollution conditions on an
   interactive animated map.
