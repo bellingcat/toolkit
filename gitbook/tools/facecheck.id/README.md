@@ -1,5 +1,5 @@
 ---
-updated: '2026-09-06'
+updated: '2026-11-16'
 description: >-
   A facial recognition search engine that tries to find photos of people that
   look similar to a person of interest.

@@ -1,5 +1,5 @@
 ---
-updated: '2026-09-06'
+updated: '2026-11-16'
 description: >-
   DomainTools Whois provides detailed domain name registration information, and
   can be used to investigate details about domains or IP addresses.
