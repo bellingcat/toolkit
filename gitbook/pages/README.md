@@ -97,10 +97,9 @@ This collaborative toolkit has been designed by Bellingcat's Innovation Lead Joh
 Bellingcat's toolkit team consists of:
 
 * Johanna Wild, Innovation Lead
-* Manon Buret, Community Operations & Project Manager
 * Viktorija Ignatavičiūtė, Community Lead
 
-Galen Reich also contributed to the project.
+Galen Reich also contributed to the project. Manon Buret supported the toolkit as Community Operations & Project Manager in 2026.
 
 If you have any feedback or questions, please get in touch with Johanna Wild via [toolkit@bellingcat.com](mailto:toolkit@bellingcat.com). Please do not suggest tools that you would like to see added to the toolkit via this e-mail address.
 
