@@ -1,8 +1,8 @@
 ---
 description: >-
-  Soar is a platform sharing a growing database of over a million entries (maps,
-  satellite, aerial & radar imagery), access to imagery from statellite
-  providers, and tools to create geographic narrative
+  Soar is a platform claiming to share database of over a million maps,
+  satellite, aerial & radar images, access to imagery from satellite providers,
+  and tools to create geographic narratives
 ---
 
 # Soar
@@ -12,6 +12,10 @@ description: >-
 [https://soaratlas.com/discover](https://soaratlas.com/discover)
 
 ## Description
+
+{% hint style="danger" %}
+#### **ALERT:** Soar connects users to another of its domains to source paid high-resolution satellite imagery. Currently, this paid imagery is offered from just [two satellite sources](#user-content-fn-1)[^1], both of which are provided by companies **sanctioned** in a number of countries[^2] for their operation in the political interests of the People's Republic of China. The real identity of these Chinese source companies is not made clear to users in Soar's pre-purchase workflow, creating a risk for users in certain jurisdictions regarding sanctions breach. For a checklist on how to manage this risk, see the Toolkit Buying and Sharing Satellite Imagery page for help.
+{% endhint %}
 
 <figure><img src=".gitbook/assets/SOAR57secs VERSION2 ezgif-2389f6798f6c69.gif" alt=""><figcaption><p><strong>SEARCHING FOR MAPS FOR A GIVEN LOCATION, VIEWING OVERLAY ON OPENSTREETMAP AND SATELLITE DATA USING GEOREFERENCED TRANSPARENCY FEATURE, SELECTING APPROPRIATE SATELLITES PASSING OVERHEAD</strong></p></figcaption></figure>
 
@@ -23,7 +27,7 @@ Soar is described as a Digital Atlas containing over a million maps. Its main fu
 
 * **Map Database access**
 
-Provision of [read and write access](#user-content-fn-1)[^1] to a large and growing searchable database of maps from all geographies, indexed in many dimensions, such as resolution, georeference status,  topical interest category[^2]. These include maps animated to show change over time and drone imagery, as well as satellite imagery.
+Provision of [read and write access](#user-content-fn-3)[^3] to a large and growing searchable database of maps from all geographies, indexed in many dimensions, such as resolution, georeference status,  topical interest category[^4]. These include maps animated to show change over time and drone imagery, as well as satellite imagery.
 
 * **Selection and acquisition of Satellite Imagery**
 
@@ -88,7 +92,7 @@ The database includes:
 {% endcolumn %}
 {% endcolumns %}
 
-Soar maps are searchable by features including location, map category, indexing tags, uploading username, georeference[^3] status,...
+Soar maps are searchable by features including location, map category, indexing tags, uploading username, georeference[^5] status,...
 
 <details>
 
@@ -261,7 +265,7 @@ The Soar satellite imagery interface supports access to satellite imagery for ar
 
 1. Sentinel-2 : Medium resolution, free images from European satellites at 10m/pixel resolution upwards
 2. NASA : Low resolution, free imagery from US government satellites at 30m/pixel resolution
-3. Pics from Space, a charged service at [https://www.picsfromspace.com/](https://www.picsfromspace.com/), which offers two charged data services from [Chinese satellite](#user-content-fn-4)[^4]s, including the ability to commission new satellite imagery according to user specification.&#x20;
+3. Pics from Space, a charged service at [https://www.picsfromspace.com/](https://www.picsfromspace.com/), which offers two charged data services from [Chinese satellite](#user-content-fn-6)[^6]s, including the ability to commission new satellite imagery according to user specification.&#x20;
 
 _&#x61;_&#x6E;d providing the ability to combine sequential satellite images into an animated gif via the Sentinel interface. This GIF map uploaded to Soar is [an example about a wildfire](https://soaratlas.com/maps/oceania-judbarra-national-park-wildfire-australia-august-2025-136339?basemap=Hybrid\&pos=-16.199419136431956%2C130.41824000000003%2C9.99).
 
@@ -361,7 +365,7 @@ The workflow also goes both ways. Users can process and enhance imagery in QGIS,
 
 **Soar QGIS Plugin features are:**&#x20;
 
-<table data-view="cards"><thead><tr><th></th><th></th></tr></thead><tbody><tr><td><strong>Direct export of QGIS maps and images to Soar</strong></td><td>This allows publishing QGIS projects directly to Soar without intermediate file conversions.</td></tr><tr><td><strong>Browse and load Soar's public catalog into QGIS projects</strong></td><td>This allows access to Soar's entire repository of public maps and imagery as layers within QGIS projects for analysis and mapping.</td></tr><tr><td><strong>Batch upload functionality</strong> </td><td>This allows uploading an entire folder of <a data-footnote-ref href="#user-content-fn-5">raster</a> data to Soar via the plugin. </td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th></tr></thead><tbody><tr><td><strong>Direct export of QGIS maps and images to Soar</strong></td><td>This allows publishing QGIS projects directly to Soar without intermediate file conversions.</td></tr><tr><td><strong>Browse and load Soar's public catalog into QGIS projects</strong></td><td>This allows access to Soar's entire repository of public maps and imagery as layers within QGIS projects for analysis and mapping.</td></tr><tr><td><strong>Batch upload functionality</strong> </td><td>This allows uploading an entire folder of <a data-footnote-ref href="#user-content-fn-7">raster</a> data to Soar via the plugin. </td></tr></tbody></table>
 
 Follow the step-by-step instructions for installing and using the Soar Maps QGIS plugin here: [Soar QGIS Plugin Step-By-Step Instruction](https://north-road.com/2023/08/24/soar-earth-digital-atlas-qgis-plugin/)
 
@@ -491,16 +495,20 @@ Soar, Perth, Australia
 | Afton and Sophie Tedling. |
 |                           |
 
-[^1]: Soar allows users to view maps in the database, and also make their own annotated copies of those maps. Users can upload their own maps to be added to the database
+[^1]: 
 
-[^2]: The set of categories offered by Soar varies over time, but includes topics as wide as Conflict, Vintage and Spaceport
+[^2]: USA, European Countries, Japan, Switzerland and Ukraine
 
-[^3]: Maps can be categorised as to whether or not they can be [georeferenced](https://en.wikipedia.org/wiki/Georeferencing)
+[^3]: Soar allows users to view maps in the database, and also make their own annotated copies of those maps. Users can upload their own maps to be added to the database
 
-[^4]: "_Launched in 2018 (01 & 02) and 2018 (03 & 04) from the Taiyuan Satellite Launch Center in China, the four synchronous satellites operate at an altitude of 500km and can monitor daily any location on the Earth at 50cm per pixel image resolution. At this zoom level, ground features such as individual trees, fences, cars and trucks can be all seen" (_[_https://www.spymesat.com/skymap.html_](https://www.spymesat.com/skymap.html)_)_&#x20;
+[^4]: The set of categories offered by Soar varies over time, but includes topics as wide as Conflict, Vintage and Spaceport
+
+[^5]: Maps can be categorised as to whether or not they can be [georeferenced](https://en.wikipedia.org/wiki/Georeferencing)
+
+[^6]: "_Launched in 2018 (01 & 02) and 2018 (03 & 04) from the Taiyuan Satellite Launch Center in China, the four synchronous satellites operate at an altitude of 500km and can monitor daily any location on the Earth at 50cm per pixel image resolution. At this zoom level, ground features such as individual trees, fences, cars and trucks can be all seen" (_[_https://www.spymesat.com/skymap.html_](https://www.spymesat.com/skymap.html)_)_&#x20;
 
 
 
     _"SkyMap50 archival imagery orders can take between 2 to 5 working days to process and is available only in GeoTIFF format" (_[_https://about.soaratlas.com/help#Satellite-Imagery_](https://about.soaratlas.com/help#Satellite-Imagery)_)_
 
-[^5]: **Raster layers** are one of the two main data types in QGIS (the other being vector), consisting of a grid of pixels where each pixel has a value - like a digital photograph but for geographic data, commonly used for satellite imagery, elevation models, or heat maps. In QGIS, you can stack multiple raster layers on top of each other with different transparency levels to compare things like land use changes over time or overlay terrain data with aerial photos.
+[^7]: **Raster layers** are one of the two main data types in QGIS (the other being vector), consisting of a grid of pixels where each pixel has a value - like a digital photograph but for geographic data, commonly used for satellite imagery, elevation models, or heat maps. In QGIS, you can stack multiple raster layers on top of each other with different transparency levels to compare things like land use changes over time or overlay terrain data with aerial photos.
